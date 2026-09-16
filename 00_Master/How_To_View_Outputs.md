@@ -119,16 +119,16 @@ read-only on localhost and opens the right URL.
   generator — fix the model and re-export.
 
 **⚠️ Reading the current export (`v0-existing`)**: 47 mesh objects, **65 KB**, 756
-triangles, 10.28 × 8.56 × 3.02 m overall — two slabs (floor and ceiling), 18 walls,
-7 doors, 4 windows, 16 flow terminals.
+triangles, **10.28 × 8.56 × 2.72 m** overall — which is 0.12 floor slab + **2.50
+clear height** + 0.10 ceiling slab. Two slabs, 18 walls, 7 doors, 4 windows, 16
+flow terminals.
 
-> [!WARNING]
-> **⚠️⚠️ THE WALK FEELS ~300 mm TOO TALL, AND THAT IS A MODEL ISSUE, NOT A VIEWER
-> ONE.** The ceiling sits at `storey_height_m`, which is **2.8 m** across the
-> canonical files, while `00_Master/project_decisions.md` records the settled
-> clear height as **2500 mm screed-to-ceiling**. **Judge proportions and
-> circulation here; do not judge headroom until that is resolved** — it is an open
-> item on that page, added 2026-09-16.
+⚠️ **The clear height is the constructor's 2500 mm (screed to ceiling underside),
+set 2026-09-16**, replacing an assumed 2.8 m. **So headroom in the walkthrough is
+now representative** — earlier builds felt ~300 mm roomier than the flat will.
+⚠️ **`v1-homestyler` carries no slabs at all**, floor or ceiling: it derives from a
+canonical file that never had one. Pre-existing, and why only `v0-existing` reads
+as an enclosed room.
 
 ⚠️ **A rebuild on 2026-09-16 also dropped 7 ceiling light fixtures** that the
 previous (2026-08-26) build carried. **That is the model catching up, not a

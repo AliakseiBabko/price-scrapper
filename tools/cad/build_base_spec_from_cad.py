@@ -42,8 +42,12 @@ MIN_ROOM_M2 = 0.8
 MERGE_TOL = 1.0       # mm
 
 # Not derivable from a 2D plan - stated, not hidden.
+# storey_height_m is no longer assumed: 2.5 m is the constructor's CLEAR
+# height, screed top to ceiling underside, which is what this field means.
+# (He also gives slab-to-slab ~2550 - a different measurement, and not this
+# field, because the model carries the ceiling slab separately.)
 ASSUMED = {
-    "storey_height_m": 2.8,
+    "storey_height_m": 2.5,
     "door_height_m": 2.1,
     "window_sill_m": 1.0,
     "window_height_m": 1.1,

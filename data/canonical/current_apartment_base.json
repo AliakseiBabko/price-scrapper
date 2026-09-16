@@ -4,7 +4,7 @@
   "name": "ZK Dubravinskiy - current apartment, existing state",
   "status": "planned_from_visual_sources_not_field_verified",
   "units": "m",
-  "storey_height_m": 2.8,
+  "storey_height_m": 2.5,
   "default_wall_thickness_m": 0.15,
   "exterior_wall_thickness_m": 0.25,
   "slab": {
@@ -24,7 +24,7 @@
     "depth_m": 8.56,
     "thickness_m": 0.1,
     "reference": "ceiling",
-    "_note": "Underside sits at storey_height_m; the generator supplies z_m so the ceiling cannot drift from the wall tops. NOTE the open conflict: storey_height_m is 2.8 while project_decisions.md records the settled clear height as 2500 mm screed-to-ceiling (slab-to-slab ~2550). Resolving that moves every wall, drawing and quantity and is a separate owner decision - see the open item added 2026-09-16."
+    "_note": "Underside sits at storey_height_m, supplied by the generator so the ceiling cannot drift from the wall tops. storey_height_m is the CLEAR height (screed top to ceiling underside), set to 2.5 m on 2026-09-16 from the constructor's 2500 mm. His ~2550 slab-to-slab is a different measurement and is NOT this field, because this model carries the ceiling slab separately."
   },
   "rooms": [
     {
@@ -770,5 +770,6 @@
       "room polygons represented with rectangular spaces for first seed",
       "final millimetre dimensions require site measurement"
     ]
-  }
+  },
+  "storey_height_m_source": "clear height, screed top to ceiling underside, per the constructor (he also gives slab-to-slab ~2550, which is NOT this field); corroborated but not refined by owner photo readings of a comparable flat, 2026-09-16"
 }

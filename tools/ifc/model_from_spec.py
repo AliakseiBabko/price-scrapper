@@ -292,13 +292,10 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
     # CEILING. Architecturally this is the floor slab of the storey above, so it
     # is an IfcSlab like any other - not a distinct class.
     #
-    # It defaults to sitting directly on top of the walls: z = storey_height_m,
-    # which keeps the model self-consistent whatever that height is set to. It is
-    # NOT hardcoded, because `storey_height_m` is currently 2.8 while
-    # `00_Master/project_decisions.md` records the settled clear height as 2500 mm
-    # screed-to-ceiling. Resolving that is a separate decision that moves every
-    # wall, drawing and quantity; this block follows whatever the spec says so it
-    # cannot silently disagree with the walls beside it.
+    # It sits directly on top of the walls: z = storey_height_m, which is the
+    # CLEAR height (screed top to ceiling underside) - 2.5 m since 2026-09-16,
+    # from the constructor's 2500 mm. Deriving z rather than storing it is the
+    # point: the ceiling cannot drift from the wall tops when that height moves.
     c = spec.get("ceiling")
     if c:
         z = c.get("z_m")
