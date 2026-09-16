@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=eg1w4jRbZsE",
+  "video_id": "eg1w4jRbZsE",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T09:58:38.247702+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e6fbecd253f7f2a39cc370c0ebadf3d5e5111f9bc502bea5a8e2a46d8faae1ac",
+  "attempts_before_success": [],
+  "upload_date": "2021-09-28",
+  "upload_date_source": "yt-dlp"
+}

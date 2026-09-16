@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=YGjgN6XX814",
+  "video_id": "YGjgN6XX814",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T10:00:11.583663+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f5921b87479dbc6918bdcdbdefbdeaeeccb7111d1566d3dc1f36321fec9df1e6",
+  "attempts_before_success": [],
+  "upload_date": "2021-12-09",
+  "upload_date_source": "yt-dlp"
+}

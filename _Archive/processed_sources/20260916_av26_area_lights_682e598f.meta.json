@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=L7GLSJ8-oMA",
+  "video_id": "L7GLSJ8-oMA",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T09:59:31.647966+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "682e598f34d168c066fb66f998278cc3d4e9e04b844b100e9c7ea0ca72d68b4d",
+  "attempts_before_success": [],
+  "upload_date": "2021-11-30",
+  "upload_date_source": "yt-dlp"
+}

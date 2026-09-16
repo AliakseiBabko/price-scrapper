@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=zjAY4nSZxlw",
+  "video_id": "zjAY4nSZxlw",
+  "language": "en",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T09:55:51.753466+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4cea958932aa39594219e4abc022316198e9d4f2217bc1fc79476bfeebd21f74",
+  "attempts_before_success": [],
+  "upload_date": "2025-08-11",
+  "upload_date_source": "yt-dlp"
+}

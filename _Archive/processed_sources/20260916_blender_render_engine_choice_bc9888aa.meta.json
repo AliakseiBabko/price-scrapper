@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=BifyAj9KpaI",
+  "video_id": "BifyAj9KpaI",
+  "language": "en",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T09:55:38.180193+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "bc9888aaf4a660b4654852ef5aa8159bd924ba41144d7c800e05dd5a5f45056e",
+  "attempts_before_success": [],
+  "upload_date": "2025-06-24",
+  "upload_date_source": "yt-dlp"
+}

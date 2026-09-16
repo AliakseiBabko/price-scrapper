@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=VtbxiWCTegc",
+  "video_id": "VtbxiWCTegc",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T10:00:37.907340+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "305b36655f4f598a8e814a1ecbc8266ba0969c19f323b36d258b8580eec16a2e",
+  "attempts_before_success": [],
+  "upload_date": "2021-12-22",
+  "upload_date_source": "yt-dlp"
+}

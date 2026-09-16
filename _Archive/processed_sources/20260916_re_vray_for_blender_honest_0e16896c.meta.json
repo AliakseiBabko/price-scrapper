@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=L4zVpekg_1o",
+  "video_id": "L4zVpekg_1o",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T09:56:04.801949+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "0e16896c1d2edc361de66fc3ae312d3d179b37f7d3030247815dbea53f114611",
+  "attempts_before_success": [],
+  "upload_date": "2025-10-21",
+  "upload_date_source": "yt-dlp"
+}
