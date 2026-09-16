@@ -48,9 +48,14 @@ import copy
 import csv
 import io
 import json
+import math
 import os
+import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+sys.path.insert(0, os.path.join(REPO, "tools"))
+from lib import rectunion as ru  # noqa: E402
 
 PLACED = os.path.join(REPO, "data", "canonical", "v0_named_walls_placed.json")
 ELEMENTS = os.path.join(REPO, "data", "canonical", "v0_elements_extracted.json")
@@ -72,6 +77,9 @@ class ResolvedGeometry(object):
         self.blocks = blocks
         # Each rule's own return value, verbatim, for consumers that print it.
         self.raw = raw or {}
+        # wall_id -> exact plan footprint, mitred where it meets the glazing
+        # plane. The bounding box is available from it, not instead of it.
+        self.plan_polygons = {}
 
     def wall(self, wall_id):
         for w in self.walls:
@@ -347,6 +355,54 @@ def wall_box(w):
     return w["face_lo_mm"], w["from_mm"], w["face_hi_mm"], w["to_mm"]
 
 
+def glazing_clip(elements):
+    """The лоджия glazing plane, as a half-plane a wall is cut on.
+
+    Owner, 2026-09-15: *"M2 and M6b are indeed not squared but inclined - the
+    surface is flush with the glazing and the insulation, this is the cut under
+    one angle and we have one surface."* The лоджия face is a splay, so a wall
+    running into it ends on the slope and an axis-aligned rectangle overshoots
+    by a triangle.
+    """
+    gl = elements.get("loggia_glazing")
+    if not gl:
+        return None
+    a, b = gl["axis_from"], gl["axis_to"]
+    length = math.hypot(b[0] - a[0], b[1] - a[1])
+    if length <= 0:
+        return None
+    return (a[0], a[1], -(b[1] - a[1]) / length, (b[0] - a[0]) / length)
+
+
+def wall_plan_polygon(w, clip):
+    """A wall's EXACT plan footprint - mitred where it meets the glazing plane.
+
+    ⚠️ THIS IS WHY IT LIVES HERE. The mitre used to be applied inside the DXF
+    serialiser, and `dxf_wall_entities.read_walls` - which validates the mitred
+    polygon correctly - then returned only its BOUNDING BOX. `model_from_dxf.py`
+    rebuilt each wall as a rectangle from that box, so the IFC silently restored
+    the triangles the mitre removes: 5,710 mm² on M2 and 5,707 mm² on M6b,
+    pushing both walls back through the glazing plane in 3D.
+
+    Nothing caught it, on either side, and the reason is structural: clipping a
+    rectangle on a plane through its corner does NOT change its bounding box, so
+    every extent, length and thickness check is blind to it by construction. A
+    seeded square-back of M6b in the DXF was rejected only by the stale-review-
+    drawing hash, and every wall check passed.
+
+    Returns (polygon, was_mitred, area_cut_mm2).
+    """
+    x0, y0, x1, y1 = wall_box(w)
+    loop = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+    if not clip:
+        return loop, False, 0.0
+    cut = ru.clip_halfplane(loop, *clip)
+    box_area = (x1 - x0) * (y1 - y0)
+    if len(cut) >= 3 and abs(ru._shoelace_area(cut) - box_area) > 1.0:
+        return cut, True, box_area - ru._shoelace_area(cut)
+    return loop, False, 0.0
+
+
 def _load_blocks():
     with io.open(BLOCKS, encoding="utf-8") as fh:
         return {r["wall_id"]: r for r in csv.DictReader(fh)}
@@ -462,6 +518,21 @@ def _resolve_in_repo(verbose):
             "solid_mm": float(recorded),
             "delta_mm": round(drawn - float(recorded), 1),
         })
+    # EXACT plan footprints, computed once here so the DXF and the IFC draw the
+    # same polygon instead of each deriving its own from a bounding box.
+    clip = glazing_clip(elements)
+    plan = {}
+    mitred = []
+    for w in walls:
+        if w.get("face_lo_mm") is None:
+            continue
+        poly, was_mitred, cut_mm2 = wall_plan_polygon(w, clip)
+        plan[w["wall_id"]] = poly
+        if was_mitred:
+            mitred.append({"wall_id": w["wall_id"], "corners": len(poly),
+                           "area_cut_mm2": round(cut_mm2, 1)})
+    report["mitred_walls"] = mitred
+
     report["drawn_vs_solid"] = drawn_vs_solid
     report["drawn_vs_solid_within_15mm"] = sum(
         1 for r in drawn_vs_solid if abs(r["delta_mm"]) <= 15.0)
@@ -470,7 +541,9 @@ def _resolve_in_repo(verbose):
         print("resolved %d walls; %d movements across %d rules"
               % (len(walls), len(report["movements"]), len(report["rules_in_order"])))
 
-    return ResolvedGeometry(walls, authored, report, elements, blocks, raw)
+    resolved = ResolvedGeometry(walls, authored, report, elements, blocks, raw)
+    resolved.plan_polygons = plan
+    return resolved
 
 
 def main():

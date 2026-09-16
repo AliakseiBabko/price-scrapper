@@ -216,29 +216,20 @@ def main():
     # Cutting the WALL on the same plane as the insulation is what makes the
     # two read as one surface; mitring only the layer left the block sticking
     # through the glass underneath it.
-    gl_clip = None
-    if elements.get("loggia_glazing"):
-        import math as _mm
-        _g = elements["loggia_glazing"]
-        _a, _b = _g["axis_from"], _g["axis_to"]
-        _L = _mm.hypot(_b[0] - _a[0], _b[1] - _a[1])
-        gl_clip = (_a[0], _a[1], -(_b[1] - _a[1]) / _L, (_b[0] - _a[0]) / _L)
-    n_wall_mitre = 0
+    # ⚠️ THE MITRE IS NO LONGER COMPUTED HERE. `resolve_v0_geometry` owns every
+    # wall's exact plan polygon, so the IFC draws the same shape this does.
+    # While it lived here, `read_walls` validated the mitred polygon and then
+    # returned only its BOUNDING BOX, and the IFC rebuilt each wall as a
+    # rectangle - silently restoring 5,710 mm2 on M2 and 5,707 mm2 on M6b and
+    # pushing both back through the glazing plane in 3D.
+    for m in resolved.report.get("mitred_walls", []):
+        print("   %-5s MITRED on the glazing plane - %d corners, %.0f mm2 cut off"
+              % (m["wall_id"], m["corners"], m["area_cut_mm2"]))
     for w in walls:
         if w.get("face_lo_mm") is None:
             continue
         x0, y0, x1, y1 = wall_box(w)
-        loop = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
-        if gl_clip:
-            cut = ru.clip_halfplane(loop, *gl_clip)
-            if len(cut) >= 3 and abs(ru._shoelace_area(cut)
-                                     - (x1 - x0) * (y1 - y0)) > 1.0:
-                loop = cut
-                n_wall_mitre += 1
-                print("   %-5s MITRED on the glazing plane - %d corners, "
-                      "%.0f mm2 cut off"
-                      % (w["wall_id"], len(loop),
-                         (x1 - x0) * (y1 - y0) - ru._shoelace_area(loop)))
+        loop = resolved.plan_polygons[w["wall_id"]]
         msp.add_lwpolyline(loop, close=True, dxfattribs={
             "layer": CLASS_LAYER.get(w["class"], "V0-WALL-CONCRETE")})
         msp.add_text(w["wall_id"], height=90,

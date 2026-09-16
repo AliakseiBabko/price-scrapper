@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""The ONE reader for wall entities, and it refuses anything but a rectangle.
+"""The ONE reader for wall entities. It refuses anything that is not a
+rectangle, OR a rectangle mitred on the лоджия glazing plane and nowhere else.
 
 Why this exists
 ---------------
@@ -222,9 +223,18 @@ def read_walls(path):
         except MalformedWall as exc:
             problems.append({'wall': name, 'detail': str(exc)})
             continue
+        # ⚠️ RETURN THE POLYGON, not only its bounding box. This validator
+        # accepts a wall mitred on the glazing plane and used to hand back only
+        # min/max - so `model_from_dxf.py` rebuilt every wall as a rectangle and
+        # SILENTLY RESTORED the triangles the mitre removes: 5,710 mm2 on M2 and
+        # 5,707 mm2 on M6b, pushing both back through the glazing in 3D. No gate
+        # caught it on either side, because clipping a rectangle on a plane
+        # through its corner does not change its bounding box, and every extent,
+        # length and thickness check is blind to that by construction.
         walls.append({'id': name, 'x0': x0, 'x1': x1, 'y0': y0, 'y1': y1,
                       'axis': 'EW' if (x1 - x0) > (y1 - y0) else 'NS',
-                      'layer': e.dxf.layer})
+                      'layer': e.dxf.layer,
+                      'polygon': [(float(px), float(py)) for px, py in pts]})
     return walls, problems
 
 
