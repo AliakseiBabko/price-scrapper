@@ -9,8 +9,38 @@ That request forced an honest count. Of 13 socket positions, 8 have some
 photographic basis and 5 have NONE - I chose a plausible fraction along a wall
 and drew it. Those now say `НЕТ ФОТО` on the sheet instead of looking like the
 others. The review table is written to
-data/canonical/electrical_placement_review.csv for him to mark up.
+data/outputs/review/electrical_placement_review.csv for him to mark up.
 """
+#
+# ⚠️⚠️ FROZEN 2026-09-16 — DO NOT ADD AUTHORED FACTS TO THE LISTS BELOW.
+#
+# `SOCK`, `SW` and the route/pipe literals in this file are AUTHORED DATA living
+# in drawing code: wall codes, positions along a wall, heights, photo evidence,
+# and the owner's own decisions as Python string literals. Meanwhile
+# `data/canonical/electrical_existing.csv` and `service_outlets.csv` hold the
+# same kind of fact separately, and the IFC consumes neither. Three places that
+# can disagree, with nothing comparing them.
+#
+# This is the retired-schematic failure one level down: `current_apartment_base.json`
+# diverged from the measured geometry for months because nothing read it. The
+# first concrete failure here will be a socket or a route corrected in one place
+# and left unchanged in the IFC, another discipline sheet or a render.
+#
+# Until service authority is migrated into canonical records:
+#   - fix a rendering bug here if you must;
+#   - put a NEW placement, height or owner decision in the canonical data,
+#     never in this file.
+#
+# It also used to WRITE `data/canonical/electrical_placement_review.csv` -
+# generated output flowing back into the authored directory. That now goes to
+# `data/outputs/review/`, which is where generated review artefacts belong.
+#
+# Sequencing, per the Codex review of 2026-09-16 recorded in
+# `_Inbox/planning/model_rebuild_scope_20260916.md` section 8: the full
+# migration CANNOT precede the geometry compiler, because it would need a second
+# temporary implementation of `on_element` and `along_wall_mm`. Containment - this
+# banner and the write-back fix - is what comes first.
+#
 import csv, io, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from sheet_lib import Sheet, on_wall, beside_opening, route_block_conflicts
@@ -121,7 +151,7 @@ s.note([u'H = высота от чистого пола, см.', u'',
         u'   измерено в НАШЕЙ квартире. Все фото —',
         u'   соседние квартиры, две из трёх зеркальные.',
         u'', u'Таблица для правки:',
-        u'data/canonical/electrical_placement_review.csv'])
+        u'data/outputs/review/electrical_placement_review.csv'])
 
 SW = []
 for iid, wid, oid, jamb, side, gang, h, src, shows in SWDEF:
@@ -525,7 +555,8 @@ s3.save('sheet_03_plumbing.png')
 
 FN = ['item_id', 'kind', 'wall', 'gang', 'height_cm', 'source_photos', 'photo_shows',
       'position_basis', 'owner_verdict', 'owner_correction']
-with io.open('data/canonical/electrical_placement_review.csv', 'w',
+os.makedirs('data/outputs/review', exist_ok=True)
+with io.open('data/outputs/review/electrical_placement_review.csv', 'w',
              encoding='utf-8', newline='') as f:
     w = csv.DictWriter(f, fieldnames=FN)
     w.writeheader(); w.writerows(REVIEW)
