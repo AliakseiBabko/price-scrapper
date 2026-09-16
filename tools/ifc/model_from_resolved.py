@@ -522,11 +522,18 @@ def build(output: Path, manifest_path: Path) -> dict:
         # would remove material that was never drawn. Treating the gap case as a
         # failure - which the first run did, reporting O5 and O6 as "unhosted" -
         # gets the model right and the diagnosis wrong.
-        host_id = None
-        for wid, (_, rect) in wall_objects.items():
-            if rect_contains(rect, poly):
-                host_id = wid
-                break
+        # ⚠️ A SEMANTIC JOIN, not a geometric search. The compiler has already
+        # decided this opening's hosting and host wall; re-deriving it here by
+        # looking for a containing polygon is a SECOND reconciliation path. It
+        # agrees today, but two adjacent or overlapping openings could silently
+        # produce a different relationship in the two places, and nothing would
+        # say which was right.
+        host_id = (rec_o.get("host_wall")
+                   if rec_o.get("hosting") == "void_in_wall" else None)
+        if host_id and host_id not in wall_objects:
+            raise SystemExit(
+                "opening %s is hosted in wall %s, which the model does not carry"
+                % (oid, host_id))
 
         if host_id:
             void = polygon_solid(model, body, storey, owner, "IfcOpeningElement",
@@ -693,6 +700,7 @@ def build(output: Path, manifest_path: Path) -> dict:
     # the real units in IMG_20260913_133523.jpg or 9db4.jpg. The mullion is a
     # member INSIDE a frame, so it takes the vertical extent of the opening
     # whose footprint contains it.
+    by_opening_id = {rec["id"]: rec for rec in openings_built}
     frames, orphan_mullions = 0, 0
     # ⚠️ EVERY member, including the HORIZONTAL transom. Filtering on
     # "has a plan footprint" dropped O3's transom from the 3D model - a member
@@ -703,13 +711,12 @@ def build(output: Path, manifest_path: Path) -> dict:
         poly = rec_f["polygon"]
         if not poly:
             continue
-        cx, cy = centroid(poly)
-        owner_open = None
-        for rec in openings_built:
-            ox0, ox1, oy0, oy1 = rec["bbox"]
-            if ox0 - 1.0 <= cx <= ox1 + 1.0 and oy0 - 1.0 <= cy <= oy1 + 1.0:
-                owner_open = rec
-                break
+        # ⚠️ JOINED BY opening_id, not by which bounding box happens to contain
+        # the member's centroid. Both records already carry the id; matching on
+        # geometry instead was a second way to answer a question the data had
+        # already answered, and adjacent openings could have made the two
+        # disagree without either being obviously wrong.
+        owner_open = by_opening_id.get(rec_f["opening_id"])
         if owner_open is None:
             orphan_mullions += 1
             continue
