@@ -726,7 +726,7 @@ def main() -> int:
     retired_patterns = DEFAULT_RETIRED_PATTERNS + args.retired_pattern
     files = changed_files(args.base, args.head)
 
-    if not files:
+    if not files and not args.check_all_routings:
         if args.json:
             print(json.dumps({
                 "base": args.base, "head": args.head, "files_checked": 0,
@@ -737,7 +737,10 @@ def main() -> int:
         return 0
 
     if not args.json:
-        print(f"Checking {len(files)} changed file(s): base={args.base} head={args.head or '(working tree)'}\n")
+        if files:
+            print(f"Checking {len(files)} changed file(s): base={args.base} head={args.head or '(working tree)'}\n")
+        else:
+            print(f"Auditing all source note routings (--check-all-routings): base={args.base} head={args.head or '(working tree)'}\n")
 
     problems: list[str] = []
     confirmed_rates = load_confirmed_rates(args.head)
@@ -865,8 +868,11 @@ def main() -> int:
             if head_text:
                 problems.extend(check_routing_section(path, head_text, args.head))
 
+    audited_notes_count = 0
     if args.check_all_routings:
-        for p in sorted(REPO_ROOT.glob("_Sources/YT_*.md")):
+        all_notes = sorted(REPO_ROOT.glob("_Sources/YT_*.md"))
+        audited_notes_count = len(all_notes)
+        for p in all_notes:
             rel_p = str(p.relative_to(REPO_ROOT)).replace("\\", "/")
             if rel_p not in files:
                 text = p.read_text(encoding="utf-8", errors="replace")
@@ -879,6 +885,7 @@ def main() -> int:
             "base": args.base,
             "head": args.head,
             "files_checked": len(files),
+            "source_notes_audited": audited_notes_count if args.check_all_routings else None,
             "files": files,
             "problems": problems,
             "passed": passed,
@@ -893,7 +900,10 @@ def main() -> int:
         }, indent=2))
         return 0 if passed else 1
 
-    print(f"Files checked: {len(files)}")
+    if args.check_all_routings:
+        print(f"Files checked: {len(files)} changed files, {audited_notes_count} source notes audited for routing")
+    else:
+        print(f"Files checked: {len(files)}")
     print(f"Problems found: {len(problems)}")
     if problems:
         print()

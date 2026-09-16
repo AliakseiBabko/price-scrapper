@@ -73,7 +73,7 @@ region: not_resolved_to_a_country - Russian-language practice, no city named, no
 
 > **→ ⚠️⚠️ The reasoning is what makes it transferable: marks get knocked out and contractors get replaced, and then nobody knows what anything was measured from.** *«Они открывают проект, видят эту метку, меряют всё от неё, и в конечном итоге все сходятся в одном едином горизонте.»*
 >
-> **→ Bears directly on this repo's own datum and setting-out discipline — see Evidence Reading Discipline, whose standing rule is that a scale must be independent of the thing being measured. This is the same idea applied to a building site: the datum must be outside the work.**
+> **→ Bears directly on this repo's own datum and setting-out discipline — see [[00_Master/Evidence_Reading_Discipline|Evidence Reading Discipline]], whose standing rule is that a scale must be independent of the thing being measured. This is the same idea applied to a building site: the datum must be outside the work.**
 
 ## ⚠️⚠️ 4. What is actually ON an engineering sheet — the part this project was missing
 
@@ -140,8 +140,8 @@ region: not_resolved_to_a_country - Russian-language practice, no city named, no
 ## Routing
 
 - §1, §2, §6 → [[00_Master/Planning_Project_Deliverable_Set|Planning_Project_Deliverable_Set.md]] as a second observed album
-- §3 → same page, and cross-referenced to Evidence Reading Discipline
-- §4 → Model To Drawing Pipeline / a new engineering-sheet page
+- §3 → same page, and cross-referenced to [[00_Master/Evidence_Reading_Discipline|Evidence Reading Discipline]]
+- §4 → [[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model To Drawing Pipeline]] / a new engineering-sheet page
 - §5 → [[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]]
 - §4's ISP conduit → [[12_Engineering_and_Systems/analysis/Electrical_Key_Concepts_and_Planning|Electrical Key Concepts & Planning]]
 - §4's plasterboard decisions → [[13_Surfaces_and_Finishes/analysis/Partition_Construction_and_Wall_Erection|Partition Construction & Wall Erection]]

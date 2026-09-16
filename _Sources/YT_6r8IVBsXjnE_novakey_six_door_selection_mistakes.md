@@ -94,7 +94,7 @@ region: Russia - no city named; RU-market manufacturer. No price figures beyond 
 
 ## Routing
 
-- §1, §2, §3, §4, §5 → Entrance Door Construction Spec (unlinked spec)
+- §1, §2, §3, §4, §5 → [[13_Surfaces_and_Finishes/analysis/Entrance_Door_Construction_Spec|Entrance Door Construction Spec]] (new page)
 - §2's price-position table and the consistency check → [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]], rewriting the unresolved-security block
 - §6 → recorded here; the RUB pair not transferred
 
