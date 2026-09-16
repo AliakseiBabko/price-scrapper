@@ -341,10 +341,17 @@ def build(output: Path, manifest_path: Path) -> dict:
     # computed once here and written down.
     xs = [v for w in walls_raw for v in (w["x0"], w["x1"])]
     ys = [v for w in walls_raw for v in (w["y0"], w["y1"])]
-    off_x, off_y = min(xs), min(ys)
+    # ⚠️ THE COMPILER'S PUBLISHED FRAME, not an offset computed here. Taking
+    # min() over whatever geometry this generator happens to load would let an
+    # element outside the wall envelope - insulation, a service, a variant
+    # primitive - translate the whole model, so every previously issued IFC and
+    # every annotation against it would refer to a different place while still
+    # loading cleanly. The datum is the base-wall envelope and it is gated.
+    frame = resolved.frame
+    off_x, off_y = frame.origin_mm
 
     def to_m(points):
-        return [(mm(x - off_x), mm(y - off_y)) for x, y in points]
+        return [frame.drawing_to_model(p) for p in points]
 
     model = ifcopenshell.file(schema="IFC4")
     owner = add_owner_history(model)
@@ -369,11 +376,8 @@ def build(output: Path, manifest_path: Path) -> dict:
     manifest: dict = {
         "source_dxf": str(DXF.relative_to(REPO)).replace("\\", "/"),
         "ceiling_height_mm": ceiling_mm,
-        "transform": {
-            "units": "DXF millimetres -> IFC metres, divided by 1000",
-            "origin_offset_mm": [round(off_x, 1), round(off_y, 1)],
-            "note": "every coordinate below is DXF mm minus this offset, over 1000",
-        },
+        "transform": resolved.report["coordinate_frame"],
+        "opening_counts": resolved.report["opening_counts"],
         "assumptions": [],
     }
 
@@ -690,10 +694,15 @@ def build(output: Path, manifest_path: Path) -> dict:
     # member INSIDE a frame, so it takes the vertical extent of the opening
     # whose footprint contains it.
     frames, orphan_mullions = 0, 0
+    # ⚠️ EVERY member, including the HORIZONTAL transom. Filtering on
+    # "has a plan footprint" dropped O3's transom from the 3D model - a member
+    # the compiler had resolved, recorded in window_frames.csv as position 0.44
+    # of the opening height, which makes O3 the 2x2 unit the facade photo shows.
+    # A plan consumer filters it; the IFC has no reason to.
     for rec_f in resolved.window_frames:
-        if rec_f["axis"] != "vertical":
-            continue          # a transom is horizontal; it has no plan footprint
         poly = rec_f["polygon"]
+        if not poly:
+            continue
         cx, cy = centroid(poly)
         owner_open = None
         for rec in openings_built:
@@ -705,14 +714,21 @@ def build(output: Path, manifest_path: Path) -> dict:
             orphan_mullions += 1
             continue
         frames += 1
+        vertical = rec_f["axis"] == "vertical"
+        role = "window_frame_mullion" if vertical else "window_frame_transom"
+        z0 = rec_f.get("z_from_mm")
+        z1 = rec_f.get("z_to_mm")
+        if z0 is None or z1 is None:
+            z0, z1 = owner_open["sill_mm"], owner_open["head_mm"]
         member = polygon_solid(
             model, body, storey, owner, "IfcMember",
-            "%s frame mullion" % owner_open["id"],
-            to_m(shrink_across(poly, FRAME_DEPTH_MM)),
-            mm(owner_open["sill_mm"]), mm(owner_open["head_mm"]))
+            "%s frame %s" % (rec_f["opening_id"], rec_f["member"]),
+            to_m(shrink_across(poly, FRAME_DEPTH_MM)), mm(z0), mm(z1))
         add_pset(model, member, "Pset_ApartmentOpening", {
-            "OpeningId": owner_open["id"], "Role": "window_frame_mullion",
-            "Source": "window_frames.csv; vertical extent from the opening it divides",
+            "OpeningId": rec_f["opening_id"], "Role": role,
+            "Member": rec_f["member"], "Axis": rec_f["axis"],
+            "HasPlanFootprint": str(bool(rec_f.get("has_plan_footprint"))),
+            "Source": "window_frames.csv; opening-local 3D extent",
         })
     manifest["window_frame_members"] = frames
     if orphan_mullions:

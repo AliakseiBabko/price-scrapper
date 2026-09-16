@@ -93,6 +93,9 @@ class ResolvedGeometry(object):
         # wall_id -> {face_role: face record}. A locator is
         # host_id + face_ref + along_face_mm + height, with the datum explicit.
         self.faces = {}
+        # The ONE transform between drawing millimetres and model metres, on a
+        # stable base-wall datum. Published so no consumer reproduces it.
+        self.frame = None
 
     def wall(self, wall_id):
         for w in self.walls:
@@ -492,6 +495,40 @@ def load_shafts():
     return out
 
 
+def _opening_verticals(opening_id):
+    """(sill_mm, head_mm) for an opening, following leaf suffixes.
+
+    A combined unit is recorded as leaves - O4a the window leaf on its 735
+    sill, O4b the full-height door beside it - so the unit's extent is the
+    lowest sill to the highest head.
+    """
+    if not os.path.exists(OPENING_NOTES):
+        return None, None
+    with io.open(OPENING_NOTES, encoding="utf-8") as fh:
+        rows = {r["opening_id"]: r for r in csv.DictReader(fh)}
+
+    def _num(raw):
+        if not raw:
+            return None
+        text = str(raw).strip().rstrip("?")
+        try:
+            return float(text.split()[0])
+        except (ValueError, IndexError):
+            return None
+
+    if opening_id in rows:
+        return (_num(rows[opening_id].get("sill_height_mm")),
+                _num(rows[opening_id].get("head_height_mm")))
+    leaves = [v for k, v in rows.items()
+              if k.startswith(opening_id) and len(k) == len(opening_id) + 1
+              and k[-1].isalpha()]
+    sills = [_num(v.get("sill_height_mm")) for v in leaves]
+    heads = [_num(v.get("head_height_mm")) for v in leaves]
+    sills = [s for s in sills if s is not None]
+    heads = [h for h in heads if h is not None]
+    return (min(sills) if sills else None), (max(heads) if heads else None)
+
+
 def load_window_frames(openings):
     """Frame members, each tied to the OPENING it divides.
 
@@ -509,19 +546,50 @@ def load_window_frames(openings):
             o = placed.get(r["opening_id"])
             if not o or o.get("axis") not in ("EW", "NS"):
                 continue
+            # ⚠️ OPENING-LOCAL 3D, not a plan footprint. A VERTICAL mullion has
+            # a horizontal position and runs sill to head; a HORIZONTAL transom
+            # has a vertical position measured from the sill and spans the
+            # opening's width. Describing both as "a rectangle in plan" is why
+            # the transom was silently dropped: it has no plan footprint, so the
+            # IFC consumer discarded a member the compiler had resolved. A plan
+            # consumer filters members with no plan representation; the IFC
+            # takes every one.
             span = float(o["to_mm"]) - float(o["from_mm"])
-            centre = float(o["from_mm"]) + span * float(r["position"])
-            half = float(r["member_mm"]) / 2.0
-            a, b = centre - half, centre + half
-            poly = (_rect(a, o["face_lo_mm"], b, o["face_hi_mm"])
-                    if o["axis"] == "EW"
-                    else _rect(o["face_lo_mm"], a, o["face_hi_mm"], b))
-            out.append({
+            sill, head = _opening_verticals(r["opening_id"])
+            thickness = float(r["member_mm"])
+            rec = {
                 "opening_id": r["opening_id"],
                 "member": r["member"],
                 "axis": r["axis"],
-                "polygon": poly,
-            })
+                "member_mm": thickness,
+                "sill_mm": sill,
+                "head_mm": head,
+                "polygon": None,
+                "has_plan_footprint": r["axis"] == "vertical",
+            }
+            if r["axis"] == "vertical":
+                centre = float(o["from_mm"]) + span * float(r["position"])
+                half = thickness / 2.0
+                a, b = centre - half, centre + half
+                rec["polygon"] = (_rect(a, o["face_lo_mm"], b, o["face_hi_mm"])
+                                  if o["axis"] == "EW"
+                                  else _rect(o["face_lo_mm"], a, o["face_hi_mm"], b))
+                rec["z_from_mm"], rec["z_to_mm"] = sill, head
+                rec["along_opening_mm"] = round(span * float(r["position"]), 1)
+            else:
+                # The transom spans the full opening width; its POSITION is a
+                # fraction of the opening's HEIGHT, measured from the sill.
+                rec["polygon"] = (_rect(o["from_mm"], o["face_lo_mm"],
+                                        o["to_mm"], o["face_hi_mm"])
+                                  if o["axis"] == "EW"
+                                  else _rect(o["face_lo_mm"], o["from_mm"],
+                                             o["face_hi_mm"], o["to_mm"]))
+                if sill is not None and head is not None:
+                    centre_z = sill + (head - sill) * float(r["position"])
+                    rec["z_from_mm"] = round(centre_z - thickness / 2.0, 1)
+                    rec["z_to_mm"] = round(centre_z + thickness / 2.0, 1)
+                    rec["height_above_sill_mm"] = round((head - sill) * float(r["position"]), 1)
+            out.append(rec)
     return out
 
 
@@ -689,6 +757,62 @@ def locate_on_face(faces, face_ref, along_face_mm):
     (ax, ay), _ = face["endpoints"]
     tx, ty = face["tangent"]
     return (ax + tx * along_face_mm, ay + ty * along_face_mm)
+
+
+class CoordinateFrame(object):
+    """The one transform between drawing space and model space.
+
+    ⚠️ THE ORIGIN IS THE BASE-WALL DATUM, NOT "the minimum of whatever geometry
+    exists". Taking the minimum would mean that adding insulation, an external
+    service, a лоджия extension or any variant primitive OUTSIDE the wall
+    envelope silently translates the entire IFC coordinate frame - and every
+    previously issued model, annotation and review decision would refer to a
+    different place while still loading cleanly. The datum is therefore derived
+    from the NAMED WALLS ONLY, which is a stable, gated population, and asserted
+    against its recorded contract.
+
+    drawing space: millimetres, on the developer plan's own origin
+    model space:   metres, from the base-wall datum
+    """
+
+    def __init__(self, origin_mm, units_per_metre=1000.0, datum="base_wall_envelope"):
+        self.origin_mm = (float(origin_mm[0]), float(origin_mm[1]))
+        self.units_per_metre = float(units_per_metre)
+        self.datum = datum
+
+    def drawing_to_model(self, point):
+        """Drawing millimetres -> model metres."""
+        return ((float(point[0]) - self.origin_mm[0]) / self.units_per_metre,
+                (float(point[1]) - self.origin_mm[1]) / self.units_per_metre)
+
+    def model_to_drawing(self, point):
+        """Model metres -> drawing millimetres."""
+        return (float(point[0]) * self.units_per_metre + self.origin_mm[0],
+                float(point[1]) * self.units_per_metre + self.origin_mm[1])
+
+    def as_dict(self):
+        return {
+            "origin_mm": [round(self.origin_mm[0], 3), round(self.origin_mm[1], 3)],
+            "datum": self.datum,
+            "drawing_units": "millimetres on the developer plan origin",
+            "model_units": "metres from the datum",
+            "note": ("derived from the NAMED WALLS only, so a primitive outside the "
+                     "wall envelope cannot translate the model frame"),
+        }
+
+
+def base_wall_datum(walls):
+    """The stable origin: the minimum corner of the NAMED WALL envelope.
+
+    Deliberately not `min()` over every primitive in the model. Insulation,
+    services, the лоджия glazing assembly and variant geometry can all lie
+    outside the wall envelope, and any of them moving the origin would move the
+    whole model.
+    """
+    boxes = [wall_box(w) for w in walls if w.get("from_mm") is not None]
+    if not boxes:
+        raise ValueError("no placed walls: the coordinate datum is undefined")
+    return (min(b[0] for b in boxes), min(b[1] for b in boxes))
 
 
 def _load_blocks():
@@ -877,10 +1001,36 @@ def _resolve_in_repo(verbose):
         faces[wid] = wall_faces(w, plan.get(wid),
                                 any(m["wall_id"] == wid for m in mitred))
 
+    frame = CoordinateFrame(base_wall_datum(walls))
+    report["coordinate_frame"] = frame.as_dict()
+
     report["body_extensions"] = extension_record
     report["opening_hosting"] = {
         o["opening_id"]: o.get("hosting", "unplaced") for o in openings}
     report["unplaced_openings"] = unplaced
+    # ⚠️ TWO COUNTS, both stated. wall_openings.csv holds 11 AUTHORED LEAF
+    # records; the model carries 10 PHYSICAL opening units, because O4a and O4b
+    # are two leaves of the single hosted opening O4. That is legitimate
+    # aggregation, not a missing opening - but an unexplained difference of one
+    # is exactly the gap a later omission could hide behind, so both numbers are
+    # reported rather than left to be inferred.
+    leaf_ids = set()
+    if os.path.exists(OPENING_NOTES):
+        with io.open(OPENING_NOTES, encoding="utf-8") as fh:
+            leaf_ids = {(r["opening_id"] or "").strip()
+                        for r in csv.DictReader(fh) if (r["opening_id"] or "").strip()}
+    unit_ids = {o["opening_id"] for o in openings}
+    aggregated = sorted(
+        lid for lid in leaf_ids
+        if lid not in unit_ids and lid[:-1] in unit_ids and lid[-1].isalpha())
+    report["opening_counts"] = {
+        "authored_leaf_records": len(leaf_ids),
+        "physical_opening_units": len(openings),
+        "aggregated_leaves": aggregated,
+        "note": ("%d leaf records aggregate into %d units; %s are leaves of a "
+                 "combined unit" % (len(leaf_ids), len(openings),
+                                    ", ".join(aggregated) or "none")),
+    }
 
     report["drawn_vs_solid"] = drawn_vs_solid
     report["drawn_vs_solid_within_15mm"] = sum(
@@ -898,6 +1048,7 @@ def _resolve_in_repo(verbose):
     resolved.window_frames = frames
     resolved.loggia_bays = bays
     resolved.faces = faces
+    resolved.frame = frame
     return resolved
 
 
