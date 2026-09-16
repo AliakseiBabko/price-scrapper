@@ -108,6 +108,37 @@ def audit_ifc(path: Path) -> dict:
                   "bbox_m3": round(box, 3), "ratio": round(ratio, 3)}
         (cut if ratio < 0.985 else uncut).append(record)
 
+    # A FILL MUST SIT IN ITS OWN OPENING. Checked because it did not: every
+    # window pane was generated at z 0.00-1.10, sitting on the floor, while its
+    # void was correctly cut at 1.00-2.10. The model still loaded, the voids
+    # were right, the renders looked plausible - the panes were simply lying on
+    # the slab, and only a 3D view showed it. `fills` carries no sill field, so
+    # nothing in the data could have caught this either.
+    def z_range(element):
+        shape = ifcopenshell.geom.create_shape(settings, element)
+        verts = np.array(shape.geometry.verts).reshape(-1, 3)
+        return float(verts[:, 2].min()), float(verts[:, 2].max())
+
+    misplaced_fills = []
+    for rel in model.by_type("IfcRelFillsElement"):
+        opening, fill = rel.RelatingOpeningElement, rel.RelatedBuildingElement
+        if opening is None or fill is None:
+            continue
+        try:
+            o_lo, o_hi = z_range(opening)
+            f_lo, f_hi = z_range(fill)
+        except Exception as exc:  # noqa: BLE001
+            misplaced_fills.append({"fill": getattr(fill, "Name", "?"),
+                                    "error": str(exc)[:120]})
+            continue
+        if abs(f_lo - o_lo) > 0.05 or abs(f_hi - o_hi) > 0.05:
+            misplaced_fills.append({
+                "fill": fill.Name,
+                "fill_z": [round(f_lo, 3), round(f_hi, 3)],
+                "opening_z": [round(o_lo, 3), round(o_hi, 3)],
+                "message": "fill does not sit in its opening",
+            })
+
     return {
         "source": str(path),
         "wall_count": len(model.by_type("IfcWall")),
@@ -115,6 +146,8 @@ def audit_ifc(path: Path) -> dict:
         "walls_without_voids": len(uncut),
         "geometry_failures": failed,
         "cut_detail": cut,
+        "fills_checked": len(model.by_type("IfcRelFillsElement")),
+        "misplaced_fills": misplaced_fills,
     }
 
 
@@ -154,9 +187,20 @@ def main() -> int:
         print("IFC: %d walls, %d with voids cut, %d solid, %d failed to build"
               % (ia["wall_count"], ia["walls_with_voids_cut"], ia["walls_without_voids"],
                  len(ia["geometry_failures"])))
+        print("IFC: %d fills checked against their openings, %d misplaced"
+              % (ia["fills_checked"], len(ia["misplaced_fills"])))
+        for m in ia["misplaced_fills"]:
+            print("  %s: fill z %s vs opening z %s"
+                  % (m.get("fill"), m.get("fill_z"), m.get("opening_z")))
 
-    if a.strict and sa:
-        bad = bool(sa["duplicate_walls"]) or sa["double_counted_share"] > JUNCTION_BUDGET
+    if a.strict:
+        bad = False
+        if sa:
+            bad = bool(sa["duplicate_walls"]) or sa["double_counted_share"] > JUNCTION_BUDGET
+        # A fill outside its own opening is a hard failure, not a budget: a
+        # window pane on the floor is wrong by any tolerance.
+        if ia and ia["misplaced_fills"]:
+            bad = True
         return 1 if bad else 0
     return 0
 
