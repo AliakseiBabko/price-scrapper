@@ -8,5 +8,46 @@
     "legacy_comment:10#second_valve_node",
     "legacy_comment:10#sewer_stacks_restated",
     "legacy_comment:10#single_valve_node"
+  ],
+  "legacy_comment:2": [
+    "legacy_comment:2#prior_switch_placement",
+    "legacy_comment:2#two_outlets_on_g7",
+    "legacy_comment:2#zero_switches_on_g7"
+  ],
+  "legacy_comment:3": [
+    "legacy_comment:3#s16_removed",
+    "legacy_comment:3#zero_outlets_on_mc"
+  ],
+  "legacy_comment:4": [
+    "legacy_comment:4#living_room_switch_at_o10",
+    "legacy_comment:4#zero_outlets_on_middle_living_wall",
+    "legacy_comment:4#zero_switches_on_middle_living_wall"
+  ],
+  "legacy_comment:5": [
+    "legacy_comment:5#derived_route_y_coordinates",
+    "legacy_comment:5#diagonal_route_through_v2",
+    "legacy_comment:5#dn50_continuation_unknown",
+    "legacy_comment:5#dn50_run_observed_to_chase",
+    "legacy_comment:5#dogleg_turn",
+    "legacy_comment:5#route_belongs_lower_hugging_g4b",
+    "legacy_comment:5#two_independent_one_turn_routes"
+  ],
+  "legacy_comment:7": [
+    "legacy_comment:7#applied_from_comparable_flat",
+    "legacy_comment:7#bathroom_service_topology",
+    "legacy_comment:7#positions_indicative",
+    "legacy_comment:7#topology_not_setting_out"
+  ],
+  "legacy_comment:11": [
+    "legacy_comment:11#derived_stack_y_131",
+    "legacy_comment:11#heights_from_csv",
+    "legacy_comment:11#p1_hot_cold_and_valve",
+    "legacy_comment:11#p1_internal_arrangement",
+    "legacy_comment:11#sh_b_south_end_assumed"
+  ],
+  "legacy_comment:12": [
+    "legacy_comment:12#kitchen_dn50_connects_to_it",
+    "legacy_comment:12#no_horizontal_main_needed",
+    "legacy_comment:12#second_sewer_stack_behind_v2"
   ]
 }
