@@ -100,12 +100,37 @@ An occurrence **cites** observations. It does not absorb them: the evidence has 
 
 | Derived field | Values |
 | :--- | :--- |
+| **`existence_readiness`** | `resolved_present` / `resolved_absent` / `candidate` / `disputed` / `unknown` |
 | `placement_readiness` | `resolved` / `partial` / `unlocated` / `invalid` |
 | `classification_readiness` | `resolved` / `candidate` / `disputed` |
+
+> ⚠️⚠️ **EXISTENCE IS A THIRD ORTHOGONAL AXIS, and two axes were not enough.** `SV-T` is *unplaced but real*; S17/S18 are *possibly unreal*. Derived from placement and classification alone, a socket whose very existence is disputed reads as **`resolved` on both** — and the first generator run would treat two possibly-nonexistent outlets as buildable.
+>
+> It derives from **scoped existence and count assertions**, and is never authored. ⚠️ **An occurrence row by itself must NOT imply `resolved_present`** — otherwise the schema mints reality out of the fact that somebody once drew a symbol.
 
 **These are validator and report OUTPUTS**, computed from the requirements of the occurrence type and its intended representation. ⚠️ **They must never become a manually maintained canonical status** — a hand-kept readiness flag is a second authority that drifts from the assertions it claims to summarise, which is this repository's oldest failure.
 
 *"Which occurrences cannot be placed?"* is then `placement_readiness != resolved`, **with machine-readable missing-property reasons** — queryable without collapsing independent deficiencies into one word.
+
+### 3.0d ⚠️ Generator eligibility is DERIVED and VIEW-SPECIFIC, with reason codes
+
+**Readiness is not permission.** For an ISSUED existing/design model, an element is eligible only when **all four** hold:
+
+1. **existence** is resolved for the relevant phase;
+2. **placement** is sufficiently resolved for the representation;
+3. **classification** is sufficient for the representation chosen;
+4. any **required design approval** exists.
+
+**Anything candidate or disputed may appear ONLY in an explicit review view, visibly distinguished** — never as an ordinary buildable IFC element and never as a normal discipline-plan symbol. The eligibility decision carries **reason codes**, so a refusal says which of the four failed rather than vanishing silently.
+
+**The four live cases, and none of them is the same shape:**
+
+| | existence | placement | classification | in an issued model? |
+| :--- | :--- | :--- | :--- | :--- |
+| `SV-T` | `resolved_present` | **`unlocated`** | resolved | no — cannot be placed |
+| `SH-B` | `resolved_present` | resolved | **`candidate`** | no — may not be given heating-system membership or a concrete heating class |
+| `S17` / `S18` | **`disputed`** | — | — | **no occurrence exists yet**; disputed count plus conditional candidate positions |
+| `S12` / `S13` | **no existence resolution at all** | — | — | historical assertions about legacy SYMBOLS only |
 
 **The two worked cases:**
 
