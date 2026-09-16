@@ -98,6 +98,37 @@ def parse_mm(raw: str) -> tuple[float | None, bool]:
     return (float(match.group(1)) if match else None), certain
 
 
+def resolve_opening(table: dict, oid: str) -> dict:
+    """An opening's record, following LEAF suffixes when the id itself is absent.
+
+    The DXF labels one opening `O4`, but `wall_openings.csv` records it as two
+    LEAVES of a single unit - O4a, the window leaf on a 735 sill with a radiator
+    under it, and O4b, the full-height glass door to the лоджия, divided by a
+    frame mullion. `_Survey/apartment_53_mirrored/9db4.jpg` shows exactly that.
+    Looking up 'O4' and finding nothing, the first build fell back to a head at
+    CEILING height - a 2500 opening where the record says 2235.
+    """
+    if oid in table:
+        rec = dict(table[oid])
+        rec["leaves"] = []
+        return rec
+    leaves = [(k, v) for k, v in table.items()
+              if k.startswith(oid) and len(k) == len(oid) + 1 and k[-1].isalpha()]
+    if not leaves:
+        return {}
+    sills = [v["sill_mm"] for _, v in leaves if v["sill_mm"] is not None]
+    heads = [v["head_mm"] for _, v in leaves if v["head_mm"] is not None]
+    return {
+        "type": "combined",
+        "wall": leaves[0][1]["wall"],
+        "sill_mm": min(sills) if sills else None,
+        "sill_measured": all(v["sill_measured"] for _, v in leaves),
+        "head_mm": max(heads) if heads else None,
+        "head_measured": all(v["head_measured"] for _, v in leaves),
+        "leaves": [{"id": k, **v} for k, v in sorted(leaves)],
+    }
+
+
 def read_openings_table() -> dict:
     out = {}
     with OPENINGS_CSV.open(encoding="utf-8") as handle:
@@ -110,6 +141,7 @@ def read_openings_table() -> dict:
             out[oid] = {
                 "type": (row.get("type") or "").strip(),
                 "wall": (row.get("in_wall_or_divider") or "").strip(),
+                "width_mm": (row.get("width_mm") or "").strip(),
                 "sill_mm": sill, "sill_measured": sill_ok,
                 "head_mm": head, "head_measured": head_ok,
             }
@@ -387,7 +419,7 @@ def build(output: Path, manifest_path: Path) -> dict:
         label = nearest_label(poly, opening_labels)
         oid = label.split()[0]
         kind = label.split()[1] if len(label.split()) > 1 else "opening"
-        rec = opening_table.get(oid, {})
+        rec = resolve_opening(opening_table, oid)
 
         sill = rec.get("sill_mm")
         head = rec.get("head_mm")
@@ -463,6 +495,36 @@ def build(output: Path, manifest_path: Path) -> dict:
         # same place.
         fill_class = None if oid == "O9" else {
             "window": "IfcWindow", "door": "IfcDoor"}.get(kind)
+
+        # A COMBINED UNIT IS GLAZED PER LEAF, because its leaves do not share a
+        # sill. O4 is one 1380 opening holding a window leaf on a 735 sill with
+        # a radiator under it and a full-height glass door beside it, divided by
+        # a frame mullion - see _Survey/apartment_53_mirrored/9db4.jpg. Glazing
+        # it as one pane from the unit's lowest sill would put glass across the
+        # solid wall under the window leaf.
+        if rec.get("leaves"):
+            widths = [(l, abs(parse_mm(str(l.get("width_mm", "") or "0"))[0] or 0.0))
+                      for l in rec["leaves"]]
+            total = sum(w for _, w in widths) or 1.0
+            t = 0.0
+            for leaf, width in widths:
+                frac = width / total
+                seg = slice_along(shrink_across(poly, GLAZING_MM), t, min(t + frac, 1.0))
+                l_sill = leaf["sill_mm"] if leaf["sill_mm"] is not None else sill
+                l_head = leaf["head_mm"] if leaf["head_mm"] is not None else head
+                cls = "IfcDoor" if leaf["type"] == "door" else "IfcWindow"
+                pane = polygon_solid(model, body, storey, owner, cls,
+                                     "%s %s" % (leaf["id"], leaf["type"]),
+                                     to_m(seg), mm(l_sill), mm(l_head))
+                add_pset(model, pane, "Pset_ApartmentOpening", {
+                    "OpeningId": leaf["id"], "PartOfUnit": oid,
+                    "SillMM": l_sill, "SillMeasured": str(bool(leaf["sill_measured"])),
+                    "HeadMM": l_head, "HeadMeasured": str(bool(leaf["head_measured"])),
+                    "Source": "wall_openings.csv leaf record",
+                })
+                t += frac
+            fill_class = None       # the leaves ARE the fill
+
         if fill_class == "IfcWindow":
             # A FRAME PLUS GLASS, not one slab. Every part is cut out of the same
             # measured opening footprint, so the frame cannot drift from the
@@ -506,7 +568,10 @@ def build(output: Path, manifest_path: Path) -> dict:
         openings_built.append({"id": oid, "kind": kind, "host": host_id,
                                "hosting": hosting,
                                "recorded_wall": rec.get("wall", ""),
-                               "sill_mm": sill, "head_mm": head})
+                               "sill_mm": sill, "head_mm": head,
+                               "leaves": [l["id"] for l in rec.get("leaves", [])],
+                               "bbox": (min(p[0] for p in poly), max(p[0] for p in poly),
+                                        min(p[1] for p in poly), max(p[1] for p in poly))})
 
     manifest["openings"] = openings_built
     manifest["lintels_added"] = lintels
@@ -565,14 +630,41 @@ def build(output: Path, manifest_path: Path) -> dict:
                    "cold single glazing, which changes the thermal case completely",
         })
 
-    frames = 0
+    # ⚠️ A MULLION SPANS ITS OPENING, NOT THE STOREY. Extruded 0 to ceiling,
+    # these read as full-height posts standing in front of each window and
+    # carrying on past its head - which is what the owner saw, and nothing like
+    # the real units in IMG_20260913_133523.jpg or 9db4.jpg. The mullion is a
+    # member INSIDE a frame, so it takes the vertical extent of the opening
+    # whose footprint contains it.
+    frames, orphan_mullions = 0, 0
     for poly in polys.get("V0-WINDOW-FRAME", []):
-        obj = polygon_solid(model, body, storey, owner, "IfcMember",
-                            "Window frame member %d" % (frames + 1), to_m(poly), 0.0, h_m)
-        add_pset(model, obj, "Pset_ApartmentOpening",
-                 {"Role": "window_frame_mullion", "Source": "window_frames.csv"})
+        cx, cy = centroid(poly)
+        owner_open = None
+        for rec in openings_built:
+            ox0, ox1, oy0, oy1 = rec["bbox"]
+            if ox0 - 1.0 <= cx <= ox1 + 1.0 and oy0 - 1.0 <= cy <= oy1 + 1.0:
+                owner_open = rec
+                break
+        if owner_open is None:
+            orphan_mullions += 1
+            continue
         frames += 1
+        member = polygon_solid(
+            model, body, storey, owner, "IfcMember",
+            "%s frame mullion" % owner_open["id"],
+            to_m(shrink_across(poly, FRAME_DEPTH_MM)),
+            mm(owner_open["sill_mm"]), mm(owner_open["head_mm"]))
+        add_pset(model, member, "Pset_ApartmentOpening", {
+            "OpeningId": owner_open["id"], "Role": "window_frame_mullion",
+            "Source": "window_frames.csv; vertical extent from the opening it divides",
+        })
     manifest["window_frame_members"] = frames
+    if orphan_mullions:
+        manifest["assumptions"].append({
+            "element": "window frame mullions",
+            "assumed": "%d mullion(s) matched no opening and were DROPPED" % orphan_mullions,
+            "why": "a mullion outside every opening footprint cannot be placed vertically",
+        })
 
     manifest["assumptions"].extend(assumed)
 
