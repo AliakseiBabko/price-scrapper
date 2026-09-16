@@ -357,10 +357,44 @@ def build(output: Path, manifest_path: Path) -> dict:
     }
 
     # ---- walls -------------------------------------------------------------
+    # ⚠️ THERE ARE NO STRUCTURAL LINTELS IN THIS FLAT, and the model must not
+    # invent one. Owner, 2026-09-16: an opening is just a big opening, and
+    # everything visible in it is the window or door joinery - no concrete or
+    # other hard lintel over it. wall_blocks.csv agrees about what these walls
+    # are: G4d is 120 mm aerated block and G6 is 75 mm, thin partitions where
+    # the block simply continues over the doorway.
+    #
+    # So where the DXF draws a wall as STOPPING at a doorway - because a plan
+    # shows the gap and cannot show the material above it - the wall is EXTENDED
+    # across the opening here and the opening is cut out of it as a void. The
+    # result is one continuous wall, exactly as built, instead of the separate
+    # "Lintel over O5/O6" blocks the previous build bolted on. Those blocks were
+    # my invention: they named a structural element that does not exist.
+    #
+    # The consequence for take-off is the point of the change: the material over
+    # a door now belongs to the wall it is part of, and any query over that wall
+    # picks it up without knowing about openings at all.
+    extensions: dict[str, list] = {}
+    for poly in polys.get("V0-OPENING", []):
+        label = nearest_label(poly, texts.get("V0-OPENING", []))
+        oid = label.split()[0]
+        if any(rect_contains((w["x0"], w["x1"], w["y0"], w["y1"]), poly) for w in walls_raw):
+            continue                      # already inside a wall; nothing to extend
+        rec = resolve_opening(opening_table, oid)
+        host = (rec.get("wall") or "").strip()
+        if host in {w["id"] for w in walls_raw}:
+            extensions.setdefault(host, []).append((oid, poly))
+
     wall_objects = {}
     for w in walls_raw:
         meta = wall_meta.get(w["id"], {})
-        rect = [(w["x0"], w["y0"]), (w["x1"], w["y0"]), (w["x1"], w["y1"]), (w["x0"], w["y1"])]
+        x0, x1, y0, y1 = w["x0"], w["x1"], w["y0"], w["y1"]
+        for oid, poly in extensions.get(w["id"], []):
+            x0 = min(x0, min(p[0] for p in poly))
+            x1 = max(x1, max(p[0] for p in poly))
+            y0 = min(y0, min(p[1] for p in poly))
+            y1 = max(y1, max(p[1] for p in poly))
+        rect = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
         obj = polygon_solid(model, body, storey, owner, "IfcWall", w["id"],
                             to_m(rect), 0.0, h_m)
         add_pset(model, obj, "Pset_ApartmentPhase", {
@@ -369,8 +403,10 @@ def build(output: Path, manifest_path: Path) -> dict:
             "ThicknessMM": meta.get("thickness_mm"),
             "Source": "v0_developer_layout.dxf via dxf_wall_entities",
         })
-        wall_objects[w["id"]] = (obj, (w["x0"], w["x1"], w["y0"], w["y1"]))
+        wall_objects[w["id"]] = (obj, (x0, x1, y0, y1))
     manifest["walls"] = len(wall_objects)
+    manifest["walls_extended_across_openings"] = {
+        wid: [oid for oid, _ in items] for wid, items in extensions.items()}
 
     # ---- floor and ceiling slabs -------------------------------------------
     # ⚠️ A BOUNDING RECTANGLE, and that is an approximation this model states
@@ -460,34 +496,13 @@ def build(output: Path, manifest_path: Path) -> dict:
         else:
             void = None
             hosting = "gap_between_walls"
-            # ⚠️ LINTEL AND SPANDREL. A gap-type opening leaves the wall absent
-            # for its WHOLE height, because the DXF is a plan and a plan cannot
-            # say that a wall continues over a door head. Built as drawn, every
-            # internal doorway ran floor to ceiling - a 450 mm strip of missing
-            # wall above each 2050 head under a 2500 ceiling, which is what the
-            # owner saw on G4d and G6. The opening footprint IS the wall's own
-            # section there, so extruding it above the head rebuilds exactly the
-            # material the plan could not express.
-            if head < ceiling_mm - 1.0:
-                lintel = polygon_solid(model, body, storey, owner, "IfcWall",
-                                       "Lintel over %s" % oid, to_m(poly),
-                                       mm(head), h_m)
-                add_pset(model, lintel, "Pset_ApartmentPhase", {
-                    "Phase": "existing", "Role": "lintel_over_opening",
-                    "OpeningId": oid,
-                    "Source": "reconstructed: the plan cannot express wall over a head",
-                })
-                lintels.append(oid)
-            if sill > 1.0:
-                spandrel = polygon_solid(model, body, storey, owner, "IfcWall",
-                                         "Spandrel under %s" % oid, to_m(poly),
-                                         0.0, mm(sill))
-                add_pset(model, spandrel, "Pset_ApartmentPhase", {
-                    "Phase": "existing", "Role": "spandrel_under_opening",
-                    "OpeningId": oid,
-                    "Source": "reconstructed: the plan cannot express wall under a sill",
-                })
-                spandrels.append(oid)
+            # Nothing is added here. An opening that still has no host wall
+            # spans BETWEEN elements rather than sitting in one - O10 passes
+            # through the V2/R5 divider, O9 runs diagonally from M2 to M6b - and
+            # both are full height, so there is no material over them to model.
+            # Openings inside a wall were made continuous before the walls were
+            # built; see the extension note above.
+            pass
 
         # O9 is drawn twice in the DXF - once as an opening on V0-OPENING and
         # again as its bays and mullions on V0-LOGGIA-GLAZING. The bays ARE the
