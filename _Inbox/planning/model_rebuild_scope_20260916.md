@@ -198,3 +198,45 @@ IFC elements, ports and systems; and discipline-sheet symbols and annotations. *
 ### Terminology
 
 Say **"canonical authored data"**, not "the tables". The position authority is JSON (`v0_named_walls_placed.json`), not a CSV, and calling the whole store "tables" is what made it easy for me to miss it.
+
+---
+
+## 9. Third Codex round — identity, and a correction to my acceptance criterion
+
+### ⚠️ "Byte-equivalent DXF" was the wrong bar, and I had already seen why
+
+I set it in §8. It is wrong: DXF serialisation carries handles, timestamps and ordering that change without the model changing. **I had the evidence and wrote the wrong criterion anyway** — regenerating the DXF earlier the same day changed 10 lines with every gate passing, and I called it byte-noise at the time.
+
+**The acceptance bar for the compiler extraction is SEMANTIC equivalence:**
+
+- identical resolved wall / opening / shaft IDs;
+- identical layers and entity classifications;
+- coordinates and dimensions equal within the exporter's existing precision;
+- **identical output from `dxf_wall_entities.py`** — the one reader, which already refuses anything that is not the rectangle promised;
+- `check_dxf_closure`, `raster_fidelity`, `check_wall_junctions` and `vector_extent_oracle` all pass;
+- **all 24 seeded defects still rejected**;
+- the review rendering unchanged where its gate requires it.
+
+### The extraction shape
+
+1. A pure `resolve_v0_geometry()` returning a typed resolved graph plus a reconciliation report.
+2. `export_v0_dxf.py` becomes a **thin serialiser** over that graph.
+3. Differentially compare old and new output **during** the extraction.
+4. **Keep the existing independent gates as the permanent acceptance — not the old implementation.** Retaining the old reconciliation to diff against would make it a second authority, which is the defect being removed.
+5. Point IFC generation at the resolved graph.
+6. Only then migrate service locators and generate 3D services.
+
+### Identity — preserve CONTINUITY, not the existing strings
+
+**The legacy IDs are not the same kind of thing, and the real data shows it:**
+
+| Legacy id | What it actually is |
+| :--- | :--- |
+| `E-KL-SOC-K` | an **observation about a group** — *"socket outlets, кухня zone, count 3, height 915-1105"*, from one photo |
+| `SW-K` | a **service assembly / take-off** — *"hot and cold water take-off, clamped, rising from the floor, valve tops 500-610"* |
+| `SS-B` | close to a **physical element mark** — one sewer connection on P1 |
+| `S1` | an individual **drawing symbol** in the frozen generator |
+
+**So a one-to-one migration is not possible and must not be forced.** Where one legacy group becomes several physical elements, the group is retained as an observation or an assembly and its members get new identities.
+
+Design recorded in `_Inbox/planning/services_data_model_design_20260916.md`.
