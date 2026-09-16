@@ -23,6 +23,17 @@
 ## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
 * **Occupants**: Two children (ages 3 and 6) — **Phase 1 only, see the Phase 2 note below.**
 * **Key Needs**: Shared sleep configuration, ample accessible toy storage, and study desk space.
+* **✅ SLEEPING: NO BUNK BEDS — owner-stated 2026-09-16** (*"my wife doesn't like bunk
+  beds"*). A household preference, and it closes an item open since 2026-09-04.
+  ⚠️ **It agrees with the vault's own analysis** — 15.28 m² comfortably permits two
+  separate beds, which is the condition under which this store's clinical source
+  argues against bunks anyway — **so nothing is given up.**
+  ⚠️⚠️ **STILL OPEN: two STATIC beds or two 90 cm WALL beds.** See
+  [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]] for the trade-off table; the
+  trade is genuinely balanced and NO recommendation is made: static beds carry no
+  first-fix commitment and no daily burden on a 3-year-old, but they leave the room
+  with no play zone at all — which is exactly what wall beds would recover. **This must be settled before the electrics are chased**,
+  since the per-child night-light switch heights follow the bed heads.
 * **Phase 2 future use — girl's room only (clarified 2026-08-20, verbal)**: once the adults move out of [[../06_Small_Bedroom/Small_Bedroom_Index|the Small Bedroom]] into their Phase 2 arrangement (~3-4 years out), the two children split into separate rooms: this room becomes **the girl's own room, exclusively**, and the boy moves to the Small Bedroom, which becomes "Kids Room #2." See [[Family_Requirements]] §6-7 for the full transition plan. The shared sleep/storage configuration below is a **Phase 1** design only — worth keeping in mind that this room's layout can simplify to a single child's room later.
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
 

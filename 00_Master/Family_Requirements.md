@@ -72,9 +72,17 @@ This document captures the overall context of the family's needs, preferences, a
 * **Explicit clarification, added 2026-08-20 (verbal)**: *"[Once Phase 2 begins, in roughly three to four years,] the [small bedroom] is gonna be kids room number two, mostly for the boy. And the kids room, the bigger kids room, will be for the girl. That's the current plan."* So the two children, who currently share this room, split into two separate rooms once the adults vacate [[06_Small_Bedroom/Small_Bedroom_Index|the Small Bedroom]] for their Phase 2 arrangement (§5 above, §7 below):
   - **This room (`05_Kids_Room`)** becomes the girl's own room, exclusively.
   - **`06_Small_Bedroom`** becomes "Kids Room #2," mostly for the boy.
-* **Practical consequence**: this room's shared-use furnishing (twin beds/bunk beds, shared toy storage) is a **Phase 1** configuration only — once Phase 2 begins, this room can be refurnished as a single child's room, freeing up the space and layout constraints that a two-kid shared room requires. Worth keeping in mind for any built-in joinery decided now (e.g. whether shared storage should be sized/split so it still works as one child's storage later).
+* **Practical consequence**: this room's shared-use furnishing (**twin beds — ✅ NOT bunk beds, ruled out by the owner 2026-09-16**, shared toy storage) is a **Phase 1** configuration only — once Phase 2 begins, this room can be refurnished as a single child's room, freeing up the space and layout constraints that a two-kid shared room requires. Worth keeping in mind for any built-in joinery decided now (e.g. whether shared storage should be sized/split so it still works as one child's storage later).
 * **Key Guidelines**:
-  - Space-saving bed configurations (twin beds or safe bunk beds) — Phase 1 only; see the Phase 2 note above.
+  - **✅ Bed configuration: TWIN BEDS. Bunk beds are ruled out** — owner-stated
+    2026-09-16, *"my wife doesn't like bunk beds, so it looks like this is not an
+    option for our kids' room."* A household preference, and it agrees with this
+    store's own analysis (15.28 m² comfortably permits two separate beds, which is
+    the condition under which the clinical source argues against bunks anyway), so
+    nothing is given up. Phase 1 only; see the Phase 2 note above.
+    ⚠️ **Still open: two STATIC beds or two 90 cm WALL beds** — see
+    [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]], which recommends static and
+    explains why. **Settle it before the electrics are chased.**
   - Accessible toy drawers/shelves so children can clean up after themselves.
   - Backlink: [[05_Kids_Room/Kids_Room_Index|Kids Room Index]]
 

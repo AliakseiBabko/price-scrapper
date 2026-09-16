@@ -18,7 +18,9 @@ across that span. Concretely:
   rather than omitting it. Plan a laptop-charger/desk-lamp outlet at
   **90cm above the floor** ahead of an adult-height desk actually
   arriving, and a second outlet at "second level" height if a bunk/loft
-  bed is anticipated. Where one outlet placement can serve two different
+  bed is anticipated. **✅ RESOLVED FOR THIS PROJECT 2026-09-16: bunk beds are
+  ruled out, so NO second-level outlet is needed** — one fewer speculative
+  back-box in first fix. Where one outlet placement can serve two different
   future layouts, that's the ideal case. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
 - **Lighting should include distinct general and zone-specific
   scenarios from the start** (a night-light for sleep, decorative/accent
@@ -164,8 +166,18 @@ From a 78-minute planning lecture. She frames a kids' room as "мир в мир�
 - **⚠️ Better: the bed in a corner — and her stated logic is light-based. The darkest corner goes to the bed; the lightest part of the room goes to study.**
 - **Custom joinery is what makes a small kids' room work.** She highlights shelves worked from **both** sides, serving the study zone and the bed zone at once.
 - **Two children without bunk beds** reduces the room to a bedroom with a workspace, and nothing else will fit.
+  > **⚠️⚠️ THIS IS NOW A LIVE CONSTRAINT ON THIS PROJECT, not a hypothetical — bunk
+  > beds were ruled out 2026-09-16.** **So the honest statement of the decision's
+  > cost is: with two static beds and a workspace, this room has no play zone and
+  > no guest zone beyond bare floor.** **That is the price of the preference, and
+  > it should be visible rather than discovered during layout.**
+  >
+  > **→ It is also the strongest argument FOR two 90 cm WALL beds, which recover
+  > that floor by day** — set against the fact that the younger child is 3 and
+  > nobody in this vault reports a 3-year-old working one. **See
+  > [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]], where the trade is laid out.**
 - **⚠️ Podium beds — a plan she abandoned, and the reasons are the value.** Raise a podium 30–40 cm with beds rolling out beneath. She dropped it: **very hard to execute, few joinery shops can make a good pull-out-from-podium bed, and it depends on windowsill height** — the child must not be able to reach the window from the raised level. Podium sizing detail is on [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]].
-- **⚠️ Bunk beds — the lighting must be worked out deliberately, and she tested the failure herself.** The sconce must be reachable from the bed, **and there must be a two-way switch by the door.** Without it, a child who falls asleep with the sconce on in the top bunk means a parent climbing the ladder past a sleeping child — **"я кстати пробовала, я реально сама просто на этой лестнице не помещаюсь."**
+⚠️ **MOOT FOR THIS PROJECT** (bunks ruled out 2026-09-16); kept as general practice. - **⚠️ Bunk beds — the lighting must be worked out deliberately, and she tested the failure herself.** The sconce must be reachable from the bed, **and there must be a two-way switch by the door.** Without it, a child who falls asleep with the sconce on in the top bunk means a parent climbing the ladder past a sleeping child — **"я кстати пробовала, я реально сама просто на этой лестнице не помещаюсь."**
 
 ### Workspace for an older child
 
