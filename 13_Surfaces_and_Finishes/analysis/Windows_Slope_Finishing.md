@@ -89,6 +89,17 @@ Legitimate specifically because insulation/soundproofing isn't the point at thes
 
 **Named common installer shortcut, explicitly flagged as never acceptable**: skipping the closing contour entirely — butting a raw hand-cut sandwich-panel edge to the wall, puttying, wallpapering over. Three concrete failure mechanisms: hand-cut edges are visibly wavy once finished; putty/wallpaper bonds far better to wall than to a panel's raw cut edge, so the joint reliably peels; a sandwich panel is far softer/more flexible than plaster, so a heavy sash's repeated impact flexes it enough to crack the puttied seam over time. [source: [[_Sources/YT_nb3L-k69yx8_pvc_window_slope_sandwich_panel_technique|nb3L-k69yx8_pvc_window_s]]]
 
+### ⚠️ A second contractor's case for sandwich over plasterboard — with the mechanism, and the sequence
+
+**Пальмира-Дом recommends sandwich panels over plasterboard for reveals for one stated reason: a plasterboard reveal's JOINT WITH THE FRAME cracks over time.** Sandwich avoids it through thermal-insulation continuity and material homogeneity with the frame — **i.e. the two sides of the joint move together.** ⚠️ **This is the same failure the shortcut above produces by a different route, arrived at independently.**
+
+- **⚠️ Fit reveals at this stage — after plastering, when the walls are level** — so the reveals and the windowsill come out even in width.
+- **⚠️ Order where a balcony step will be tiled**: the **STEP first**, so no joint shows from above, then the top reveal and windowsill, then the sides.
+- **⚠️⚠️ Joints formed with LIQUID PLASTIC (e.g. Cosmofen), which unlike silicone actually WELDS the surfaces** — applied in small portions, as it sets fast.
+- **⚠️ Cover finished windowsills with plasterboard offcuts**: trades will put tools and screws on them. **Corner beads on reveals go on AFTER wallpapering.**
+
+`single-account`, `unverified` — one contractor's method. [source: [[_Sources/YT_Y1auAmyqKo0_palmiradom_ppr_works_sequence|YT_Y1auAmyqKo0]]]
+
 ### Splay Angle: the 35mm Standard (added 2026-08-19)
 
 > [!NOTE]

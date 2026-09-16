@@ -81,7 +81,10 @@ region: not_resolved_to_a_country - Russian-language maker, no city named, no pr
 
 - §1, §4, §5 → [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanism Selection and Reliability]]
 - §2, §3, §6 → same page
-- §3's fixing constraint → also flagged to [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]] as a Phase-1 build item
+
+## See also
+
+- [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]] — §3's six-point fixing constraint is a Phase-1 build item and belongs in view of that page's Household Plan. A cross-reference for the reader; the constraint itself was written to Wall-Bed Mechanisms.
 
 ## What was NOT taken
 

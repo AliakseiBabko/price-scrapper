@@ -15,6 +15,23 @@ Part of [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]].
 
 ## Buying / Practical Guidance
 
+### ⚠️⚠️ Door-opening sizing — the numbers to form the opening to (Пальмира-Дом)
+
+**These are the figures the opening is BUILT to, and they are decided long before the door is bought.**
+
+| Item | Figure |
+| :--- | :--- |
+| Opening height **from a finished screed** | **2080 mm** — assumes ~5 mm finishing leveller + 10–15 mm covering, i.e. **add ~2 cm** |
+| Opening height **from CLEAN FLOOR** | **2060 mm** |
+| Opening **width** | **⚠️⚠️ door leaf + 100 mm** — a 700 leaf needs an 800 opening |
+| **Minimum wall thickness to hang a door** | **⚠️ from 70 mm**; thicker walls are made up with доборы |
+
+- **⚠️ Where the floor covering differs materially in thickness**, work out where the floor will finish with screed and leveller, then add the covering.
+- **⚠️⚠️ CHECK THE FLOOR LEVEL BEFORE MARKING OPENING HEIGHT — a developer's screed can be badly out.** Otherwise the problem surfaces at door installation, with wallpaper up and floors down, when correcting is hard and expensive.
+- **⚠️ Non-standard doors vary a lot — confirm seating requirements with the maker BEFORE forming the openings.**
+
+`single-account`, `unverified` — one contractor's standard. [source: [[_Sources/YT_Y1auAmyqKo0_palmiradom_ppr_works_sequence|YT_Y1auAmyqKo0]]]
+
 **Pricing below is RUB, sourced 2026 (except where a source's own date is otherwise noted), and reflects individual companies'/retailers' own stated rates — not independently verified market averages. Treat every figure as a single-source data point, not a market benchmark.** [source: [[_Sources/YT_ti8J19zY0EM_interior_entrance_door_buying_guide|ti8J19zY0EM_interior_ent]]]
 
 ### Interior door set (material/hardware only), by mount type — one company's stated ranges, RUB, 2026

@@ -76,8 +76,8 @@ The course's scale problem is matching a dropped-in drawing image to Blender uni
 
 ## Routing
 
-- §1, §2 → [[18_Digital_Toolchain/analysis/AI_For_Concept_And_Visualisation|AI for Concept and Visualisation]]
-- §3 → same, beside the four-step formula
+- §1, §2 → [[00_Master/Model_and_Views|One model, many views]], as the magic triangle and the Light Groups finding
+- §3 → same page, beside the four-step lighting formula
 - §4 → [[00_Master/Model_and_Views|One model, many views]], as the third confirmation of the UV cost and the flat-plaster licence
 - §5 → recorded here only
 

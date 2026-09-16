@@ -349,3 +349,15 @@ after-sales service.**
 > given — it could be the assistant, the network or the integration. Tagged
 > `unverified`, and recorded as a reason to specify a fallback rather than as a
 > verdict on any product.** [source: [[_Sources/YT_XL2Dsw7FonM_progressdesign_two_children_wall_beds|YT_XL2Dsw7FonM]]]
+
+### ⚠️⚠️ And the bottom fallback exists and has a name — a manual pull-strap for a power cut
+
+**A client reviewing his own room, unaccompanied by the maker, listing what convinced him:**
+
+> ***«Есть специальный на случай АВАРИЙНОГО ОТКЛЮЧЕНИЯ СВЕТА хомуток, такой ремешок, за который ты дёргаешь — и кровать опускается.»***
+
+> **→ ⚠️⚠️ THIS COMPLETES THE SPECIFICATION RULE ABOVE INTO THREE LEVELS: voice is the least reliable layer, a button is the fallback to voice, and a MECHANICAL PULL-STRAP is the fallback to the button. The bottom level needs no electricity at all.**
+>
+> **→ Worth confirming by name with any supplier, because it is the difference between a power cut being an inconvenience and being a household without a bed.**
+>
+> ⚠️ **One client's description of one maker's product.** It establishes that such a release **exists and is worth asking for** — not that every automatic bed has one. `single-account`, `unverified`. [source: [[_Sources/YT_J7Q6Z3fvytQ_progressdesign_three_children_and_a_12m2_client|YT_J7Q6Z3fvytQ]]]

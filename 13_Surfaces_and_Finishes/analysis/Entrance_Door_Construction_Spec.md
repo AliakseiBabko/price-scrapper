@@ -12,22 +12,22 @@ Detail page for [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]]. Compan
 
 **Steel thickness is not only a burglary question, and this is the single most useful idea here:**
 
-> ***«Толщина стали… это не только взломостойкость. Она ещё отвечает и за геометрию всей металлоконструкции, то есть обеспечение прилегания дверного полотна к дверной коробке. И именно поэтому правильное прилегание будет обеспечивать ещё и шумоизоляцию.»*** — Бастион-С
+> ***«Толщина стали… это не только взломостойкость. Она ещё отвечает и за геометрию всей металлоконструкции, то есть обеспечение прилегания дверного полотна к дверной коробке. И именно поэтому правильное прилегание будет обеспечивать ещё и шумоизоляцию.»*** — Бастион-С [source: [[_Sources/YT_nPSB41PtdMA_bastion_ten_criteria_how_to_check_a_door|YT_nPSB41PtdMA]]]
 
 **thickness → the metalwork holds its geometry → the leaf seats against the frame → it seals → it soundproofs**
 
-> **→ ⚠️⚠️ This is why "buy thin steel and pay for soundproofing instead" does not work as a strategy: they are the same variable.** **Novakey reaches the identical chain independently** — thin metal deforms from a slammed door or something caught under the threshold, loses geometry, **and then fails specifically in the lock zone.**
+> **→ ⚠️⚠️ This is why "buy thin steel and pay for soundproofing instead" does not work as a strategy: they are the same variable.** **Novakey reaches the identical chain independently** — thin metal deforms from a slammed door or something caught under the threshold, loses geometry, **and then fails specifically in the lock zone.** [source: [[_Sources/YT_6r8IVBsXjnE_novakey_six_door_selection_mistakes|YT_6r8IVBsXjnE]]]
 >
 > **→ It also explains the most common complaint about entrance doors — a key that will not turn, a door needing a shoulder or a lift on the handle. That is usually a geometry failure, not a lock failure.** See [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]] for the two competing root causes of that symptom.
 
 ## ⚠️⚠️ 2. Steel thickness — four figures, and they sort by the seller's price position
 
-| Source | Stated minimum | Date | What they sell |
-| :--- | :--- | :--- | :--- |
-| **Gusev** | **1.2 mm is adequate** | 2025-11-28 | the cheapest of the four |
-| **Gusev** | **"at least 1.5 mm"** | **2024-10-22** | ⚠️⚠️ *the same seller, 13 months earlier* |
-| **Novakey** | **not less than 2 mm** | 2026-01-04 | a full ladder incl. premium |
-| **Бастион-С** | **under 3 mm "doesn't qualify"** | 2024-03-10 | premium |
+| Source | Stated minimum | Date | What they sell | Source note |
+| :--- | :--- | :--- | :--- | :--- |
+| **Gusev** | **1.2 mm is adequate** | 2025-11-28 | the cheapest of the four | [source: [[_Sources/YT_Mfzce0Qm4HM_prodveri_entrance_door_myth\|YT_Mfzce0Qm4HM]]] |
+| **Gusev** | **"at least 1.5 mm"** | **2024-10-22** | ⚠️⚠️ *the same seller, 13 months earlier* | [source: [[_Sources/YT_YIJ332ibiyM_gusev_entrance_door_four_criteria\|YT_YIJ332ibiyM]]] |
+| **Novakey** | **not less than 2 mm** | 2026-01-04 | a full ladder incl. premium | [source: [[_Sources/YT_6r8IVBsXjnE_novakey_six_door_selection_mistakes\|YT_6r8IVBsXjnE]]] |
+| **Бастион-С** | **under 3 mm "doesn't qualify"** | 2024-03-10 | premium | [source: [[_Sources/YT_nPSB41PtdMA_bastion_ten_criteria_how_to_check_a_door\|YT_nPSB41PtdMA]]] |
 
 > **⚠️⚠️ THE RECOMMENDED MINIMUM TRACKS WHAT THE SOURCE STOCKS, across four data points, monotonically.**
 >
@@ -122,6 +122,13 @@ It forces an attacker to defeat the armour before reaching the cylinder at all. 
 | **Powder coating** | Ranked lowest by Бастион — acoustically worse than a decorative panel and plain-looking, though some buyers deliberately want an inconspicuous strong door. |
 
 > **→ ⚠️ The repairability split is the part worth carrying: film wins on day-one toughness and loses on year-five repair.** **Given the vault's existing finding that the entry zone is a high-mechanical-wear area (Круглов), and Gusev's point that the exterior panel takes abuse from neighbours and furniture, repairability is the more relevant axis here than scratch resistance.**
+
+## Source Notes
+
+- **Бастион-С (Сергей), 2024-03-10** — the steel-thickness causal chain, settlement, rigidity ribs, hinges and the lock pocket, the 40 kg/m³ filling threshold, burglary class 4 defined physically, and the finishes vocabulary. [source: [[_Sources/YT_nPSB41PtdMA_bastion_ten_criteria_how_to_check_a_door|YT_nPSB41PtdMA]]]
+- **Novakey (Владислав, founder), 2026-01-04** — the seal-contour debunk, the fourth steel figure, the two shop-floor tests, lock service life, and the multilayer filling specification. [source: [[_Sources/YT_6r8IVBsXjnE_novakey_six_door_selection_mistakes|YT_6r8IVBsXjnE]]]
+- **Сергей Гусев / ПРО ДВЕРИ, 2024-10-22** — the leaf-thickness ladder by application, the burglary-class support, and the comfort/sealing claims the two manufacturers contradict. [source: [[_Sources/YT_YIJ332ibiyM_gusev_entrance_door_four_criteria|YT_YIJ332ibiyM]]]
+- **Сергей Гусев / ПРО ДВЕРИ, 2025-11-28** — the later video whose 1.2 mm figure contradicts his own 2024 position; the self-contradiction in §1 rests on the pair. [source: [[_Sources/YT_Mfzce0Qm4HM_prodveri_entrance_door_myth|YT_Mfzce0Qm4HM]]]
 
 ## Related
 

@@ -13,7 +13,8 @@ Part of [[10_Balcony/Balcony_Guide|Balcony Guide]].
 > is retained for reference despite not being adopted. [source: [[_Sources/YT_Qt4uGvGRYT0_petrishin_balcony_insulation|Qt4uGvGRYT0]]]
 
 - **Fundamental principle**: insulation conserves heat, it doesn't generate it — pointless without a real heat source. **Water/hydronic radiators are illegal on a balcony/loggia** — independently corroborates the Glazing page's Zemskov-sourced legal-risk finding with a second, unrelated company's own stated practice. Electric radiator is the legal alternative; recommended combination (where heating is wanted) is heated floor + electric radiator.
-- **Window glazing is a hard prerequisite independent of insulation thickness** — even 10cm of two-layer insulation is pointless behind thin, draft-prone frames. **⚠️⚠️ Двухкамерный** glazing from a reputable, genuinely non-drafting manufacturer is non-negotiable. **(CORRECTED 2026-09-14: this line previously read "Double-pane (двухкамерный)", which is wrong by a whole pane. A камера is the CAVITY between panes, not a pane: однокамерный = 2 panes, двухкамерный = THREE panes, трёхкамерный = 4. Every other occurrence in this vault correctly says "double-chamber"; this was the one phrased as a purchasing instruction, which is the worst place for it. See [[13_Surfaces_and_Finishes/analysis/Windows_Quality_and_Buying|Windows — Quality & Buying]].)**
+  **⚠️ A FOURTH independent arrival on the same prohibition** — Бюро ARCHWOOD (Марина Измайлова): *«Нельзя выносить отопительный прибор на лоджию или делать водяной тёплый пол за счёт общей системы отопления.»* **With Петришин-Строй, Zemskov and Безверхая that makes four unrelated sources.** ⚠️⚠️ **All four are Russian. The count raises confidence that this is a real constraint in the RUSSIAN market and says nothing about Belarus — it must not be read as jurisdictional evidence here.** [source: [[_Sources/YT_5wD3mCfBCkw_archwood_balcony_use_scenarios|YT_5wD3mCfBCkw]]]
+- **Window glazing is a hard prerequisite independent of insulation thickness** — even 10cm of two-layer insulation is pointless behind thin, draft-prone frames. **⚠️⚠️ Двухкамерный** glazing from a reputable, genuinely non-drafting manufacturer is non-negotiable. **(CORRECTED 2026-09-14: this line previously read "Double-pane (двухкамерный)", which is wrong by a whole pane. A камера is the CAVITY between panes, not a pane: однокамерный = 2 panes, двухкамерный = THREE panes, трёхкамерный = 4. Every other occurrence in this vault correctly says "double-chamber"; this was the one phrased as a purchasing instruction, which is the worst place for it. See [[13_Surfaces_and_Finishes/analysis/Windows_Quality_and_Buying|Windows — Quality & Buying]].)** [source: [[_Sources/YT_M8ho5TC86eQ_okna20_choosing_pvc_windows|YT_M8ho5TC86eQ]]]
 - **Insulation-plus-glazing effectiveness verified in practice, not just claimed** (Петришин-Строй-featured case, region level 2, added 2026-08-24, Round 6): a fully insulated balcony (пеноплекс on floor/walls/ceiling, heated floor, tension ceiling, upgraded glazing) stayed comfortable during finishing work even before radiators/heating were connected — a real-world confirmation that insulation+glazing alone can hold heat if done correctly, before any active heat source is even running. Glazing spec used: 70mm-profile REHAU frame (matches the Glazing page's Zemskov-sourced 70mm floor) with a double-chamber glass unit; the source explicitly warns that a thinner single-chamber glass unit risks freezing/heat loss at the glazing itself even with a correct frame. [source: [[_Sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 - **Material comparison**: пеноплекс ("Комфорт" variant recommended for a loggia) is the default — bonds well to concrete/brick, needs far less thickness than mineral wool for the same effect (mineral wool eats too much of a small loggia's floor area). Пенофол (foil-faced reflective roll insulation) is layered specifically at heat-source locations (behind a radiator, under a heated floor) to reflect heat back into the room.
 - **Пеноплекс thickness rule**: minimum 5cm single-layer; if doing two layers, 2.5cm each with the second layer's seams staggered/offset against the first layer's — eliminates a straight-through cold path at any single seam.
@@ -22,6 +23,25 @@ Part of [[10_Balcony/Balcony_Guide|Balcony Guide]].
 - **Full-contour insulation required** (floor, walls, ceiling — any gap is a cold entry point). Anchor stems must be plastic, never metal — a metal stem becomes a literal cold-transfer bridge through the insulation layer.
 - **Loggia-merged-with-living-room detail**: insulation must extend 30-50cm into the adjoining room past the former door threshold, to avoid a sharp uninsulated thermal-bridge line — must be planned at the design-project stage.
 - **Real cost benchmark, level-1 Moscow region, 2025**: a standard 3m × 1.2m loggia (3.6 m² floor area), full insulation labor + materials, **38,000 RUB (≈$460, ≈$130/m²)**. Turnkey/Full-Service delivery model. First Petrishin-Stroi cost benchmark specifically for loggia insulation (distinct scope from this channel's apartment-wide rough-stage benchmarks in `11_Budget_and_Planning/Budgeting_Guide.md`).
+
+## ⚠️⚠️ The Build-Up ORDER — the vault had the materials but not the sequence (Пальмира-Дом)
+
+**A fit-out contractor's stated order for insulating a balcony.** Recorded because every other source here names materials and thicknesses without saying what goes on first, and the order is what an installer actually needs:
+
+1. Seal gaps with пеноплекс and foam
+2. **Insulate the CEILING first** (foil-faced изолон optional)
+3. Then the walls
+4. Then the floor — **all corner joints hermetically sealed, and pre-level the base with finishing leveller so the пеноплекс beds tight**
+5. Foil-faced изолон on the floor to reflect heat back up
+6. Screed, underfloor-heating cord, self-levelling pour
+7. Sheath the walls in plasterboard or aqua panel, framed or frameless
+8. Finish: stretch ceiling, painted walls
+
+> **⚠️ The floor build-up depends on the covering, and the two diverge a lot.** **With screed, for tile**: raises the floor **10–12 cm** off the base and needs a strong mix (ЦПС 300 or cast concrete). **On 50 mm joists with пеноплекс between and plywood over, for laminate**: **60–70 mm** total, and can be warmed with infrared film instead.
+>
+> **⚠️ And one material caution that applies whatever the build-up**: direct sunlight on a balcony fades finishes, so choose for it.
+
+`single-account`, `unverified` — one contractor's sequence, not corroborated here. [source: [[_Sources/YT_Y1auAmyqKo0_palmiradom_ppr_works_sequence|YT_Y1auAmyqKo0]]]
 
 ## ⚠️ Disagreement: Quartz-Vinyl Laminate Over a Heated Loggia Floor (independent individual DIY source, added 2026-08-25)
 

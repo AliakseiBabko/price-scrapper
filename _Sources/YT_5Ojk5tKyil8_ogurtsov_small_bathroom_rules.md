@@ -118,11 +118,15 @@ Soviet standards never allowed for one. His options, in order of preference:
 
 ## Routing
 
-- §1 → [[07_Bathroom/analysis/Small_Bathroom_Constraints|Small Bathroom Constraints]] and cross-referenced to [[00_Master/Geometry_Variance_Study|Geometry Variance Study]]
+- §1 → [[07_Bathroom/analysis/Small_Bathroom_Constraints|Small Bathroom Constraints]]
 - §2, §5, §6, §7 → [[07_Bathroom/analysis/Small_Bathroom_Constraints|Small Bathroom Constraints]]
 - §3 → [[13_Surfaces_and_Finishes/analysis/Partition_Construction_and_Wall_Erection|Partition Construction & Wall Erection]]
-- §4 → [[07_Bathroom/analysis/Structure_and_Framing|Structure and Framing]]
+- §4 → [[07_Bathroom/analysis/Small_Bathroom_Constraints|Small Bathroom Constraints]], as the two-fixed-points riser rule (it was written for Structure and Framing and landed here in the small-bathroom split)
 - §8 → **deliberately not routed**
+
+## See also
+
+- [[00_Master/Geometry_Variance_Study|Geometry Variance Study]] — §1's layers arithmetic is the same discipline applied to a wet room: finish build-up is of the same order as the build tolerance. A cross-reference for the reader; nothing from this note was written there.
 
 ## What was NOT taken
 

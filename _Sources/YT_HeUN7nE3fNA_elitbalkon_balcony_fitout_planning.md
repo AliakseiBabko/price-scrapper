@@ -80,8 +80,12 @@ region: Russia (Moscow) - one RUB range, handled per rule 2 below
 
 ## Routing
 
-- §1, §2 → [[10_Balcony/analysis/Materials_Finishes_and_Layout|Materials, Finishes & Layout]] and cross-referenced to [[09_Laundry_Room/analysis/Essential_Components_and_Layout|Laundry — Essential Components & Layout]]
+- §1, §2 → [[10_Balcony/analysis/Materials_Finishes_and_Layout|Materials, Finishes & Layout]]
 - §3 → [[10_Balcony/analysis/Materials_Finishes_and_Layout|Materials, Finishes & Layout]]
+
+## See also
+
+- [[09_Laundry_Room/analysis/Essential_Components_and_Layout|Laundry — Essential Components & Layout]] — the balcony-laundry overlap makes §1 and §2 worth reading beside it. A cross-reference for the reader; nothing from this note was written there.
 
 ## What was NOT taken
 

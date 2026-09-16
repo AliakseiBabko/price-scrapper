@@ -47,6 +47,21 @@ source** — all three attribute the floor primarily to the same underlying
 physical mechanism (material drying/curing times cannot be compressed),
 not to labor availability or company-specific pace.
 
+### ⚠️⚠️ A fourth source lands far LOWER — and the gap is scope, not disagreement about pace
+
+**Пальмира-Дом: a total renovation *«от 1.5 месяцев»*, and his own plan run strictly sequentially he estimates at ~4 months.** **That is less than half the three figures above, so it must not be averaged with them.**
+
+> **→ ⚠️ The reconciling detail is what is being counted.** His figure is for the **works sequence (ППР)** — the trades from demolition to finish. **The 6–9-month figures are for a full design-project renovation**, which includes design, procurement and long-lead items, and are drawn from a business-class-or-above segment. **Compare like with like, or this reads as a contradiction it is not.**
+
+> **⚠️⚠️ THE TRANSFERABLE PART IS NOT HIS NUMBER BUT HIS TWO CONSTRAINTS ON PARALLELISATION**, which convert "how long" from a quoted figure into a function of the flat:
+>
+> 1. **FLOOR AREA** — how many trades can physically work at once without obstructing each other.
+> 2. **THE BRIEF** — what is in scope and what is left out.
+>
+> **Stages he actually overlaps**: block walls + door openings + radiator removal; first-fix electrical + plumbing; ventilation; balcony insulation; plasterboard + soundproofing; reveals and windowsills; and near the end, second-fix plumbing + splashback + kitchen after the stretch ceilings. **He gives two worked variants that turn on whether the kitchen floor is tile or laminate** — i.e. a single finish choice moves the critical path.
+
+`single-account`, `unverified`, and a different scope from the three above. [source: [[_Sources/YT_Y1auAmyqKo0_palmiradom_ppr_works_sequence|YT_Y1auAmyqKo0]]]
+
 ## Why It Takes This Long: The Physical Mechanism
 
 Both MaxDar and ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ independently give the same root
