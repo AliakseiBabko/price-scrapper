@@ -5,11 +5,25 @@ The owner, 2026-09-07: "for manually reviewing your results, for each outlet or
 switch provide the index of the image you based your positioning on. If you
 investigated two images, mention both IDs."
 
-That request forced an honest count. Of 13 socket positions, 8 have some
-photographic basis and 5 have NONE - I chose a plausible fraction along a wall
-and drew it. Those now say `НЕТ ФОТО` on the sheet instead of looking like the
+That request forced an honest count.
+
+⚠️ COUNT CORRECTED 2026-09-16. This header read "8 have some photographic basis
+and 5 have NONE", which is STALE for the current 13 socket/power rows and was
+about to manufacture three extra "no photo" classifications during the services
+migration. Verified against the literals below, not against this paragraph:
+
+    9 PHOTO-BACKED   S1 S2 S4 S5 S6 S7 S8 S9, and S3 (photos AND the owner)
+    2 OWNER-ONLY     S17 S18 - no photo, but the owner states the count
+    2 NEITHER        S12 S13 - `НЕТ ФОТО`, a plausible fraction along a wall,
+                     chosen by me and supported by nothing external
+
+The rows with neither say `НЕТ ФОТО` on the sheet instead of looking like the
 others. The review table is written to
 data/outputs/review/electrical_placement_review.csv for him to mark up.
+
+⚠️ The freeze banner below forbids adding AUTHORED FACTS here. Correcting a
+statement that was factually wrong about the file's own contents is not adding
+one - and leaving it would have fed a wrong count into the migration.
 """
 #
 # ⚠️⚠️ FROZEN 2026-09-16 — DO NOT ADD AUTHORED FACTS TO THE LISTS BELOW.
