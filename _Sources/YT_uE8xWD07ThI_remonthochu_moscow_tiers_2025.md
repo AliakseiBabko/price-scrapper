@@ -99,11 +99,7 @@ fx_basis: USD/RUB 80.61, trailing-6-month arithmetic mean to 2025-10-06, 124 dai
 
 ## Routing
 
-- §1 → [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers: Cheap / Optimal / Premium]]
-- §2, §3 → [[11_Budget_and_Planning/analysis/Cost_Benchmarks_Live_Intake|Cost Benchmarks — Live Intake]]
-- §4 → [[11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models|Cost Categories & Delivery Models]]
-- §5 → [[11_Budget_and_Planning/analysis/cost_saving_strategies_full|Cost-Saving Strategies]] and cross-referenced to [[00_Master/Planning_Project_Deliverable_Set|Planning Project Deliverable Set]]
-
+- §1, §2, §3, §4, §5 → [[11_Budget_and_Planning/analysis/Moscow_Per_Square_Metre_Benchmarks|Moscow Per Square Metre Benchmarks]] (transferred during Moscow benchmarks split)
 ## What was NOT taken
 
 - The unquantified "save up to 30%" promise (§5).

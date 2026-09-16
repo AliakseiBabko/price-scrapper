@@ -46,7 +46,7 @@ region: not_resolved_to_a_country - no pricing and no jurisdiction-specific clai
 
 > **→ ⚠️⚠️ THIRD ARRIVAL on the claw mechanism.** Already held: Шеврина (bouclé, ribbed velvet) and ARMOS (рогожка explicitly). Якоби makes three, [[_Sources/YT_1UGUjGmZPNA_pinskdrev_sofa_fabric_guide|Пинскдрев]] in the same batch makes four. **Four unrelated sources — a designer, a bed manufacturer, a re-upholsterer and a sofa factory — name the same physical mechanism and split the same way on which fabrics fail it. This is now the best-corroborated furniture finding in the vault.**
 >
-> ⚠️ **And note the tension it creates internally**: [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]] recommends рогожка on AESTHETIC grounds (texture, visible weave, avoiding flat monotone). **Both can be true. The page must not read as if the vault likes рогожка without qualification.**
+> ⚠️ **And note the tension it creates internally**: Loose Furniture Selection Principles recommends рогожка on AESTHETIC grounds (texture, visible weave, avoiding flat monotone). **Both can be true. The page must not read as if the vault likes рогожка without qualification.**
 
 ## ⚠️ 3. Eco-leather — where it works, and the cost of putting it where it does not
 
@@ -65,7 +65,7 @@ Before choosing, he says to settle **who and what will actually be on this piece
 ## Routing
 
 - §1, §2, §3, §4 → [[14_Furniture/analysis/Upholstery_Fabric_Selection|Upholstery Fabric Selection]] (new page)
-- §1 also flagged against the existing anti-vandal claim in [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]]
+- §1 also flagged against the existing anti-vandal claim in Loose Furniture Selection Principles
 
 ## What was NOT taken
 

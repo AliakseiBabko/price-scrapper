@@ -48,7 +48,7 @@ region: not_resolved_to_a_country - Russian-language maker, no city named, no pr
 - **The cabinet is fixed at SIX points: four angle brackets at the top, two concealed at the bottom, on long anchors.** *«Огромный запас прочности, кровать не расшатать.»*
 - **⚠️⚠️ If the wall is gypsolite, warmite, sibit or similar aerated block and anchors will not hold, they use CHEMICAL ANCHORS — *«с ними проблем никогда не было, они держат в любой поверхности, даже в полом кирпиче»*.**
 
-> **→ ⚠️⚠️ DIRECTLY A PHASE-1 BUILD CONSTRAINT FOR THIS PROJECT, whose plan installs the unit and its supporting cavity during the current renovation.** **The wall it fixes to has to be decided, and specified to take six anchor points, at rough stage — see [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]' Household Plan.**
+> **→ ⚠️⚠️ DIRECTLY A PHASE-1 BUILD CONSTRAINT FOR THIS PROJECT, whose plan installs the unit and its supporting cavity during the current renovation.** **The wall it fixes to has to be decided, and specified to take six anchor points, at rough stage — see Bedroom Design Principles' Household Plan.**
 
 ## ⚠️⚠️ 4. The base is PLYWOOD, not metal — and the reason is the mechanism
 
@@ -81,7 +81,7 @@ region: not_resolved_to_a_country - Russian-language maker, no city named, no pr
 
 - §1, §4, §5 → [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanism Selection and Reliability]]
 - §2, §3, §6 → same page
-- §3's fixing constraint → also flagged to [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]] as a Phase-1 build item
+- §3's fixing constraint → also flagged to Bedroom Design Principles as a Phase-1 build item
 
 ## What was NOT taken
 
