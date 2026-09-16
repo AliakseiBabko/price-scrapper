@@ -10,11 +10,21 @@ data covers the old. Coverage is proved against LOCATORS instead:
   2. EVERY new fact cites at least one source locator, or is marked as an
      explicit NEW DECISION with a stated author.
   3. Every cited locator exists in the ledger.
-  4. ⚠️ A GROUPED observation may not be partially split. `E-KL-SOC-K` is
-     "socket outlets, count 3" - if it becomes occurrences, it becomes as many
-     as the grouping decision states, and that decision is recorded. Two
-     occurrences from a count of three is the failure this catches, and it is
-     silent in every other check because both numbers are plausible.
+  4. ⚠️ A source of known multiplicity may not be PARTIALLY split into
+     occurrences. `E-KL-SOC-K` is "socket outlets, count 3": if it becomes
+     occurrences it becomes as many as `occurrence_split_count` states. Two
+     from a count of three is silent in every other check, because both
+     numbers are plausible.
+
+     ⚠️ It counts OCCURRENCES ONLY. One source legitimately produces an
+     observation, several occurrences, several value records and an approval -
+     comparing all of those against "3" would reject the schema's intended
+     one-to-many mapping. `target_concept` on each new fact decides what counts.
+
+     ⚠️ And uncertain multiplicity is NOT a split. `E-KL-SOC-W` is "count 2-3,
+     low + one mid": it stays an observation, carrying count_min, count_max and
+     the raw vertical text, until somebody decides how many terminals there
+     are. A range must never be silently resolved to a number.
 
 ⚠️ THIS GATE IS EXPECTED TO FAIL TODAY, and that is the point: 74 locators are
 enumerated and none is yet classified. It fails until the classification is
@@ -33,7 +43,11 @@ REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 LEDGER = os.path.join(REPO, "_Inbox", "migration",
                       "services_migration_ledger.csv")
 
-VALID = {"migrated", "duplicate", "contradicted", "retracted", "unresolved"}
+VALID = {"migrated", "duplicate", "contradicted", "retracted", "out_of_scope",
+         "unresolved"}
+# `out_of_scope` exists because not every captured line is a service fact:
+# migration policy, drawing-label feedback and notes about the code all appear
+# in the same comment blocks. Calling those `duplicate` would be dishonest.
 RESOLVED = VALID - {"unresolved"}
 
 
@@ -89,28 +103,47 @@ def check(ledger_rows, new_facts=None, require_complete=False):
 
     # 4 - a grouped observation may not be partially split
     for locator, row in seen.items():
-        if row.get("grouped") != "yes":
+        # Only a source with a KNOWN multiplicity can be checked for a partial
+        # split. A `range` is deliberately exempt: it has no right answer yet,
+        # and the check that matters for it is that it produced no occurrences
+        # at all.
+        multiplicity = (row.get("multiplicity") or "").strip()
+        if multiplicity not in ("exact_n", "range"):
             continue
+        # OCCURRENCES only. An observation, value records and approvals from the
+        # same source are expected and must not count against the split.
         derived = [f for f in new_facts
-                   if locator in (f.get("source_locators") or "")]
+                   if locator in (f.get("source_locators") or "")
+                   and (f.get("target_concept") or "") == "occurrence"]
         if not derived:
             continue
-        stated = (row.get("split_into") or "").strip()
+        if multiplicity == "range" and derived:
+            problems.append(
+                "source %s has an UNCERTAIN multiplicity (%s-%s) but produced %d "
+                "occurrence(s); a range must be decided before it is split, not "
+                "resolved to a number by the migration"
+                % (locator, row.get("count_min"), row.get("count_max"), len(derived)))
+            continue
+
+        stated = (row.get("occurrence_split_count") or "").strip()
         if not stated:
             problems.append(
-                "grouped observation %s produced %d record(s) but the ledger does "
+                "source %s produced %d occurrence(s) but the ledger does "
                 "not state how many it splits into - the grouping decision has to "
                 "be explicit before it is split"
                 % (locator, len(derived)))
         elif stated.isdigit() and int(stated) != len(derived):
             problems.append(
-                "grouped observation %s splits into %s by the ledger but produced "
+                "source %s splits into %s occurrence(s) by the ledger but produced "
                 "%d record(s)" % (locator, stated, len(derived)))
 
     summary = {
         "locators": len(seen),
         "unresolved": len(unresolved),
-        "grouped": sum(1 for v in seen.values() if v.get("grouped") == "yes"),
+        "exact_n": sum(1 for v in seen.values()
+                       if (v.get("multiplicity") or "") == "exact_n"),
+        "range": sum(1 for v in seen.values()
+                     if (v.get("multiplicity") or "") == "range"),
         "new_facts": len(new_facts),
     }
     return problems, summary
@@ -130,9 +163,9 @@ def main() -> int:
         return 2
 
     problems, summary = check(rows, require_complete=a.require_complete)
-    print("locators %d | unresolved %d | grouped %d | new facts %d"
-          % (summary["locators"], summary["unresolved"],
-             summary["grouped"], summary["new_facts"]))
+    print("locators %d | unresolved %d | exact_n %d | range %d | new facts %d"
+          % (summary["locators"], summary["unresolved"], summary["exact_n"],
+             summary["range"], summary["new_facts"]))
     for problem in problems:
         print("  " + problem)
     print("PASS" if not problems else "FAIL")
