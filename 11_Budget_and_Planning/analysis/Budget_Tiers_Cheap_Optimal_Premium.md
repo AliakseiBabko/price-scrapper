@@ -205,6 +205,49 @@ it is an entry-level promotional anchor framed with *«всего за»*. **No 
 attached; normalising a sales headline would give it a precision it does not
 have.** [source: [[_Sources/YT_jZAAwUZVb0I_progressdesign_spec_and_cost_structure|YT_jZAAwUZVb0I]]]
 
+## ⚠️⚠️ Pricing the ALTERNATIVE — valuing recovered floor area (Progress Design, added 2026-09-16)
+
+**Every other costing on this page prices what you buy. This one prices what you
+would otherwise have had to buy — in the unit a flat is actually sold in.**
+
+A maker's argument for transformer furniture: a separate sofa (**1.44 m²**) plus a
+stationary double bed (**2.8 m²**) occupy **4.24 m²** permanently; a wall bed
+folded occupies **1.44 m²**, the same as the sofa alone. **Daytime area recovered:
+2.8 m².** At his stated Moscow secondary-market rate of **325,000 RUB/m²
+(≈ $3,500)**, that area is worth **910,000 RUB (≈ $9,900)**.
+
+> **→ ⚠️⚠️ THE METHOD IS WORTH KEEPING AND GENERALISES WELL BEYOND WALL BEDS** — to
+> a walk-in closet, a boot room, a second bathroom, anything that consumes
+> permanent floor area. **It turns "is fitted furniture worth it" into an
+> arithmetic instead of a taste argument.**
+
+**⚠️⚠️ THREE CORRECTIONS BEFORE REUSING IT, because as presented it is a sales
+argument:**
+
+1. **He never subtracts the cost of the furniture.** The 910,000 is stated as
+   money *«которые вы не тратите»*, but the unit is not free — **the same firm's
+   own walkthrough puts a bed-plus-sofa at 115,000 RUB plus the 10 per cent
+   assembly charge recorded above.** The honest form is a NET figure, **and it
+   still favours him**, which makes the omission gratuitous rather than necessary.
+2. **⚠️⚠️ Floor area is not purchasable in 2.8 m² increments.** You buy a
+   differently-sized flat, in whatever steps the market offers. **This is an
+   OPPORTUNITY-COST VALUATION, not a saving — no money moves.** A legitimate way
+   to value space; an illegitimate way to describe cash, which is how he
+   describes it.
+3. **The area is recovered BY DAY ONLY** — at night the bed occupies it again. A
+   competing maker says so plainly: deployed, *«места больше нет»*. **The fair
+   statement is that the device converts a permanent cost into a nightly one.**
+
+> ⚠️ **RULE 2: region resolves (Moscow secondary market, within the МКАД, stated
+> explicitly); the YEAR does not — he says only *«по последним данным»*, citing
+> unnamed portals — so publication bounds it, `upper_bound_from_publication`,
+> 2025-05-26.** USD via `tools/pricing/currency_converter.py` at **USD/RUB
+> 91.7044**, trailing-6-month mean to the publish date over 119 samples, rounded
+> per the vault convention. **⚠️⚠️ NOT transferred to this Belarusian project —
+> substitute a local per-m² figure and re-derive.** ⚠️ **And it is a furniture
+> seller quoting a property statistic he has an interest in maximising: tagged
+> `unverified`.** [source: [[_Sources/YT_DTVaEz_t5nk_progressdesign_floor_area_opportunity_cost|YT_DTVaEz_t5nk]]]
+
 ## Moscow per-m² benchmark ladders — moved to their own page
 
 The three Moscow contractors' per-m² figure sets (Безверхая's premium whole-project figures, РемонтХочу's 2025 finishing-only ladder, and Иващенко's five-class whole-interior ladder) moved to [[11_Budget_and_Planning/analysis/Moscow_Per_Square_Metre_Benchmarks|Moscow Per-m² Cost Benchmarks]] on 2026-09-14, when this page reached 399 lines. **They were moved together rather than separately because the finding that matters is the disagreement between them, and the reason for it — SCOPE is a third axis alongside location and year.**

@@ -100,6 +100,34 @@ selection logic but are mechanically distinct devices.
   delivery or from commissioning, and whether the gas struts can be bought or
   replaced separately later. Struts are a wear part and the cheapest component
   in the assembly. [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
+- **⚠️⚠️ A FITTER PLANS FOR STRUT REPLACEMENT AT ABOUT FIVE YEARS — an order of
+  magnitude sooner than the catalogues imply, and it changes which number to plan
+  around.** While removing the transport straps after fitting the struts, a
+  different maker tells his fitters to keep them: *«ремни никуда не выбрасываем,
+  оставляем их — если надо будет заменить газлифты впоследствии, ЛЕТ ЧЕРЕЗ ПЯТЬ,
+  нужны будут ремни»*. **He is not disputing the 20,000–30,000 cycle ratings; he
+  is assuming replacement long before they are reached.** **→ Both can be true,
+  and the reconciliation is the point: A CYCLE RATING IS NOT A SERVICE LIFE.** A
+  gas strut loses charge with age and temperature whether or not it is cycled, so
+  the binding limit is plausibly AGE rather than use. ⚠️ **Neither source says
+  that outright — it is inference and flagged as such.** **⚠️⚠️ AND THIS PAGE
+  ALREADY AGREED WITH HIM — the Selection Criteria section above records a
+  *"typical 5-10 year rated service life"* for gas struts, from an unrelated
+  source, and it has been sitting there since the 2026-08-25 batch.** **So five
+  years is a THIRD arrival at an age-based limit, and it is the 20,000–30,000
+  CYCLE ratings that are the outlier — not because they are false, but because
+  they measure the wrong thing for a household.** **→ Plan around the 5–10 year
+  figure, and treat a cycle count as a durability claim about the mechanism
+  rather than as a replacement interval.** **→ For this project it
+  sharpens an existing conclusion: installing now and activating in Phase 2
+  (~3–4 years) could bring the bed into daily use with struts already near
+  replacement, so "can these struts be bought separately, and for how much" is a
+  question to settle BEFORE ordering.** [source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]
+- **⚠️⚠️ AND KEEP THE TRANSPORT STRAPS — they are the tool for that job.** With
+  the struts off and nothing restraining it the leaf is dangerous; the straps that
+  held it shut in transit are what makes a strut change safe. **They must be kept
+  and their location recorded — nobody who has not been told would keep them.**
+  [source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]
 - **⚠️⚠️ THE WARRANTY IS NOT ONE NUMBER — frame and mechanism are warranted
   separately, and by more than a factor of three.** The same maker states a
   **10-year warranty on the frame** (one-piece welded steel, rated 600 kg, and
@@ -123,6 +151,17 @@ selection logic but are mechanically distinct devices.
   and it settled. He adds that the mechanism manufacturer itself recommends
   buying several force ratings, because only trial establishes which one a
   given bed needs. [source: [[_Sources/YT_qMGSfO-glvc_freedom_wallbed_drawbacks_and_struts|YT_qMGSfO-glvc]]]
+
+  > **⚠️⚠️ CORRECTION, 2026-09-16 — THE TEST IS ONLY VALID WITH THE MATTRESS
+  > FITTED, and as written above it could fail a perfectly good bed.** The same
+  > maker's filmed installation shows an unmattressed bed **rising by itself
+  > repeatedly** — *«без матраса она будет подниматься»* — and the fitters weight
+  > it with a suitcase to hold it down. Only once a mattress is on does he point
+  > to the neutral position: *«с матрасом НУЛЕВАЯ ТОЧКА где-то будет здесь,
+  > дальше она будет закрываться сама»*. **Self-lift without a mattress is normal
+  > and expected, because the strut is sized FOR the mattress.** **→ So judge the
+  > zero point with the actual mattress in place, and do not accept or reject a
+  > bed at a handover that happens before the mattress arrives.** [source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]
 - **⚠️⚠️ The same failure reached from the opposite budget, which is what makes
   it a rule**: a household that built its own wall bed over-specified the
   struts and had to **weigh the bed down with dumbbells**, because otherwise it

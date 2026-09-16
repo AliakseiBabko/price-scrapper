@@ -1318,3 +1318,16 @@ KgBcJ4zAHi8
 oT4828iDsSk
 VYmnD-tHevM
 KgVCayGMspo
+
+# ---- Wall-bed round 2, 2026-09-16 (429 cleared - it was a missing curl_cffi, not a quota) ----
+cZNP6TaUyCU
+A62N5d7_4Wg
+9TfkqxJjRxI
+DTVaEz_t5nk
+o6_HwxwZau4
+# UNFETCHABLE -TXuqiSuwDU - no caption track (manual or auto) in any language, probed 2026-09-14
+# and again 2026-09-16 via yt-dlp extract_info; 24 s long, so almost certainly a silent clip.
+# UNFETCHABLE 0OwOoRAWVHM - no caption track (manual or auto) in any language, probed 2026-09-16
+# via yt-dlp extract_info, despite 2 min 48 s runtime. Was the FREE_DOM triage's top pick.
+-TXuqiSuwDU
+0OwOoRAWVHM
