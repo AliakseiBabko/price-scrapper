@@ -59,3 +59,6 @@ _Precedents/**/*.png
 _Precedents/**/*.webp
 !_Precedents/**/manifest.csv
 !_Precedents/**/README.md
+
+# Playwright MCP scratch output from viewer verification
+.playwright-mcp/
