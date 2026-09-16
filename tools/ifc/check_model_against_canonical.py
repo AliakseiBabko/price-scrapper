@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Assert the generated IFC back against the canonical tables it claims to come from.
 
-`model_from_dxf.py` builds the model from the gated DXF and the canonical CSVs.
+`model_from_resolved.py` builds the model from the geometry compiler.
 That is only worth anything if the result is checked: the defect this whole
 exercise started from - a schematic silently disagreeing with the measured
 geometry - was invisible precisely because NOTHING read the file the model was
@@ -227,36 +227,61 @@ def check(ifc_path: Path) -> list[str]:
     # corner leaves min and max untouched. That is precisely how the IFC came to
     # restore 5,710 mm2 on M2 and 5,707 mm2 on M6b with every gate passing, on
     # both sides. Area is the measure that sees it.
-    if rv is not None and getattr(resolved, "plan_polygons", None):
+    if rv is not None and getattr(resolved, "body_polygons", None):
         def _area(points):
             n = len(points)
             return abs(sum(points[i][0] * points[(i + 1) % n][1]
                            - points[(i + 1) % n][0] * points[i][1]
                            for i in range(n))) / 2.0
 
+        def _canonical(points, scale=1.0, dx=0.0, dy=0.0):
+            """A polygon reduced to a comparable form: identity, not resemblance.
+
+            Rounded to 0.1 mm, closing duplicate dropped, rotated so the
+            lexicographically smallest vertex leads, and normalised for winding
+            direction. Two polygons with the same canonical form ARE the same
+            polygon - which area alone cannot tell you, because a different
+            shape can have the same area and the same bounding box.
+            """
+            # ⚠️ The IFC is in metres from a shifted origin; the compiler is in
+            # millimetres on the drawing's own. Comparing without restoring the
+            # offset reports every wall as different while area and corner count
+            # match exactly - which is what it did on the first run.
+            pts = [(round(p[0] * scale + dx, 1), round(p[1] * scale + dy, 1))
+                   for p in points]
+            if len(pts) > 1 and pts[0] == pts[-1]:
+                pts = pts[:-1]
+            if not pts:
+                return ()
+            forward = min(range(len(pts)), key=lambda i: pts[i:] + pts[:i])
+            fwd = tuple(pts[forward:] + pts[:forward])
+            rev_pts = list(reversed(pts))
+            backward = min(range(len(rev_pts)), key=lambda i: rev_pts[i:] + rev_pts[:i])
+            rev = tuple(rev_pts[backward:] + rev_pts[:backward])
+            return min(fwd, rev)
+
         for wall in model.by_type("IfcWall"):
-            want_poly = resolved.plan_polygons.get(wall.Name)
+            # Compared against the BODY polygon, which is the compiler's own
+            # 3D footprint - the plan polygon extended across any doorway. The
+            # extension is therefore expected geometry rather than an allowance
+            # this check has to guess at.
+            want_poly = resolved.body_polygons.get(wall.Name)
             if not want_poly:
                 continue
             curve = (wall.Representation.Representations[0]
                      .Items[0].SweptArea.OuterCurve)
             got = [tuple(p.Coordinates) for p in curve.Points]
-            if len(got) > 1 and got[0] == got[-1]:
-                got = got[:-1]
-            got_mm2 = _area(got) * 1e6
-            want_mm2 = _area(want_poly)
-            # A wall extended across a doorway is legitimately LARGER, by the
-            # opening it spans. Nothing may be smaller than its plan polygon,
-            # and nothing may exceed it by more than that extension.
-            grow = max(openings_in.get(wall.Name, [0.0]) or [0.0])
-            thickness = recorded.get(wall.Name) or 0.0
-            allowance = grow * thickness
-            if got_mm2 < want_mm2 - AREA_TOL_MM2 or got_mm2 > want_mm2 + allowance + AREA_TOL_MM2:
+            if _canonical(got, 1000.0, off_x, off_y) != _canonical(want_poly):
+                got_mm2 = _area([(p[0] * 1000.0 + off_x, p[1] * 1000.0 + off_y)
+                                 for p in got])
+                want_mm2 = _area(want_poly)
                 problems.append(
-                    "wall %s footprint %.0f mm2 against the resolved plan polygon's "
-                    "%.0f mm2 (allowance for an opening extension: %.0f mm2) - a "
-                    "mitre squared back is invisible to a bounding box, so area is "
-                    "what catches it" % (wall.Name, got_mm2, want_mm2, allowance))
+                    "wall %s footprint differs from the compiler's body polygon: "
+                    "%d corners / %.0f mm2 against %d corners / %.0f mm2. Area is "
+                    "reported as a diagnostic - the test is exact polygon identity, "
+                    "because a different shape can share both area and bounding box"
+                    % (wall.Name, len(set(got)), got_mm2,
+                       len(want_poly), want_mm2))
 
     # 3 - opening verticals against wall_openings.csv
     want_open = {}

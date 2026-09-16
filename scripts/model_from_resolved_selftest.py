@@ -10,7 +10,7 @@ at the wrong height (the defect that started all this: window panes on the
 floor), a ventilation shaft counted as a wall (which would corrupt every finish
 take-off), and a fill outside its own opening.
 
-    .venv-ifc314\\Scripts\\python.exe scripts/model_from_dxf_selftest.py
+    .venv-ifc314\\Scripts\\python.exe scripts/model_from_resolved_selftest.py
 """
 from __future__ import annotations
 

@@ -77,9 +77,22 @@ class ResolvedGeometry(object):
         self.blocks = blocks
         # Each rule's own return value, verbatim, for consumers that print it.
         self.raw = raw or {}
-        # wall_id -> exact plan footprint, mitred where it meets the glazing
-        # plane. The bounding box is available from it, not instead of it.
+        # wall_id -> exact PLAN footprint, mitred where it meets the glazing
+        # plane. This is the 2D section: a doorway reads as the wall stopping.
         self.plan_polygons = {}
+        # wall_id -> the semantic BODY for 3D: the plan polygon extended across
+        # any doorway, because the block continues over a door head and a plan
+        # cannot say so. The two differ, deliberately, and both are published.
+        self.body_polygons = {}
+        # elements, each keeping its own semantic id rather than being an
+        # anonymous rectangle
+        self.openings = []
+        self.shafts = []
+        self.window_frames = []
+        self.loggia_bays = []
+        # wall_id -> {face_role: face record}. A locator is
+        # host_id + face_ref + along_face_mm + height, with the datum explicit.
+        self.faces = {}
 
     def wall(self, wall_id):
         for w in self.walls:
@@ -403,6 +416,281 @@ def wall_plan_polygon(w, clip):
     return loop, False, 0.0
 
 
+OPENINGS_PLACED = _canon("v0_openings_placed.json")
+OPENING_NOTES = _canon("wall_openings.csv")
+SHAFTS = _canon("ventilation_shafts.csv")
+WINDOW_FRAMES = _canon("window_frames.csv")
+
+
+def _rect(x0, y0, x1, y1):
+    return [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+
+
+def _bbox(poly):
+    xs = [p[0] for p in poly]
+    ys = [p[1] for p in poly]
+    return min(xs), min(ys), max(xs), max(ys)
+
+
+def load_openings(glazing=None):
+    """Placed openings, with their SEMANTIC IDs, straight from the vector.
+
+    Not anonymous rectangles: every opening keeps `opening_id`, its kind from
+    `wall_openings.csv` and the wall the record hosts it in, so a consumer can
+    say which opening it is rather than only where it is. ⚠️ O9 is DIAGONAL and
+    carries no axis-aligned face pair - it is returned with `axis: DIAGONAL`
+    and no polygon, because the лоджия glazing block is the only thing that
+    knows its rotation.
+    """
+    if not os.path.exists(OPENINGS_PLACED):
+        return [], []
+    notes = {}
+    if os.path.exists(OPENING_NOTES):
+        with io.open(OPENING_NOTES, encoding="utf-8") as fh:
+            notes = {r["opening_id"]: r for r in csv.DictReader(fh)}
+    with io.open(OPENINGS_PLACED, encoding="utf-8") as fh:
+        placed = json.load(fh)
+    out = []
+    for o in placed.get("openings", []):
+        note = notes.get(o["opening_id"], {})
+        rec = {
+            "opening_id": o["opening_id"],
+            "axis": o.get("axis"),
+            "kind": note.get("type", "opening"),
+            "recorded_wall": (note.get("in_wall_or_divider") or "").strip(),
+            "polygon": None,
+        }
+        if o.get("axis") == "EW":
+            rec["polygon"] = _rect(o["from_mm"], o["face_lo_mm"], o["to_mm"], o["face_hi_mm"])
+        elif o.get("axis") == "NS":
+            rec["polygon"] = _rect(o["face_lo_mm"], o["from_mm"], o["face_hi_mm"], o["to_mm"])
+        elif o.get("axis") == "DIAGONAL" and glazing is not None:
+            # O9 is an opening in its own right - owner, 2026-09-15: "draw it as
+            # another opening". It was once exported only as frame, bays and
+            # mullions, so the single element that actually breaks the лоджия
+            # enclosure carried no opening entity at all.
+            rec["polygon"] = loggia_band(glazing, 0.0, glazing["run_mm"])
+        out.append(rec)
+    return out, [u["opening_id"] for u in placed.get("unplaced", [])]
+
+
+def load_shafts():
+    """Ventilation shafts, by id. NOT walls - the DXF legend says so, and
+    counting one as wall area would corrupt every finish take-off."""
+    if not os.path.exists(SHAFTS):
+        return []
+    out = []
+    with io.open(SHAFTS, encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            out.append({
+                "shaft_id": r["shaft_id"],
+                "polygon": _rect(float(r["x0_mm"]), float(r["y0_mm"]),
+                                 float(r["x1_mm"]), float(r["y1_mm"])),
+                "room": r.get("room", ""),
+                "channels": r.get("channels", ""),
+            })
+    return out
+
+
+def load_window_frames(openings):
+    """Frame members, each tied to the OPENING it divides.
+
+    The member's vertical extent is the opening's, not the storey's - drawn
+    0 to ceiling they read as full-height posts standing in front of each
+    window, which is what they did until 2026-09-16.
+    """
+    if not os.path.exists(WINDOW_FRAMES) or not os.path.exists(OPENINGS_PLACED):
+        return []
+    with io.open(OPENINGS_PLACED, encoding="utf-8") as fh:
+        placed = {o["opening_id"]: o for o in json.load(fh).get("openings", [])}
+    out = []
+    with io.open(WINDOW_FRAMES, encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            o = placed.get(r["opening_id"])
+            if not o or o.get("axis") not in ("EW", "NS"):
+                continue
+            span = float(o["to_mm"]) - float(o["from_mm"])
+            centre = float(o["from_mm"]) + span * float(r["position"])
+            half = float(r["member_mm"]) / 2.0
+            a, b = centre - half, centre + half
+            poly = (_rect(a, o["face_lo_mm"], b, o["face_hi_mm"])
+                    if o["axis"] == "EW"
+                    else _rect(o["face_lo_mm"], a, o["face_hi_mm"], b))
+            out.append({
+                "opening_id": r["opening_id"],
+                "member": r["member"],
+                "axis": r["axis"],
+                "polygon": poly,
+            })
+    return out
+
+
+def loggia_band(gl, p0, p1):
+    """A band across the лоджия glazing assembly, between two positions along
+    its own axis. The assembly is DIAGONAL, so this is the only place that
+    knows its rotation - which is exactly why it belongs in the compiler."""
+    ax, ay = gl["axis_from"]
+    bx, by = gl["axis_to"]
+    length = math.hypot(bx - ax, by - ay)
+    ux, uy = (bx - ax) / length, (by - ay) / length
+    nx, ny = -uy, ux
+    d = gl.get("assembly_depth_mm") or 150.0
+    return [(ax + ux * p0, ay + uy * p0),
+            (ax + ux * p1, ay + uy * p1),
+            (ax + ux * p1 + nx * d, ay + uy * p1 + ny * d),
+            (ax + ux * p0 + nx * d, ay + uy * p0 + ny * d)]
+
+
+def load_loggia_bays(elements):
+    """The лоджия glazing's bays and mullions, in their drawn order.
+
+    ⚠️ The BAY COUNT is an assumption, not a measurement. The pattern - full
+    height, no parapet, one transom at about 1000 - is confirmed from a
+    handover photo of flat 109, whose лоджия is 2.5 m2 against our 6.05, and
+    `wall_openings.csv` states that the pattern transfers while the bay count
+    and widths do not.
+    """
+    gl = elements.get("loggia_glazing")
+    if not gl:
+        return []
+    out = []
+    for idx, bay in enumerate(gl.get("bays", []), 1):
+        out.append({"id": "O9-bay-%d" % idx, "role": "glazing_bay",
+                    "from_mm": bay["from_mm"], "to_mm": bay["to_mm"],
+                    "polygon": loggia_band(gl, bay["from_mm"], bay["to_mm"])})
+    for idx, m in enumerate(gl.get("mullions", []), 1):
+        out.append({"id": "O9-mullion-%d" % idx, "role": "glazing_mullion",
+                    "from_mm": m["from_mm"], "to_mm": m["to_mm"],
+                    "polygon": loggia_band(gl, m["from_mm"], m["to_mm"])})
+    return out
+
+
+def body_polygon(wall_id, plan_poly, was_mitred, extension_rects):
+    """The SEMANTIC wall body for 3D, distinct from the plan section for 2D.
+
+    A plan draws a doorway as the wall stopping; the block continues over the
+    door head, because this flat has no structural lintels. So the body extends
+    across the opening while the plan polygon does not.
+
+    ⚠️ IF A WALL IS BOTH MITRED AND EXTENDED, THIS RAISES rather than guessing.
+    An earlier version chose `extended rectangle if extension else mitred
+    polygon`, which happens to be right today only because no wall has both -
+    and would SILENTLY square a clipped corner the first time one did. That is
+    the same failure class as the bug this whole change exists to fix, so it
+    fails loudly instead of relying on a coincidence holding.
+    """
+    if not extension_rects:
+        return list(plan_poly), "plan polygon unchanged"
+    if was_mitred:
+        raise ValueError(
+            "wall %s is BOTH mitred on the glazing plane AND extended across an "
+            "opening. Unioning a clipped polygon with an extension rectangle is "
+            "not implemented, and choosing one over the other would silently "
+            "restore the mitred corner. Implement the union before this case "
+            "reaches the model." % wall_id)
+    x0, y0, x1, y1 = _bbox(plan_poly)
+    for rect_poly in extension_rects:
+        ex0, ey0, ex1, ey1 = _bbox(rect_poly)
+        x0, y0, x1, y1 = min(x0, ex0), min(y0, ey0), max(x1, ex1), max(y1, ey1)
+    return _rect(x0, y0, x1, y1), "extended across %d opening(s)" % len(extension_rects)
+
+
+FACE_ROLES = ("cross_lo", "cross_hi", "end_from", "end_to", "glazing_cut")
+
+
+def wall_faces(w, plan_poly, was_mitred=False):
+    """A wall's faces as STABLE NAMED RECORDS, not polygon indexes or +1/-1.
+
+    ⚠️ "The wall normal" is not uniquely defined once a wall is mitred - M6b has
+    five corners, and a service on its glazing-plane face has a different
+    outward normal from one on its parallel face. A locator must therefore name
+    the face it means:
+
+        host_id + face_ref + along_face_mm + height (with an explicit datum)
+
+    An index into a polygon would not survive the polygon changing; `+1/-1`
+    cannot express a third face at all. The names are fixed by ROLE:
+
+      cross_lo / cross_hi  the two long faces, low and high on the cross axis
+      end_from / end_to    the two ends, at `from_mm` and `to_mm`
+      glazing_cut          the mitred face, present only where a wall is cut
+                           on the лоджия glazing plane
+
+    Each record carries ordered endpoints, tangent, outward normal, length and
+    role. `along_face_mm` is measured from the face's first endpoint, which is
+    why the endpoints are ORDERED and not just a pair.
+    """
+    x0, y0, x1, y1 = wall_box(w)
+    ew = w["axis"] == "EW"
+    named = {
+        "cross_lo": ((x0, y0), (x1, y0)) if ew else ((x0, y0), (x0, y1)),
+        "cross_hi": ((x0, y1), (x1, y1)) if ew else ((x1, y0), (x1, y1)),
+        "end_from": ((x0, y0), (x0, y1)) if ew else ((x0, y0), (x1, y0)),
+        "end_to": ((x1, y0), (x1, y1)) if ew else ((x0, y1), (x1, y1)),
+    }
+    centre = ((x0 + x1) / 2.0, (y0 + y1) / 2.0)
+    faces = {}
+    for role, (a, b) in named.items():
+        faces[role] = _face_record(role, a, b, centre)
+
+    if was_mitred and plan_poly:
+        # The mitred face is the polygon edge that lies on neither the box's
+        # cross faces nor its ends - i.e. the one the clip introduced.
+        box_edges = {tuple(sorted([tuple(round(v, 3) for v in a),
+                                   tuple(round(v, 3) for v in b)]))
+                     for a, b in named.values()}
+        best = None
+        for i in range(len(plan_poly)):
+            a, b = plan_poly[i], plan_poly[(i + 1) % len(plan_poly)]
+            key = tuple(sorted([tuple(round(v, 3) for v in a),
+                                tuple(round(v, 3) for v in b)]))
+            if key in box_edges:
+                continue
+            if abs(a[0] - b[0]) < 1e-6 or abs(a[1] - b[1]) < 1e-6:
+                continue        # still axis-aligned: a shortened box edge
+            length = math.hypot(b[0] - a[0], b[1] - a[1])
+            if best is None or length > best[0]:
+                best = (length, a, b)
+        if best:
+            faces["glazing_cut"] = _face_record("glazing_cut", best[1], best[2], centre)
+    return faces
+
+
+def _face_record(role, a, b, centre):
+    dx, dy = b[0] - a[0], b[1] - a[1]
+    length = math.hypot(dx, dy)
+    tx, ty = (dx / length, dy / length) if length else (0.0, 0.0)
+    nx, ny = -ty, tx
+    mid = ((a[0] + b[0]) / 2.0, (a[1] + b[1]) / 2.0)
+    # point the normal AWAY from the wall's centre
+    if (mid[0] - centre[0]) * nx + (mid[1] - centre[1]) * ny < 0:
+        nx, ny = -nx, -ny
+    return {
+        "role": role,
+        "endpoints": [tuple(a), tuple(b)],
+        "tangent": (round(tx, 9), round(ty, 9)),
+        "outward_normal": (round(nx, 9), round(ny, 9)),
+        "length_mm": round(length, 3),
+    }
+
+
+def locate_on_face(faces, face_ref, along_face_mm):
+    """A host-local locator resolved to drawing coordinates.
+
+    `host_id + face_ref + along_face_mm` is the service locator this project
+    needs; the height and its datum are carried separately, because a height is
+    not a plan quantity. Raises on an unknown face rather than defaulting to
+    one, since defaulting is how a socket ends up on the wrong side of a wall.
+    """
+    face = faces.get(face_ref)
+    if face is None:
+        raise KeyError("no face %r on this host; available: %s"
+                       % (face_ref, ", ".join(sorted(faces))))
+    (ax, ay), _ = face["endpoints"]
+    tx, ty = face["tangent"]
+    return (ax + tx * along_face_mm, ay + ty * along_face_mm)
+
+
 def _load_blocks():
     with io.open(BLOCKS, encoding="utf-8") as fh:
         return {r["wall_id"]: r for r in csv.DictReader(fh)}
@@ -533,6 +821,67 @@ def _resolve_in_repo(verbose):
                            "area_cut_mm2": round(cut_mm2, 1)})
     report["mitred_walls"] = mitred
 
+    # --- elements, with their semantic ids -------------------------------
+    openings, unplaced = load_openings(elements.get("loggia_glazing"))
+    shafts = load_shafts()
+    frames = load_window_frames(openings)
+    bays = load_loggia_bays(elements)
+
+    # Which openings the plan draws as a GAP between wall segments rather than
+    # as a void inside one. Those are the walls whose BODY extends across the
+    # opening, because the block continues over the door head.
+    boxes = {w["wall_id"]: wall_box(w) for w in walls if w.get("from_mm") is not None}
+
+    def _inside(host_box, poly, tol=1.0):
+        bx0, by0, bx1, by1 = host_box
+        px0, py0, px1, py1 = _bbox(poly)
+        return (px0 >= bx0 - tol and px1 <= bx1 + tol
+                and py0 >= by0 - tol and py1 <= by1 + tol)
+
+    extensions = {}
+    voids = {}
+    for o in openings:
+        if not o["polygon"]:
+            continue
+        host = next((wid for wid, bx in boxes.items() if _inside(bx, o["polygon"])), None)
+        if host:
+            o["hosting"] = "void_in_wall"
+            o["host_wall"] = host
+            voids.setdefault(host, []).append(o["opening_id"])
+        elif o["recorded_wall"] in boxes:
+            o["hosting"] = "gap_between_walls"
+            o["host_wall"] = o["recorded_wall"]
+            extensions.setdefault(o["recorded_wall"], []).append(o)
+        else:
+            o["hosting"] = "spans_between_elements"
+            o["host_wall"] = None
+
+    body = {}
+    extension_record = []
+    for wid, poly in plan.items():
+        rects = [e["polygon"] for e in extensions.get(wid, [])]
+        was_mitred = any(m["wall_id"] == wid for m in mitred)
+        body[wid], why = body_polygon(wid, poly, was_mitred, rects)
+        if rects:
+            extension_record.append({
+                "wall_id": wid,
+                "openings": [e["opening_id"] for e in extensions.get(wid, [])],
+                "why": why,
+            })
+    # Host-local faces, by wall. Named roles, not indexes - see wall_faces.
+    faces = {}
+    for w in walls:
+        if w.get("from_mm") is None:
+            continue
+        wid = w["wall_id"]
+        faces[wid] = wall_faces(w, plan.get(wid),
+                                any(m["wall_id"] == wid for m in mitred))
+
+    report["body_extensions"] = extension_record
+    report["opening_hosting"] = {
+        o["opening_id"]: o.get("hosting", "unplaced") for o in openings}
+    report["unplaced_openings"] = unplaced
+
     report["drawn_vs_solid"] = drawn_vs_solid
     report["drawn_vs_solid_within_15mm"] = sum(
         1 for r in drawn_vs_solid if abs(r["delta_mm"]) <= 15.0)
@@ -543,6 +892,12 @@ def _resolve_in_repo(verbose):
 
     resolved = ResolvedGeometry(walls, authored, report, elements, blocks, raw)
     resolved.plan_polygons = plan
+    resolved.body_polygons = body
+    resolved.openings = openings
+    resolved.shafts = shafts
+    resolved.window_frames = frames
+    resolved.loggia_bays = bays
+    resolved.faces = faces
     return resolved
 
 
