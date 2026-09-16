@@ -114,19 +114,40 @@ def main() -> int:
     expect("a 2-3 range silently resolved is caught", problems, True,
            "UNCERTAIN multiplicity")
 
-    # 6 - a new fact with no provenance at all
+    # 6 - an ASSEMBLY PARENT must not count as one of its components
+    seeded = [dict(r) for r in clean]
+    exact = next(r for r in seeded if r["multiplicity"] == "exact_n"
+                 and r["count_max"] == "3")
+    exact["occurrence_split_count"] = "3"
+    facts = ([{"identity_uuid": "o%d" % i, "target_concept": "occurrence",
+               "source_locators": exact["locator"]} for i in range(3)]
+             + [{"identity_uuid": "asm", "target_concept": "assembly",
+                 "source_locators": exact["locator"]}])
+    problems, _ = check(seeded, new_facts=facts, require_complete=True)
+    expect("an assembly parent is not counted as a component",
+           problems, False)
+
+    # 7 - a concept outside the model
+    problems, _ = check(clean, new_facts=[{"identity_uuid": "x",
+                                           "target_concept": "widget",
+                                           "source_locators": clean[0]["locator"]}],
+                        require_complete=True)
+    expect("an unknown target concept is caught", problems, True,
+           "not one of")
+
+    # 8 - a new fact with no provenance at all
     problems, _ = check(clean, new_facts=[{"identity_uuid": "orphan"}],
                         require_complete=True)
     expect("an untraceable new fact is caught", problems, True, "cites no source")
 
-    # 7 - a new fact citing a locator that does not exist
+    # 9 - a new fact citing a locator that does not exist
     problems, _ = check(clean, new_facts=[{"identity_uuid": "ghost",
                                            "source_locators": "nowhere.csv:1#X"}],
                         require_complete=True)
     expect("a citation to a missing locator is caught", problems, True,
            "does not carry")
 
-    # 8 - `contradicted` without naming what overrides it
+    # 10 - `contradicted` without naming what overrides it
     seeded = [dict(r) for r in clean]
     seeded[0]["disposition"] = "contradicted"
     seeded[0]["disposition_note"] = ""
@@ -134,7 +155,7 @@ def main() -> int:
     expect("`contradicted` with no override named is caught", problems, True,
            "does not name what overrides")
 
-    # 9 - the REAL ledger today, which must still be incomplete
+    # 11 - the REAL ledger today, which must still be incomplete
     problems, summary = check(rows, require_complete=True)
     expect("the real ledger is still unclassified", problems, True, "unresolved")
     print("     (%d locators, %d unresolved, %d exact_n, %d range)"

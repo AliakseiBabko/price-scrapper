@@ -86,6 +86,7 @@ DECISION_WORDS = ("ВЛАДЕЛЕЦ", "владелец", "Owner:", "owner ", "O
 
 FIELDS = ["locator", "source_kind", "raw", "carries",
           "multiplicity", "count_min", "count_max",
+          "reviewed_multiplicity", "reviewed_multiplicity_note",
           "vertical_kind", "vertical_raw",
           "occurrence_split_count", "target_concept",
           "disposition", "disposition_note", "review_position"]
@@ -124,10 +125,18 @@ def _vertical(height_raw):
         return "range", text
     if "~" in text:
         return "approximate", text
-    if re.search(r"\b(low|mid|high)\b", low):
-        # "low + one mid" describes DIFFERENT heights for different items - a
-        # mixed description, not one height. It must not collapse to a number.
+    bands = set(re.findall(r"\b(low|mid|high)\b", low))
+    if len(bands) > 1:
+        # "low + one mid" describes DIFFERENT heights for DIFFERENT items. It is
+        # not one height with uncertainty, so it cannot become a range with a min
+        # and a max either - it needs the grouping decision first.
         return "mixed_qualitative", text
+    if bands:
+        # A single qualitative BAND shared by every item the row describes.
+        # "E-MR-SOC, count 2, height low" is two sockets both low - one band, not
+        # a mixed description. Treating it as mixed overstated the uncertainty on
+        # two of the three rows that carried it.
+        return "band", text
     if re.match(r"^\d+(\.\d+)?$", text):
         return "point", text
     return "unknown", text
@@ -156,6 +165,15 @@ def _rows_from_csv(name):
                 "multiplicity": multiplicity,
                 "count_min": cmin,
                 "count_max": cmax,
+                # ⚠️ PARSED and REVIEWED multiplicity are different things. The
+                # parser reports what the ROW SAYS and never more - service_outlets
+                # has no `count` column at all, so every row there parses as
+                # `unstated`. Classification may resolve that from the row's
+                # complete evidence - "sewer connection, MAIN" plus an observation
+                # of one stack is one occurrence - but it does so HERE, with a
+                # note, rather than by the parser defaulting to `single`.
+                "reviewed_multiplicity": "",
+                "reviewed_multiplicity_note": "",
                 "vertical_kind": vkind,
                 "vertical_raw": vraw,
                 "occurrence_split_count": "",
@@ -190,6 +208,7 @@ def _rows_from_literals():
                 "raw": lines[node.lineno - 1].strip()[:400],
                 "carries": "%d-point polyline" % len(node.value.elts),
                 "multiplicity": "single", "count_min": "1", "count_max": "1",
+                "reviewed_multiplicity": "", "reviewed_multiplicity_note": "",
                 "vertical_kind": "unstated", "vertical_raw": "",
                 "occurrence_split_count": "", "target_concept": "",
                 "disposition": "unresolved", "disposition_note": "",
@@ -209,6 +228,7 @@ def _rows_from_literals():
                 "raw": lines[element.lineno - 1].strip()[:400],
                 "carries": block,
                 "multiplicity": "single", "count_min": "1", "count_max": "1",
+                "reviewed_multiplicity": "", "reviewed_multiplicity_note": "",
                 "vertical_kind": "unstated", "vertical_raw": "",
                 "occurrence_split_count": "", "target_concept": "",
                 "disposition": "unresolved", "disposition_note": "",
@@ -256,6 +276,7 @@ def _rows_from_comment_blocks():
             "carries": "prose; may be a decision, an observation, a retraction, "
                        "or not a service fact at all",
             "multiplicity": "", "count_min": "", "count_max": "",
+            "reviewed_multiplicity": "", "reviewed_multiplicity_note": "",
             "vertical_kind": "", "vertical_raw": "",
             "occurrence_split_count": "", "target_concept": "",
             "disposition": "unresolved", "disposition_note": "",
@@ -290,7 +311,8 @@ def main() -> int:
             for row in csv.DictReader(fh):
                 existing[row["locator"]] = row
     carry = ("disposition", "disposition_note", "target_concept",
-             "occurrence_split_count")
+             "occurrence_split_count", "reviewed_multiplicity",
+             "reviewed_multiplicity_note")
     for row in rows:
         prior = existing.get(row["locator"])
         if prior and (prior.get("disposition") or "") not in ("", "unresolved"):
@@ -313,7 +335,8 @@ def main() -> int:
     for label, test in (
         ("multiplicity range (observation only)", lambda r: r["multiplicity"] == "range"),
         ("multiplicity exact_n (may split)", lambda r: r["multiplicity"] == "exact_n"),
-        ("vertical mixed_qualitative", lambda r: r["vertical_kind"] == "mixed_qualitative"),
+        ("vertical mixed_qualitative (genuinely)", lambda r: r["vertical_kind"] == "mixed_qualitative"),
+        ("vertical band (shared qualitative)", lambda r: r["vertical_kind"] == "band"),
         ("vertical continuous", lambda r: r["vertical_kind"] == "continuous"),
         ("vertical relative", lambda r: r["vertical_kind"] == "relative"),
     ):
