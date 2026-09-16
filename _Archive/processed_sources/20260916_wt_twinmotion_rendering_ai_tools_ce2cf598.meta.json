@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=U4AHDngSb7k",
+  "video_id": "U4AHDngSb7k",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T08:14:53.220737+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ce2cf598cc8184d98b22785e7cd9c24da651d348ce9ff39f6d6e2555cf206c3e",
+  "attempts_before_success": [],
+  "upload_date": "2026-08-01",
+  "upload_date_source": "yt-dlp"
+}

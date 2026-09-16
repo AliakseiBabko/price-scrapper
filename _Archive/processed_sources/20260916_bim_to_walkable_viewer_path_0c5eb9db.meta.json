@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=HV-fbzv4VAU",
+  "video_id": "HV-fbzv4VAU",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T08:13:23.500683+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "0c5eb9db6459f2af7fcff6393074f5946a18af0d620d7464ca806e2f6eb7ad53",
+  "attempts_before_success": [],
+  "upload_date": "2026-08-21",
+  "upload_date_source": "yt-dlp"
+}
