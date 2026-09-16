@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=XL2Dsw7FonM",
+  "video_id": "XL2Dsw7FonM",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T06:39:07.733315+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d68d6e769051873ce97705933e2bb5d164bab289fc731f99f7108b275e33d8b8",
+  "attempts_before_success": [],
+  "upload_date": "2025-09-07",
+  "upload_date_source": "yt-dlp"
+}

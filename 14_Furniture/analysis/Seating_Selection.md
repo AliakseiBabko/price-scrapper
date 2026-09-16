@@ -110,6 +110,13 @@ records about firmness naming — the word is marketing, not a specification.**
 ⚠️ Vendor-filmed, and the same vendor as two other entries in this vault.
 [source: [[_Sources/YT_KgBcJ4zAHi8_progressdesign_seven_year_owner_account|YT_KgBcJ4zAHi8]]]
 
+**⚠️ A FIFTH arrival, from a father explaining why a sofa was not an option for
+two children sharing a room**: *«это был бы какой-нибудь диван… но даже диван с
+ортопедическим матрасом — это не полноценный матрас на кровать. Это НЕ КРОВАТЬ,
+это никогда таким не будет.»* **→ Same distinction the practitioners draw, reached
+by a parent: the objection is not comfort in general but that a sofa cushion is
+not a mattress.** ⚠️ Vendor-filmed, same vendor again. [source: [[_Sources/YT_XL2Dsw7FonM_progressdesign_two_children_wall_beds|YT_XL2Dsw7FonM]]]
+
 [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
 
 ---

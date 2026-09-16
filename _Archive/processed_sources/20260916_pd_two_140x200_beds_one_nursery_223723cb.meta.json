@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=SKJuZZ8eWcg",
+  "video_id": "SKJuZZ8eWcg",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T06:39:25.774172+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "223723cb3efc0463acddf40a749ee5aaea8fb784f5ed7cdbe3aff1396d8906ba",
+  "attempts_before_success": [],
+  "upload_date": "2026-04-12",
+  "upload_date_source": "yt-dlp"
+}

@@ -211,3 +211,71 @@ remain, and the vault now holds enough to state the trade rather than resolve it
 > per-child night-light switch heights follow the bed heads, and a wall bed adds
 > wall-material, anchor and wiring commitments at first fix that a static bed does
 > not.
+
+#### ⚠️⚠️ Evidence added 2026-09-16 — it moves the question, without closing it
+
+**A post-occupancy family review of exactly this configuration — two children,
+one room, two wall beds — supplies both halves of the argument from people living
+in it.** [source: [[_Sources/YT_XL2Dsw7FonM_progressdesign_two_children_wall_beds|YT_XL2Dsw7FonM]]]
+
+**The father states the cost of static beds in the same terms the designer did:**
+
+> *«Если две кровати — это МИНУС ПОЛОВИНА КОМНАТЫ СРАЗУ, плюс добавляется ещё
+> диван, где сидеть, и место кончилось.»*
+
+**And the children state what the recovered floor is actually for:**
+
+> *«Заниматься спортом очень хорошо позволяет. МНОГО МЕСТА здесь. Если бы, конечно,
+> не трансформер, вряд ли бы мы смогли также хорошо на нём заниматься.»*
+
+> **→ ⚠️⚠️ THE PLAY FLOOR IS NOT THEORETICAL. That was the open half of the trade,
+> and it is now evidenced by a household rather than argued from a plan.** **It
+> strengthens the wall-bed side materially.**
+>
+> **→ ⚠️⚠️ AND IT DOES NOT CLOSE THE QUESTION, for one reason: THE AGES.** These
+> children are school-age athletes; in the companion project they are 17 and 11; in
+> the seven-year household the child was 7. **Nothing in this vault, from any
+> source, reports a THREE-YEAR-OLD operating a wall bed — and this project's younger
+> child is 3.** **So the honest form of the decision is: a wall bed here is one an
+> adult folds for the younger child, for roughly the first three years, in exchange
+> for a play floor from day one.**
+>
+> ⚠️ **All of this evidence is vendor-filmed and vendor-selected. The children's
+> and the father's words are their own; the framing around them is a sales video.**
+
+**⚠️ A third option the same source suggests, which is neither of the two above**: in
+one project a **стеллаж-перегородка — a shelving unit used as a room divider** — gave
+two children in one room *«свои границы»* without a partition. **The boundary problem
+is arguably the real problem in a shared room, and it is separable from the bed
+question. Worth solving either way.**
+
+## ⚠️ Shared-room detailing, from three children's projects (Progress Design, added 2026-09-16)
+
+⚠️ **One vendor, vendor-filmed. Details rather than principles, kept because they
+are cheap to specify and easy to miss.** [source: [[_Sources/YT_XL2Dsw7FonM_progressdesign_two_children_wall_beds|YT_XL2Dsw7FonM]]]
+
+- **⚠️⚠️ A SOFT BOLSTER AT THE BED EDGE IS A SHIN GUARD, not styling** — *«чтобы,
+  проходя мимо кровати, не удариться ногой и не оставить на голене синяк»*, and in
+  a children's room *«не бывает никаких ограничений скорости»* because children
+  run. Nylon-covered, and called a must-have.
+- **⚠️⚠️ SIBLING PARITY, stated as a design principle**: the soft options and
+  lighting were made *«точно такие же, как в комнате брата — никто не будет
+  жаловаться, что у одного что-то есть, а у другого нет»*. **→ Applies twice here:
+  in the shared Phase 1 room, and again at Phase 2 when the children split into
+  rooms of unequal size (15.28 m² and ~9.3 m²), where parity in fittings is the
+  cheap way to offset an unequal area.**
+- **A night light plus a socket at each bed** — which is exactly the per-child,
+  locally-switched provision
+  [[00_Master/Layout_Option_Review|the layout review]] already lists as a first-fix
+  item whose heights follow the bed positions.
+- **Vertical niches beside the bed INSTEAD of bedside tables**, *«такое расположение
+  обеспечивает больше полезного пространства»*, with a through-passage so the
+  shelves stay reachable when the bed is down.
+- **Storage sized to the object rather than to the shelf**: upper drawers meant to
+  swallow *«самокат или даже что-то побольше»*; one shelf per category; books two
+  rows deep.
+- **Adjustable headboards**, ceiling light on a touch button or remote, flexible
+  reading lights each side.
+- **⚠️ At measurement they record wall curvature, cornice offset AND SOCKET
+  POSITIONS** — *«только так мебель встанет идеально»*. **→ Another reason the
+  electrics and the bed decision are coupled at first fix rather than sequential.**

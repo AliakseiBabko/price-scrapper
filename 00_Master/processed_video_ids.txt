@@ -1331,3 +1331,13 @@ o6_HwxwZau4
 # via yt-dlp extract_info, despite 2 min 48 s runtime. Was the FREE_DOM triage's top pick.
 -TXuqiSuwDU
 0OwOoRAWVHM
+
+# ---- Progress Design Tier 2A (children sharing a room), 2026-09-16 ----
+XL2Dsw7FonM
+SKJuZZ8eWcg
+tdpYeoDlCuI
+# UNFETCHABLE - no caption track in any language, all probed 2026-09-16 via yt-dlp
+# extract_info. SfCu7uxYeZ8 is the notable loss: 413 s, the longevity-and-house-move case.
+onhOzoEZ-gw
+CRmpl_G2oOQ
+SfCu7uxYeZ8
