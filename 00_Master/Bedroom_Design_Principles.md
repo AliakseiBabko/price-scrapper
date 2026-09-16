@@ -79,7 +79,13 @@ joinery, the plinth and the mechanism itself — are not.** **The unit does not
 have to be BUILT at the same moment as the cavity it will sit in**, which is an
 option against the warranty problem in item 5 that was not previously visible.
 ⚠️ **One maker, one household, and the maker's own fitters did the work — not a
-general claim that any wall bed survives this.** [source: [[_Sources/YT_KgBcJ4zAHi8_progressdesign_seven_year_owner_account|YT_KgBcJ4zAHi8]]]
+general claim that any wall bed survives this. **⚠️⚠️ AND QUALIFIED 2026-09-16: a
+DIFFERENT maker builds his carcasses on CONFIRMATS and says so explicitly —
+*«собираются и монтируются ОДИН РАЗ, их многоразовая разборка-сборка не нужна»*.
+Confirmats cut their own thread and lose grip when re-driven. So removability is
+a property of the FASTENING, not of wall beds, and it is specifiable: ask whether
+the carcass is assembled on confirmats or on demountable fittings, and whether
+the maker will dismantle and refit it later.** [source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]** [source: [[_Sources/YT_KgBcJ4zAHi8_progressdesign_seven_year_owner_account|YT_KgBcJ4zAHi8]]]
 
 **⚠️ And an owner reaching this plan's own logic independently.** Asked whether
 she would rather have a separate bedroom, a mother living with a wall bed in the

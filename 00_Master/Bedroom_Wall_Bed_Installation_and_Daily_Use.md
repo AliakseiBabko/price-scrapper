@@ -141,7 +141,25 @@ One maker's own framing: *«Обсуждение этих деталей кра�
   the wall bed in the combined living space, which is also the natural home for a
   television. A conflict to resolve on the drawing, not on site — flagged to
   [[04_Living_and_Dining_Room/analysis/Living_Bedroom_Zoning|Living-Bedroom Zoning]].**
+- **⚠️⚠️ A JOINERY ANSWER TO THE SAME CLEARANCE PROBLEM — make the bed SHALLOWER
+  than the units beside it.** In two delivered projects the wall bed is
+  deliberately set back and the flanking pencil cases brought forward: *«глубина
+  самой шкаф-кровати МЕНЬШЕ, чем глубина пенала и шкафа-купе… если бы мы сделали
+  всё вровень, здесь бы не было прохода»*. The alternative he rejected — running
+  the headboard flush — *«мы бы потеряли расстояние транзитное между стеной и
+  кроватью»*. **→ A flush monolithic front is the default aesthetic instinct and
+  it costs circulation; stepping the bed back buys a walking route past it when it
+  is down.** ⚠️ **Depths given: deep wardrobe 550 mm, pencil-case shelves 350 mm
+  (things sit in a single row), antresols 420 mm deep and low — which is the size
+  that takes the pillows and a spare duvet, and so quietly answers the
+  bedding-storage question the retention debate keeps circling.** [source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]
   [source: [[_Sources/YT_KgBcJ4zAHi8_progressdesign_seven_year_owner_account|YT_KgBcJ4zAHi8]]]
+
+- **⚠️⚠️ THE SKIRTING RULE IS NOW CROSS-VENDOR, which it was not before.** A
+  second maker, in a different city, states and films the same requirement:
+  *«в квартире установлены плинтуса, поэтому придётся их ДЕМОНТИРОВАТЬ; после
+  монтажа мы их поставим на место»*. **Until now this rested on one company.**
+  [source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]
 
 > **⚠️ Skirting is therefore an input to two trades at once in this vault**:
 > [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Cable Circuits and Panel Design]]
@@ -165,6 +183,19 @@ renovated the room in 2021 — new floors, wallpaper, doors:**
 > a rough-stage commitment, because finishes close over them. **The joinery and
 > mechanism are not** — at least for this maker, they come out and go back.
 >
+> **⚠️⚠️ QUALIFIED 2026-09-16, AND THE QUALIFIER IS SPECIFIABLE.** A different
+> maker's filmed installation states the opposite design intent outright:
+> *«боковые с низом кровати собираются и монтируются ОДИН РАЗ, их многоразовая
+> разборка-сборка не нужна, поэтому сборка на КОНФИРМАТ»*. **Confirmat screws cut
+> their own thread in chipboard and lose grip when backed out and re-driven — a
+> carcass built on them is not meant to come apart twice.** **Neither maker is
+> wrong; they build differently.**
+>
+> **→ SO THE SPLIT ABOVE STILL HOLDS, BUT IT IS CONDITIONAL ON THE FASTENING
+> rather than being a property of wall beds.** **The question to put to a supplier
+> is now sharp and checkable: is the carcass assembled on confirmats or on
+> demountable fittings, and will you dismantle and refit it later?** [source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]
+>
 > **→ It does not overturn the directive** (installing now still buys a fitted
 > result and avoids reopening finishes later). **It does attach an option to the
 > warranty problem on the parent page that was not previously visible: the unit
@@ -172,6 +203,53 @@ renovated the room in 2021 — new floors, wallpaper, doors:**
 >
 > ⚠️ **One maker, one household, and the dismantling was done by the maker's own
 > fitters. Not a general claim that any wall bed survives this.** [source: [[_Sources/YT_KgBcJ4zAHi8_progressdesign_seven_year_owner_account|YT_KgBcJ4zAHi8]]]
+
+## ⚠️ What a Real Installation Looks Like — a filmed fit, not a description
+
+**A maker filmed his fitters installing a built-in wall bed with two flanking
+pencil cases and an antresol. It is a working record with no pitch in it, which is
+why it is worth more than a seller describing the same job.** [source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]
+
+1. **⚠️ Walls checked with a LASER LEVEL on arrival, and a control re-measure
+   taken** even though *«замеры мы проводили до монтажа»*. **The second measure
+   happens with the furniture already in the room.**
+2. **Skirting off** (above); vertical marked, brackets set to the mark, drilled
+   and fixed.
+3. **⚠️ The carcass is aligned with the BOTTOM DELIBERATELY LEFT UNFIXED** —
+   *«внизу уголков нету, поэтому можно ещё низ подавать влево либо вправо»* — and
+   only screwed home once the position is right; 16 mm screws first, swapped for
+   30 mm to draw the panels together.
+4. Mechanism, then supports, then the headboard flange.
+5. **⚠️⚠️ THE HEADBOARD FLANGE DOES TWO JOBS, and the second is structural**: it
+   stops the mattress, sitting slightly proud of the side panel, **and acts as a
+   spreader — *«как распорная планка, не даёт газлифтам сдавить боковые
+   вовнутрь»*. The gas struts push the side panels INWARD, and something has to
+   resist that.**
+6. **Two people throughout** — without struts fitted the leaf is heavy.
+7. **⚠️ Levelling is done LYING DOWN**: *«места очень мало между кроватью и
+   регулировочными отверстиями, поэтому приходится всё делать лёжа»*.
+8. **⚠️ Struts last, nuts *«аккуратно подтягиваем, сильно не тянем»*** — and on
+   one side **fresh PAINT fouled the strut seat and had to be cleaned off**, worth
+   knowing when the wall has just been decorated.
+9. Straps removed **and kept**; edges filed; side shield and pencil cases fitted.
+
+**⚠️⚠️ TWO RULES HE STATES AS ALWAYS-RULES:**
+
+- **Build to the ceiling, and wall to wall** — *«мы ВСЕГДА рекомендуем делать всю
+  мебель до потолка… чтобы она не была обрезанной, тогда она будет смотреться
+  монолитно»*. ⚠️ **Not in conflict with the 5 cm erection gap above — that gap is
+  a FITTING allowance closed afterwards with a filler panel. Both makers finish
+  floor-to-ceiling; they differ on how, and the 5 cm should not be mistaken for a
+  finished reveal.**
+- **⚠️ Every unit on ADJUSTABLE FEET** — *«вся мебель у нас на регулируемых ножках,
+  поэтому мы нивелируем все неровности пола»*. **→ The joinery absorbs floor
+  deviation, so the tolerance that matters for fitted furniture is what the feet
+  can take up rather than perfect flatness. Worth asking a supplier for the
+  adjustment range.**
+
+**⚠️ And a detail for the bedside problem a wall bed creates**: a **podium with
+niches at the head of the bed** for a book or phone, *«не занимают лишнего
+места»* — the bedside-table function without its footprint. [source: [[_Sources/YT_DTVaEz_t5nk_progressdesign_floor_area_opportunity_cost|YT_DTVaEz_t5nk]]]
 
 ## ⚠️ Living With One Daily — owner accounts, not maker claims
 

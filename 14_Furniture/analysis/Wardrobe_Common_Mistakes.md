@@ -59,3 +59,22 @@ Independent architect, own country-house channel, `single-account`, region unres
 - **⚠️ A critical failure mode Krasnov himself flags watching the footage, genuinely valuable and distinct from any prior wardrobe/partition-mechanism content on this page**: a second rotating/pivoting cabinet-wall element (part of a wardrobe that swings out to become a wall) LOOKS visually clever, but the resulting configured space (a sofa facing a blank cabinet back) appears to go largely unused based on the visual evidence. **Krasnov's explicit caution: flashy transformable/mechanical furniture solutions can look impressive in demonstration but may create a functionally "dead" zone if the resulting space configuration doesn't actually serve a real daily-use purpose.**
 
 `single-account` (Krasnov's own commentary); the underlying techniques are a real, independently-documented project, not Krasnov's own claim.
+
+## ⚠️⚠️ A hinged door needs its swing CLEAR of furniture that arrives later (FREE_DOM, added 2026-09-16)
+
+**A maker explains why a project got sliding doors rather than hinged, and the
+reason is a clearance calculation rather than a style preference:** a small sofa
+was planned at the window, and *«распашные двери… будут упираться в диван и мешать
+транзиту»* — the hinged doors could not have opened fully.
+
+> **→ ⚠️⚠️ THE TRAP IS THE SEQUENCE, not the door type.** A wardrobe is usually
+> specified early and the loose furniture chosen later. **A sofa placed later can
+> retrospectively break a hinged wardrobe specified earlier** — and by then the
+> wardrobe is built. **→ Check a hinged door's full swing against the FINAL
+> furniture plan, not the empty room; or choose sliding where the final plan is
+> not yet settled.**
+
+⚠️ **Directly live for this project**, where wardrobe positions are being fixed at
+rough stage while loose furniture is not yet chosen.
+
+[source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]

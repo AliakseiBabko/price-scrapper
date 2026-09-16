@@ -122,3 +122,32 @@ Traceability record kept on its own page — [[05_Kids_Room/analysis/Source_Note
 ## Change Log
 
 Editorial history kept on its own page — [[05_Kids_Room/analysis/Change_Log|Change Log]]. Not reader content, kept off this page by design.
+
+## ⚠️⚠️ Two makers, two reasons for rejecting a bunk bed in a shared room (added 2026-09-16)
+
+**This project's Phase 1 puts two children (3 and 6) in this room with a shared
+sleep configuration, so the bunk-versus-wall-bed question is live now.** Two
+unrelated transformer-furniture makers describe rejecting a bunk, and **their
+reasons differ, which is what makes the pair useful:**
+
+- **⚠️ FOOTPRINT.** Fitting four sleeping places into a one-room flat, a maker
+  reports the household wanted a bunk first: *«хотели поставить сначала
+  двухъярусную кровать, но она заняла [место]… единственное правильное и экономное
+  по квадратуре решение — это шкафы-кровати»*. **A bunk halves the floor a bed
+  takes; a wall bed removes it entirely by day.** [source: [[_Sources/YT_cZNP6TaUyCU_freedom_wallbed_installation_and_two_layouts|YT_cZNP6TaUyCU]]]
+- **⚠️ VISIBILITY.** A household whose children's room doubles as the flat's
+  living room — *«лицо квартиры»* — rejected a bunk because it is permanently on
+  show and *«дети не могут красиво содержать свои мебели в порядке»*.
+  [source: [[_Sources/YT_KgBcJ4zAHi8_progressdesign_seven_year_owner_account|YT_KgBcJ4zAHi8]]]
+
+> **→ ⚠️ THE TWO REASONS APPLY TO DIFFERENT ROOMS, and only one applies here.**
+> **This is a dedicated children's room, not a room doing double duty — so the
+> visibility argument is weak and the footprint argument is the one that bites.**
+>
+> ⚠️ **And a countervailing fact from the same sources: a 90 cm child's wall bed
+> is light enough for a 7-year-old to work unaided, but it must be folded twice
+> daily, where a bunk demands nothing.** **That is the real trade — recovered
+> daytime floor against a twice-daily habit imposed on a 3- and a 6-year-old.**
+
+⚠️ **Both sources are makers who sell wall beds and not bunks. Weighted
+accordingly, and nothing here is a recommendation.**

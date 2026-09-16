@@ -1,0 +1,13 @@
+{
+  "url": "DTVaEz_t5nk",
+  "video_id": "DTVaEz_t5nk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T06:04:05.320828+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8c8a5ef3efd65618fe68dbb4cffca2c233676703c14767ba9debfd4ec3928052",
+  "attempts_before_success": [],
+  "upload_date": "2025-05-26",
+  "upload_date_source": "yt-dlp"
+}
