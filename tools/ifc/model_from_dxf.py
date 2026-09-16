@@ -70,6 +70,15 @@ LAYER_CLASS = {
 # fits no doors, so these are openings the owner specifies later anyway.
 DEFAULT_DOOR_HEAD_MM = 2050.0
 
+# A door leaf is not a plug of wall, and a glazing unit is not a reveal. Drawn at
+# the opening's full footprint depth, a door reads as nothing but a seam - which
+# is what the first build produced. These are ordinary domestic figures; none is
+# measured on this flat, and they are appearance only.
+DOOR_LEAF_MM = 40.0        # interior leaf
+GLAZING_MM = 24.0          # double-glazed unit
+FRAME_MM = 70.0            # PVC frame face width, and its depth in the reveal
+FRAME_DEPTH_MM = 80.0
+
 
 def mm(value: float) -> float:
     return float(value) / 1000.0
@@ -147,6 +156,59 @@ def nearest_label(points, labels) -> str:
     if not labels:
         return "?"
     return min(labels, key=lambda t: (t[1] - cx) ** 2 + (t[2] - cy) ** 2)[0]
+
+
+def shrink_across(points, target_mm: float):
+    """Thin a 4-point footprint across its SHORT axis, about its centre.
+
+    A door leaf is not as thick as the wall it hangs in, and a glazing unit is
+    not as thick as the reveal. The DXF footprint of an opening is the full wall
+    depth, so using it directly draws a door as a plug of wall - which is what
+    the first build did, and why doors read as nothing but a seam in the wall.
+
+    Works on the polygon's own edge directions rather than on X and Y, so the
+    diagonal лоджия elements thin correctly too.
+    """
+    if len(points) != 4:
+        return points
+    (p0, p1, p2, _p3) = points
+    e0 = (p1[0] - p0[0], p1[1] - p0[1])
+    e1 = (p2[0] - p1[0], p2[1] - p1[1])
+    len0, len1 = math.hypot(*e0), math.hypot(*e1)
+    short, current = (e0, len0) if len0 < len1 else (e1, len1)
+    if current <= 0 or target_mm >= current:
+        return points
+    ux, uy = short[0] / current, short[1] / current
+    cx, cy = centroid(points)
+    half = target_mm / 2.0
+    out = []
+    for x, y in points:
+        # distance of this corner from the centre along the short axis
+        d = (x - cx) * ux + (y - cy) * uy
+        keep = half if d > 0 else -half
+        out.append((x - d * ux + keep * ux, y - d * uy + keep * uy))
+    return out
+
+
+def slice_along(points, t0: float, t1: float):
+    """The sub-rectangle between two fractions along the footprint's LONG axis.
+
+    Used to cut a window's jambs, head bar and sill bar out of the one opening
+    footprint, so every part of the frame is positioned by the measured opening
+    rather than by a second set of numbers that could drift from it.
+    """
+    if len(points) != 4:
+        return points
+    (p0, p1, p2, p3) = points
+    e0 = math.dist(p0, p1)
+    e1 = math.dist(p1, p2)
+    if e0 >= e1:
+        a, b, c, d = p0, p1, p2, p3      # long edge is p0->p1
+    else:
+        a, b, c, d = p1, p2, p3, p0      # long edge is p1->p2
+    def lerp(u, v, t):
+        return (u[0] + (v[0] - u[0]) * t, u[1] + (v[1] - u[1]) * t)
+    return [lerp(a, b, t0), lerp(a, b, t1), lerp(d, c, t1), lerp(d, c, t0)]
 
 
 def polygon_solid(model, body, storey, owner, cls, name, points_m, z0_m, z1_m):
@@ -320,7 +382,7 @@ def build(output: Path, manifest_path: Path) -> dict:
 
     # ---- openings, with their measured verticals ---------------------------
     opening_labels = texts.get("V0-OPENING", [])
-    openings_built, assumed = [], []
+    openings_built, assumed, lintels, spandrels = [], [], [], []
     for poly in polys.get("V0-OPENING", []):
         label = nearest_label(poly, opening_labels)
         oid = label.split()[0]
@@ -366,12 +428,70 @@ def build(output: Path, manifest_path: Path) -> dict:
         else:
             void = None
             hosting = "gap_between_walls"
+            # ⚠️ LINTEL AND SPANDREL. A gap-type opening leaves the wall absent
+            # for its WHOLE height, because the DXF is a plan and a plan cannot
+            # say that a wall continues over a door head. Built as drawn, every
+            # internal doorway ran floor to ceiling - a 450 mm strip of missing
+            # wall above each 2050 head under a 2500 ceiling, which is what the
+            # owner saw on G4d and G6. The opening footprint IS the wall's own
+            # section there, so extruding it above the head rebuilds exactly the
+            # material the plan could not express.
+            if head < ceiling_mm - 1.0:
+                lintel = polygon_solid(model, body, storey, owner, "IfcWall",
+                                       "Lintel over %s" % oid, to_m(poly),
+                                       mm(head), h_m)
+                add_pset(model, lintel, "Pset_ApartmentPhase", {
+                    "Phase": "existing", "Role": "lintel_over_opening",
+                    "OpeningId": oid,
+                    "Source": "reconstructed: the plan cannot express wall over a head",
+                })
+                lintels.append(oid)
+            if sill > 1.0:
+                spandrel = polygon_solid(model, body, storey, owner, "IfcWall",
+                                         "Spandrel under %s" % oid, to_m(poly),
+                                         0.0, mm(sill))
+                add_pset(model, spandrel, "Pset_ApartmentPhase", {
+                    "Phase": "existing", "Role": "spandrel_under_opening",
+                    "OpeningId": oid,
+                    "Source": "reconstructed: the plan cannot express wall under a sill",
+                })
+                spandrels.append(oid)
 
-        fill_class = {"window": "IfcWindow", "door": "IfcDoor",
-                      "glazing": "IfcPlate"}.get(kind)
-        if fill_class:
+        # O9 is drawn twice in the DXF - once as an opening on V0-OPENING and
+        # again as its bays and mullions on V0-LOGGIA-GLAZING. The bays ARE the
+        # glazing, so filling the opening as well puts a second solid in the
+        # same place.
+        fill_class = None if oid == "O9" else {
+            "window": "IfcWindow", "door": "IfcDoor"}.get(kind)
+        if fill_class == "IfcWindow":
+            # A FRAME PLUS GLASS, not one slab. Every part is cut out of the same
+            # measured opening footprint, so the frame cannot drift from the
+            # opening the way a second set of numbers would.
+            span = max(math.dist(poly[0], poly[1]), math.dist(poly[1], poly[2]))
+            f = min(FRAME_MM / span, 0.45) if span else 0.0
+            frame_poly = shrink_across(poly, FRAME_DEPTH_MM)
+            glass_poly = shrink_across(poly, GLAZING_MM)
+            for tag, pts, z0, z1 in [
+                ("jamb L", slice_along(frame_poly, 0.0, f), sill, head),
+                ("jamb R", slice_along(frame_poly, 1.0 - f, 1.0), sill, head),
+                ("head", slice_along(frame_poly, f, 1.0 - f), head - FRAME_MM, head),
+                ("sill", slice_along(frame_poly, f, 1.0 - f), sill, sill + FRAME_MM),
+            ]:
+                member = polygon_solid(model, body, storey, owner, "IfcMember",
+                                       "%s frame %s" % (oid, tag), to_m(pts),
+                                       mm(z0), mm(z1))
+                add_pset(model, member, "Pset_ApartmentOpening",
+                         {"OpeningId": oid, "Role": "window_frame_%s" % tag.split()[0],
+                          "Source": "geometry from the opening footprint; profile sizes are APPEARANCE"})
+            fill = polygon_solid(model, body, storey, owner, "IfcWindow",
+                                 "%s %s" % (oid, kind),
+                                 to_m(slice_along(glass_poly, f, 1.0 - f)),
+                                 mm(sill + FRAME_MM), mm(head - FRAME_MM))
+        elif fill_class:
             fill = polygon_solid(model, body, storey, owner, fill_class,
-                                 "%s %s" % (oid, kind), to_m(poly), mm(sill), mm(head))
+                                 "%s %s" % (oid, kind),
+                                 to_m(shrink_across(poly, DOOR_LEAF_MM)),
+                                 mm(sill), mm(head))
             if void is not None:
                 add_relationship(model, "IfcRelFillsElement", owner,
                                  RelatingOpeningElement=void, RelatedBuildingElement=fill)
@@ -389,6 +509,8 @@ def build(output: Path, manifest_path: Path) -> dict:
                                "sill_mm": sill, "head_mm": head})
 
     manifest["openings"] = openings_built
+    manifest["lintels_added"] = lintels
+    manifest["spandrels_added"] = spandrels
     manifest["hosting_counts"] = {
         "void_in_wall": sum(1 for o in openings_built if o["hosting"] == "void_in_wall"),
         "gap_between_walls": sum(1 for o in openings_built if o["hosting"] == "gap_between_walls"),
