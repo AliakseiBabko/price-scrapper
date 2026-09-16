@@ -118,10 +118,23 @@ read-only on localhost and opens the right URL.
   is authored here. If the walkthrough and the plan disagree, that is a bug in a
   generator — fix the model and re-export.
 
-**⚠️ Reading the current export (`v0-existing`)**: 53 mesh objects, **74 KB**, 812
-triangles, 10.28 × 8.56 × 2.92 m overall. **The ceiling reads as open sky because
-the IFC carries one floor slab and no ceiling slab** — a property of the model, not
-of the viewer.
+**⚠️ Reading the current export (`v0-existing`)**: 47 mesh objects, **65 KB**, 756
+triangles, 10.28 × 8.56 × 3.02 m overall — two slabs (floor and ceiling), 18 walls,
+7 doors, 4 windows, 16 flow terminals.
+
+> [!WARNING]
+> **⚠️⚠️ THE WALK FEELS ~300 mm TOO TALL, AND THAT IS A MODEL ISSUE, NOT A VIEWER
+> ONE.** The ceiling sits at `storey_height_m`, which is **2.8 m** across the
+> canonical files, while `00_Master/project_decisions.md` records the settled
+> clear height as **2500 mm screed-to-ceiling**. **Judge proportions and
+> circulation here; do not judge headroom until that is resolved** — it is an open
+> item on that page, added 2026-09-16.
+
+⚠️ **A rebuild on 2026-09-16 also dropped 7 ceiling light fixtures** that the
+previous (2026-08-26) build carried. **That is the model catching up, not a
+regression**: `model_from_spec.py` now emits lighting only when a spec sets
+`lighting.enabled`, on the stated grounds that *"a light in the middle of every
+room is a decision nobody made."* **The old artefact predated that rule.**
 
 **⚠️ `tools/blender/glb_inspect.py` reads any `.glb` without Blender** and prints
 what is actually inside it — meshes, materials, base colours, texture count. Use it

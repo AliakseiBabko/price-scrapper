@@ -284,8 +284,38 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
 
     s = spec.get("slab")
     if s:
-        add_box(model, body, storey, owner, "IfcSlab", s["name"], s["x_m"], s["y_m"],
-                s["width_m"], s["depth_m"], s["thickness_m"], z=s["z_m"])
+        slab = add_box(model, body, storey, owner, "IfcSlab", s["name"], s["x_m"], s["y_m"],
+                       s["width_m"], s["depth_m"], s["thickness_m"], z=s["z_m"])
+        add_pset(model, slab, "Pset_SlabCommon",
+                 {"Reference": s.get("reference", "floor"), "IsExternal": False})
+
+    # CEILING. Architecturally this is the floor slab of the storey above, so it
+    # is an IfcSlab like any other - not a distinct class.
+    #
+    # It defaults to sitting directly on top of the walls: z = storey_height_m,
+    # which keeps the model self-consistent whatever that height is set to. It is
+    # NOT hardcoded, because `storey_height_m` is currently 2.8 while
+    # `00_Master/project_decisions.md` records the settled clear height as 2500 mm
+    # screed-to-ceiling. Resolving that is a separate decision that moves every
+    # wall, drawing and quantity; this block follows whatever the spec says so it
+    # cannot silently disagree with the walls beside it.
+    c = spec.get("ceiling")
+    if c:
+        z = c.get("z_m")
+        if z is None:
+            z = float(spec.get("storey_height_m", HEIGHT))
+        base = s or {}
+        ceiling = add_box(
+            model, body, storey, owner, "IfcSlab",
+            c.get("name", "Ceiling"),
+            c.get("x_m", base.get("x_m", 0.0)),
+            c.get("y_m", base.get("y_m", 0.0)),
+            c.get("width_m", base.get("width_m", 0.0)),
+            c.get("depth_m", base.get("depth_m", 0.0)),
+            c.get("thickness_m", 0.1),
+            z=z)
+        add_pset(model, ceiling, "Pset_SlabCommon",
+                 {"Reference": c.get("reference", "ceiling"), "IsExternal": False})
 
     output.parent.mkdir(parents=True, exist_ok=True)
     model.write(str(output))
