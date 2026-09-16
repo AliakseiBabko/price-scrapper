@@ -173,7 +173,14 @@ I proposed "fix the services-authority defect first, then extract the compiler".
 - ✅ **Freeze the legacy generator.** `make_services_sheets.py` carries a banner: fix a rendering bug if you must, but a NEW placement, height or owner decision goes in the canonical data, never in its Python lists.
 - ⬜ **Assign stable canonical IDs and define the service schema and status vocabulary.** Not started. This is authored-data work and does not depend on the compiler.
 
-### 2. Extract the geometry compiler
+### 2. Extract the geometry compiler — ▶️ STEP 1 OF 6 DONE 2026-09-16
+
+✅ `tools/layout/resolve_v0_geometry.py` exists and returns the resolved model, the pre-reconciliation sources and a machine-readable reconciliation report. ✅ `export_v0_dxf.py` is now a thin serialiser over it. **Semantic equivalence proven**: identical wall ids, **max coordinate delta 0.000000 mm**, identical layers and all 93 entities, `dxf_wall_entities` 0 problems both sides, console output identical, `check_dxf_closure` / `check_wall_junctions` / `raster_fidelity` / `structural_assembly` all pass with **34 seeded defects still rejected**.
+
+⬜ **Still to do:** move the four rule functions out of the exporter into the compiler (they are still imported FROM it), and point `model_from_dxf.py` at the resolved model so the DXF stops being an intermediate.
+
+⚠️ **The extraction found a live hazard**: the rules read canonical files by RELATIVE path, so running from `tools/layout` silently produced different geometry — `close_corners` returned 0 fixes instead of 8, and 16 of 25 walls closed against `solid_mm` instead of 19. No error, just a different model. The compiler now pins the working directory.
+
 
 Move the reconciliation out of `export_v0_dxf.py`. **Preserve byte-equivalent DXF output** and re-run the adversarial gates — `check_dxf_closure` (24 seeds), `raster_fidelity` (7), `structural_assembly_selftest` (14). Expose the shared host-local operations every consumer needs to agree on: **wall face, normal, along-wall position, and local↔world transform.**
 

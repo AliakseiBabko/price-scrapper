@@ -356,10 +356,22 @@ def main():
     ap.add_argument("--out", default=os.path.join("data", "cad", "dxf", "v0_developer_layout.dxf"))
     args = ap.parse_args()
 
+    # ⚠️ THE RECONCILIATION NO LONGER HAPPENS HERE. It lives in
+    # `resolve_v0_geometry.py`, so the IFC generator and every discipline sheet
+    # can read the SAME resolved model instead of re-deriving it or reading this
+    # DXF back. This function is now a serialiser: it draws what the compiler
+    # resolved and decides nothing about geometry.
+    #
+    # The rule functions still live in this file during the extraction and the
+    # compiler imports them, which is why nothing about their behaviour changed.
+    # They move across once both consumers read the resolved model.
+    import resolve_v0_geometry
+
+    resolved = resolve_v0_geometry.resolve()
+    walls = resolved.walls
+    elements = resolved.elements
     placed = json.load(io.open(PLACED, encoding="utf-8"))
-    walls = placed["walls"]
     tx = placed["identification_fit_basic_px_to_mm"]
-    elements = json.load(io.open(ELEMENTS, encoding="utf-8"))
 
     doc = ezdxf.new("R2010", setup=True)
     doc.header["$INSUNITS"] = 4          # millimetres
@@ -367,10 +379,10 @@ def main():
         doc.layers.add(name, color=colour, linetype="CONTINUOUS")
     msp = doc.modelspace()
 
-    fixes = close_corners(walls)
-    loop = close_loggia_loop(walls, elements.get("loggia_glazing"))
-    yields = yield_to_reference(walls)
-    snaps = snap_near_misses(walls)
+    fixes = resolved.raw["close_corners"]
+    loop = resolved.raw["close_loggia_loop"]
+    yields = resolved.raw["yield_to_reference"]
+    snaps = resolved.raw["snap_near_misses"]
     # The invariant, reported every run: once the owned corners are added, a
     # wall's DRAWN extent must equal its recorded solid_mm. Laying at clear and
     # then closing corners is the only way that holds; laying at solid and

@@ -1,6 +1,12 @@
 # Services data model — identity, concepts and status vocabulary
 
-**2026-09-16. DESIGN, not yet implemented and not yet approved.** It moves to `00_Master/` beside `Finishes_and_Furniture_Data_Model.md` once the owner accepts it; until then nothing generates from it.
+**2026-09-16. DESIGN. NOT approved for generation.** It moves to `00_Master/` beside `Finishes_and_Furniture_Data_Model.md` once accepted; until then nothing generates from it.
+
+> [!IMPORTANT]
+> **Status, 2026-09-16 after review:**
+> - ✅ **The GUID rule in §2 is APPROVED** — `identity_uuid` immutable, IFC `GlobalId` derived from it and nothing else.
+> - ⛔ **Five amendments are REQUIRED before any service migration or IFC generation.** They are listed in **§7** and are NOT yet applied to §§2–3 below, which therefore still read as first drafted. **Read §7 before implementing anything here.**
+> - ▶️ **The geometry compiler extraction proceeds independently** and is not blocked by these.
 
 **Why it exists now.** Services are currently authored in three places that can disagree — Python literals inside `tools/layout/sheets/make_services_sheets.py`, `electrical_existing.csv`, and `service_outlets.csv` — and the IFC consumes none of them. The generator was frozen on 2026-09-16 and its write-back into `data/canonical/` stopped, but **containment is not a fix**. This is the authored-data design that migration needs, and it is the one part of the work that does **not** depend on extracting the geometry compiler first.
 
@@ -91,3 +97,57 @@ Concrete leaf types, not the generic ones: **`IfcOutlet`, `IfcLightFixture`, `If
 1. **The locator.** Every occurrence needs a host-local position — `on_element`, `along_wall_mm`, `height_mm`, plus which face. **Those cannot be defined here**: they must mean the same thing in the IFC and in every discipline sheet, and today only `export_v0_dxf.py` knows what they mean. **Blocked on the geometry compiler, deliberately.**
 2. **Whether CSV remains the carrier.** Workable at this scale, but hosts, ports, systems, phases, variants, evidence and approval states are a relational shape. If it stays CSV it needs strict schemas and a validator, not convention.
 3. **Migration of the frozen literals.** Every literal in `make_services_sheets.py` must first be classified as observed existing / owner decision / design assumption / route topology. That is a reading job, and it is where owner decisions recorded only as Russian comments — *«ВЛАДЕЛЕЦ: на G7 две розетки, выключателей нет»* — have to be recovered as data rather than prose.
+
+---
+
+## 7. ⛔ REQUIRED AMENDMENTS — apply before any migration or generation
+
+From review, 2026-09-16. **§§2–3 above still read as first drafted; these supersede them where they conflict.**
+
+### 7.1 Only `identity_uuid` is immutable
+
+§2 said a mistaken `service_id` must be superseded. **That is wrong: it manufactures a physical replacement to record a naming correction**, and then the history claims a socket was replaced when someone only fixed a typo.
+
+- `service_id` is **renameable and audited** — old codes are preserved as aliases.
+- **Supersede only when the represented THING changes**, never for a naming fix.
+
+### 7.2 Knowledge basis belongs to each value, not to the occurrence
+
+One `knowledge_basis` per occurrence cannot describe reality. **A single socket can simultaneously have observed existence, derived height, assumed host and unknown horizontal position** — and `electrical_existing.csv` already contains exactly that case.
+
+**Every locator and dimension value carries its own basis and its own observation references.** Occurrence-level basis, if kept at all, is a derived summary.
+
+### 7.3 Approvals are records, not a scalar
+
+`owner_approved` then `trade_approved` **must not erase the owner's approval**, and an approval has to say *what* was approved — count, position, voltage, route.
+
+An approval record carries: **subject / property, actor, decision, date, evidence.** `decision_status` becomes a derived summary of those records, not the store.
+
+### 7.4 Typed uncertain measurements — preserve the raw, normalise without inventing precision
+
+**This is the amendment the existing data most needs.** `electrical_existing.csv` records heights as `"ceiling"`, `"low + one mid"`, `"915-1105"`, `"~880"`. None of those is a `height_mm`, and **`"low + one mid"` is a grouped observation, not one height locator.**
+
+| Field | Values / meaning |
+| :--- | :--- |
+| `vertical_mode` | `point` / `range` / `band` / `relative` / `full_height` / `unknown` |
+| `datum` | `finished_floor` / `slab` / `ceiling` / host-relative |
+| `nominal_mm`, `min_mm`, `max_mm`, `uncertainty_mm` | as applicable to the mode |
+| observation ref + basis | per 7.2 |
+
+**Keep the raw observation text.** Normalisation sits beside it and never replaces it.
+
+### 7.5 Succession is a relation, not a single field
+
+`superseded_by` as one value cannot express a **split** (one recorded group becomes three sockets) or a **merge**. Both are expected here: `E-KL-SOC-K` is one observation of three outlets. **A record may legitimately have several successors.**
+
+---
+
+## 8. What the compiler owes this schema
+
+Recorded now so the extraction does not have to be revisited. **The resolved model must retain:**
+
+- **pre-reconciliation SOURCE values** — what each input asserted before closure, yielding or snapping touched it;
+- **final geometry** — what was resolved;
+- a **machine-readable reconciliation report** — which rule moved what, and by how much.
+
+**Without the first and third, an uncertain measurement loses its provenance the moment it passes through the compiler** — which is the same defect as the retired schematic, one layer further in.
