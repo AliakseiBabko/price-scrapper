@@ -52,7 +52,10 @@
 
 **Does NOT give, and this is the real work:**
 
-1. **Wall COORDINATES are not in any canonical table.** `export_v0_dxf.py` derives them at run time by chain closure, corner ownership, `wall_placement_directives.csv` and loggia-loop closing. The only coordinate table, `structural_assembly_vertices.csv`, holds **6 rows for one assembly**. So the geometry lives in the exporter, not in the data.
+1. ⚠️ **CORRECTED 2026-09-16 — this item was WRONG as first written.** It said "wall coordinates are not in any canonical table" and that "the geometry lives in the exporter, not in the data". **Both are false, and Codex caught it on review.**
+   **`data/canonical/v0_named_walls_placed.json` exists, is 25 KB, and declares `authoritative_for: POSITION and FACES`** — the 25 named walls attached to the vector plan's own hatch-validated solids. `export_v0_dxf.py` loads it at its `PLACED` constant. It was written on 2026-09-09 for a stated reason: routing positions through the basic-plan pixel fit scattered walls the drawing had drawn aligned, because that fit has 3.3% anisotropy and residuals to 93 mm, and the vector does not.
+   **So the model is HYBRID, and that is the accurate description:** vector-extracted coordinates give position and faces; recorded lengths give `clear_mm` / `solid_mm`; chain closure, corner ownership, placement yielding and loggia closure reconcile the two. The exporter holds the *reconciliation*, not the geometry.
+   **The real deficiency is narrower than stated**: that reconciliation is only reachable by running `export_v0_dxf.py`, so a second consumer must either re-implement it or read the DXF — which is why `model_from_dxf.py` reads the DXF today.
 2. **Door head heights are uncertain** — `2050?` on every internal door, derived from one photo of another flat at ±60 mm. Tolerable: the developer fits no doors, so these are openings the owner will specify anyway.
 3. **O2's sill is flagged for confirmation** in its own note. It is the one window whose vertical geometry is still a derivation from a photo of a different flat at ±100 mm.
 4. **Coordinate systems differ.** The gated data is millimetres on the drawing's origin (x ≈ 2980–9380, y ≈ 14645–15990); the IFC is metres from 0. A rebuild needs one stated transform, and getting it wrong is silent.
@@ -105,3 +108,53 @@
 ## 6. What this does NOT change
 
 **The DXF, the sheets and the take-off are unaffected** — they already run on the gated data and their gates still pass. **This is a defect in one consumer, not in the geometry.** The renderer, the walkable viewer and the `.blend` viewing file all work correctly; they are simply drawing the wrong flat, and they will draw the right one unchanged once their input does.
+
+---
+
+## 7. ⚠️⚠️ Codex review, 2026-09-16 — two of my claims were wrong
+
+Requested by the owner. **Both corrections were verified against the repo before being accepted here**, not taken on the reviewer's word.
+
+### Correction 1 — the coordinate dataset exists (see §3.1, now rewritten)
+
+I claimed there was none. `v0_named_walls_placed.json` is authoritative for position and faces, and the DXF exporter loads it. **My "geometry lives in the exporter" framing was wrong**, and it went into this document and into the review prompt, so the reviewer was working from a false premise on that point and caught it anyway.
+
+### Correction 2 — ⚠️⚠️ the services pipeline already has the failure this document warns about
+
+`tools/layout/sheets/make_services_sheets.py` **hard-codes every socket, switch, light and route as a Python list** — `SOCK` carries wall code, position along wall, face, gang, height, photo evidence and owner decisions as literals, including *«ВЛАДЕЛЕЦ: на G7 две розетки, выключателей нет»*. Meanwhile `electrical_existing.csv` (11 rows) and `service_outlets.csv` (8 rows) exist separately, **and the IFC consumes neither.**
+
+**Worse, and this is the part that matters: the script WRITES `data/canonical/electrical_placement_review.csv`.** Generated code state flows back into a directory whose whole purpose is to be the authored source. **That is the retired-schematic failure again — the same shape, one level down, and already live.** It was not caused by the model rebuild and it is not fixed by it.
+
+### What the review changes about the plan
+
+| Question | Verdict |
+| :--- | :--- |
+| Master: tables or IFC? | **Tables** — but for an OPERATIONAL reason, not the one I gave. IFC *can* carry psets and provenance; what it cannot do is round-trip evidence, rejected readings and correction history through a BIM editor. The failure mode is **split-brain authority**: geometry moves, the sidecar still describes the old placement, and nothing says which wins. **IFC is the authoritative ISSUED representation, not the authoring store.** |
+| Services in 3D? | **Yes — real IFC elements.** Ceiling height, shaft access, clearances and furniture are three-dimensional conflicts. But with **concrete types**: `IfcCableSegment`, `IfcPipeSegment`, `IfcDuctSegment`, `IfcOutlet`, `IfcLightFixture`, `IfcAirTerminal`. `IfcFlowSegment` is deprecated for direct instantiation in IFC 4.3. |
+| Routed geometry? | **Terminals and topology first.** Use `IfcDistributionPort` and system membership to express connectivity with no physical path asserted. Three explicit route states — `topology_only`, `design_intent`, `construction_approved`/`as_built` — and **the model must never silently promote topology into a route.** The electrician keeps route freedom within agreed zones; drainage and ventilation need pre-coordination because slope, invert and a 150–200 mm duct zone under a 2500 ceiling are consequential. |
+| Chain closure? | **Sound, keep it** — a hand-maintained coordinate table duplicating every printed length would create exactly the coupled-edit problem the gates exist to catch. |
+| What breaks first? | **Service identity, and it is already breaking.** See Correction 2. |
+
+### The architecture, as corrected
+
+```
+Canonical authored facts + provenance
+        ↓
+Deterministic geometry/services compiler      ← does not exist yet; the
+        ↓                                       reconciliation is trapped
+Resolved model graph                            inside export_v0_dxf.py
+   ├── IFC          ├── DXF / discipline sheets
+   ├── quantities   └── GLB / Blender / renders
+```
+
+**The DXF→IFC path is transitional.** It was the right recovery step because the 3D immediately inherited four existing gates, but the DXF must not remain the interchange between this project's own generators. Both exporters should consume the same resolved geometry, keeping independent DXF and IFC gates.
+
+### ⚠️ Ordering consequence, and it inverts the earlier plan
+
+**Extract the geometry compiler BEFORE adding services, not after.** `on_element`, `along_wall_mm`, wall faces, service normals and world transforms have to mean the same thing in the IFC and in every discipline sheet, and today only the DXF exporter knows what they mean.
+
+**And before generating any further services sheet:** give every service a stable canonical ID, move placements out of drawing code into the canonical tables, generate both IFC elements and sheet symbols from those records, and make sheets *select and style* elements rather than invent them. **Derive IFC GUIDs deterministically from the canonical IDs**, or a regenerated model cannot be joined to annotations, review decisions or prior issues.
+
+### One documentation defect this exposes
+
+**`00_Master/Model_and_Views.md` calls `model.ifc` "the single source of truth". That is now wrong** and should read: one logical model in the canonical data, of which the IFC is a compiled representation.
