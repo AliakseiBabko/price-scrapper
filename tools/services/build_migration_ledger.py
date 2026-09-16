@@ -1,38 +1,66 @@
 #!/usr/bin/env python3
-"""Enumerate every legacy services fact, with a SOURCE LOCATOR and a disposition.
+"""Enumerate every legacy services fact, with a STABLE locator and a disposition.
 
-STEP 1 OF THE SERVICE MIGRATION, and deliberately the only step that runs
-before anything is classified. It writes OUTSIDE `data/canonical/` - this is a
-working ledger, not authored data, and it must not become a second authority
-while the migration is in flight.
+STEP 1 OF THE SERVICE MIGRATION. It writes to `_Inbox/migration/`, outside
+`data/canonical/` - a working ledger must not become a second authority while
+the migration is in flight - and outside `data/`, everything under which is
+gitignored as generated output. A disposition is a DECISION about evidence, so
+it has to be reviewable and version-controlled.
 
 WHY A LEDGER AND NOT A CONVERSION
 ---------------------------------
-This is not a schema change. One legacy row can become an observation plus
-several occurrences, approvals and relations - `E-KL-SOC-K` is "socket outlets,
-count 3, height 915-1105" from one photo. A textual diff cannot prove semantic
-coverage across that split, so coverage is proved against LOCATORS instead:
-every legacy fact must end up with exactly one disposition, and every new fact
-must cite a locator or an explicit new decision.
+One legacy row can become an observation PLUS several occurrences, value
+records, approvals and relations. A textual diff cannot prove coverage across
+that split, so coverage is proved against LOCATORS: every legacy fact ends with
+exactly one disposition, and every new fact cites a locator or an explicit new
+decision.
+
+⚠️ LOCATORS ARE SEMANTIC, NOT POSITIONAL
+----------------------------------------
+`legacy_generator:SOCK:S17`, not `make_services_sheets.py:63:1#SOCK`. Line and
+column are unique but NOT STABLE: a harmless comment or reformat above a
+literal shifts every later locator, which silently defeats the preservation of
+dispositions already decided - the reviewer's judgement would re-attach to the
+wrong fact, or be dropped. Position is kept as review metadata only.
+
+⚠️ MULTIPLICITY, VERTICAL UNCERTAINTY AND EXTENT ARE DIFFERENT THINGS
+---------------------------------------------------------------------
+An earlier version had a single `grouped` flag, and it conflated all three:
+
+  E-KL-SOC-K   count exactly 3            -> eligible for 3 occurrences, once
+                                             each is matched to a placement
+  E-KL-SOC-W   count 2-3, "low + one mid" -> OBSERVATION ONLY. Keep count_min=2,
+                                             count_max=3 and the raw vertical
+                                             text. Do NOT mint an arbitrary
+                                             number of terminals.
+  SS-B         "floor to ceiling"         -> ONE continuous occurrence. Not
+                                             grouped: that is an extent, not a
+                                             multiplicity.
+  E-C-LIGHT    height "ceiling"           -> ONE occurrence with a RELATIVE
+                                             vertical measurement. Not grouped.
+
+So `multiplicity` / `count_min` / `count_max` are separate from `vertical_kind`
+/ `vertical_raw`, and `occurrence_split_count` is decided by review rather than
+inferred. It counts OCCURRENCES only - an observation, value records and
+approvals derived from the same source must not affect it.
 
 DISPOSITIONS
   migrated      carried into the new canonical files
   duplicate     the same fact already carried by another locator
-  contradicted  a later source overrides it; the override is named
+  contradicted  a later source overrides it; the override must be named
   retracted     withdrawn, by the owner or by evidence
+  out_of_scope  not a service fact at all - migration policy, drawing-label
+                feedback, or a note about the code. Calling those `duplicate`
+                would be dishonest.
   unresolved    NOT YET CLASSIFIED - the default, and the only honest starting
                 value for anything needing judgement
-
-⚠️ EVERYTHING STARTS `unresolved`. A disposition is a decision about evidence
-and the tool must not invent one. In particular a GROUPED observation - the
-existing data says `"low + one mid"` and `"2-3"` - must not be split into
-physical occurrences until the grouping decision is explicit and recorded.
 
     .venv\\Scripts\\python.exe tools/services/build_migration_ledger.py
 """
 from __future__ import annotations
 
 import argparse
+import ast
 import csv
 import io
 import json
@@ -42,128 +70,196 @@ import re
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SHEETS = os.path.join(REPO, "tools", "layout", "sheets", "make_services_sheets.py")
 CANON = os.path.join(REPO, "data", "canonical")
-# ⚠️ TRACKED, and deliberately NOT under data/ - everything there is
-# gitignored as generated output, and a disposition is a DECISION about
-# evidence. Losing it to .gitignore would make the classification
-# unreviewable and unrepeatable. Outside data/canonical/ all the same:
-# this is a working ledger, not authored data, and it must not become a
-# second authority while the migration is in flight.
 OUT = os.path.join(REPO, "_Inbox", "migration")
 
 LEGACY_CSVS = ("electrical_existing.csv", "service_outlets.csv",
                "plumbing_anchors.csv", "services_observed.csv")
 
-# Literal blocks in the frozen generator that carry AUTHORED facts.
-LITERAL_BLOCKS = ("SOCK", "POWER", "SWDEF", "LIGHT", "PIPES",
-                  "ROUTES", "SEWER", "BATH_W", "BATH_S")
+# Blocks whose elements are SEPARATE facts, each with a semantic key.
+KEYED_BLOCKS = ("SOCK", "POWER", "SWDEF", "LIGHT", "PIPES", "ROUTES")
+# Blocks that are ONE polyline each: their elements are the route's points, not
+# separate facts, so ledgering per point would invent facts that do not exist.
+POLYLINE_BLOCKS = ("SEWER", "BATH_W", "BATH_S")
 
-# Prose that states a decision or an observation rather than explaining code.
-# Matched on the Russian and English words the file actually uses.
-DECISION_WORDS = ("ВЛАДЕЛЕЦ", "владелец", "Owner:", "owner ", "OWNER")
+DECISION_WORDS = ("ВЛАДЕЛЕЦ", "владелец", "Owner:", "owner ", "OWNER",
+                  "owner’s", "OWNER’s")
 
-FIELDS = ["locator", "source_kind", "raw", "carries", "disposition",
-          "disposition_note", "grouped", "target_concept"]
+FIELDS = ["locator", "source_kind", "raw", "carries",
+          "multiplicity", "count_min", "count_max",
+          "vertical_kind", "vertical_raw",
+          "occurrence_split_count", "target_concept",
+          "disposition", "disposition_note", "review_position"]
+
+
+def _multiplicity(count_raw):
+    """(multiplicity, count_min, count_max) - never a guess.
+
+    `2-3` is a RANGE and stays one. Turning it into two or three terminals
+    would manufacture a decision nobody made.
+    """
+    text = (count_raw or "").strip()
+    if not text:
+        return "unstated", "", ""
+    span = re.match(r"^(\d+)\s*[-–]\s*(\d+)", text)
+    if span:
+        return "range", span.group(1), span.group(2)
+    exact = re.match(r"^(\d+)", text)
+    if exact:
+        n = exact.group(1)
+        return ("single" if n == "1" else "exact_n"), n, n
+    return "unknown", "", ""
+
+
+def _vertical(height_raw):
+    """The KIND of vertical description, with the raw text always preserved."""
+    text = (height_raw or "").strip()
+    if not text:
+        return "unstated", ""
+    low = text.lower()
+    if "floor to ceiling" in low:
+        return "continuous", text
+    if low.startswith(("ceiling", "floor")):
+        return "relative", text
+    if re.search(r"\d\s*[-–]\s*\d", text):
+        return "range", text
+    if "~" in text:
+        return "approximate", text
+    if re.search(r"\b(low|mid|high)\b", low):
+        # "low + one mid" describes DIFFERENT heights for different items - a
+        # mixed description, not one height. It must not collapse to a number.
+        return "mixed_qualitative", text
+    if re.match(r"^\d+(\.\d+)?$", text):
+        return "point", text
+    return "unknown", text
 
 
 def _rows_from_csv(name):
     path = os.path.join(CANON, name)
     if not os.path.exists(path):
         return []
+    stem = os.path.splitext(name)[0]
     out = []
     with io.open(path, encoding="utf-8") as fh:
-        for index, row in enumerate(csv.DictReader(fh), start=2):  # 1 = header
+        for index, row in enumerate(csv.DictReader(fh), start=2):
             ident = (row.get("item_id") or row.get("outlet_id")
-                     or row.get("anchor_id") or row.get("obs_id") or "?")
-            # A grouped record describes SEVERAL things, or a height that is not
-            # a point. Flagged, never silently split.
-            count = (row.get("count") or "").strip()
-            height = (row.get("height_mm") or row.get("centre_height_mm") or "").strip()
-            grouped = bool(
-                re.search(r"[-+]|\bto\b|,", count)
-                or (count and count not in ("1", ""))
-                or re.search(r"[-–]|\+|~|ceiling|floor|low|mid", height, re.I))
+                     or row.get("anchor_id") or row.get("obs_id")
+                     or "row%d" % index)
+            multiplicity, cmin, cmax = _multiplicity(row.get("count"))
+            vkind, vraw = _vertical(row.get("height_mm")
+                                    or row.get("centre_height_mm"))
             out.append({
-                "locator": "%s:%d#%s" % (name, index, ident),
+                "locator": "legacy_csv:%s:%s" % (stem, ident),
                 "source_kind": "canonical_csv",
                 "raw": json.dumps({k: v for k, v in row.items() if v},
                                   ensure_ascii=False)[:400],
-                "carries": "count=%s height=%s" % (count or "-", height or "-"),
+                "carries": (row.get("kind") or row.get("type") or "").strip(),
+                "multiplicity": multiplicity,
+                "count_min": cmin,
+                "count_max": cmax,
+                "vertical_kind": vkind,
+                "vertical_raw": vraw,
+                "occurrence_split_count": "",
+                "target_concept": "",
                 "disposition": "unresolved",
                 "disposition_note": "",
-                "grouped": "yes" if grouped else "no",
-                "target_concept": "",
+                "review_position": "%s:%d" % (name, index),
             })
     return out
 
 
 def _rows_from_literals():
-    """Real tuple literals, via the AST.
-
-    ⚠️ A regex over "everything between the block's brackets" was tried and was
-    badly wrong: the bracket-depth arithmetic never closed, so the FIRST block
-    swallowed the rest of the file and 32 real rows came out as 224 - including
-    parentheses inside comments and unrelated expressions. Parsing the syntax
-    gives exact rows with exact line numbers and cannot drift.
-    """
     if not os.path.exists(SHEETS):
         return []
-    import ast
-
     source = io.open(SHEETS, encoding="utf-8").read()
-    tree = ast.parse(source)
     lines = source.splitlines()
     out = []
-    for node in ast.walk(tree):
-        if not isinstance(node, ast.Assign):
+    for node in ast.walk(ast.parse(source)):
+        if not isinstance(node, ast.Assign) or not isinstance(node.value, ast.List):
             continue
         names = [t.id for t in node.targets if isinstance(t, ast.Name)]
-        block = next((n for n in names if n in LITERAL_BLOCKS), None)
-        if block is None or not isinstance(node.value, ast.List):
+        block = next((n for n in names if n in KEYED_BLOCKS + POLYLINE_BLOCKS), None)
+        if block is None:
             continue
-        for element in node.value.elts:
-            if not isinstance(element, (ast.Tuple, ast.List)):
-                continue
-            text = lines[element.lineno - 1].strip()
-            # ⚠️ LINE AND COLUMN. Several blocks put two tuples on one line -
-            # SEWER, BATH_W, BATH_S and ROUTES all do - so a line-only locator
-            # COLLIDES, and six facts shared three locators. A colliding
-            # locator is worse than a missing one: two different facts become
-            # indistinguishable, and a disposition applied to one silently
-            # claims to cover the other. Caught by the coverage selftest's own
-            # baseline, which is what a baseline is for.
+
+        if block in POLYLINE_BLOCKS:
+            # ONE route, not one fact per vertex. Ledgering each point would
+            # invent facts the source does not contain.
             out.append({
-                "locator": "make_services_sheets.py:%d:%d#%s"
-                           % (element.lineno, element.col_offset, block),
+                "locator": "legacy_generator:%s" % block,
+                "source_kind": "python_literal_route",
+                "raw": lines[node.lineno - 1].strip()[:400],
+                "carries": "%d-point polyline" % len(node.value.elts),
+                "multiplicity": "single", "count_min": "1", "count_max": "1",
+                "vertical_kind": "unstated", "vertical_raw": "",
+                "occurrence_split_count": "", "target_concept": "",
+                "disposition": "unresolved", "disposition_note": "",
+                "review_position": "make_services_sheets.py:%d" % node.lineno,
+            })
+            continue
+
+        for ordinal, element in enumerate(node.value.elts, start=1):
+            if not isinstance(element, (ast.Tuple, ast.List)) or not element.elts:
+                continue
+            first = element.elts[0]
+            key = (first.value if isinstance(first, ast.Constant)
+                   and isinstance(first.value, str) else "n%d" % ordinal)
+            out.append({
+                "locator": "legacy_generator:%s:%s" % (block, key),
                 "source_kind": "python_literal",
-                "raw": text[:400],
+                "raw": lines[element.lineno - 1].strip()[:400],
                 "carries": block,
-                "disposition": "unresolved",
-                "disposition_note": "",
-                "grouped": "no",
-                "target_concept": "",
+                "multiplicity": "single", "count_min": "1", "count_max": "1",
+                "vertical_kind": "unstated", "vertical_raw": "",
+                "occurrence_split_count": "", "target_concept": "",
+                "disposition": "unresolved", "disposition_note": "",
+                "review_position": "make_services_sheets.py:%d:%d"
+                                   % (element.lineno, element.col_offset),
             })
     return out
 
 
-def _rows_from_owner_comments():
+def _rows_from_comment_blocks():
+    """COMPLETE contiguous comment blocks, not keyword-bearing lines.
+
+    ⚠️ Line-by-line capture truncated real statements mid-sentence - *"Owner:
+    'there are no outlets on the wall with the"* - and several blocks carry a
+    retracted interpretation AND its correction, which have to stay together so
+    the correction is not read as the original claim.
+    """
     if not os.path.exists(SHEETS):
         return []
+    lines = io.open(SHEETS, encoding="utf-8").read().splitlines()
+    blocks, current, start = [], [], None
+    for number, line in enumerate(lines, start=1):
+        if line.strip().startswith("#"):
+            if start is None:
+                start = number
+            current.append(line.strip().lstrip("#").strip())
+        else:
+            if current:
+                blocks.append((start, current))
+            current, start = [], None
+    if current:
+        blocks.append((start, current))
+
     out = []
-    for number, line in enumerate(io.open(SHEETS, encoding="utf-8").read().splitlines(), 1):
-        text = line.strip()
-        if not text.startswith("#"):
-            continue
+    ordinal = 0
+    for start_line, body in blocks:
+        text = " ".join(part for part in body if part).strip()
         if not any(word in text for word in DECISION_WORDS):
             continue
+        ordinal += 1
         out.append({
-            "locator": "make_services_sheets.py:%d#comment" % number,
-            "source_kind": "owner_statement_in_comment",
-            "raw": text.lstrip("# ")[:400],
-            "carries": "a decision recorded as PROSE, not as data",
-            "disposition": "unresolved",
-            "disposition_note": "",
-            "grouped": "no",
-            "target_concept": "",
+            "locator": "legacy_comment:%d" % ordinal,
+            "source_kind": "comment_block",
+            "raw": text[:900],
+            "carries": "prose; may be a decision, an observation, a retraction, "
+                       "or not a service fact at all",
+            "multiplicity": "", "count_min": "", "count_max": "",
+            "vertical_kind": "", "vertical_raw": "",
+            "occurrence_split_count": "", "target_concept": "",
+            "disposition": "unresolved", "disposition_note": "",
+            "review_position": "make_services_sheets.py:%d" % start_line,
         })
     return out
 
@@ -173,7 +269,7 @@ def build():
     for name in LEGACY_CSVS:
         rows.extend(_rows_from_csv(name))
     rows.extend(_rows_from_literals())
-    rows.extend(_rows_from_owner_comments())
+    rows.extend(_rows_from_comment_blocks())
     return rows
 
 
@@ -185,40 +281,45 @@ def main() -> int:
     rows = build()
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
 
-    # NEVER overwrite dispositions already decided. The ledger is worked on by
-    # hand between runs, and regenerating it must not silently reset judgement
-    # back to `unresolved` - which is the migration's own version of the defect
-    # this whole exercise exists to fix.
-    existing = {}
+    # NEVER reset a disposition already decided. Semantic locators are what make
+    # this reliable: a positional one would re-attach the reviewer's judgement
+    # to the wrong fact after any edit above it.
+    existing, kept = {}, 0
     if os.path.exists(a.out):
         with io.open(a.out, encoding="utf-8") as fh:
             for row in csv.DictReader(fh):
                 existing[row["locator"]] = row
-    kept = 0
+    carry = ("disposition", "disposition_note", "target_concept",
+             "occurrence_split_count")
     for row in rows:
         prior = existing.get(row["locator"])
-        if prior and prior.get("disposition") not in ("", "unresolved"):
-            row["disposition"] = prior["disposition"]
-            row["disposition_note"] = prior.get("disposition_note", "")
-            row["target_concept"] = prior.get("target_concept", "")
+        if prior and (prior.get("disposition") or "") not in ("", "unresolved"):
+            for field in carry:
+                if prior.get(field):
+                    row[field] = prior[field]
             kept += 1
 
     with io.open(a.out, "w", encoding="utf-8", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=FIELDS)
         writer.writeheader()
-        for row in rows:
-            writer.writerow(row)
+        writer.writerows(rows)
 
-    by_kind = {}
+    kinds = {}
     for row in rows:
-        by_kind[row["source_kind"]] = by_kind.get(row["source_kind"], 0) + 1
+        kinds[row["source_kind"]] = kinds.get(row["source_kind"], 0) + 1
     print("wrote %s" % os.path.relpath(a.out, REPO))
-    for kind, count in sorted(by_kind.items()):
-        print("   %-32s %3d" % (kind, count))
-    grouped = sum(1 for r in rows if r["grouped"] == "yes")
-    print("   %-32s %3d" % ("of which GROUPED (do not split yet)", grouped))
-    print("   %-32s %3d" % ("dispositions carried over", kept))
-    print("   %-32s %3d" % ("TOTAL source locators", len(rows)))
+    for kind, count in sorted(kinds.items()):
+        print("   %-34s %3d" % (kind, count))
+    for label, test in (
+        ("multiplicity range (observation only)", lambda r: r["multiplicity"] == "range"),
+        ("multiplicity exact_n (may split)", lambda r: r["multiplicity"] == "exact_n"),
+        ("vertical mixed_qualitative", lambda r: r["vertical_kind"] == "mixed_qualitative"),
+        ("vertical continuous", lambda r: r["vertical_kind"] == "continuous"),
+        ("vertical relative", lambda r: r["vertical_kind"] == "relative"),
+    ):
+        print("   %-34s %3d" % (label, sum(1 for r in rows if test(r))))
+    print("   %-34s %3d" % ("dispositions carried over", kept))
+    print("   %-34s %3d" % ("TOTAL source locators", len(rows)))
     return 0
 
 

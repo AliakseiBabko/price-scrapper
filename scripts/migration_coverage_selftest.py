@@ -57,44 +57,76 @@ def main() -> int:
     # 1 - an owner statement left unclassified
     seeded = [dict(r) for r in clean]
     owner = next(r for r in seeded
-                 if r["source_kind"] == "owner_statement_in_comment")
+                 if r["source_kind"] == "comment_block")
     owner["disposition"] = "unresolved"
     problems, _ = check(seeded, require_complete=True)
-    expect("an omitted owner statement is caught", problems, True, "unresolved")
+    expect("an omitted owner comment block is caught", problems, True, "unresolved")
 
-    # 2 - a grouped observation split into the wrong number
+    # 2 - a source of EXACT multiplicity split into the wrong number
     seeded = [dict(r) for r in clean]
-    grouped = next(r for r in seeded if r["grouped"] == "yes"
-                   and "count=3" in (r["carries"] or ""))
-    grouped["split_into"] = "3"
-    facts = [{"identity_uuid": "u%d" % i,
-              "source_locators": grouped["locator"]} for i in range(2)]
+    exact = next(r for r in seeded if r["multiplicity"] == "exact_n"
+                 and r["count_max"] == "3")
+    exact["occurrence_split_count"] = "3"
+    facts = [{"identity_uuid": "u%d" % i, "target_concept": "occurrence",
+              "source_locators": exact["locator"]} for i in range(2)]
     problems, _ = check(seeded, new_facts=facts, require_complete=True)
-    expect("a partially split grouped observation is caught",
+    expect("a partially split exact-count source is caught",
            problems, True, "splits into 3")
 
-    # 3 - the same split with no grouping decision recorded at all
+    # 3 - ONE-TO-MANY ACROSS CONCEPTS MUST PASS. The same source legitimately
+    # produces an observation, three occurrences, value records and an approval;
+    # an earlier gate counted all of them against "3" and would have rejected
+    # the schema's own intended mapping.
     seeded = [dict(r) for r in clean]
-    grouped = next(r for r in seeded if r["grouped"] == "yes")
-    facts = [{"identity_uuid": "u1", "source_locators": grouped["locator"]},
-             {"identity_uuid": "u2", "source_locators": grouped["locator"]}]
+    exact = next(r for r in seeded if r["multiplicity"] == "exact_n"
+                 and r["count_max"] == "3")
+    exact["occurrence_split_count"] = "3"
+    facts = ([{"identity_uuid": "o%d" % i, "target_concept": "occurrence",
+               "source_locators": exact["locator"]} for i in range(3)]
+             + [{"identity_uuid": "obs", "target_concept": "observation",
+                 "source_locators": exact["locator"]},
+                {"identity_uuid": "v1", "target_concept": "value",
+                 "source_locators": exact["locator"]},
+                {"identity_uuid": "v2", "target_concept": "value",
+                 "source_locators": exact["locator"]},
+                {"identity_uuid": "a1", "target_concept": "approval",
+                 "source_locators": exact["locator"]}])
     problems, _ = check(seeded, new_facts=facts, require_complete=True)
-    expect("splitting with no grouping decision is caught",
+    expect("one-to-many across concepts is allowed", problems, False)
+
+    # 4 - splitting an exact source with no decision recorded
+    seeded = [dict(r) for r in clean]
+    exact = next(r for r in seeded if r["multiplicity"] == "exact_n")
+    facts = [{"identity_uuid": "u1", "target_concept": "occurrence",
+              "source_locators": exact["locator"]},
+             {"identity_uuid": "u2", "target_concept": "occurrence",
+              "source_locators": exact["locator"]}]
+    problems, _ = check(seeded, new_facts=facts, require_complete=True)
+    expect("splitting with no decision recorded is caught",
            problems, True, "has to be explicit")
 
-    # 4 - a new fact with no provenance at all
+    # 5 - ⚠️ an UNCERTAIN multiplicity resolved to a number by the migration
+    seeded = [dict(r) for r in clean]
+    rng = next(r for r in seeded if r["multiplicity"] == "range")
+    facts = [{"identity_uuid": "u%d" % i, "target_concept": "occurrence",
+              "source_locators": rng["locator"]} for i in range(2)]
+    problems, _ = check(seeded, new_facts=facts, require_complete=True)
+    expect("a 2-3 range silently resolved is caught", problems, True,
+           "UNCERTAIN multiplicity")
+
+    # 6 - a new fact with no provenance at all
     problems, _ = check(clean, new_facts=[{"identity_uuid": "orphan"}],
                         require_complete=True)
     expect("an untraceable new fact is caught", problems, True, "cites no source")
 
-    # 5 - a new fact citing a locator that does not exist
+    # 7 - a new fact citing a locator that does not exist
     problems, _ = check(clean, new_facts=[{"identity_uuid": "ghost",
                                            "source_locators": "nowhere.csv:1#X"}],
                         require_complete=True)
     expect("a citation to a missing locator is caught", problems, True,
            "does not carry")
 
-    # 6 - `contradicted` without naming what overrides it
+    # 8 - `contradicted` without naming what overrides it
     seeded = [dict(r) for r in clean]
     seeded[0]["disposition"] = "contradicted"
     seeded[0]["disposition_note"] = ""
@@ -102,11 +134,12 @@ def main() -> int:
     expect("`contradicted` with no override named is caught", problems, True,
            "does not name what overrides")
 
-    # 7 - the REAL ledger today, which must still be incomplete
+    # 9 - the REAL ledger today, which must still be incomplete
     problems, summary = check(rows, require_complete=True)
     expect("the real ledger is still unclassified", problems, True, "unresolved")
-    print("     (%d locators, %d unresolved, %d grouped)"
-          % (summary["locators"], summary["unresolved"], summary["grouped"]))
+    print("     (%d locators, %d unresolved, %d exact_n, %d range)"
+          % (summary["locators"], summary["unresolved"],
+             summary["exact_n"], summary["range"]))
 
     print()
     print("failures: %d" % failures)
