@@ -48,6 +48,7 @@ EXTENTS = REPO / "data" / "canonical" / "wall_extent_exceptions.csv"
 THICKNESS_TOL_MM = 2.0     # the DXF rounds to 0.1 mm; 2 mm is generous and still tight
 VERTICAL_TOL_MM = 5.0
 LENGTH_TOL_MM = 5.0
+AREA_TOL_MM2 = 500.0   # a tenth of the 5,700 mm2 a squared-back mitre restores
 
 
 def _verts(settings, element) -> np.ndarray:
@@ -218,6 +219,44 @@ def check(ifc_path: Path) -> list[str]:
                         problems.append(
                             "wall %s placed %.1f/%.1f mm off in %s against the resolved "
                             "geometry (%s)" % (wall.Name, lo_d, hi_d, name, why))
+
+    # 6 - EXACT FOOTPRINT PARITY against the compiler's plan polygon.
+    #
+    # ⚠️ The placement check above compares bounding boxes, and a mitre is
+    # INVISIBLE to a bounding box: clipping a rectangle on a plane through its
+    # corner leaves min and max untouched. That is precisely how the IFC came to
+    # restore 5,710 mm2 on M2 and 5,707 mm2 on M6b with every gate passing, on
+    # both sides. Area is the measure that sees it.
+    if rv is not None and getattr(resolved, "plan_polygons", None):
+        def _area(points):
+            n = len(points)
+            return abs(sum(points[i][0] * points[(i + 1) % n][1]
+                           - points[(i + 1) % n][0] * points[i][1]
+                           for i in range(n))) / 2.0
+
+        for wall in model.by_type("IfcWall"):
+            want_poly = resolved.plan_polygons.get(wall.Name)
+            if not want_poly:
+                continue
+            curve = (wall.Representation.Representations[0]
+                     .Items[0].SweptArea.OuterCurve)
+            got = [tuple(p.Coordinates) for p in curve.Points]
+            if len(got) > 1 and got[0] == got[-1]:
+                got = got[:-1]
+            got_mm2 = _area(got) * 1e6
+            want_mm2 = _area(want_poly)
+            # A wall extended across a doorway is legitimately LARGER, by the
+            # opening it spans. Nothing may be smaller than its plan polygon,
+            # and nothing may exceed it by more than that extension.
+            grow = max(openings_in.get(wall.Name, [0.0]) or [0.0])
+            thickness = recorded.get(wall.Name) or 0.0
+            allowance = grow * thickness
+            if got_mm2 < want_mm2 - AREA_TOL_MM2 or got_mm2 > want_mm2 + allowance + AREA_TOL_MM2:
+                problems.append(
+                    "wall %s footprint %.0f mm2 against the resolved plan polygon's "
+                    "%.0f mm2 (allowance for an opening extension: %.0f mm2) - a "
+                    "mitre squared back is invisible to a bounding box, so area is "
+                    "what catches it" % (wall.Name, got_mm2, want_mm2, allowance))
 
     # 3 - opening verticals against wall_openings.csv
     want_open = {}

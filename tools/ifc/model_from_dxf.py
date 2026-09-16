@@ -394,9 +394,26 @@ def build(output: Path, manifest_path: Path) -> dict:
             x1 = max(x1, max(p[0] for p in poly))
             y0 = min(y0, min(p[1] for p in poly))
             y1 = max(y1, max(p[1] for p in poly))
-        rect = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+        # ⚠️ THE WALL'S OWN POLYGON, not a rectangle rebuilt from its bounding
+        # box. M2 and M6b are MITRED on the лоджия glazing plane - the owner:
+        # "not squared but inclined... the cut under one angle and we have one
+        # surface". Rebuilding from min/max silently restored 5,710 mm2 on M2
+        # and 5,707 mm2 on M6b and pushed both walls back through the glazing.
+        #
+        # THE BODY footprint is the plan polygon EXTENDED across any doorway the
+        # plan draws the wall as stopping at, because the block continues over a
+        # door head and a plan cannot say so. Where nothing is extended the two
+        # are the same polygon; where something is, the extension is a rectangle
+        # spanning the opening and the mitre is untouched, since no opening and
+        # no mitre occur on the same wall.
+        base = w.get("polygon") or [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+        if extensions.get(w["id"]):
+            rect = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+            body_poly = rect
+        else:
+            body_poly = base
         obj = polygon_solid(model, body, storey, owner, "IfcWall", w["id"],
-                            to_m(rect), 0.0, h_m)
+                            to_m(body_poly), 0.0, h_m)
         add_pset(model, obj, "Pset_ApartmentPhase", {
             "Phase": "existing",
             "WallClass": meta.get("class") or LAYER_CLASS.get(w["layer"], ""),

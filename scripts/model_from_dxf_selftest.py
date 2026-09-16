@@ -146,7 +146,33 @@ def seed_wall_slid_along_axis(model):
     return "wall G7 slid 300 mm along its own axis"
 
 
+def seed_mitre_squared_back(model):
+    """A mitred wall rebuilt as its bounding rectangle.
+
+    ⚠️⚠️ THIS IS NOT A HYPOTHETICAL. It is what the IFC generator actually did
+    until 2026-09-16: `dxf_wall_entities.read_walls` validated the mitred
+    polygon and then returned only its bounding box, so every wall was rebuilt
+    as a rectangle and M2 and M6b silently regained 5,710 and 5,707 mm2 -
+    pushing both back through the лоджия glazing plane in 3D.
+
+    No gate caught it, on either side. Clipping a rectangle on a plane through
+    its corner leaves min and max untouched, so every extent, length, thickness
+    and placement check is blind to it. Only area sees it, which is why the
+    footprint-parity check exists and why this seed is permanent.
+    """
+    wall = next(w for w in model.by_type("IfcWall") if w.Name == "M6b")
+    curve = wall.Representation.Representations[0].Items[0].SweptArea.OuterCurve
+    pts = [tuple(p.Coordinates) for p in curve.Points]
+    xs = [p[0] for p in pts]
+    ys = [p[1] for p in pts]
+    x0, x1, y0, y1 = min(xs), max(xs), min(ys), max(ys)
+    box = [(x0, y0), (x1, y0), (x1, y1), (x0, y1), (x0, y0)]
+    curve.Points = [model.create_entity("IfcCartesianPoint", Coordinates=p) for p in box]
+    return "wall M6b squared back to its bounding rectangle"
+
+
 SEEDS = [
+    ("mitre squared back to a rectangle", seed_mitre_squared_back),
     ("wall shifted sideways", seed_wall_shifted_sideways),
     ("wall slid along its axis", seed_wall_slid_along_axis),
     ("wall lengthened without sanction", seed_unsanctioned_extension),
