@@ -123,6 +123,23 @@ An occurrence **cites** observations. It does not absorb them: the evidence has 
 
 > ⚠️⚠️ **Two consequences for the generator, and both are hard rules.** The *"expect ~2.2 m"* figure is a candidate and **the generator may not consume it as a placement value**. And until `SH-B`'s function is confirmed, **the generator may not give it heating-system membership or silently pick a concrete heating IFC class** — an unconfirmed function must not become a typed element by default.
 
+### 3.0d Negation is POLARITY, not a kind of fact
+
+> ⚠️⚠️ **A "negative fact" concept was proposed and REJECTED.** *"There is no horizontal DN110 main"* and *"zero outlets on wall MC"* are not a different species of fact needing their own concept — they are ordinary **assertions whose value is false, or whose scoped count is zero**.
+
+| Part | `no_horizontal_dn110_main` |
+| :--- | :--- |
+| subject | the existing apartment drainage system |
+| property | `contains_route` |
+| object / type | horizontal DN110 main |
+| value | **`false`** |
+| scope | whole apartment, `phase: existing` |
+| basis + observations | preserved as for any other assertion |
+
+*"Zero outlets on MC"* is the same shape with a scoped **count of zero**. ⚠️ **If such a statement is an owner REQUIREMENT rather than an observation, it is paired with an approval record** — the two are different things and the difference is not recoverable later.
+
+**A genuinely normative rule** — *"an outlet must never be placed here"* — may one day justify a `constraint` concept. **Ordinary observed absence does not**, and inventing one for it would fragment the model around a distinction that is really just a truth value.
+
 ### 3.1 Knowledge basis belongs to each value
 
 **One basis per occurrence cannot describe reality, and the existing data already proves it.** A single socket can simultaneously have **observed** existence, **derived** height, **assumed** host and **unknown** horizontal position — which is exactly what `electrical_existing.csv` records today.
