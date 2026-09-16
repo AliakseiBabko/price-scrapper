@@ -16,6 +16,11 @@ data covers the old. Coverage is proved against LOCATORS instead:
      from a count of three is silent in every other check, because both
      numbers are plausible.
 
+     ⚠️ An ASSEMBLY PARENT is not one of its own component occurrences.
+     `SW-K` is the hot AND cold take-offs: the assembly is a thing, and so are
+     its two components. Counting the parent among them double-counts the unit
+     against its own parts.
+
      ⚠️ It counts OCCURRENCES ONLY. One source legitimately produces an
      observation, several occurrences, several value records and an approval -
      comparing all of those against "3" would reject the schema's intended
@@ -45,6 +50,12 @@ LEDGER = os.path.join(REPO, "_Inbox", "migration",
 
 VALID = {"migrated", "duplicate", "contradicted", "retracted", "out_of_scope",
          "unresolved"}
+
+# The five concepts a new fact may target. `assembly` is a NAMED GROUP that is
+# itself a thing - SW-K is the hot and cold take-offs - and it is NOT one of its
+# own component occurrences.
+CONCEPTS = {"occurrence", "assembly", "observation", "value", "approval",
+            "connectivity", "route", "relation"}
 # `out_of_scope` exists because not every captured line is a service fact:
 # migration policy, drawing-label feedback and notes about the code all appear
 # in the same comment blocks. Calling those `duplicate` would be dishonest.
@@ -93,6 +104,10 @@ def check(ledger_rows, new_facts=None, require_complete=False):
         cites = [c for c in (fact.get("source_locators") or "").split(";") if c.strip()]
         decision = (fact.get("new_decision_by") or "").strip()
         ident = fact.get("identity_uuid") or fact.get("service_id") or "?"
+        concept = (fact.get("target_concept") or "").strip()
+        if concept and concept not in CONCEPTS:
+            problems.append("new fact %s targets concept %r, which is not one of %s"
+                            % (ident, concept, ", ".join(sorted(CONCEPTS))))
         if not cites and not decision:
             problems.append("new fact %s cites no source locator and is not marked "
                             "as a new decision" % ident)

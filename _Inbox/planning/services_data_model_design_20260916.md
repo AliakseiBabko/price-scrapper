@@ -29,9 +29,14 @@ The single biggest error available here is one flat `services.csv` with a `statu
 | Concept | Holds | Example |
 | :--- | :--- | :--- |
 | **Occurrence** | a thing that exists or will exist, in one place | a socket, a grille, a riser, a luminaire |
+| **Assembly** | a NAMED GROUP of occurrences that is itself a thing, with component relations | `SW-K`, the hot **and** cold take-offs; `SW-B`, the risers with their meters and valves |
 | **Observation** | what a photo or an owner statement establishes, and its limits | *"three boxes in a row, 915–1105, oblique shot, no scale in the wall plane"* |
 | **Connectivity** | circuits, systems, ports, A→B relationships | *"this socket is on circuit C3"* |
 | **Route** | a physical or intended path | *"C3 runs in the G3 wall zone at 300 mm"* |
+
+> ⚠️⚠️ **`assembly` is the FIFTH concept, and it was missing.** §1 originally called `SW-K` an assembly while the concept model declared only four — so an implementer had no place to put it and the only available moves were both wrong: **flatten it into one terminal occurrence**, losing the hot/cold pair, or **invent two occurrences** with no record that they are one unit.
+>
+> **An assembly parent is NOT one of its own component occurrences.** It must never be counted as one when checking how many occurrences a source produced, or the arithmetic double-counts the thing against its own parts.
 
 An occurrence **cites** observations. It does not absorb them: the evidence has to survive the conclusion, because that is what let the window error be caught.
 
@@ -65,6 +70,12 @@ An occurrence **cites** observations. It does not absorb them: the evidence has 
 | **knowledge basis** | **on each VALUE**, not the occurrence | `measured` / `observed` / `derived` / `assumed` |
 | **approvals** | **a list of RECORDS** | see below |
 | `route_state` | route | `topology_only` / `design_intent` / `construction_approved` / `as_built` |
+
+### 3.0 Parsed multiplicity and REVIEWED multiplicity are different fields
+
+**The parser reports what a row SAYS and never more.** `service_outlets.csv` has no `count` column at all, so every row in it parses as `multiplicity: unstated` — and that stays.
+
+**Classification may resolve it from the row's complete evidence, in its own field, with a note.** `SS-B` is *"sewer connection, MAIN"* and the vault observes one main stack, so one occurrence is the right reading — **but it is a reading, justified by the singular description and the observation, not by the absent column.** Recording it as `reviewed_multiplicity` beside an untouched `multiplicity: unstated` keeps the difference between *what the source said* and *what somebody concluded* — which is the same distinction §3.1 draws for every other value.
 
 ### 3.1 Knowledge basis belongs to each value
 
