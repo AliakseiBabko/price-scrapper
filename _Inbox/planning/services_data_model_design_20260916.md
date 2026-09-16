@@ -6,8 +6,9 @@
 > **Status, 2026-09-16 after review:**
 > - ✅ **The GUID rule in §2 is APPROVED** — `identity_uuid` immutable, IFC `GlobalId` derived from it and nothing else.
 > - ✅ **The five required amendments are now APPLIED to §§2–3**, which are normative. §7 is kept as the CHANGE RECORD of what was corrected and why, not as an override — there are no contradictory sections left for an implementer to reconcile.
-> - ⛔ **Still NOT approved for generation.** §6 lists what remains unsettled, chiefly the host-local locator.
-> - ▶️ **The geometry compiler extraction proceeds independently** and is not blocked by these.
+> - ✅ **The host-local locator contract is IMPLEMENTED and published by the geometry compiler** (§6). The banner previously said this design was blocked on it; it is not, and has not been since the compiler was extracted.
+> - ⛔ **Still NOT approved for generation.** What remains is in §6: the locator validator that refuses a terminal landing inside a hosted void, and whether CSV stays the carrier.
+> - ▶️ **Classification (step 2 of the migration) may now start.**
 
 **Why it exists now.** Services are currently authored in three places that can disagree — Python literals inside `tools/layout/sheets/make_services_sheets.py`, `electrical_existing.csv`, and `service_outlets.csv` — and the IFC consumes none of them. The generator was frozen on 2026-09-16 and its write-back into `data/canonical/` stopped, but **containment is not a fix**. This is the authored-data design that migration needs, and it is the one part of the work that does **not** depend on extracting the geometry compiler first.
 
@@ -77,6 +78,51 @@ An occurrence **cites** observations. It does not absorb them: the evidence has 
 
 **Classification may resolve it from the row's complete evidence, in its own field, with a note.** `SS-B` is *"sewer connection, MAIN"* and the vault observes one main stack, so one occurrence is the right reading — **but it is a reading, justified by the singular description and the observation, not by the absent column.** Recording it as `reviewed_multiplicity` beside an untouched `multiplicity: unstated` keeps the difference between *what the source said* and *what somebody concluded* — which is the same distinction §3.1 draws for every other value.
 
+### 3.0b Function and locator parts are PROPERTY ASSERTIONS, not a status column
+
+> ⚠️⚠️ **A single `completeness` field was proposed and REJECTED — it is the one-column-status mistake again.** An occurrence can simultaneously have an incomplete placement, an uncertain function and disputed dimensions. One column forces those to share a slot and the first two get lost.
+
+**Every property is asserted separately**, and carries its own state:
+
+| Field | Meaning |
+| :--- | :--- |
+| `subject` | the occurrence, assembly or observation the assertion is about |
+| `property` | `function`, `host`, `face_ref`, `along_face_mm`, `vertical`, `insulation`, … |
+| typed value | per §3.3 for measurements |
+| `value_state` | `asserted` / `candidate` / `unknown` / `disputed` |
+| `knowledge_basis` | `measured` / `observed` / `derived` / `assumed` (§3.1) |
+| observation refs | what establishes it |
+| raw source text | preserved wherever there is one |
+
+**`value_state` and `knowledge_basis` are orthogonal.** A value can be `candidate` **and** `derived`; another can be `asserted` **and** `assumed`. Collapsing them loses the difference between *how confident we are* and *how we came to it*.
+
+### 3.0c Readiness is DERIVED, never authored
+
+| Derived field | Values |
+| :--- | :--- |
+| `placement_readiness` | `resolved` / `partial` / `unlocated` / `invalid` |
+| `classification_readiness` | `resolved` / `candidate` / `disputed` |
+
+**These are validator and report OUTPUTS**, computed from the requirements of the occurrence type and its intended representation. ⚠️ **They must never become a manually maintained canonical status** — a hand-kept readiness flag is a second authority that drifts from the assertions it claims to summarise, which is this repository's oldest failure.
+
+*"Which occurrences cannot be placed?"* is then `placement_readiness != resolved`, **with machine-readable missing-property reasons** — queryable without collapsing independent deficiencies into one word.
+
+**The two worked cases:**
+
+| | `SV-T` — ventilation grille | `SH-B` — riser |
+| :--- | :--- | :--- |
+| existence | `asserted`, observed | `asserted`, observed |
+| function | `asserted` (grille) | ⚠️ `candidate`, `derived` — `heating_riser` is **not confirmed** |
+| host | `asserted` — `V1` | `asserted`, observed |
+| face_ref | **`unknown`** | asserted |
+| along_face_mm | **`unknown`** | asserted |
+| vertical | **`unknown`**; *"expect ~2.2 m"* is a **`candidate`** with `knowledge_basis=assumed` | `asserted`, observed full-height extent |
+| insulation | — | `asserted`, observed |
+| → `placement_readiness` | **`unlocated`** | `resolved` |
+| → `classification_readiness` | `resolved` | **`candidate`** |
+
+> ⚠️⚠️ **Two consequences for the generator, and both are hard rules.** The *"expect ~2.2 m"* figure is a candidate and **the generator may not consume it as a placement value**. And until `SH-B`'s function is confirmed, **the generator may not give it heating-system membership or silently pick a concrete heating IFC class** — an unconfirmed function must not become a typed element by default.
+
 ### 3.1 Knowledge basis belongs to each value
 
 **One basis per occurrence cannot describe reality, and the existing data already proves it.** A single socket can simultaneously have **observed** existence, **derived** height, **assumed** host and **unknown** horizontal position — which is exactly what `electrical_existing.csv` records today.
@@ -133,9 +179,34 @@ Concrete leaf types, not the generic ones: **`IfcOutlet`, `IfcLightFixture`, `If
 
 ## 6. What this design does NOT settle
 
-1. **The locator.** Every occurrence needs a host-local position — `on_element`, `along_wall_mm`, `height_mm`, plus which face. **Those cannot be defined here**: they must mean the same thing in the IFC and in every discipline sheet, and today only `export_v0_dxf.py` knows what they mean. **Blocked on the geometry compiler, deliberately.**
-2. **Whether CSV remains the carrier.** Workable at this scale, but hosts, ports, systems, phases, variants, evidence and approval states are a relational shape. If it stays CSV it needs strict schemas and a validator, not convention.
-3. **Migration of the frozen literals.** Every literal in `make_services_sheets.py` must first be classified as observed existing / owner decision / design assumption / route topology. That is a reading job, and it is where owner decisions recorded only as Russian comments — *«ВЛАДЕЛЕЦ: на G7 две розетки, выключателей нет»* — have to be recovered as data rather than prose.
+> [!IMPORTANT]
+> ⚠️ **CORRECTED 2026-09-16.** Item 1 said the locator was *"blocked on the geometry compiler"* and that *"only `export_v0_dxf.py` knows what they mean"*. **Both are now false** — the compiler was extracted the same day and publishes the contract below. Leaving that text would have had an implementer wait for work already done, or reimplement it.
+
+### ✅ The host-local locator contract — IMPLEMENTED
+
+`tools/layout/resolve_v0_geometry.py` publishes it, and both the IFC generator and the DXF serialiser consume it, so one meaning holds across every representation.
+
+**A locator is `host_id` + `face_ref` + `along_face_mm` + a vertical, with the datum explicit.**
+
+| Part | Contract |
+| :--- | :--- |
+| `face_ref` | A **stable named role**, never an index or `+1/-1`: `cross_lo`, `cross_hi`, `end_from`, `end_to`, and `glazing_cut` where a wall is mitred. ⚠️ **M6b has five faces**, and its `glazing_cut` normal is (−0.275, −0.962) against (−1.000, 0.000) on its parallel face — so *"the wall normal"* is genuinely undefined without naming a face. |
+| face record | ordered endpoints, tangent, outward normal, length, role. `along_face_mm` runs from the face's **first** endpoint, which is why endpoints are ordered. |
+| resolution | `locate_on_face(faces, face_ref, along_face_mm)`. **It RAISES on an unknown face rather than defaulting** — defaulting is how a socket ends up on the wrong side of a wall. |
+| coordinates | `frame.drawing_to_model` / `model_to_drawing`, on the **base-wall datum**, published and gated. |
+
+### ⛔ The one service-specific validation still to build
+
+**A locator that resolves on a face does NOT prove usable wall exists there.**
+
+`locate_on_face` answers *"where is this point on this face"*. It does not ask whether that point is inside a hosted void. A socket at 1.5 m on the face carrying O3 — sill 266, head 2251 — resolves cleanly and is **inside the window**.
+
+**So the locator validator must reject any terminal whose `face_ref` + along-position + vertical extent intersects a hosted opening void.** The compiler publishes those voids, so it is buildable; it belongs with the service migration, and it must be seeded before anything is generated.
+
+### Still genuinely unsettled
+
+1. **Whether CSV remains the carrier.** Workable at this scale, but hosts, ports, systems, phases, variants, evidence and approval states are a relational shape. If it stays CSV it needs strict schemas and a validator, not convention.
+2. **Migration of the frozen literals.** Every literal in `make_services_sheets.py` must first be classified. That is a reading job, and it is where owner decisions recorded only as Russian comments — *«ВЛАДЕЛЕЦ: на G7 две розетки, выключателей нет»* — have to be recovered as data rather than prose.
 
 ---
 
