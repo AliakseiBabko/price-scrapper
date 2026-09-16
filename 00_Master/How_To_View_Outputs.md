@@ -89,6 +89,12 @@ toolslenderinlender-5.2.0-windows-x64lender.exe --background `
 **W A S D** or the **arrow keys** to move, **Q/E** down/up, **Shift** to creep. The
 HUD prints the model's extents and your eye height.
 
+**⚠️ Layer buttons in the HUD switch each IFC class on and off** — Wall, Slab,
+Door, Window, FlowTerminal. **Turn DOORS off to read a doorway as an opening**:
+the model carries door leaves, which fill their openings and block the view when
+what you want is the circulation. The class is carried in the GLB's node
+`extras`, written by `export_glb.py`.
+
 **Two ways to look around, and movement never depends on either**: click the
 canvas for pointer-lock mouse-look, **or just click and drag**. ⚠️ **WASD works
 whenever the page has focus**, locked or not — an earlier build gated movement on
