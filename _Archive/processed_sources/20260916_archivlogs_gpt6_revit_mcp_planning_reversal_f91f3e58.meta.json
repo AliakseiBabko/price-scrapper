@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=pkFnSQ9Bapg",
+  "video_id": "pkFnSQ9Bapg",
+  "language": "en-US",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T07:32:25.924441+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f91f3e58e6b94573d927c8a2176d838ad054e1384465ca1177d38ff6b2bd2ea9",
+  "attempts_before_success": [],
+  "upload_date": "2026-09-15",
+  "upload_date_source": "yt-dlp"
+}
