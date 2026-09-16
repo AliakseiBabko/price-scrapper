@@ -1364,3 +1364,8 @@ HV-fbzv4VAU
 dnqlClsPD4g
 U4AHDngSb7k
 iQPKN271msY
+
+# ---- glTF/GLB export mechanics, owner-directed, 2026-09-16 ----
+i82_Rx1OUe0
+2sgKu0bKUwU
+AK4tVgdWVo4

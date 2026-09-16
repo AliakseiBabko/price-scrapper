@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=i82_Rx1OUe0",
+  "video_id": "i82_Rx1OUe0",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T08:38:45.577967+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "0fd551cd03a4bbceefbc4e86ef6fe7bfb86e15d0616d92b1ae39e42c36072acb",
+  "attempts_before_success": [],
+  "upload_date": "2025-11-26",
+  "upload_date_source": "yt-dlp"
+}
