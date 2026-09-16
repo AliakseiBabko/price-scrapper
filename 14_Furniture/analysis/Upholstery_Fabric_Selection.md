@@ -8,7 +8,7 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 
 ## ⚠️⚠️ 1. The organising principle — there is no universal fabric
 
-> ***«Нет плохих инструментов… все материалы хороши, но только на своём месте.»*** — Никита Якоби, re-upholsterer
+> ***«Нет плохих инструментов… все материалы хороши, но только на своём месте.»*** — Никита Якоби, re-upholsterer [source: [[_Sources/YT_SwOVFr5YRP8_yakobi_upholstery_fabric_choice|YT_SwOVFr5YRP8]]]
 
 **His instruction is to settle, before choosing anything: who and what will actually be on this piece, and for how long** — children, animals, food, daily versus occasional use — **and then choose to that answer rather than to a category label.**
 
@@ -18,12 +18,12 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 
 **The mechanism: a loose or open weave gives a claw something to HOOK. A short, dense pile does not.**
 
-| Source | Position | What they name as failing | What they name as safe |
-| :--- | :--- | :--- | :--- |
-| **Шеврина / SMBUREAU** | interior designer | **букле, рубчатый бархат** | — |
-| **ARMOS** | bed manufacturer | **рогожка** — *however expensive* | **велюр, флок** |
-| **⚠️ Никита Якоби** | **re-upholsterer — sees furniture AFTER it fails** | **рогожка** | **флок, велюр** |
-| **⚠️ Пинскдрев** | **Belarusian sofa manufacturer** | **plain unbacked шенилл** | **велюр — *«в плане плотности структуры велюр — лидер»*** |
+| Source | Position | What they name as failing | What they name as safe | |
+| :--- | :--- | :--- | :--- | :--- |
+| **Шеврина / SMBUREAU** | interior designer | **букле, рубчатый бархат** | — | [source: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]]] |
+| **ARMOS** | bed manufacturer | **рогожка** — *however expensive* | **велюр, флок** | [source: [[_Sources/YT_ZLPknlB-3XI_armos_bed_selection_and_base_construction|YT_ZLPknlB-3XI]]] |
+| **⚠️ Никита Якоби** | **re-upholsterer — sees furniture AFTER it fails** | **рогожка** | **флок, велюр** | [source: [[_Sources/YT_SwOVFr5YRP8_yakobi_upholstery_fabric_choice|YT_SwOVFr5YRP8]]] |
+| **⚠️ Пинскдрев** | **Belarusian sofa manufacturer** | **plain unbacked шенилл** | **велюр — *«в плане плотности структуры велюр — лидер»*** | [source: [[_Sources/YT_1UGUjGmZPNA_pinskdrev_sofa_fabric_guide|YT_1UGUjGmZPNA]]] |
 
 > **⚠️⚠️ Four unrelated sources, four different commercial interests, the same physical explanation. Велюр is on the safe side in three of the four and contradicted by none.**
 
@@ -103,3 +103,17 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 > **Nothing on this page is tested or measured. No prices, so standing rule 2 does not bind anywhere. Nothing routed to `16_Legal_and_Regulations/` — the Belarusian source makes no regulatory claim.**
 
 Part of [[14_Furniture/Seating_and_Tables|Seating & Tables]]. Sources: [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]]. Edit history: [[14_Furniture/analysis/Seating_and_Tables_Change_Log|Change Log]].
+
+## Source Notes
+
+| Source | Contribution |
+| :--- | :--- |
+| [source: [[_Sources/YT_SwOVFr5YRP8_yakobi_upholstery_fabric_choice|YT_SwOVFr5YRP8]]] | The organising principle (*«все материалы хороши, но только на своём месте»*), and the claw finding from the one position that sees furniture AFTER it fails |
+| [source: [[_Sources/YT_1UGUjGmZPNA_pinskdrev_sofa_fabric_guide|YT_1UGUjGmZPNA]]] | The manufacturer's FIX — a dense backing behind the face cloth — and велюр as the density leader |
+| [source: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]]] | The designer's failing weaves (букле, рубчатый бархат) |
+| [source: [[_Sources/YT_ZLPknlB-3XI_armos_bed_selection_and_base_construction|YT_ZLPknlB-3XI]]] | The bed manufacturer's рогожка warning, *however expensive* |
+
+⚠️ **Added 2026-09-16.** The page was created 2026-09-14 with every claim attributed to a
+named practitioner, per standing rule 3 — but with **no `[source:]` links back to the
+source notes**, so a reader could not get from a claim to its transcript. Found by an
+audit of every recent note's Routing section against the pages it named.
