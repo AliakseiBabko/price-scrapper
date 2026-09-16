@@ -100,7 +100,7 @@ region: n/a - software capability
 
 - §1, §2 → [[00_Master/Model_and_Views|One model, many views]], sharpening the appearance-does-not-transfer finding with its mechanism and price
 - §3, §5, §6 → same page, into the walkable-view rungs
-- §4 → Model to Drawing Pipeline as an export-integrity rule
+- §4 → [[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model to Drawing Pipeline]] as an export-integrity rule
 
 ## What was NOT taken
 

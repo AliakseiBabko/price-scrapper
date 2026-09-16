@@ -85,7 +85,7 @@ same_vendor_as: wfmIOYsE2Hs, qMGSfO-glvc, cZNP6TaUyCU, A62N5d7_4Wg, 9TfkqxJjRxI 
 
 - §1 → [[00_Master/Bedroom_Wall_Bed_Installation_and_Daily_Use|Wall-Bed Installation and Daily Use]], beside the existing dust finding
 - §2 → same page, into the build-stage constraints
-- §3, §4 → Wall-Bed Mechanisms
+- §3, §4 → [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanisms]]
 - §5 → [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers]], against the floor-area method already recorded there
 
 ## What was NOT taken

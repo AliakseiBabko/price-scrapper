@@ -67,7 +67,7 @@ region: Russia (Moscow / St Petersburg showrooms, named at the close) - no price
 
 > **→ ⚠️⚠️ BOTH MANUFACTURERS IN THIS BATCH CONTRADICT THE POLYSTYRENE CLAIM, and they are the ones who build the doors.** [[_Sources/YT_6r8IVBsXjnE_novakey_six_door_selection_mistakes|Novakey]] names пенопласт filling as the tell of a cheap door; [[_Sources/YT_nPSB41PtdMA_bastion_ten_criteria_how_to_check_a_door|Бастион]] says the variable is **density** and specifies **>40 kg/m³ mineral/basalt**. **Gusev is the outlier, he is the one selling the cheapest doors, and foam is the cheapest filling. Recorded as contradicted, not as an open question.**
 >
-> **→ ⚠️⚠️ AND THE SEAL-CONTOUR ADVICE IS DIRECTLY DEBUNKED BY BOTH, from opposite directions**: Novakey lists "choosing by contour count" as one of six buyer errors; Бастион says three finger-thick contours *«всё как в шлюзе»* still leak if the leaf geometry is wrong. **See Entrance Door Construction Spec (unlinked spec) §5.**
+> **→ ⚠️⚠️ AND THE SEAL-CONTOUR ADVICE IS DIRECTLY DEBUNKED BY BOTH, from opposite directions**: Novakey lists "choosing by contour count" as one of six buyer errors; Бастион says three finger-thick contours *«всё как в шлюзе»* still leak if the leaf geometry is wrong. **See [[13_Surfaces_and_Finishes/analysis/Entrance_Door_Construction_Spec|Entrance Door Construction Spec]] §5.**
 
 ## 5. Aesthetics — the one section with no counter-evidence
 
@@ -83,7 +83,7 @@ Named: Guardian, TX, Портал (called premium), and Йошкар-Олинс�
 
 - §1 → [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]], rewriting the unresolved-security block
 - §2 → same page, against the class-scale conflict
-- §3, §4, §5 → Entrance Door Construction Spec (unlinked spec)
+- §3, §4, §5 → [[13_Surfaces_and_Finishes/analysis/Entrance_Door_Construction_Spec|Entrance Door Construction Spec]]
 - §6 → not routed
 
 ## What was NOT taken

@@ -83,7 +83,7 @@ region: n/a - software capability
 
 ## Routing
 
-- §1, §2, §3 → AI for Concept and Visualisation and [[00_Master/Model_and_Views|One model, many views]], as the engine decision
+- §1, §2, §3 → [[18_Digital_Toolchain/analysis/AI_For_Concept_And_Visualisation|AI for Concept and Visualisation]] and [[00_Master/Model_and_Views|One model, many views]], as the engine decision
 - §4, §5 → same, as the interior method
 
 ## What was NOT taken

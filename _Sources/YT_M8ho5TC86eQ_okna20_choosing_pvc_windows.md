@@ -36,7 +36,7 @@ region: Russia - no city named; RU-market window company. No price figures
 
 > **→ ⚠️⚠️ A камера is the GAP between panes, not a pane. So `двухкамерный` is a THREE-pane unit, not a double-glazed one.**
 >
-> **⚠️⚠️ THIS VAULT HAD IT WRONG IN ONE PLACE.** Insulation & Heating read **«Double-pane ("двухкамерный") glazing … is non-negotiable»** — which understates the spec by an entire pane, and it is exactly the line you would read out to a supplier. **Corrected this round.** Every other occurrence in the vault correctly says "double-chamber", so this was a single slip rather than a systematic misunderstanding — but it was in the one sentence phrased as a purchasing instruction.
+> **⚠️⚠️ THIS VAULT HAD IT WRONG IN ONE PLACE.** [[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]] read **«Double-pane ("двухкамерный") glazing … is non-negotiable»** — which understates the spec by an entire pane, and it is exactly the line you would read out to a supplier. **Corrected this round.** Every other occurrence in the vault correctly says "double-chamber", so this was a single slip rather than a systematic misunderstanding — but it was in the one sentence phrased as a purchasing instruction.
 >
 > **⚠️ She adds the second half of the trap: камеры exist in BOTH the profile and the glass unit, and they are different things sharing a word.** **→ "70 mm five-chamber profile with a 40 mm two-chamber unit" contains two unrelated chamber counts, which is precisely the spec floor the vault carries.**
 
@@ -75,9 +75,9 @@ Cosmetics: lamination inside, outside or both, including wood-effect and RAL-typ
 
 ## Routing
 
-- §1 → Insulation & Heating (correcting the mislabel) and [[13_Surfaces_and_Finishes/analysis/Windows_Quality_and_Buying|Windows — Quality & Buying]]
+- §1 → [[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]] (correcting the mislabel) and [[13_Surfaces_and_Finishes/analysis/Windows_Quality_and_Buying|Windows — Quality & Buying]]
 - §2, §3, §5 → [[13_Surfaces_and_Finishes/analysis/Windows_Quality_and_Buying|Windows — Quality & Buying]]
-- §4 → Windows — Hardware Selection
+- §4 → [[13_Surfaces_and_Finishes/analysis/Windows_Hardware_Selection|Windows — Hardware Selection]]
 - §6 → recorded here as a tension; not routed as guidance
 
 ## What was NOT taken

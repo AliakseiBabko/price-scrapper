@@ -60,7 +60,7 @@ region: not_resolved_to_a_country - Russian-language practice, no city named, no
 
 ## Routing
 
-- §1 → Insulation & Heating, as a fourth arrival on the existing prohibition
+- §1 → [[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]], as a fourth arrival on the existing prohibition
 - §2, §3, §4 → [[10_Balcony/analysis/Materials_Finishes_and_Layout|Materials, Finishes & Layout]]
 - §3's socket detail → also flagged to [[12_Engineering_and_Systems/analysis/Electrical_Key_Concepts_and_Planning|Electrical Key Concepts & Planning]]
 
