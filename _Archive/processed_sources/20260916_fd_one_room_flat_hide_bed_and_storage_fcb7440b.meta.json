@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=KJ9FG5JxxAk",
+  "video_id": "KJ9FG5JxxAk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T06:54:46.372112+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "fcb7440be7d97ea15daf7ad5ed0e479bd6c8c7c20b000e392a5afb819e8fd557",
+  "attempts_before_success": [],
+  "upload_date": "2024-10-14",
+  "upload_date_source": "yt-dlp"
+}

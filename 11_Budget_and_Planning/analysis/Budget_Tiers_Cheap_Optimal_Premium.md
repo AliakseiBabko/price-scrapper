@@ -248,6 +248,18 @@ argument:**
 > seller quoting a property statistic he has an interest in maximising: tagged
 > `unverified`.** [source: [[_Sources/YT_DTVaEz_t5nk_progressdesign_floor_area_opportunity_cost|YT_DTVaEz_t5nk]]]
 
+> **⚠️⚠️ THE METHOD IS NOW CROSS-VENDOR, AND THE CRITICISM ABOVE IS CONFIRMED BY A
+> COMPETITOR.** A different maker states the same approach in one sentence — *«если
+> рассматривать экономическую часть и ВЫЧЕСТЬ стоимость освободившейся площади в
+> вашей квартире ОТ стоимости самой шкафа-кровати, мы остаёмся ещё в большом
+> плюсе»* — **and he performs the subtraction the first maker omits.**
+>
+> **→ That settles correction 1 above: netting off the furniture cost is part of
+> the method, not an objection to it. The omission was a presentational choice.**
+> **The method stands; the worked example still should not be reused.** ⚠️ No
+> figures are given by the second maker, so nothing is added to the numbers.
+> [source: [[_Sources/YT_M-PhNARAI_4_freedom_allergy_case_and_fitting_tolerances|YT_M-PhNARAI_4]]]
+
 ## Moscow per-m² benchmark ladders — moved to their own page
 
 The three Moscow contractors' per-m² figure sets (Безверхая's premium whole-project figures, РемонтХочу's 2025 finishing-only ladder, and Иващенко's five-class whole-interior ladder) moved to [[11_Budget_and_Planning/analysis/Moscow_Per_Square_Metre_Benchmarks|Moscow Per-m² Cost Benchmarks]] on 2026-09-14, when this page reached 399 lines. **They were moved together rather than separately because the finding that matters is the disagreement between them, and the reason for it — SCOPE is a third axis alongside location and year.**

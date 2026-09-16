@@ -246,6 +246,23 @@ why it is worth more than a seller describing the same job.** [source: [[_Source
   deviation, so the tolerance that matters for fitted furniture is what the feet
   can take up rather than perfect flatness. Worth asking a supplier for the
   adjustment range.**
+- **⚠️⚠️ AND HERE IS THE MAGNITUDE THAT ACTUALLY GETS ABSORBED, with numbers from
+  one delivered project**: a **floor fall of 1 cm across the bed's width**, taken
+  up by **building one side of the carcass taller and the other 1 cm shorter** —
+  *«визуально это не видно, кровать стоит ровно»*; a **wall out of true** (a
+  beam-built house, the blockwork only partly levelled) with the **side panels
+  SCRIBED to it on both sides**; and a finished **1 cm shadow gap to a stretch
+  ceiling**. **→ Two things follow. The deviation is taken up in the CARCASS, not
+  only in the feet. And ~10 mm of floor fall under a fitted unit is ordinary —
+  against this project's ±50 mm nominal build tolerance it is not a defect to
+  chase.** [source: [[_Sources/YT_M-PhNARAI_4_freedom_allergy_case_and_fitting_tolerances|YT_M-PhNARAI_4]]]
+- **⚠️⚠️ THE 1 cm CEILING REVEAL ALSO CLOSES A LOOSE END BETWEEN THE TWO MAKERS.**
+  One leaves a **5 cm technical gap** to tilt the unit up; the other says build to
+  the ceiling. **Here is the delivered result from the second: a 1 cm shadow gap.**
+  **So the 5 cm is confirmed as a FITTING allowance and the finished reveal can be
+  ~1 cm, read as a deliberate shadow line rather than a leftover.** ⚠️ Achieved
+  under a **stretch** ceiling, which is installed afterwards and can be tensioned
+  up to the unit. [source: [[_Sources/YT_M-PhNARAI_4_freedom_allergy_case_and_fitting_tolerances|YT_M-PhNARAI_4]]]
 
 **⚠️ And a detail for the bedside problem a wall bed creates**: a **podium with
 niches at the head of the bed** for a book or phone, *«не занимают лишнего
@@ -276,6 +293,30 @@ in, and they answer the question a maker cannot.
   thing it is compared against is a fitted wardrobe nobody ever cleans behind
   at all. A wall bed makes that floor accessible on demand; a conventional unit
   makes it permanently inaccessible. [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
+- **⚠️⚠️ AND THE SAME LOGIC GIVES AN ALLERGY ARGUMENT, which is new here.** A maker
+  whose own son has a pollen allergy was told to **damp-dust under the bed daily
+  and put the bedding away**, so airborne pollen does not settle on it — and says
+  that would have been impractical without a wall bed: you lift it and wipe, and
+  *«подушки-одеяла не присутствуют на кровати постоянно»* because they are stored
+  inside a closed cabinet by day. A client of his puts it as *«от стационарной
+  кровати мусора намного больше, чем от шкафа-кровати»*. **→ So the vacuum-cleaner
+  drawback and this are not in conflict: the dust a wall bed gathers is
+  ACCESSIBLE, the dust under a static bed is permanent.** ⚠️ **A maker's account of
+  his own family and one client, no clinical source — `unverified`, and recorded
+  as a consideration to raise rather than a medical claim.** [source: [[_Sources/YT_M-PhNARAI_4_freedom_allergy_case_and_fitting_tolerances|YT_M-PhNARAI_4]]]
+- **⚠️⚠️ AND A THIRD ANSWER TO THE SAME PROBLEM: make the SOFA detachable rather
+  than the bed liftable.** A client reviewing his own 12 m² installation notes the
+  sofa *«при необходимости совершенно спокойно снимается, чтобы под диваном
+  провести генеральную уборку»*. **→ The two-person requirement recorded above
+  assumes the bed must be HELD while someone cleans beneath it. If the sofa comes
+  away instead, one person can do it.** **Worth asking a supplier which of the two
+  their design assumes — it is a difference in the joinery, not in the
+  housekeeping.** [source: [[_Sources/YT_J7Q6Z3fvytQ_progressdesign_three_children_and_a_12m2_client|YT_J7Q6Z3fvytQ]]]
+- **⚠️ The recovered floor near a wall bed keeps attracting the same two objects**,
+  now across three unrelated households and both makers: **an ironing board and a
+  drying rack**, often built in. **→ If a wall bed is specified, give the ironing
+  board a named home in the same run of joinery rather than discovering it later.**
+  [source: [[_Sources/YT_J7Q6Z3fvytQ_progressdesign_three_children_and_a_12m2_client|YT_J7Q6Z3fvytQ]]]
 - **⚠️ Operating effort is NOT uniform, and the variance points back at the
   strut rating.** Makers say *«с этим даже справится хрупкая женщина»* and that
   elderly clients manage; an owner a year in manages alone only by **squatting**
