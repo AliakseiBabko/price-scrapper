@@ -13,6 +13,11 @@
   #hud h1 { font-size:13px; margin:0 0 6px; letter-spacing:.02em; }
   #hud kbd { background:#2b2f36; border-radius:3px; padding:1px 5px; font-size:11px; }
   #hud p { margin:5px 0; }
+  #layers button { font:11px system-ui; margin:2px 3px 0 0; padding:2px 7px;
+      border-radius:4px; border:1px solid #3a3f47; background:#242832;
+      color:#e8e8e8; cursor:pointer; pointer-events:auto; }
+  #layers button.off { opacity:.4; text-decoration:line-through; }
+  #hud { pointer-events:none; }
   .warn { color:#ffcf7a; }
   #readout { position:fixed; right:12px; top:12px; background:rgba(20,22,26,.86);
              padding:10px 13px; border-radius:7px; font-variant-numeric:tabular-nums; }
@@ -36,6 +41,7 @@
   <p class="warn">Judge space here, never dimensions. Eye height and stride are
      nominal; measure in the model.</p>
   <p id="meta">loading…</p>
+  <p id="layers"></p>
 </div>
 
 <div id="readout">eye <span id="eye">1.60</span> m · <span id="pos">0.00, 0.00</span> · clear <span id="spawn">–</span> m</div>
@@ -177,6 +183,31 @@ new GLTFLoader().load(GLB, (gltf) => {
   if (best.dist < 0) best = { dist: 0, dir: new THREE.Vector3(1, 0, 0) };
   camera.lookAt(origin.clone().add(best.dir));
   document.getElementById('spawn').textContent = best.dist.toFixed(1);
+
+  // Group by IFC class so each can be switched off. Door LEAVES in particular
+  // fill their openings - useful to see where doors are, useless when you want
+  // to walk through and read the opening itself.
+  const byClass = new Map();
+  gltf.scene.traverse(o => {
+    if (!o.isMesh) return;
+    const cls = o.userData?.ifc_class || 'other';
+    if (!byClass.has(cls)) byClass.set(cls, []);
+    byClass.get(cls).push(o);
+  });
+  const layersEl = document.getElementById('layers');
+  [...byClass.keys()].sort().forEach(cls => {
+    const objs = byClass.get(cls);
+    const b = document.createElement('button');
+    b.textContent = cls.replace(/^Ifc/, '') + ' (' + objs.length + ')';
+    b.title = 'show / hide ' + cls;
+    b.onclick = () => {
+      const on = !objs[0].visible;
+      objs.forEach(o => o.visible = on);
+      b.classList.toggle('off', !on);
+      b.blur();                       // or Space re-triggers the button
+    };
+    layersEl.appendChild(b);
+  });
 
   let tris = 0;
   gltf.scene.traverse(o => { if (o.isMesh && o.geometry?.index) tris += o.geometry.index.count / 3; });

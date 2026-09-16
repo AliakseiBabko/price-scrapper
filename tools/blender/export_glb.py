@@ -143,6 +143,10 @@ def paint_by_class() -> dict:
         mat = flat_material("FLAT_%s" % cls, rgba)
         obj.data.materials.clear()
         obj.data.materials.append(mat)
+        # Carried into glTF node `extras` by the exporter, so the viewer can
+        # group and toggle by IFC class without re-reading the IFC. A name
+        # convention was tried first and did not survive the export.
+        obj["ifc_class"] = cls
         counts[cls] = counts.get(cls, 0) + 1
     return counts
 
@@ -205,6 +209,7 @@ def main() -> int:
         use_selection=False,
         export_apply=True,
         export_yup=True,
+        export_extras=True,
     )
     report["glb_bytes"] = out_glb.stat().st_size if out_glb.exists() else None
 
