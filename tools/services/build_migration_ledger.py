@@ -44,16 +44,32 @@ So `multiplicity` / `count_min` / `count_max` are separate from `vertical_kind`
 inferred. It counts OCCURRENCES only - an observation, value records and
 approvals derived from the same source must not affect it.
 
-DISPOSITIONS
-  migrated      carried into the new canonical files
+ADJUDICATION - a judgement about the SOURCE, and nothing else
+  accepted      a real service fact, in scope, to be carried forward
   duplicate     the same fact already carried by another locator
   contradicted  a later source overrides it; the override must be named
   retracted     withdrawn, by the owner or by evidence
   out_of_scope  not a service fact at all - migration policy, drawing-label
                 feedback, or a note about the code. Calling those `duplicate`
                 would be dishonest.
-  unresolved    NOT YET CLASSIFIED - the default, and the only honest starting
+  unresolved    NOT YET ADJUDICATED - the default, and the only honest starting
                 value for anything needing judgement
+
+⚠️ THERE IS NO `migrated` ADJUDICATION, DELIBERATELY. An earlier version had
+one, and it meant only "somebody typed the word": the coverage self-test marked
+all 72 locators `migrated`, supplied ZERO target records, and passed. The
+migration could have been declared complete having produced no data at all.
+
+**Whether a source was actually carried forward is DERIVED** from the target
+records that cite it - never authored here. `contradicted` and `retracted`
+sources still need targets, because they survive as history; `out_of_scope` is
+the only ordinary case needing none.
+
+⚠️ AND NO FAN-OUT LIVES HERE. One locator can target several concepts at once -
+an observation, three occurrences, value records and an approval - so a single
+`target_concept` column was wrong in kind. The ledger holds SOURCE-LEVEL
+JUDGEMENT only; the target records live in their own draft tables, keyed by a
+provisional `migration_key` and their `source_locators`.
 
     .venv\\Scripts\\python.exe tools/services/build_migration_ledger.py
 """
@@ -88,8 +104,8 @@ FIELDS = ["locator", "source_kind", "raw", "carries",
           "multiplicity", "count_min", "count_max",
           "reviewed_multiplicity", "reviewed_multiplicity_note",
           "vertical_kind", "vertical_raw",
-          "occurrence_split_count", "target_concept",
-          "disposition", "disposition_note", "review_position"]
+          "occurrence_split_count", "expected_target_concepts",
+          "adjudication", "adjudication_note", "review_position"]
 
 
 def _multiplicity(count_raw):
@@ -177,9 +193,12 @@ def _rows_from_csv(name):
                 "vertical_kind": vkind,
                 "vertical_raw": vraw,
                 "occurrence_split_count": "",
-                "target_concept": "",
-                "disposition": "unresolved",
-                "disposition_note": "",
+                # A review aid only - a semicolon-separated hint at what this
+                # source is expected to produce. It is NOT the fan-out and the
+                # gate does not check against it.
+                "expected_target_concepts": "",
+                "adjudication": "unresolved",
+                "adjudication_note": "",
                 "review_position": "%s:%d" % (name, index),
             })
     return out
@@ -210,8 +229,8 @@ def _rows_from_literals():
                 "multiplicity": "single", "count_min": "1", "count_max": "1",
                 "reviewed_multiplicity": "", "reviewed_multiplicity_note": "",
                 "vertical_kind": "unstated", "vertical_raw": "",
-                "occurrence_split_count": "", "target_concept": "",
-                "disposition": "unresolved", "disposition_note": "",
+                "occurrence_split_count": "", "expected_target_concepts": "",
+                "adjudication": "unresolved", "adjudication_note": "",
                 "review_position": "make_services_sheets.py:%d" % node.lineno,
             })
             continue
@@ -230,8 +249,8 @@ def _rows_from_literals():
                 "multiplicity": "single", "count_min": "1", "count_max": "1",
                 "reviewed_multiplicity": "", "reviewed_multiplicity_note": "",
                 "vertical_kind": "unstated", "vertical_raw": "",
-                "occurrence_split_count": "", "target_concept": "",
-                "disposition": "unresolved", "disposition_note": "",
+                "occurrence_split_count": "", "expected_target_concepts": "",
+                "adjudication": "unresolved", "adjudication_note": "",
                 "review_position": "make_services_sheets.py:%d:%d"
                                    % (element.lineno, element.col_offset),
             })
@@ -278,8 +297,8 @@ def _rows_from_comment_blocks():
             "multiplicity": "", "count_min": "", "count_max": "",
             "reviewed_multiplicity": "", "reviewed_multiplicity_note": "",
             "vertical_kind": "", "vertical_raw": "",
-            "occurrence_split_count": "", "target_concept": "",
-            "disposition": "unresolved", "disposition_note": "",
+            "occurrence_split_count": "", "expected_target_concepts": "",
+            "adjudication": "unresolved", "adjudication_note": "",
             "review_position": "make_services_sheets.py:%d" % start_line,
         })
     return out
@@ -302,7 +321,7 @@ def main() -> int:
     rows = build()
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
 
-    # NEVER reset a disposition already decided. Semantic locators are what make
+    # NEVER reset an adjudication already decided. Semantic locators are what make
     # this reliable: a positional one would re-attach the reviewer's judgement
     # to the wrong fact after any edit above it.
     existing, kept = {}, 0
@@ -310,12 +329,12 @@ def main() -> int:
         with io.open(a.out, encoding="utf-8") as fh:
             for row in csv.DictReader(fh):
                 existing[row["locator"]] = row
-    carry = ("disposition", "disposition_note", "target_concept",
+    carry = ("adjudication", "adjudication_note", "expected_target_concepts",
              "occurrence_split_count", "reviewed_multiplicity",
              "reviewed_multiplicity_note")
     for row in rows:
         prior = existing.get(row["locator"])
-        if prior and (prior.get("disposition") or "") not in ("", "unresolved"):
+        if prior and (prior.get("adjudication") or "") not in ("", "unresolved"):
             for field in carry:
                 if prior.get(field):
                     row[field] = prior[field]
@@ -341,7 +360,7 @@ def main() -> int:
         ("vertical relative", lambda r: r["vertical_kind"] == "relative"),
     ):
         print("   %-34s %3d" % (label, sum(1 for r in rows if test(r))))
-    print("   %-34s %3d" % ("dispositions carried over", kept))
+    print("   %-34s %3d" % ("adjudications carried over", kept))
     print("   %-34s %3d" % ("TOTAL source locators", len(rows)))
     return 0
 
