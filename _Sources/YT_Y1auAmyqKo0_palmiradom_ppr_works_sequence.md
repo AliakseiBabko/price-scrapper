@@ -172,7 +172,7 @@ region: Russia (St Petersburg, named) - no price figures anywhere
 - **⚠️ Stages he runs in parallel**: block walls + door openings + radiator removal; first electrical + plumbing; ventilation; balcony insulation; plasterboard + soundproofing; reveals and windowsills; and near the finish, second plumbing stage + splashback + kitchen after the stretch ceilings.
 - **⚠️⚠️ TWO CONSTRAINTS GOVERN HOW MUCH YOU CAN PARALLELISE: (1) FLOOR AREA — how many trades can work without obstructing each other; (2) THE BRIEF — what is done and what remains.** He gives two worked variants turning on whether the kitchen floor is tile or laminate.
 
-> **→ ⚠️ This belongs with [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration & Scheduling]]: it converts "how long" from a quoted number into a function of area and scope.**
+> **→ ⚠️ This belongs with Project Duration & Scheduling: it converts "how long" from a quoted number into a function of area and scope.**
 
 ## ⚠️ 12. Russian regulatory content — flagged, NOT routed
 
@@ -187,12 +187,12 @@ region: Russia (St Petersburg, named) - no price figures anywhere
 
 ## Routing
 
-- §1, §2, §11 → [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]] and [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration & Scheduling]]
-- §3 → [[13_Surfaces_and_Finishes/analysis/Doors_Trim_Cost_and_Buying|Doors & Trim]] / opening sizing
+- §1, §2, §11 → [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]] (and cross-referenced to Project Duration & Scheduling)
+- §3 → Doors & Trim / opening sizing
 - §4, §5, §9, §10 → [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]]
-- §6 → [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]] and the plumbing pages
-- §7 → [[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]]
-- §8 → [[13_Surfaces_and_Finishes/analysis/Windows_Slope_Finishing|Windows — Slope Finishing]]
+- §6 → Tile Selection & Layout and the plumbing pages
+- §7 → Insulation & Heating
+- §8 → Windows — Slope Finishing
 - §12 → **deliberately not routed**
 
 ## What was NOT taken

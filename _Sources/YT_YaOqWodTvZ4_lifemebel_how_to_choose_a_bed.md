@@ -81,7 +81,7 @@ Materials, in his order of preference: **натуральное дерево** (
 ## Routing
 
 - §1, §2, §3, §4 → [[14_Furniture/analysis/Bed_Frames_And_Bases|Bed Frames and Bases]]
-- §5 → [[14_Furniture/analysis/Upholstery_Fabric_Selection|Upholstery Fabric Selection]] (as the dated dissent)
+- §5 → Upholstery Fabric Selection (as the dated dissent)
 
 ## What was NOT taken
 

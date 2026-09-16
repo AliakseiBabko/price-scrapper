@@ -89,6 +89,4 @@ fx_basis: ⚠️⚠️ NONE — no USD attached. `00_Master/exchange_rates_refer
 
 ## Routing
 
-- §1 → [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers]] as a scope-axis warning, and flagged to [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]]
-- §2, §3 → [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers]]
-- §4 → same page, alongside the РемонтХочу fixed-price argument
+- §1, §2, §3, §4 → [[11_Budget_and_Planning/analysis/Moscow_Per_Square_Metre_Benchmarks|Moscow Per Square Metre Benchmarks]] (transferred during Moscow benchmarks split)

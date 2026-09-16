@@ -521,6 +521,105 @@ def check_usd_cents(path: str, base_text: str, head_text: str) -> list[str]:
     return problems
 
 
+def check_routing_section(
+    path: str,
+    head_text: str,
+    head_ref: str | None = None,
+    repo_root: Path | None = None,
+) -> list[dict]:
+    """Verify that every wiki link in a source note's ## Routing section
+    is a valid claim: the target must resolve to an existing .md file, and that
+    target page must contain the literal string 'YT_<video_id>_'.
+
+    Links under _Sources/, _Inbox/, _Archive/, or ending in .txt are skipped.
+    If video_id is missing, reports an error.
+    If ## Routing is absent, returns no problems (does not crash).
+    """
+    root = repo_root or REPO_ROOT
+    problems: list[dict] = []
+
+    # 1. Extract ## Routing section (from heading to next ## or EOF)
+    m_sec = re.search(r"^##\s+Routing\b(.*?)(?=^##\s|\Z)", head_text, re.MULTILINE | re.DOTALL)
+    if not m_sec:
+        return problems
+
+    routing_text = m_sec.group(1)
+
+    # 2. Read frontmatter video_id
+    fm_match = re.match(r"^---\r?\n(.*?)\r?\n---", head_text, re.DOTALL)
+    video_id = None
+    if fm_match:
+        m = re.search(r"^video_id:\s*(\S+)", fm_match.group(1), re.MULTILINE)
+        if m:
+            video_id = m.group(1).strip()
+    else:
+        m = re.search(r"^(?:video_id:|- \*\*Video ID\*\*:\s*)(\S+)", head_text, re.MULTILINE)
+        if m:
+            video_id = m.group(1).strip()
+
+    if not video_id:
+        return [{
+            "file": path,
+            "check": "routing_no_video_id",
+            "message": f"source note '{path}' is missing frontmatter video_id",
+        }]
+
+    # 3. Find every wiki link [[target|label]] or [[target]]
+    raw_targets = re.findall(r"\[\[([^\]|]+)(?:\|[^\]]*)?\]\]", routing_text)
+
+    for raw_target in raw_targets:
+        target = raw_target.strip().replace("\\", "/")
+        if "#" in target:
+            target = target.split("#", 1)[0]
+        target = target.lstrip("./")
+
+        # 4. Skip links whose target resolves under _Sources/, _Inbox/, _Archive/, or ends in .txt
+        if target.endswith(".txt"):
+            continue
+        if target.startswith(("_Sources/", "_Inbox/", "_Archive/")):
+            continue
+
+        # 5. Resolve target to .md file
+        cand1 = root / target
+        cand2 = root / f"{target}.md"
+        target_path = None
+        if cand1.is_file() and cand1.suffix == ".md":
+            target_path = cand1
+        elif cand2.is_file():
+            target_path = cand2
+
+        if target_path is None:
+            problems.append({
+                "file": path,
+                "check": "routing_unresolved",
+                "message": (
+                    f"Routing names '{raw_target.strip()}' which does not resolve to an "
+                    f"existing .md file (source note: {path})"
+                ),
+            })
+            continue
+
+        rel_str = str(target_path.relative_to(root)).replace("\\", "/")
+        if repo_root is not None:
+            page_text = target_path.read_text(encoding="utf-8", errors="replace")
+        else:
+            page_bytes = file_bytes_at(head_ref, rel_str)
+            page_text = page_bytes.decode("utf-8", errors="replace") if page_bytes else ""
+
+        marker = f"YT_{video_id}_"
+        if marker not in page_text:
+            problems.append({
+                "file": path,
+                "check": "routing_citation",
+                "message": (
+                    f"Routing names '{rel_str}' but that page does not cite this source "
+                    f"('{marker}') (source note: {path})"
+                ),
+            })
+
+    return problems
+
+
 def repo_wide_id_hits(id_value: str, exclude_path: str, ref: str | None) -> int:
     """Count files (other than exclude_path) containing id_value.
 
@@ -616,6 +715,11 @@ def main() -> int:
             "'automated verification harness output' suggestion from this project's own "
             "multi-agent retrospective."
         ),
+    )
+    parser.add_argument(
+        "--check-all-routings",
+        action="store_true",
+        help="Also run the Routing-section gate across all source notes under _Sources/YT_*.md",
     )
     args = parser.parse_args()
 
@@ -755,6 +859,18 @@ def main() -> int:
                 problems.append({"file": path, "check": "usd_cents", "message": msg})
             for msg in check_rounding_bucket(path, base_text, head_text):
                 problems.append({"file": path, "check": "rounding_bucket", "message": msg})
+
+        norm_path = path.replace("\\", "/")
+        if norm_path.startswith("_Sources/YT_") and norm_path.endswith(".md"):
+            if head_text:
+                problems.extend(check_routing_section(path, head_text, args.head))
+
+    if args.check_all_routings:
+        for p in sorted(REPO_ROOT.glob("_Sources/YT_*.md")):
+            rel_p = str(p.relative_to(REPO_ROOT)).replace("\\", "/")
+            if rel_p not in files:
+                text = p.read_text(encoding="utf-8", errors="replace")
+                problems.extend(check_routing_section(rel_p, text, args.head))
 
     passed = len(problems) == 0
 

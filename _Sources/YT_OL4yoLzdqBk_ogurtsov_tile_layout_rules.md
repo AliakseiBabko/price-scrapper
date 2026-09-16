@@ -116,9 +116,9 @@ region: not_resolved_to_a_country - Russian-language practice, no city named, no
 ## Routing
 
 - §1 → [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]] and cross-referenced to the electrics pages
-- §2, §3, §4, §8 → [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]] and [[07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance|Tile Installation Sequencing & Acceptance]]
+- §2, §3, §4, §8 → [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]] and Tile Installation Sequencing & Acceptance
 - §5 → [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]]
-- §6, §7 → [[07_Bathroom/analysis/Tile_Cutting_Handling_and_Special_Formats|Tile Cutting, Handling & Special Formats]] / buying guidance
+- §6, §7 → Tile Cutting, Handling & Special Formats / buying guidance
 - §9 → recorded; UFH is not being installed on this project
 
 ## What was NOT taken

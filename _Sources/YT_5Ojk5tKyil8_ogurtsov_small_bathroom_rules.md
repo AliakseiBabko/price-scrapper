@@ -39,7 +39,7 @@ region: Russia (named directly for the expansion rule) - no price figures
 
 **And why it is fatal: the bath is already bought. Turning the machine sideways does not work — the door will not open.**
 
-> **→ ⚠️⚠️ MODEL TO FINISHED FACES, NOT ROUGH ONES.** **This lands squarely on this repo's own wall-dimension work, where `solid_mm` vs `clear_mm` and the ±50 mm build tolerance are already tracked** — see [[00_Master/Geometry_Variance_Study|Geometry Variance Study]]. **The transferable rule: an appliance clearance checked against a rough dimension is not checked at all, and in a small wet room the finish build-up is of the same order as the tolerance.**
+> **→ ⚠️⚠️ MODEL TO FINISHED FACES, NOT ROUGH ONES.** **This lands squarely on this repo's own wall-dimension work, where `solid_mm` vs `clear_mm` and the ±50 mm build tolerance are already tracked** — see Geometry Variance Study. **The transferable rule: an appliance clearance checked against a rough dimension is not checked at all, and in a small wet room the finish build-up is of the same order as the tolerance.**
 
 ## ⚠️⚠️ 2. Minimum dimensions, and the order in which things get sacrificed
 
@@ -118,10 +118,10 @@ Soviet standards never allowed for one. His options, in order of preference:
 
 ## Routing
 
-- §1 → [[07_Bathroom/analysis/Planning_and_Layout|Planning and Layout]] and cross-referenced to [[00_Master/Geometry_Variance_Study|Geometry Variance Study]]
-- §2, §5, §6, §7 → [[07_Bathroom/analysis/Planning_and_Layout|Planning and Layout]]
+- §1 → [[07_Bathroom/analysis/Small_Bathroom_Constraints|Small Bathroom Constraints]] and cross-referenced to Geometry Variance Study
+- §2, §5, §6, §7 → [[07_Bathroom/analysis/Small_Bathroom_Constraints|Small Bathroom Constraints]]
 - §3 → [[13_Surfaces_and_Finishes/analysis/Partition_Construction_and_Wall_Erection|Partition Construction & Wall Erection]]
-- §4 → [[07_Bathroom/analysis/Structure_and_Framing|Structure and Framing]]
+- §4 → Structure and Framing
 - §8 → **deliberately not routed**
 
 ## What was NOT taken

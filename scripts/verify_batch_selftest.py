@@ -189,8 +189,106 @@ def main() -> int:
         failures += 0 if want else 1
         print("%-4s %-30s hits=%s" % ("PASS" if want else "FAIL", label, hits))
 
+    failures += test_routing_section_gate()
+
     print("\nfailures: %d" % failures)
     return 1 if failures else 0
+
+
+def test_routing_section_gate() -> int:
+    """Fixture harness for tools/verify_batch.py check_routing_section.
+    Writes real files to a temporary tree and runs check_routing_section against disk,
+    verifying all minimum seeds per agent brief and validator discipline.
+    """
+    import tempfile
+
+    failures = 0
+    with tempfile.TemporaryDirectory() as tmp_dir_str:
+        tmp_dir = Path(tmp_dir_str)
+        # Create target pages on disk
+        target_cited = tmp_dir / "07_Bathroom" / "analysis" / "Planning_and_Layout.md"
+        target_cited.parent.mkdir(parents=True, exist_ok=True)
+        target_cited.write_text(
+            "# Planning\n\nCited here: [source: [[_Sources/YT_testVid1234_test_source|YT_testVid1234]]].\n",
+            encoding="utf-8",
+        )
+
+        target_uncited = tmp_dir / "07_Bathroom" / "analysis" / "Tile_Selection.md"
+        target_uncited.write_text(
+            "# Tile Selection\n\nNo citations for this test source here.\n",
+            encoding="utf-8",
+        )
+
+        sources_dir = tmp_dir / "_Sources"
+        sources_dir.mkdir(parents=True, exist_ok=True)
+        other_source = sources_dir / "YT_otherVid567_other.md"
+        other_source.write_text("---\nvideo_id: otherVid567\n---\n# Other\n", encoding="utf-8")
+
+        ROUTING_CASES = [
+            (
+                "routing: names page citing source (PASS)",
+                "_Sources/YT_testVid1234_test_source.md",
+                "---\nvideo_id: testVid1234\n---\n# Note\n\n## Routing\n- [[07_Bathroom/analysis/Planning_and_Layout]]\n",
+                True,
+                [],
+            ),
+            (
+                "routing: names page NOT citing source (FAIL)",
+                "_Sources/YT_testVid1234_test_source.md",
+                "---\nvideo_id: testVid1234\n---\n# Note\n\n## Routing\n- [[07_Bathroom/analysis/Tile_Selection]]\n",
+                False,
+                ["routing_citation"],
+            ),
+            (
+                "routing: backslash path resolves on disk (PASS)",
+                "_Sources/YT_testVid1234_test_source.md",
+                "---\nvideo_id: testVid1234\n---\n# Note\n\n## Routing\n- [[07_Bathroom\\analysis\\Planning_and_Layout]]\n",
+                True,
+                [],
+            ),
+            (
+                "routing: link to _Sources/ ignored (PASS)",
+                "_Sources/YT_testVid1234_test_source.md",
+                "---\nvideo_id: testVid1234\n---\n# Note\n\n## Routing\n- [[_Sources/YT_otherVid567_other]]\n",
+                True,
+                [],
+            ),
+            (
+                "routing: absent Routing section (PASS)",
+                "_Sources/YT_testVid1234_test_source.md",
+                "---\nvideo_id: testVid1234\n---\n# Note\n\n## Summary\nNo routing section here.\n",
+                True,
+                [],
+            ),
+            (
+                "routing: missing frontmatter video_id (FAIL)",
+                "_Sources/YT_testVid1234_test_source.md",
+                "---\nsource_title: Test\n---\n# Note\n\n## Routing\n- [[07_Bathroom/analysis/Planning_and_Layout]]\n",
+                False,
+                ["routing_no_video_id"],
+            ),
+            (
+                "routing: link to non-existent .md (FAIL)",
+                "_Sources/YT_testVid1234_test_source.md",
+                "---\nvideo_id: testVid1234\n---\n# Note\n\n## Routing\n- [[07_Bathroom/analysis/NonExistent_Page]]\n",
+                False,
+                ["routing_unresolved"],
+            ),
+        ]
+
+        print()
+        for label, note_relpath, note_content, expect_pass, expect_check_types in ROUTING_CASES:
+            problems = vb.check_routing_section(note_relpath, note_content, head_ref=None, repo_root=tmp_dir)
+            passed = len(problems) == 0
+            check_types = [p["check"] for p in problems]
+            ok = (passed == expect_pass) and (check_types == expect_check_types)
+            failures += 0 if ok else 1
+            print(
+                "%-4s %-48s pass=%-5s(want %-5s) checks=%s"
+                % ("PASS" if ok else "FAIL", label, passed, expect_pass, check_types)
+            )
+
+    return failures
 
 
 if __name__ == "__main__":

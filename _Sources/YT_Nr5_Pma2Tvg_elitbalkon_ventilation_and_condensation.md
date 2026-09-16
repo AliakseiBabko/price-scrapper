@@ -86,7 +86,7 @@ New builds now fit supply valves (клапана): on warm loggias, on PVC, alum
 
 ## Routing
 
-- §1 → [[12_Engineering_and_Systems/HVAC_and_Ventilation|HVAC & Ventilation]] and [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Fresh-Air Ventilation & Ducting]]
+- §1 → [[12_Engineering_and_Systems/analysis/Breathers_vs_Mechanical_Ventilation|Breathers vs Mechanical Ventilation]]
 - §2, §3 → [[13_Surfaces_and_Finishes/analysis/Windows_Hardware_Selection|Windows — Hardware Selection]] (where the existing condensation fix lives) and cross-referenced from the ventilation pages
 - §1's GOST reference → **deliberately not routed**, per rule 4
 

@@ -140,7 +140,7 @@ An armoured escutcheon protects the cylinder so an attacker must defeat it first
 
 ## Routing
 
-- §1, §3, §4, §5, §6, §8 → [[13_Surfaces_and_Finishes/analysis/Entrance_Door_Construction_Spec|Entrance Door Construction Spec]] (new page)
+- §1, §3, §4, §5, §6, §8 → Entrance Door Construction Spec (unlinked spec)
 - §2 → [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]], against the existing binding-deadbolt section
 - §7 → same page, rewriting the unresolved-security block
 - §6's foam/СНиП argument and §9's МВД statistic → **deliberately not routed**

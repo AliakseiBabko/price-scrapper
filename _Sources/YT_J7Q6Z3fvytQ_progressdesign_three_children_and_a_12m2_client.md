@@ -86,7 +86,7 @@ same_vendor_as: u_gIgDqRdYw, hT4Whu6F2gs, 4xZ-9vlXV7Y, tRv7QSUoqpg, KgBcJ4zAHi8,
 ## Routing
 
 - §1, §2, §5 → [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]], into the open static-vs-wall-bed question
-- §3 → [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanisms]] and [[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Smart Home Systems]]
+- §3 → [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanisms]] and Smart Home Systems
 - §4 → [[00_Master/Bedroom_Wall_Bed_Installation_and_Daily_Use|Wall-Bed Installation and Daily Use]]
 
 ## What was NOT taken
