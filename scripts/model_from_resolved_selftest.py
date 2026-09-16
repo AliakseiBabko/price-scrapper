@@ -171,7 +171,40 @@ def seed_mitre_squared_back(model):
     return "wall M6b squared back to its bounding rectangle"
 
 
+def seed_transom_dropped(model):
+    """The horizontal transom removed from the IFC.
+
+    ⚠️ NOT hypothetical: this is what the generator did until 2026-09-16. It
+    filtered frame members on "has a plan footprint", so O3's transom - recorded
+    in window_frames.csv at 0.44 of the opening height, and what makes O3 the
+    2x2 unit the facade photo shows - was resolved by the compiler and never
+    built. The checker accepted it, because nothing compared the two.
+
+    The expected split is compiler 4, IFC 4, floor-plan DXF 3: the DXF
+    legitimately omits a member with no plan representation, the IFC does not.
+    """
+    member = next(m for m in model.by_type("IfcMember")
+                  if (m.Name or "").endswith("transom_1"))
+    model.remove(member)
+    return "O3's transom removed from the IFC"
+
+
+def seed_transom_stood_upright(model):
+    """The transom built vertically - which a COUNT would happily accept.
+
+    Swaps its vertical extent for a mullion-like one, so the member is still
+    present and still named correctly but is no longer a transom.
+    """
+    member = next(m for m in model.by_type("IfcMember")
+                  if (m.Name or "").endswith("transom_1"))
+    solid = member.Representation.Representations[0].Items[0]
+    solid.Depth = 1.985            # sill-to-head instead of a 120 mm band
+    return "O3's transom given a full-height extent"
+
+
 SEEDS = [
+    ("transom dropped from the IFC", seed_transom_dropped),
+    ("transom stood upright", seed_transom_stood_upright),
     ("mitre squared back to a rectangle", seed_mitre_squared_back),
     ("wall shifted sideways", seed_wall_shifted_sideways),
     ("wall slid along its axis", seed_wall_slid_along_axis),

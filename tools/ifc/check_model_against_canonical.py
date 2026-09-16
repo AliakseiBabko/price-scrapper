@@ -283,6 +283,73 @@ def check(ifc_path: Path) -> list[str]:
                     % (wall.Name, len(set(got)), got_mm2,
                        len(want_poly), want_mm2))
 
+    # 7 - FRAME MEMBERS: identity, orientation and Z placement.
+    #
+    # ⚠️ Not a count. O3's transom was recorded in window_frames.csv, resolved
+    # by the compiler and ABSENT from the IFC, because the generator filtered on
+    # "has a plan footprint" - and the checker accepted it, because nothing
+    # looked. A count alone would also accept a transom drawn vertically, or at
+    # the wrong height, so each member is matched by (opening, member) and then
+    # checked for orientation and vertical extent.
+    #
+    # The expected split is explicit: compiler 4, IFC 4, floor-plan DXF 3. The
+    # DXF legitimately omits the transom, which has no plan representation.
+    if rv is not None and getattr(resolved, "window_frames", None):
+        want_members = {(f["opening_id"], f["member"]): f
+                        for f in resolved.window_frames}
+        got_members = {}
+        for member in model.by_type("IfcMember"):
+            name = member.Name or ""
+            if " frame " not in name:
+                continue
+            opening_id, _, member_name = name.partition(" frame ")
+            # Only RECORDED member types. A window is also generated with jamb,
+            # head and sill bars for appearance; those are not in
+            # window_frames.csv and are not claimed to be.
+            if not member_name.startswith(("mullion", "transom")):
+                continue
+            got_members[(opening_id, member_name)] = member
+
+        for key, want in want_members.items():
+            member = got_members.get(key)
+            if member is None:
+                problems.append(
+                    "frame member %s %s is in window_frames.csv and resolved by the "
+                    "compiler, but absent from the IFC" % key)
+                continue
+            v = _verts(settings, member)
+            if not len(v):
+                problems.append("frame member %s %s has no geometry" % key)
+                continue
+            z0, z1 = v[:, 2].min() * 1000.0, v[:, 2].max() * 1000.0
+            if want.get("z_from_mm") is not None:
+                if (abs(z0 - want["z_from_mm"]) > VERTICAL_TOL_MM
+                        or abs(z1 - want["z_to_mm"]) > VERTICAL_TOL_MM):
+                    problems.append(
+                        "frame member %s %s spans z %.0f..%.0f mm; the compiler "
+                        "resolves %.0f..%.0f" % (key[0], key[1], z0, z1,
+                                                 want["z_from_mm"], want["z_to_mm"]))
+            # Orientation: a transom is WIDE and SHORT, a mullion TALL and NARROW.
+            size = v.max(0) - v.min(0)
+            plan_span = max(size[0], size[1]) * 1000.0
+            height = (z1 - z0)
+            if want["axis"] == "horizontal" and height > plan_span:
+                problems.append(
+                    "frame member %s %s is recorded HORIZONTAL but is taller "
+                    "(%.0f mm) than it is wide (%.0f mm)"
+                    % (key[0], key[1], height, plan_span))
+            if want["axis"] == "vertical" and height < plan_span:
+                problems.append(
+                    "frame member %s %s is recorded VERTICAL but is wider "
+                    "(%.0f mm) than it is tall (%.0f mm)"
+                    % (key[0], key[1], plan_span, height))
+
+        for key in got_members:
+            if key not in want_members:
+                problems.append(
+                    "IFC carries frame member %s %s, which window_frames.csv does not"
+                    % key)
+
     # 3 - opening verticals against wall_openings.csv
     want_open = {}
     with OPENINGS.open(encoding="utf-8") as fh:
