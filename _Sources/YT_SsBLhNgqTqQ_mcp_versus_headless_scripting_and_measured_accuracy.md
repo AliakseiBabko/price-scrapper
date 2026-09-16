@@ -108,8 +108,12 @@ region: n/a - software capability
 
 - §1, §4 → [[18_Digital_Toolchain/analysis/Agent_Connected_CAD|Agent-Connected CAD]], as the MCP-versus-scripting decision
 - §2 → same page, sharpening the accuracy revision
-- §3 → same page, and the anti-over-engineering rule cross-referenced to [[00_Master/Validator_Design_Discipline|Validator Design Discipline]]
+- §3 → same page
 - §5 → same page, operating rules
+
+## See also
+
+- [[00_Master/Validator_Design_Discipline|Validator Design Discipline]] — §3's anti-over-engineering rule reads directly onto it. A cross-reference for the reader, not a routing destination: nothing from this note was written there.
 
 ## What was NOT taken
 

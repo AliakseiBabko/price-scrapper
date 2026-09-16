@@ -85,9 +85,13 @@ same_vendor_as: u_gIgDqRdYw, hT4Whu6F2gs, 4xZ-9vlXV7Y, tRv7QSUoqpg, KgBcJ4zAHi8,
 ## Routing
 
 - §1, §2 → [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]], into the open static-vs-wall-bed question
-- §3 → [[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Smart Home Systems]] and [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanisms]]
-- §4 → [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]]; the socket/night-light points also flagged to [[00_Master/Layout_Option_Review|Layout Option Review]]'s first-fix list
+- §3 → [[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Smart Home Systems]], as the voice-control fault report and the specification consequence
+- §4 → [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]]
 - §5's sofa-bed line → [[14_Furniture/analysis/Seating_Selection|Seating & Bed Selection]]
+
+## See also
+
+- [[00_Master/Layout_Option_Review|Layout Option Review]] — §4's socket and night-light points are first-fix items and belong in view of that page's first-fix list. A cross-reference for the reader; nothing from this note was written there.
 
 ## What was NOT taken
 

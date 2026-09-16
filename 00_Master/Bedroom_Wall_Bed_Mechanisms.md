@@ -267,6 +267,16 @@ retention straps, unresolved either way:
   video from the **same channel** (FREE_DOM) restates the against-straps
   position and the identical jamming failure. It corroborates that maker with
   himself and adds **no** independent voice to the disagreement. [source: [[_Sources/YT_qMGSfO-glvc_freedom_wallbed_drawbacks_and_struts|YT_qMGSfO-glvc]]]
+- **⚠️ The against-straps position finally stated as a MECHANISM, by the same
+  maker — which is what makes it checkable rather than a preference.** FREE_DOM:
+  *«мы не используем никаких ремней. Можно использовать ОБЫЧНУЮ ПРОСТЫНЬ, потому
+  что у нас есть боковая — сюда заправляется простынь, и всё, она держится.»* —
+  i.e. a **side rail deep enough that a normally tucked sheet retains the
+  bedding**. **So the no-straps camp depends on a specific geometric feature; on
+  a unit without that side rail the argument does not transfer.** ⚠️ **And note
+  he abandons the position under constraint**: in his own filmed fit he installed
+  straps because there was nowhere for a bedding drawer — so his objection is
+  practical rather than principled. [source: [[_Sources/YT_M-PhNARAI_4_freedom_allergy_case_and_fitting_tolerances|YT_M-PhNARAI_4]]]
 - **A third INDEPENDENT maker, on the FOR side, with the strongest version of
   the argument**: two straps hold mattress, pillows and duvet together — you
   make the bed, strap it, fold it away — so *«нет необходимости предусматривать

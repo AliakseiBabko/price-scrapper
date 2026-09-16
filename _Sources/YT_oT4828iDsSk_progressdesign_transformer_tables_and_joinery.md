@@ -80,10 +80,14 @@ same_vendor_as: u_gIgDqRdYw, hT4Whu6F2gs, 4xZ-9vlXV7Y, tRv7QSUoqpg, KgBcJ4zAHi8 
 ## Routing
 
 - §1, §2 → [[14_Furniture/analysis/Table_Types_and_Dimensions|Table Types and Dimensions]] (a new transformer-table section; the category was absent)
-- §1's wall-fixing and fixed-height consequences → cross-referenced from [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanisms]]' build-stage constraints, same decision family
 - §2's Phase-2 relevance → [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]
-- §3 → [[14_Furniture/Wardrobes_and_Storage|Wardrobes and Storage]] and [[02_Hallway/analysis/Layout_and_Zoning|Hallway Layout and Zoning]]
+- §3 → [[14_Furniture/Wardrobes_and_Storage|Wardrobes and Storage]], where the foot-opened plinth drawer and the opening-back banquette landed
 - §4 → recorded here only, as a lead
+
+## See also
+
+- [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanisms]] — §1's wall-fixing and fixed-height consequences are the same decision family as that page's build-stage constraints. A cross-reference for the reader; nothing from this note was written there.
+- [[02_Hallway/analysis/Layout_and_Zoning|Hallway Layout and Zoning]] — §3's opening-back banquette is a hallway item and belongs in view of that page, though the finding itself was written to Wardrobes and Storage.
 
 ## What was NOT taken
 

@@ -91,8 +91,8 @@ region: n/a - software capability
 
 ## Routing
 
-- §1, §2 → [[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model to Drawing Pipeline]] as an export-path record, and flagged to [[00_Master/Model_and_Views|One model, many views]]
-- §3, §4, §5 → [[18_Digital_Toolchain/analysis/Agent_Connected_CAD|Agent-Connected CAD]] and [[00_Master/Model_and_Views|One model, many views]]
+- §1, §2 → [[00_Master/Model_and_Views|One model, many views]], as the export-path record and the appearance-does-not-transfer cost
+- §3, §4, §5 → same page, into the walkable-view rungs and the engine decision. **No general-practice page took these**: Model to Drawing Pipeline is about 2D sheet generation and Agent-Connected CAD is about agent-driven authoring, so neither fits a BIM-to-viewer path
 
 ## What was NOT taken
 

@@ -65,7 +65,10 @@ Before choosing, he says to settle **who and what will actually be on this piece
 ## Routing
 
 - §1, §2, §3, §4 → [[14_Furniture/analysis/Upholstery_Fabric_Selection|Upholstery Fabric Selection]] (new page)
-- §1 also flagged against the existing anti-vandal claim in [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]]
+
+## See also
+
+- [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]] — §1 runs against the anti-vandal claim recorded there, and the two should be read together. A cross-reference for the reader; the finding itself was written to Upholstery Fabric Selection.
 
 ## What was NOT taken
 

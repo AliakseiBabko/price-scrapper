@@ -95,4 +95,8 @@ When a wide windowsill blocks radiator warm air from reaching the glass (severe 
 
 **His summary: *«бренд, плавность хода, возможность обслуживания и удобство открывания»*.**
 
+> **⚠️ A second, independent installer puts the same weight on hardware and states it more strongly** — Окна 2.0 (Анна): *«Фурнитуру бы я назвала вообще сердцем окна, потому что это самое важное в надёжности окна.»* **Hardware here means hinges, the whole perimeter locking mechanism, covers and handles.** Her recommendation is reputable makers over cheaper Turkish analogues, **argued on cost: avoided service call-outs for repeated adjustment.**
+>
+> **→ ⚠️⚠️ Two sources agree hardware is the reliability-critical component; they differ on the TEST, and the one above is better.** **"Buy a reputable brand" is not checkable at the point of sale — "is this brand still represented in my country, and can I operate it in your office" is.** **Recorded as corroboration of the importance, not of the criterion.** [source: [[_Sources/YT_M8ho5TC86eQ_okna20_choosing_pvc_windows|YT_M8ho5TC86eQ]]]
+
 [source: [[_Sources/YT_2OCpQtu3fp8_elitbalkon_window_hardware_and_double_frames|YT_2OCpQtu3fp8]] (+-L00JLZJQ-c); ice section from [[_Sources/YT_Nr5_Pma2Tvg_elitbalkon_ventilation_and_condensation|YT_Nr5_Pma2Tvg]] (+SM4AnGeEvDI)]

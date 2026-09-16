@@ -47,7 +47,7 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 
 **LifeMebel (2020) recommends рогожка and велюр for soft beds, naming велюр *«самый популярный тренд»* and рогожка as adding *«уюта»*, with NO pet caveat at all.**
 
-> **→ He is answering a different question — what looks current — and is silent on the one where the other four agree.** **His велюр recommendation is consistent with all of them.** ⚠️ **Also the oldest source here by three years.**
+> **→ He is answering a different question — what looks current — and is silent on the one where the other four agree.** **His велюр recommendation is consistent with all of them.** ⚠️ **Also the oldest source here by three years.** [source: [[_Sources/YT_YaOqWodTvZ4_lifemebel_how_to_choose_a_bed|YT_YaOqWodTvZ4]]]
 
 ## ⚠️⚠️ 3. "Антивандальность" — a coating with a shelf life, not a property of the weave
 
