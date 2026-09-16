@@ -121,9 +121,12 @@ new GLTFLoader().load(GLB, (gltf) => {
     ray.set(origin, d);
     ray.near = 0.01; ray.far = 60;
     const hit = ray.intersectObjects(meshes, true);
-    const dist = hit.length ? hit[0].distance : 60;
-    if (dist > best.dist) best = { dist, dir: d };
+    // Prefer the longest view that actually ENDS on a surface. A ray that
+    // escapes through a door or window reports the longest distance of all and
+    // points the camera out of the building - which is the opposite of useful.
+    if (hit.length && hit[0].distance > best.dist) best = { dist: hit[0].distance, dir: d };
   }
+  if (best.dist < 0) best = { dist: 0, dir: new THREE.Vector3(1, 0, 0) };
   camera.lookAt(origin.clone().add(best.dir));
   document.getElementById('spawn').textContent = best.dist.toFixed(1);
 

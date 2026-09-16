@@ -16,6 +16,16 @@
     "thickness_m": 0.12,
     "z_m": -0.12
   },
+  "ceiling": {
+    "name": "Current apartment ceiling seed",
+    "x_m": 0.0,
+    "y_m": -0.15,
+    "width_m": 10.28,
+    "depth_m": 8.56,
+    "thickness_m": 0.1,
+    "reference": "ceiling",
+    "_note": "Underside sits at storey_height_m; the generator supplies z_m so the ceiling cannot drift from the wall tops. NOTE the open conflict: storey_height_m is 2.8 while project_decisions.md records the settled clear height as 2500 mm screed-to-ceiling (slab-to-slab ~2550). Resolving that moves every wall, drawing and quantity and is a separate owner decision - see the open item added 2026-09-16."
+  },
   "rooms": [
     {
       "name": "Living room",
