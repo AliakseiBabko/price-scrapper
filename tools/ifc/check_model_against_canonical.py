@@ -350,6 +350,56 @@ def check(ifc_path: Path) -> list[str]:
                     "IFC carries frame member %s %s, which window_frames.csv does not"
                     % key)
 
+    # 8 - HOSTING: which wall each opening is cut into, and which opening each
+    # frame member belongs to. Both are SEMANTIC facts the compiler decides.
+    #
+    # ⚠️ The generator used to re-derive both geometrically - an opening's host
+    # by searching for a containing wall polygon, a frame member's opening by
+    # testing which bounding box held its centroid. Those are second
+    # reconciliation paths: they agree today, and two adjacent or overlapping
+    # openings could make them disagree with nothing to say which is right.
+    # They are now joins on the id, and this check is what keeps them honest.
+    if rv is not None and getattr(resolved, "openings", None):
+        want_host = {o["opening_id"]: o.get("host_wall")
+                     for o in resolved.openings
+                     if o.get("hosting") == "void_in_wall"}
+        for rel in model.by_type("IfcRelVoidsElement"):
+            wall, void = rel.RelatingBuildingElement, rel.RelatedOpeningElement
+            if wall is None or void is None:
+                continue
+            oid = (void.Name or "").split()[0]
+            expected = want_host.get(oid)
+            if expected and wall.Name != expected:
+                problems.append(
+                    "opening %s is cut into wall %s; the compiler hosts it in %s"
+                    % (oid, wall.Name, expected))
+
+        want_frame_opening = {(f["opening_id"], f["member"]): f["opening_id"]
+                              for f in resolved.window_frames}
+        for member in model.by_type("IfcMember"):
+            name = member.Name or ""
+            if " frame " not in name:
+                continue
+            opening_id, _, member_name = name.partition(" frame ")
+            if not member_name.startswith(("mullion", "transom")):
+                continue
+            expected = want_frame_opening.get((opening_id, member_name))
+            if expected is None:
+                continue
+            for definition in (member.IsDefinedBy or []):
+                prop_set = getattr(definition, "RelatingPropertyDefinition", None)
+                if prop_set is None or not getattr(prop_set, "HasProperties", None):
+                    continue
+                for prop in prop_set.HasProperties:
+                    if prop.Name != "OpeningId":
+                        continue
+                    stated = getattr(prop.NominalValue, "wrappedValue", None)
+                    if stated and stated != expected:
+                        problems.append(
+                            "frame member %s %s states OpeningId %s; "
+                            "window_frames.csv records it on %s"
+                            % (opening_id, member_name, stated, expected))
+
     # 3 - opening verticals against wall_openings.csv
     want_open = {}
     with OPENINGS.open(encoding="utf-8") as fh:

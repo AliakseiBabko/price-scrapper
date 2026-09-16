@@ -798,16 +798,38 @@ class CoordinateFrame(object):
             "model_units": "metres from the datum",
             "note": ("derived from the NAMED WALLS only, so a primitive outside the "
                      "wall envelope cannot translate the model frame"),
+            "stable_against": "any non-wall addition (gated)",
+            "NOT_stable_against": ("adding or correcting a NAMED WALL outside the "
+                                   "present envelope - accepted for v0, must be "
+                                   "frozen in canonical configuration before "
+                                   "variants reuse this compiler"),
         }
 
 
 def base_wall_datum(walls):
-    """The stable origin: the minimum corner of the NAMED WALL envelope.
+    """The origin: the minimum corner of the NAMED WALL envelope.
 
     Deliberately not `min()` over every primitive in the model. Insulation,
     services, the лоджия glazing assembly and variant geometry can all lie
     outside the wall envelope, and any of them moving the origin would move the
     whole model.
+
+    ⚠️⚠️ WHAT THIS IS AND IS NOT STABLE AGAINST, stated plainly rather than
+    implied. It is stable against ANY non-wall addition - that is gated in
+    `scripts/resolve_v0_geometry_selftest.py`, which also proves a
+    min()-over-everything datum would have moved.
+
+    It is NOT stable against adding or correcting a NAMED WALL that lies
+    outside the present envelope. Such a wall would move the origin, and every
+    previously issued IFC and every annotation against it would then refer to a
+    different place while still loading cleanly.
+
+    That is accepted for v0, where the 25 named walls are a closed, gated set
+    and the envelope is the flat's own. ⚠️ **It must NOT be carried into
+    variants**: before a second variant reuses this compiler, freeze the datum
+    as an explicit value in canonical configuration and assert against it, so
+    that correcting a wall corrects geometry rather than silently re-basing the
+    coordinate frame.
     """
     boxes = [wall_box(w) for w in walls if w.get("from_mm") is not None]
     if not boxes:

@@ -5,7 +5,8 @@
 > [!IMPORTANT]
 > **Status, 2026-09-16 after review:**
 > - ✅ **The GUID rule in §2 is APPROVED** — `identity_uuid` immutable, IFC `GlobalId` derived from it and nothing else.
-> - ⛔ **Five amendments are REQUIRED before any service migration or IFC generation.** They are listed in **§7** and are NOT yet applied to §§2–3 below, which therefore still read as first drafted. **Read §7 before implementing anything here.**
+> - ✅ **The five required amendments are now APPLIED to §§2–3**, which are normative. §7 is kept as the CHANGE RECORD of what was corrected and why, not as an override — there are no contradictory sections left for an implementer to reconcile.
+> - ⛔ **Still NOT approved for generation.** §6 lists what remains unsettled, chiefly the host-local locator.
 > - ▶️ **The geometry compiler extraction proceeds independently** and is not blocked by these.
 
 **Why it exists now.** Services are currently authored in three places that can disagree — Python literals inside `tools/layout/sheets/make_services_sheets.py`, `electrical_existing.csv`, and `service_outlets.csv` — and the IFC consumes none of them. The generator was frozen on 2026-09-16 and its write-back into `data/canonical/` stopped, but **containment is not a fix**. This is the authored-data design that migration needs, and it is the one part of the work that does **not** depend on extracting the geometry compiler first.
@@ -42,30 +43,57 @@ An occurrence **cites** observations. It does not absorb them: the evidence has 
 
 | Field | Rule |
 | :--- | :--- |
-| `identity_uuid` | **Immutable, machine-generated, never reused.** The IFC `GlobalId` is derived from this and from nothing else. |
-| `service_id` | Readable and unique. **Immutable once issued** — if it turns out wrong, supersede rather than rename. |
+| `identity_uuid` | **The ONLY immutable field.** Machine-generated, never reused. The IFC `GlobalId` derives from this and from nothing else. |
+| `service_id` | Readable and unique. **Renameable, and audited when it changes** — old codes are kept as aliases. |
 | `display_mark` | What a drawing prints. **May change freely**; carries no identity. |
 | `legacy_alias` | **Namespaced**, list-valued: `legacy_sheet:S1`, `service_outlets:SW-K`, `electrical_existing:E-KL-SOC-K`. |
-| `superseded_by` | For genuine replacement. **Records are superseded, never deleted.** |
+| `supersedes` / `superseded_by` | **A RELATION, not a single value.** A record may have several successors: `E-KL-SOC-K` is one observation of three outlets, so a split is expected, and merges are equally legitimate. |
 
-> ⚠️⚠️ **Why the GUID must derive from `identity_uuid` and not from `service_id`:** a regenerated IFC has to re-join to annotations, review decisions and previously issued sheets. Derive the GUID from a readable code and the day someone improves that code, every annotation against it is orphaned — silently, because the model still loads.
+> ⚠️⚠️ **SUPERSEDE ONLY WHEN THE REPRESENTED THING CHANGES.** A mistaken `service_id` is a NAMING correction: rename it and record the old code as an alias. Superseding instead would manufacture a physical replacement in the history — the record would claim a socket was replaced when somebody only fixed a typo.
+
+> ⚠️⚠️ **Why the GUID must derive from `identity_uuid` and not from `service_id`:** a regenerated IFC has to re-join to annotations, review decisions and previously issued sheets. Derive the GUID from a readable code and the day someone improves that code, every annotation against it is orphaned — silently, because the model still loads. **This rule is approved.**
 
 ---
 
-## 3. Status — four independent fields, never one column
+## 3. Status — independent fields and records, never one column
 
 **One `status` column would force unrelated facts to share a slot**, and the first casualty is always the distinction between *what we know* and *what we have decided*.
 
-| Field | Values | Answers |
+| Concern | Where it lives | Values |
 | :--- | :--- | :--- |
-| `phase` | `existing` / `demolished` / `new` | Is it there now, going, or coming? |
-| `knowledge_basis` | `measured` / `observed` / `derived` / `assumed` | **How do we know?** |
-| `decision_status` | `proposed` / `owner_approved` / `trade_approved` / `rejected` / `superseded` | **Who has agreed?** |
-| `route_state` | `topology_only` / `design_intent` / `construction_approved` / `as_built` | How real is the path? |
+| `phase` | occurrence | `existing` / `demolished` / `new` |
+| **knowledge basis** | **on each VALUE**, not the occurrence | `measured` / `observed` / `derived` / `assumed` |
+| **approvals** | **a list of RECORDS** | see below |
+| `route_state` | route | `topology_only` / `design_intent` / `construction_approved` / `as_built` |
 
-**These are genuinely orthogonal.** An existing socket can be `observed` but not measured, and `proposed` for removal. A new luminaire can be `owner_approved` while its circuit is still `topology_only`.
+### 3.1 Knowledge basis belongs to each value
 
-> ⚠️⚠️ **`as_built` is a LATER ASSERTION than `construction_approved`, not a synonym.** Approved means someone signed off a path; as-built means someone recorded what was actually installed. **A generator may never promote one to the other, and may never promote `topology_only` into a route at all** — if the model can invent a path, the model is asserting something nobody decided.
+**One basis per occurrence cannot describe reality, and the existing data already proves it.** A single socket can simultaneously have **observed** existence, **derived** height, **assumed** host and **unknown** horizontal position — which is exactly what `electrical_existing.csv` records today.
+
+So every locator and dimension value carries **its own basis and its own observation references**. An occurrence-level basis, if kept at all, is a derived summary and never the store.
+
+### 3.2 Approvals are records
+
+`owner_approved` then `trade_approved` **must not erase the owner's approval**, and an approval has to say *what* was approved — count, position, voltage, route.
+
+An approval record carries **subject / property, actor, decision, date, evidence**. `decision_status` becomes a **derived summary** of those records.
+
+### 3.3 Uncertain measurements are typed
+
+**The amendment the existing data most needs.** `electrical_existing.csv` records heights as `"ceiling"`, `"low + one mid"`, `"915-1105"`, `"~880"`. None is a `height_mm`, and **`"low + one mid"` is a grouped observation, not one height locator.**
+
+| Field | Values / meaning |
+| :--- | :--- |
+| `vertical_mode` | `point` / `range` / `band` / `relative` / `full_height` / `unknown` |
+| `datum` | `finished_floor` / `slab` / `ceiling` / host-relative |
+| `nominal_mm`, `min_mm`, `max_mm`, `uncertainty_mm` | as applicable to the mode |
+| observation ref + basis | per §3.1 |
+
+**Keep the raw observation text.** Normalisation sits beside it and never replaces it.
+
+> ⚠️⚠️ **These four are genuinely orthogonal.** An existing socket can be `observed` but not measured, and `proposed` for removal. A new luminaire can be `owner_approved` while its circuit is still `topology_only`.
+
+> ⚠️⚠️ **`as_built` is a LATER ASSERTION than `construction_approved`, not a synonym.** Approved means someone signed off a path; as-built means someone recorded what was installed. **A generator may never promote one to the other, and may never promote `topology_only` into a route at all.**
 
 ---
 
@@ -100,9 +128,9 @@ Concrete leaf types, not the generic ones: **`IfcOutlet`, `IfcLightFixture`, `If
 
 ---
 
-## 7. ⛔ REQUIRED AMENDMENTS — apply before any migration or generation
+## 7. Change record — the five amendments, and why (APPLIED to §§2–3 above)
 
-From review, 2026-09-16. **§§2–3 above still read as first drafted; these supersede them where they conflict.**
+From review, 2026-09-16. **All five are now written into §§2–3, which are the normative sections. This section is kept for the reasoning**, because each amendment records a way the first draft would have lost information.
 
 ### 7.1 Only `identity_uuid` is immutable
 

@@ -202,7 +202,44 @@ def seed_transom_stood_upright(model):
     return "O3's transom given a full-height extent"
 
 
+def seed_opening_hosted_in_wrong_wall(model):
+    """An opening cut into a wall the compiler does not host it in.
+
+    ⚠️ The generator used to decide this by searching for a containing wall
+    polygon rather than reading the compiler's `host_wall`. Two adjacent or
+    overlapping openings could make a geometric search and a semantic join
+    disagree, with nothing to say which was right.
+    """
+    rel = next(r for r in model.by_type("IfcRelVoidsElement")
+               if (r.RelatedOpeningElement.Name or "").startswith("O1 "))
+    other = next(w for w in model.by_type("IfcWall")
+                 if w.Name != rel.RelatingBuildingElement.Name)
+    rel.RelatingBuildingElement = other
+    return "opening O1 re-hosted into wall %s" % other.Name
+
+
+def seed_frame_member_on_wrong_opening(model):
+    """A frame member claiming to belong to a different opening.
+
+    The member's geometry is untouched; only its stated OpeningId moves. A
+    centroid search would never notice, because the member is still inside the
+    opening it was drawn in.
+    """
+    member = next(m for m in model.by_type("IfcMember")
+                  if (m.Name or "") == "O3 frame mullion_1")
+    for definition in (member.IsDefinedBy or []):
+        prop_set = getattr(definition, "RelatingPropertyDefinition", None)
+        if prop_set is None or not getattr(prop_set, "HasProperties", None):
+            continue
+        for prop in prop_set.HasProperties:
+            if prop.Name == "OpeningId":
+                prop.NominalValue = model.create_entity("IfcText", "O2")
+    return "O3's mullion re-labelled as belonging to O2"
+
+
 SEEDS = [
+    ("opening hosted in the wrong wall", seed_opening_hosted_in_wrong_wall),
+    ("frame member on the wrong opening", seed_frame_member_on_wrong_opening),
     ("transom dropped from the IFC", seed_transom_dropped),
     ("transom stood upright", seed_transom_stood_upright),
     ("mitre squared back to a rectangle", seed_mitre_squared_back),
