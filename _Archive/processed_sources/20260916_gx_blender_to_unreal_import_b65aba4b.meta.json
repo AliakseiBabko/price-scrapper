@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=AK4tVgdWVo4",
+  "video_id": "AK4tVgdWVo4",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T08:39:16.061118+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "b65aba4bcad181e011d618a9e163d5ef654b543df810480185dc92a5f44560ea",
+  "attempts_before_success": [],
+  "upload_date": "2026-05-15",
+  "upload_date_source": "yt-dlp"
+}

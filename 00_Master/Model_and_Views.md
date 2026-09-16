@@ -90,6 +90,55 @@ practitioners who have done it: [source: [[_Sources/YT_HV-fbzv4VAU_bim_to_walkab
   post-production — **nothing about circulation or dimensional judgement.** **It
   belongs on the "show someone" branch, not the "decide something" branch.**
 
+### ⚠️⚠️ The mechanism behind "appearance does not transfer", and its price (added 2026-09-16)
+
+**Three technical sources put a mechanism and a cost under the finding above.**
+[source: [[_Sources/YT_i82_Rx1OUe0_glb_export_mechanics_and_what_survives|YT_i82_Rx1OUe0]]]
+
+- **⚠️⚠️ IT IS A NON-TRANSFER, NOT A LOSSY ONE.** Demonstrated on camera: a working
+  Blender shader exported to GLB opens in a glTF viewer *"completely blank."*
+  *"Even if they were just one or two nodes blended together, Blender can
+  understand them, but other softwares will not be able to read Blender's internal
+  materials."* **The only universal carrier is an IMAGE TEXTURE.** ⚠️ A third
+  source hits the same wall importing to Unreal — a procedural bump simply did not
+  arrive — and states the rule as *"use pixel textures rather than procedural maps."*
+- **⚠️⚠️ AND THE PRICE OF FIXING IT IS BIGGER THAN "RE-DRESS THE SURFACES": baking
+  requires a UV MAP on every object** (*"if it doesn't have a UV map, your textures
+  are not going to work"*), the renderer set to **Cycles**, and **one bake per
+  channel** — base colour, roughness, metallic. ⚠️ Baking "combined" bakes the
+  LIGHTING in, shadows included, permanently.
+  > **→ An IFC model out of Bonsai carries NO UV maps. So a textured walkable view
+  > means UV-unwrapping the whole apartment and baking several channels per
+  > material, before any appearance decision is even made. That is a modelling
+  > project, not an export step.**
+- **⚠️⚠️ WHICH IS AN ARGUMENT FOR THE UNTEXTURED VIEW RATHER THAN AGAINST THE IDEA:
+  geometry and flat colour need no UV map and no bake.** ⚠️ **One thing to VERIFY
+  rather than assume, and it is cheap because we control it: whether a plain
+  Principled BSDF base colour — no node network — travels as a glTF PBR material.
+  None of these sources tests that case, and it is the one this project would use.**
+
+**⚠️⚠️ AND A SIZE CONSTRAINT THAT BINDS THE WEB RUNG SPECIFICALLY**: a full
+architectural scene with interior exported to GLB came out at **almost half a
+gigabyte**, heavier than the same scene as FBX, with *"at least half an hour"* for
+export plus import. ⚠️ **Not this project's case — that scene has exterior,
+landscape and imported asset libraries, where this is one untextured apartment —
+but it gives the rule: the web rung survives only while the model stays untextured
+or lightly textured.** **The same conclusion the cost side reaches.**
+
+**⚠️ Two export-integrity points worth keeping regardless of the decision**: **apply
+SCALE (ideally all transforms)**, because *"the entire scaling goes completely
+haywire"* otherwise; and **the exporter writes what is baked into the MESH, not what
+the viewport shows** — node-generated geometry exports as its pre-modifier state.
+⚠️ Mostly moot for a Bonsai/IFC model, which is real mesh, **but the scale point is
+cheap insurance.**
+
+**⚠️ On format choice, the sources agree with the pipeline's existing wording**: glTF
+splits mesh, textures and dependencies into separate co-located files and is *"very
+prone to errors"*; **GLB packs everything into one binary file, *"a lot more robust
+and even faster to load, especially for web applications."*** **The format was
+designed as a *transmission format* for exactly this use — real-time viewing over
+the web — so nothing exotic is being proposed.**
+
 > **→ ⚠️⚠️ CONCLUSION AS RESEARCHED, not as a decision: a glb walkable view is the
 > cheap rung and it is sufficient for the spatial questions currently open on this
 > project.** **Twinmotion buys appearance, at the price of a second source of truth
