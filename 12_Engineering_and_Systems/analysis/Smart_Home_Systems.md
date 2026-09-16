@@ -324,3 +324,28 @@ recorded as general reference only:
 ## Wired vs. wireless architecture — moved to its own page
 
 See **[[12_Engineering_and_Systems/analysis/Smart_Home_Wired_vs_Wireless|Smart Home — Wired vs. Wireless Architecture]]**. **That decision has to be made at the rough stage**, before the walls close; this page keeps pricing, control methods, devices, sensors and the ecosystem starter kit, which can be revisited later.
+
+## ⚠️⚠️ A voice-control fault report that survived into the vendor's own sales video (added 2026-09-16)
+
+**Showing a wall bed openable by button or by voice assistant, the presenter
+relays a complaint made to him off camera:**
+
+> *«Мне за кадром пожаловались, что АЛИСА ТЕРЯЕТ СВЯЗЬ и почему-то через некоторое
+> время перестаёт отвечать.»*
+
+**His answer is to recommend contacting their managers and to praise the firm's
+after-sales service.**
+
+> **→ ⚠️⚠️ A REAL FAULT SURVIVING INTO A PROMOTIONAL VIDEO IS WORTH MORE THAN ANY
+> NUMBER OF SATISFIED LINES.** **The voice layer of an automated piece of furniture
+> is reported dropping its connection and going unresponsive in service.**
+>
+> **→ THE SPECIFICATION CONSEQUENCE IS SIMPLE AND CHEAP: never let voice be the
+> ONLY way to operate something physical.** A wall bed, a blind, a door — each
+> needs a button and, better, a manual fallback. **This vault already treats voice
+> as a convenience layer; this is a documented instance of why.**
+>
+> ⚠️ **Single account, relayed second-hand by an interested party, and no cause is
+> given — it could be the assistant, the network or the integration. Tagged
+> `unverified`, and recorded as a reason to specify a fallback rather than as a
+> verdict on any product.** [source: [[_Sources/YT_XL2Dsw7FonM_progressdesign_two_children_wall_beds|YT_XL2Dsw7FonM]]]
