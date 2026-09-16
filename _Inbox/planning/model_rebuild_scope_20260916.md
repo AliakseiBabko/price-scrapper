@@ -158,3 +158,43 @@ Resolved model graph                            inside export_v0_dxf.py
 ### One documentation defect this exposes
 
 **`00_Master/Model_and_Views.md` calls `model.ifc` "the single source of truth". That is now wrong** and should read: one logical model in the canonical data, of which the IFC is a compiled representation.
+
+---
+
+## 8. Sequencing, after the second Codex round — and my order was wrong
+
+I proposed "fix the services-authority defect first, then extract the compiler". **That is unsafe if "fix" means the full migration**: migrating placements needs `on_element` and `along_wall_mm` to resolve, and those live in the reconciliation that is still inside `export_v0_dxf.py`. Doing it first would mean writing a second, temporary implementation of exactly the thing being extracted.
+
+**The split is containment (can go first) versus migration (cannot).**
+
+### 1. Contain — ✅ done 2026-09-16
+
+- ✅ **Stop writing into `data/canonical/`.** `electrical_placement_review.csv` is generated review output and now goes to `data/outputs/review/`. It was git-tracked in the authored directory; removed from the index and moved. Nothing reads it, so the move is safe.
+- ✅ **Freeze the legacy generator.** `make_services_sheets.py` carries a banner: fix a rendering bug if you must, but a NEW placement, height or owner decision goes in the canonical data, never in its Python lists.
+- ⬜ **Assign stable canonical IDs and define the service schema and status vocabulary.** Not started. This is authored-data work and does not depend on the compiler.
+
+### 2. Extract the geometry compiler
+
+Move the reconciliation out of `export_v0_dxf.py`. **Preserve byte-equivalent DXF output** and re-run the adversarial gates — `check_dxf_closure` (24 seeds), `raster_fidelity` (7), `structural_assembly_selftest` (14). Expose the shared host-local operations every consumer needs to agree on: **wall face, normal, along-wall position, and local↔world transform.**
+
+### 3. Migrate service authority
+
+Classify every literal in the frozen generator as **observed existing / owner decision / design assumption / route topology**, move it into canonical records, and validate placements through the shared compiler.
+
+### 4. Generate both representations
+
+IFC elements, ports and systems; and discipline-sheet symbols and annotations. **No service geometry invented inside either consumer** — sheets select, filter and style; they do not author.
+
+### 5. Retire the hard-coded path
+
+**Seeded divergence tests first**, then remove the lists and the old write-back. Per standing rule 10, the test that proves the two representations cannot drift has to exist before the thing preventing drift is deleted.
+
+---
+
+### ⚠️ Schema: decide it, do not drift into it
+
+**`model_from_dxf.py` writes `IFC4`.** The deprecation of `IfcFlowSegment` for direct instantiation that justified choosing concrete leaf types is an **IFC 4.3** statement. The conclusion still holds — `IfcCableSegment`, `IfcPipeSegment`, `IfcDuctSegment`, `IfcOutlet`, `IfcLightFixture`, `IfcAirTerminal` are the right entities — **but the schema version must not change silently as a side effect of adding services.** If a move to 4.3 is wanted, make it a deliberate step and test it against Bonsai, the Blender glTF export and every existing gate before relying on it.
+
+### Terminology
+
+Say **"canonical authored data"**, not "the tables". The position authority is JSON (`v0_named_walls_placed.json`), not a CSV, and calling the whole store "tables" is what made it easy for me to miss it.

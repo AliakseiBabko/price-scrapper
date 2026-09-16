@@ -7,26 +7,49 @@ ways?
 
 ## The answer: one model
 
-**One model. The 2D drawings are generated *from* the 3D model, not drawn
-alongside it.** That is the whole reason for the spec → IFC pipeline, and it is
-already how everything currently produced works:
+**One model — and the source of truth is the CANONICAL AUTHORED DATA, not any
+file that is generated from it.** The 2D drawings are not drawn alongside the 3D
+model; both are generated from the same authored facts.
+
+> [!IMPORTANT]
+> **⚠️ CORRECTED 2026-09-16.** This section previously read *"`model.ifc` — the
+> single source of truth"* and named `model_from_spec.py` as the generator. Both
+> were wrong by then: that generator built from a schematic that was **retired**
+> the same day, and calling a generated IFC the source of truth is the claim that
+> let the 3D model diverge from the measured geometry for months without any gate
+> noticing. **Canonical authored data is the source of truth. IFC is the
+> authoritative GENERATED model for an issued build; drawings, quantities and
+> visualisations are generated views of the same resolved model.**
 
 ```
-data/canonical/current_apartment_base.json      the geometry, once
-        + data/variants/<id>.json               a variant as a patch
+data/canonical/            THE SOURCE OF TRUTH - authored facts + provenance
+  wall_blocks.csv          lengths of record, thickness, material class
+  v0_named_walls_placed.json   authoritative for POSITION and FACES
+  wall_openings.csv        sills and heads, with their measurement basis
+  wall_corners.csv · window_frames.csv · ventilation_shafts.csv
+  building_spec.json       ceiling height
                     │
                     ▼
-      tools/ifc/model_from_spec.py              ONE model per variant
+      RECONCILIATION - chain closure, corner ownership, placement
+      yielding, loggia closure.  ⚠️ Currently trapped inside
+      tools/layout/export_v0_dxf.py; should become a shared
+      geometry compiler that every consumer reads.
                     │
                     ▼
-             model.ifc  ── the single source of truth
+             the resolved model - generated, never authored
                     │
    ┌────────────────┼─────────────────┬──────────────────┐
    ▼                ▼                 ▼                  ▼
-A3 sheets        DXF plan         Blender / glb      quantities
-(SVG + PDF)      (TrueView)       (3D volume)        (areas, finishes)
-2D              2D               3D                 non-graphic
+model.ifc        DXF plan         Blender / glb      quantities
+(the issued      + A3 sheets      + Cycles renders   (areas, finishes)
+ representation) 2D               3D                 non-graphic
 ```
+
+⚠️ **`model_from_dxf.py` reads the DXF for coordinates today.** That makes 2D an
+intermediate for 3D, which is the wrong shape and is recorded as transitional:
+it was the right recovery step because the 3D immediately inherited four
+existing gates. Both exporters should end up consuming the same resolved
+geometry, keeping independent DXF and IFC gates.
 
 Every one of those is a **view**. A floor plan is a horizontal section through
 the model at about 1.2 m; an elevation is a vertical one; the 3D scene is the
