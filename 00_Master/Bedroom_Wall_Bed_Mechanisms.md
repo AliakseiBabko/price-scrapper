@@ -220,6 +220,34 @@ this vault until 2026-09-15:**
   choice with a trade-off — an unattached sofa must be held while folding.**
   [source: [[_Sources/YT_jZAAwUZVb0I_progressdesign_spec_and_cost_structure|YT_jZAAwUZVb0I]]]
 
+
+## ⚠️⚠️ Operating an AUTOMATIC bed when the electronics fail — three levels, and the bottom one needs no power
+
+**This vault flagged the question twice and could not answer it**, because the one
+video picked to address it (`o6_HwxwZau4`, *"how to open an Атлант without
+electricity"*) turned out to be 29 bytes of music. **A client reviewing his own
+installation answers it in passing:**
+
+> *«Есть специальный на случай АВАРИЙНОГО ОТКЛЮЧЕНИЯ СВЕТА хомуток, такой ремешок,
+> за который ты дёргаешь — и кровать опускается.»*
+
+**Read together with the voice-control fault recorded on
+[[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Smart Home Systems]] —
+an assistant that loses connection and stops responding — the operating chain has
+three levels, in decreasing order of fragility:**
+
+1. **Voice** — the least reliable layer, and documented failing in service.
+2. **Button** — an electromechanical latch release; still needs power.
+3. **⚠️⚠️ A MECHANICAL PULL-STRAP** — needs nothing at all.
+
+> **→ ⚠️⚠️ SPECIFY LEVEL 3 EXPLICITLY AND BY NAME.** **It is the difference between a
+> power cut being an inconvenience and a household having no bed**, and it is the
+> kind of thing that is present or absent by design rather than addable later.
+> ⚠️ **One client's description of one maker's product: it establishes that such a
+> release exists and is worth demanding, not that every automatic bed has one.**
+> ⚠️ **And it is a reason to weigh a MANUAL mechanism seriously — it has no level
+> to fail.** [source: [[_Sources/YT_J7Q6Z3fvytQ_progressdesign_three_children_and_a_12m2_client|YT_J7Q6Z3fvytQ]]]
+
 ## ⚠️ Mattress/Bedding Retention — a Genuine Manufacturer Disagreement
 
 Two independent custom furniture makers take opposite positions on

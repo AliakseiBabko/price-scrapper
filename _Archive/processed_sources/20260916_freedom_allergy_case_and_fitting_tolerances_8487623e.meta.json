@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=M-PhNARAI_4",
+  "video_id": "M-PhNARAI_4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T06:54:09.541599+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8487623ed257c0f4c9cc912f611e10031230c84458928a28eeb3612e9592eebb",
+  "attempts_before_success": [],
+  "upload_date": "2025-11-23",
+  "upload_date_source": "yt-dlp"
+}

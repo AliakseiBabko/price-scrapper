@@ -242,6 +242,30 @@ in it.** [source: [[_Sources/YT_XL2Dsw7FonM_progressdesign_two_children_wall_bed
 >
 > ⚠️ **All of this evidence is vendor-filmed and vendor-selected. The children's
 > and the father's words are their own; the framing around them is a sales video.**
+>
+> **⚠️⚠️ ADDED LATER THE SAME DAY — THE CLOSEST THING TO A CONTROLLED COMPARISON,
+> and it removes WEIGHT from the argument.** A repeat customer who has a double
+> wall bed in the adults' room and three 90 cm ones in the children's room,
+> operating both daily: *«та у нас двуспальная история, она достаточно ТЯЖЁЛАЯ, что,
+> в принципе, не вызывает дискомфорта. Я посмотрел вот эти — они очень ЛЁГКИЕ. То
+> есть это ПАЛЬЧИКОМ просто.»* **One household, one brand, both sizes.**
+>
+> **→ The children's beds under consideration here are exactly 90 cm, so this
+> removes bed weight as the obstacle** and narrows the remaining doubt about the
+> 3-year-old to **reach, habit and supervision** rather than force. ⚠️ **His
+> children are «почти взрослые», so it still does not answer the age question — it
+> makes it a smaller question.**
+>
+> ⚠️ **He also volunteers that he folds it several times a day, not twice** —
+> *«более того, я по несколько раз могу это делать»* — and that the benefit he names
+> FIRST is not floor area but tidying: the bed folds away already made,
+> *«быстро собрал, быстро положил — кровать убрана»*. [source: [[_Sources/YT_J7Q6Z3fvytQ_progressdesign_three_children_and_a_12m2_client|YT_J7Q6Z3fvytQ]]]
+>
+> **⚠️⚠️ AND A THIRD ARRIVAL AT THE BUNK REJECTION, from a household that HAD
+> one.** Asked what was wrong with the room before: *«здесь была ДВУХЪЯРУСНАЯ
+> КРОВАТЬ, здесь ещё одна кровать, диван-кровать, и просто куча игрушек — постоянный
+> был ХАОС»*. **The decision here is already taken; recorded because it is the
+> strongest version of the argument and it arrived after the fact, not before.**
 
 **⚠️ A third option the same source suggests, which is neither of the two above**: in
 one project a **стеллаж-перегородка — a shelving unit used as a room divider** — gave
@@ -276,6 +300,15 @@ are cheap to specify and easy to miss.** [source: [[_Sources/YT_XL2Dsw7FonM_prog
   rows deep.
 - **Adjustable headboards**, ceiling light on a touch button or remote, flexible
   reading lights each side.
+- **⚠️⚠️ SIZE THE BEDS FOR THE CHILDREN THEY WILL BECOME.** A three-child room
+  used 90 × 200 for all three deliberately, so that *«через пару лет, когда дети
+  вырастут, они всё также смогут с комфортом здесь спать»*. **→ Directly relevant:
+  this room's occupants are 3 and 6 now and will be ~7 and ~10 when Phase 2
+  splits them, and a wall bed is fitted joinery that cannot be resized.**
+  [source: [[_Sources/YT_J7Q6Z3fvytQ_progressdesign_three_children_and_a_12m2_client|YT_J7Q6Z3fvytQ]]]
+- **⚠️ Give the awkward tall objects a named home**: one client asked for a niche
+  sized for **a stepladder and a vertical vacuum cleaner**, which otherwise end up
+  in a hallway. [source: [[_Sources/YT_J7Q6Z3fvytQ_progressdesign_three_children_and_a_12m2_client|YT_J7Q6Z3fvytQ]]]
 - **⚠️ At measurement they record wall curvature, cornice offset AND SOCKET
   POSITIONS** — *«только так мебель встанет идеально»*. **→ Another reason the
   electrics and the bed decision are coupled at first fix rather than sequential.**

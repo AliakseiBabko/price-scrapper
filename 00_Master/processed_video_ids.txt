@@ -1341,3 +1341,12 @@ tdpYeoDlCuI
 onhOzoEZ-gw
 CRmpl_G2oOQ
 SfCu7uxYeZ8
+
+# ---- Wall-bed channel reserve, 2026-09-16 (closes out both triages) ----
+J7Q6Z3fvytQ
+v-YDS9ZVpcw
+M-PhNARAI_4
+KJ9FG5JxxAk
+# UNFETCHABLE aYnf0chaCoE - no caption track in any language, probed 2026-09-16;
+# by title the same bedroom-and-study project as M-PhNARAI_4, which was captioned.
+aYnf0chaCoE
