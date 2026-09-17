@@ -7,6 +7,41 @@ Detail page for [[18_Digital_Toolchain/Digital_Toolchain_Guide|Digital Toolchain
 > [!IMPORTANT]
 > **⚠️⚠️ This page exists because a source directly challenges a commitment this project has already made.** The gap analysis records an **`Adopt`** on authoring a project **`.ids`** ruleset (buildingSMART Information Delivery Specification). **One source argues, with an experiment, that the `.ids` FORMAT is doing no work — that every requirement in every format reduces to three columns.** The challenge is recorded here in full; **the decision is the owner's and is logged as an open item, not reversed.**
 
+
+## ⚠️⚠️ What an IFC TYPE carries, and the schema's own rule for wall joints (2026-09-17)
+
+**Types vs instances** — Tom (SPB Production, `fN9cP6w0DsM`), demonstrated in BricsCAD BIM so it is a statement about the schema rather than one application:
+
+| | Inherited from `IfcElementType`? |
+| :--- | :--- |
+| `Name`, `Description`, `GlobalId`, `Tag` | ⚠️ **NO** — per instance |
+| `PredefinedType` | ✅ yes |
+| **Properties (Psets)** | ✅ yes — editing the type's property changes every instance |
+| **Geometry** | ✅ yes |
+
+⚠️ **The instance does not carry its type's name** — *"I would have to query the IfcColumnType for the name of the type"*. **That is why schedules group by `Type.Name`: the designation lives nowhere else.** An instance-only model has nothing to group on.
+
+### ⚠️⚠️ `IfcMaterialLayer.Priority` — joints are a schema concern, not just geometry
+
+Bonsai's wall *trim* creates a **connection** (defaulting to mitred; butt joints are made by extending; *unjoin walls* breaks it). How the layers meet is then governed by an attribute on the layer:
+
+> *"the definition of IFC material layer, it has got this attribute which is name is priority and it's integer, so it's a range from 0 to 100. And this attribute controls how layers are intersected at connections."* [Tom]
+
+Equal meets equal → joined. Higher protrudes through lower, and stops when it meets its equal. His example: stucco 10, insulation 30, brick structure 50 — brick protrudes through both and stops at brick.
+
+> **→ ⚠️⚠️ THIS PROJECT HAS ITS OWN, DIFFERENT OWNERSHIP RULE.** `wall_corners.csv` resolves L-corners by **thicker, then longer**, at WALL granularity; IFC resolves at **LAYER granularity by an authored integer**. They do not conflict today — our walls are single-material — **but they will the moment we emit `IfcMaterialLayerSet`**, and the external perimeter is genuinely layered (300 block + 70 wool + render). **Reconciling the two is a prerequisite for layered walls, not a later refinement.**
+
+### Spatial containment is a COMMON defect, which justifies gating it
+
+Stefan Catargiu (`lQ_t0neAI9M`): *"lately I had to help a lot of people to fix their spatial decomposition… elements in their models were not belonging to the right space… this has to be a very bad sign of quality"*, attributing it to export. Combined with `sdNStKd-fqE` — an element outside `IfcRelContainedInSpatialStructure` **silently vanishes** from viewers — this is a silent failure that occurs often. ⚠️ Our generator calls `spatial.assign_container`, so it is *probably* right; nothing asserts it.
+
+### IDS can be AUTHORED locally, with no data egress
+
+`ifctester.org` is a free open-source web app with an **editor** as well as a runner, and Tom states that *"once the app is loaded, none of the data… leaves your machine"* (`s94gzyhP3eU`). **We currently have no IFC validation of any kind.**
+
+> ⚠️ **How to read all of this.** Christina (Dynamite Revit) pins her tutorials to a specific Blender and Bonsai build and warns that *"sometimes very simple features get completely changed"*. **Take schema statements and failure modes from this corpus; distrust click-paths.**
+
+
 ## 1. ⚠️⚠️ Every requirement reduces to ENTITY, ATTRIBUTE, CONSTRAINT
 
 **DataDrivenConstruction** assembled the **same 20 validation rules written in eight different formats** — a Word execution plan, an Excel matrix, **Solibri Model Checker JSON**, CSV, a nested JSON, **DWS** (AutoCAD standards checking), **IDS from buildingSMART**, and XML — *«each with its own structure, its own syntax, its own way of expressing the exact same rules.»*

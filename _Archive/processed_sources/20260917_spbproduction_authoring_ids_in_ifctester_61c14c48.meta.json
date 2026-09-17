@@ -1,0 +1,13 @@
+{
+  "url": "s94gzyhP3eU",
+  "video_id": "s94gzyhP3eU",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T00:00:00+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "61c14c484d5ba786e4586a3d34916a6eb4dea4d2614664971ceb2222a1679909",
+  "attempts_before_success": [],
+  "upload_date": "2026-02-12",
+  "upload_date_source": "yt-dlp --print upload_date, run 2026-09-17"
+}

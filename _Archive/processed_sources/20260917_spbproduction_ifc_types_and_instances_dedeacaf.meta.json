@@ -1,0 +1,13 @@
+{
+  "url": "fN9cP6w0DsM",
+  "video_id": "fN9cP6w0DsM",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T00:00:00+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "dedeacaf6763e91bf67a7ebd28b6c2142f9e9283c6c52be7217b29c1886d8b16",
+  "attempts_before_success": [],
+  "upload_date": "2025-06-19",
+  "upload_date_source": "yt-dlp --print upload_date, run 2026-09-17"
+}

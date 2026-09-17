@@ -1,0 +1,13 @@
+{
+  "url": "rSHAf7GBsUE",
+  "video_id": "rSHAf7GBsUE",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T00:00:00+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d8a8530d996c6578202ed10cb15a54d9fb3f3d41caa632c7b42464a1cf5c608f",
+  "attempts_before_success": [],
+  "upload_date": "2026-04-29",
+  "upload_date_source": "yt-dlp --print upload_date, run 2026-09-17"
+}
