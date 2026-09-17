@@ -296,14 +296,14 @@ def _recorded_thicknesses():
 
 
 def _recorded_insulation():
-    """wall id -> insulation mm, from wall_blocks.csv - the ONE source.
+    """wall id -> insulation mm, from the covering record - the ONE source.
 
     ⚠️ Delegates to the compiler's own reader so the checker and the thing it
     checks cannot disagree about what the file says. What they must disagree
     about is what the MODEL says.
     """
-    from typing_pass import _wall_insulation
-    return _wall_insulation()
+    from typing_pass import _covering_thickness
+    return _covering_thickness()
 
 
 def _recorded_walls():

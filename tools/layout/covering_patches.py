@@ -26,9 +26,10 @@ present on evidence while its 120 mm is an owner's assumption by symmetry with
 M6b. One row-level status would have laundered that, exactly as it would in the
 boundary assertions.
 
-EXISTING-PHASE GEOMETRY COMES FROM HERE. `place_insulation.py` and
-`typing_pass.py` consume the resolved result rather than re-reading the legacy
-columns, and `check_parity()` asserts the two agree for as long as both exist.
+EXISTING-PHASE GEOMETRY COMES FROM HERE, and from nowhere else as of
+2026-09-17. `place_insulation.py` and `typing_pass.py` both consume
+`resolved_bands()`; the four wall-wide columns they used to read are retired
+and a seed asserts those headers cannot return.
 """
 from __future__ import annotations
 
@@ -42,7 +43,6 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib.tabular import ValidationError, finite, read_csv  # noqa: E402
 
 PATCHES = os.path.join(REPO, "data", "canonical", "wall_covering_patches.csv")
-BLOCKS = os.path.join(REPO, "data", "canonical", "wall_blocks.csv")
 
 PRESENCE = ("present", "absent", "unknown")
 KINDS = ("external_insulation",)
@@ -119,13 +119,15 @@ def resolved(rows=None, phase="existing"):
     return out
 
 
-def legacy_equivalent(rows=None):
-    """What the legacy wall_blocks columns WOULD say, derived from the patches.
+def resolved_bands(rows=None):
+    """{wall: {thickness_mm, side, extent_from_mm, extent_to_mm}} - what the
+    consumers draw and model.
 
-    ⚠️ This exists for the PARITY BUILD and for nothing else. The legacy shape
-    cannot express more than one band per wall, or a band that is not flush
-    with the wall's own end - so if a second band is ever authored on one wall,
-    this raises rather than silently reporting the first.
+    ⚠️ ONE BAND PER WALL is all this shape can carry, and it RAISES rather
+    than reporting the first of several. That limit is inherited from the
+    consumers, not from the record: wall_covering_patches.csv can hold as many
+    bands per wall as the evidence shows, and the day a second one is authored
+    the consumers must be widened rather than this quietly picking a winner.
     """
     bands = resolved(rows)
     out = {}
@@ -150,7 +152,7 @@ def legacy_equivalent(rows=None):
             axis = 1 if abs(ty) > abs(tx) else 0
             extent_from = min(p[axis] for p in points)
             extent_to = max(p[axis] for p in points)
-        out[host] = {"insulation_mm": band["thickness_mm"],
+        out[host] = {"thickness_mm": band["thickness_mm"],
                      "side": band["side"],
                      "from_mm": band["from_mm"], "to_mm": band["to_mm"],
                      "extent_from_mm": extent_from, "extent_to_mm": extent_to}
@@ -167,68 +169,15 @@ def _face_span(host, face_ref):
     return face
 
 
-def check_parity(rows=None):
-    """Compare the derived result against the legacy columns. Returns problems.
-
-    ⚠️⚠️ THE PARITY BUILD. Both records are kept while this passes; the legacy
-    columns are removed only once the patches reproduce them exactly AND no
-    consumer still reads them. A cutover that changes an answer at the same
-    time as it changes the source makes it impossible to say which did it.
-    """
-    problems = []
-    derived = legacy_equivalent(rows)
-    legacy = {}
-    for row in read_csv(BLOCKS, required=["wall_id", "insulation_mm"]):
-        raw = (row.get("insulation_mm") or "").strip()
-        if not raw:
-            continue
-        legacy[row["wall_id"]] = {
-            "insulation_mm": finite(raw),
-            "side": (row.get("insulation_side") or "").strip() or None,
-            "from_mm": finite(row.get("insulation_from_mm")),
-            "to_mm": finite(row.get("insulation_to_mm")),
-        }
-
-    for host in sorted(set(derived) | set(legacy)):
-        want, got = legacy.get(host), derived.get(host)
-        if want is None:
-            problems.append(
-                "%s has a covering patch but wall_blocks.csv records no "
-                "insulation - the patches would ADD a band the legacy build "
-                "does not have" % host)
-            continue
-        if got is None:
-            problems.append(
-                "%s carries insulation in wall_blocks.csv but has no covering "
-                "patch - the patches would LOSE a band" % host)
-            continue
-        if abs(got["insulation_mm"] - want["insulation_mm"]) > 0.5:
-            problems.append("%s thickness: patches say %.1f, wall_blocks.csv "
-                            "says %.1f" % (host, got["insulation_mm"],
-                                           want["insulation_mm"]))
-        if want["side"] and got["side"] != want["side"]:
-            problems.append("%s side: patches say %r (from face %s), "
-                            "wall_blocks.csv says %r"
-                            % (host, got["side"], "cross_*", want["side"]))
-        # ⚠️ The legacy extent is ABSOLUTE drawing mm; the patch is face-local.
-        # Converting proves the two describe the same stretch of wall, which is
-        # the whole point of the parity build.
-        for label, key in (("from", "extent_from_mm"), ("to", "extent_to_mm")):
-            legacy_value = want["from_mm"] if label == "from" else want["to_mm"]
-            derived_value = got.get(key)
-            if legacy_value is None and derived_value is None:
-                continue
-            if legacy_value is None or derived_value is None:
-                problems.append(
-                    "%s extent %s: patches resolve to %r, wall_blocks.csv says "
-                    "%r - one records a partial band and the other does not"
-                    % (host, label, derived_value, legacy_value))
-                continue
-            if abs(derived_value - legacy_value) > 0.5:
-                problems.append(
-                    "%s extent %s: patches resolve to %.1f, wall_blocks.csv "
-                    "says %.1f" % (host, label, derived_value, legacy_value))
-    return problems
+# ⚠⚠ `check_parity()` IS GONE, 2026-09-17, and so are the four legacy
+# columns it compared against. It existed to prove the patches reproduced
+# `insulation_mm` / `insulation_side` / `insulation_from_mm` /
+# `insulation_to_mm` exactly - which it did, with v0_insulation_placed.json
+# regenerating byte-identical. Keeping both records afterwards would have
+# prolonged the split-brain risk the bridge was built to close, and running it
+# more times would only have proved the compiler is deterministic, which was
+# never in doubt. The seeds are the evidence, and one of them now asserts the
+# retired headers cannot return.
 
 
 def main() -> int:

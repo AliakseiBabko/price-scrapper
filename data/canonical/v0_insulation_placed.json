@@ -6,7 +6,7 @@
  "bands": [
   {
    "wall_id": "M2",
-   "insulation_mm": 120.0,
+   "thickness_mm": 120.0,
    "side": "low",
    "axis": "NS",
    "segment": 0,
@@ -23,7 +23,7 @@
   },
   {
    "wall_id": "M6b",
-   "insulation_mm": 120.0,
+   "thickness_mm": 120.0,
    "side": "high",
    "axis": "NS",
    "segment": 0,
@@ -40,7 +40,7 @@
   },
   {
    "wall_id": "M6b",
-   "insulation_mm": 120.0,
+   "thickness_mm": 120.0,
    "side": "high",
    "axis": "NS",
    "segment": "end_lo",
@@ -60,7 +60,7 @@
   },
   {
    "wall_id": "MA",
-   "insulation_mm": 70.0,
+   "thickness_mm": 70.0,
    "side": "low",
    "axis": "EW",
    "segment": 0,
@@ -80,7 +80,7 @@
   },
   {
    "wall_id": "MA",
-   "insulation_mm": 70.0,
+   "thickness_mm": 70.0,
    "side": "low",
    "axis": "EW",
    "segment": 1,
@@ -100,7 +100,7 @@
   },
   {
    "wall_id": "MB",
-   "insulation_mm": 70.0,
+   "thickness_mm": 70.0,
    "side": "low",
    "axis": "EW",
    "segment": 0,
@@ -121,7 +121,7 @@
   },
   {
    "wall_id": "MB",
-   "insulation_mm": 70.0,
+   "thickness_mm": 70.0,
    "side": "low",
    "axis": "EW",
    "segment": 1,
@@ -142,7 +142,7 @@
   },
   {
    "wall_id": "MB",
-   "insulation_mm": 70.0,
+   "thickness_mm": 70.0,
    "side": "low",
    "axis": "EW",
    "segment": "end_hi",
@@ -164,7 +164,7 @@
   },
   {
    "wall_id": "MC",
-   "insulation_mm": 70.0,
+   "thickness_mm": 70.0,
    "side": "low",
    "axis": "EW",
    "segment": 0,
@@ -183,7 +183,7 @@
   },
   {
    "wall_id": "MC",
-   "insulation_mm": 70.0,
+   "thickness_mm": 70.0,
    "side": "low",
    "axis": "EW",
    "segment": 1,
@@ -202,7 +202,7 @@
   },
   {
    "wall_id": "R8",
-   "insulation_mm": 150.0,
+   "thickness_mm": 150.0,
    "side": "low",
    "axis": "NS",
    "segment": 0,
@@ -220,7 +220,7 @@
   },
   {
    "wall_id": "R8",
-   "insulation_mm": 150.0,
+   "thickness_mm": 150.0,
    "side": "low",
    "axis": "NS",
    "segment": "end_lo",
@@ -241,7 +241,7 @@
   },
   {
    "wall_id": "R9",
-   "insulation_mm": 150.0,
+   "thickness_mm": 150.0,
    "side": "high",
    "axis": "NS",
    "segment": 0,
@@ -258,7 +258,7 @@
   },
   {
    "wall_id": "R9",
-   "insulation_mm": 150.0,
+   "thickness_mm": 150.0,
    "side": "high",
    "axis": "NS",
    "segment": "end_lo",

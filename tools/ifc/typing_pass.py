@@ -59,87 +59,15 @@ def _wall_materials(path=MATERIALS):
 BLOCKS = os.path.join(REPO, "data", "canonical", "wall_blocks.csv")
 
 
-def _wall_insulation(path=BLOCKS):
-    """wall id -> external insulation in mm, from wall_blocks.csv.
-
-    ⚠️ ONE SOURCE. The column was already there; a second copy briefly existed
-    in wall_materials.json on 2026-09-17 and the two disagreed within minutes -
-    150 against 70 for M6b. Read per wall, never inferred from `class`: M2 and
-    M6b are both `loggia_enclosure` and differ, 0 against 70.
-
-    ⚠️ `read_csv` + `finite`, NEVER `DictReader` + `float`. `float("nan")`
-    parses happily and then defeats every comparison it reaches, and a stray or
-    missing cell slides past `DictReader` in silence. AGENTS.md requires the
-    shared helpers for exactly this and I used the raw pair here anyway.
-    """
-    out = {}
-    for row in read_csv(path, required=["wall_id", "insulation_mm"]):
-        raw = (row.get("insulation_mm") or "").strip()
-        if not raw:
-            out[row.get("wall_id")] = 0.0
-            continue
-        value = finite(raw)
-        if value is None or value < 0:
-            raise ValidationError(
-                "wall %s has insulation_mm %r, which is not a usable "
-                "thickness. A non-finite value must FAIL here: it parses, then "
-                "makes every comparison downstream meaningless"
-                % (row.get("wall_id"), raw))
-        out[row.get("wall_id")] = value
-    return out
-
-
-def _insulation_extent(path=BLOCKS):
-    """wall id -> (from_mm, to_mm) for insulation that STOPS PARTWAY.
-
-    ⚠️⚠️ THE DEFECT THIS CLOSES WAS A SPLIT BRAIN, not a missing feature.
-    `wall_blocks.csv` has carried `insulation_from_mm`/`insulation_to_mm` for
-    M2 since the owner supplied them - his лоджия wall is shared with the
-    neighbour's along most of its run and exposed only at the southern end -
-    and `tools/layout/place_insulation.py` has clipped the drawn band to that
-    interval all along. The IFC side read `insulation_mm` ALONE, so the drawing
-    showed 570 mm of insulation while the model asserted a uniform 200+150
-    build-up over the whole wall. Two representations of one wall, disagreeing,
-    each looking complete - which is the exact failure the compiler exists to
-    prevent.
-
-    ⚠️ A LAYER IS UNIFORM BY DEFINITION. `IfcMaterialLayerSet` is a stack of
-    thicknesses through a wall, so it CANNOT express a layer that stops
-    partway. Insulation with a recorded extent is therefore not a layer at all
-    here - it becomes an `IfcCovering` bounded to the interval. See
-    `apply_insulation_coverings`.
-
-    ⚠️⚠️ `finite`, NOT `float`. `float("nan")` PARSES, and a nan extent then
-    survives every downstream comparison because comparisons against it are all
-    false - so a malformed interval would read as a valid band. This reader
-    shipped with the raw pair and `nan..7547.2` was accepted.
-    """
-    out = {}
-    for row in read_csv(path, required=["wall_id", "insulation_from_mm",
-                                        "insulation_to_mm"]):
-        wall = row.get("wall_id")
-        lo_raw = (row.get("insulation_from_mm") or "").strip()
-        hi_raw = (row.get("insulation_to_mm") or "").strip()
-        if not lo_raw and not hi_raw:
-            continue
-        if not lo_raw or not hi_raw:
-            raise ValidationError(
-                "wall %s has half an insulation extent (%r..%r). One end alone "
-                "describes no band, and must not be read as full-length"
-                % (wall, lo_raw, hi_raw))
-        lo, hi = finite(lo_raw), finite(hi_raw)
-        if lo is None or hi is None:
-            raise ValidationError(
-                "wall %s has a non-finite insulation extent %r..%r - it parses "
-                "and then makes every comparison against it false, so the band "
-                "would look valid everywhere" % (wall, lo_raw, hi_raw))
-        if hi <= lo:
-            raise ValidationError(
-                "wall %s has an insulation extent %.1f..%.1f that does not run "
-                "forward - an empty or reversed band is not a band"
-                % (wall, lo, hi))
-        out[wall] = (lo, hi)
-    return out
+# ⚠⚠ THE LEGACY READERS ARE GONE, 2026-09-17. `_wall_insulation` and
+# `_insulation_extent` read `insulation_mm` / `insulation_side` /
+# `insulation_from_mm` / `insulation_to_mm` from wall_blocks.csv, and those
+# columns have been RETIRED. They survived only as the parity half of the
+# cutover bridge, and keeping them longer would have prolonged exactly the
+# split-brain risk the bridge existed to close - repetition proves determinism,
+# not correctness. The parity build and the adversarial seeds are the evidence.
+# `scripts/covering_patches_selftest.py` asserts the retired headers cannot
+# come back.
 
 
 # ⚠️⚠️ THE EXISTING COVERING RECORD IS THE SOURCE OF TRUTH FOR WHAT IS BUILT.
@@ -147,24 +75,16 @@ def _insulation_extent(path=BLOCKS):
 # each with its own value state. The wall-wide columns stated one number per
 # wall and every consumer read them its own way - which is precisely how this
 # file came to assert a uniform 200+150 on M2 while the drawing showed 570 mm.
-# ⚠️ `_wall_insulation` and `_insulation_extent` below are NOT dead: they are
-# the legacy half of the parity bridge, and check_parity() runs them against
-# the patches on every build. They stay strict, and they stay seeded.
 def _covering():
-    """{wall: {insulation_mm, side, extent_from_mm, extent_to_mm}} - BUILT."""
+    """{wall: {thickness_mm, side, extent_from_mm, extent_to_mm}} - BUILT."""
     import sys as _sys
     _sys.path.insert(0, os.path.join(REPO, "tools", "layout"))
     import covering_patches
-    parity = covering_patches.check_parity()
-    if parity:
-        raise ValidationError(
-            "the covering patches and the legacy wall_blocks columns "
-            "disagree, so no build may proceed: %s" % "; ".join(parity))
-    return covering_patches.legacy_equivalent()
+    return covering_patches.resolved_bands()
 
 
 def _covering_thickness():
-    return dict((k, v["insulation_mm"]) for k, v in _covering().items())
+    return dict((k, v["thickness_mm"]) for k, v in _covering().items())
 
 
 def _covering_extent():

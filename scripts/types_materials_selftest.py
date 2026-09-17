@@ -166,8 +166,8 @@ def main() -> int:
     # IFC side read the thickness alone and emitted a uniform 200+150 layer
     # set. The drawing and the model disagreed about one wall, and both looked
     # complete.
-    from typing_pass import _insulation_extent
-    recorded_extents = _insulation_extent()
+    from typing_pass import _covering_extent
+    recorded_extents = _covering_extent()
 
     def extent_wall(m):
         """⚠️ FOUND, never named. A seed pinned to `M2` goes vacuous the moment
@@ -244,83 +244,13 @@ def main() -> int:
     expect("a covering body that has DRIFTED from the drawn band is caught",
            check(model), True, "two views have drifted")
 
-    # ⚠️⚠️ MALFORMED NUMBERS IN THE SOURCE FILE. These drive the REAL readers
-    # over a REAL seeded CSV, because a fixture that cannot mutate an input
-    # leaves that input reading as covered while nothing tests it.
-    # `nan..7547.2` was ACCEPTED by the shipped version: `float("nan")` parses,
-    # and every comparison against the result is false, so a malformed band
-    # looks valid everywhere.
-    import csv as _csv
-    from typing_pass import BLOCKS, _insulation_extent, _wall_insulation
-    from lib.tabular import ValidationError
-
-    def seeded(mutate):
-        rows = list(_csv.DictReader(io.open(BLOCKS, encoding="utf-8")))
-        fields = list(rows[0].keys())
-        for row in rows:
-            if row["wall_id"] == "M2":
-                mutate(row)
-        handle, path = tempfile.mkstemp(suffix=".csv")
-        os.close(handle)
-        with io.open(path, "w", encoding="utf-8", newline="") as fh:
-            writer = _csv.DictWriter(fh, fieldnames=fields)
-            writer.writeheader()
-            writer.writerows(rows)
-        return path
-
-    def refuses(label, mutate, reader):
-        nonlocal failures
-        path = seeded(mutate)
-        try:
-            value = reader(path)
-            print("FAIL %-56s ACCEPTED it: %s" % (label, str(value)[:30]))
-            failures += 1
-        except (ValidationError, ValueError) as exc:
-            print("PASS %-56s %s" % (label, str(exc).strip()[:28]))
-        finally:
-            os.unlink(path)
-
-    def set_extent(lo, hi):
-        def mutate(row):
-            row["insulation_from_mm"] = lo
-            row["insulation_to_mm"] = hi
-        return mutate
-
-    refuses("a nan insulation EXTENT is refused",
-            set_extent("nan", "7547.2"), _insulation_extent)
-    refuses("an inf insulation extent is refused",
-            set_extent("6977.2", "inf"), _insulation_extent)
-    refuses("HALF an extent is refused, not read as full-length",
-            set_extent("6977.2", ""), _insulation_extent)
-    refuses("a REVERSED extent is refused",
-            set_extent("7547.2", "6977.2"), _insulation_extent)
-    refuses("a nan insulation THICKNESS is refused",
-            lambda r: r.__setitem__("insulation_mm", "nan"), _wall_insulation)
-    refuses("a negative insulation thickness is refused",
-            lambda r: r.__setitem__("insulation_mm", "-120"), _wall_insulation)
-
-    # ⚠️ ...and the SHAPE failures DictReader hides: a stray cell it drops, and
-    # a missing one it turns into None.
-    def with_line(extra):
-        raw = io.open(BLOCKS, encoding="utf-8").read().rstrip("\n").split("\n")
-        handle, path = tempfile.mkstemp(suffix=".csv")
-        os.close(handle)
-        io.open(path, "w", encoding="utf-8", newline="").write(
-            "\n".join(raw[:2] + [extra] + raw[2:]) + "\n")
-        return path
-
-    for label, line in (
-            ("a STRAY extra cell is refused", "SEED," * 20 + "SEED"),
-            ("a MISSING cell is refused", "SEED,SEED")):
-        path = with_line(line)
-        try:
-            _insulation_extent(path)
-            print("FAIL %-56s ACCEPTED it" % label)
-            failures += 1
-        except (ValidationError, ValueError) as exc:
-            print("PASS %-56s %s" % (label, str(exc).strip()[:28]))
-        finally:
-            os.unlink(path)
+    # ⚠⚠ THE MALFORMED-NUMBER SEEDS MOVED, 2026-09-17. They drove
+    # `_wall_insulation` and `_insulation_extent` over seeded copies of
+    # wall_blocks.csv - readers that no longer exist, because the four
+    # wall-wide insulation columns are retired. Keeping them would have left
+    # eight seeds passing while testing nothing, which is worse than no seed.
+    # The same protection now lives in scripts/covering_patches_selftest.py,
+    # over wall_covering_patches.csv, which is where the numbers actually are.
 
     # a type of the wrong class
     model = ifcopenshell.open(base)
