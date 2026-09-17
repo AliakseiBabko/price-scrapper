@@ -93,7 +93,10 @@ PROPERTIES = {"existence", "count", "position_along", "vertical", "function",
               # default device dimensions internally - which is exactly how an
               # assumption becomes invisible.
               "extent_along_mm", "extent_vertical_mm", "anchor_mode",
-              "host_interaction"}
+              "host_interaction",
+              # ⚠️ cast-in is not chasing, and the difference decides whether a
+              # concrete host is legitimate at all.
+              "installation_method"}
 
 # Enum properties whose values are closed. An open string here would let
 # `host_interaction` drift into meaninglessness.
@@ -103,6 +106,7 @@ ENUM_VALUES = {
     # void" rule is wrong: SV-VT IS a hole through G4b, and such a rule would
     # eventually reject the one element whose purpose is to be one.
     "host_interaction": {"avoid_void", "creates_penetration", "fills_opening"},
+    "installation_method": {"cast_in", "chased", "surface_mounted"},
 }
 
 # ⚠️ SCOPE IS TYPED, NOT AN APARTMENT ENUMERATION. The first version allowed
