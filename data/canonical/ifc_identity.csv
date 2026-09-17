@@ -1,0 +1,68 @@
+canonical_uuid,key,ifc_class,state,aliases,notes
+be61f6d7-a3b7-448e-a5a5-9685228a8d27,IfcProject:Current apartment (v0 existing),IfcProject,active,,minted 2026-09-17 from the first stable-identity build
+dde05e40-4a2b-41db-808c-9f844aa58715,IfcBuildingElementProxy:Vent shaft V1,IfcBuildingElementProxy,active,,minted 2026-09-17 from the first stable-identity build
+6eadf753-4cde-434e-9806-69f7cc799507,IfcBuildingElementProxy:Vent shaft V2,IfcBuildingElementProxy,active,,minted 2026-09-17 from the first stable-identity build
+433cf048-8622-42db-9498-8fa82326d975,IfcDoor:O8 door,IfcDoor,active,,minted 2026-09-17 from the first stable-identity build
+1c61112e-764c-4d6f-884e-edd7ecc25eda,IfcDoor:O7 door,IfcDoor,active,,minted 2026-09-17 from the first stable-identity build
+ff5c58b6-1a67-4708-9df2-666aba3b7e44,IfcDoor:O1 door,IfcDoor,active,,minted 2026-09-17 from the first stable-identity build
+9fcb7b13-0fe8-4810-82ff-a1c36bc109d9,IfcDoor:O6 door,IfcDoor,active,,minted 2026-09-17 from the first stable-identity build
+5ac9a367-34bc-438b-b109-f39929b03576,IfcDoor:O5 door,IfcDoor,active,,minted 2026-09-17 from the first stable-identity build
+19967303-17ab-4f52-9620-ac6daf58cf98,IfcDoor:O4b door,IfcDoor,active,,minted 2026-09-17 from the first stable-identity build
+20caf8a9-e896-4e9c-860f-6efd466f68cc,IfcMember:O2 frame jamb L,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+2ba20187-89f4-4982-888a-8ee424849a2d,IfcMember:O2 frame jamb R,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+07574762-2908-4e56-a617-ad5860099c00,IfcMember:O2 frame head,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+a042693b-386a-45cb-b19c-ba60d367597f,IfcMember:O2 frame sill,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+91732e55-c9ff-4549-9012-a076bcff7e96,IfcMember:O3 frame jamb L,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+1183a840-9dbb-4c02-8d97-61c81e86fcf0,IfcMember:O3 frame jamb R,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+50681aa4-79a4-46ee-a070-3699679fe9cd,IfcMember:O3 frame head,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+a1ba03ad-8490-4d55-9f1d-cc1178f99861,IfcMember:O3 frame sill,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+6daf7704-0bca-4938-961c-12d37ce3287e,IfcMember:O2 frame mullion_1,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+a4451165-dd7a-463b-82e1-44b9649ce646,IfcMember:O3 frame mullion_1,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+664513c8-c851-4309-9229-f6f836f680ac,IfcMember:O3 frame transom_1,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+15c7909f-c38e-4c04-9e13-62b6de2b0c3e,IfcMember:O4 frame mullion_1,IfcMember,active,,minted 2026-09-17 from the first stable-identity build
+b74b7449-b917-4a3e-b254-24dd3194faa2,IfcPlate:Loggia glazing bay 1,IfcPlate,active,,minted 2026-09-17 from the first stable-identity build
+d902dc8a-b92d-4a73-8a38-8d1863b59d5d,IfcPlate:Loggia glazing bay 2,IfcPlate,active,,minted 2026-09-17 from the first stable-identity build
+ec11da4a-af66-4b16-978b-7ff1900ded66,IfcPlate:Loggia glazing bay 3,IfcPlate,active,,minted 2026-09-17 from the first stable-identity build
+2d1a0eeb-a5fe-4e44-b840-034bd820c59b,IfcPlate:Loggia glazing bay 4,IfcPlate,active,,minted 2026-09-17 from the first stable-identity build
+fa9b577a-9ad9-4c8f-8ec9-c6694c90a3cf,IfcPlate:Loggia glazing mullion 1,IfcPlate,active,,minted 2026-09-17 from the first stable-identity build
+8f17df9b-349e-465b-a66c-af0e8a81ad76,IfcPlate:Loggia glazing mullion 2,IfcPlate,active,,minted 2026-09-17 from the first stable-identity build
+248c8f46-72a2-461e-a7c3-721b3f0d78b1,IfcPlate:Loggia glazing mullion 3,IfcPlate,active,,minted 2026-09-17 from the first stable-identity build
+94e7d06e-fc29-468e-a532-24611c707edc,IfcSlab:Floor slab,IfcSlab,active,,minted 2026-09-17 from the first stable-identity build
+6f3ad7a3-a8a2-4ba7-a765-94f85d57be60,IfcSlab:Ceiling slab,IfcSlab,active,,minted 2026-09-17 from the first stable-identity build
+0a27e715-c6f1-40fa-b08b-0f1f30bb8278,IfcWall:R1a,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+eb4b6971-216f-4a15-be09-e072428cf1bf,IfcWall:R1b,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+87685bf6-8db7-47d4-b008-f0bc1bbbf8f2,IfcWall:R2,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+7e32e624-04ed-4007-b13d-0157f37b7610,IfcWall:R3,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+806b2b4a-ad13-42cd-900a-1accbc31ceab,IfcWall:R4,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+a442198a-eace-4aa2-a584-67dbb13aa827,IfcWall:R5,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+8a6aa7cf-97c9-4fde-8703-2ae357dd6acd,IfcWall:R6,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+49e5a672-1728-4e60-9951-efb3f61acbd9,IfcWall:R7,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+d493d0c6-7670-4c5e-b221-b45e8c3489bc,IfcWall:R8,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+5bbba981-d045-4ec0-907c-808a5e172d9c,IfcWall:R9,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+34ff2d76-f14e-4695-91df-1014fa3a5758,IfcWall:G2,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+7d286b51-2d13-48f8-a7bf-d1dc1364a5eb,IfcWall:G3,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+7ab9ee12-50be-431c-bb44-d7b0715ff555,IfcWall:G4a,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+238e6e98-db44-4368-ad20-6f6c4e24a5a2,IfcWall:G4b,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+20521891-fe9c-4b1d-8c4b-e34eb4291875,IfcWall:G4C,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+e0a61ebd-7ad7-4089-96ba-15c037edf7c2,IfcWall:G4d,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+367df73c-1400-4b0b-a82a-ba0f64c5ae07,IfcWall:G5,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+69986287-f15f-49ff-a0d9-f5c9eec58def,IfcWall:G6,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+94a55322-9677-407b-a336-fce5b09eb9d0,IfcWall:G7,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+da00787a-f0d8-4f5b-a360-b3a41f721cb8,IfcWall:G8,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+62fdba33-43ea-4add-a2d3-e0543c5c0b57,IfcWall:MA,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+4b7c92f2-6f61-4697-b883-f96a61272cee,IfcWall:M2,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+46b61937-5240-470a-a550-358bb6e4e33b,IfcWall:MB,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+2f6e2bc1-77f7-4c9d-b156-da0e0be9c0a4,IfcWall:MC,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+5c7e4fab-3a5b-44a4-af80-a6aefba24837,IfcWall:M6b,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+0858e720-5e8b-433e-8452-b99e955bb88d,IfcWindow:O4a window,IfcWindow,active,,minted 2026-09-17 from the first stable-identity build
+c6a42083-07c4-4ee2-9002-5ab9f9ae6e69,IfcWindow:O2 window,IfcWindow,active,,minted 2026-09-17 from the first stable-identity build
+c63faf16-da49-4cb5-a6bb-8cc1653406ab,IfcWindow:O3 window,IfcWindow,active,,minted 2026-09-17 from the first stable-identity build
+9337aead-9d11-4493-9435-dd5415570cd5,IfcOpeningElement:O8 door,IfcOpeningElement,active,,minted 2026-09-17 from the first stable-identity build
+a64e29ea-d129-467d-8435-29429d95d581,IfcOpeningElement:O7 door,IfcOpeningElement,active,,minted 2026-09-17 from the first stable-identity build
+0691cb28-b0bb-4fc3-83a1-2f806d9ae76d,IfcOpeningElement:O1 door,IfcOpeningElement,active,,minted 2026-09-17 from the first stable-identity build
+465e6632-feaa-4982-ab7a-9de62967ac5a,IfcOpeningElement:O4 opening,IfcOpeningElement,active,,minted 2026-09-17 from the first stable-identity build
+bc87f4e5-b6e0-458d-8c6a-a09edb474157,IfcOpeningElement:O2 window,IfcOpeningElement,active,,minted 2026-09-17 from the first stable-identity build
+73f6c49b-c028-4658-bc45-64b2c269ea5a,IfcOpeningElement:O3 window,IfcOpeningElement,active,,minted 2026-09-17 from the first stable-identity build
+54990e87-0de4-4cfd-b5bc-829411cdf4b4,IfcBuilding:Apartment building,IfcBuilding,active,,minted 2026-09-17 from the first stable-identity build
+94df021b-9877-4ca6-a041-23d1fa23a81a,IfcBuildingStorey:Apartment level,IfcBuildingStorey,active,,minted 2026-09-17 from the first stable-identity build
+2e526073-c770-4cc2-9b22-0947af1c9697,IfcSite:Apartment site,IfcSite,active,,minted 2026-09-17 from the first stable-identity build
