@@ -179,10 +179,39 @@ def main() -> int:
     # monolithic RC frame, so a concrete host is refused BEFORE any geometry -
     # a perfectly placed socket on a concrete column is still not buildable.
     # This is the rule that disproved W6's own R5 host.
+    def method(value):
+        row = says("SEED", "installation_method", value)
+        row["value_type"] = "enum"
+        return row
+
+    # existing + chased into concrete: refused
+    rows = [socket(along_face_mm="200", host_ref="R5", face_ref="cross_lo"),
+            avoid("SEED"), method("chased")]
+    expect("a CHASED accessory on concrete is refused", rows, "SEED", "invalid",
+           "may not be cut into the monolithic RC frame")
+
+    # ⚠️ existing + CAST IN: allowed. This is how the ceiling cable outlets
+    # exist inside the slabs, and a blanket material refusal would reject them.
+    rows = [socket(along_face_mm="200", host_ref="R5", face_ref="cross_lo"),
+            avoid("SEED"), method("cast_in"), says("SEED", "vertical", "300"),
+            says("SEED", "extent_along_mm", "80"),
+            says("SEED", "extent_vertical_mm", "80")]
+    expect("a CAST-IN accessory on concrete is allowed", rows, "SEED", "valid",
+           "clear of every void")
+
+    # ⚠️ existing + method unstated: INCOMPLETE, not invalid - unevidenced is
+    # not the same as impossible, and that distinction is the correction.
     rows = [socket(along_face_mm="200", host_ref="R5", face_ref="cross_lo"),
             avoid("SEED")]
-    expect("a socket hosted on CONCRETE is refused", rows, "SEED", "invalid",
-           "cannot be chased into the monolithic RC frame")
+    expect("concrete with no method is INCOMPLETE, not impossible", rows,
+           "SEED", "incomplete", "UNEVIDENCED")
+
+    # ⚠️ PROPOSED work on concrete: invalid with NO method exception, because a
+    # retrofit cannot cast into concrete that is already poured.
+    rows = [socket(along_face_mm="200", host_ref="R5", face_ref="cross_lo",
+                   phase="proposed"), avoid("SEED"), method("cast_in")]
+    expect("PROPOSED work on concrete is refused even if cast_in", rows,
+           "SEED", "invalid", "already poured")
 
     # ...and the same position on an aerated block is fine, so the seed above
     # is not just rejecting everything.

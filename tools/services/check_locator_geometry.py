@@ -67,6 +67,17 @@ TOUCH_MM = 1.0        # coincidence tolerance for boundary adjacency
 # records as the one that could not be read off photographs at all. A
 # constraint the model carries can refute an assignment without the owner
 # having to notice it again.
+# ⚠️ CORRECTED SAME DAY: cast-in is NOT chasing. The owner - "a constructor is
+# able to include wiring in the concrete while pouring it... this is how it
+# works for the ceiling". So the prohibition is on CUTTING A CAVITY INTO CURED
+# CONCRETE, and `installation_method` is the axis, not the material alone.
+#
+#   phase=proposed + concrete   INVALID, no exception - a retrofit cannot cast
+#                               into concrete that is already poured, and the
+#                               owner's rewire puts every drop in block
+#   phase=existing  + cast_in   allowed; this is how the ceiling points exist
+#   phase=existing  + chased    INVALID
+#   phase=existing  + unstated  INCOMPLETE - not impossible, just unevidenced
 NO_CHASE_CLASSES = ("concrete",)
 MATERIALS = os.path.join(REPO, "data", "canonical", "wall_materials.json")
 
@@ -169,12 +180,31 @@ def check(targets, resolved, opening_verticals, classes=None):
         # concrete column is still not buildable, and saying "valid" about it
         # would be precise about the wrong thing.
         klass = classes.get(host)
+        assertions = _assertions(targets, key)
+        method = (assertions.get("installation_method") or {}).get("value", "")
+        method = (method or "").strip()
+        phase = (row.get("phase") or "").strip()
         if klass in NO_CHASE_CLASSES:
-            results.append((key, "invalid",
-                            "host %s is %s - a cable cannot be chased into the "
-                            "monolithic RC frame, so it cannot host a chased "
-                            "accessory" % (host, klass)))
-            continue
+            if phase == "proposed":
+                results.append((key, "invalid",
+                                "host %s is %s and this is PROPOSED work - a "
+                                "retrofit cannot cast into concrete already "
+                                "poured, and every new drop goes in aerated "
+                                "block" % (host, klass)))
+                continue
+            if method == "chased":
+                results.append((key, "invalid",
+                                "host %s is %s and the accessory is chased - a "
+                                "cavity may not be cut into the monolithic RC "
+                                "frame" % (host, klass)))
+                continue
+            if method != "cast_in":
+                results.append((key, "incomplete",
+                                "host %s is %s and no installation_method is "
+                                "asserted - cast-in is possible but "
+                                "UNEVIDENCED here, and chasing is prohibited"
+                                % (host, klass)))
+                continue
         if klass is None:
             results.append((key, "incomplete",
                             "host %s has no material class in "
@@ -204,7 +234,6 @@ def check(targets, resolved, opening_verticals, classes=None):
                                 % (anchor, host)))
                 continue
 
-        assertions = _assertions(targets, key)
         along = _number(assertions.get("position_along"))
         if along is None:
             along_text = (row.get("along_face_mm") or "").strip()
