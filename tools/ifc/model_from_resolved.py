@@ -44,6 +44,7 @@ import argparse
 import csv
 import json
 import math
+import os
 import re
 import sys
 from pathlib import Path
@@ -747,14 +748,31 @@ def build(output: Path, manifest_path: Path) -> dict:
 
     manifest["assumptions"].extend(assumed)
 
+    # ⚠️ TYPES AND MATERIALS, BEFORE IDENTITY so the new type entities get
+    # canonical identities too. It emits REAL IfcRelDefinesByType, not just an
+    # ObjectType label, and associates only materials we actually know - no
+    # invented layer build-up.
+    from typing_pass import apply_types  # noqa: E402
+    manifest["typing"] = apply_types(model)
+
     # ⚠️⚠️ STABLE IDENTITY, APPLIED LAST. Until 2026-09-17 every rebuild minted
     # a fresh GlobalId for the same wall, because `root.create_entity` and the
     # api helpers mint randomly. This rewrites EVERY IfcRoot - products,
     # property sets and relationships alike - from the committed canonical
     # registry, so the issued model can carry a durable annotation or diff.
+    # ⚠️ `--no-identity` exists ONLY to break the chicken-and-egg when new
+    # elements appear: mint their identities from that build, commit the
+    # registry, then build normally. A model written this way has RANDOM
+    # GlobalIds and must never be issued.
     from identity import apply_identities  # noqa: E402
-    identity_manifest = apply_identities(
-        model, lambda e: "%s:%s" % (e.is_a(), e.Name or ""))
+    if os.environ.get("IFC_SKIP_IDENTITY") == "1":
+        identity_manifest = []
+        manifest["identity_SKIPPED"] = (
+            "⚠️ built with IFC_SKIP_IDENTITY=1 - GlobalIds are RANDOM. "
+            "For minting only; never issue this file.")
+    else:
+        identity_manifest = apply_identities(
+            model, lambda e: "%s:%s" % (e.is_a(), e.Name or ""))
     manifest["identity"] = {
         "entries": len(identity_manifest),
         "registry": "data/canonical/ifc_identity.csv",

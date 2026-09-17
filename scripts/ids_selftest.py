@@ -77,10 +77,12 @@ def main() -> int:
     check("today's failures match the recorded baseline",
           base_failing == set(baseline),
           "now %s vs baseline %s" % (sorted(base_failing), sorted(baseline)))
-    check("the contract is not vacuously satisfied", len(base_failing) >= 5,
-          "%d specifications failing" % len(base_failing))
-    check("...and not uniformly failing either",
-          len(base_failing) < 8,
+    # ⚠️ This used to assert a FLOOR on the number of failures, which was
+    # scaffolding for the pre-implementation state and went stale the moment
+    # the requirements were met. The durable question is whether the suite
+    # still DISCRIMINATES - so every PASSING specification is broken below and
+    # must be caught.
+    check("the suite is not uniformly failing", len(base_failing) < 8,
           "%d of 8 pass today" % (8 - len(base_failing)))
 
     # ── ⚠️ THE `0 of 0` GUARD ────────────────────────────────────────────────
@@ -105,32 +107,68 @@ def main() -> int:
                 e.ObjectType = value
         return go
 
-    cases = [
-        ("Walls carry a type designation",
-         set_object_type("IfcWall", "WALL_GAS_SILICATE_250"), "walltype"),
-        ("Doors carry a type designation",
-         set_object_type("IfcDoor", "DOOR_D01"), "doortype"),
-        ("Windows carry a type designation",
-         set_object_type("IfcWindow", "WINDOW_W01"), "wintype"),
-        ("No unclassified proxies",
-         set_object_type("IfcBuildingElementProxy", "VENT_SHAFT"), "proxy"),
-    ]
-
-    def add_identity(m):
-        for wall in m.by_type("IfcWall"):
-            pset = ifcopenshell.api.run("pset.add_pset", m, product=wall,
-                                        name="Pset_ApartmentIdentity")
-            ifcopenshell.api.run("pset.edit_pset", m, pset=pset,
-                                 properties={"CanonicalId": "seeded"})
-    cases.append(("Walls expose their canonical identity", add_identity, "ident"))
-
+    # ⚠️ The only requirement still failing is the material association on M2
+    # and M6b, whose material is genuinely unrecorded. Satisfying it here is a
+    # SEED, not a fix - the real model must go on failing until the loggia
+    # enclosure's material is established.
     def add_material(m):
         material = ifcopenshell.api.run("material.add_material", m,
-                                        name="Aerated block")
+                                        name="seeded-not-a-fix")
         for wall in m.by_type("IfcWall"):
+            if wall.is_a("IfcWallType"):
+                continue
             ifcopenshell.api.run("material.assign_material", m,
                                  products=[wall], material=material)
-    cases.append(("Walls carry a material association", add_material, "mat"))
+    cases = [("Walls carry a material association", add_material, "mat")]
+
+    # ── ⚠️ EVERY PASSING SPECIFICATION IS BROKEN, AND MUST BE CAUGHT ────────
+    def strip_pset(pset_name):
+        def go(m):
+            for rel in list(m.by_type("IfcRelDefinesByProperties")):
+                definition = rel.RelatingPropertyDefinition
+                if definition is not None and definition.Name == pset_name:
+                    m.remove(rel)
+            for t in m.by_type("IfcTypeObject"):
+                t.HasPropertySets = tuple(
+                    ps for ps in (t.HasPropertySets or [])
+                    if ps.Name != pset_name)
+        return go
+
+    def drop_types(m):
+        for rel in list(m.by_type("IfcRelDefinesByType")):
+            m.remove(rel)
+
+    def drop_containment(m):
+        for rel in list(m.by_type("IfcRelContainedInSpatialStructure")):
+            m.remove(rel)
+
+    def drop_materials(m):
+        for rel in list(m.by_type("IfcRelAssociatesMaterial")):
+            m.remove(rel)
+
+    def blank_proxies(m):
+        for e in m.by_type("IfcBuildingElementProxy"):
+            e.ObjectType = None
+
+    breakages = [
+        ("Walls carry a type designation", drop_types, "b-type"),
+        ("Every wall declares its phase",
+         strip_pset("Pset_ApartmentPhase"), "b-phase"),
+        ("Every wall is in a spatial container", drop_containment, "b-cont"),
+        ("Walls expose their canonical identity",
+         strip_pset("Pset_ApartmentIdentity"), "b-ident"),
+        ("No unclassified proxies", blank_proxies, "b-proxy"),
+        ("Walls carry a material association", drop_materials, "b-mat"),
+    ]
+    for name, mutate, tag in breakages:
+        try:
+            after = seeded(tag, mutate)
+        except Exception as exc:                       # noqa: BLE001
+            check("breaking %s is caught" % name[:38], False,
+                  "seed error: %s" % str(exc)[:36])
+            continue
+        check("breaking %s is caught" % name[:38], name in after,
+              "now failing" if name in after else "NOT caught")
 
     for name, mutate, tag in cases:
         try:

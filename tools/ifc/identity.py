@@ -163,10 +163,31 @@ def apply_identities(model, key_for, path=REGISTRY, strict=True):
         assigned[entity.id()] = value
         manifest.append((key, entity.is_a(), entity.GlobalId))
 
+    # ⚠️ EXPOSE THE CANONICAL UUID. The GlobalId derives from it, and writing
+    # it into the file makes that derivation auditable from the file alone
+    # rather than only from the registry beside it.
+    import ifcopenshell.api
+    for entity_id, value in list(assigned.items()):
+        entity = model.by_id(entity_id)
+        if not entity.is_a("IfcObject") and not entity.is_a("IfcTypeObject"):
+            continue
+        pset = ifcopenshell.api.run("pset.add_pset", model, product=entity,
+                                    name="Pset_ApartmentIdentity")
+        ifcopenshell.api.run("pset.edit_pset", model, pset=pset,
+                             properties={"CanonicalId": str(value)})
+
     # ⚠️ PROPERTY SETS ARE DERIVED, from their owner plus their name - a
     # registry row for them would be a second source of truth for something
     # that has no independent existence.
     owners = {}
+    # ⚠️ A TYPE's property sets hang off `HasPropertySets` directly - there is
+    # no IfcRelDefinesByProperties for them - so a relationship-only lookup
+    # left every type pset ownerless.
+    for type_object in model.by_type("IfcTypeObject"):
+        if type_object.id() not in assigned:
+            continue
+        for pset in (type_object.HasPropertySets or []):
+            owners.setdefault(pset.id(), []).append(assigned[type_object.id()])
     for rel in model.by_type("IfcRelDefinesByProperties"):
         definition = getattr(rel, "RelatingPropertyDefinition", None)
         if definition is None:

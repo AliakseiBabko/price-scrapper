@@ -8,7 +8,7 @@
         <purpose>Exchange requirement contract for the generated apartment model</purpose>
     </info>
     <specifications>
-        <specification name="Walls carry a type designation" ifcVersion="IFC4" instructions="Schedules group by type. An instance does not carry its type's name, so without a type designation there is nothing to group on.">
+        <specification name="Walls carry a type designation" ifcVersion="IFC4" instructions="Schedules group by type. ⚠️ This requires a property carried BY THE TYPE and inherited, NOT `ObjectType` - a label would be satisfied with no IfcRelDefinesByType behind it. The relationship itself is asserted in check_types_and_materials.py.">
             <applicability minOccurs="0" maxOccurs="unbounded">
                 <entity>
                     <name>
@@ -17,11 +17,14 @@
                 </entity>
             </applicability>
             <requirements>
-                <attribute cardinality="required">
-                    <name>
-                        <simpleValue>ObjectType</simpleValue>
-                    </name>
-                </attribute>
+                <property dataType="IFCLABEL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_ApartmentType</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>TypeKey</simpleValue>
+                    </baseName>
+                </property>
             </requirements>
         </specification>
         <specification name="Walls carry a material association" ifcVersion="IFC4" instructions="Layer build-up and material quantities come from the material association on the type.">
@@ -45,11 +48,14 @@
                 </entity>
             </applicability>
             <requirements>
-                <attribute cardinality="required">
-                    <name>
-                        <simpleValue>ObjectType</simpleValue>
-                    </name>
-                </attribute>
+                <property dataType="IFCLABEL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_ApartmentType</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>TypeKey</simpleValue>
+                    </baseName>
+                </property>
             </requirements>
         </specification>
         <specification name="Windows carry a type designation" ifcVersion="IFC4" instructions="Window schedule grouping.">
@@ -61,11 +67,14 @@
                 </entity>
             </applicability>
             <requirements>
-                <attribute cardinality="required">
-                    <name>
-                        <simpleValue>ObjectType</simpleValue>
-                    </name>
-                </attribute>
+                <property dataType="IFCLABEL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_ApartmentType</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>TypeKey</simpleValue>
+                    </baseName>
+                </property>
             </requirements>
         </specification>
         <specification name="Every wall declares its phase" ifcVersion="IFC4" instructions="existing / demolished / new. A rewire makes this load-bearing; an element with no phase cannot be filtered into any issued view.">
