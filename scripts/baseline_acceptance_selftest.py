@@ -144,10 +144,24 @@ def main() -> int:
     # VARIANT SPEC, not the DXF, and today that spec is a retired schematic -
     # 18 walls against 25, no shafts, a rectangular loggia. An acceptance that
     # unblocked a sheet built from it would be worse than no acceptance.
-    ok, reasons = decision_bearing(accepted)
+    # ⚠⚠ THE RETIRED SPEC IS INJECTED, NOT BORROWED. This seed asserted that
+    # the REAL v0 spec was retired - and it was, until the compiler-backed
+    # rebuild on 2026-09-17 fixed exactly that. The seed then failed while the
+    # repair was correct. A guard must carry its own defect.
+    retired_path = os.path.join(live_dir, "retired.json")
+    io.open(retired_path, "w", encoding="utf-8").write(
+        _json.dumps({"_retired": "seeded", "walls": []}))
+    RETIRED = (os.path.relpath(retired_path, REPO),)
+    ok, reasons = decision_bearing(accepted, RETIRED)
     check("a RETIRED variant spec keeps the baseline provisional",
           (not ok) and any("RETIRED" in r for r in reasons),
           [r for r in reasons if "RETIRED" in r][:1] or reasons[:1])
+
+    # ⚠ ...and the REAL spec is no longer one, which is the repair recorded
+    real_specs_ok, real_reasons = decision_bearing(accepted, VARIANT_SPECS)
+    check("the real v0 spec is no longer retired",
+          not any("RETIRED" in r for r in real_reasons),
+          [r for r in real_reasons if "RETIRED" in r][:1] or "compiled")
 
     check("...and the spec it checks is the one the comparison loads",
           VARIANT_SPECS == ("data/outputs/variants/v0-existing/spec.json",),
