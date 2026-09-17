@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=xXmvs0PK_Bg",
+  "video_id": "xXmvs0PK_Bg",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T20:01:07.583324+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "b79ecdaae5a6bcfde7a2e60ef7e35f09351ded7e1d025b3cde0747c1f5131d4a",
+  "attempts_before_success": []
+}
