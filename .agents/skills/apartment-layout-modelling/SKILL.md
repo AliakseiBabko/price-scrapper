@@ -177,12 +177,35 @@ from scratch, not recovered from that experiment.
 Every layout option shares one **structural shell** and differs only in
 partitions:
 
-- `data/canonical/current_apartment_shell.json` — 14 walls, 250–484 mm, the
-  façade openings, and the immovable services as `constraints`. Never edited by
-  a layout option.
-- `data/variants/v1-homestyler.json` — the owner's design: 36 partitions added
-  to the shell, with its room schedule attached. **The owner's first
-  approximation of the wanted layout — layout only, no finishes.**
+> [!CAUTION]
+> **⚠️⚠️ REWRITTEN 2026-09-17. THE TWO FILES THIS SECTION NAMED ARE BOTH RETIRED.**
+> Following the text below as it stood would put a new agent straight back into
+> the architecture that produced the retired-schematic defect.
+
+- **THE SHELL IS COMPILED, NOT AUTHORED.** `tools/layout/build_variant_spec.py`
+  emits `data/outputs/variants/v0-existing/spec.json` — schema **v2**, 25 walls,
+  both ventilation shafts, real **polygons** — directly from
+  `resolve_v0_geometry.resolve()`. ⚠️ `data/canonical/current_apartment_shell.json`
+  (14 walls) and `current_apartment_base.json` are **RETIRED**; nothing may cite
+  them as a `base_spec`.
+- **A wall is structural — and therefore untouchable by a layout option — by its
+  CLASS**, not by a thickness threshold: `concrete`, `external`,
+  `loggia_enclosure`. ⚠️ The old 200 mm heuristic is gone; it was never a
+  structural survey.
+- ⚠️⚠️ **`data/variants/v1-homestyler.json` IS `reference_only` AND IS NOT A
+  BUILDABLE VARIANT.** It is a freehand Homestyler sketch drawn over the same
+  constructor raster `v0` came from, **before any model existed** — the owner:
+  *"just my experiment… no exact dimensions, just general ideas."* Its
+  coordinates are a second reading of the base plan, never a measurement.
+  `tools/layout/check_variant_basis.py` refuses it **permanently**, and that
+  refusal is the correct end state, not a blocker.
+- **Its ideas survive as `data/canonical/design_intents.csv`** — role swap,
+  laundry, two-sided storage block, kitchen/living separability. Cite the
+  intent; never import a coordinate.
+- **Two variants may only be differenced when they share the compiler-published
+  `frame` AND the `shell_signature`.** `check_variant_basis.py` decides that,
+  and computes **retained / demolished / new** as a RELATION to the baseline —
+  never from a `phase` label carried in a file.
 
 That split is why an option is a short list of walls rather than a whole
 building, and why the invariants cannot be edited by accident. The 200 mm
@@ -253,7 +276,8 @@ A variant is a **patch** on the shell, not a copy. Write
   "schema_version": "0.1.0",
   "variant_id": "v3-example",
   "name": "Вариант 3 — ...",
-  "base_spec": "data/canonical/current_apartment_shell.json",
+  "base_spec": null,
+  "_base_spec_note": "COMPILED from v0-existing/spec.json - never a hand-authored shell",
   "status": "draft",
   "concept": "one sentence saying what idea this option is testing",
   "cites_rules": ["kitchen.open_to_living_for_flow"],
@@ -329,16 +353,19 @@ Full detail: `00_Master/How_To_View_Outputs.md`.
 
 ## Known-open items
 
-- **v0, the developer's own layout, has no geometry yet — but the route changed
-  on 2026-09-08 and both routes named here before are now wrong.** ⚠️ The
-  Homestyler-DXF-of-the-original route is **dead**: only the redesign was ever
-  traced, so no such export exists. ⚠️ The hand-reconstruction-from-dimension-
-  strings fallback is **no longer necessary**. ✅ **A vector edition of the
-  developer's detailed plan exists** — `_Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf`,
-  tested and confirmed to be the same drawing in the same handedness — so v0 is
-  an **extraction** job, not a tracing job. Read it with
-  `tools/layout/parse_vector_plan.py`; the test and its limits are in
-  `00_Master/Vector_Plan_Identity_Test.md`.
+- ✅ **v0 GEOMETRY IS DONE AND GATED.** The claim below that it "has no
+  geometry" was true until 2026-09-10 and is now the most misleading sentence
+  that was in this file. `data/cad/dxf/v0_developer_layout.dxf` passes
+  `check_dxf_closure.py` and `raster_fidelity.py`, and the compiled spec passes
+  `variant_basis_selftest.py`. ⚠️ **What is still open is the OWNER'S REVIEW of
+  it** — `data/canonical/v0_baseline_acceptance.json` is `pending_owner_review`,
+  and `check_baseline_acceptance.py` recomputes the artefact hashes on every run
+  so nothing downstream can treat it as decision-bearing until he accepts.
+- ⚠️ **`V1`'s footprint is unestablished** and is its own acceptance scope. The
+  basic-plan reading does not reconcile; it needs re-measurement. Any question
+  turning on V1's **clearance** is blocked regardless of the overall acceptance
+  state. `V2` is **421 × 685** on this 4th floor — the 400 × 1140 figure is the
+  floors-10-and-up sub-type and must not be used.
 - **Room areas and perimeters are solved.** Homestyler writes them into the DWG
   on layer `P-Comment Text` as `Kids Room S:15.28m² C:18.43m`. Extract with
   `tools/cad/extract_room_labels.py` — 10 rooms, 69.48 m². Those numbers are
