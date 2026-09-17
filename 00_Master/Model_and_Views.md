@@ -355,3 +355,20 @@ Commands in [How_To_View_Outputs.md](How_To_View_Outputs.md).
 **What does transfer is the narrower warning**: the connectivity layer is where practitioners report Bonsai misbehaving. Modelling runs as geometry while keeping circuit membership as authored data — rather than relying on port semantics — takes the benefits and avoids the reported failure.
 
 ⚠️ **Standing rule 3 caveat:** Дубровин sells 3D design as a service, and offers no measured comparison against 2D practice. The benefits are specific and plausible; they are not independently verified.
+
+### ⚠️⚠️ The method, in order — and the step we have never done
+
+Алексей Дубровин's four method videos (`wbUm7i-nHHk` +3) give the sequence: **survey → primary 3D model → furniture → services**. Шемчук states the same order independently.
+
+**The survey list is the part we lack.** He records walls, openings, **floor level changes**, ⚠️ **wall composition** (*«состав стен — там, где несущие бетонные»*), existing penetrations, riser and stack positions, the developer's original heating runs — and locates ⚠️⚠️ **in-screed heating pipes by THERMAL IMAGING**, marking turns and tees.
+
+> **→ ⚠️⚠️ WE HAVE NEVER DONE THIS.** `photo_positions.csv` holds one photograph of our unit and it is an exterior elevation. `project_decisions.md` records horizontal heating distribution with heat meters already installed — **and we do not know where those pipes run.** Thermal imaging is a directly applicable technique, not a general recommendation.
+
+**Two design findings that settle open questions:**
+
+1. ⚠️ **The circuit list is authored INPUT, not derived geometry** — *«состав групповых линий — это то, что задаёт, как электрика будет проходить по дому»*. A circuit carries designation, description, breaker rating, cable cross-section, RCD/RCBO and phase. The count of lighting circuits is governed by **inrush**, not steady load: an LED driver trips a breaker that the running current would never reach. **No geometry produces that**, which is why the list precedes the tracing.
+2. ⚠️ **The board gets TWO views of one thing** — a single-line schematic and a physical DIN-rail layout at real module sizes — and the layout **deliberately omits** the outgoing line cables, labelling them instead. A precedent for our own view model, including the principle that a view may legitimately drop detail.
+
+**Routing method is chosen from wall material and the ceiling build-up plan**, which is this project's substrate rule and the owner's ceiling-distribution topology reached independently.
+
+⚠️ Open questions arising: `_Inbox/planning/mep_3d_open_questions_20260917.md`. The highest-value unknown is **how a chase is represented so its length is selectable** — Дубровин reads *«67 с лишним метров»* off the model, and chase length is priced LABOUR.

@@ -1,0 +1,14 @@
+{
+  "url": "wbUm7i-nHHk",
+  "video_id": "wbUm7i-nHHk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T00:00:00+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "1595fe43dfbde7db672471387e0fe20208bfa61c193c7880a168e6ec2f5ec238",
+  "attempts_before_success": [],
+  "upload_date": "2024-12-27",
+  "upload_date_source": "yt-dlp --print upload_date, run 2026-09-17",
+  "upload_date_corrected_from": "2024-01-29"
+}
