@@ -57,6 +57,19 @@ def load(variant_id):
 def basis_problems(a, b):
     """Why these two specs may NOT be differenced. Empty means they may."""
     problems = []
+    # ⚠⚠ A REFERENCE-ONLY SPEC IS NEVER A COMPARISON OPERAND, and this is
+    # a PERMANENT state rather than a blocker to clear. v1 is a freehand sketch
+    # made in Homestyler over the same constructor raster v0 came from, before
+    # any model existed - the owner's own description. Rebasing it would have
+    # manufactured precision that was never in the source.
+    for spec in (a, b):
+        if (spec.get("status") or "") == "reference_only":
+            problems.append(
+                "%s is REFERENCE ONLY - a design-intent source, not a measured "
+                "variant. Its ideas are carried in "
+                "data/canonical/design_intents.csv; its coordinates are not "
+                "evidence and may not be differenced against anything"
+                % spec.get("spec_id", "?"))
     for spec in (a, b):
         vid = spec.get("spec_id", "?")
         if "_retired" in spec:

@@ -1,5 +1,30 @@
 # Layout Option Review — v0 against v1, read against the closest comparable
 
+> [!CAUTION]
+> **⚠️⚠️ SUPERSEDED IN ITS PREMISE, 2026-09-17. `v1` IS NOT AN ALTERNATIVE TO `v0`.**
+>
+> The owner, in his own words: *"Homestyler is just for reference… this was just my experiment.
+> I didn't have any model, now I have a model. No direct, no exact dimensions, just general ideas."*
+>
+> **`v1` was drawn in Homestyler over the SAME constructor raster that `v0` came from, before any
+> model existed.** Its coordinates are therefore a second freehand reading of the base plan, not an
+> independent measurement — which is why this page's every `v0`↔`v1` delta was withdrawn on
+> 2026-09-04 for mixing bases, and why the deeper reason is now clear: **there never were two bases,
+> only one base read twice.**
+>
+> **So the plan to "rebase v1 onto the resolved shell" was misconceived** — it treated a sketch as a
+> survey, and registering it would have manufactured precision that was never in the source. `v1` is
+> reclassified `reference_only`, `tools/layout/check_variant_basis.py` refuses it permanently, and
+> **that refusal is the correct end state, not a blocker to clear.**
+>
+> **What survives is everything that never depended on a dimension**, and it is now carried as
+> structured intent in `data/canonical/design_intents.csv`: the role swap, the laundry room, the
+> two-sided storage block, the kitchen/living separability requirement, no bunk beds.
+>
+> **What comes next is not a comparison.** It is a new layout authored directly against the resolved
+> shell from those intents — one geometric lineage, compiled, with no second reading of anything.
+
+
 **Written 2026-09-03/04, after processing `Phk79uKT7rA` — a 2020 renovation of a ~70 m² flat for a family of four that the owner identified as very close to this project.** This page is a *judgment* review. The generated numeric comparison is `tools/layout/compare_variants.py`; the mechanism for carrying options is `00_Master/Options_And_Versions.md`. Nothing here re-derives a dimension — every figure is quoted from `data/canonical/room_schedules.json` or `data/cad/room_labels.json`.
 
 > [!IMPORTANT]
