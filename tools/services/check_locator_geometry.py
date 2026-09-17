@@ -44,6 +44,8 @@ wall"* are different relationships. The anchor check is BOUNDARY ADJACENCY.
 from __future__ import annotations
 
 import argparse
+import io
+import json
 import os
 import sys
 
@@ -54,6 +56,29 @@ sys.path.insert(0, os.path.join(REPO, "tools", "services"))
 from check_target_schema import load as load_targets   # noqa: E402
 
 TOUCH_MM = 1.0        # coincidence tolerance for boundary adjacency
+
+# ⚠️ A CABLE CANNOT BE CHASED INTO CONCRETE (owner, 2026-09-17). Significant
+# cavities may not be cut into the monolithic RC frame, so no chased accessory
+# is hosted on a `concrete` wall. This is the electrical twin of
+# A_PIPE_CANNOT_CROSS_CONCRETE_2026_09_07, and it has the same standing: it
+# DISPROVES a placement, it never proves an element exists.
+#
+# It matters because wall assignment is the axis `WALL_MAPPING_WAS_WRONG_TWICE`
+# records as the one that could not be read off photographs at all. A
+# constraint the model carries can refute an assignment without the owner
+# having to notice it again.
+NO_CHASE_CLASSES = ("concrete",)
+MATERIALS = os.path.join(REPO, "data", "canonical", "wall_materials.json")
+
+
+def wall_classes(path=MATERIALS):
+    """wall id -> material class, from canonical data, never hardcoded here."""
+    with io.open(path, encoding="utf-8") as fh:
+        data = json.load(fh)
+    out = {}
+    for wall in data.get("walls", []):
+        out[wall.get("id")] = wall.get("class")
+    return out
 
 
 def geometry():
@@ -93,8 +118,10 @@ def _number(assertion):
         return None
 
 
-def check(targets, resolved, opening_verticals):
+def check(targets, resolved, opening_verticals, classes=None):
     """[(migration_key, verdict, message)] - one row per occurrence."""
+    if classes is None:
+        classes = wall_classes()
     results = []
     faces = resolved.faces
     openings = resolved.openings
@@ -138,6 +165,23 @@ def check(targets, resolved, opening_verticals):
                             % (face_ref, host,
                                ", ".join(sorted(faces[host])))))
             continue
+        # ⚠️ SUBSTRATE, BEFORE ANY GEOMETRY. A perfectly placed socket on a
+        # concrete column is still not buildable, and saying "valid" about it
+        # would be precise about the wrong thing.
+        klass = classes.get(host)
+        if klass in NO_CHASE_CLASSES:
+            results.append((key, "invalid",
+                            "host %s is %s - a cable cannot be chased into the "
+                            "monolithic RC frame, so it cannot host a chased "
+                            "accessory" % (host, klass)))
+            continue
+        if klass is None:
+            results.append((key, "incomplete",
+                            "host %s has no material class in "
+                            "wall_materials.json, so the substrate rule cannot "
+                            "be applied - not assumed chase-able" % host))
+            continue
+
         face = faces[host][face_ref]
         length = face["length_mm"]
 

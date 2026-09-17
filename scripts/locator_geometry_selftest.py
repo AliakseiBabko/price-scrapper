@@ -24,9 +24,14 @@ sys.path.insert(0, os.path.join(REPO, "tools", "services"))
 from check_locator_geometry import check, geometry          # noqa: E402
 from check_target_schema import load as load_targets        # noqa: E402
 
-# O3 is a window in MC. Along MC's `cross_lo` (which runs x 9380.9 -> 12946.0)
-# its void spans 855.0 - 2655.0, and its verticals are sill 266, head 2251.
-O3_LO, O3_HI = 855.0, 2655.0
+# ⚠️ THE VOID SEEDS USE O8 IN G2, NOT O3 IN MC, AND THE REASON IS A FINDING.
+# `MC` has NO material class in wall_materials.json, so the substrate rule now
+# (correctly) returns INCOMPLETE for it before any geometry runs - which would
+# have masked every void seed. Six model walls are unclassified: MA, MB, MC,
+# G4C, R1a, R1b. G2 is aerated block and O8 spans 500.1-1510.0 well inside its
+# 2220.6 mm face, so the geometry axis can be tested without holding the
+# substrate axis constant by hand.
+O8_LO, O8_HI = 500.1, 1510.0
 
 
 def main() -> int:
@@ -56,10 +61,10 @@ def main() -> int:
             failures += 1
 
     def socket(**kw):
-        """A wall_face occurrence on MC, the wall that hosts O3."""
+        """A wall_face occurrence on G2, the block wall that hosts O8."""
         row = {"migration_key": "SEED", "target_concept": "occurrence",
                "service_kind": "socket", "phase": "existing",
-               "locator_kind": "wall_face", "host_ref": "MC",
+               "locator_kind": "wall_face", "host_ref": "G2",
                "face_ref": "cross_lo", "along_face_mm": "", "vertical_mm": "",
                "support_ref": "", "surface_role": "", "u_mm": "", "v_mm": "",
                "normal_offset_mm": "", "space_ref": "", "anchor_ref": "",
@@ -84,34 +89,39 @@ def main() -> int:
 
     # ── 0 ─ THE REAL RECORDS, THROUGH THE REAL LOADER ────────────────────────
     live = verdicts(targets)
-    if live.get("OCC-W6", ("", ""))[0] == "partial":
-        print("PASS %-50s %-11s %s" % ("the real slice loads and W6 is partial",
-                                       "PARTIAL", "via check_target_schema.load()"))
+    # ⚠️ W6 is `unlocated`, NOT `partial`, since 2026-09-17: the wiring-
+    # substrate rule disproved its R5 host, so the record no longer names a
+    # wall at all. Its anchor on O10 survives, and the principle that a null
+    # `host_wall` must not cause rejection is seeded below on G6, the only
+    # aerated-block jamb at that opening.
+    if live.get("OCC-W6", ("", ""))[0] == "unlocated":
+        print("PASS %-50s %-11s %s" % ("the real slice loads; W6 host disproven",
+                                       "UNLOCATED", "via check_target_schema.load()"))
     else:
         print("FAIL the real slice: W6 is %r" % (live.get("OCC-W6"),))
         failures += 1
 
     # ── 1 ─ centre INSIDE O3 ─────────────────────────────────────────────────
-    centre = (O3_LO + O3_HI) / 2.0
+    centre = (O8_LO + O8_HI) / 2.0
     rows = [socket(along_face_mm=str(centre), vertical_mm="1000"),
             avoid("SEED"), says("SEED", "vertical", "1000")]
-    expect("a terminal centred inside O3", rows, "SEED", "invalid",
-           "INSIDE the void of O3")
+    expect("a terminal centred inside O8", rows, "SEED", "invalid",
+           "INSIDE the void of O8")
 
-    # ── 2 ─ centre CLEAR but the asserted extent crosses O3 ──────────────────
+    # ── 2 ─ centre CLEAR but the asserted extent crosses O8 ──────────────────
     # 80 mm clear of the jamb, with a 300 mm device: the centre is fine and the
     # envelope is not. This is the seed the whole three-state verdict exists
     # for, and a centre-only validator passes it.
-    rows = [socket(along_face_mm=str(O3_LO - 80.0), vertical_mm="1000"),
+    rows = [socket(along_face_mm=str(O8_LO - 80.0), vertical_mm="1000"),
             avoid("SEED"),
             says("SEED", "vertical", "1000"),
             says("SEED", "extent_along_mm", "300"),
             says("SEED", "extent_vertical_mm", "80")]
-    expect("centre clear but EXTENT crosses O3", rows, "SEED", "invalid",
-           "CROSSES the void of O3")
+    expect("centre clear but EXTENT crosses O8", rows, "SEED", "invalid",
+           "CROSSES the void of O8")
 
     # ── 3 ─ the same position with the extent UNKNOWN ────────────────────────
-    rows = [socket(along_face_mm=str(O3_LO - 80.0), vertical_mm="1000"),
+    rows = [socket(along_face_mm=str(O8_LO - 80.0), vertical_mm="1000"),
             avoid("SEED"), says("SEED", "vertical", "1000"),
             says("SEED", "extent_along_mm", "", "unknown"),
             says("SEED", "extent_vertical_mm", "", "unknown")]
@@ -119,7 +129,7 @@ def main() -> int:
            "incomplete", "NOT proven valid")
 
     # ── 4 ─ a valid terminal immediately outside the void ────────────────────
-    rows = [socket(along_face_mm=str(O3_LO - 400.0), vertical_mm="1000"),
+    rows = [socket(along_face_mm=str(O8_LO - 400.0), vertical_mm="1000"),
             avoid("SEED"), says("SEED", "vertical", "1000"),
             says("SEED", "extent_along_mm", "300"),
             says("SEED", "extent_vertical_mm", "80")]
@@ -145,18 +155,49 @@ def main() -> int:
     # "hosted by another wall" - that would collapse "mounted beside an
     # opening" into "mounted on the opening's host wall", which are different
     # relationships.
-    w6 = [r for r in targets if r.get("migration_key") == "OCC-W6"]
-    expect("O10 host_wall=None, R5 adjacent -> W6 stays partial",
-           w6 + [r for r in targets
-                 if r.get("subject_key") == "OCC-W6"],
-           "OCC-W6", "partial", "not a defect")
+    # O10 has host_wall=None and G6's cross_hi is coincident with its southern
+    # edge. A service anchored to O10 and hosted on G6 must NOT be rejected:
+    # "mounted beside an opening" is not "mounted on the opening's host wall",
+    # and requiring host_wall==host_ref would reject every opening that spans
+    # between elements.
+    rows = [socket(along_face_mm="1500", host_ref="G6", face_ref="cross_hi",
+                   anchor_ref="O10"), avoid("SEED"),
+            says("SEED", "vertical", "900"),
+            says("SEED", "extent_along_mm", "80"),
+            says("SEED", "extent_vertical_mm", "80")]
+    expect("anchor to an opening with host_wall=None is accepted", rows, "SEED",
+           "valid", "clear of every void")
 
-    # ...and the anchor is genuinely checked: an anchor that touches nothing
-    # must still be rejected, or seed 7 would be passing vacuously.
-    rows = [socket(along_face_mm="500", anchor_ref="O3", host_ref="R5"),
-            avoid("SEED")]
+    # ...and the anchor is genuinely checked, or the seed above passes
+    # vacuously: an anchor that touches nothing must still be rejected.
+    rows = [socket(along_face_mm="500", anchor_ref="O3", host_ref="G6",
+                   face_ref="cross_hi"), avoid("SEED")]
     expect("an anchor that does not touch the host", rows, "SEED", "invalid",
            "does not touch")
+
+    # ── 7b ─ ⚠️ THE SUBSTRATE RULE. A cable cannot be chased into the
+    # monolithic RC frame, so a concrete host is refused BEFORE any geometry -
+    # a perfectly placed socket on a concrete column is still not buildable.
+    # This is the rule that disproved W6's own R5 host.
+    rows = [socket(along_face_mm="200", host_ref="R5", face_ref="cross_lo"),
+            avoid("SEED")]
+    expect("a socket hosted on CONCRETE is refused", rows, "SEED", "invalid",
+           "cannot be chased into the monolithic RC frame")
+
+    # ...and the same position on an aerated block is fine, so the seed above
+    # is not just rejecting everything.
+    rows = [socket(along_face_mm="200", host_ref="G7", face_ref="cross_lo"),
+            avoid("SEED"), says("SEED", "vertical", "300"),
+            says("SEED", "extent_along_mm", "80"),
+            says("SEED", "extent_vertical_mm", "80")]
+    expect("the same socket on aerated block is valid", rows, "SEED", "valid",
+           "clear of every void")
+
+    # ⚠️ ...and an UNKNOWN material is not assumed chase-able.
+    rows = [socket(along_face_mm="200", host_ref="MC", face_ref="cross_lo"),
+            avoid("SEED")]
+    expect("an unclassified host is INCOMPLETE, not assumed chase-able", rows,
+           "SEED", "incomplete", "not assumed chase-able")
 
     # ── 8 ─ surface_local reports UNAVAILABLE, and unknown kinds FAIL ────────
     rows = [socket(locator_kind="surface_local", host_ref="", face_ref="",
