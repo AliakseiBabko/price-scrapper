@@ -74,10 +74,14 @@ dea7b386-9078-42ee-b423-4274a98cffa1,IfcDoorType:DOOR_776x2235,IfcDoorType,activ
 2578b440-de6c-455c-9db4-b10a567a5cbd,IfcWallType:WALL_AERATED_BLOCK_250,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
 15be7d0a-1d04-4766-ae9b-fcf07bbd8b54,IfcWallType:WALL_AERATED_BLOCK_120,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
 0735b5f9-6351-49af-b411-2e4a6ddf9df6,IfcWallType:WALL_AERATED_BLOCK_75,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
-7b5f3ee5-982b-455b-b14b-89896af00f74,IfcWallType:WALL_AERATED_BLOCK_300,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+7b5f3ee5-982b-455b-b14b-89896af00f74,IfcWallType:WALL_AERATED_BLOCK_300,IfcWallType,retired,,retired 2026-09-17: no longer produced. The uuid stays so it is never reused. minted 2026-09-17 from the first stable-identity build
 c0452bf3-11bb-44ff-9145-892233871357,IfcWallType:WALL_UNKNOWNMATERIAL_200,IfcWallType,retired,,retired 2026-09-17: no longer produced. The uuid stays so it is never reused. minted 2026-09-17 from the first stable-identity build
 f4eec290-7b02-40c6-9131-009f751f105c,IfcWindowType:WINDOW_604x735x2235,IfcWindowType,active,,minted 2026-09-17 from the first stable-identity build
 ec918f79-4b38-4b34-b8e3-e9d84928fdbc,IfcWindowType:WINDOW_1660xUNMEASUREDxUNMEASURED,IfcWindowType,active,,minted 2026-09-17 from the first stable-identity build
 7d194863-effc-44db-82ca-20ee5b2bbcbd,IfcWall:A_NW_CORNER,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
-e27a144d-2bcd-4cfe-8bc6-fe6ff41ac139,IfcWallType:WALL_AERATED_BLOCK_200,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+e27a144d-2bcd-4cfe-8bc6-fe6ff41ac139,IfcWallType:WALL_AERATED_BLOCK_200,IfcWallType,retired,,retired 2026-09-17: no longer produced. The uuid stays so it is never reused. minted 2026-09-17 from the first stable-identity build
 e9f7a5db-4a1e-439d-820e-d29e85ca5f25,IfcWallType:WALL_REINFORCED_CONCRETE_UNMEASURED,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+56637e3f-ef3b-4c95-9b10-30d274a22830,IfcWallType:WALL_REINFORCED_CONCRETE_250_INS150,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+cb9d36b8-1010-48fd-b94d-874abf8ff49b,IfcWallType:WALL_AERATED_BLOCK_300_INS70,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+4572c662-d359-45c1-9cd1-df2704a8b7c0,IfcWallType:WALL_AERATED_BLOCK_200_INS70,IfcWallType,retired,,retired 2026-09-17: no longer produced. The uuid stays so it is never reused. minted 2026-09-17 from the first stable-identity build
+17dbc948-0d3b-493e-9a55-16cebcba1892,IfcWallType:WALL_AERATED_BLOCK_200_INS150,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build

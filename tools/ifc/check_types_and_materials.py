@@ -104,15 +104,97 @@ def check(model, material_unknown=None):
                 "NOT recorded anywhere - an invented material is worse than an "
                 "absent one" % wall.Name)
 
-    # ⚠️ NO INVENTED BUILD-UP, until the joint reconciliation is done.
-    layer_sets = model.by_type("IfcMaterialLayerSet")
-    if layer_sets:
-        problems.append(
-            "%d IfcMaterialLayerSet present. Multi-layer sets may not be "
-            "emitted until canonical corner ownership is reconciled into IFC "
-            "connection geometry and priorities - and no layer may be invented"
-            % len(layer_sets))
+    # ⚠️⚠️ LAYER SETS ARE NOW PERMITTED - and every layer must be RECORDED.
+    # The rule did not become "anything goes": it became "no layer may be
+    # invented". Each set is checked against wall_materials.json, so a render
+    # layer nobody measured, or a thickness nobody stated, still fails.
+    recorded = _recorded_walls()
+    thicknesses = _recorded_thicknesses()
+    insulations = _recorded_insulation()
+    for wall in model.by_type("IfcWall"):
+        if wall.is_a("IfcWallType"):
+            continue
+        material = ue.get_material(wall)
+        layers = getattr(material, "MaterialLayers", None) if material else None
+        if not layers:
+            continue                      # single-material or unlayered
+        record = recorded.get(wall.Name, {})
+        # ⚠️ THICKNESS COMES FROM wall_blocks.csv, which is where it is
+        # authoritative. Reading it from wall_materials.json silently SKIPPED
+        # every wall that file does not carry a thickness for - most of the
+        # R-series - so a wrong substrate thickness went unchecked there.
+        want_substrate = thicknesses.get(wall.Name, record.get("thickness_mm"))
+        want_insulation = insulations.get(wall.Name) or 0
+        substrate = [l for l in layers if (l.Name or "") == "substrate"]
+        insulation = [l for l in layers if (l.Name or "") == "external insulation"]
+        if len(layers) != len(substrate) + len(insulation):
+            problems.append(
+                "IfcWall %r has a layer named neither `substrate` nor "
+                "`external insulation` - no layer may be invented" % wall.Name)
+        if want_substrate is not None and substrate:
+            got = round(substrate[0].LayerThickness * 1000.0)
+            if abs(got - float(want_substrate)) > 0.5:
+                problems.append(
+                    "IfcWall %r substrate layer is %d mm, wall_materials.json "
+                    "records %s" % (wall.Name, got, want_substrate))
+        if want_insulation and not insulation:
+            problems.append("IfcWall %r records %s mm insulation but carries "
+                            "no insulation layer" % (wall.Name, want_insulation))
+        if insulation and not want_insulation:
+            problems.append(
+                "IfcWall %r carries an insulation layer, but "
+                "wall_materials.json records none - M2 has NO insulation and "
+                "M6b has 70; inferring it from the class conflated them"
+                % wall.Name)
+        if insulation and want_insulation:
+            got = round(insulation[0].LayerThickness * 1000.0)
+            if abs(got - float(want_insulation)) > 0.5:
+                problems.append(
+                    "IfcWall %r insulation layer is %d mm, recorded %s"
+                    % (wall.Name, got, want_insulation))
     return problems
+
+
+def _recorded_thicknesses():
+    """wall id -> solid thickness in mm, from wall_blocks.csv."""
+    import csv as _csv
+    import io as _io
+    path = os.path.join(REPO, "data", "canonical", "wall_blocks.csv")
+    out = {}
+    with _io.open(path, encoding="utf-8") as fh:
+        for row in _csv.DictReader(fh):
+            # ⚠️ `thickness_mm` ONLY. `solid_mm` and `clear_mm` are LENGTHS -
+            # solid_mm is clear_mm plus the corners a wall owns - and reading
+            # them here compared a 250 mm thickness against a 1925 mm length.
+            raw = (row.get("thickness_mm") or "").strip()
+            if raw:
+                try:
+                    out[row.get("wall_id")] = float(raw)
+                except ValueError:
+                    pass
+    return out
+
+
+def _recorded_insulation():
+    """wall id -> insulation mm, from wall_blocks.csv - the ONE source."""
+    import csv as _csv
+    import io as _io
+    path = os.path.join(REPO, "data", "canonical", "wall_blocks.csv")
+    out = {}
+    with _io.open(path, encoding="utf-8") as fh:
+        for row in _csv.DictReader(fh):
+            raw = (row.get("insulation_mm") or "").strip()
+            out[row.get("wall_id")] = float(raw) if raw else 0.0
+    return out
+
+
+def _recorded_walls():
+    import io as _io
+    import json as _json
+    path = os.path.join(REPO, "data", "canonical", "wall_materials.json")
+    with _io.open(path, encoding="utf-8") as fh:
+        data = _json.load(fh)
+    return dict((w.get("id"), w) for w in data.get("walls", []))
 
 
 def main() -> int:

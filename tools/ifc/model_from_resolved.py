@@ -784,17 +784,19 @@ def build(output: Path, manifest_path: Path) -> dict:
         manifest.setdefault("assemblies", []).append(
             {"id": assembly["id"], "replaces": assembly["members"]})
 
-    # ⚠️ WALL CONNECTIONS, compiled from wall_corners.csv - never a second
-    # corner solver. Before identity, so the new relationships get derived ids.
-    from connections_pass import apply_connections  # noqa: E402
-    manifest["connections"] = apply_connections(model, resolved)
-
     # ⚠️ TYPES AND MATERIALS, BEFORE IDENTITY so the new type entities get
     # canonical identities too. It emits REAL IfcRelDefinesByType, not just an
     # ObjectType label, and associates only materials we actually know - no
     # invented layer build-up.
     from typing_pass import apply_types  # noqa: E402
     manifest["typing"] = apply_types(model)
+
+    # ⚠️ WALL CONNECTIONS, compiled from wall_corners.csv - never a second
+    # corner solver. ⚠️ AFTER typing, because the connection PRIORITIES index
+    # the material layers the typing pass creates; running first gave every
+    # connection an empty priority list and looked fine.
+    from connections_pass import apply_connections  # noqa: E402
+    manifest["connections"] = apply_connections(model, resolved)
 
     # ⚠️⚠️ STABLE IDENTITY, APPLIED LAST. Until 2026-09-17 every rebuild minted
     # a fresh GlobalId for the same wall, because `root.create_entity` and the

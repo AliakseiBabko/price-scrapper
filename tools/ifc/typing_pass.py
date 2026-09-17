@@ -47,6 +47,35 @@ def _wall_materials(path=MATERIALS):
     return dict((w.get("id"), w.get("material")) for w in data.get("walls", []))
 
 
+BLOCKS = os.path.join(REPO, "data", "canonical", "wall_blocks.csv")
+
+
+def _wall_insulation(path=BLOCKS):
+    """wall id -> external insulation in mm, from wall_blocks.csv.
+
+    ⚠️ ONE SOURCE. The column was already there; a second copy briefly existed
+    in wall_materials.json on 2026-09-17 and the two disagreed within minutes -
+    150 against 70 for M6b. Read per wall, never inferred from `class`: M2 and
+    M6b are both `loggia_enclosure` and differ, 0 against 70.
+    """
+    import csv
+    out = {}
+    with io.open(path, encoding="utf-8") as fh:
+        for row in csv.DictReader(fh):
+            raw = (row.get("insulation_mm") or "").strip()
+            out[row.get("wall_id")] = float(raw) if raw else 0.0
+    return out
+
+
+# ⚠️ STRUCTURE PROTRUDES INSULATION at a junction, which is the practitioner's
+# own worked example (structure 50, insulation 30, finish 10). These are the
+# layer-set defaults; a CONNECTION may override them, and does - compiled from
+# wall_corners.csv so the ledger's ownership decision wins.
+PRIORITY_SUBSTRATE = 50
+PRIORITY_INSULATION = 30
+INSULATION_MATERIAL = "mineral wool"
+
+
 def _round(value):
     """A dimension rounded to whole millimetres, or None."""
     if value is None:
@@ -87,8 +116,13 @@ def type_key(product, materials):
         thickness = _round(psets.get("Pset_ApartmentPhase", {}).get("ThicknessMM"))
         # ⚠️ `UNKNOWN` is stated, not guessed. M2 and M6b genuinely have no
         # recorded material and must not be given one to make a gate pass.
-        return "WALL_%s_%s" % ((material or "UNKNOWNMATERIAL").upper(),
+        insulation = _wall_insulation().get(product.Name) or 0
+        # ⚠️ INSULATION IS PART OF THE KEY. M2 and M6b are both 200 mm aerated
+        # block and differ only in insulation - 0 against 70 - so without it
+        # they would share a type and one build-up would silently win.
+        stem = "WALL_%s_%s" % ((material or "UNKNOWNMATERIAL").upper(),
                                thickness if thickness is not None else "UNMEASURED")
+        return stem + ("_INS%d" % insulation if insulation else "")
     width, sill, head = _opening_size(product)
     stem = "DOOR" if cls == "IfcDoor" else "WINDOW"
     parts = [str(width) if width is not None else "UNMEASURED"]
@@ -102,6 +136,7 @@ def apply_types(model):
     """Create types, assign them, and associate known materials. Returns stats."""
     materials = _wall_materials()
     made_types, assigned, associated, no_material = {}, 0, 0, []
+    unlayered = []
     material_entities = {}
 
     for cls, type_cls in TYPE_CLASS.items():
@@ -139,10 +174,35 @@ def apply_types(model):
 
     # ⚠️ MATERIAL ON THE TYPE, not the instance: a type carries material and
     # the instances inherit it, which is the schema's own arrangement.
+    # ⚠️⚠️ AND NOW AS A LAYER SET, because the build-ups are recorded: the
+    # owner confirmed 200 + 70 for M6b on 2026-09-17, and the warm perimeter is
+    # 300 + 70. NO RENDER LAYER IS INVENTED - the owner named two values and
+    # those are the two layers.
+    def layers_for(key):
+        """(material, substrate_mm, insulation_mm) from a wall type key.
+
+        ⚠️ The material name may itself contain underscores -
+        `REINFORCED_CONCRETE` - so it is taken as everything BETWEEN the
+        `WALL_` prefix and the trailing thickness. The first version used
+        `key.split("_")[1]` and silently named the material "reinforced".
+        """
+        parts = key.split("_INS")
+        insulation = int(parts[1]) if len(parts) > 1 else 0
+        stem = parts[0]
+        assert stem.startswith("WALL_")
+        body = stem[len("WALL_"):]
+        name, _sep, thickness = body.rpartition("_")
+        try:
+            substrate_mm = float(thickness)
+        except ValueError:
+            # an unmeasured thickness: the material is still known
+            return name, None, insulation
+        return name, substrate_mm, insulation
+
     for key, entity in made_types.items():
         if not key.startswith("WALL_"):
             continue                      # door/window materials are unknown
-        name = key.split("_")[1]
+        name, substrate_mm, insulation_mm = layers_for(key)
         if name == "UNKNOWNMATERIAL":
             no_material.append(key)
             continue                      # ⚠️ associate NOTHING rather than guess
@@ -151,11 +211,41 @@ def apply_types(model):
             material = ifcopenshell.api.run("material.add_material", model,
                                             name=name.lower())
             material_entities[name] = material
+
+        # ⚠️ AN L-SHAPED CASTING HAS NO SINGLE THICKNESS. A_NW_CORNER is one
+        # monolithic pour whose two legs differ, so a LAYER SET - which is a
+        # stack of uniform thicknesses through a wall - does not describe it.
+        # It gets the honest single-material association instead.
+        if substrate_mm is None:
+            ifcopenshell.api.run("material.assign_material", model,
+                                 products=[entity], material=material)
+            associated += 1
+            unlayered.append(key)
+            continue
+
+        layer_set = model.create_entity("IfcMaterialLayerSet",
+                                        LayerSetName=key)
+        layers = [model.create_entity(
+            "IfcMaterialLayer", Material=material,
+            LayerThickness=substrate_mm / 1000.0, Name="substrate",
+            Priority=PRIORITY_SUBSTRATE)]
+        if insulation_mm:
+            insulation = material_entities.get(INSULATION_MATERIAL)
+            if insulation is None:
+                insulation = ifcopenshell.api.run(
+                    "material.add_material", model, name=INSULATION_MATERIAL)
+                material_entities[INSULATION_MATERIAL] = insulation
+            layers.append(model.create_entity(
+                "IfcMaterialLayer", Material=insulation,
+                LayerThickness=insulation_mm / 1000.0, Name="external insulation",
+                Priority=PRIORITY_INSULATION))
+        layer_set.MaterialLayers = layers
         ifcopenshell.api.run("material.assign_material", model,
-                             products=[entity], material=material)
+                             products=[entity], material=layer_set)
         associated += 1
 
     return {"types": len(made_types), "assigned": assigned,
             "materials_associated": associated,
+            "single_material_no_layer_set": sorted(unlayered),
             "types_without_material": sorted(no_material),
             "type_names": sorted(made_types)}

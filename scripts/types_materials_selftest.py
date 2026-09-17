@@ -82,13 +82,56 @@ def main() -> int:
     expect("an instance-attached designation is caught", check(model), True,
            "DIRECTLY")
 
-    # ⚠️ AN INVENTED BUILD-UP must be refused until the joint work is done.
+    # ⚠️⚠️ LAYER SETS ARE NOW EMITTED, so the rule is no longer "none allowed"
+    # but "no layer invented". These seed the ways a layer could be fiction.
+    import ifcopenshell.util.element as ue
+
+    def layered_wall(m, name=None):
+        for w in m.by_type("IfcWall"):
+            if w.is_a("IfcWallType"):
+                continue
+            if name and w.Name != name:
+                continue
+            mat = ue.get_material(w)
+            if getattr(mat, "MaterialLayers", None):
+                return w, mat
+        raise SystemExit("no layered wall found")
+
+    # a render layer nobody measured
     model = ifcopenshell.open(base)
-    layer_set = model.create_entity("IfcMaterialLayerSet",
-                                    LayerSetName="INVENTED")
-    expect("an IfcMaterialLayerSet is refused for now", check(model), True,
-           "may not be emitted until")
-    model.remove(layer_set)
+    wall, mat = layered_wall(model)
+    render = model.create_entity("IfcMaterial", Name="render")
+    mat.MaterialLayers = list(mat.MaterialLayers) + [model.create_entity(
+        "IfcMaterialLayer", Material=render, LayerThickness=0.02,
+        Name="render", Priority=10)]
+    expect("an INVENTED render layer is caught", check(model), True,
+           "no layer may be invented")
+
+    # a substrate thickness that is not the recorded one
+    model = ifcopenshell.open(base)
+    wall, mat = layered_wall(model)
+    mat.MaterialLayers[0].LayerThickness = 0.999
+    expect("a substrate thickness that is not recorded is caught",
+           check(model), True, "wall_materials.json records")
+
+    # ⚠️ insulation on a wall recorded as having NONE - the M2/M6b conflation.
+    # ⚠️ It FINDS such a wall rather than naming one: this seed named M2, and
+    # M2's insulation changed twice in a day. A seed pinned to a wall id goes
+    # vacuous the moment that wall's record moves.
+    from check_types_and_materials import _recorded_insulation
+    recorded_ins = _recorded_insulation()
+    model = ifcopenshell.open(base)
+    m2 = next(w for w in model.by_type("IfcWall")
+              if not w.is_a("IfcWallType")
+              and not recorded_ins.get(w.Name)
+              and getattr(ue.get_material(w), "MaterialLayers", None))
+    mat = ue.get_material(m2)
+    wool = model.create_entity("IfcMaterial", Name="mineral wool")
+    mat.MaterialLayers = list(mat.MaterialLayers) + [model.create_entity(
+        "IfcMaterialLayer", Material=wool, LayerThickness=0.07,
+        Name="external insulation", Priority=30)]
+    expect("insulation on a wall recorded as having NONE is caught",
+           check(model), True, "records none")
 
     # ⚠️ AN INVENTED MATERIAL on a wall whose material is unrecorded. Making a
     # gate pass by guessing is the failure this whole pass exists to avoid.

@@ -51,6 +51,30 @@ JUNCTION_KINDS = {"L", "owner_directed"}
 NON_JUNCTION_KINDS = {"continuous_casting"}
 
 
+# ⚠️ Two bands, far apart, so the OWNER always protrudes whatever the walls
+# are made of. Within a band the relative order of a wall's own layers is kept,
+# so structure still protrudes its own insulation.
+RUNNER_BAND = 60
+STOPPER_BAND = 20
+
+
+def _priorities(model, wall, band):
+    """One priority per material layer of `wall`, in the ledger's band.
+
+    ⚠️ Returns [] when the wall has no layer set - a priority indexes a layer,
+    so there is nothing to index. That is the honest answer for the L-shaped
+    casting, which has no uniform build-up.
+    """
+    import ifcopenshell.util.element as ue
+    material = ue.get_material(wall)
+    layers = getattr(material, "MaterialLayers", None) if material else None
+    if not layers:
+        return []
+    # keep each wall's own layer order; the band decides who wins the junction
+    return [band + (5 if (layer.Name or "") == "substrate" else 0)
+            for layer in layers]
+
+
 def load_corners(path=CORNERS):
     with io.open(path, encoding="utf-8") as fh:
         return list(csv.DictReader(fh))
@@ -123,11 +147,17 @@ def apply_connections(model, resolved):
             RelatedElement=walls[runner],
             RelatingConnectionType=_touching_end(faces, stopper, runner),
             RelatedConnectionType="ATPATH",
-            # ⚠️ Priorities stay EMPTY: they are per material layer, and this
-            # model has no layer sets by design. Step 5 fills them from the
-            # same ledger rather than from a second decision.
-            RelatingPriorities=[],
-            RelatedPriorities=[],
+            # ⚠️⚠️ PRIORITIES COMPILED FROM THE LEDGER, NOT DECIDED HERE.
+            # IFC resolves a junction by letting the HIGHER priority protrude.
+            # wall_corners.csv already decided who runs through, so the owner's
+            # layers are given the higher band and the stopper's the lower.
+            # The ledger's decision therefore SURVIVES into IFC rather than
+            # being re-derived from thickness or material - which would be the
+            # second corner solver this whole step exists to prevent.
+            # IfcRelConnectsPathElements priorities OVERRIDE the general layer
+            # priorities for this connection, which is exactly what is wanted.
+            RelatingPriorities=_priorities(model, walls[stopper], STOPPER_BAND),
+            RelatedPriorities=_priorities(model, walls[runner], RUNNER_BAND),
         )
         made.append((row["corner_id"], stopper, runner,
                      connection.RelatingConnectionType))

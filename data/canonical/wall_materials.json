@@ -87,7 +87,6 @@
       "where": "middle room left wall, лоджия end - the flat/лоджия boundary",
       "confirmed_by": "owner",
       "note": "!! The plan draws INSULATION cross-hatch on its лоджия face - so it is part of the warm perimeter even though it is a frame element.",
-      "insulation_mm": 150,
       "insulation_source": "OWNER marked RED 2026-09-04 - thermal-bridge treatment on exposed concrete",
       "material": "reinforced_concrete"
     },
@@ -97,7 +96,6 @@
       "element": "monolithic RC frame",
       "where": "middle room right wall, window end",
       "confirmed_by": "owner",
-      "insulation_mm": 150,
       "insulation_source": "OWNER marked RED 2026-09-04 - thermal-bridge treatment on exposed concrete",
       "material": "reinforced_concrete"
     },
@@ -194,7 +192,6 @@
       "id": "M1",
       "class": "external_warm_perimeter",
       "thickness_mm": 300,
-      "insulation_mm": 70,
       "where": "between the 9.36 room and the ЛОДЖИЯ",
       "thickness_source": "OWNER STATED - 'external wall with all the insulation'",
       "note": "!! Carries the лоджия door/window unit. This is the thermal boundary, not the лоджия's own glazing.",
@@ -208,7 +205,6 @@
       "where": "between THIS лоджия and the NEIGHBOUR'S лоджия",
       "thickness_source": "OWNER - 200 aerated block, NO insulation",
       "note": "!! COLD-TO-COLD: both loggias are unheated, so this wall has NO insulation duty. It is an acoustic and privacy element only.",
-      "insulation_mm": 0,
       "insulation_source": "OWNER - explicitly none; faces another unheated лоджия",
       "material_basis": "⚠ CORRECTED 2026-09-17. I had recorded this as «material deliberately unset», which was STALE: this file's own owner rule 4 states plainly «M2 is 200 mm aerated block with NO insulation - the divider to the adjacent лоджия». The uninsulated part is what is unusual, not the material. M2 and M6b were treated as one unknown because they share class `loggia_enclosure`; they are not one unknown.",
       "material": "aerated_block"
@@ -217,7 +213,6 @@
       "id": "M3",
       "class": "external_warm_perimeter",
       "thickness_mm": 300,
-      "insulation_mm": 70,
       "where": "living room bottom wall, left of the window",
       "thickness_source": "inferred from the uniform warm-perimeter rule",
       "material": "aerated_block",
@@ -227,7 +222,6 @@
       "id": "M4",
       "class": "external_warm_perimeter",
       "thickness_mm": 300,
-      "insulation_mm": 70,
       "where": "living room bottom wall, right of the window",
       "thickness_source": "inferred from the uniform warm-perimeter rule",
       "material": "aerated_block",
@@ -237,7 +231,6 @@
       "id": "M5",
       "class": "external_warm_perimeter",
       "thickness_mm": 300,
-      "insulation_mm": 70,
       "where": "bottom wall beside the middle room's window",
       "thickness_source": "inferred from the uniform warm-perimeter rule",
       "material": "aerated_block",
@@ -247,7 +240,6 @@
       "id": "M6a",
       "class": "external_warm_perimeter",
       "thickness_mm": 300,
-      "insulation_mm": 70,
       "where": "the apartment's own bottom wall segment, left of the middle room's window",
       "thickness_source": "OWNER STATED - 'M6a is external wall, means full thickness of 300 millimeters'",
       "note": "!! CORRECTS his earlier estimate of ~100 mm for this segment.",
@@ -261,9 +253,8 @@
       "where": "the ЛОДЖИЯ's own wall, running down its right side",
       "thickness_source": "PROVISIONAL - owner first said 120, then revised: 'actually it looks thicker. It looks like 200 millimeters. I have another plan, I will show you later.'",
       "note": "Outside the warm perimeter - no insulation duty.",
-      "insulation_mm": 70,
       "insulation_source": "OWNER marked BLUE 2026-09-04",
-      "material_basis": "⚠ RESOLVED 2026-09-17 BY THE OWNER, who stated the substrate directly: M6b is AERATED CONCRETE. That is testimony about THIS flat, which §3.0f of the services design records as the one basis that can establish a fact here - no comparable-flat photograph or general rule was going to settle it. Previously unset because the 300+70 general rule lists M1, M3, M4, M5, M6a and M7 and deliberately NOT M6b, and no reviewed source named the substrate. ⚠ BUILD-UP, as it now stands: 200 mm aerated block (CONFIRMED 2026-09-17 from a further drawing) + 70 mm external insulation + render. ⚠ THE RENDER THICKNESS IS STILL UNSTATED anywhere, so a layer set would have to invent one - the substrate and the thickness are settled, the assembly is not.",
+      "material_basis": "⚠ RESOLVED 2026-09-17 BY THE OWNER, who stated the substrate directly: M6b is AERATED CONCRETE. That is testimony about THIS flat, which §3.0f of the services design records as the one basis that can establish a fact here - no comparable-flat photograph or general rule was going to settle it. Previously unset because the 300+70 general rule lists M1, M3, M4, M5, M6a and M7 and deliberately NOT M6b, and no reviewed source named the substrate. ⚠ BUILD-UP: 200 mm aerated block (substrate and thickness both CONFIRMED by the owner) + external insulation carried at 150 as an ACCEPTED ESTIMATE, not a measurement. ⚠ I WRONGLY RECORDED 70 AS HIS FIGURE on 2026-09-17: he said «200 plus insulation» and I supplied the 70 from this file's warm-perimeter rule. He has since said he has no clear measurement and to accept 150. The number lives in wall_blocks.csv, which is the one source for it.",
       "material": "aerated_block",
       "thickness_basis": "CONFIRMED 2026-09-17 by the owner from a further drawing: 200 mm, no longer provisional. It had been carried as «~200 provisional» since the wall model was built."
     },
@@ -271,7 +262,6 @@
       "id": "M7",
       "class": "external_warm_perimeter",
       "thickness_mm": 300,
-      "insulation_mm": 70,
       "where": "short pier between the лоджия door unit and R8",
       "thickness_source": "OWNER STATED - 'part of external wall, big external wall with the same thickness, just a very short segment'",
       "note": "!! Was initially read as internal block (G9) and reclassified. It is UNCOLOURED on the owner's markup, which is why colour detection missed it entirely.",
@@ -1242,5 +1232,11 @@
     "what_this_makes_generatable": "!! The new layout is to be DERIVED from appliance and fixture placement, not drawn by hand: the owner will give the actual positions of the electric stove, the lighting fixtures and the rest, and the schema follows from them plus this topology. That is a generator with a real input, which is the first time the electrical layout has had one.",
     "the_constraint_it_creates": "Every drop must land on an aerated-block wall. Where a required position has no block wall - the living-room switch at O10 is the live example, whose only block jamb is G6 - the topology decides the answer, not a preference.",
     "COST_CONSEQUENCE_and_it_contradicts_an_earlier_caution": "!! project_decisions.md records that the handover includes «electrics + fibre, sockets and switches» already fitted and priced into the flat, and warns that moving a socket wall throws away work already paid for. A full rewire discards that work DELIBERATELY. That is the owner's decision to make and he has made it - but it should be costed as a known write-off rather than discovered later."
+  },
+  "EXTERNAL_INSULATION_IS_PER_WALL_2026_09_17": {
+    "where_it_lives": "!! wall_blocks.csv, column `insulation_mm`. It was ALREADY THERE. I briefly added a second copy to this file on 2026-09-17 and had to remove it - two sources for one number is the split-brain this project keeps guarding against, and the two copies disagreed within minutes.",
+    "why_per_wall": "!! Not derived from `class`. M2 and M6b are both `loggia_enclosure` and differ - M2 none, M6b 70 - which is exactly how they were conflated into one 'unknown' for weeks.",
+    "the_150_is_retired": "!! WITHDRAWN. I recorded the 150 as 'retired by the owner' on the strength of a 70 he never said. He has no clear measurement; 150 stands as HIS ACCEPTED ESTIMATE from a photo that cannot settle a dimension. M2 remains an open contradiction between this file's rule 4 and wall_blocks.csv.",
+    "render": "!! NO RENDER LAYER IS MODELLED. Owner: «I already named the values - 200 mm and 70 mm. That's all you need to know.»"
   }
 }
