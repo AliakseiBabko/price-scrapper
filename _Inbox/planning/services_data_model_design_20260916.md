@@ -3,6 +3,8 @@
 > [!IMPORTANT]
 > **STATUS, 2026-09-17.** Source inventory and bidirectional citation coverage are **complete** (114 locators, 0 unresolved, 102/102 cited). **Target semantic review, identity relations, readiness and canonical cutover are not.** The schema is still **NOT approved for generation**, and no UUID has been minted.
 >
+> **⚠️ The phase and route-state vocabularies here are NORMATIVE and are now ENFORCED.** `phase` is `existing` / `demolished` / `new`; `route_state` is `topology_only` / `design_intent` / `construction_approved` / `as_built`. The validators had drifted to `proposed` and to a three-state `topology_only`/`routed`/`as_built`, which let `phase=new` on concrete pass the retrofit rule and collapsed the distinction between intended, approved and installed. Corrected 2026-09-17.
+>
 > **The implemented vocabulary is `_Inbox/migration/draft/README.md`, which `tools/services/check_target_schema.py` enforces.** Where this document and that file disagree about a field or a vocabulary, **the README is the implemented one** — this page records the reasoning, and reasoning drifts from code faster than code drifts from itself.
 
 

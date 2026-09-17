@@ -83,6 +83,11 @@ def main() -> int:
                 "scope_phase": "existing", "disputed_with": "",
                 "source_locators": "legacy_generator:SOCK:S1", "notes": ""}
 
+    def method(value):
+        row = says("SEED", "installation_method", value)
+        row["value_type"] = "enum"
+        return row
+
     def avoid(subject):
         row = says(subject, "host_interaction", "avoid_void")
         row["value_type"] = "enum"
@@ -130,12 +135,78 @@ def main() -> int:
            "incomplete", "NOT proven valid")
 
     # ── 4 ─ a valid terminal immediately outside the void ────────────────────
-    rows = [socket(along_face_mm=str(O8_LO - 400.0), vertical_mm="1000"),
+    # ⚠️ THIS SEED USED TO BLESS A DEFECT. It asserted `envelope -49.9-250.1`
+    # as VALID - an accessory extending 50 mm BEYOND the start of the face it
+    # is supposedly on. A seed that institutionalises wrong behaviour is worse
+    # than no seed, because every later reviewer reads it as the contract.
+    rows = [socket(along_face_mm=str(O8_LO - 200.0), vertical_mm="1000"),
             avoid("SEED"), says("SEED", "vertical", "1000"),
             says("SEED", "extent_along_mm", "300"),
             says("SEED", "extent_vertical_mm", "80")]
     expect("a valid terminal just outside the void", rows, "SEED", "valid",
            "clear of every void")
+
+    # ⚠️ ...and the same terminal pushed off the START of the face is INVALID.
+    rows = [socket(along_face_mm=str(O8_LO - 400.0), vertical_mm="1000"),
+            avoid("SEED"), says("SEED", "vertical", "1000"),
+            says("SEED", "extent_along_mm", "300"),
+            says("SEED", "extent_vertical_mm", "80")]
+    expect("an envelope running off the face start is INVALID", rows, "SEED",
+           "invalid", "runs outside")
+
+    for label, ea, ev in (("negative along extent", "-300", "80"),
+                          ("negative vertical extent", "300", "-80"),
+                          ("zero extent", "0", "80")):
+        rows = [socket(along_face_mm="600", vertical_mm="1000"),
+                avoid("SEED"), says("SEED", "vertical", "1000"),
+                says("SEED", "extent_along_mm", ea),
+                says("SEED", "extent_vertical_mm", ev)]
+        expect("a %s is INVALID" % label, rows, "SEED", "invalid",
+               "extent must be positive")
+
+    for label, vertical in (("below the floor", "-100"),
+                            ("above the 2500 ceiling", "99999")):
+        rows = [socket(along_face_mm="600"), avoid("SEED"),
+                says("SEED", "vertical", vertical),
+                says("SEED", "extent_along_mm", "80"),
+                says("SEED", "extent_vertical_mm", "80")]
+        expect("a terminal %s is INVALID" % label, rows, "SEED", "invalid",
+               "outside the room")
+
+    # ⚠️ PHASE. The design's vocabulary is existing/demolished/new and this
+    # dispatched on `proposed`, so `phase=new` on concrete with cast_in came
+    # back VALID - authorising the retrofit the rule forbids.
+    rows = [socket(host_ref="R5", face_ref="cross_lo", along_face_mm="200",
+                   phase="new"), avoid("SEED"), method("cast_in"),
+            says("SEED", "vertical", "300"),
+            says("SEED", "extent_along_mm", "80"),
+            says("SEED", "extent_vertical_mm", "80")]
+    expect("NEW work on concrete is INVALID even if cast_in", rows, "SEED",
+           "invalid", "this is NEW work")
+
+    # ⚠️ A CANDIDATE MAY NOT AUTHORISE AN ISSUED RESULT.
+    centre_in = str((O8_LO + O8_HI) / 2.0)
+    for state, want in (("candidate", "incomplete"), ("asserted", "valid")):
+        pen = says("SEED", "host_interaction", "creates_penetration")
+        pen["value_type"] = "enum"
+        pen["value_state"] = state
+        rows = [socket(along_face_mm=centre_in), pen,
+                says("SEED", "vertical", "300"),
+                says("SEED", "extent_along_mm", "80"),
+                says("SEED", "extent_vertical_mm", "80")]
+        expect("a %s penetration yields %s" % (state, want), rows, "SEED",
+               want, "PURPOSE" if want == "valid" else "not asserted")
+
+    # ⚠️ LAST-WINS. Two competing values for one property used to let whichever
+    # came last govern silently.
+    second = says("SEED", "position_along", "900")
+    second["migration_key"] = "SEED-pos2"
+    rows = [socket(), avoid("SEED"), says("SEED", "position_along", "200"),
+            second, says("SEED", "vertical", "300"),
+            says("SEED", "extent_along_mm", "80"),
+            says("SEED", "extent_vertical_mm", "80")]
+    expect("two competing values for one property is INVALID", rows, "SEED",
+           "invalid", "ambiguous assertions")
 
     # ── 5 ─ an invalid face_ref, and a position off the end ──────────────────
     rows = [socket(along_face_mm="500", face_ref="cross_middle"), avoid("SEED")]
@@ -180,11 +251,6 @@ def main() -> int:
     # monolithic RC frame, so a concrete host is refused BEFORE any geometry -
     # a perfectly placed socket on a concrete column is still not buildable.
     # This is the rule that disproved W6's own R5 host.
-    def method(value):
-        row = says("SEED", "installation_method", value)
-        row["value_type"] = "enum"
-        return row
-
     # existing + chased into concrete: refused
     rows = [socket(along_face_mm="200", host_ref="R5", face_ref="cross_lo"),
             avoid("SEED"), method("chased")]
@@ -210,9 +276,9 @@ def main() -> int:
     # ⚠️ PROPOSED work on concrete: invalid with NO method exception, because a
     # retrofit cannot cast into concrete that is already poured.
     rows = [socket(along_face_mm="200", host_ref="R5", face_ref="cross_lo",
-                   phase="proposed"), avoid("SEED"), method("cast_in")]
-    expect("PROPOSED work on concrete is refused even if cast_in", rows,
-           "SEED", "invalid", "already poured")
+                   phase="new"), avoid("SEED"), method("cast_in")]
+    expect("NEW work on concrete is refused even if cast_in", rows,
+           "SEED", "invalid", "this is NEW work")
 
     # ...and the same position on an aerated block is fine, so the seed above
     # is not just rejecting everything.
@@ -236,18 +302,18 @@ def main() -> int:
     # passed substrate checking and reached `partial`. "Not concrete" is not
     # the owner's rule; "exclusively aerated block" is.
     rows = [socket(along_face_mm="200", host_ref="M2", face_ref="cross_lo",
-                   phase="proposed"), avoid("SEED")]
-    expect("PROPOSED work on a non-block material is refused", rows, "SEED",
+                   phase="new"), avoid("SEED")]
+    expect("NEW work on a non-block material is refused", rows, "SEED",
            "invalid", "every new drop must be chased into aerated_block")
 
     # ...and proposed work on block is accepted, so the seed above is not just
     # refusing everything proposed.
     rows = [socket(along_face_mm="200", host_ref="G7", face_ref="cross_lo",
-                   phase="proposed"), avoid("SEED"),
+                   phase="new"), avoid("SEED"),
             says("SEED", "vertical", "300"),
             says("SEED", "extent_along_mm", "80"),
             says("SEED", "extent_vertical_mm", "80")]
-    expect("PROPOSED work on aerated block is valid", rows, "SEED", "valid",
+    expect("NEW work on aerated block is valid", rows, "SEED", "valid",
            "clear of every void")
 
     # ── 8 ─ surface_local reports UNAVAILABLE, and unknown kinds FAIL ────────

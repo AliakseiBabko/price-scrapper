@@ -91,7 +91,31 @@ REQUIRED = {
 
 RELATION_KINDS = {"alias_of", "duplicate_of", "member_of", "connects_to",
                   "supersedes", "contradicts"}
-ROUTE_STATES = {"topology_only", "routed", "as_built"}
+
+# ⚠️ THE NORMATIVE FOUR. This said `topology_only / routed / as_built`, which
+# contradicted the approved design and collapsed the deliberately load-bearing
+# distinction between INTENDED, APPROVED and INSTALLED.
+ROUTE_STATES = {"topology_only", "design_intent", "construction_approved",
+                "as_built"}
+
+# ⚠️ `phase` is the design's OWN vocabulary, and the geometry gate was
+# dispatching on `proposed`, which is not in it. A record could say
+# `phase=new`, sit on concrete with installation_method=cast_in, and come back
+# VALID - authorising exactly the retrofit into cured concrete the rule exists
+# to forbid.
+PHASES = {"existing", "demolished", "new"}
+
+# Which concept each reference kind may point AT. A globally unique key proves
+# uniqueness, not kind: `observation_refs=OCC-W6` passed, and an assertion was
+# able to be its own subject.
+REFERENCE_CONCEPTS = {
+    "observation_refs": {"observation"},
+    "parent_assembly_key": {"assembly"},
+    "member_keys": {"occurrence", "assembly"},
+    "disputed_with": {"assertion"},
+    "subject_key": {"occurrence", "assembly", "route", "observation", "value"},
+    "target_key": {"occurrence", "assembly", "route", "assertion"},
+}
 
 WALL_COLS = ("host_ref", "face_ref", "along_face_mm", "vertical_mm")
 SURFACE_COLS = ("support_ref", "surface_role", "u_mm", "v_mm",
@@ -182,8 +206,13 @@ def _typed(value, value_type):
         return finite(text) is not None
     if value_type == "range":
         parts = text.replace("–", "-").split("-")
-        return (len(parts) == 2
-                and all(finite(p.strip()) is not None for p in parts))
+        if len(parts) != 2:
+            return False
+        lo, hi = (finite(p.strip()) for p in parts)
+        # ⚠️ A RANGE IS ORDERED. `1105-915` parsed happily as two finite
+        # numbers, and a reversed range is empty rather than merely odd -
+        # nothing is ever inside it.
+        return lo is not None and hi is not None and lo <= hi
     return True   # string / enum carry no parse obligation
 
 
@@ -238,6 +267,33 @@ def check(rows, elements=None):
         keys[key] = where
 
     known = set(keys)
+    # ⚠️ key -> CONCEPT. Uniqueness is not kind: `observation_refs=OCC-W6`
+    # passed, and an assertion could be its own subject.
+    concept_of = {}
+    for row in rows:
+        k = (row.get("migration_key") or "").strip()
+        if k:
+            concept_of[k] = (row.get("target_concept") or "").strip()
+
+    def reference(owner, column, ref, allowed_owner=None):
+        """Check one reference by KIND, not merely by existence."""
+        if not ref:
+            return
+        if ref == owner:
+            problems.append(
+                "%s.%s points at ITSELF - a record cannot be its own %s"
+                % (owner, column, column))
+            return
+        if ref not in known:
+            problems.append("%s.%s points at %r, which no record declares"
+                            % (owner, column, ref))
+            return
+        allowed = allowed_owner or REFERENCE_CONCEPTS.get(column)
+        if allowed and concept_of.get(ref) not in allowed:
+            problems.append(
+                "%s.%s points at %s, which is a %r - it must be %s"
+                % (owner, column, ref, concept_of.get(ref),
+                   " or ".join(sorted(allowed))))
     for row in rows:
         key = (row.get("migration_key") or "").strip() or "<no key>"
         table = row.get("_table")
@@ -269,6 +325,11 @@ def check(rows, elements=None):
                                 % (key, concept, column))
 
         if concept == "occurrence":
+            phase = (row.get("phase") or "").strip()
+            if phase not in PHASES:
+                problems.append(
+                    "%s has phase %r; the declared vocabulary is %s"
+                    % (key, phase, "/".join(sorted(PHASES))))
             kind = (row.get("locator_kind") or "").strip()
             if kind not in LOCATOR_KINDS:
                 # ⚠️ NEVER a skip. An unrecognised kind is a hard error.
@@ -292,19 +353,14 @@ def check(rows, elements=None):
             state = (row.get("placement_state") or "").strip()
             if state and state not in PLACEMENT_STATES:
                 problems.append("%s has placement_state %r" % (key, state))
-            for column in ("parent_assembly_key",):
-                ref = (row.get(column) or "").strip()
-                if ref and ref not in known:
-                    problems.append("%s.%s points at %r, which no record "
-                                    "declares" % (key, column, ref))
+            reference(key, "parent_assembly_key",
+                      (row.get("parent_assembly_key") or "").strip())
 
         if concept == "assembly":
             members = [m.strip() for m in
                        (row.get("member_keys") or "").split(";") if m.strip()]
             for member in members:
-                if member not in known:
-                    problems.append("%s lists member %r, which no record "
-                                    "declares" % (key, member))
+                reference(key, "member_keys", member)
             if key in members:
                 problems.append(
                     "%s lists ITSELF as a member - an assembly is not one of "
@@ -370,20 +426,14 @@ def check(rows, elements=None):
                     "plumbing anchor, a room nor a declared pseudo-element"
                     % (key, element))
             for column in ("subject_key", "disputed_with"):
-                ref = (row.get(column) or "").strip()
-                if ref and ref not in known:
-                    problems.append("%s.%s points at %r, which no record "
-                                    "declares" % (key, column, ref))
+                reference(key, column, (row.get(column) or "").strip())
             # ⚠️ `observation_refs` carries the observations backing an
             # assertion. It is SEPARATE from source_locators, which must hold
             # LEDGER locators - the earlier laundering check looked for
             # observation keys inside source_locators, where they can never
             # legitimately appear.
             for ref in (row.get("observation_refs") or "").split(";"):
-                ref = ref.strip()
-                if ref and ref not in known:
-                    problems.append("%s.observation_refs names %r, which no "
-                                    "record declares" % (key, ref))
+                reference(key, "observation_refs", ref.strip())
 
         if concept == "relation":
             kind = (row.get("relation_kind") or "").strip()
@@ -392,17 +442,29 @@ def check(rows, elements=None):
                                 % (key, kind))
             target = (row.get("target_key") or "").strip()
             pending = (row.get("target_pending") or "").strip().lower()
-            if target and target not in known:
-                problems.append(
-                    "%s points at target_key %r, which no record declares - an "
-                    "alias that does not resolve preserves no identity"
-                    % (key, target))
+            reference(key, "target_key", target)
             if not target and pending != "yes":
                 problems.append(
                     "%s has no target_key and is not marked target_pending - "
                     "an alias must either resolve or say why it cannot" % key)
 
         if concept == "route":
+            # ⚠️ ENDPOINTS MUST RESOLVE. Every route had at least one endpoint
+            # that was neither a target key nor a model element, and changing
+            # one to the typo `SS-K22` passed - so the topology was not
+            # topology, it was two strings.
+            for column in ("from_ref", "to_ref"):
+                ref = (row.get(column) or "").strip()
+                if not ref:
+                    continue
+                if ref.startswith("unresolved:"):
+                    continue
+                if ref not in known and ref not in elements:
+                    problems.append(
+                        "%s.%s is %r, which is neither a target record, a "
+                        "model element, nor an explicit `unresolved:<reason>` "
+                        "- a route between two unresolvable strings is not "
+                        "topology" % (key, column, ref))
             state = (row.get("route_state") or "").strip()
             if state and state not in ROUTE_STATES:
                 problems.append("%s has route_state %r, which is not declared"
@@ -419,6 +481,14 @@ def check(rows, elements=None):
                     "as_built is RECORDED FROM SITE and never derived"
                     % (key, basis))
 
+        if concept in ("assertion", "route", "value"):
+            phase = (row.get("scope_phase") or "").strip()
+            if phase not in PHASES:
+                problems.append(
+                    "%s has scope_phase %r; it may not be blank and the "
+                    "declared vocabulary is %s"
+                    % (key, phase, "/".join(sorted(PHASES))))
+
         if concept in ("observation", "assertion", "route", "value"):
             kind = (row.get("scope_kind") or "").strip()
             ref = (row.get("scope_ref") or "").strip()
@@ -430,6 +500,60 @@ def check(rows, elements=None):
                     "%s is scoped to apartment %r, which nobody surveyed - an "
                     "apartment scope must name `ours` or a comparable actually "
                     "looked at" % (key, ref))
+
+    # ⚠️ A DISPUTE IS RECIPROCAL, OR IT IS NOT A DISPUTE.
+    # -------------------------------------------------
+    # This only checked that `disputed_with`, when supplied, named SOME
+    # existing key. Against the live G7 dispute, deleting `disputed_with`
+    # passed, pointing it at an unrelated assertion passed, and deleting
+    # `device_class` passed - which removes the very fact that one count is
+    # outlets and the other switches, i.e. what makes them contradict at all.
+    assertions = dict((r.get("migration_key", "").strip(), r) for r in rows
+                      if (r.get("target_concept") or "").strip() == "assertion")
+    for key, row in assertions.items():
+        state = (row.get("value_state") or "").strip()
+        other_key = (row.get("disputed_with") or "").strip()
+        if state != "disputed":
+            if other_key:
+                problems.append(
+                    "%s is %r but names disputed_with %s - only a disputed "
+                    "value has a counterpart" % (key, state, other_key))
+            continue
+        if not other_key:
+            problems.append(
+                "%s is `disputed` but names no counterpart. A dispute is "
+                "between two claims; one alone is just uncertainty" % key)
+            continue
+        other = assertions.get(other_key)
+        if other is None:
+            continue          # the reference check has already said so
+        if (other.get("disputed_with") or "").strip() != key:
+            problems.append(
+                "%s names %s as its dispute, but %s does not name it back - a "
+                "one-sided dispute lets one side be quietly resolved"
+                % (key, other_key, other_key))
+        for column in ("subject_key", "subject_element", "property",
+                       "device_class", "scope_kind", "scope_ref",
+                       "scope_phase"):
+            if (row.get(column) or "").strip() != (other.get(column) or "").strip():
+                problems.append(
+                    "%s and %s are recorded as disputing each other but differ "
+                    "on %s (%r vs %r) - two claims about different things do "
+                    "not contradict"
+                    % (key, other_key, column, (row.get(column) or "").strip(),
+                       (other.get(column) or "").strip()))
+        if (row.get("value") or "").strip() == (other.get("value") or "").strip():
+            problems.append(
+                "%s and %s dispute each other but assert the SAME value %r"
+                % (key, other_key, (row.get("value") or "").strip()))
+    # ⚠️ A COUNT WITHOUT A DEVICE CLASS IS NOT A COUNT OF ANYTHING.
+    for key, row in assertions.items():
+        if (row.get("property") or "").strip() == "count" and not (
+                row.get("device_class") or "").strip():
+            problems.append(
+                "%s is a `count` with no device_class - «G7 has 2» and «G7 has "
+                "0» only contradict once you know one counts outlets and the "
+                "other switches" % key)
 
     # ⚠️ THE COMPARABLE-FLAT RULE, ENFORCED STRUCTURALLY (design §3.0f).
     # -----------------------------------------------------------------

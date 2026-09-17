@@ -40,6 +40,8 @@ import os
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DRAFTS = os.path.join(REPO, "_Inbox", "migration", "draft")
 
+UNRESOLVED = "unresolved:"
+
 REL_FIELDS = ["migration_key", "source_locators", "target_concept",
               "relation_kind", "legacy_id", "target_key", "target_pending",
               "notes"]
@@ -102,37 +104,46 @@ ROUTE_FIELDS = ["migration_key", "source_locators", "target_concept",
                 "scope_phase", "observation_refs", "notes"]
 
 # key, locator, kind, from, to, basis, state, note
+# ⚠️ ENDPOINTS MUST RESOLVE, OR SAY EXPLICITLY THAT THEY DO NOT. Every route
+# previously ended on a bare string, and a typo (`SS-K22`) passed. A target key
+# where one exists; a model element where one exists; otherwise an explicit
+# `unresolved:<reason>` - because "the bath" genuinely has no record yet and
+# pretending otherwise is worse than saying so.
+BATH = UNRESOLVED + "the bath; no target record exists for sanitaryware yet"
+SWK = UNRESOLVED + "SW-K is comparable-flat evidence and mints no occurrence"
+SSK = UNRESOLVED + "SS-K is comparable-flat evidence and mints no occurrence"
+
 ROUTES = [
     ("RTE-ROUTES-GVS", u"legacy_generator:ROUTES:ГВС",
-     "hot_water", "P1", "SW-K", "stated", "asserted",
+     "hot_water", "P1", SWK, "stated", "asserted",
      "The owner's own route, corrected by him to «lower, further from V1, "
      "hugging G4b». The RUN is his; the coordinates are the author's and "
      "are ASR-5-derived-route-y-coordinates, derived/candidate."),
     ("RTE-ROUTES-HVS", u"legacy_generator:ROUTES:ХВС",
-     "cold_water", "P1", "SW-K", "stated", "asserted",
+     "cold_water", "P1", SWK, "stated", "asserted",
      "The parallel run. Two INDEPENDENT routes, one turn each - not one line "
      "drawn twice."),
     ("RTE-ROUTES-HVS-v", u"legacy_generator:ROUTES:ХВС-в",
-     "cold_water", "P1", "bath", "derived", "candidate",
+     "cold_water", "P1", BATH, "derived", "candidate",
      "⚠ NOT AN INDEPENDENTLY ROUTED PIPE: the literal is BATH_W shifted 5 "
      "units so two lines do not overlap ON THE SHEET. Geometry not carried; "
      "only the topology is supported, by legacy_comment:7."),
-    ("RTE-SEWER", "legacy_generator:SEWER", "sewer", "SS-K", "SS-K2",
-     "derived", "candidate",
+    ("RTE-SEWER", "legacy_generator:SEWER", "sewer", SSK,
+     "OCC-P1SVC-SS-K2", "derived", "candidate",
      "⚠ STATE CORRECTED: this was `topology_only`/unqualified while the "
      "migration's own ASR-12-kitchen-dn50-connects-to-it says the connection "
      "is author-INFERRED and candidate, and ASR-5-dn50-continuation-unknown "
      "records that NO photo shows it. `topology_only` asserts a PATH; it is "
      "not an uncertainty state, so the uncertainty belongs here."),
-    ("RTE-BATH-W", "legacy_generator:BATH_W", "water", "P1", "bath", "stated",
+    ("RTE-BATH-W", "legacy_generator:BATH_W", "water", "P1", BATH, "stated",
      "candidate",
      "TOPOLOGY, NOT A SETTING-OUT - the owner: «рас"
      "кладка может "
      "отличаться, "
      "подход тот же"
      "»."),
-    ("RTE-BATH-S", "legacy_generator:BATH_S", "sewer", "bath", "SS-B",
-     "observed", "candidate",
+    ("RTE-BATH-S", "legacy_generator:BATH_S", "sewer", BATH,
+     "OCC-service-outlets-SS-B", "observed", "candidate",
      "From b83a - a COMPARABLE flat's annotated photo, so the topology "
      "projects here as a candidate."),
 ]
@@ -166,7 +177,8 @@ def main() -> int:
                 "route_state": "topology_only", "from_ref": frm, "to_ref": to,
                 "knowledge_basis": basis, "value_state": state,
                 "scope_kind": "apartment", "scope_ref": "ours",
-                "scope_phase": "existing", "notes": note})
+                "scope_phase": "existing", "observation_refs": "",
+                "notes": note})
 
     print("wrote %d relation(s) and %d route(s)" % (len(RELATIONS), len(ROUTES)))
     return 0

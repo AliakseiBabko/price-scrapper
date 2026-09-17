@@ -238,7 +238,7 @@ DECISIONS = [
      "flat", "", "arrangement",
      "board near the entrance; distribution through the ceiling; drops down "
      "the wall; drops exclusively in aerated block", "string", "stated",
-     "asserted", "ours", "proposed",
+     "asserted", "ours", "new",
      "⚠ THE PLANNED TOPOLOGY, recorded as ONE arrangement claim so it is "
      "not mistaken for four separate facts. The earlier row recorded only "
      "`installation_method=chased` and cited an unrelated W6 locator - it "
@@ -247,7 +247,7 @@ DECISIONS = [
      "had landed."),
     ("ASR-REWIRE-SUBSTRATE", "owner, 2026-09-17 (full rewire decision)", "",
      "flat", "", "installation_method", "chased", "enum", "stated",
-     "asserted", "ours", "proposed",
+     "asserted", "ours", "new",
      "Every new drop is CHASED - a retrofit cannot cast into concrete already "
      "poured - and exclusively into aerated block. Enforced by "
      "check_locator_geometry for phase=proposed as a WHITELIST, not as "

@@ -93,6 +93,11 @@ TOUCH_MM = 1.0        # coincidence tolerance for boundary adjacency
 CHASEABLE_MATERIALS = ("aerated_block",)
 # The closed vocabulary. Anything else is a typo until reviewed.
 KNOWN_MATERIALS = ("aerated_block", "reinforced_concrete")
+
+NEW_WORK = "new"
+# building_spec.json: 2500 for this flat. An accessory above the ceiling or
+# below the floor is not a placement.
+CEILING_MM = 2500.0
 NO_CHASE_MATERIALS = ("reinforced_concrete",)
 MATERIALS = os.path.join(REPO, "data", "canonical", "wall_materials.json")
 
@@ -164,14 +169,47 @@ def _along_span(face, polygon):
     return min(values), max(values)
 
 
+class Ambiguous(Exception):
+    """Two assertions of the same property disagree."""
+
+
+# Only these may authorise an issuable result. ⚠️ A `candidate`
+# host_interaction=creates_penetration used to produce VALID for a terminal
+# centred inside a void - and `--issued` accepts every `valid`, so an
+# unapproved candidate could authorise geometry.
+AUTHORITATIVE = ("asserted",)
+
+
 def _assertions(targets, subject):
-    out = {}
+    """property -> record, RAISING on a genuine disagreement.
+
+    ⚠️ THIS WAS LAST-WINS. It reduced records to a dictionary by property with
+    no regard for `value_state`, approval or phase, so whichever row happened
+    to come last silently governed - and two competing values never collided.
+    """
+    grouped = {}
     for row in targets:
         if (row.get("target_concept") or "") != "assertion":
             continue
         if (row.get("subject_key") or "") != subject:
             continue
-        out[(row.get("property") or "").strip()] = row
+        grouped.setdefault((row.get("property") or "").strip(), []).append(row)
+    out = {}
+    for prop, rows in grouped.items():
+        if len(rows) > 1:
+            values = set((r.get("value") or "").strip() for r in rows)
+            asserted = [r for r in rows
+                        if (r.get("value_state") or "").strip() in AUTHORITATIVE]
+            if len(values) > 1 and len(asserted) != 1:
+                raise Ambiguous(
+                    "%s has %d competing %s assertions (%s) and %d asserted - "
+                    "which one governs is undecided"
+                    % (subject, len(rows), prop,
+                       ", ".join(sorted(v[:18] for v in values)),
+                       len(asserted)))
+            out[prop] = asserted[0] if asserted else rows[0]
+        else:
+            out[prop] = rows[0]
     return out
 
 
@@ -256,17 +294,25 @@ def check(targets, resolved, opening_verticals, classes=None):
         # concrete column is still not buildable, and saying "valid" about it
         # would be precise about the wrong thing.
         klass = classes.get(host)
-        assertions = _assertions(targets, key)
+        try:
+            assertions = _assertions(targets, key)
+        except Ambiguous as exc:
+            results.append((key, "invalid", "ambiguous assertions: %s" % exc))
+            continue
         method = (assertions.get("installation_method") or {}).get("value", "")
         method = (method or "").strip()
         phase = (row.get("phase") or "").strip()
         # PROPOSED work: a WHITELIST. Every new drop must land on a chase-able
         # material, so anything not on the list fails - including a material
         # nobody has recorded.
-        if phase == "proposed" and klass not in CHASEABLE_MATERIALS:
+        # ⚠️ `new`, NOT `proposed`. The design's phase vocabulary is
+        # existing/demolished/new and this dispatched on `proposed`, which is
+        # not in it - so `phase=new` on concrete with cast_in returned VALID,
+        # authorising exactly the retrofit into cured concrete the rule forbids.
+        if phase == NEW_WORK and klass not in CHASEABLE_MATERIALS:
             results.append((key, "invalid",
-                            "host %s is %r and this is PROPOSED work - every "
-                            "new drop must be chased into %s, and a retrofit "
+                            "host %s is %r and this is NEW work - every new "
+                            "drop must be chased into %s, and a retrofit "
                             "cannot cast into concrete already poured"
                             % (host, klass, "/".join(CHASEABLE_MATERIALS))))
             continue
@@ -353,17 +399,81 @@ def check(targets, resolved, opening_verticals, classes=None):
                             "%.1f mm long" % (along, host, face_ref, length)))
             continue
 
+        # ⚠️ EVERY `valid` IS SUBJECT TO THE AUTHORITY CAP, not just the
+        # geometry path. The penetration branch returned early, so a
+        # `candidate` host_interaction=creates_penetration made a terminal
+        # centred inside a void come back VALID - and --issued accepts every
+        # valid, so an unapproved candidate could authorise geometry.
+        weak = sorted(set(
+            "%s=%s" % ((r.get("property") or "?"),
+                       (r.get("value_state") or "?"))
+            for r in (assertions.get("host_interaction"),
+                      assertions.get("position_along"),
+                      assertions.get("vertical"),
+                      assertions.get("extent_along_mm"),
+                      assertions.get("extent_vertical_mm"),
+                      assertions.get("installation_method"))
+            if r is not None
+            and (r.get("value_state") or "").strip() not in AUTHORITATIVE))
+
+        def settle(verdict, message):
+            """Downgrade a `valid` whose governing values are not asserted."""
+            if verdict == "valid" and weak:
+                return (key, "incomplete",
+                        "%s - BUT the values governing it are not asserted: "
+                        "%s. Candidate, disputed, unknown and retracted values "
+                        "may not authorise an issued result"
+                        % (message, ", ".join(weak)))
+            return (key, verdict, message)
+
         interaction = (assertions.get("host_interaction") or {}).get("value", "")
         interaction = (interaction or "").strip()
         if interaction in ("creates_penetration", "fills_opening"):
-            results.append((key, "valid",
-                            "host_interaction=%s - overlapping a void is this "
-                            "element's PURPOSE, not a defect" % interaction))
+            results.append(settle(
+                "valid",
+                "host_interaction=%s - overlapping a void is this element's "
+                "PURPOSE, not a defect" % interaction))
             continue
         if interaction != "avoid_void":
             results.append((key, "incomplete",
                             "no host_interaction asserted; absence is NOT "
                             "read as avoid_void"))
+            continue
+
+        # ⚠️ EXTENTS MUST BE POSITIVE, AND THE ENVELOPE MUST BE INSIDE THE
+        # HOST. This tested the envelope against OPENINGS only and never
+        # against the wall itself: extent_along_mm=-300 gave "VALID, envelope
+        # 350.0-50.0" (an inverted envelope that contains nothing), vertical
+        # =-100 was VALID below the floor, and vertical=99999 was VALID far
+        # above the 2500 mm ceiling.
+        for label, extent in (("extent_along_mm", ext_a),
+                              ("extent_vertical_mm", ext_v)):
+            if extent is not None and extent <= 0:
+                results.append((key, "invalid",
+                                "%s is %.1f - an extent must be positive, and "
+                                "a negative one inverts the envelope so that "
+                                "nothing is inside it" % (label, extent)))
+                break
+        else:
+            lo = along - (ext_a / 2.0 if ext_a else 0.0)
+            hi = along + (ext_a / 2.0 if ext_a else 0.0)
+            if lo < 0.0 or hi > length:
+                results.append((key, "invalid",
+                                "the envelope %.1f-%.1f runs outside %s.%s, "
+                                "which is %.1f mm long"
+                                % (lo, hi, host, face_ref, length)))
+                continue
+            if vertical is not None:
+                v_lo = vertical - (ext_v / 2.0 if ext_v else 0.0)
+                v_hi = vertical + (ext_v / 2.0 if ext_v else 0.0)
+                if v_lo < 0.0 or v_hi > CEILING_MM:
+                    results.append((key, "invalid",
+                                    "the vertical envelope %.1f-%.1f is "
+                                    "outside the room, which runs 0 to %.0f mm"
+                                    % (v_lo, v_hi, CEILING_MM)))
+                    continue
+            lo, hi = lo, hi
+        if results and results[-1][0] == key and results[-1][1] == "invalid":
             continue
 
         lo = along - (ext_a / 2.0 if ext_a else 0.0)
@@ -404,9 +514,9 @@ def check(targets, resolved, opening_verticals, classes=None):
                             "unknown - NOT proven valid, and no default size is "
                             "invented here" % along))
         else:
-            results.append((key, "valid",
-                            "envelope %.1f-%.1f clear of every void on %s.%s"
-                            % (lo, hi, host, face_ref)))
+            results.append(settle(
+                "valid", "envelope %.1f-%.1f clear of every void on %s.%s"
+                % (lo, hi, host, face_ref)))
     return results
 
 
