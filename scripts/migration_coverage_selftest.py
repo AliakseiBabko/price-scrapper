@@ -200,6 +200,33 @@ def main() -> int:
     expect("a `decomposed` parent with no claims", problems, True,
            "has no claims")
 
+    # ⚠️ 11b - THE REVIEWED-MULTIPLICITY GAP, seeded against the REAL draft
+    # records. The split rules used to read only the PARSED multiplicity, and
+    # `service_outlets.csv` has no `count` column, so every row in it parsed as
+    # `unstated` and skipped the rules entirely. SW-B is decided as exactly 2
+    # by REVIEW; deleting one of its two occurrences was not caught. The old
+    # seeds used an `electrical_existing` row that parses as `exact_n`, so the
+    # gate looked guarded while the real records went unchecked.
+    from check_migration_coverage import load_drafts  # noqa: E402
+    drafts = load_drafts()
+    if drafts:
+        problems, _ = check(rows, target_records=drafts, claim_rows=claims,
+                            lock=lock)
+        expect("the real draft slice is consistent", problems, False)
+        short = [d for d in drafts if d.get("migration_key") != "OCC-SW-B-C"]
+        problems, _ = check(rows, target_records=short, claim_rows=claims,
+                            lock=lock)
+        expect("a REVIEWED exact_n split, one short, is caught", problems, True,
+               "splits into 2")
+        # and a reviewer override with no stated reason
+        seeded = [dict(r, reviewed_multiplicity_note="")
+                  if r["locator"] == "legacy_csv:service_outlets:SW-B" else r
+                  for r in rows]
+        problems, _ = check(seeded, target_records=drafts, claim_rows=claims,
+                            lock=lock)
+        expect("an unexplained multiplicity override is caught", problems, True,
+               "states no reason")
+
     # 12 - the REAL ledger today. ⚠️ ADJUDICATION IS NOW COMPLETE (2026-09-17):
     # every source locator carries a judgement and none is `unresolved`. That
     # makes this seed STRONGER, not weaker - it is now exactly the arrangement

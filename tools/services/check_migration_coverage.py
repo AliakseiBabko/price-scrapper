@@ -299,7 +299,24 @@ def check(ledger_rows, target_records=None, require_complete=False,
 
     # 5 + 6 - splits
     for locator, row in seen.items():
-        multiplicity = (row.get("multiplicity") or "").strip()
+        # ⚠️ THE REVIEWED MULTIPLICITY WINS, AND THIS WAS A LIVE DEFECT.
+        # This read the PARSED `multiplicity` only. `service_outlets.csv` has
+        # no `count` column at all, so every row in it parses as `unstated` and
+        # the split rules skipped it entirely - including SW-B, which a
+        # reviewer had decided splits into exactly 2. Removing one of its two
+        # occurrences was NOT CAUGHT. The old seed used an
+        # `electrical_existing` row that happens to parse as `exact_n`, so the
+        # gate looked guarded while the real records went unchecked: an input
+        # the fixture could not reach reads as covered.
+        parsed = (row.get("multiplicity") or "").strip()
+        reviewed = (row.get("reviewed_multiplicity") or "").strip()
+        multiplicity = reviewed or parsed
+        if reviewed and reviewed != parsed and not (
+                row.get("reviewed_multiplicity_note") or "").strip():
+            problems.append(
+                "source %s overrides parsed multiplicity %r with %r but states "
+                "no reason - a reviewer may decide what the parser could not "
+                "read, and must say so" % (locator, parsed, reviewed))
         if multiplicity not in ("exact_n", "range"):
             continue
         occurrences = [r for r in cited.get(locator, [])
