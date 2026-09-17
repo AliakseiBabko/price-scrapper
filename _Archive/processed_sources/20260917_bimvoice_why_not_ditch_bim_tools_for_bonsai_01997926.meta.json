@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=-XPGFbmuh8U",
+  "video_id": "-XPGFbmuh8U",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T09:49:19.659169+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "01997926a2e246e2592d234af20c6f9615268262093f9e02458cce927c8ce414",
+  "attempts_before_success": [],
+  "upload_date": "2025-03-06",
+  "upload_date_source": "caller"
+}

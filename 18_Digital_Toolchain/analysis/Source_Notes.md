@@ -171,3 +171,21 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 **Round yield**: 4 videos (3 folded into one note), **35 new facts**. **One new page: [[18_Digital_Toolchain/analysis/Requirements_And_Validation|Requirements and Model Validation]]**, created because `Model_To_Drawing_Pipeline.md` was at 379 lines and could not absorb it.
 
 > **⚠️⚠️ A LANGUAGE FINDING WORTH CARRYING PAST THIS ROUND**: `ryJxOanNJVQ` has **no `-orig` caption track at all** — only a `manual: en` — **and that manual track renders *Claude Code* as “Cloud Code” and “clawed code”.** → **A “manual” subtitle can be machine-generated and merely uploader-accepted. `manual` is NOT evidence of a human transcript, and the tell is errors on proper nouns.** ⚠️ **Fourth distinct form of the title/caption-language trap recorded in this vault.**
+
+## Bonsai and Blender practitioner triage (2026-09-17)
+
+**Eight substantive sources triaged across five target channels/playlists** (`@blender3darchitect`, `@BIMvoice`, `@SPB-production`, `@dynamiterevit`, `@Modelflick`), addressing open problems 1–12 from `_Inbox/planning/agent_brief_bonsai_blender_triage_20260917.md`.
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_XYeasHbyw-U`](../../_Sources/YT_XYeasHbyw-U_spbproduction_bonsai_ifc_schema_conversion.md) | **Stepwise migration (2x3 → 4.0 → 4.3) via `IfcPatch` Migrate recipe**; IFC4.3 infrastructure scope; downgrade risk stripping georeferencing and converting unmapped entities to `IfcBuildingElementProxy`. | 6 |
+| [`YT_CbDO16CfC7M`](../../_Sources/YT_CbDO16CfC7M_spbproduction_ifctester_ids_validation.md) | **Client-side WASM IDS validation via IFC Tester (`ifctester.org`)**; zero data egress; audit reports keyed by `GlobalId`; UI schema mismatch bug. | 6 |
+| [`YT_fUlDzxSDOls`](../../_Sources/YT_fUlDzxSDOls_spbproduction_bonsai_spreadsheet_qto_schedule.md) | **Bonsai Spreadsheet module for QTO and schedules**; class filtering, Pset dot notation, double-quote requirement on spaced names, grouping and count/sum export to CSV. | 6 |
+| [`YT_sdNStKd-fqE`](../../_Sources/YT_sdNStKd-fqE_bimvoice_bonsai_vanishing_geometry_type_vs_element.md) | **Vanishing geometry trap** (assigning `IfcElementType` defaults out of spatial containment); live classification crash; text-to-mesh requirement; `IfcAnnotation` unviewable fallback to proxy. | 7 |
+| [`YT_-UuUCMOAvx4`](../../_Sources/YT_-UuUCMOAvx4_bimvoice_ids_wall_type_validation_mystery.md) | **IDS applicability debugging**: targeting `IfcWallType` vs `IfcWall` for type naming regex; property set attachment level; failure auditing. | 6 |
+| [`YT_1WPw5NRJQmM`](../../_Sources/YT_1WPw5NRJQmM_blender3darchitect_mirror_in_bim_virtual_element.md) | **BIM mirroring geometry trap**: buildingSMART lacks mirrored instances; Bonsai mirror reflects coordinate offset across `IfcVirtualElement` without flipping geometry. | 5 |
+| [`YT_-XPGFbmuh8U`](../../_Sources/YT_-XPGFbmuh8U_bimvoice_why_not_ditch_bim_tools_for_bonsai.md) | **Production reality of openBIM**: Solibri retained for speed (Bonsai validation on complex models wastes days); IfcOpenShell scripting vs GUI split; native IFC in-place editing. | 6 |
+| [`YT_530npr9stZ0`](../../_Sources/YT_530npr9stZ0_bimvoice_bonsai_cgal_crash_advanced_mode.md) | **CGAL geometry kernel crash on import**; workaround via Advanced Mode switching Geometry Library to Open Cascade. | 5 |
+
+**Round yield**: 8 substantive videos processed, **47 new facts, yield = 5.9** per video. Routed to `Requirements_And_Validation.md` and `Quantity_Takeoff_and_Cost_Join.md`. Over 280 candidate videos triaged and skipped with one-line rationale in the triage report.
+

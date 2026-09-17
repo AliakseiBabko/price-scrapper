@@ -62,6 +62,44 @@ The demonstrated run produces *«detailed breakdowns for every project, every ru
 
 [source: [[_Sources/YT_EHCgAi2x8-Q_ddc_requirements_three_columns|YT_EHCgAi2x8-Q]]]
 
+### ⚠️ Client-side IDS validation and the GlobalId failure report
+
+**Tom (SPB Production) demonstrates client-side IDS validation using IFC Tester (`ifctester.org`)**: an open-source web application running **100% locally in the browser** without transmitting model data externally.
+
+- **The actionable deliverable is the exported HTML report**: The web UI has an active display bug (fine-grained failure rows fail to render in-browser), but the downloaded HTML report provides an itemized breakdown of every failed requirement **keyed by `GlobalId`**, naming the offending property, missing attribute, or prohibited entity (e.g. prohibited `IfcBuildingElementProxy` occurrences).
+- **Batch capability and constraint**: Multiple IFC files can be loaded and audited in one pass against one IDS specification, but **multiple IDS files cannot be run concurrently** against a model (the user must switch specification tabs sequentially).
+
+[source: [[_Sources/YT_CbDO16CfC7M_spbproduction_ifctester_ids_validation|YT_CbDO16CfC7M]]]
+
+## 5. ⚠️⚠️ The Applicability Facet and Property Location Traps in IDS
+
+**Stefan Catargiu (BIMvoice) diagnoses a recurring community failure mode where an IDS check returns "Not Available" / 0 of 0 matches**:
+
+- **Targeting occurrence vs. type classes**: In buildingSMART IDS, the applicability facet defines what is filtered. If an author targets the physical occurrence class (`IfcWall`) while filtering on type-level naming patterns (e.g. `*STRUCTURE*`), the check finds zero elements because the occurrence's `Name` attribute holds an instance identifier rather than the type specification name (`IfcWallType.Name`). The facet must explicitly target `IfcWallType`.
+- **Property Set attachment level (Type vs. Occurrence)**: Property sets can be bound to an occurrence (`IfcWall`) or to a library type (`IfcWallType`). When an IDS specification requires `Pset_WallCommon.LoadBearing = True` on `IfcWallType`, adding the property to the placed wall instance in the viewport **still fails the audit**. IDS audits evaluate the type definition directly, which is non-geometric and invisible in the viewport.
+- **Pattern matching syntax**: IDS supports regular expression patterns on attributes (e.g. `.*WALL.*`), but GUI regex builders often inject over-restrictive constraints (e.g. letters-only constraints that fail on numbered names like `WALL_300`).
+
+[source: [[_Sources/YT_-UuUCMOAvx4_bimvoice_ids_wall_type_validation_mystery|YT_-UuUCMOAvx4]]]
+
+## 6. ⚠️ Production Validation Reality: Solibri Retained for Speed
+
+**Stefan Catargiu (BIMvoice) cautions that despite openBIM capabilities, commercial checkers (Solibri) remain necessary in production practice**:
+
+- **The time cost of openBIM validation**: Running full rule-checking and multi-model coordination purely in Bonsai "wastes days" on complex projects compared to dedicated commercial engines. License savings vanish if coordination labor balloons.
+- **The scripting separation**: He identifies **IfcOpenShell scripting as a distinct, higher-capability automation tier** above the Bonsai GUI — an assessment that directly matches this repository's architectural choice to run deterministic Python validators over raw IFC files.
+
+[source: [[_Sources/YT_-XPGFbmuh8U_bimvoice_why_not_ditch_bim_tools_for_bonsai|YT_-XPGFbmuh8U]]]
+
+## 7. ⚠️ Schema and Entity Type Integrity as an Explicit Gate
+
+**Tom (SPB Production) documents that IFC schema migration (2x3 → 4.0 → 4.3) is executed via Bonsai's `IfcPatch` Migrate recipe**, creating an independent upgraded file:
+
+- **Downgrade semantic degradation**: Migrating backward (4.0 → 2x3) strips georeferencing metadata (`IfcMapConversion`) and degrades any entity class not present in 2x3 into `IfcBuildingElementProxy`.
+- **The upgrade trap**: Corroborating [[_Sources/YT_4JYFYvNg5Xk_blender3darchitect_external_ifc_libraries_bonsai|4JYFYvNg5Xk]], an automated schema upgrade modifies the IFC header but can leave deprecated entities (e.g. `IfcDoorStyle`) unconverted to modern types (`IfcDoorType`), rendering them semantically invisible to discipline tools.
+- **Validator specification**: Any model gate must assert both schema version AND that no deprecated style entities or unclassified proxy objects linger in the deliverable.
+
+[source: [[_Sources/YT_XYeasHbyw-U_spbproduction_bonsai_ifc_schema_conversion|YT_XYeasHbyw-U]]]
+
 ## ⚠️ What is NOT established here
 
 - **No error rate, on anything.** No case is shown where the agent misread a format, and no run is compared against a known-good validation.
@@ -75,3 +113,4 @@ The demonstrated run produces *«detailed breakdowns for every project, every ru
 - [`toolchain_gap_analysis_20260908.md`](../../_Inbox/planning/toolchain_gap_analysis_20260908.md) — where the `.ids` `Adopt` is recorded.
 
 Part of [[18_Digital_Toolchain/Digital_Toolchain_Guide|Digital Toolchain]]. Sources: [[18_Digital_Toolchain/analysis/Source_Notes|Digital Toolchain — Source Notes]]. Edit history: [[18_Digital_Toolchain/analysis/Change_Log|Digital Toolchain — Change Log]].
+

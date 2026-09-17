@@ -3,6 +3,7 @@ source_type: video transcript (architecture-modelling tutorial channel, short me
 source_url: https://www.youtube.com/watch?v=mq63GWbgWdM
 video_id: mq63GWbgWdM
 transcript_file: _Archive/processed_sources/20260913_architecturetopics_inkscape_trace_to_blender_602c3437.txt
+transcript_file_pt2: _Archive/processed_sources/20260913_architecturetopics_inkscape_trace_to_blender_pt2_b79ecdaa.txt
 fetched: 2026-09-13 via youtube-transcript-api (en-orig auto captions - ORIGINAL language, verified from the caption manifest)
 upload_date: 2022-08-11 (confirmed via yt-dlp metadata)
 channel: Architecture Topics

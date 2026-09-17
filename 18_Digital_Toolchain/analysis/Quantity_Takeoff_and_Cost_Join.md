@@ -168,6 +168,16 @@ Two practitioners independently separate floor faces per room so each can take i
 >
 > ⚠️⚠️ **But he does NOT use the IFC4 standard quantity set.** He switches to a **Blender-specific variant** *"because it works a little bit better right now"*, with no further explanation. **A vendor-specific quantity set is not guaranteed to survive to another tool**, and this project's whole premise is that the IFC is the portable master. **→ If quantities are ever taken this way, take them from the IFC4 base set — or know exactly what the difference is.** ⚠️ **Second instance of the same reflex in one round**: a BlenderBim-specific `EPset_status` is also used where `Pset_SpaceCommon` lacks a Status field. **Prefer the standard property set; if a vendor extension is used, record why and what breaks without it.**
 
+### Tabular schedules and QTO export via Bonsai Spreadsheet
+
+Tom (SPB Production) demonstrates Bonsai's native **Spreadsheet** module for extracting tabular schedules, component inventories, and quantity take-offs directly from the IFC model without external BIM viewers:
+
+- **Entity filtering and column mapping**: The user selects an IFC class filter (e.g. `IfcDoor`, `IfcWall`, `IfcCovering`) and configures columns mapping to standard IFC attributes (`PredefinedType`, `Tag`, `OverallWidth`) or property set values (`Pset_DoorCommon.FireRating`).
+- **Pset dot syntax and quote rule**: Properties are accessed via dot notation (`Pset_Name.PropertyName`). **Crucial syntax trap**: Any property set name containing spaces (e.g. `"IFC Door Information".Function`) **must be enclosed in double quotes**; omitting quotes causes the query parser to fail.
+- **Aggregation and export**: Supports grouping rows (e.g. by Type name or material) with aggregation functions (`count()`, `sum()`) to produce consolidated schedules, exportable to `.csv` or `.ods`.
+
+> **→ IFC DATA EXTRACTION REQUIRES NO COMMERCIAL TOOLS.** For bills of quantities and door/finishing schedules, Bonsai's internal spreadsheet engine directly queries the IFC data graph into tabular CSVs suitable for downstream pricing pipelines. [source: [[_Sources/YT_fUlDzxSDOls_spbproduction_bonsai_spreadsheet_qto_schedule|YT_fUlDzxSDOls]]]
+
 ### ⚠️ Phase-filtered SELECTION is the mechanism staged pricing needs
 
 A model-wide status filter offers **visibility** and **selection** per phase — hide everything demolished, or **select everything new**.
