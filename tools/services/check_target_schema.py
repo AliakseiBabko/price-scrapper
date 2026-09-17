@@ -80,6 +80,8 @@ REQUIRED = {
     "route": ("route_kind", "route_state", "from_ref", "to_ref",
               "knowledge_basis", "value_state", "scope_kind", "scope_ref",
               "scope_phase"),
+    "value": ("quantity", "value", "value_type", "knowledge_basis",
+              "value_state", "scope_kind", "scope_ref"),
 }
 
 RELATION_KINDS = {"alias_of", "duplicate_of", "member_of", "connects_to",
@@ -106,6 +108,13 @@ VALUE_STATES = {"asserted", "candidate", "disputed", "unknown", "retracted"}
 VALUE_TYPES = {"bool", "int", "mm", "string", "enum", "range"}
 PROPERTIES = {"existence", "count", "position_along", "vertical", "function",
               "voltage", "route_state", "gang", "arrangement",
+              # ⚠️ `appearance` is what something LOOKS like; `function` is
+              # what it does. Conflating them is how "this socket looks
+              # different" became "this socket is 380 V".
+              "appearance",
+              # ⚠️ and phase count is NOT voltage. 380 V and three-phase are
+              # separately uncertain claims about the same supply.
+              "supply_phases",
               # ⚠️ THE TERMINAL ENVELOPE, and it lives HERE rather than as
               # occurrence columns so that each part carries its OWN basis and
               # state. An occurrence has an anchor POINT; a point cannot
@@ -415,8 +424,12 @@ def check(rows, elements=None):
         observed_scopes[(row.get("migration_key") or "").strip()] = (
             (row.get("scope_kind") or "").strip(),
             (row.get("scope_ref") or "").strip())
+    # ⚠️ EVERY SCOPED EVIDENTIARY CLAIM, not only assertions. A route scoped
+    # to ours with knowledge_basis=observed launders comparable-flat topology
+    # exactly as an assertion would - RTE-BATH-S did.
     for row in rows:
-        if (row.get("target_concept") or "").strip() != "assertion":
+        if (row.get("target_concept") or "").strip() not in (
+                "assertion", "route", "value"):
             continue
         key = (row.get("migration_key") or "").strip()
         if ((row.get("scope_kind") or "").strip() != "apartment"

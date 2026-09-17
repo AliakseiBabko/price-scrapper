@@ -77,13 +77,55 @@ def main() -> int:
                          + [(c["claim_locator"],
                              (c.get("adjudication") or "").strip())
                             for c in claims])
+    # Every locator's DECLARED concept set, because the gate now requires the
+    # whole set - one blanket `observation` target per locator is exactly the
+    # under-production the real ledger was guilty of.
+    declared_by = {}
+    for r in accepted:
+        want = set(c.strip() for c in
+                   (r.get("expected_target_concepts") or "").split(";")
+                   if c.strip())
+        if adjudications.get(r["locator"]) == "duplicate":
+            want.add("relation")
+        declared_by[r["locator"]] = want or {"observation"}
+    for c in claims:
+        want = {"relation"} if adjudications.get(c["claim_locator"]) ==             "duplicate" else {"assertion"}
+        declared_by[c["claim_locator"]] = want
 
-    def concept_for(loc):
-        return ("relation" if adjudications.get(loc) == "duplicate"
-                else "observation")
+    splits = dict((r["locator"], (r.get("occurrence_split_count") or "").strip())
+                  for r in accepted)
 
-    covered = [target("k%d" % i, loc, concept_for(loc))
-               for i, loc in enumerate(in_scope_keys(accepted, claims))]
+    def cover(ledger, claim_rows):
+        out, n = [], 0
+        for loc in in_scope_keys(ledger, claim_rows):
+            for concept in sorted(declared_by.get(loc, {"observation"})):
+                # an `occurrence` concept must be produced the DECLARED number
+                # of times, or the split rule fires
+                count = 1
+                if concept == "occurrence" and splits.get(loc, "").isdigit():
+                    count = int(splits[loc])
+                for _ in range(count):
+                    n += 1
+                    out.append(target("k%d" % n, loc, concept))
+        return out
+
+    # ⚠️ 1 - THE DECISIVE SEED. Everything adjudicated, nothing produced.
+    problems, _ = check(accepted, target_records=[], require_complete=True,
+                        claim_rows=claims, lock=lock)
+    expect("all adjudicated with ZERO targets must FAIL", problems, True,
+           "NOT CITED by any target record")
+
+    # 2 - the same ledger, now actually carried forward.
+    # ⚠️ A `duplicate` locator needs a RELATION, not just any target - so the
+    # synthetic coverage has to emit the RIGHT CONCEPT. Blanket `observation`
+    # targets are what let the real alias adjudications go unsatisfied.
+    adjudications = dict([(r["locator"], (r.get("adjudication") or "").strip())
+                          for r in accepted]
+                         + [(c["claim_locator"],
+                             (c.get("adjudication") or "").strip())
+                            for c in claims])
+
+    covered = cover(accepted, claims)
     problems, _ = check(accepted, target_records=covered, require_complete=True,
                         claim_rows=claims, lock=lock)
     expect("adjudicated AND carried forward passes", problems, False)
@@ -122,7 +164,12 @@ def main() -> int:
     exact = next(r for r in seeded if r["multiplicity"] == "exact_n"
                  and r["count_max"] == "3")
     exact["occurrence_split_count"] = "3"
-    extra = covered + (
+    exact["expected_target_concepts"] = ("observation;assertion;value;"
+                                         "occurrence;assembly;approval")
+    extra = [t for t in covered if t["source_locators"] != exact["locator"]]
+    extra += [target("kept-obs", exact["locator"], "observation"),
+              target("kept-asr", exact["locator"], "assertion")]
+    extra += (
         [target("o%d" % i, exact["locator"], "occurrence") for i in range(3)]
         + [target("asm", exact["locator"], "assembly"),
            target("v1", exact["locator"], "value"),
@@ -226,7 +273,33 @@ def main() -> int:
         problems, _ = check(accepted, target_records=wrong,
                             require_complete=True, claim_rows=claims, lock=lock)
         expect("a `duplicate` with no RELATION target is caught", problems,
-               True, "no RELATION target cites it")
+               True, "missing relation")
+    # THE DECLARED CONCEPTS MUST ACTUALLY BE PRODUCED. Special-casing
+    # `duplicate -> relation` was still too narrow: E-KL-SOC-K declared
+    # observation;assertion;value and produced only an assertion, and coverage
+    # still said 102/102.
+    declared = next((r for r in accepted
+                     if ";" in (r.get("expected_target_concepts") or "")), None)
+    if declared:
+        loc = declared["locator"]
+        one = [t for t in covered if t["source_locators"] != loc]
+        first = sorted(c.strip() for c in
+                       declared["expected_target_concepts"].split(";")
+                       if c.strip())[0]
+        one.append(target("partial-concepts", loc, first))
+        problems, _ = check(accepted, target_records=one, require_complete=True,
+                            claim_rows=claims, lock=lock)
+        expect("a source producing only SOME declared concepts is caught",
+               problems, True, "missing")
+
+        two = [t for t in covered if t["source_locators"] != loc]
+        two.append(target("undeclared-concept", loc, "approval"))
+        problems, _ = check(accepted, target_records=two, require_complete=True,
+                            claim_rows=claims, lock=lock)
+        expect("a source producing an UNDECLARED concept is caught", problems,
+               True, "does not declare")
+
+
 
     # ⚠️ 11b - THE REVIEWED-MULTIPLICITY GAP, seeded against the REAL draft
     # records. The split rules used to read only the PARSED multiplicity, and
