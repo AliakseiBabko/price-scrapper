@@ -521,14 +521,15 @@
     "P2": {
       "where": "between R3 and V2",
       "size_mm": [
-        450,
-        225
+        400,
+        200
       ],
       "contains": [
         "the SECOND SEWER"
       ],
       "serves": "the kitchen now, and potentially a future laundry",
-      "note": "!! NO WATER at this point - kitchen water arrives from P1 UNDER THE FLOOR. Immovable."
+      "note": "!! NO WATER at this point - kitchen water arrives from P1 UNDER THE FLOOR. Immovable.",
+      "size_superseded": "400 x 200 (owner, exact; supersedes the 450 x 225 I had MEASURED - wall_materials.json: \"P2 is 400 wide, matching the shaft standard, and 200 deep, and the clearance from R3 to V2 IS 200, so P2 does not float in that gap, it defines it\". Corrected 2026-09-17.)"
     },
     "the_shape_of_it": "TWO SEWERS but only ONE water source, and the kitchen water runs under the floor. So there are exactly TWO wet points in the flat, and any layout's wet fittings must attach to one of them.",
     "what_the_second_sewer_buys": "!! The kitchen does NOT have to drain back to the туалет. That is genuine planning freedom and it is why a kitchen at that end of the flat works at all. ⚠ But DRAIN FALL caps how far a sink can sit from P2 - and the vault records drain fall as a first-order check that appeared in three consecutive rounds, including a developer layout that needed a 20 cm floor lift and a macerator.",

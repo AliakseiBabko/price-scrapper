@@ -1,2 +1,11 @@
 migration_key,source_locators,target_concept,relation_kind,from_ref,to_ref,notes
 REL-V2-ALIAS,legacy_generator:tag:V-2,relation,alias_of,V-2,legacy_csv:service_outlets:SV-K,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence. H=218 on the tag is 2180 against SV-K's MEASURED 2177, and both cite 9e9b. Minting a second record would double the grille."
+REL-ROUTES-DN50,legacy_generator:ROUTES:DN50,relation,alias_of,DN50,legacy_generator:SEWER,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
+REL-ROUTES-GVS-v,legacy_generator:ROUTES:ГВС-в,relation,alias_of,ГВС-в,legacy_generator:BATH_W,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
+REL-ROUTES-DN50-v,legacy_generator:ROUTES:DN50-в,relation,alias_of,DN50-в,legacy_generator:BATH_S,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
+REL-PIPES-P-S,legacy_generator:PIPES:P-S,relation,alias_of,P-S,legacy_csv:service_outlets:SS-K,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
+REL-PIPES-P-H,legacy_generator:PIPES:P-H,relation,alias_of,P-H,legacy_csv:service_outlets:SW-K,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
+REL-PIPES-P-C,legacy_generator:PIPES:P-C,relation,alias_of,P-C,legacy_csv:service_outlets:SW-K,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
+REL-P1SVC-SS-B,legacy_generator:P1SVC:SS-B,relation,alias_of,SS-B,legacy_csv:service_outlets:SS-B,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
+REL-P1SVC-SH-B,legacy_generator:P1SVC:SH-B,relation,alias_of,SH-B,legacy_csv:service_outlets:SH-B,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
+REL-tag-SV-VT,legacy_generator:tag:SV-VT,relation,alias_of,SV-VT,legacy_csv:service_outlets:SV-VT,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
