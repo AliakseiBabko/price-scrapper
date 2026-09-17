@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd">
+    <info>
+        <title>Apartment exchange requirements</title>
+        <description>What the issued IFC must carry for schedules, phasing and durable reference. NOT the whole model gate - geometry, identity stability and void semantics are checked in Python.</description>
+        <author>aliaksei.babko@innowise.com</author>
+        <date>2026-09-17</date>
+        <purpose>Exchange requirement contract for the generated apartment model</purpose>
+    </info>
+    <specifications>
+        <specification name="Walls carry a type designation" ifcVersion="IFC4" instructions="Schedules group by type. An instance does not carry its type's name, so without a type designation there is nothing to group on.">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="Walls carry a material association" ifcVersion="IFC4" instructions="Layer build-up and material quantities come from the material association on the type.">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="Doors carry a type designation" ifcVersion="IFC4" instructions="Door schedule grouping.">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="Windows carry a type designation" ifcVersion="IFC4" instructions="Window schedule grouping.">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWINDOW</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="Every wall declares its phase" ifcVersion="IFC4" instructions="existing / demolished / new. A rewire makes this load-bearing; an element with no phase cannot be filtered into any issued view.">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property dataType="IFCLABEL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_ApartmentPhase</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>Phase</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="Every wall is in a spatial container" ifcVersion="IFC4" instructions="An element outside the spatial tree vanishes silently in viewers, and wrong containment is a common export defect.">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <partOf relation="IFCRELCONTAINEDINSPATIALSTRUCTURE" cardinality="required">
+                    <entity>
+                        <name>
+                            <simpleValue>IFCBUILDINGSTOREY</simpleValue>
+                        </name>
+                    </entity>
+                </partOf>
+            </requirements>
+        </specification>
+        <specification name="Walls expose their canonical identity" ifcVersion="IFC4" instructions="The GlobalId derives from the canonical uuid; exposing the uuid makes the derivation auditable from the file alone.">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property dataType="IFCLABEL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_ApartmentIdentity</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>CanonicalId</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="No unclassified proxies" ifcVersion="IFC4" instructions="A proxy with no ObjectType says only 'something is here'. The two vent shafts are proxies today and must declare what they are.">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBUILDINGELEMENTPROXY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+    </specifications>
+</ids>
