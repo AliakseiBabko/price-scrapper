@@ -26,8 +26,13 @@ from __future__ import annotations
 
 import argparse
 import os
+import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.join(REPO, "tools"))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from lib.tabular import ValidationError, finite, read_csv  # noqa: E402
 
 TYPED = {"IfcWall": "IfcWallType", "IfcDoor": "IfcDoorType",
          "IfcWindow": "IfcWindowType"}
@@ -113,8 +118,9 @@ def check(model, material_unknown=None):
     insulations = _recorded_insulation()
     import sys as _sys
     _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from typing_pass import _insulation_extent  # noqa: E402
+    from typing_pass import _insulation_extent, _placed_bands  # noqa: E402
     extents = _insulation_extent()
+    placed = _placed_bands()
     for wall in model.by_type("IfcWall"):
         if wall.is_a("IfcWallType"):
             continue
@@ -208,6 +214,48 @@ def check(model, material_unknown=None):
                     "IfcWall %r insulation covering %s is %r, wall_blocks.csv "
                     "records %s" % (wall_name, key, got, want))
 
+        # ⚠️⚠️ AND IT MUST HAVE A BODY THAT MATCHES THE DRAWN BAND. Properties
+        # alone left the DXF showing a physical band and the model showing
+        # nothing - a 2D/3D disagreement standing in for the semantic one. The
+        # body is checked against the SAME placement the drawing renders, so
+        # the two cannot drift apart again without this failing.
+        if coverings[0].Representation is None:
+            problems.append(
+                "IfcWall %r insulation covering has NO body, but the DXF draws "
+                "the band as physical geometry - one view may not show an "
+                "element the other omits" % wall_name)
+            continue
+        want_band = placed.get(wall_name) or []
+        if not want_band:
+            problems.append(
+                "IfcWall %r has an insulation covering but "
+                "v0_insulation_placed.json holds no band - the placement is "
+                "stale" % wall_name)
+            continue
+        try:
+            import ifcopenshell.geom
+            import ifcopenshell.util.shape
+            shape = ifcopenshell.geom.create_shape(
+                ifcopenshell.geom.settings(), coverings[0])
+            verts = ifcopenshell.util.shape.get_vertices(shape.geometry)
+        except Exception as exc:                    # noqa: BLE001
+            problems.append("IfcWall %r insulation covering has a body that "
+                            "will not evaluate: %s" % (wall_name, exc))
+            continue
+        got_box = (min(v[0] for v in verts) * 1000.0,
+                   min(v[1] for v in verts) * 1000.0,
+                   max(v[0] for v in verts) * 1000.0,
+                   max(v[1] for v in verts) * 1000.0)
+        want_box = (min(b[0] for b in want_band), min(b[1] for b in want_band),
+                    max(b[2] for b in want_band), max(b[3] for b in want_band))
+        if any(abs(a - b) > 1.0 for a, b in zip(got_box, want_box)):
+            problems.append(
+                "IfcWall %r insulation covering body is %s, but "
+                "v0_insulation_placed.json - which is what the DXF draws - "
+                "places the band at %s. The two views have drifted"
+                % (wall_name, tuple(round(v, 1) for v in got_box),
+                   tuple(round(v, 1) for v in want_box)))
+
     for wall_name in sorted(extents):
         if wall_name in covered:
             continue
@@ -222,36 +270,40 @@ def check(model, material_unknown=None):
 
 
 def _recorded_thicknesses():
-    """wall id -> solid thickness in mm, from wall_blocks.csv."""
-    import csv as _csv
-    import io as _io
-    path = os.path.join(REPO, "data", "canonical", "wall_blocks.csv")
+    """wall id -> solid thickness in mm, from wall_blocks.csv.
+
+    ⚠️ `thickness_mm` ONLY. `solid_mm` and `clear_mm` are LENGTHS - solid_mm
+    is clear_mm plus the corners a wall owns - and reading them here compared a
+    250 mm thickness against a 1925 mm length.
+
+    ⚠️⚠️ AND THE SHARED READERS, not DictReader + float. This checker shares
+    its inputs with the thing it checks, so a nan it silently dropped would be a
+    nan the compiler silently kept.
+    """
+    from typing_pass import BLOCKS
     out = {}
-    with _io.open(path, encoding="utf-8") as fh:
-        for row in _csv.DictReader(fh):
-            # ⚠️ `thickness_mm` ONLY. `solid_mm` and `clear_mm` are LENGTHS -
-            # solid_mm is clear_mm plus the corners a wall owns - and reading
-            # them here compared a 250 mm thickness against a 1925 mm length.
-            raw = (row.get("thickness_mm") or "").strip()
-            if raw:
-                try:
-                    out[row.get("wall_id")] = float(raw)
-                except ValueError:
-                    pass
+    for row in read_csv(BLOCKS, required=["wall_id", "thickness_mm"]):
+        raw = (row.get("thickness_mm") or "").strip()
+        if not raw:
+            continue
+        value = finite(raw)
+        if value is None or value <= 0:
+            raise ValidationError(
+                "wall %s has thickness_mm %r, which is not a usable thickness"
+                % (row.get("wall_id"), raw))
+        out[row.get("wall_id")] = value
     return out
 
 
 def _recorded_insulation():
-    """wall id -> insulation mm, from wall_blocks.csv - the ONE source."""
-    import csv as _csv
-    import io as _io
-    path = os.path.join(REPO, "data", "canonical", "wall_blocks.csv")
-    out = {}
-    with _io.open(path, encoding="utf-8") as fh:
-        for row in _csv.DictReader(fh):
-            raw = (row.get("insulation_mm") or "").strip()
-            out[row.get("wall_id")] = float(raw) if raw else 0.0
-    return out
+    """wall id -> insulation mm, from wall_blocks.csv - the ONE source.
+
+    ⚠️ Delegates to the compiler's own reader so the checker and the thing it
+    checks cannot disagree about what the file says. What they must disagree
+    about is what the MODEL says.
+    """
+    from typing_pass import _wall_insulation
+    return _wall_insulation()
 
 
 def _recorded_walls():
