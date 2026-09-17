@@ -51,6 +51,35 @@ LENGTH_TOL_MM = 5.0
 AREA_TOL_MM2 = 500.0   # a tenth of the 5,700 mm2 a squared-back mitre restores
 
 
+def _shoelace(points) -> float:
+    """Twice the signed area. Used only to compare two footprints."""
+    total = 0.0
+    for i, (x, y) in enumerate(points):
+        nx, ny = points[(i + 1) % len(points)]
+        total += x * ny - nx * y
+    return total / 2.0
+
+
+def _plan_polygon(model, wall, settings=None):
+    """The wall's footprint corners in mm, deduplicated in XY."""
+    import ifcopenshell.geom
+    if settings is None:
+        settings = ifcopenshell.geom.settings()
+    try:
+        v = _verts(settings, wall)
+    except Exception:                                    # noqa: BLE001
+        return None
+    if v is None or not len(v):
+        return None
+    seen, out = set(), []
+    for x, y in ((round(p[0] * 1000.0, 1), round(p[1] * 1000.0, 1)) for p in v):
+        if (x, y) in seen:
+            continue
+        seen.add((x, y))
+        out.append((x, y))
+    return out
+
+
 def _verts(settings, element) -> np.ndarray:
     """The shape must stay referenced while its buffer is read. See the module note."""
     import ifcopenshell.geom
@@ -112,6 +141,19 @@ def check(ifc_path: Path) -> list[str]:
     # structural lintels (owner, 2026-09-16 - an opening is just an opening, and
     # everything in it is joinery), so a wall runs continuously over its openings
     # and every IfcWall must be one that wall_blocks.csv records.
+    # ⚠️⚠️ A CALCULATION LEG IS NOT A PHYSICAL ELEMENT. structural_assemblies.csv
+    # says A_NW_CORNER "is the physical element for geometry, demolition,
+    # reinforcement and IFC", and that R1a/R1b stay in wall_blocks.csv as
+    # CALCULATION LEGS. So the IFC must carry the assembly and must NOT carry
+    # its legs - the reverse of what this check demanded until 2026-09-17,
+    # which is why the model asserted a joint inside one monolithic pour.
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from assemblies import load_assemblies                    # noqa: E402
+    assemblies = load_assemblies()
+    members = dict((m, a["id"]) for a in assemblies for m in a["members"])
+    assembly_ids = dict((a["id"], a) for a in assemblies)
+
     seen = {}
     for wall in model.by_type("IfcWall"):
         name = wall.Name or ""
@@ -119,12 +161,49 @@ def check(ifc_path: Path) -> list[str]:
 
     for wid in recorded:
         count = seen.get(wid, 0)
+        if wid in members:
+            # ⚠️ The leg must be ABSENT, and its assembly PRESENT.
+            if count:
+                problems.append(
+                    "IFC carries %s as a wall, but it is a CALCULATION LEG of "
+                    "%s - emitting it asserts a joint inside one monolithic "
+                    "casting" % (wid, members[wid]))
+            continue
         if count == 0:
             problems.append("wall %s is in wall_blocks.csv but not in the IFC" % wid)
         elif count > 1:
             problems.append("wall %s appears %d times in the IFC" % (wid, count))
+
+    for aid, assembly in assembly_ids.items():
+        count = seen.get(aid, 0)
+        if count == 0:
+            problems.append(
+                "assembly %s is the PHYSICAL element but the IFC does not "
+                "carry it" % aid)
+        elif count > 1:
+            problems.append("assembly %s appears %d times" % (aid, count))
+        else:
+            # ⚠️ And its footprint must be the canonical one, or this check has
+            # only moved the hole: present, but shaped from anything.
+            wall = next(w for w in model.by_type("IfcWall") if w.Name == aid)
+            got = _plan_polygon(model, wall)
+            want = assembly["footprint"]
+            if got is None:
+                problems.append("assembly %s has no readable footprint" % aid)
+            elif len(got) != len(want):
+                problems.append(
+                    "assembly %s has %d footprint corners, canonical data "
+                    "records %d" % (aid, len(got), len(want)))
+            else:
+                area_got = abs(_shoelace(got))
+                area_want = abs(_shoelace(want))
+                if abs(area_got - area_want) > 1000.0:
+                    problems.append(
+                        "assembly %s footprint area %.0f mm2, canonical "
+                        "%.0f mm2" % (aid, area_got, area_want))
+
     for name in seen:
-        if name not in recorded:
+        if name not in recorded and name not in assembly_ids:
             problems.append("IFC carries wall %s, which wall_blocks.csv does not" % name)
 
     for wall in model.by_type("IfcWall"):

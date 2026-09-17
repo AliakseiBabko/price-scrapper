@@ -39,14 +39,17 @@ EXPECT_PATH = os.path.join(REPO, "data", "canonical", "ifc_exchange_expectations
 
 # spec name -> how many entities it MUST apply to. Authored, not measured:
 # these are the counts the model is required to contain.
+# ⚠️ 24, not 25: R1a and R1b are calculation legs and the IFC now carries the
+# one monolithic casting A_NW_CORNER in their place. The count is authored, so
+# this change had to be made deliberately rather than absorbed silently.
 EXPECTED = {
-    "Walls carry a type designation": 25,
-    "Walls carry a material association": 25,
+    "Walls carry a type designation": 24,
+    "Walls carry a material association": 24,
     "Doors carry a type designation": 6,
     "Windows carry a type designation": 3,
-    "Every wall declares its phase": 25,
-    "Every wall is in a spatial container": 25,
-    "Walls expose their canonical identity": 25,
+    "Every wall declares its phase": 24,
+    "Every wall is in a spatial container": 24,
+    "Walls expose their canonical identity": 24,
     "No unclassified proxies": 2,
 }
 
