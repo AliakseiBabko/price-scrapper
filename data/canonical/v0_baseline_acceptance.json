@@ -10,7 +10,8 @@
   "artefacts": {
     "_Drawings/review/v0_dxf_readback.png": "e43018f8ff3c2227c2615d717e3b2201017a9ad0d3a6b8b64e557a25b24e7d9a",
     "data/cad/dxf/v0_developer_layout.dxf": "7dd218d60c305e17ed7d17fdfab655eb61182f10d7ee9e6f0e1e0cf6ed3e1dd7",
-    "data/canonical/v0_named_walls_placed.json": "98a2d1bdb4eae7ac0174387af2dbe59167ce878ca6dee48b7efbb0a4f00821dc"
+    "data/canonical/v0_named_walls_placed.json": "98a2d1bdb4eae7ac0174387af2dbe59167ce878ca6dee48b7efbb0a4f00821dc",
+    "00_Master/V0_Baseline_Review_Sheet.md": "aeada404f1fbac0b9f770c19b017ed3414101c91169869736fd719a7bd015626"
   },
   "!!_THE_HASHES_ARE_THE_SCOPE": "!! Approval is recorded against these BYTES, not against 'the drawing'. If any artefact changes, the acceptance LAPSES. !! AND THAT IS ENFORCED, NOT PROMISED: tools/layout/check_baseline_acceptance.py recomputes all three hashes on every run, compare_variants.py prints a PROVISIONAL banner when they do not match, and --require-accepted refuses outright. This sentence was prose alone until 2026-09-17, when nothing in tools/ or scripts/ read this file at all.",
   "scopes": {
@@ -19,10 +20,20 @@
       "accepted_on": null,
       "notes": ""
     },
-    "ventilation_shafts_v1_v2": {
+    "ventilation_shaft_positions": {
       "state": "pending",
       "accepted_on": null,
       "notes": ""
+    },
+    "ventilation_shaft_v2_footprint": {
+      "state": "pending",
+      "accepted_on": null,
+      "notes": ""
+    },
+    "ventilation_shaft_v1_footprint": {
+      "state": "pending",
+      "accepted_on": null,
+      "notes": "!! CANNOT BE ACCEPTED TODAY. V1's footprint is unestablished - the vault records that the basic-plan reading does not reconcile and it NEEDS A CAREFUL RE-MEASUREMENT. Split out of the old combined shaft scope on 2026-09-17 so the rest of the baseline is not held hostage to it, and so it cannot be swept in by an approval of 'the shafts'."
     },
     "loggia_outline_and_glazing": {
       "state": "pending",
@@ -45,5 +56,15 @@
   "enforced_by": [
     "tools/layout/check_baseline_acceptance.py",
     "scripts/baseline_acceptance_selftest.py"
-  ]
+  ],
+  "!!_THE_REVIEW_SHEET_IS_PINNED_TOO": "!! It DEFINES what each accepted scope means - above all that accepting the shaft scopes does NOT settle V1's footprint. Unpinned, its wording could change after acceptance and quietly widen what was agreed.",
+  "open_measurements": [
+    {
+      "topic": "v1_footprint",
+      "state": "open",
+      "blocks": "any comparison or layout decision that turns on V1's CLEARANCE. V1's POSITION is separately reviewable and its size is not.",
+      "evidence": "wall_materials.json ventilation_shafts_as_a_class / CORRECTION_floor_band_2026_09_04 / V1_flagged"
+    }
+  ],
+  "!!_ACCEPTANCE_MUST_UNBLOCK_WHAT_IT_CLAIMS_TO": "!! The comparison reads data/outputs/variants/v0-existing/spec.json, NOT the accepted DXF - and that spec is an early schematic carrying its own `_retired` warning: 18 walls against 25, no ventilation shafts, a rectangular loggia. Until it is rebuilt from the resolved geometry, accepting the DXF would unblock a sheet built from the superseded file. check_baseline_acceptance.py now refuses on exactly this."
 }

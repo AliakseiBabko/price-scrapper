@@ -19,6 +19,7 @@ Approval is recorded against these bytes, not against "the drawing". If any of t
 | `_Drawings/review/v0_dxf_readback.png` — **the picture to look at** | `e43018f8ff3c2227` |
 | `data/cad/dxf/v0_developer_layout.dxf` | `7dd218d60c305e17` |
 | `data/canonical/v0_named_walls_placed.json` | `98a2d1bdb4eae7ac` |
+| **this sheet** — `00_Master/V0_Baseline_Review_Sheet.md` | pinned; it defines what each scope MEANS |
 
 **Commit:** `82b8c86`. The acceptance record is `data/canonical/v0_baseline_acceptance.json`, `pending_owner_review` until the owner says otherwise.
 
@@ -101,9 +102,31 @@ These are places where the **drawn** length deliberately differs from the **reco
 
 ---
 
-## How to accept
+## ⚠⚠ NOT YET READY FOR SIGNATURE
 
-Say so, naming anything from the five sections above that is **wrong** — a correction is more useful than a blanket yes, and a partial acceptance is legitimate: the record has a slot per section. On acceptance the five scopes flip from `pending` to `accepted` against the hashes above, `planned` and `not_field_verified` stay, and `compare_variants.py` becomes decision-bearing.
+**Do not accept this yet.** One blocker is structural and it is not about the drawing:
+
+> **`compare_variants.py` does not consume the geometry being reviewed.** It reads `data/outputs/variants/v0-existing/spec.json`, which carries its own `_retired` warning — **18 walls against 25, no ventilation shafts, a rectangular loggia**, and opening verticals that were invented. Accepting the DXF today would unblock a sheet built from the superseded schematic, which is worse than not accepting at all.
+
+`tools/layout/check_baseline_acceptance.py` now refuses on exactly that, so the mistake cannot be made silently. **The required work is to rebuild `v0-existing/spec.json` from the resolved geometry** — the same compiler the DXF and the IFC come from — after which this sheet becomes signable.
+
+### The scopes, and why the shafts are split into three
+
+| scope | what accepting it means |
+| :--- | :--- |
+| `wall_and_opening_arrangement` | §1 |
+| `ventilation_shaft_positions` | **where** V1 and V2 stand |
+| `ventilation_shaft_v2_footprint` | V2 is **421 × 685** on this floor |
+| `ventilation_shaft_v1_footprint` | **⚠ CANNOT BE ACCEPTED** — V1's size is unestablished |
+| `loggia_outline_and_glazing` | §3 |
+| `m2_and_m6b_geometry` | §4 |
+| `open_extent_exceptions` | §5 |
+
+**The shaft scope was one scope and is now three.** Accepting "the shafts" would have let the baseline become decision-bearing while V1's footprint is explicitly unestablished, and any comparison turning on V1's clearance would then have read as settled. `v1_footprint` is additionally recorded as an **open measurement that blocks its own topic** — so even a fully accepted baseline still refuses V1-clearance questions, and the comparison sheet prints `BLOCKED: v1_footprint` on its face.
+
+### How acceptance will work, once it is offered
+
+Say so, naming anything from the sections above that is **wrong** — a correction is more useful than a blanket yes, and partial acceptance is legitimate: there is a slot per scope. On acceptance the scopes flip against the pinned hashes, `planned` and `not_field_verified` stay, and the comparison stops printing PROVISIONAL.
 
 > [!IMPORTANT]
-> **What happens next is NOT "select v1".** The comparison exists to identify **which of v1's partitions actually earn their demolition and rebuild cost** — measured on one consistent basis for the first time. Some may; some may not. That is the question the baseline unblocks, and it is a different question from which layout is nicer.
+> **What happens next is NOT "select v1".** The comparison exists to identify **which of v1's partitions actually earn their demolition and rebuild cost** — measured on one consistent basis for the first time. Some may; some may not. That is a different question from which layout is nicer.

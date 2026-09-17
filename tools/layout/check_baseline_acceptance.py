@@ -36,9 +36,37 @@ import os
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RECORD = os.path.join(REPO, "data", "canonical", "v0_baseline_acceptance.json")
 
-SCOPES = ("wall_and_opening_arrangement", "ventilation_shafts_v1_v2",
+# ⚠⚠ V1's FOOTPRINT IS ITS OWN SCOPE, and it is the reason the shaft scope
+# was split. Accepting "shafts" as one thing would have let a baseline become
+# decision-bearing while V1's size is explicitly unestablished - the vault says
+# it NEEDS A CAREFUL RE-MEASUREMENT - and any comparison turning on V1's
+# clearance would then have read as settled.
+SCOPES = ("wall_and_opening_arrangement",
+          "ventilation_shaft_positions",
+          "ventilation_shaft_v2_footprint",
+          "ventilation_shaft_v1_footprint",
           "loggia_outline_and_glazing", "m2_and_m6b_geometry",
           "open_extent_exceptions")
+
+# ⚠⚠ THE EXACT SET, NOT MERELY A NON-EMPTY ONE. Removing
+# `v0_named_walls_placed.json` from an otherwise accepted record returned
+# `(True, [])`: the loop only checked the artefacts that were STILL listed, so
+# dropping one silently removed it from the scope of the approval. A pin you
+# can shrink is not a pin.
+# ⚠ THE REVIEW SHEET IS PINNED TOO. It defines what each accepted scope
+# MEANS - above all the V1 exclusion - so its wording could otherwise change
+# without the acceptance lapsing.
+REQUIRED_ARTEFACTS = (
+    "_Drawings/review/v0_dxf_readback.png",
+    "data/cad/dxf/v0_developer_layout.dxf",
+    "data/canonical/v0_named_walls_placed.json",
+    "00_Master/V0_Baseline_Review_Sheet.md",
+)
+
+# The variant specs a comparison would read. A RETIRED spec means owner
+# acceptance of the DXF unblocks nothing, because the comparison does not
+# consume the thing that was accepted.
+VARIANT_SPECS = ("data/outputs/variants/v0-existing/spec.json",)
 
 BANNER = ("PROVISIONAL - v0 baseline NOT accepted by the owner. "
           "Not decision-bearing.")
@@ -54,7 +82,7 @@ def load(path=RECORD):
         return json.load(fh)
 
 
-def decision_bearing(record=None):
+def decision_bearing(record=None, variant_specs=None):
     """(bool, reasons). The ONLY entitled answer to 'may this drive a choice'."""
     record = load() if record is None else record
     reasons = []
@@ -78,9 +106,16 @@ def decision_bearing(record=None):
     # artefact regenerated after acceptance must invalidate it, and the only
     # way to know is to read the bytes again.
     artefacts = record.get("artefacts") or {}
-    if not artefacts:
-        reasons.append("the record pins NO artefacts, so acceptance would "
-                       "apply to nothing in particular")
+    missing_pins = [a for a in REQUIRED_ARTEFACTS if a not in artefacts]
+    extra_pins = [a for a in artefacts if a not in REQUIRED_ARTEFACTS]
+    if missing_pins:
+        reasons.append(
+            "the record does not pin %s. The required set is EXACT - a pin "
+            "that can be shrunk silently removes an artefact from the scope of "
+            "the approval" % ", ".join(sorted(missing_pins)))
+    if extra_pins:
+        reasons.append("the record pins %s, which is not in the required set"
+                       % ", ".join(sorted(extra_pins)))
     for relative, accepted_hash in sorted(artefacts.items()):
         path = os.path.join(REPO, relative)
         if not os.path.exists(path):
@@ -101,12 +136,50 @@ def decision_bearing(record=None):
     if (record.get("provenance") or "") != "planned":
         reasons.append("provenance is %r, expected `planned`"
                        % record.get("provenance"))
+
+    # ⚠⚠ ACCEPTANCE MUST UNBLOCK THE THING IT CLAIMS TO. The comparison reads
+    # the VARIANT SPEC, not the DXF, and v0-existing/spec.json is an early
+    # schematic that carries its own `_retired` warning - 18 walls against 25,
+    # no ventilation shafts, a rectangular loggia. Accepting the new geometry
+    # would have unblocked a sheet built from the retired one. That is the
+    # retired-schematic failure the vault already has a name for.
+    for relative in (VARIANT_SPECS if variant_specs is None
+                     else variant_specs):
+        path = os.path.join(REPO, relative)
+        if not os.path.exists(path):
+            reasons.append("%s does not exist, so the comparison has no "
+                           "baseline to read" % relative)
+            continue
+        with io.open(path, encoding="utf-8") as fh:
+            spec = json.load(fh)
+        if "_retired" in spec:
+            reasons.append(
+                "%s is RETIRED (%s). The comparison consumes THIS, not the "
+                "accepted DXF, so acceptance would unblock a sheet built from "
+                "a superseded schematic"
+                % (relative, str(spec["_retired"])[:70]))
     return (not reasons), reasons
 
 
-def banner(record=None):
+def blocked_topics(record=None):
+    """Topics that stay blocked even when the baseline is accepted.
+
+    ⚠ A scope may be accepted while a measurement inside it is still open -
+    V1's footprint is exactly that. Accepting the shaft POSITIONS does not
+    establish V1's SIZE, so any comparison turning on V1's clearance must
+    refuse regardless of the overall acceptance state.
+    """
+    record = load() if record is None else record
+    out = []
+    for item in (record.get("open_measurements") or []):
+        if (item.get("state") or "") != "resolved":
+            out.append("%s - %s" % (item.get("topic"), item.get("blocks")))
+    return out
+
+
+def banner(record=None, variant_specs=None):
     """The line a consumer must print when the baseline is not accepted."""
-    ok, _reasons = decision_bearing(record)
+    ok, _reasons = decision_bearing(record, variant_specs)
     return None if ok else BANNER
 
 
