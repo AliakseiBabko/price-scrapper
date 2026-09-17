@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "pending_owner_review",
+  "!!_WHO_CAN_GRANT_THIS": "!! ONLY THE OWNER. A technical review can establish that the reconstruction is internally consistent and that every gate passes; it cannot establish that the reconstruction matches what the owner knows the apartment to be. Those are different claims and only the second unblocks the layout decision. No agent may set this to accepted.",
+  "!!_WHAT_ACCEPTANCE_DOES_NOT_MEAN": "!! NOT AS-BUILT. What is accepted is that the PLANNED geometry is a faithful reading of the developer's drawings. `provenance` stays `planned` and `field_verified` stays false afterwards, and the +30/-45 mm build tolerance in dimension_tolerance.json continues to apply. Nothing here has been measured on site.",
+  "review_sheet": "00_Master/V0_Baseline_Review_Sheet.md",
+  "commit": "82b8c86",
+  "provenance": "planned",
+  "field_verified": false,
+  "artefacts": {
+    "_Drawings/review/v0_dxf_readback.png": "e43018f8ff3c2227c2615d717e3b2201017a9ad0d3a6b8b64e557a25b24e7d9a",
+    "data/cad/dxf/v0_developer_layout.dxf": "7dd218d60c305e17ed7d17fdfab655eb61182f10d7ee9e6f0e1e0cf6ed3e1dd7",
+    "data/canonical/v0_named_walls_placed.json": "98a2d1bdb4eae7ac0174387af2dbe59167ce878ca6dee48b7efbb0a4f00821dc"
+  },
+  "!!_THE_HASHES_ARE_THE_SCOPE": "!! Approval is recorded against these BYTES, not against 'the drawing'. If any artefact changes, the acceptance LAPSES and the review sheet must be re-run. This is what stops an approval quietly transferring onto geometry the owner never saw.",
+  "scopes": {
+    "wall_and_opening_arrangement": {
+      "state": "pending",
+      "accepted_on": null,
+      "notes": ""
+    },
+    "ventilation_shafts_v1_v2": {
+      "state": "pending",
+      "accepted_on": null,
+      "notes": ""
+    },
+    "loggia_outline_and_glazing": {
+      "state": "pending",
+      "accepted_on": null,
+      "notes": ""
+    },
+    "m2_and_m6b_geometry": {
+      "state": "pending",
+      "accepted_on": null,
+      "notes": ""
+    },
+    "open_extent_exceptions": {
+      "state": "pending",
+      "accepted_on": null,
+      "notes": ""
+    }
+  },
+  "consequence_while_pending": "v0 may NOT be promoted into the sheet the layout decision is read off - tools/cad/PROVISIONAL_MODEL_POLICY.md. compare_variants.py still RUNS; its output is simply not decision-bearing yet.",
+  "what_acceptance_unblocks": "The single-basis v0/v1 comparison. !! AND THAT COMPARISON IS NOT A SELECTION OF v1. Its purpose is to identify which of v1's partitions actually earn their demolition and rebuild cost, measured on one consistent basis for the first time - a different question from which layout is nicer."
+}
