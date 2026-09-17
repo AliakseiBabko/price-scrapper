@@ -747,6 +747,21 @@ def build(output: Path, manifest_path: Path) -> dict:
 
     manifest["assumptions"].extend(assumed)
 
+    # ⚠️⚠️ STABLE IDENTITY, APPLIED LAST. Until 2026-09-17 every rebuild minted
+    # a fresh GlobalId for the same wall, because `root.create_entity` and the
+    # api helpers mint randomly. This rewrites EVERY IfcRoot - products,
+    # property sets and relationships alike - from the committed canonical
+    # registry, so the issued model can carry a durable annotation or diff.
+    from identity import apply_identities  # noqa: E402
+    identity_manifest = apply_identities(
+        model, lambda e: "%s:%s" % (e.is_a(), e.Name or ""))
+    manifest["identity"] = {
+        "entries": len(identity_manifest),
+        "registry": "data/canonical/ifc_identity.csv",
+        "note": ("GlobalId derives ONLY from the canonical uuid; relationships "
+                 "and property sets derive from their endpoints/owner."),
+    }
+
     output.parent.mkdir(parents=True, exist_ok=True)
     model.write(str(output))
     manifest["ifc"] = str(output)
