@@ -228,7 +228,12 @@ Concrete leaf types, not the generic ones: **`IfcOutlet`, `IfcLightFixture`, `If
 
 `tools/layout/resolve_v0_geometry.py` publishes it, and both the IFC generator and the DXF serialiser consume it, so one meaning holds across every representation.
 
-**A locator is `host_id` + `face_ref` + `along_face_mm` + a vertical, with the datum explicit.**
+> [!IMPORTANT]
+> ⚠️ **AMENDED 2026-09-17. A locator is a TYPED UNION, not one shape.** This section previously said *"a locator is `host_id` + `face_ref` + `along_face_mm` + a vertical"*, full stop. **That is wall-only, and it is too narrow**: `L1`–`L7` and `F1` sit on a ceiling, where `along_face_mm` on a wall face is meaningless. A single shape would have forced a ceiling point to be described as a position along a wall, which is not where it is.
+
+Every locator declares a **`locator_kind`**, and the validator **dispatches on it**. There are two kinds now, and the union is open.
+
+### `wall_face` — a point on a named wall face
 
 | Part | Contract |
 | :--- | :--- |
@@ -237,13 +242,33 @@ Concrete leaf types, not the generic ones: **`IfcOutlet`, `IfcLightFixture`, `If
 | resolution | `locate_on_face(faces, face_ref, along_face_mm)`. **It RAISES on an unknown face rather than defaulting** — defaulting is how a socket ends up on the wrong side of a wall. |
 | coordinates | `frame.drawing_to_model` / `model_to_drawing`, on the **base-wall datum**, published and gated. |
 
+### `surface_local` — a point on a ceiling or other support surface
+
+| Part | Contract |
+| :--- | :--- |
+| `support_ref` | A **named** ceiling or support surface. ⚠️ **The host is NOT defaulted to `IfcSlab`.** A cable may emerge from the structural slab while the eventual luminaire sits on a suspended or finished ceiling — **those are different facts about different elements**, and the legacy evidence says only *"ceiling"*, which establishes neither. Defaulting would invent the answer. |
+| `surface_role` | Which surface of the support: `structural_slab_underside`, `finished_ceiling`, … A `support_ref` without a role is ambiguous by exactly the amount above. |
+| `u_mm`, `v_mm` | Coordinates **in that surface's declared frame** — declared, because a surface has no natural first endpoint the way an ordered face does. |
+| `normal_offset_mm` | Offset along the surface normal: flush, recessed, or pendant drop. |
+| `space_ref` | Optional. The room the point is in, where that is the meaningful containment. |
+
+⚠️ **Legacy XY literals are NOT `u_mm`/`v_mm`.** The values in `LIGHT` and at `F1` are legacy plan/pixel coordinates in the old sheet's frame. **They must never be copied numerically into a `surface_local` locator** — they would read as millimetres in a declared surface frame and be wrong by an unknown transform. Any position carried forward is re-derived, and stays `candidate` / `derived` until it is.
+
+### The validator DISPATCHES; it never skips
+
+| `locator_kind` | Checks |
+| :--- | :--- |
+| `wall_face` | the host face exists; the point lies on its **usable extent**; **no opening collision** (below). |
+| `surface_local` | the support exists; the point lies inside the **intended ceiling region**; no shaft or opening exclusion. |
+| anything else | ⛔ **FAIL.** An unknown or unsupported kind is a hard error, **never a skip.** A validator that quietly passes what it does not understand reports coverage it does not have — and with the wall-only contract, seven lights and a detector would have been silently unvalidatable while the report said everything checked out. |
+
 ### ⛔ The one service-specific validation still to build
 
 **A locator that resolves on a face does NOT prove usable wall exists there.**
 
 `locate_on_face` answers *"where is this point on this face"*. It does not ask whether that point is inside a hosted void. A socket at 1.5 m on the face carrying O3 — sill 266, head 2251 — resolves cleanly and is **inside the window**.
 
-**So the locator validator must reject any terminal whose `face_ref` + along-position + vertical extent intersects a hosted opening void.** The compiler publishes those voids, so it is buildable; it belongs with the service migration, and it must be seeded before anything is generated.
+**So the `wall_face` branch must reject any terminal whose `face_ref` + along-position + vertical extent intersects a hosted opening void.** The compiler publishes those voids, so it is buildable; it belongs with the service migration, and it must be seeded before anything is generated. The `surface_local` branch needs its own exclusion — a ceiling point inside a shaft footprint is the same defect on a different surface — and **the seed for an unknown `locator_kind` must fail too**, because that is the one that keeps the union honest as it grows.
 
 ### Still genuinely unsettled
 
@@ -291,6 +316,18 @@ An approval record carries: **subject / property, actor, decision, date, evidenc
 ### 7.5 Succession is a relation, not a single field
 
 `superseded_by` as one value cannot express a **split** (one recorded group becomes three sockets) or a **merge**. Both are expected here: `E-KL-SOC-K` is one observation of three outlets. **A record may legitimately have several successors.**
+
+### 7.6 The locator is a typed union (2026-09-17)
+
+§6 declared a single locator shape — `host_id` + `face_ref` + `along_face_mm` + a vertical — as though every service sat on a wall. **Seven ceiling light points and a fire detector do not.** `along_face_mm` on a wall face has no meaning for a ceiling point, so the one-shape contract would have forced each of them to be described as a position along a wall it is not on.
+
+Three things follow, and §6 now carries all of them:
+
+1. **`locator_kind` is declared and dispatched on**, with `wall_face` and `surface_local` as the first two members and the union left open.
+2. **The ceiling host is not defaulted to `IfcSlab`.** A cable emerging from the structural slab and a luminaire on a finished or suspended ceiling are different facts about different elements; the evidence says *"ceiling"* and settles neither. `surface_role` is what carries the distinction, and it is authored, not inferred.
+3. **An unknown locator kind fails.** The failure mode being closed is a validator that skips what it does not recognise: under the old contract the eight ceiling items were simply outside anything the face-based validator could check, and nothing would have said so.
+
+**And the legacy XY literals are not coordinates in this frame.** They are old plan/pixel values and may not be copied numerically into `u_mm`/`v_mm`.
 
 ---
 
