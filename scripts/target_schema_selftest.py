@@ -117,7 +117,7 @@ def main() -> int:
     # our flat is how comparable-flat evidence becomes a field-verified fact.
     expect("an `ours` observed assertion with no `ours` observation is caught",
            check(seed("ASR-EC-LIGHT-OURS", knowledge_basis="observed")), True,
-           "§3.0f")
+           "names no observation scoped to ours")
     # and the typed scope can express what the enumeration could not
     expect("a unit_type scope is accepted",
            check(seed("ASR-EC-LIGHT-OURS", scope_kind="unit_type",
@@ -142,7 +142,7 @@ def main() -> int:
 
     # 12 - a row in the wrong table
     expect("a concept in the wrong table is caught",
-           check(seed("REL-V2-ALIAS", target_concept="occurrence")), True,
+           check(seed("REL-V-2", target_concept="occurrence")), True,
            "do not apply to it")
 
     # 13 - an undeclared vocabulary value
@@ -159,6 +159,49 @@ def main() -> int:
     expect("a missing required column is caught",
            check(seed("OCC-W6", placement_state="")), True,
            "missing required column")
+
+    # REVIEW ROUND: the rules added after the Codex review
+
+    # EVERY ASSERTION NAMES ITS SUBJECT. 90 of 108 named nothing.
+    expect("an assertion with no subject is caught",
+           check(seed("ASR-W6-VERT", subject_key="", subject_element="")),
+           True, "names no subject")
+    expect("an assertion naming BOTH subjects is caught",
+           check(seed("ASR-W6-VERT", subject_element="G7")), True,
+           "about one thing")
+    expect("a subject_element nothing declares is caught",
+           check(seed("ASR-3-zero-outlets-on-mc", subject_element="G99")),
+           True, "neither a wall")
+
+    # AN ALIAS MUST RESOLVE, OR SAY WHY IT CANNOT.
+    expect("an alias pointing at nothing is caught",
+           check(seed("REL-V-1", target_key="OCC-NOWHERE")), True,
+           "preserves no identity")
+    expect("an alias with neither target nor pending is caught",
+           check(seed("REL-V-2", target_pending="")), True,
+           "must either resolve or say why")
+
+    # ROUTES HAD NO CONTRACT AT ALL.
+    expect("a route missing a required field is caught",
+           check(seed("RTE-SEWER", route_kind="")), True,
+           "missing required column")
+    expect("an undeclared route_state is caught",
+           check(seed("RTE-SEWER", route_state="probably")), True,
+           "not declared")
+    expect("as_built claimed on a derived basis is caught",
+           check(seed("RTE-SEWER", route_state="as_built")), True,
+           "never derived")
+
+    # THE LAUNDERING GATE NOW HAS A VALID POSITIVE PATH, which the previous
+    # version did not: it searched for observation keys inside
+    # `source_locators`, where they can never legitimately appear.
+    ours_obs = dict(find("OBS-MC-EMPTY-109"), migration_key="OBS-OURS-SEED",
+                    scope_ref="ours")
+    rows_ok = seed("ASR-3-zero-outlets-on-mc", knowledge_basis="observed",
+                   observation_refs="OBS-OURS-SEED") + [ours_obs]
+    expect("an observation scoped to OURS legitimises `observed`",
+           check(rows_ok), False)
+
 
     print("\n%d failure(s)" % failures)
     return 1 if failures else 0

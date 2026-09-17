@@ -1,11 +1,16 @@
-migration_key,source_locators,target_concept,relation_kind,from_ref,to_ref,notes
-REL-V2-ALIAS,legacy_generator:tag:V-2,relation,alias_of,V-2,legacy_csv:service_outlets:SV-K,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence. H=218 on the tag is 2180 against SV-K's MEASURED 2177, and both cite 9e9b. Minting a second record would double the grille."
-REL-ROUTES-DN50,legacy_generator:ROUTES:DN50,relation,alias_of,DN50,legacy_generator:SEWER,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
-REL-ROUTES-GVS-v,legacy_generator:ROUTES:ГВС-в,relation,alias_of,ГВС-в,legacy_generator:BATH_W,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
-REL-ROUTES-DN50-v,legacy_generator:ROUTES:DN50-в,relation,alias_of,DN50-в,legacy_generator:BATH_S,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
-REL-PIPES-P-S,legacy_generator:PIPES:P-S,relation,alias_of,P-S,legacy_csv:service_outlets:SS-K,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
-REL-PIPES-P-H,legacy_generator:PIPES:P-H,relation,alias_of,P-H,legacy_csv:service_outlets:SW-K,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
-REL-PIPES-P-C,legacy_generator:PIPES:P-C,relation,alias_of,P-C,legacy_csv:service_outlets:SW-K,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
-REL-P1SVC-SS-B,legacy_generator:P1SVC:SS-B,relation,alias_of,SS-B,legacy_csv:service_outlets:SS-B,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
-REL-P1SVC-SH-B,legacy_generator:P1SVC:SH-B,relation,alias_of,SH-B,legacy_csv:service_outlets:SH-B,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
-REL-tag-SV-VT,legacy_generator:tag:SV-VT,relation,alias_of,SV-VT,legacy_csv:service_outlets:SV-VT,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence."
+migration_key,source_locators,target_concept,relation_kind,legacy_id,target_key,target_pending,notes
+REL-V-2,legacy_generator:tag:V-2,relation,alias_of,V-2,,yes,"Displays SV-K, the kitchen grille: H=218 on the tag against SV-K's MEASURED 2177, both citing 9e9b. no target identity exists yet: the concept is evidenced only by a comparable flat, so no occurrence is minted (design §3.0f). The alias resolves when one is."
+REL-V-1,legacy_generator:tag:V-1,relation,alias_of,V-1,OCC-SV-T,,"⚠ MISSING UNTIL NOW - the ledger adjudicated this as an alias and no relation existed. V-1 was INTENDED to display SV-T. Its H=218 and its photo citations do NOT migrate: both photographs show the KITCHEN grille on V2, and SV-T's own row says 'not yet measured'."
+REL-SV-VT,legacy_generator:tag:SV-VT,relation,alias_of,SV-VT,OCC-SV-VT,,The drawing tag for the canonical transfer opening.
+REL-SW-B-H,legacy_generator:P1SVC:SW-B-H,relation,alias_of,SW-B-H,OCC-SW-B-H,,⚠ MISSING UNTIL NOW. The hot member of the SW-B assembly.
+REL-SW-B-C,legacy_generator:P1SVC:SW-B-C,relation,alias_of,SW-B-C,OCC-SW-B-C,,⚠ MISSING UNTIL NOW. The cold member of the same assembly.
+REL-SS-B,legacy_generator:P1SVC:SS-B,relation,alias_of,SS-B,OCC-service-outlets-SS-B,,The DN110 main stack in P1.
+REL-SH-B,legacy_generator:P1SVC:SH-B,relation,alias_of,SH-B,,yes,"The insulated riser. no target identity exists yet: the concept is evidenced only by a comparable flat, so no occurrence is minted (design §3.0f). The alias resolves when one is. SH-B's existence here is candidate and its function unconfirmed, so it has no occurrence to alias."
+REL-P-S,legacy_generator:PIPES:P-S,relation,alias_of,P-S,,yes,"Displays SS-K, the kitchen DN50 connection. no target identity exists yet: the concept is evidenced only by a comparable flat, so no occurrence is minted (design §3.0f). The alias resolves when one is."
+REL-P-H,legacy_generator:PIPES:P-H,relation,alias_of,P-H,,yes,"The hot member of the SW-K take-off pair. no target identity exists yet: the concept is evidenced only by a comparable flat, so no occurrence is minted (design §3.0f). The alias resolves when one is."
+REL-P-C,legacy_generator:PIPES:P-C,relation,alias_of,P-C,,yes,"The cold member of the same pair. no target identity exists yet: the concept is evidenced only by a comparable flat, so no occurrence is minted (design §3.0f). The alias resolves when one is."
+REL-DN50,legacy_generator:ROUTES:DN50,relation,alias_of,DN50,RTE-SEWER,,"`DN50` IS the `SEWER` object - the literal passes the same list, not a copy of it."
+REL-ГВС-в,legacy_generator:ROUTES:ГВС-в,relation,alias_of,ГВС-в,RTE-BATH-W,,Passes the `BATH_W` object directly.
+REL-DN50-в,legacy_generator:ROUTES:DN50-в,relation,alias_of,DN50-в,RTE-BATH-S,,Passes the `BATH_S` object directly.
+REL-two-sewer-stacks,legacy_comment:10#sewer_stacks_restated,relation,duplicate_of,two sewer stacks,ASR-6-two-vertical-dn110-stacks,,"⚠ WAS WRONGLY AN ASSERTION, and my own new duplicate->relation check caught it. The claim RESTATES legacy_comment:6#two_vertical_dn110_stacks; it is carried by that record, not by a second one saying the same thing."
+REL-SW-B-heights,legacy_comment:11#heights_from_csv,relation,duplicate_of,SW-B heights,OCC-SW-B-H,,"⚠ WAS WRONGLY AN ASSERTION. A `duplicate` adjudication produces a RELATION, not a property claim - the heights are carried by legacy_csv:service_outlets:SW-B, not by a second record stating them again."

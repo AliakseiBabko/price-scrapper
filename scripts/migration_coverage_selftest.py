@@ -68,8 +68,21 @@ def main() -> int:
     expect("all adjudicated with ZERO targets must FAIL", problems, True,
            "NOT CITED by any target record")
 
-    # 2 - the same ledger, now actually carried forward
-    covered = [target("k%d" % i, loc)
+    # 2 - the same ledger, now actually carried forward.
+    # ⚠️ A `duplicate` locator needs a RELATION, not just any target - so the
+    # synthetic coverage has to emit the RIGHT CONCEPT. Blanket `observation`
+    # targets are what let the real alias adjudications go unsatisfied.
+    adjudications = dict([(r["locator"], (r.get("adjudication") or "").strip())
+                          for r in accepted]
+                         + [(c["claim_locator"],
+                             (c.get("adjudication") or "").strip())
+                            for c in claims])
+
+    def concept_for(loc):
+        return ("relation" if adjudications.get(loc) == "duplicate"
+                else "observation")
+
+    covered = [target("k%d" % i, loc, concept_for(loc))
                for i, loc in enumerate(in_scope_keys(accepted, claims))]
     problems, _ = check(accepted, target_records=covered, require_complete=True,
                         claim_rows=claims, lock=lock)
@@ -199,6 +212,21 @@ def main() -> int:
                         lock=None)
     expect("a `decomposed` parent with no claims", problems, True,
            "has no claims")
+
+    # ⚠️ 10b - A `duplicate` SATISFIED BY THE WRONG KIND OF TARGET.
+    # Coverage counted ANY target citing a locator, so three real alias
+    # adjudications (SW-B-H, SW-B-C, V-1) had NO relation at all and the gate
+    # passed. `duplicate` means "carried elsewhere", and its output is an
+    # alias.
+    dup = next((loc for loc, adj in adjudications.items()
+                if adj == "duplicate"), None)
+    if dup:
+        wrong = [t for t in covered if t["source_locators"] != dup]
+        wrong.append(target("dup-as-observation", dup, "observation"))
+        problems, _ = check(accepted, target_records=wrong,
+                            require_complete=True, claim_rows=claims, lock=lock)
+        expect("a `duplicate` with no RELATION target is caught", problems,
+               True, "no RELATION target cites it")
 
     # ⚠️ 11b - THE REVIEWED-MULTIPLICITY GAP, seeded against the REAL draft
     # records. The split rules used to read only the PARSED multiplicity, and

@@ -297,6 +297,24 @@ def check(ledger_rows, target_records=None, require_complete=False,
                 % (len(orphaned), ", ".join(sorted(orphaned)[:5])
                    + (" ..." if len(orphaned) > 5 else "")))
 
+    # ⚠️ 4b - AN ADJUDICATION MUST BE SATISFIED BY THE RIGHT KIND OF TARGET.
+    # Coverage counted ANY target citing a locator, so `duplicate` - which
+    # means "the same fact is already carried elsewhere", and whose whole
+    # output is an alias relation - was satisfied by an unrelated assertion.
+    # Three alias adjudications (SW-B-H, SW-B-C, V-1) had NO relation at all
+    # and the gate passed.
+    for locator, row in seen.items():
+        if (row.get("adjudication") or "").strip() != "duplicate":
+            continue
+        kinds = set((r.get("target_concept") or "").strip()
+                    for r in cited.get(locator, []))
+        if kinds and "relation" not in kinds:
+            problems.append(
+                "source %s is adjudicated `duplicate` but no RELATION target "
+                "cites it - a duplicate is carried forward as an alias, and "
+                "citing it from some other record does not satisfy that"
+                % locator)
+
     # 5 + 6 - splits
     for locator, row in seen.items():
         # ⚠️ THE REVIEWED MULTIPLICITY WINS, AND THIS WAS A LIVE DEFECT.
