@@ -295,6 +295,23 @@ Every locator declares a **`locator_kind`**, and the validator **dispatches on i
 
 ⚠️ **Legacy XY literals are NOT `u_mm`/`v_mm`.** The values in `LIGHT` and at `F1` are legacy plan/pixel coordinates in the old sheet's frame. **They must never be copied numerically into a `surface_local` locator** — they would read as millimetres in a declared surface frame and be wrong by an unknown transform. Any position carried forward is re-derived, and stays `candidate` / `derived` until it is.
 
+### `zone_local` — a FUTURE union member, deliberately not built yet
+
+Several services stand **inside a zone**, not on a face: the `P1` wet-riser group holds `SW-B-H`, `SW-B-C`, `SS-B` and `SH-B`; `P2` holds `SS-K2`. None of them is mounted on a wall.
+
+> ⚠️ **`contained_in_zone=P1` and `zone_local(P1, u, v)` are DIFFERENT CLAIMS.** The first says where an occurrence belongs semantically; the second asserts an actual position within a published zone frame. **Promoting the first into the second would invent precision**, because the compiler publishes neither zone footprints nor local frames.
+
+So today those occurrences are `unlocated` **plus a containment assertion**, and that is the honest shape. The eventual contract requires all of: `zone_ref`; a **compiler-published footprint and declared local frame**; `u_mm` / `v_mm`; a **separate** vertical assertion and datum; and envelope containment within the zone. Until that registry exists, production validation reports **`zone geometry unavailable`**, exactly as `surface_local` does.
+
+⚠️ **Neither zone is fit to be a validator reference yet**, and for different reasons:
+
+| | State |
+| :--- | :--- |
+| `P1` | 343 × 803 agrees with the legacy sheet, but its **coordinates live only in drawing code** — nothing canonical publishes where it is |
+| `P2` | was a **three-way contradiction**: `plumbing_anchors.csv` said 450 × 225, `wall_materials.json` recorded the owner's corrected 400 × 200, and the frozen sheet drew ~401 × 196 |
+
+**The `P2` conflict is now resolved, because the repository already contained its own answer** — `wall_materials.json`: *"P2 is 400 wide, matching the shaft standard, and 200 deep, and the clearance from R3 to V2 IS 200. So P2 does not float in that gap, it defines it. I had measured 450 × 225; the owner's figures are exact."* That file nonetheless **still carried 450 × 225 in its own `plumbing_anchors/P2` block**, contradicting itself, and `plumbing_anchors.csv` carried it too. Both corrected to 400 × 200 on 2026-09-17, with the superseded figure preserved. The sheet's ~401 × 196 is that figure at the drawing's ~9.8 mm unit scale, so it agreed all along.
+
 ### The validator DISPATCHES; it never skips
 
 | `locator_kind` | Checks |
