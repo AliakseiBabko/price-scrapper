@@ -27,8 +27,8 @@ sys.path.insert(0, os.path.join(REPO, "tools", "layout"))
 
 import covering_patches  # noqa: E402
 from check_covering_reconciliation import (  # noqa: E402
-    ANOMALY, CONSISTENT, PROPOSED_OR_DEFECT, REVIEW, issued_problems,
-    reconcile)
+    ANOMALY, CONSISTENT, EXCLUDED, PROPOSED_OR_DEFECT, RESOLVED, REVIEW,
+    REVIEW_ONLY, issued_problems, reconcile)
 from lib.tabular import ValidationError  # noqa: E402
 
 
@@ -235,30 +235,70 @@ def main() -> int:
     check("there IS a non-consistent band, so the guard is not vacuous",
           open_rows, "%d row(s)" % len(open_rows))
 
+    def issued(rows_in, disp, includes=()):
+        return issued_problems(rows_in, disp, includes)[0]
+
     check("an undisposed review_required BLOCKS issue",
           any("NO recorded disposition" in p
-              for p in issued_problems(issued_rows, {})), "blocked")
+              for p in issued(issued_rows, {})), "blocked")
 
     check("...while consistent bands alone do not block issue",
-          not issued_problems([r for r in issued_rows if r[2] == CONSISTENT], {}),
+          not issued([r for r in issued_rows if r[2] == CONSISTENT], {}),
           "clear")
 
     pid = open_rows[0][0]["patch_uuid"]
+    label = "%s.%s" % (open_rows[0][0]["host_id"], open_rows[0][0]["face_ref"])
     full = {pid: {"patch_uuid": pid, "verdict": open_rows[0][2],
-                  "disposition": "accept_as_existing", "rationale": "seed",
+                  "outcome": EXCLUDED, "disposition": "excluded from issue A",
+                  "rationale": "seed", "affected_deliverables": "sheet A-01",
                   "decided_by": "seed", "decided_on": "2026-09-17"}}
-    check("a complete disposition releases it",
-          not issued_problems(issued_rows, full), "released")
+    check("a scoped EXCLUSION lets an unrelated package issue",
+          not issued(issued_rows, full), "released")
+
+    # ⚠️⚠️ ...but the band itself stays out of everything issued
+    _p, excluded = issued_problems(issued_rows, full)
+    check("...and the excluded band carries no quantity or geometry",
+          pid in excluded, "excluded")
+
+    # ⚠️⚠️ AND IF THE ISSUE CONTAINS THAT BAND, IT IS BLOCKED OUTRIGHT
+    check("an issue that DECLARES the excluded band in scope is blocked",
+          any("may not" in p for p in issued(issued_rows, full, (label,))),
+          "blocked outright")
+
+    # ⚠️⚠️ THE PROMOTION GUARD - the evidentiary waiver, refused
+    waiver = {pid: dict(full[pid], outcome=RESOLVED)}
+    check("`resolved_by_evidence` over an UNRESOLVED requirement is refused",
+          any("cannot answer a physical question" in p
+              for p in issued(issued_rows, waiver)), "waiver refused")
+
+    review_only = {pid: dict(full[pid], outcome=REVIEW_ONLY)}
+    _p2, excluded2 = issued_problems(issued_rows, review_only)
+    check("`accepted_for_review_only` releases nothing for issue",
+          pid in excluded2, "review only")
+    check("...and an issue claiming it in scope is blocked",
+          any("not approval to build" in p
+              for p in issued(issued_rows, review_only, (label,))), "blocked")
+
+    check("an outcome outside the vocabulary is caught",
+          any("not a generic waiver" in p or "not one of" in p
+              for p in issued(issued_rows, {pid: dict(full[pid],
+                                                      outcome="signed_off")})),
+          "vocabulary")
+
+    check("an exclusion naming NO deliverables is caught",
+          any("nobody can scope" in p
+              for p in issued(issued_rows, {pid: dict(
+                  full[pid], affected_deliverables="")})), "unscoped")
 
     stale = {pid: dict(full[pid], verdict="consistent")}
     check("a disposition recorded against a DIFFERENT verdict is caught",
           any("situation has changed" in p
-              for p in issued_problems(issued_rows, stale)), "stale")
+              for p in issued(issued_rows, stale)), "stale")
 
     for column in ("disposition", "rationale", "decided_by", "decided_on"):
         gap = {pid: dict(full[pid], **{column: ""})}
         check("a disposition with no %-11s is caught" % column,
-              any("is not one" in p for p in issued_problems(issued_rows, gap)),
+              any("is not one" in p for p in issued(issued_rows, gap)),
               "unattributed")
 
     print("\n%d failure(s)" % failures)

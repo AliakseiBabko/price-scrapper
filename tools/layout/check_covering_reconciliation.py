@@ -64,8 +64,10 @@ DISPOSITIONS = os.path.join(REPO, "data", "canonical",
 def load_dispositions(path=DISPOSITIONS):
     """patch_uuid -> the recorded decision about a non-consistent band."""
     from lib.tabular import read_csv as _read
-    rows = _read(path, required=["patch_uuid", "verdict", "disposition",
-                                 "rationale", "decided_by", "decided_on"])
+    rows = _read(path, required=["patch_uuid", "verdict", "outcome",
+                                 "disposition", "rationale",
+                                 "affected_deliverables", "decided_by",
+                                 "decided_on"])
     out = {}
     for row in rows:
         if row["patch_uuid"] in out:
@@ -81,6 +83,16 @@ CONSISTENT = "consistent"
 ANOMALY = "investigate_existing_anomaly"
 PROPOSED_OR_DEFECT = "proposed_work_or_defect"
 REVIEW = "review_required"
+
+# ⚠⚠ A DISPOSITION IS A SCOPE DECISION, NOT AN EVIDENTIARY WAIVER. Person,
+# date and reason alone would become a generic override - somebody signs a line
+# and an unresolved physical question turns into construction geometry. The
+# OUTCOME is therefore a closed vocabulary, and only one of them releases a
+# band for issue.
+EXCLUDED = "excluded_from_issue"          # issue proceeds WITHOUT this band
+REVIEW_ONLY = "accepted_for_review_only"  # may be drawn; releases nothing
+RESOLVED = "resolved_by_evidence"         # the physical question was ANSWERED
+OUTCOMES = (EXCLUDED, REVIEW_ONLY, RESOLVED)
 
 VERDICT = {
     ("present", REQUIRED): CONSISTENT,
@@ -154,39 +166,84 @@ def reconcile(coverings=None, boundaries=None, assertions=None, decisions=None):
     return rows, problems
 
 
-def issued_problems(rows, dispositions):
-    """What blocks ISSUE. Lifted out of main() so a seed can drive it.
+def issued_problems(rows, dispositions, includes=()):
+    """What blocks ISSUE. Returns (problems, excluded_patch_uuids).
 
-    ⚠ A verdict other than `consistent` may be DRAWN as an existing
-    condition and may not carry an issued quantity or a proposed-work decision
-    without a recorded disposition naming a person, a date and a reason.
+    ⚠⚠ A DISPOSITION MAY NOT PROMOTE A PHYSICAL ASSERTION. `resolved_by_evidence`
+    is legal only when the requirement genuinely resolved - if the underlying
+    contact or exposure is still candidate, claiming it was resolved by evidence
+    is the evidentiary waiver this vocabulary exists to prevent, and it is
+    refused.
+
+    ⚠ `excluded_from_issue` lets an UNRELATED package go out while the band
+    itself stays out of every issued quantity and every piece of proposed
+    geometry. `includes` names the bands this issue actually covers: an
+    excluded band named there fails outright, because then the issue IS the
+    thing that was excluded.
+
+    ⚠ `accepted_for_review_only` releases nothing. It exists so a band can
+    appear on a review drawing without that appearance meaning anything else.
     """
-    problems = []
+    problems, excluded = [], set()
     for covering, requirement, verdict, why in rows:
         if verdict == CONSISTENT:
             continue
+        label = "%s.%s" % (covering["host_id"], covering["face_ref"])
         recorded = dispositions.get(covering["patch_uuid"])
         if recorded is None:
             problems.append(
-                "%s.%s is %s and has NO recorded disposition. It may be drawn "
-                "as an existing condition, but nothing issued may depend on it "
-                "until somebody decides - and changing a rule until the verdict "
-                "goes away is not a decision"
-                % (covering["host_id"], covering["face_ref"], verdict))
+                "%s is %s and has NO recorded disposition. It may be drawn as "
+                "an existing condition, but nothing issued may depend on it "
+                "until somebody decides - and changing a rule until the "
+                "verdict goes away is not a decision" % (label, verdict))
             continue
         if (recorded.get("verdict") or "").strip() != verdict:
             problems.append(
-                "%s.%s is %s but its disposition was recorded against %r. The "
+                "%s is %s but its disposition was recorded against %r. The "
                 "situation has changed since somebody looked at it"
-                % (covering["host_id"], covering["face_ref"], verdict,
-                   recorded.get("verdict")))
+                % (label, verdict, recorded.get("verdict")))
+        outcome = (recorded.get("outcome") or "").strip()
+        if outcome not in OUTCOMES:
+            problems.append(
+                "%s has a disposition with outcome %r, which is not one of %s. "
+                "An outcome is what stops this being a generic waiver"
+                % (label, outcome, ", ".join(OUTCOMES)))
+            continue
         for column in ("disposition", "rationale", "decided_by", "decided_on"):
             if not (recorded.get(column) or "").strip():
+                problems.append("%s has a disposition with no %s - an "
+                                "unattributed decision is not one"
+                                % (label, column))
+        # ⚠⚠ THE PROMOTION GUARD.
+        if outcome == RESOLVED and requirement == UNRESOLVED:
+            problems.append(
+                "%s claims `resolved_by_evidence` while its requirement is "
+                "STILL unresolved (%s). A disposition is a scope decision; it "
+                "cannot answer a physical question, and recording one here "
+                "would turn review state into construction geometry"
+                % (label, why))
+            continue
+        if outcome == EXCLUDED:
+            if not (recorded.get("affected_deliverables") or "").strip():
                 problems.append(
-                    "%s.%s has a disposition with no %s - an unattributed "
-                    "decision is not one"
-                    % (covering["host_id"], covering["face_ref"], column))
-    return problems
+                    "%s is excluded from issue but names no affected "
+                    "deliverables - an exclusion nobody can scope is a waiver"
+                    % label)
+                continue
+            excluded.add(covering["patch_uuid"])
+            if label in includes:
+                problems.append(
+                    "%s is EXCLUDED from issue, but this issue declares it "
+                    "IN SCOPE. An unrelated package may go out around this "
+                    "band; a package that contains it may not" % label)
+        elif outcome == REVIEW_ONLY:
+            excluded.add(covering["patch_uuid"])
+            if label in includes:
+                problems.append(
+                    "%s is accepted for REVIEW ONLY, but this issue declares "
+                    "it in scope. Appearing on a review drawing is not "
+                    "approval to build it" % label)
+    return problems, excluded
 
 
 def main() -> int:
@@ -195,6 +252,9 @@ def main() -> int:
                     help="the ISSUED gate: every band that is not `consistent` "
                          "needs a RECORDED DISPOSITION before it can carry a "
                          "quantity or a proposed-work decision")
+    ap.add_argument("--includes", action="append", metavar="HOST.FACE",
+                    help="a band this issue actually covers. An excluded band "
+                         "named here fails outright")
     a = ap.parse_args()
 
     rows, problems = reconcile()
@@ -218,7 +278,14 @@ def main() -> int:
     # observed presence is fine for drawing the existing state and is NOT fine
     # for pricing work off it.
     if a.issued:
-        problems.extend(issued_problems(rows, load_dispositions()))
+        issued, excluded = issued_problems(rows, load_dispositions(),
+                                           includes=tuple(a.includes or ()))
+        problems.extend(issued)
+        for covering, _r, verdict, _w in rows:
+            if covering["patch_uuid"] in excluded:
+                print("  EXCLUDED FROM ISSUE  %s.%s (%s) - it carries no "
+                      "quantity and no proposed geometry"
+                      % (covering["host_id"], covering["face_ref"], verdict))
 
     if problems:
         print("FAILED: %d problem(s)" % len(problems))
