@@ -127,8 +127,8 @@ An occurrence **cites** observations. It does not absorb them: the evidence has 
 
 | | existence | placement | classification | in an issued model? |
 | :--- | :--- | :--- | :--- | :--- |
-| `SV-T` | `resolved_present` | **`unlocated`** | resolved | no — cannot be placed |
-| `SH-B` | `resolved_present` | resolved | **`candidate`** | no — may not be given heating-system membership or a concrete heating class |
+| `SV-T` | `resolved_present` — **owner ventilation topology**, not the photos | **`unlocated`** | resolved | no — cannot be placed |
+| `SH-B` | ⚠️ **`candidate`** — REVISED 2026-09-17 under §3.0f | candidate | **`candidate`** | no — fails on all three |
 | `S17` / `S18` | **`disputed`** | — | — | **no occurrence exists yet**; disputed count plus conditional candidate positions |
 | `S12` / `S13` | **no existence resolution at all** | — | — | historical assertions about legacy SYMBOLS only |
 
@@ -136,15 +136,16 @@ An occurrence **cites** observations. It does not absorb them: the evidence has 
 
 | | `SV-T` — ventilation grille | `SH-B` — riser |
 | :--- | :--- | :--- |
-| existence | `asserted`, observed | `asserted`, observed |
+| existence | `asserted` — from the **owner's** ventilation statement | ⚠️ `candidate` — `ade6` is **apartment 53**, and the owner's P1 statement does not mention `SH-B` at all |
 | function | `asserted` (grille) | ⚠️ `candidate`, `derived` — `heating_riser` is **not confirmed** |
-| host | `asserted` — `V1` | `asserted`, observed |
+| host | `asserted` — `V1` | `candidate` — inside P1, from a comparable |
 | face_ref | **`unknown`** | asserted |
 | along_face_mm | **`unknown`** | asserted |
 | vertical | **`unknown`**; *"expect ~2.2 m"* is a **`candidate`** with `knowledge_basis=assumed` | `asserted`, observed full-height extent |
 | insulation | — | `asserted`, observed |
 | → `placement_readiness` | **`unlocated`** | `resolved` |
 | → `classification_readiness` | `resolved` | **`candidate`** |
+| → `existence_readiness` | `resolved_present` | ⚠️ **`candidate`** |
 
 > ⚠️⚠️ **Two consequences for the generator, and both are hard rules.** The *"expect ~2.2 m"* figure is a candidate and **the generator may not consume it as a placement value**. And until `SH-B`'s function is confirmed, **the generator may not give it heating-system membership or silently pick a concrete heating IFC class** — an unconfirmed function must not become a typed element by default.
 
@@ -186,6 +187,19 @@ So the model **may** represent the expected developer handover — that is a leg
 ⚠️ **An owner approval can authorise these as PLANNED elements. It cannot retrospectively turn comparable-flat evidence into an observation of the existing flat** — those are different records, and collapsing them would destroy the only trace of which one was ever looked at.
 
 **Consequence for the migration:** no target-apartment occurrence is minted from comparable-flat evidence. The observation and the projected count assertion are both preserved, exactly as with `S17`/`S18`. **This corrected an earlier adjudication of my own**, which had accepted "photo-backed" sockets and five ceiling outlets as `resolved_present` — the precedent was wrong and was not retained for consistency.
+
+### 3.0g The six adjudication rules (owner, 2026-09-17) — normative
+
+These govern every source, and they were applied to the whole remaining bulk on the day they were given.
+
+| Rule | Consequence |
+| :--- | :--- |
+| Comparable-flat photo → asserted observation **there**; candidate projection **here** | §3.0f. No target-apartment occurrence. |
+| **Unambiguous** owner testimony about this apartment **may** establish target existence | The only route to `resolved_present` currently available. "Unambiguous" is load-bearing — `S3` fails it. |
+| Geometry may **constrain or disprove** a placement; it **cannot prove an element exists** | `SV-VT`: the wall model disproved the old V1 grille reading (V1 ends at y=111, the ванная begins at y=205.1). That killed a placement; it did not create one. `W5`: G4C lands on O6's jamb so no switch can go there — a real constraint, no evidence of a switch. |
+| A drawing ID that **displays** a canonical concept is an **alias**, not another occurrence | Twelve locators resolved this way. Minting records for them would have doubled the element count. |
+| Literal coordinates stay `candidate`/`derived` unless independently established | Legacy plan/pixel values, never millimetres in the new frame. |
+| Owner-described routing does **not** become `as_built` | `route_state` and coordinate derivation stay separate records: the owner gave a qualitative run, the numbers are the author's. |
 
 ### 3.1 Knowledge basis belongs to each value
 
