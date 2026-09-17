@@ -365,6 +365,7 @@ All read in full, 2026-09-13. Batch triage and channel assessment: [`bonsai_ifc_
 - ~~*Is sheet assembly scriptable, or must it be a GUI step?*~~ **In the GUI it is manual drag-and-drop. But the artefact is plain SVG, so a script can write it — which is what we already do (§12).**
 - ~~*Can the annotation subsystem express a proportional `1/2` dimension?*~~ **Yes, and more generally: annotation text is a `{{ }}` template over model data (§4b). It needs no Bonsai.**
 - ~~*Does the type library force quantised wall thicknesses?*~~ **No — corrected in §8.**
+- ~~*Is there a native 3D MEP route to 2D discipline sheets (electrical/plumbing)?*~~ **No.** Native 3D MEP modeling in Bonsai has broken flows; practitioners cut the architectural plan and draft manual `IfcAnnotation` overlays as a stopgap ([[_Sources/YT_RL3IAGeMi5s_bimvoice_bonsai_drawings_internals_and_mep_void|YT_RL3IAGeMi5s]]).
 
 **Open:**
 

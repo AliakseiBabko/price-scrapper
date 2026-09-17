@@ -100,6 +100,23 @@ The demonstrated run produces *«detailed breakdowns for every project, every ru
 
 [source: [[_Sources/YT_XYeasHbyw-U_spbproduction_bonsai_ifc_schema_conversion|YT_XYeasHbyw-U]]]
 
+## 8. ⚠️ What an openBIM Type must carry — and what breaks without it
+
+An instance-only IFC model (bare `IfcWall`, `IfcDoor`, `IfcWindow` occurrences without type definitions) looks complete in a 3D viewer but fails downstream across validation, scheduling, and editing:
+
+- **What breaks in an instance-only model**:
+  1. **Bonsai Spreadsheet QTO fails to group**: Counting identical elements requires grouping rows by `ObjectType` or `Type.Name`. Without types, `count()` cannot aggregate, leaving an unsummed list of individual occurrences.
+  2. **IDS type audits fail silently**: As established in §5, IDS applicability facets that evaluate library definitions (`IfcWallType`, `IfcDoorType`) return "Not Available" / 0 matches when properties are placed on occurrences alone.
+  3. **Parametric multi-element edits cannot propagate**: A change to wall thickness or build-up requires re-extruding every instance polyline individually rather than updating a single layer set.
+- **What our IFC generator (`tools/ifc/model_from_resolved.py`) must emit**:
+  1. **`IfcWallType`**: Declared with `PredefinedType = .STANDARD.` and explicit naming (`Name = "WALL_GAS_SILICATE_100"`).
+  2. **`IfcMaterialLayerSet`**: Composed of ordered `IfcMaterialLayer` entries defining layer thicknesses and material references.
+  3. **`IfcRelDefinesByType`**: Linking the `IfcWallType` to each corresponding `IfcWall` occurrence.
+  4. **`IfcMaterialLayerSetUsage` and `IfcRelAssociatesMaterial`**: Binding the layer set, layer direction, and offset alignment to the instances.
+  5. **`IfcDoorType` / `IfcWindowType`**: Emitted for opening components, carrying operation types (`OperationType = .SINGLE_SWING_LEFT.`, etc.) and type-level property sets.
+
+[sources: [[_Sources/YT_dRSoT80oDNA_blender3darchitect_parametric_walls_material_layer_sets|YT_dRSoT80oDNA]], [[_Sources/YT_xImmD0Ns4NQ_bimvoice_window_schedule_model_requirements|YT_xImmD0Ns4NQ]], [[_Sources/YT_-UuUCMOAvx4_bimvoice_ids_wall_type_validation_mystery|YT_-UuUCMOAvx4]]]
+
 ## ⚠️ What is NOT established here
 
 - **No error rate, on anything.** No case is shown where the agent misread a format, and no run is compared against a known-good validation.

@@ -1,0 +1,13 @@
+{
+  "url": "RL3IAGeMi5s",
+  "video_id": "RL3IAGeMi5s",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T10:14:26.489624+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "27d4b11d679b2fc239e4cc7326e7420cc6b2f4e682512b5f15c026d56846b69c",
+  "attempts_before_success": [],
+  "upload_date": "2026-09-04",
+  "upload_date_source": "yt-dlp"
+}
