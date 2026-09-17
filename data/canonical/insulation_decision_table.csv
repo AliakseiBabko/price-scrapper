@@ -1,0 +1,6 @@
+rule_id,adjacent_scope,adjacent_space_kind,conditioning,contact_kind,insulation_required,rationale
+INS-EXT-OPEN,exterior,exterior_air,exterior,open,yes,"The face is on the rendered facade plane with open air against it. This is the ONLY combination that requires insulation in this building, and it is the owner's own rule: insulation follows the RENDERED FACADE PLANE, not the thermal envelope."
+INS-PARTY-MASONRY,other_unit,*,*,abutting_masonry,no,"The face is buried against a neighbour's masonry. Wrapping insulation around it would put a layer where nothing can see or reach it. This is MC's east end, and the rule the old geometric flood could not derive."
+INS-PARTY-DIRECT,other_unit,*,*,direct_space_boundary,no,"A party face to another unit's space. Not on the rendered facade, so no insulation duty - M2's abutting run is exactly this."
+INS-COMMON,common_property,*,*,*,no,"A face onto common property - corridor, passage, shaft. Not on the rendered facade."
+INS-OURS,ours,*,*,*,no,"Internal to this apartment. No envelope duty of any kind."

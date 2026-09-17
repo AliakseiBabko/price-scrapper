@@ -1,0 +1,39 @@
+patch_uuid,property,value,value_state,knowledge_basis,evidence,raw_text
+e20e5a61-956f-4540-99a7-8f268790da22,adjacent_scope,exterior,asserted,owner_stated,_Drawings/evidence/m2_mixed_exposure_from_4th_floor_plan.png; 00_Master/V0_Envelope_And_Insulation.md,
+e20e5a61-956f-4540-99a7-8f268790da22,adjacent_space_kind,exterior_air,asserted,owner_stated,_Drawings/evidence/m2_mixed_exposure_from_4th_floor_plan.png,
+e20e5a61-956f-4540-99a7-8f268790da22,conditioning,exterior,asserted,derived_from_scope,00_Master/V0_Envelope_And_Insulation.md,
+e20e5a61-956f-4540-99a7-8f268790da22,contact_kind,open,asserted,block_plan_read,_Drawings/evidence/m2_mixed_exposure_from_4th_floor_plan.png,their parapet stops short and our enclosure carries on south to the glazing
+ed72ce69-e6c6-435e-9c14-6df9a00d67a2,adjacent_scope,other_unit,asserted,block_plan_read,_Inbox/_Visual_Drop/4th_floor_plan.png,
+ed72ce69-e6c6-435e-9c14-6df9a00d67a2,adjacent_scope_ref,unknown,unknown,not_established,,"the block plan shows a balcony 4,20(2,94) on the far side but does not name its flat"
+ed72ce69-e6c6-435e-9c14-6df9a00d67a2,adjacent_space_kind,balcony,asserted,block_plan_read,00_Master/V0_Envelope_And_Insulation.md,"theirs is an OPEN balcony with a parapet, not a glazed loggia"
+ed72ce69-e6c6-435e-9c14-6df9a00d67a2,conditioning,unconditioned,asserted,derived_from_space_kind,00_Master/V0_Envelope_And_Insulation.md,
+ed72ce69-e6c6-435e-9c14-6df9a00d67a2,contact_kind,direct_space_boundary,candidate,block_plan_read,_Inbox/_Visual_Drop/4th_floor_plan.png,whether their parapet physically bears on M2 or stands clear of it is not established
+ff394591-faf3-430d-b747-510e6fbbac84,adjacent_scope,other_unit,asserted,owner_stated,_Inbox/_Visual_Drop/4th_floor_plan.png,
+ff394591-faf3-430d-b747-510e6fbbac84,adjacent_scope_ref,3А/2,asserted,block_plan_read,00_Master/V0_Envelope_And_Insulation.md,"this flat is 3Б/2+ in the MIDDLE of a two-section house and the flat immediately east is 3А/2, its MIRROR"
+ff394591-faf3-430d-b747-510e6fbbac84,adjacent_space_kind,habitable,derived,block_plan_read,00_Master/V0_Envelope_And_Insulation.md,
+ff394591-faf3-430d-b747-510e6fbbac84,conditioning,conditioned,asserted,derived_from_scope,00_Master/V0_Envelope_And_Insulation.md,
+ff394591-faf3-430d-b747-510e6fbbac84,contact_kind,abutting_masonry,asserted,owner_stated,00_Master/V0_Envelope_And_Insulation.md,"a party wall against 3A/2's own facade wall, not an exposed end"
+53966aa2-7e75-42af-bd66-891daad8397e,adjacent_scope,exterior,asserted,owner_stated,data/canonical/building_spec.json,
+53966aa2-7e75-42af-bd66-891daad8397e,adjacent_space_kind,exterior_air,asserted,owner_stated,data/canonical/building_spec.json,
+53966aa2-7e75-42af-bd66-891daad8397e,conditioning,exterior,asserted,derived_from_scope,data/canonical/building_spec.json,
+53966aa2-7e75-42af-bd66-891daad8397e,contact_kind,open,asserted,photo_observed,_Survey/; 00_Master/V0_Envelope_And_Insulation.md,
+1b9d6fc4-ceb0-4365-aeca-c017d2826cb3,adjacent_scope,exterior,asserted,owner_stated,data/canonical/building_spec.json,
+1b9d6fc4-ceb0-4365-aeca-c017d2826cb3,adjacent_space_kind,exterior_air,asserted,owner_stated,data/canonical/building_spec.json,
+1b9d6fc4-ceb0-4365-aeca-c017d2826cb3,conditioning,exterior,asserted,derived_from_scope,data/canonical/building_spec.json,
+1b9d6fc4-ceb0-4365-aeca-c017d2826cb3,contact_kind,open,asserted,photo_observed,_Survey/; 00_Master/V0_Envelope_And_Insulation.md,
+32de469d-4169-45e4-8b06-29eadae4e28c,adjacent_scope,exterior,asserted,owner_stated,data/canonical/building_spec.json,
+32de469d-4169-45e4-8b06-29eadae4e28c,adjacent_space_kind,exterior_air,asserted,owner_stated,data/canonical/building_spec.json,
+32de469d-4169-45e4-8b06-29eadae4e28c,conditioning,exterior,asserted,derived_from_scope,data/canonical/building_spec.json,
+32de469d-4169-45e4-8b06-29eadae4e28c,contact_kind,open,asserted,photo_observed,_Survey/; 00_Master/V0_Envelope_And_Insulation.md,
+fc0457e9-ad7c-4c6d-84b5-564f0130a47d,adjacent_scope,exterior,asserted,owner_stated,data/canonical/building_spec.json,
+fc0457e9-ad7c-4c6d-84b5-564f0130a47d,adjacent_space_kind,exterior_air,asserted,owner_stated,data/canonical/building_spec.json,
+fc0457e9-ad7c-4c6d-84b5-564f0130a47d,conditioning,exterior,asserted,derived_from_scope,data/canonical/building_spec.json,
+fc0457e9-ad7c-4c6d-84b5-564f0130a47d,contact_kind,open,asserted,photo_observed,_Survey/; 00_Master/V0_Envelope_And_Insulation.md,
+c83125e4-ffed-4121-befb-86494994f7dc,adjacent_scope,exterior,asserted,owner_stated,data/canonical/building_spec.json,
+c83125e4-ffed-4121-befb-86494994f7dc,adjacent_space_kind,exterior_air,asserted,owner_stated,data/canonical/building_spec.json,
+c83125e4-ffed-4121-befb-86494994f7dc,conditioning,exterior,asserted,derived_from_scope,data/canonical/building_spec.json,
+c83125e4-ffed-4121-befb-86494994f7dc,contact_kind,open,asserted,photo_observed,_Survey/; 00_Master/V0_Envelope_And_Insulation.md,
+fcab9947-496d-4360-be1b-d8697569c982,adjacent_scope,exterior,asserted,owner_stated,data/canonical/building_spec.json,
+fcab9947-496d-4360-be1b-d8697569c982,adjacent_space_kind,exterior_air,asserted,owner_stated,data/canonical/building_spec.json,
+fcab9947-496d-4360-be1b-d8697569c982,conditioning,exterior,asserted,derived_from_scope,data/canonical/building_spec.json,
+fcab9947-496d-4360-be1b-d8697569c982,contact_kind,open,asserted,photo_observed,_Survey/; 00_Master/V0_Envelope_And_Insulation.md,
