@@ -2,20 +2,84 @@
 
 Traceability record for [[18_Digital_Toolchain/Digital_Toolchain_Guide|Digital Toolchain]] and its `analysis/` pages. Not reader content.
 
-## Design-toolchain group, Round 1 (2026-09-08)
+## Bonsai, IFC and Blender practice
 
-Russian sources. Triage that authorised the round: [`design_toolchain_sources_triage_20260908.md`](../../_Inbox/planning/design_toolchain_sources_triage_20260908.md).
+Sources on openBIM authoring, IFC structure and the Blender/Bonsai toolchain.
 
-| Source | Practitioner | Contribution |
+### Bonsai / IFC / Blender batch (2026-09-13)
+
+**Eleven owner-supplied videos plus two channels.** All eleven `en-orig`, each verified from the caption manifest before fetching. **One re-record pair handled once** (`xXmvs0PK_Bg` → `duplicate_skipped`, folded into `mq63GWbgWdM`). Triage, channel assessment and outcome: [`bonsai_ifc_batch_20260913.md`](../../_Inbox/planning/bonsai_ifc_batch_20260913.md).
+
+> **⚠️⚠️ This batch differs in kind from the previous four.** Those were general AI-capability sources and were correctly triaged as *mechanism kept, scores discarded*. **This one is the toolchain this project actually runs** — Blender 5.2 + Bonsai 0.8.6-alpha260801, installed and idle — and the vault already holds an **`Adopt` decision** on Bonsai's drawings subsystem with one stated open question. **The sources are evidence bearing on a decision already taken, not capability scouting.**
+
+| Source | Contribution | Yield |
 | :--- | :--- | :--- |
-| [`YT_OTBw7bCrv-o`](../../_Sources/YT_OTBw7bCrv-o_remplanner_lesson4_electrics_lighting.md) | RemPlanner (vendor; narrator unnamed) | Dimensioning to centre, the `1/2` notation, `вывод` as an element type, per-sheet representation |
-| [`YT_DI5GAV64mnU`](../../_Sources/YT_DI5GAV64mnU_kdmitry_technical_project_remplanner_festivalnaya.md) | Дизайнер Дмитрий К | Staged workflow, socket derivation, furniture-overlay reading, blank-sheet discipline |
-| [`YT_F0rXrbPDPf4`](../../_Sources/YT_F0rXrbPDPf4_kdmitry_technical_project_remplanner_review.md) | Дизайнер Дмитрий К | The 18-tab sheet set, switch grouping, the finish-scheme-as-costing-input link, scope boundary |
-| [`YT_TJVXUCKQ1UU`](../../_Sources/YT_TJVXUCKQ1UU_kdmitry_planoplan_sketchup_together.md) | Дизайнер Дмитрий К | The two-tool split, the underlay, what a planning model must be accurate about |
-| [`YT_YEpfNcwwGoU`](../../_Sources/YT_YEpfNcwwGoU_kdmitry_concept_2room_planoplan_rationale.md) | Дизайнер Дмитрий К | Conventional colour at concept stage; sketch renders as a stage-1 output |
-| [`YT_FRKr9X3AFfY`](../../_Sources/YT_FRKr9X3AFfY_kdmitry_doors_partitions_planning.md) | Дизайнер Дмитрий К | Door casings constraining partition position; doors modelled open and closed, trim as a later layer |
+| [`YT_p3Q7jNyRAtI`](../../_Sources/YT_p3Q7jNyRAtI_sfeviz_precise_plan_from_bad_image.md) | **⚠️⚠️ A plan image is not uniformly scaled — 45 mm anisotropy measured**; standing rule 9 executed on all four clauses unprompted; **wall thickness read as evidence of a concealed service**; an evidence ceiling stated and honoured | 14 |
+| [`YT_PNoOyCHa_V0`](../../_Sources/YT_PNoOyCHa_V0_ifcarchitect_blenderbim_floor_plan.md) | **The drawing is GENERATED, not exported**; the ~1 m plan cut convention and its reason; **a plan symbol is authored, not cut**; type-level edits with silent blast radius; drafted-only elements invisible to take-off | 12 |
+| [`YT_fxpIg-su-00`](../../_Sources/YT_fxpIg-su-00_profrino_first_bim_drawing_bonsai.md) | **⚠️⚠️ Four places the parametric association leaks**, which reframes the headless question; IFC as an *authoring* format is new; type duplication as the divergence mechanism | 11 |
+| [`YT_Q4rbqUbhYXY`](../../_Sources/YT_Q4rbqUbhYXY_architecturetopics_blender_floor_plan_from_image.md) | **Wall SURFACES not centrelines**, with the practitioner's reason; **a differing-thickness junction is authored, not automatic**; a hand-run geometry check with a known trap; ⚠️ scaling off an assumed door width | 9 |
+| [`YT_YYmFMxMV6io`](../../_Sources/YT_YYmFMxMV6io_messerschmidt_blender_dimensioned_floor_plan_export.md) | **Three silent-failure modes in one export path**; ⚠️ **text collision is manual in a purpose-built tool too**, which qualifies the adopt decision; the named style set | 9 |
+| [`YT_xlmbZHIaHJw`](../../_Sources/YT_xlmbZHIaHJw_cgessentials_homebuilder_floor_plan_from_scan.md) | **⚠️⚠️ Wall direction sets inside/outside AND every hosted object** — independent confirmation; a scale verification that checks the wrong thing; an element's anchor as a per-object datum | 7 |
+| [`YT_tAq0foY2GOY`](../../_Sources/YT_tAq0foY2GOY_spbproduction_bonsai_ifc_vs_blend_save.md) | **⚠️⚠️ The only controlled experiment in four batches** — the IFC is master, the `.blend` a cache; **and `Ctrl+S` writes to the IFC**, a live hazard in our own viewing instructions | 6 |
+| [`YT_mq63GWbgWdM`](../../_Sources/YT_mq63GWbgWdM_architecturetopics_inkscape_trace_to_blender.md) | ⚠️⚠️ **A correct scale reference discarded over an unresolved unit** — the cleanest rule-9 failure in the vault; raster auto-trace as the naive counterpart to vector extraction | 5 |
+| [`YT_4JYFYvNg5Xk`](../../_Sources/YT_4JYFYvNg5Xk_blender3darchitect_external_ifc_libraries_bonsai.md) | **A schema upgrade that reports success and leaves a deprecated entity**; a concrete rule for the IDS validation already marked `Adopt` | 5 |
+| [`YT_DgovrfgLxYs`](../../_Sources/YT_DgovrfgLxYs_brockmesarich_astra_blender_parts_schedule.md) | A parts schedule off individuated geometry — **the cheap half of take-off**; ⚠️ near-skipped, `promotional_ratio: very_high` | 3 |
 
-## AI-agent modelling and raster registration batch (2026-09-11)
+**Round yield**: 11 videos (10 processed, 1 duplicate), **81 new facts, yield = 7.4** per video. **Two new pages**: `Model_To_Drawing_Pipeline.md`, and `Raster_To_Geometry.md` extracted from `Drawing_Conventions_From_Practice.md` at the backstop.
+
+### @IfcArchitect Tier 1 (2026-09-13)
+
+**Eight videos from the 42-video channel, all `en-orig`, all read in full.** Triage and the question-map that drove the selection: [`ifcarchitect_tier1_20260913.md`](../../_Inbox/planning/ifcarchitect_tier1_20260913.md).
+
+> **⚠️⚠️ THIS ROUND ANSWERED NAMED QUESTIONS RATHER THAN EXTRACTING OPENLY**, which is a first for this folder. Four open items were closed and two earlier conclusions corrected. **⚠️⚠️ All eight are ONE PRESENTER — a South African architect who names his own national standards twice. His agreement with himself is not corroboration, and every convention from him carries an unstated national default.**
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_VgvPk78IU0U`](../../_Sources/YT_VgvPk78IU0U_ifcarchitect_bonsai_2d_drafting.md) | **⚠️⚠️ No auto-dimension at all** — placement is manual, which corrects the `Adopt` premise; **but tags are bulk-placed and `{{ }}` data-bound**, template type-level and value instance-level; the three-tier dimension chain at 400 mm; **SVG+CSS**; Qto in one command | 17 |
+| [`YT_HEb7fWJduXg`](../../_Sources/YT_HEb7fWJduXg_ifcarchitect_page_layout.md) | **⚠️⚠️ The sheet is an SVG file on disk, assembled by hand in Inkscape** — so we are already better at composition; the round trip preserves manual edits; **a CSS selector filters per drawing**; `create drawing` must precede `create sheets`; **a clip hides geometry, it does not remove it** | 13 |
+| [`YT__hADRIo-ma4`](../../_Sources/YT__hADRIo-ma4_ifcarchitect_custom_phases.md) | **⚠️⚠️ A demolition plan is a QUERY** over `Pset_*Common.Status` — the same three phases we carry as DXF layers; ⚠️ **but do not copy his type-per-phase pattern**; the standard breaks for spaces and the fallback is vendor-specific | 13 |
+| [`YT_dPWQbjaeoyo`](../../_Sources/YT_dPWQbjaeoyo_ifcarchitect_lineweights_css.md) | **⚠️⚠️ The styling system is literally CSS** — which dissolves the "magic strings" into class names; **the cut/projection/text/annotation/material taxonomy**; ⚠️ **four of five styling artefacts live in the app install** | 12 |
+| [`YT_QTviOpqz1rw`](../../_Sources/YT_QTviOpqz1rw_ifcarchitect_bonsai_2d_detail.md) | **⚠️⚠️ A detail is MODELLED, not drafted** — a scoping decision for the owner; a detail is a section at 1:10; **text overflow fixed by shrinking the font, third instance**; the anatomy of a spec note and its two deferrals | 11 |
+| [`YT_r0ebxigzM6U`](../../_Sources/YT_r0ebxigzM6U_ifcarchitect_bonsai_section_elevation.md) | **One camera primitive, four sheet types**; **classification is the switch that puts an object in the drawing** — demonstrated, not asserted; cut line weight is automatic, cut fill is not | 8 |
+| [`YT__vrVETTI5jQ`](../../_Sources/YT__vrVETTI5jQ_ifcarchitect_custom_titleblock.md) | **Title blocks use the SAME `{{ }}` binding as tags** — one portable mechanism; ⚠️ custom ones are destroyed by a reinstall; never raster-trace something already vector | 8 |
+| [`YT_jTL3a6QwckA`](../../_Sources/YT_jTL3a6QwckA_ifcarchitect_custom_wall_type.md) | **⚠️⚠️ CORRECTION: the library does NOT quantise** — an exact 220 type takes five minutes; thickness is a type property and geometry follows it; `IfcMaterialLayerSet` for layered build-ups | 7 |
+
+**Round yield**: 8 videos, **89 new facts, yield = 11.1** per video — **the second-highest of any round in this folder** (5.1 / 7.0 / 11.8 / 7.4 / 11.1). ⚠️ **And the same caveat as the 11.8 round applies: the highest yields come from the most concentrated sources.** The number measures how much one voice said that was new to us, not how well-evidenced any of it is.
+
+### Bonsai and Blender practitioner triage (2026-09-17)
+
+**Eight substantive sources triaged across five target channels/playlists** (`@blender3darchitect`, `@BIMvoice`, `@SPB-production`, `@dynamiterevit`, `@Modelflick`), addressing open problems 1–12 from `_Inbox/planning/agent_brief_bonsai_blender_triage_20260917.md`.
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_XYeasHbyw-U`](../../_Sources/YT_XYeasHbyw-U_spbproduction_bonsai_ifc_schema_conversion.md) | **Stepwise migration (2x3 → 4.0 → 4.3) via `IfcPatch` Migrate recipe**; IFC4.3 infrastructure scope; downgrade risk stripping georeferencing and converting unmapped entities to `IfcBuildingElementProxy`. | 6 |
+| [`YT_CbDO16CfC7M`](../../_Sources/YT_CbDO16CfC7M_spbproduction_ifctester_ids_validation.md) | **Client-side WASM IDS validation via IFC Tester (`ifctester.org`)**; zero data egress; audit reports keyed by `GlobalId`; UI schema mismatch bug. | 6 |
+| [`YT_fUlDzxSDOls`](../../_Sources/YT_fUlDzxSDOls_spbproduction_bonsai_spreadsheet_qto_schedule.md) | **Bonsai Spreadsheet module for QTO and schedules**; class filtering, Pset dot notation, double-quote requirement on spaced names, grouping and count/sum export to CSV. | 6 |
+| [`YT_sdNStKd-fqE`](../../_Sources/YT_sdNStKd-fqE_bimvoice_bonsai_vanishing_geometry_type_vs_element.md) | **Vanishing geometry trap** (assigning `IfcElementType` defaults out of spatial containment); live classification crash; text-to-mesh requirement; `IfcAnnotation` unviewable fallback to proxy. | 7 |
+| [`YT_-UuUCMOAvx4`](../../_Sources/YT_-UuUCMOAvx4_bimvoice_ids_wall_type_validation_mystery.md) | **IDS applicability debugging**: targeting `IfcWallType` vs `IfcWall` for type naming regex; property set attachment level; failure auditing. | 6 |
+| [`YT_1WPw5NRJQmM`](../../_Sources/YT_1WPw5NRJQmM_blender3darchitect_mirror_in_bim_virtual_element.md) | **BIM mirroring geometry trap**: buildingSMART lacks mirrored instances; Bonsai mirror reflects coordinate offset across `IfcVirtualElement` without flipping geometry. | 5 |
+| [`YT_-XPGFbmuh8U`](../../_Sources/YT_-XPGFbmuh8U_bimvoice_why_not_ditch_bim_tools_for_bonsai.md) | **Production reality of openBIM**: Solibri retained for speed (Bonsai validation on complex models wastes days); IfcOpenShell scripting vs GUI split; native IFC in-place editing. | 6 |
+| [`YT_530npr9stZ0`](../../_Sources/YT_530npr9stZ0_bimvoice_bonsai_cgal_crash_advanced_mode.md) | **CGAL geometry kernel crash on import**; workaround via Advanced Mode switching Geometry Library to Open Cascade. | 5 |
+
+**Round yield**: 8 substantive videos processed, **47 new facts, yield = 5.9** per video. Routed to `Requirements_And_Validation.md` and `Quantity_Takeoff_and_Cost_Join.md`. Over 280 candidate videos triaged and skipped with one-line rationale in the triage report.
+
+### Bonsai and Blender practitioner triage — Round 2 corrective pass (2026-09-17)
+
+**Three sources processed from the nine-video corrective pass (`_Inbox/planning/agent_brief_bonsai_triage_round2_20260917.md`)**, addressing open problems 1 (types), 7 (2D discipline sheets), and 11 (QTO). Six confirmed skips: two paywalled members-only (`kEFgXvcbHEw`, `0ktp-S7Lev0`), one duplicate presenter/technique (`Vy4RBlXFNQE`), two interactive UI editing without schema failure analysis (`oQBCy_zKMtI`, `iIR3zl4b6vA`), and one version-pinning bug report (`415peYvhkcg`). Optional 10th (`Vd6qnRO0ZP4`) confirmed skip (UI clipboard workaround, no GUID persistence evidence).
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_RL3IAGeMi5s`](../../_Sources/YT_RL3IAGeMi5s_bimvoice_bonsai_drawings_internals_and_mep_void.md) | **Drawings internals**: cut planes slice 3D geometry to SVG styled via CSS; linework is dynamic at draw time, annotations are stored as `IfcAnnotation`. **Discipline sheets finding**: native 3D MEP modeling has broken flows; practitioners use manual 2D annotations as an overlay stopgap on architectural cuts. | 6 |
+| [`YT_xImmD0Ns4NQ`](../../_Sources/YT_xImmD0Ns4NQ_bimvoice_window_schedule_model_requirements.md) | **Spreadsheet QTO requirements**: window schedules require class filtering, direct dimensions (`OverallHeight`, `OverallWidth`), and **strictly require grouping by `ObjectType` or `Type.Name` for `count()` aggregation**. Property sets mapped via dot syntax (`Pset_WindowCommon.ThermalTransmittance`). | 5 |
+| [`YT_dRSoT80oDNA`](../../_Sources/YT_dRSoT80oDNA_blender3darchitect_parametric_walls_material_layer_sets.md) | **Parametric wall types**: thickness and multi-layer build-up governed by `IfcMaterialLayerSet` on `IfcWallType`; layer thickness edits propagate parametrically to all instances; height parameterized via extrusion profile. Survives plain IFC4 round-trip. | 5 |
+
+**Round yield**: 3 videos processed, **16 new facts, yield = 5.3** per video. Routed to `Quantity_Takeoff_and_Cost_Join.md`, `Requirements_And_Validation.md`, and `Model_To_Drawing_Pipeline.md`.
+
+## AI agents over drawings and models
+
+Sources on AI reading or producing construction drawings and models.
+
+### AI-agent modelling and raster registration batch (2026-09-11)
 
 English-language, US/UK market, `en-orig` auto-captions — the **original** language, not a translated track. Triage: [`ai_agent_modelling_sources_triage_20260911.md`](../../_Inbox/planning/ai_agent_modelling_sources_triage_20260911.md).
 
@@ -27,7 +91,7 @@ English-language, US/UK market, `en-orig` auto-captions — the **original** lan
 | [`YT_3tAYEJTyUFY`](../../_Sources/YT_3tAYEJTyUFY_fairley_ai_read_construction_drawings.md) | Tim Fairley | Context rot, and condensing drawings into a queryable store |
 | [`YT_althlPj8Tag`](../../_Sources/YT_althlPj8Tag_trimble_cad_linework_to_geometry.md) | Aaron Dietzen, Trimble SketchUp | Skimmed, corroborating only — `fact_yield: 0`, deliberately and accurately |
 
-## AI toolchain batch (2026-09-13)
+### AI toolchain batch (2026-09-13)
 
 Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fetched in its ORIGINAL spoken language** (`en` for the English-origin sources, `ru` for the Russian), never an auto-translated track. Triage and per-source verdicts: [`ai_toolchain_sources_triage_20260913.md`](../../_Inbox/planning/ai_toolchain_sources_triage_20260913.md).
 
@@ -49,7 +113,7 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 
 **Round 1 yield**: 11 videos processed, 56 new facts (excluding duplicate/corroborating-only outcomes), yield = **5.1** new facts per processed video.
 
-## Toolchain Round 2 — deferred Tier 2 items (2026-09-13)
+### Toolchain Round 2 — deferred Tier 2 items (2026-09-13)
 
 **The Round 2 named in the [2026-09-11 triage](../../_Inbox/planning/ai_agent_modelling_sources_triage_20260911.md) plus the Tier 2 singles deferred on [2026-09-08](../../_Inbox/planning/design_toolchain_sources_triage_20260908.md).** Triage and outcome: [`ai_toolchain_round2_20260913.md`](../../_Inbox/planning/ai_toolchain_round2_20260913.md).
 
@@ -71,24 +135,11 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 
 **Round 2 yield**: 11 videos processed, 77 new facts, yield = **7.0** per processed video — **above Round 1's 5.1.**
 
-## @ConstructIQ Tier 1 round (2026-09-13)
+## Floor plans, raster and modelling technique
 
-**The five-video Tier 1 round recommended by [`constructiq_channel_triage_20260913.md`](../../_Inbox/planning/constructiq_channel_triage_20260913.md).**
+Sources on producing plans and models from images and CAD.
 
-> [!WARNING]
-> **⚠️⚠️ ALL FIVE ARE ONE PRACTITIONER — Tim Fairley / @ConstructIQ — bringing this vault to NINE of his videos.** Nothing here corroborates anything else of his. The product funnel is constant. **Where a claim from him matters, it needs a second, unrelated voice.**
-
-| Source | Contribution | Yield |
-| :--- | :--- | :--- |
-| [`YT_VrSs8mGI8ss`](../../_Sources/YT_VrSs8mGI8ss_fairley_takeoff_to_priced_bid.md) | **Take-off → priced bid end to end**; the rate-flagging gate; first-cut-then-check; the scope-gap reconciliation | 16 |
-| [`YT_wgcOBhejKvo`](../../_Sources/YT_wgcOBhejKvo_fairley_agent_collision_and_git_for_knowledge_work.md) | **File-versus-line: why agentic harnesses break on documents**; his own architecture publicly retracted | 12 |
-| [`YT_8aSYNMXk33A`](../../_Sources/YT_8aSYNMXk33A_fairley_eight_levels_of_context.md) | The context ladder; **the two problems skills solve**; the router-file pattern | 12 |
-| [`YT_sjcDHXReSNI`](../../_Sources/YT_sjcDHXReSNI_fairley_workflow_systems_failure_modes.md) | **Four failure modes of a standalone workflow**; the slop problem; the **skeptic step** | 11 |
-| [`YT_LBN9xF_rs1w`](../../_Sources/YT_LBN9xF_rs1w_fairley_subagents_and_lost_in_the_middle.md) | **"Lost in the middle"**; the sub-agent fresh-context mechanism | 8 |
-
-**Round yield**: 5 videos, 59 new facts, yield = **11.8** per processed video — the highest of any round in this folder (Round 1 5.1, Round 2 7.0).
-
-## Astra-era modelling batch (2026-09-13)
+### Astra-era modelling batch (2026-09-13)
 
 **Ten owner-supplied videos. ⚠️⚠️ THREE KOREAN, ONE RUSSIAN, SIX ENGLISH — each fetched in its verified ORIGINAL language.** One (`-FsHQEYldnQ`) has an **English title and Korean audio**; had the habitual `en` been used it would have been an auto-**translated** track. **This vault's first Korean-language sources.** Triage and outcome: [`astra_modelling_batch_20260913.md`](../../_Inbox/planning/astra_modelling_batch_20260913.md).
 
@@ -107,47 +158,7 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 
 **Round yield**: 10 videos, 70 new facts, yield = **7.0** per processed video.
 
-## Bonsai / IFC / Blender batch (2026-09-13)
-
-**Eleven owner-supplied videos plus two channels.** All eleven `en-orig`, each verified from the caption manifest before fetching. **One re-record pair handled once** (`xXmvs0PK_Bg` → `duplicate_skipped`, folded into `mq63GWbgWdM`). Triage, channel assessment and outcome: [`bonsai_ifc_batch_20260913.md`](../../_Inbox/planning/bonsai_ifc_batch_20260913.md).
-
-> **⚠️⚠️ This batch differs in kind from the previous four.** Those were general AI-capability sources and were correctly triaged as *mechanism kept, scores discarded*. **This one is the toolchain this project actually runs** — Blender 5.2 + Bonsai 0.8.6-alpha260801, installed and idle — and the vault already holds an **`Adopt` decision** on Bonsai's drawings subsystem with one stated open question. **The sources are evidence bearing on a decision already taken, not capability scouting.**
-
-| Source | Contribution | Yield |
-| :--- | :--- | :--- |
-| [`YT_p3Q7jNyRAtI`](../../_Sources/YT_p3Q7jNyRAtI_sfeviz_precise_plan_from_bad_image.md) | **⚠️⚠️ A plan image is not uniformly scaled — 45 mm anisotropy measured**; standing rule 9 executed on all four clauses unprompted; **wall thickness read as evidence of a concealed service**; an evidence ceiling stated and honoured | 14 |
-| [`YT_PNoOyCHa_V0`](../../_Sources/YT_PNoOyCHa_V0_ifcarchitect_blenderbim_floor_plan.md) | **The drawing is GENERATED, not exported**; the ~1 m plan cut convention and its reason; **a plan symbol is authored, not cut**; type-level edits with silent blast radius; drafted-only elements invisible to take-off | 12 |
-| [`YT_fxpIg-su-00`](../../_Sources/YT_fxpIg-su-00_profrino_first_bim_drawing_bonsai.md) | **⚠️⚠️ Four places the parametric association leaks**, which reframes the headless question; IFC as an *authoring* format is new; type duplication as the divergence mechanism | 11 |
-| [`YT_Q4rbqUbhYXY`](../../_Sources/YT_Q4rbqUbhYXY_architecturetopics_blender_floor_plan_from_image.md) | **Wall SURFACES not centrelines**, with the practitioner's reason; **a differing-thickness junction is authored, not automatic**; a hand-run geometry check with a known trap; ⚠️ scaling off an assumed door width | 9 |
-| [`YT_YYmFMxMV6io`](../../_Sources/YT_YYmFMxMV6io_messerschmidt_blender_dimensioned_floor_plan_export.md) | **Three silent-failure modes in one export path**; ⚠️ **text collision is manual in a purpose-built tool too**, which qualifies the adopt decision; the named style set | 9 |
-| [`YT_xlmbZHIaHJw`](../../_Sources/YT_xlmbZHIaHJw_cgessentials_homebuilder_floor_plan_from_scan.md) | **⚠️⚠️ Wall direction sets inside/outside AND every hosted object** — independent confirmation; a scale verification that checks the wrong thing; an element's anchor as a per-object datum | 7 |
-| [`YT_tAq0foY2GOY`](../../_Sources/YT_tAq0foY2GOY_spbproduction_bonsai_ifc_vs_blend_save.md) | **⚠️⚠️ The only controlled experiment in four batches** — the IFC is master, the `.blend` a cache; **and `Ctrl+S` writes to the IFC**, a live hazard in our own viewing instructions | 6 |
-| [`YT_mq63GWbgWdM`](../../_Sources/YT_mq63GWbgWdM_architecturetopics_inkscape_trace_to_blender.md) | ⚠️⚠️ **A correct scale reference discarded over an unresolved unit** — the cleanest rule-9 failure in the vault; raster auto-trace as the naive counterpart to vector extraction | 5 |
-| [`YT_4JYFYvNg5Xk`](../../_Sources/YT_4JYFYvNg5Xk_blender3darchitect_external_ifc_libraries_bonsai.md) | **A schema upgrade that reports success and leaves a deprecated entity**; a concrete rule for the IDS validation already marked `Adopt` | 5 |
-| [`YT_DgovrfgLxYs`](../../_Sources/YT_DgovrfgLxYs_brockmesarich_astra_blender_parts_schedule.md) | A parts schedule off individuated geometry — **the cheap half of take-off**; ⚠️ near-skipped, `promotional_ratio: very_high` | 3 |
-
-**Round yield**: 11 videos (10 processed, 1 duplicate), **81 new facts, yield = 7.4** per video. **Two new pages**: `Model_To_Drawing_Pipeline.md`, and `Raster_To_Geometry.md` extracted from `Drawing_Conventions_From_Practice.md` at the backstop.
-
-## @IfcArchitect Tier 1 (2026-09-13)
-
-**Eight videos from the 42-video channel, all `en-orig`, all read in full.** Triage and the question-map that drove the selection: [`ifcarchitect_tier1_20260913.md`](../../_Inbox/planning/ifcarchitect_tier1_20260913.md).
-
-> **⚠️⚠️ THIS ROUND ANSWERED NAMED QUESTIONS RATHER THAN EXTRACTING OPENLY**, which is a first for this folder. Four open items were closed and two earlier conclusions corrected. **⚠️⚠️ All eight are ONE PRESENTER — a South African architect who names his own national standards twice. His agreement with himself is not corroboration, and every convention from him carries an unstated national default.**
-
-| Source | Contribution | Yield |
-| :--- | :--- | :--- |
-| [`YT_VgvPk78IU0U`](../../_Sources/YT_VgvPk78IU0U_ifcarchitect_bonsai_2d_drafting.md) | **⚠️⚠️ No auto-dimension at all** — placement is manual, which corrects the `Adopt` premise; **but tags are bulk-placed and `{{ }}` data-bound**, template type-level and value instance-level; the three-tier dimension chain at 400 mm; **SVG+CSS**; Qto in one command | 17 |
-| [`YT_HEb7fWJduXg`](../../_Sources/YT_HEb7fWJduXg_ifcarchitect_page_layout.md) | **⚠️⚠️ The sheet is an SVG file on disk, assembled by hand in Inkscape** — so we are already better at composition; the round trip preserves manual edits; **a CSS selector filters per drawing**; `create drawing` must precede `create sheets`; **a clip hides geometry, it does not remove it** | 13 |
-| [`YT__hADRIo-ma4`](../../_Sources/YT__hADRIo-ma4_ifcarchitect_custom_phases.md) | **⚠️⚠️ A demolition plan is a QUERY** over `Pset_*Common.Status` — the same three phases we carry as DXF layers; ⚠️ **but do not copy his type-per-phase pattern**; the standard breaks for spaces and the fallback is vendor-specific | 13 |
-| [`YT_dPWQbjaeoyo`](../../_Sources/YT_dPWQbjaeoyo_ifcarchitect_lineweights_css.md) | **⚠️⚠️ The styling system is literally CSS** — which dissolves the "magic strings" into class names; **the cut/projection/text/annotation/material taxonomy**; ⚠️ **four of five styling artefacts live in the app install** | 12 |
-| [`YT_QTviOpqz1rw`](../../_Sources/YT_QTviOpqz1rw_ifcarchitect_bonsai_2d_detail.md) | **⚠️⚠️ A detail is MODELLED, not drafted** — a scoping decision for the owner; a detail is a section at 1:10; **text overflow fixed by shrinking the font, third instance**; the anatomy of a spec note and its two deferrals | 11 |
-| [`YT_r0ebxigzM6U`](../../_Sources/YT_r0ebxigzM6U_ifcarchitect_bonsai_section_elevation.md) | **One camera primitive, four sheet types**; **classification is the switch that puts an object in the drawing** — demonstrated, not asserted; cut line weight is automatic, cut fill is not | 8 |
-| [`YT__vrVETTI5jQ`](../../_Sources/YT__vrVETTI5jQ_ifcarchitect_custom_titleblock.md) | **Title blocks use the SAME `{{ }}` binding as tags** — one portable mechanism; ⚠️ custom ones are destroyed by a reinstall; never raster-trace something already vector | 8 |
-| [`YT_jTL3a6QwckA`](../../_Sources/YT_jTL3a6QwckA_ifcarchitect_custom_wall_type.md) | **⚠️⚠️ CORRECTION: the library does NOT quantise** — an exact 220 type takes five minutes; thickness is a type property and geometry follows it; `IfcMaterialLayerSet` for layered build-ups | 7 |
-
-**Round yield**: 8 videos, **89 new facts, yield = 11.1** per video — **the second-highest of any round in this folder** (5.1 / 7.0 / 11.8 / 7.4 / 11.1). ⚠️ **And the same caveat as the 11.8 round applies: the highest yields come from the most concentrated sources.** The number measures how much one voice said that was new to us, not how well-evidenced any of it is.
-
-## Dude Blender floor-plan series (2026-09-13)
+### Dude Blender floor-plan series (2026-09-13)
 
 **Three owner-supplied videos, one continuous exercise, extracted as ONE source.** All `en-orig` with **author-supplied manual English subtitles** — the best transcript quality in this folder.
 
@@ -159,7 +170,41 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 
 **Round yield**: 3 videos, **29 new facts, yield = 9.7** per video. ⚠️ **The modelling task is now thoroughly covered — further sources on "how to draw a floor plan in Blender" should be declined** unless they carry something these six do not.
 
-## DataDrivenConstruction Tier 1 (2026-09-14)
+## Toolchain surveys and data pipelines
+
+Broader toolchain and data-processing sources.
+
+### Design-toolchain group, Round 1 (2026-09-08)
+
+Russian sources. Triage that authorised the round: [`design_toolchain_sources_triage_20260908.md`](../../_Inbox/planning/design_toolchain_sources_triage_20260908.md).
+
+| Source | Practitioner | Contribution |
+| :--- | :--- | :--- |
+| [`YT_OTBw7bCrv-o`](../../_Sources/YT_OTBw7bCrv-o_remplanner_lesson4_electrics_lighting.md) | RemPlanner (vendor; narrator unnamed) | Dimensioning to centre, the `1/2` notation, `вывод` as an element type, per-sheet representation |
+| [`YT_DI5GAV64mnU`](../../_Sources/YT_DI5GAV64mnU_kdmitry_technical_project_remplanner_festivalnaya.md) | Дизайнер Дмитрий К | Staged workflow, socket derivation, furniture-overlay reading, blank-sheet discipline |
+| [`YT_F0rXrbPDPf4`](../../_Sources/YT_F0rXrbPDPf4_kdmitry_technical_project_remplanner_review.md) | Дизайнер Дмитрий К | The 18-tab sheet set, switch grouping, the finish-scheme-as-costing-input link, scope boundary |
+| [`YT_TJVXUCKQ1UU`](../../_Sources/YT_TJVXUCKQ1UU_kdmitry_planoplan_sketchup_together.md) | Дизайнер Дмитрий К | The two-tool split, the underlay, what a planning model must be accurate about |
+| [`YT_YEpfNcwwGoU`](../../_Sources/YT_YEpfNcwwGoU_kdmitry_concept_2room_planoplan_rationale.md) | Дизайнер Дмитрий К | Conventional colour at concept stage; sketch renders as a stage-1 output |
+| [`YT_FRKr9X3AFfY`](../../_Sources/YT_FRKr9X3AFfY_kdmitry_doors_partitions_planning.md) | Дизайнер Дмитрий К | Door casings constraining partition position; doors modelled open and closed, trim as a later layer |
+
+### @ConstructIQ Tier 1 round (2026-09-13)
+
+**The five-video Tier 1 round recommended by [`constructiq_channel_triage_20260913.md`](../../_Inbox/planning/constructiq_channel_triage_20260913.md).**
+
+> [!WARNING]
+> **⚠️⚠️ ALL FIVE ARE ONE PRACTITIONER — Tim Fairley / @ConstructIQ — bringing this vault to NINE of his videos.** Nothing here corroborates anything else of his. The product funnel is constant. **Where a claim from him matters, it needs a second, unrelated voice.**
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_VrSs8mGI8ss`](../../_Sources/YT_VrSs8mGI8ss_fairley_takeoff_to_priced_bid.md) | **Take-off → priced bid end to end**; the rate-flagging gate; first-cut-then-check; the scope-gap reconciliation | 16 |
+| [`YT_wgcOBhejKvo`](../../_Sources/YT_wgcOBhejKvo_fairley_agent_collision_and_git_for_knowledge_work.md) | **File-versus-line: why agentic harnesses break on documents**; his own architecture publicly retracted | 12 |
+| [`YT_8aSYNMXk33A`](../../_Sources/YT_8aSYNMXk33A_fairley_eight_levels_of_context.md) | The context ladder; **the two problems skills solve**; the router-file pattern | 12 |
+| [`YT_sjcDHXReSNI`](../../_Sources/YT_sjcDHXReSNI_fairley_workflow_systems_failure_modes.md) | **Four failure modes of a standalone workflow**; the slop problem; the **skeptic step** | 11 |
+| [`YT_LBN9xF_rs1w`](../../_Sources/YT_LBN9xF_rs1w_fairley_subagents_and_lost_in_the_middle.md) | **"Lost in the middle"**; the sub-agent fresh-context mechanism | 8 |
+
+**Round yield**: 5 videos, 59 new facts, yield = **11.8** per processed video — the highest of any round in this folder (Round 1 5.1, Round 2 7.0).
+
+### DataDrivenConstruction Tier 1 (2026-09-14)
 
 **Four videos from the 2026-09-14 channel triage, processed as the round's highest-value item: the quantity→price gap.** All `en`. ⚠️ **`promotional_ratio` high to very_high throughout — every video demonstrates the channel's own tools — and NOT ONE accuracy figure appears in any of them.** The tools are claimed free, `pip install`-able and fully local, with AI on the user's own API key; **that posture is materially different from a SaaS pitch and it is the same posture as ours. It is not verified — no repository was inspected.**
 
@@ -171,33 +216,3 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 **Round yield**: 4 videos (3 folded into one note), **35 new facts**. **One new page: [[18_Digital_Toolchain/analysis/Requirements_And_Validation|Requirements and Model Validation]]**, created because `Model_To_Drawing_Pipeline.md` was at 379 lines and could not absorb it.
 
 > **⚠️⚠️ A LANGUAGE FINDING WORTH CARRYING PAST THIS ROUND**: `ryJxOanNJVQ` has **no `-orig` caption track at all** — only a `manual: en` — **and that manual track renders *Claude Code* as “Cloud Code” and “clawed code”.** → **A “manual” subtitle can be machine-generated and merely uploader-accepted. `manual` is NOT evidence of a human transcript, and the tell is errors on proper nouns.** ⚠️ **Fourth distinct form of the title/caption-language trap recorded in this vault.**
-
-## Bonsai and Blender practitioner triage (2026-09-17)
-
-**Eight substantive sources triaged across five target channels/playlists** (`@blender3darchitect`, `@BIMvoice`, `@SPB-production`, `@dynamiterevit`, `@Modelflick`), addressing open problems 1–12 from `_Inbox/planning/agent_brief_bonsai_blender_triage_20260917.md`.
-
-| Source | Contribution | Yield |
-| :--- | :--- | :--- |
-| [`YT_XYeasHbyw-U`](../../_Sources/YT_XYeasHbyw-U_spbproduction_bonsai_ifc_schema_conversion.md) | **Stepwise migration (2x3 → 4.0 → 4.3) via `IfcPatch` Migrate recipe**; IFC4.3 infrastructure scope; downgrade risk stripping georeferencing and converting unmapped entities to `IfcBuildingElementProxy`. | 6 |
-| [`YT_CbDO16CfC7M`](../../_Sources/YT_CbDO16CfC7M_spbproduction_ifctester_ids_validation.md) | **Client-side WASM IDS validation via IFC Tester (`ifctester.org`)**; zero data egress; audit reports keyed by `GlobalId`; UI schema mismatch bug. | 6 |
-| [`YT_fUlDzxSDOls`](../../_Sources/YT_fUlDzxSDOls_spbproduction_bonsai_spreadsheet_qto_schedule.md) | **Bonsai Spreadsheet module for QTO and schedules**; class filtering, Pset dot notation, double-quote requirement on spaced names, grouping and count/sum export to CSV. | 6 |
-| [`YT_sdNStKd-fqE`](../../_Sources/YT_sdNStKd-fqE_bimvoice_bonsai_vanishing_geometry_type_vs_element.md) | **Vanishing geometry trap** (assigning `IfcElementType` defaults out of spatial containment); live classification crash; text-to-mesh requirement; `IfcAnnotation` unviewable fallback to proxy. | 7 |
-| [`YT_-UuUCMOAvx4`](../../_Sources/YT_-UuUCMOAvx4_bimvoice_ids_wall_type_validation_mystery.md) | **IDS applicability debugging**: targeting `IfcWallType` vs `IfcWall` for type naming regex; property set attachment level; failure auditing. | 6 |
-| [`YT_1WPw5NRJQmM`](../../_Sources/YT_1WPw5NRJQmM_blender3darchitect_mirror_in_bim_virtual_element.md) | **BIM mirroring geometry trap**: buildingSMART lacks mirrored instances; Bonsai mirror reflects coordinate offset across `IfcVirtualElement` without flipping geometry. | 5 |
-| [`YT_-XPGFbmuh8U`](../../_Sources/YT_-XPGFbmuh8U_bimvoice_why_not_ditch_bim_tools_for_bonsai.md) | **Production reality of openBIM**: Solibri retained for speed (Bonsai validation on complex models wastes days); IfcOpenShell scripting vs GUI split; native IFC in-place editing. | 6 |
-| [`YT_530npr9stZ0`](../../_Sources/YT_530npr9stZ0_bimvoice_bonsai_cgal_crash_advanced_mode.md) | **CGAL geometry kernel crash on import**; workaround via Advanced Mode switching Geometry Library to Open Cascade. | 5 |
-
-**Round yield**: 8 substantive videos processed, **47 new facts, yield = 5.9** per video. Routed to `Requirements_And_Validation.md` and `Quantity_Takeoff_and_Cost_Join.md`. Over 280 candidate videos triaged and skipped with one-line rationale in the triage report.
-
-## Bonsai and Blender practitioner triage — Round 2 corrective pass (2026-09-17)
-
-**Three sources processed from the nine-video corrective pass (`_Inbox/planning/agent_brief_bonsai_triage_round2_20260917.md`)**, addressing open problems 1 (types), 7 (2D discipline sheets), and 11 (QTO). Six confirmed skips: two paywalled members-only (`kEFgXvcbHEw`, `0ktp-S7Lev0`), one duplicate presenter/technique (`Vy4RBlXFNQE`), two interactive UI editing without schema failure analysis (`oQBCy_zKMtI`, `iIR3zl4b6vA`), and one version-pinning bug report (`415peYvhkcg`). Optional 10th (`Vd6qnRO0ZP4`) confirmed skip (UI clipboard workaround, no GUID persistence evidence).
-
-| Source | Contribution | Yield |
-| :--- | :--- | :--- |
-| [`YT_RL3IAGeMi5s`](../../_Sources/YT_RL3IAGeMi5s_bimvoice_bonsai_drawings_internals_and_mep_void.md) | **Drawings internals**: cut planes slice 3D geometry to SVG styled via CSS; linework is dynamic at draw time, annotations are stored as `IfcAnnotation`. **Discipline sheets finding**: native 3D MEP modeling has broken flows; practitioners use manual 2D annotations as an overlay stopgap on architectural cuts. | 6 |
-| [`YT_xImmD0Ns4NQ`](../../_Sources/YT_xImmD0Ns4NQ_bimvoice_window_schedule_model_requirements.md) | **Spreadsheet QTO requirements**: window schedules require class filtering, direct dimensions (`OverallHeight`, `OverallWidth`), and **strictly require grouping by `ObjectType` or `Type.Name` for `count()` aggregation**. Property sets mapped via dot syntax (`Pset_WindowCommon.ThermalTransmittance`). | 5 |
-| [`YT_dRSoT80oDNA`](../../_Sources/YT_dRSoT80oDNA_blender3darchitect_parametric_walls_material_layer_sets.md) | **Parametric wall types**: thickness and multi-layer build-up governed by `IfcMaterialLayerSet` on `IfcWallType`; layer thickness edits propagate parametrically to all instances; height parameterized via extrusion profile. Survives plain IFC4 round-trip. | 5 |
-
-**Round yield**: 3 videos processed, **16 new facts, yield = 5.3** per video. Routed to `Quantity_Takeoff_and_Cost_Join.md`, `Requirements_And_Validation.md`, and `Model_To_Drawing_Pipeline.md`.
-

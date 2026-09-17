@@ -372,3 +372,82 @@ Commands in [How_To_View_Outputs.md](How_To_View_Outputs.md).
 **Routing method is chosen from wall material and the ceiling build-up plan**, which is this project's substrate rule and the owner's ceiling-distribution topology reached independently.
 
 ⚠️ Open questions arising: `_Inbox/planning/mep_3d_open_questions_20260917.md`. The highest-value unknown is **how a chase is represented so its length is selectable** — Дубровин reads *«67 с лишним метров»* off the model, and chase length is priced LABOUR.
+
+---
+
+## ⚠️⚠️ CORRECTED 2026-09-17 — it is CANONICAL-DATA-FIRST, MODEL-DERIVED, and the hub is SEMANTIC
+
+**Review verdict:** the single-authority architecture is right; the proposed boundary was not.
+
+| | |
+| :--- | :--- |
+| ✅ **Keep** | canonical authored data → deterministic compiler → derived outputs |
+| ⛔ **Reject** | *resolved 3D geometry* → every view, with circuit data beside it and no ports |
+
+> **The resolved hub is a MULTIDISCIPLINARY PROJECT MODEL — geometry PLUS topology, phase, decisions and provenance. IFC is one issued representation of that hub.** Calling the approach "model-first" invited exactly the error below.
+
+### ⚠️⚠️ "Every benefit comes from the geometry layer" was FALSE, and our own sources disprove it
+
+That claim was used to justify dropping `IfcDistributionPort`. **The cited practice refutes it:**
+
+- Шемчук's cable schedule carries **start point, end point, circuit identity and length** — three of those four are not geometric.
+- Дубровин fixes **circuit groups, breaker ratings, cable sections and RCD grouping BEFORE tracing**, and his single-line schematic is explicitly a **topological** view, not a geometric cut.
+
+**Geometry supplies coordination and path length. It does NOT supply** which terminal is on which circuit, switching relationships, cable start/end identity, circuit membership, breaker/RCD grouping, or the single-line schematic.
+
+> **→ A discipline sheet is SOMETIMES a cut, and sometimes a graph layout, a schedule or a schematic.** The earlier formulation — *"a sheet is a query plus a cut"* — was too narrow.
+
+### ⛔ "No ports" is not justified
+
+Lloyd Sark says Bonsai's native MEP **modelling, connections and system flow** misbehave. He does **not** isolate `IfcDistributionPort` as the cause — mapping his words to ports was **our inference, not his demonstration**. Дубровин cannot settle it either: his note records that he makes **no IFC, port or schema claim at all**.
+
+IFC4 defines distribution ports precisely for electricity and communications, with cables connecting ports. ⚠️ **They carry no visible geometry, so they do not compete with the modelled run** — they give it machine-readable endpoints.
+
+**Position:** retain canonical topology; emit **minimal ports and connections**; do not rely on Bonsai to author or solve them; validate with `ifcopenshell` directly; omit them only from a deliberately reduced compatibility export, never from the authoritative issued IFC.
+
+> ⚠️ *"No flow simulation"* is defensible. *"No ports"* is not.
+
+### ⚠️⚠️ Automation removes DRAWING labour, not ENGINEERING authority
+
+The argument that a generator "does not pay" the manual cost is incomplete: it replaces authoring with routing rules, constraint modelling, validation, exception handling and maintenance. **A generator can produce a wrong route faster and more consistently than a person.**
+
+**Route state is therefore an AUTHORITY boundary, not a confidence label:**
+
+| State | Meaning |
+| :--- | :--- |
+| `topology_only` | endpoints and connectivity known; **no physical path claimed** |
+| `design_intent` | proposed route or permitted corridor, **visibly provisional**; no construction claim |
+| `construction_approved` | exact geometry **approved by the electrician/services designer**; quantities may be issued |
+| `as_built` | recorded after installation; ⚠️ **never promoted automatically** |
+
+> **→ ⚠️⚠️ THE COMPILER MAY PROPOSE A ROUTE. IT DOES NOT GET TO APPROVE ONE.**
+
+### ⚠️ Chase length is NOT cable length
+
+The two were treated as nearly the same benefit. They are not. A route can include ceiling-void segments that are not chased, conduit or tray, vertical chased drops, **several cables sharing one chase**, and slack at endpoints. Summing cable geometry **double-counts a shared chase**; measuring one centreline **undercounts multiple runs**.
+
+**Chases must be modelled as separate work geometry, or as classified route segments carrying installation method and shared-channel identity.** Until then, exact chase labour is not a demonstrated output.
+
+### ⚠️ IFC layer priority must NOT become a second geometry authority
+
+IFC carries connection relationships, optional connection geometry and priorities that a *receiving* application **may** use. The canonical compiler keeps deciding the actual polygon. The derivation is **one-way**:
+
+```
+wall_corners + layer build-up
+        ↓
+compiler-resolved body polygons and layer junctions
+        ↓
+compatible IFC connection geometry and priorities
+```
+
+**Never two independent corner solvers.** `IfcRelConnectsPathElements` also allows per-connection priorities to override the general layer priority, which is a second reason not to let IFC arbitrate.
+
+### ⚠️⚠️ SCHEMA EDITION TRAP — "stay on IFC4" is imprecise
+
+| Edition | `IfcMaterialLayer.Priority` |
+| :--- | :--- |
+| IFC4 **Final** | normalised **0..1** |
+| IFC4 **ADD1** | integer **0..100** |
+| **Our installed `ifcopenshell` 0.8.5, schema `IFC4`** | ⚠️ **`IfcInteger` — verified 2026-09-17** |
+
+So our toolchain is on **ADD1 semantics**. **Pin the schema edition, and put the expected priority representation in the IDS/checker** rather than relying on "IFC4".
