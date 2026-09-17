@@ -797,7 +797,49 @@ def build(output: Path, manifest_path: Path) -> dict:
     # which has clipped to the recorded interval all along, showed the truth.
     # Split-brain between two representations of one wall. The extent now
     # compiles into an IfcCovering instead.
-    manifest["insulation_coverings"] = apply_insulation_coverings(model)
+    # ⚠️⚠️ THE COVERING GETS A REAL BODY, extruded from the SAME band rectangle
+    # place_insulation.py resolved and the DXF draws. Properties alone left the
+    # drawing showing a 120 mm physical band and the model showing nothing -
+    # a 2D/3D disagreement in place of the semantic one just fixed. Uncertainty
+    # belongs in ThicknessValueState, not in which views get to see the element.
+    def insulation_body(covering, polygons_m, z0_m, z1_m):
+        solids = []
+        for points in polygons_m:
+            pts = list(points) + [points[0]]
+            polyline = model.create_entity("IfcPolyline", Points=[
+                model.create_entity("IfcCartesianPoint",
+                                    Coordinates=(float(x), float(y)))
+                for x, y in pts])
+            solids.append(model.create_entity(
+                "IfcExtrudedAreaSolid",
+                SweptArea=model.create_entity(
+                    "IfcArbitraryClosedProfileDef", ProfileType="AREA",
+                    OuterCurve=polyline),
+                Position=model.create_entity(
+                    "IfcAxis2Placement3D",
+                    Location=model.create_entity(
+                        "IfcCartesianPoint",
+                        Coordinates=(0.0, 0.0, float(z0_m)))),
+                ExtrudedDirection=model.create_entity(
+                    "IfcDirection", DirectionRatios=(0.0, 0.0, 1.0)),
+                Depth=float(z1_m - z0_m)))
+        covering.Representation = model.create_entity(
+            "IfcProductDefinitionShape", Representations=[
+                model.create_entity(
+                    "IfcShapeRepresentation", ContextOfItems=body,
+                    RepresentationIdentifier="Body",
+                    RepresentationType="SweptSolid", Items=solids)])
+        covering.ObjectPlacement = model.create_entity(
+            "IfcLocalPlacement",
+            RelativePlacement=model.create_entity(
+                "IfcAxis2Placement3D",
+                Location=model.create_entity("IfcCartesianPoint",
+                                             Coordinates=(0.0, 0.0, 0.0))))
+        ifcopenshell.api.run("spatial.assign_container", model,
+                             products=[covering], relating_structure=storey)
+
+    manifest["insulation_coverings"] = apply_insulation_coverings(
+        model, make_solid=insulation_body, height_m=h_m)
 
     # ⚠️ WALL CONNECTIONS, compiled from wall_corners.csv - never a second
     # corner solver. ⚠️ AFTER typing, because the connection PRIORITIES index

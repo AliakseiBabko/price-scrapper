@@ -17,6 +17,7 @@ worse than none.
 """
 from __future__ import annotations
 
+import io
 import os
 import subprocess
 import sys
@@ -24,6 +25,7 @@ import tempfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools", "ifc"))
+sys.path.insert(0, os.path.join(REPO, "tools"))
 
 import ifcopenshell  # noqa: E402
 import ifcopenshell.api  # noqa: E402
@@ -221,6 +223,104 @@ def main() -> int:
                     "IfcReal", float(prop.NominalValue.wrappedValue) + 2000.0)
     expect("a WIDENED insulation extent is caught", check(model), True,
            "ExtentToMM")
+
+    # ⚠️⚠️ THE COVERING'S BODY. Properties alone let the DXF draw a physical
+    # 120 mm band while the model showed nothing - a 2D/3D disagreement
+    # standing in for the semantic one. These seed both ways it could return.
+    model = ifcopenshell.open(base)
+    ins = [c for c in model.by_type("IfcCovering")
+           if c.PredefinedType == "INSULATION"][0]
+    ins.Representation = None
+    expect("an insulation covering with NO body is caught", check(model), True,
+           "may not show an element the other omits")
+
+    # ⚠️ and a body that no longer matches the band the DRAWING renders
+    model = ifcopenshell.open(base)
+    ins = [c for c in model.by_type("IfcCovering")
+           if c.PredefinedType == "INSULATION"][0]
+    for point in model.by_type("IfcCartesianPoint"):
+        if len(point.Coordinates) == 2 and abs(point.Coordinates[1] - 7.5472) < 1e-6:
+            point.Coordinates = (point.Coordinates[0], 9.0)
+    expect("a covering body that has DRIFTED from the drawn band is caught",
+           check(model), True, "two views have drifted")
+
+    # ⚠️⚠️ MALFORMED NUMBERS IN THE SOURCE FILE. These drive the REAL readers
+    # over a REAL seeded CSV, because a fixture that cannot mutate an input
+    # leaves that input reading as covered while nothing tests it.
+    # `nan..7547.2` was ACCEPTED by the shipped version: `float("nan")` parses,
+    # and every comparison against the result is false, so a malformed band
+    # looks valid everywhere.
+    import csv as _csv
+    from typing_pass import BLOCKS, _insulation_extent, _wall_insulation
+    from lib.tabular import ValidationError
+
+    def seeded(mutate):
+        rows = list(_csv.DictReader(io.open(BLOCKS, encoding="utf-8")))
+        fields = list(rows[0].keys())
+        for row in rows:
+            if row["wall_id"] == "M2":
+                mutate(row)
+        handle, path = tempfile.mkstemp(suffix=".csv")
+        os.close(handle)
+        with io.open(path, "w", encoding="utf-8", newline="") as fh:
+            writer = _csv.DictWriter(fh, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows(rows)
+        return path
+
+    def refuses(label, mutate, reader):
+        nonlocal failures
+        path = seeded(mutate)
+        try:
+            value = reader(path)
+            print("FAIL %-56s ACCEPTED it: %s" % (label, str(value)[:30]))
+            failures += 1
+        except (ValidationError, ValueError) as exc:
+            print("PASS %-56s %s" % (label, str(exc).strip()[:28]))
+        finally:
+            os.unlink(path)
+
+    def set_extent(lo, hi):
+        def mutate(row):
+            row["insulation_from_mm"] = lo
+            row["insulation_to_mm"] = hi
+        return mutate
+
+    refuses("a nan insulation EXTENT is refused",
+            set_extent("nan", "7547.2"), _insulation_extent)
+    refuses("an inf insulation extent is refused",
+            set_extent("6977.2", "inf"), _insulation_extent)
+    refuses("HALF an extent is refused, not read as full-length",
+            set_extent("6977.2", ""), _insulation_extent)
+    refuses("a REVERSED extent is refused",
+            set_extent("7547.2", "6977.2"), _insulation_extent)
+    refuses("a nan insulation THICKNESS is refused",
+            lambda r: r.__setitem__("insulation_mm", "nan"), _wall_insulation)
+    refuses("a negative insulation thickness is refused",
+            lambda r: r.__setitem__("insulation_mm", "-120"), _wall_insulation)
+
+    # ⚠️ ...and the SHAPE failures DictReader hides: a stray cell it drops, and
+    # a missing one it turns into None.
+    def with_line(extra):
+        raw = io.open(BLOCKS, encoding="utf-8").read().rstrip("\n").split("\n")
+        handle, path = tempfile.mkstemp(suffix=".csv")
+        os.close(handle)
+        io.open(path, "w", encoding="utf-8", newline="").write(
+            "\n".join(raw[:2] + [extra] + raw[2:]) + "\n")
+        return path
+
+    for label, line in (
+            ("a STRAY extra cell is refused", "SEED," * 20 + "SEED"),
+            ("a MISSING cell is refused", "SEED,SEED")):
+        path = with_line(line)
+        try:
+            _insulation_extent(path)
+            print("FAIL %-56s ACCEPTED it" % label)
+            failures += 1
+        except (ValidationError, ValueError) as exc:
+            print("PASS %-56s %s" % (label, str(exc).strip()[:28]))
+        finally:
+            os.unlink(path)
 
     # a type of the wrong class
     model = ifcopenshell.open(base)

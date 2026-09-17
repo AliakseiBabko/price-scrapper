@@ -30,11 +30,20 @@ from __future__ import annotations
 import io
 import json
 import os
+import sys
 
 import ifcopenshell.api
 import ifcopenshell.util.element as ue
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.join(REPO, "tools"))
+
+# ⚠️ THE SHARED STRICT READERS, not csv.DictReader + float. AGENTS.md
+# mandates them because DictReader drops a stray cell and turns a missing one
+# into None, and float("nan") parses and then defeats every comparison it
+# reaches. Both failures were live in this file.
+from lib.tabular import ValidationError, finite, read_csv  # noqa: E402
+
 MATERIALS = os.path.join(REPO, "data", "canonical", "wall_materials.json")
 
 TYPE_CLASS = {"IfcWall": "IfcWallType", "IfcDoor": "IfcDoorType",
@@ -57,13 +66,26 @@ def _wall_insulation(path=BLOCKS):
     in wall_materials.json on 2026-09-17 and the two disagreed within minutes -
     150 against 70 for M6b. Read per wall, never inferred from `class`: M2 and
     M6b are both `loggia_enclosure` and differ, 0 against 70.
+
+    ⚠️ `read_csv` + `finite`, NEVER `DictReader` + `float`. `float("nan")`
+    parses happily and then defeats every comparison it reaches, and a stray or
+    missing cell slides past `DictReader` in silence. AGENTS.md requires the
+    shared helpers for exactly this and I used the raw pair here anyway.
     """
-    import csv
     out = {}
-    with io.open(path, encoding="utf-8") as fh:
-        for row in csv.DictReader(fh):
-            raw = (row.get("insulation_mm") or "").strip()
-            out[row.get("wall_id")] = float(raw) if raw else 0.0
+    for row in read_csv(path, required=["wall_id", "insulation_mm"]):
+        raw = (row.get("insulation_mm") or "").strip()
+        if not raw:
+            out[row.get("wall_id")] = 0.0
+            continue
+        value = finite(raw)
+        if value is None or value < 0:
+            raise ValidationError(
+                "wall %s has insulation_mm %r, which is not a usable "
+                "thickness. A non-finite value must FAIL here: it parses, then "
+                "makes every comparison downstream meaningless"
+                % (row.get("wall_id"), raw))
+        out[row.get("wall_id")] = value
     return out
 
 
@@ -86,22 +108,37 @@ def _insulation_extent(path=BLOCKS):
     partway. Insulation with a recorded extent is therefore not a layer at all
     here - it becomes an `IfcCovering` bounded to the interval. See
     `apply_insulation_coverings`.
+
+    ⚠️⚠️ `finite`, NOT `float`. `float("nan")` PARSES, and a nan extent then
+    survives every downstream comparison because comparisons against it are all
+    false - so a malformed interval would read as a valid band. This reader
+    shipped with the raw pair and `nan..7547.2` was accepted.
     """
-    import csv
     out = {}
-    with io.open(path, encoding="utf-8") as fh:
-        for row in csv.DictReader(fh):
-            lo = (row.get("insulation_from_mm") or "").strip()
-            hi = (row.get("insulation_to_mm") or "").strip()
-            if not lo or not hi:
-                continue
-            try:
-                out[row.get("wall_id")] = (float(lo), float(hi))
-            except ValueError:
-                raise ValueError(
-                    "wall %s has a non-numeric insulation extent %r..%r - a "
-                    "malformed extent must FAIL, never be read as full-length"
-                    % (row.get("wall_id"), lo, hi))
+    for row in read_csv(path, required=["wall_id", "insulation_from_mm",
+                                        "insulation_to_mm"]):
+        wall = row.get("wall_id")
+        lo_raw = (row.get("insulation_from_mm") or "").strip()
+        hi_raw = (row.get("insulation_to_mm") or "").strip()
+        if not lo_raw and not hi_raw:
+            continue
+        if not lo_raw or not hi_raw:
+            raise ValidationError(
+                "wall %s has half an insulation extent (%r..%r). One end alone "
+                "describes no band, and must not be read as full-length"
+                % (wall, lo_raw, hi_raw))
+        lo, hi = finite(lo_raw), finite(hi_raw)
+        if lo is None or hi is None:
+            raise ValidationError(
+                "wall %s has a non-finite insulation extent %r..%r - it parses "
+                "and then makes every comparison against it false, so the band "
+                "would look valid everywhere" % (wall, lo_raw, hi_raw))
+        if hi <= lo:
+            raise ValidationError(
+                "wall %s has an insulation extent %.1f..%.1f that does not run "
+                "forward - an empty or reversed band is not a band"
+                % (wall, lo, hi))
+        out[wall] = (lo, hi)
     return out
 
 
@@ -296,7 +333,33 @@ def apply_types(model):
             "type_names": sorted(made_types)}
 
 
-def apply_insulation_coverings(model):
+PLACED = os.path.join(REPO, "data", "canonical", "v0_insulation_placed.json")
+
+
+def _placed_bands(path=PLACED):
+    """wall id -> the band rectangles `place_insulation.py` already resolved.
+
+    ⚠️⚠️ THE SAME RECTANGLE THE DRAWING USES, deliberately. Re-deriving the band
+    from the extent and thickness here would be a SECOND placement solver, and
+    the whole reason this defect existed is that two representations of one wall
+    were computed independently and drifted. The 2D band and the 3D body are now
+    the same computed object rendered twice.
+    """
+    with io.open(path, encoding="utf-8") as fh:
+        data = json.load(fh)
+    out = {}
+    for band in data.get("bands", []):
+        corners = [finite(band.get(k)) for k in ("x0", "y0", "x1", "y1")]
+        if any(c is None for c in corners):
+            raise ValidationError(
+                "insulation band for %s has a non-finite corner %r - a band "
+                "that cannot be located must FAIL, not be drawn at nan"
+                % (band.get("wall_id"), corners))
+        out.setdefault(band.get("wall_id"), []).append(tuple(corners))
+    return out
+
+
+def apply_insulation_coverings(model, make_solid=None, height_m=None):
     """Insulation that STOPS PARTWAY becomes an `IfcCovering`, not a layer.
 
     ⚠️⚠️ WHY A COVERING AND NOT A LAYER. `IfcMaterialLayerSet` is a stack of
@@ -306,10 +369,18 @@ def apply_insulation_coverings(model):
     it does not have. IFC4 has the right element for this - `IfcCovering` with
     `PredefinedType = INSULATION`, attached by `IfcRelCoversBldgElements`.
 
-    ⚠️ NO GEOMETRY IS FABRICATED. The covering carries the recorded interval as
-    PROPERTIES, in the same host-local terms `wall_blocks.csv` states it and
-    `place_insulation.py` already consumes. Inventing a solid for it would mean
-    authoring a body from an interval whose own thickness is an assumption.
+    ⚠️⚠️ AND IT CARRIES A REAL BODY. The first version gave the covering
+    properties and no shape, on the reasoning that an assumed thickness should
+    not become geometry. That was inconsistent rather than cautious: the DXF has
+    been drawing the band as settled physical geometry the whole time, so
+    omitting it from the 3D view alone left a 2D/3D disagreement in place of the
+    semantic one just fixed. Uncertainty is expressed by ThicknessValueState,
+    and it is expressed identically in both views or in neither.
+
+    ⚠️ THE BODY IS NOT RE-DERIVED. It extrudes the rectangle
+    `place_insulation.py` already resolved into v0_insulation_placed.json - the
+    same object the drawing renders - because a second placement solver is
+    exactly how the two views drifted apart in the first place.
 
     ⚠️ THE THICKNESS IS CARRIED WITH ITS VALUE STATE. Where insulation is
     required is a topological fact; how thick it is is a measurement, and M2's
@@ -321,6 +392,7 @@ def apply_insulation_coverings(model):
 
     extents = _insulation_extent()
     thicknesses = _wall_insulation()
+    placed = _placed_bands()
     walls = dict((w.Name, w) for w in model.by_type("IfcWall")
                  if not w.is_a("IfcWallType"))
 
@@ -367,8 +439,24 @@ def apply_insulation_coverings(model):
             "ExtentBasis": "owner_stated",
             "ThicknessValueState": "assumed_not_measured",
         })
+        # ⚠⚠ THE BODY, from the SAME placed rectangle the drawing uses.
+        bodies = placed.get(wall_id) or []
+        if make_solid is not None:
+            if not bodies:
+                raise ValidationError(
+                    "wall %s has a recorded insulation extent but "
+                    "v0_insulation_placed.json holds no band for it. The 3D "
+                    "body and the drawn band come from ONE placement; a missing "
+                    "one means the placement is stale, not that the band is "
+                    "absent - re-run tools/layout/place_insulation.py" % wall_id)
+            # ⚠ ONE covering, one body - several disjoint rectangles where the
+            # band is interrupted, as Items of a single representation.
+            make_solid(covering, [
+                [(x0 / 1000.0, y0 / 1000.0), (x1 / 1000.0, y0 / 1000.0),
+                 (x1 / 1000.0, y1 / 1000.0), (x0 / 1000.0, y1 / 1000.0)]
+                for x0, y0, x1, y1 in bodies], 0.0, height_m)
         made.append({"wall": wall_id, "from_mm": lo, "to_mm": hi,
-                     "thickness_mm": thickness})
+                     "thickness_mm": thickness, "bands": len(bodies)})
 
     return {"coverings": len(made), "detail": made,
             "recorded_but_not_in_model": sorted(missing)}
