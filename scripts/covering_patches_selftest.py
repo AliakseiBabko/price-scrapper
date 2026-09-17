@@ -187,14 +187,31 @@ def main() -> int:
     check("MC's absent end cap against INS-PARTY-MASONRY is CONSISTENT",
           got.get(("MC", "absent")) == CONSISTENT, got.get(("MC", "absent")))
 
-    # ⚠️⚠️ THE CASE THAT CAUSED THE CATEGORY ERROR. M2's abutting run has an
-    # UNRESOLVED requirement and an OBSERVED absence. It must land in REVIEW -
-    # and must NOT block, and must NOT overwrite the observed state.
-    check("an unresolved requirement over an observed absence is REVIEW",
-          got.get(("M2", "absent")) == REVIEW, got.get(("M2", "absent")))
+    # ⚠️⚠️ THE CASE THAT CAUSED THE CATEGORY ERROR, now INJECTED rather than
+    # borrowed. M2's abutting run WAS unresolved with an observed absence, and
+    # this seed leaned on it staying that way - so it broke the moment the full
+    # floor plan resolved the neighbour's space. A guard must carry its own
+    # defect, or the data improving looks like the gate failing.
+    # ⚠️ ONE patch only, so the issued seeds below have exactly one band to
+    # dispose of - downgrading every patch would make "a scoped exclusion
+    # releases the issue" fail for the eight it did not name.
+    unsettled = copy.deepcopy(ass)
+    target_patch = next(r["patch_uuid"] for r in unsettled
+                        if r["property"] == "contact_kind")
+    for row in unsettled:
+        if (row["patch_uuid"] == target_patch
+                and row["property"] == "contact_kind"):
+            row["value_state"] = "candidate"
+    got_u, problems_u = verdicts(assertions=unsettled)
+    check("an unresolved requirement over an observed presence is REVIEW",
+          REVIEW in got_u.values(), sorted(set(got_u.values())))
 
     check("...and it does not make the reconciliation fail",
-          not problems, "no structural problem")
+          not problems_u, problems_u[:1] or "no structural problem")
+
+    # ⚠️ and with the real evidence, nothing is left unresolved at all
+    check("every band reconciles on today's evidence",
+          set(got.values()) == {CONSISTENT}, sorted(set(got.values())))
 
     # present where the rule says not_required -> investigate
     flipped = copy.deepcopy(base)
@@ -230,10 +247,18 @@ def main() -> int:
     # proposed-work decision that depends on that band, and the only way past
     # is a RECORDED DISPOSITION - a person, a date and a reason. Changing a
     # rule until the verdict disappears is not a disposition.
-    issued_rows, _p = reconcile(covering_patches.active(), bnd, ass, dec)
+    # ⚠️⚠️ THE ISSUED SEEDS INJECT THEIR OWN NON-CONSISTENT BAND. They used to
+    # rely on M2 being unresolved in the real data; when it resolved, the guard
+    # silently had nothing to guard. Every band is `consistent` today, which is
+    # exactly when this seed would otherwise go vacuous.
+    issued_rows, _p = reconcile(covering_patches.active(), bnd, unsettled, dec)
     open_rows = [r for r in issued_rows if r[2] != CONSISTENT]
     check("there IS a non-consistent band, so the guard is not vacuous",
           open_rows, "%d row(s)" % len(open_rows))
+
+    live_rows, _lp = reconcile(covering_patches.active(), bnd, ass, dec)
+    check("...and the REAL records need no disposition at all",
+          not issued_problems(live_rows, {})[0], "nothing blocks issue")
 
     def issued(rows_in, disp, includes=()):
         return issued_problems(rows_in, disp, includes)[0]
