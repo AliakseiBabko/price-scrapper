@@ -1239,5 +1239,13 @@
     "the_150_is_retired": "!! Superseded by the 120 above. The 150 came from wall_blocks with no stated basis; the 70 was MINE, wrongly attributed to the owner.",
     "render": "!! NO RENDER LAYER IS MODELLED. Owner: «I already named the values - 200 mm and 70 mm. That's all you need to know.»",
     "M6b_is_120_by_proportion": "!! 2026-09-17, third and settled figure. The owner annotated a crop of ext2 with 200 on the exposed block and 120? on the insulation, reading one against the other at the same corner. 70 (a third of 200) reads too thin; 150 (two thirds) too thick. !! This is a PROPORTION off a photograph with an independently confirmed in-frame scale, not a measurement - and it is the only one of the three figures that had any scale reference at all. Lives in wall_blocks.csv, the one source."
+  },
+  "M2_EXPOSURE_IS_MIXED_2026_09_17": {
+    "finding": "!! M2 IS NOT UNIFORMLY ANYTHING. The owner pointed at the 4th floor plan and he is right: the upper run of M2 abuts the NEIGHBOUR'S loggia, and the lower run - where our loggia projects past the neighbour's footprint - faces OPEN AIR. The plan draws a stippled insulation band on the outer face of the exposed run ONLY.",
+    "evidence": "_Drawings/evidence/m2_mixed_exposure_from_4th_floor_plan.png, cropped from _Inbox/_Visual_Drop/4th_floor_plan.png",
+    "it_resolves_the_contradiction": "!! Rule 4 («M2 is 200 mm aerated block with NO insulation») and wall_blocks' 150 were each describing a DIFFERENT PART OF THE SAME WALL. Neither was wrong; both were partial. The façade-plane reasoning still holds exactly as written - insulation follows the rendered façade - it simply turns out part of M2 IS on that plane.",
+    "why_a_single_column_cannot_hold_it": "!! insulation_mm is ONE NUMBER PER WALL. Setting M2 to 120 overstates the run that abuts the neighbour; setting it to 0 understates the exposed run. This is the one-column mistake the services data model already rejected, appearing in the geometry. NOT RESOLVED BY GUESSING A VALUE.",
+    "the_owner_s_wider_point": "!! He also observes that representing this properly may need walls OUTSIDE our apartment perimeter - the neighbour's enclosure - because what decides M2's exposure is what stands on the other side of it, which our model does not carry at all.",
+    "options": "(a) split M2 into two calculation legs, as R1a/R1b are legs of A_NW_CORNER, each with its own exposure; (b) keep one wall and add an insulation EXTENT alongside the thickness; (c) model the neighbour's enclosure so adjacency is derivable rather than asserted. OWNER'S CALL."
   }
 }
