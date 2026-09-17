@@ -295,10 +295,17 @@ def main() -> int:
           % ("PASS" if ok else "FAIL", rule))
     failures += 0 if ok else 1
 
+    # ⚠️ IT ASSERTS THE STATE, NOT WHICH ASSERTION IS HOLDING IT BACK. This
+    # seed named `candidate` and the contact assertion specifically; when the
+    # shell photograph arrived on 2026-09-17 it DISPUTED adjacent_space_kind
+    # instead, and the seed failed while the behaviour was perfectly correct.
+    # A seed pinned to the current reason goes stale the moment the evidence
+    # improves - the same class as the seeds that named M2 and M6b by id.
     got, _rule, why = verdict_at("M2", "cross_lo", 570.0)
-    ok = got == UNRESOLVED and "candidate" in why
-    print("%s M2's abutting run is NOT eligible while contact is candidate"
-          % ("PASS" if ok else "FAIL"))
+    ok = got == UNRESOLVED and any(
+        state in why for state in ("candidate", "disputed", "unknown"))
+    print("%s M2's abutting run is NOT eligible while any axis is unsettled (%s)"
+          % ("PASS" if ok else "FAIL", why[:44]))
     failures += 0 if ok else 1
 
     # ⚠️⚠️ THE THREE OUTCOMES ARE DISTINCT. `None` used to mean both "proven
