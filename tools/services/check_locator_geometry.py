@@ -52,6 +52,9 @@ import sys
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(REPO, "tools", "layout"))
 sys.path.insert(0, os.path.join(REPO, "tools", "services"))
+sys.path.insert(0, os.path.join(REPO, "tools", "lib"))
+
+from tabular import finite  # noqa: E402
 
 from check_target_schema import load as load_targets   # noqa: E402
 
@@ -88,6 +91,8 @@ TOUCH_MM = 1.0        # coincidence tolerance for boundary adjacency
 # proposed accessory on M2 - loggia_enclosure, material unknown - sailed
 # through substrate checking entirely.
 CHASEABLE_MATERIALS = ("aerated_block",)
+# The closed vocabulary. Anything else is a typo until reviewed.
+KNOWN_MATERIALS = ("aerated_block", "reinforced_concrete")
 NO_CHASE_MATERIALS = ("reinforced_concrete",)
 MATERIALS = os.path.join(REPO, "data", "canonical", "wall_materials.json")
 
@@ -116,12 +121,27 @@ def wall_classes(path=MATERIALS):
     with io.open(path, encoding="utf-8") as fh:
         data = json.load(fh)
     walls = data.get("walls", [])
-    seen, duplicates = set(), []
+    seen, duplicates, blank, undeclared = set(), [], 0, []
     for wall in walls:
-        wid = wall.get("id")
+        wid = (wall.get("id") or "").strip()
+        if not wid:
+            blank += 1
         if wid in seen:
             duplicates.append(wid)
         seen.add(wid)
+        material = wall.get("material")
+        if material is not None and material not in KNOWN_MATERIALS:
+            undeclared.append("%s=%r" % (wid, material))
+    if blank:
+        raise DuplicateWallId(
+            "%d wall record(s) in wall_materials.json have no id" % blank)
+    if undeclared:
+        # ⚠️ An unrecognised material is a TYPO until proven otherwise, and a
+        # typo in this file decides whether a cable may be chased.
+        raise DuplicateWallId(
+            "wall_materials.json declares unknown material(s): %s - the "
+            "vocabulary is %s" % (", ".join(sorted(undeclared)),
+                                  "/".join(sorted(KNOWN_MATERIALS))))
     if duplicates:
         raise DuplicateWallId(
             "wall_materials.json declares %s more than once - a duplicate id "
@@ -155,17 +175,34 @@ def _assertions(targets, subject):
     return out
 
 
+class Malformed(Exception):
+    """A numeric assertion that is not a finite number."""
+
+
 def _number(assertion):
-    """The asserted number, or None when the record says `unknown`."""
+    """The asserted number, None when `unknown`, or RAISE when malformed.
+
+    ⚠️ IT USED `float()`. AGENTS.md says use `finite()`, and this did not:
+    `position_along = nan` parsed, and a fully specified envelope on G7 came
+    back "VALID envelope nan-nan clear of every void". Every comparison a nan
+    touches is false, so a nan does not fail a containment test - it passes
+    all of them.
+    ⚠️ AND A MALFORMED NUMBER IS NOT AN ABSENT ONE. Returning None here would
+    turn `nan` into "no position asserted" and report `partial`, which hides
+    the defect behind a benign-looking verdict.
+    """
     if assertion is None:
         return None
     if (assertion.get("value_state") or "").strip() == "unknown":
         return None
     text = (assertion.get("value") or "").strip()
-    try:
-        return float(text)
-    except ValueError:
+    if not text:
         return None
+    number = finite(text)
+    if number is None:
+        raise Malformed("%s = %r is not a finite number"
+                        % (assertion.get("property") or "?", text[:32]))
+    return number
 
 
 def check(targets, resolved, opening_verticals, classes=None):
@@ -233,6 +270,17 @@ def check(targets, resolved, opening_verticals, classes=None):
                             "cannot cast into concrete already poured"
                             % (host, klass, "/".join(CHASEABLE_MATERIALS))))
             continue
+        # ⚠️ A CHASED ACCESSORY USES THE WHITELIST REGARDLESS OF PHASE. This
+        # rejected only material == "reinforced_concrete" exactly, so a
+        # MISSPELLING failed open: changing R5 to `reinforced_concret` made a
+        # fully specified chased accessory on the RC frame come back VALID. A
+        # whitelist cannot be defeated by a typo; a blacklist can.
+        if method == "chased" and klass not in CHASEABLE_MATERIALS:
+            results.append((key, "invalid",
+                            "host %s is %r and the accessory is CHASED - a "
+                            "chase may only be cut into %s"
+                            % (host, klass, "/".join(CHASEABLE_MATERIALS))))
+            continue
         if klass in NO_CHASE_MATERIALS:
             if method == "chased":
                 results.append((key, "invalid",
@@ -276,10 +324,22 @@ def check(targets, resolved, opening_verticals, classes=None):
                                 % (anchor, host)))
                 continue
 
-        along = _number(assertions.get("position_along"))
-        if along is None:
-            along_text = (row.get("along_face_mm") or "").strip()
-            along = float(along_text) if along_text else None
+        try:
+            along = _number(assertions.get("position_along"))
+            if along is None:
+                along_text = (row.get("along_face_mm") or "").strip()
+                along = finite(along_text) if along_text else None
+                if along_text and along is None:
+                    raise Malformed("along_face_mm = %r is not a finite number"
+                                    % along_text[:32])
+            vertical = _number(assertions.get("vertical"))
+            ext_a = _number(assertions.get("extent_along_mm"))
+            ext_v = _number(assertions.get("extent_vertical_mm"))
+        except Malformed as exc:
+            results.append((key, "invalid",
+                            "malformed measurement: %s - a non-finite number "
+                            "passes every comparison it touches" % exc))
+            continue
 
         if along is None:
             results.append((key, "partial",
@@ -305,10 +365,6 @@ def check(targets, resolved, opening_verticals, classes=None):
                             "no host_interaction asserted; absence is NOT "
                             "read as avoid_void"))
             continue
-
-        vertical = _number(assertions.get("vertical"))
-        ext_a = _number(assertions.get("extent_along_mm"))
-        ext_v = _number(assertions.get("extent_vertical_mm"))
 
         lo = along - (ext_a / 2.0 if ext_a else 0.0)
         hi = along + (ext_a / 2.0 if ext_a else 0.0)

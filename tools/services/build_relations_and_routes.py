@@ -99,7 +99,7 @@ RELATIONS = [
 ROUTE_FIELDS = ["migration_key", "source_locators", "target_concept",
                 "route_kind", "route_state", "from_ref", "to_ref",
                 "knowledge_basis", "value_state", "scope_kind", "scope_ref",
-                "scope_phase", "notes"]
+                "scope_phase", "observation_refs", "notes"]
 
 # key, locator, kind, from, to, basis, state, note
 ROUTES = [

@@ -40,6 +40,11 @@ import glob
 import io
 import json
 import os
+import sys
+
+sys.path.insert(0, os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "lib"))
+from tabular import finite  # noqa: E402
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DRAFTS = os.path.join(REPO, "_Inbox", "migration", "draft")
@@ -168,25 +173,41 @@ def _typed(value, value_type):
     if value_type == "int":
         return text.isdigit()
     if value_type == "mm":
-        try:
-            float(text)
-        except ValueError:
-            return False
-        return True
+        # ⚠️ `finite()`, NOT `float()`. AGENTS.md says so, and this file called
+        # float() anyway: `value_type=mm, value=nan` parsed, reached the
+        # geometry gate, and produced "VALID envelope nan-nan clear of every
+        # void". A nan does not give a wrong answer, it makes the comparison
+        # itself meaningless - and which way it falls depends on whether the
+        # test was written positively or negatively.
+        return finite(text) is not None
     if value_type == "range":
         parts = text.replace("–", "-").split("-")
-        return len(parts) == 2 and all(p.strip().isdigit() for p in parts)
+        return (len(parts) == 2
+                and all(finite(p.strip()) is not None for p in parts))
     return True   # string / enum carry no parse obligation
 
 
+class SubjectRegistryUnavailable(Exception):
+    """The subject authority could not be read. See `model_elements`."""
+
+
 def model_elements(path=MATERIALS):
-    """Element ids an assertion may be ABOUT: walls, anchors, rooms, pseudo."""
+    """Element ids an assertion may be ABOUT: walls, anchors, rooms, pseudo.
+
+    ⚠️ RAISES when the authority cannot be read. It used to return an empty
+    set, and the caller only checked membership when the set was NON-EMPTY -
+    so a missing or malformed `wall_materials.json` silently DISABLED subject
+    validation altogether. Failure to load a registry must fail the gate; a
+    check that quietly stops checking is worse than no check.
+    """
     out = set(PSEUDO_ELEMENTS)
     try:
         with io.open(path, encoding="utf-8") as fh:
             data = json.load(fh)
-    except (OSError, ValueError):
-        return set()
+    except (OSError, ValueError) as exc:
+        raise SubjectRegistryUnavailable(
+            "cannot read the subject registry %s (%s) - subject validation "
+            "must FAIL, never silently switch itself off" % (path, exc))
     for wall in data.get("walls", []):
         out.add(wall.get("id"))
     out.update(data.get("plumbing_anchors", {}).keys())
@@ -289,39 +310,45 @@ def check(rows, elements=None):
                     "%s lists ITSELF as a member - an assembly is not one of "
                     "its own components" % key)
 
-        if concept == "assertion":
-            for column, allowed in (("property", PROPERTIES),
-                                    ("polarity", POLARITY),
-                                    ("knowledge_basis", BASES),
+        # ⚠️ TYPE AND VOCABULARY APPLY TO EVERY TYPED RECORD, not only
+        # assertions. `values.csv` was "typed" in its header alone: a range
+        # value of `not-a-range` and a knowledge_basis of `probably` both
+        # passed, because these checks sat inside the assertion-only branch.
+        if concept in ("assertion", "value"):
+            for column, allowed in (("knowledge_basis", BASES),
                                     ("value_state", VALUE_STATES),
                                     ("value_type", VALUE_TYPES)):
                 value = (row.get(column) or "").strip()
                 if value and value not in allowed:
                     problems.append("%s has %s %r, which is not declared"
                                     % (key, column, value))
-            prop = (row.get("property") or "").strip()
+            vtype = (row.get("value_type") or "").strip()
             state = (row.get("value_state") or "").strip()
+            if not (row.get("value") or "").strip():
+                if state != "unknown":
+                    problems.append(
+                        "%s has no value but value_state is %r - an empty "
+                        "value is only meaningful as an explicit `unknown`"
+                        % (key, state))
+            elif vtype in VALUE_TYPES and not _typed(row.get("value"), vtype):
+                problems.append(
+                    "%s declares value_type %r but its value %r does not parse "
+                    "as one" % (key, vtype, (row.get("value") or "")[:40]))
+
+        if concept == "assertion":
+            for column, allowed in (("property", PROPERTIES),
+                                    ("polarity", POLARITY)):
+                value = (row.get(column) or "").strip()
+                if value and value not in allowed:
+                    problems.append("%s has %s %r, which is not declared"
+                                    % (key, column, value))
+            prop = (row.get("property") or "").strip()
             allowed = ENUM_VALUES.get(prop)
             if allowed and (row.get("value") or "").strip() not in allowed:
                 problems.append(
                     "%s asserts %s=%r, which is not one of %s"
                     % (key, prop, (row.get("value") or "").strip(),
                        "/".join(sorted(allowed))))
-            vtype = (row.get("value_type") or "").strip()
-            # ⚠️ AN EMPTY VALUE IS LEGITIMATE ONLY AS AN EXPLICIT UNKNOWN.
-            # "extent is unknown" has to be a RECORD, because the validator
-            # treats unknown extent as INCOMPLETE rather than valid - but an
-            # empty value with any other state is a row nobody finished.
-            if not (row.get("value") or "").strip():
-                if state != "unknown":
-                    problems.append(
-                        "%s has no value but value_state is %r - an empty value "
-                        "is only meaningful as an explicit `unknown`"
-                        % (key, state))
-            elif vtype in VALUE_TYPES and not _typed(row.get("value"), vtype):
-                problems.append(
-                    "%s declares value_type %r but its value %r does not parse "
-                    "as one" % (key, vtype, (row.get("value") or "")[:40]))
             # ⚠️ EVERY PROPERTY ASSERTION NAMES ITS SUBJECT. 90 of 108 named
             # nothing, and an assertion about nothing cannot be checked,
             # contradicted or generated from. Exactly one of the two: a target
@@ -337,7 +364,7 @@ def check(rows, elements=None):
                     "%s names no subject. Every property assertion must say "
                     "what it is about - a target record (subject_key) or a "
                     "model element (subject_element)" % key)
-            if element and elements and element not in elements:
+            if element and element not in elements:
                 problems.append(
                     "%s is about element %r, which is neither a wall, a "
                     "plumbing anchor, a room nor a declared pseudo-element"
@@ -392,7 +419,7 @@ def check(rows, elements=None):
                     "as_built is RECORDED FROM SITE and never derived"
                     % (key, basis))
 
-        if concept in ("observation", "assertion"):
+        if concept in ("observation", "assertion", "route", "value"):
             kind = (row.get("scope_kind") or "").strip()
             ref = (row.get("scope_ref") or "").strip()
             if kind and kind not in SCOPE_KINDS:

@@ -189,7 +189,7 @@ def main() -> int:
     rows = [socket(along_face_mm="200", host_ref="R5", face_ref="cross_lo"),
             avoid("SEED"), method("chased")]
     expect("a CHASED accessory on concrete is refused", rows, "SEED", "invalid",
-           "may not be cut into the monolithic RC frame")
+           "chase may only be cut into")
 
     # ⚠️ existing + CAST IN: allowed. This is how the ceiling cable outlets
     # exist inside the slabs, and a blanket material refusal would reject them.
@@ -273,6 +273,45 @@ def main() -> int:
     expect("absent host_interaction is NOT read as avoid_void", rows, "SEED",
            "incomplete", "absence is NOT")
 
+    # THE nan FAMILY. A fully specified envelope with position_along=nan came
+    # back "VALID envelope nan-nan clear of every void on G7.cross_lo": every
+    # comparison a nan touches is false, so it passes containment instead of
+    # failing it. AGENTS.md says use finite(); this used float().
+    for bad in ("nan", "inf", "-inf"):
+        rows = [socket(host_ref="G7", face_ref="cross_lo"), avoid("SEED"),
+                says("SEED", "position_along", bad),
+                says("SEED", "vertical", "300"),
+                says("SEED", "extent_along_mm", "80"),
+                says("SEED", "extent_vertical_mm", "80")]
+        expect("a %s position is INVALID, not valid" % bad, rows, "SEED",
+               "invalid", "non-finite number passes every comparison")
+    rows = [socket(host_ref="G7", face_ref="cross_lo", along_face_mm="nan"),
+            avoid("SEED")]
+    expect("a nan on the occurrence column is INVALID", rows, "SEED",
+           "invalid", "malformed measurement")
+
+    # A MISSPELLED MATERIAL MUST NOT FAIL OPEN. Rejecting only an exact
+    # "reinforced_concrete" meant `reinforced_concret` let a fully specified
+    # CHASED accessory on the RC frame come back VALID. `chased` now uses the
+    # aerated-block whitelist regardless of phase, so a typo cannot defeat it.
+    from check_locator_geometry import wall_classes
+    typo = dict(wall_classes())
+    typo["R5"] = "reinforced_concret"
+    rows = [socket(host_ref="R5", face_ref="cross_lo", along_face_mm="200"),
+            avoid("SEED"), method("chased"), says("SEED", "vertical", "300"),
+            says("SEED", "extent_along_mm", "80"),
+            says("SEED", "extent_vertical_mm", "80")]
+    got = dict((k, (v, m)) for k, v, m in
+               check(rows, resolved, verticals, classes=typo))["SEED"]
+    if got[0] == "invalid" and "chase may only be cut into" in got[1]:
+        print("PASS %-50s %-11s %s"
+              % ("a MISSPELLED concrete does not fail open", "INVALID",
+                 got[1][:38]))
+    else:
+        print("FAIL %-50s got %s/%r" % ("misspelled material", got[0], got[1]))
+        failures += 1
+
+
     # THE MATERIAL AUTHORITY'S OWN DUPLICATE-KEY DEFECT. Appending a second
     # R5 with material=aerated_block used to resolve CONCRETE R5 as aerated
     # block - the exact reading that would authorise chasing the RC frame.
@@ -298,20 +337,50 @@ def main() -> int:
     finally:
         os.unlink(seeded_path)
 
-    # THE ISSUED-MODEL POLICY ITSELF. Without this, a regression could restore
-    # the old false pass - `--strict` accepting `unlocated`, `partial` and
-    # `unsupported` - while every geometry seed above stayed green.
-    from check_locator_geometry import ISSUABLE
-    bad_policy = [v for v in ("unlocated", "partial", "unsupported",
-                              "incomplete", "invalid") if v in ISSUABLE]
-    if bad_policy or tuple(ISSUABLE) != ("valid",):
-        print("FAIL issued policy is %r; %r must not be issuable"
-              % (ISSUABLE, bad_policy))
+    # THE ISSUED-MODEL POLICY, EXERCISED AS BEHAVIOUR. The previous seed
+    # asserted `ISSUABLE == ("valid",)` - a constant. It would have stayed
+    # green if the CLI stopped consulting that constant, or inverted the
+    # condition, while every geometry seed above also stayed green.
+    from check_locator_geometry import FAILING, ISSUABLE
+
+    def issued_failures(verdicts):
+        """Exactly the arithmetic main() performs under --issued."""
+        return sum(1 for v in verdicts if v not in ISSUABLE)
+
+    def review_failures(verdicts):
+        return sum(1 for v in verdicts if v in FAILING)
+
+    policy_ok = True
+    for verdict in ("unlocated", "partial", "unsupported", "incomplete",
+                    "invalid"):
+        if issued_failures([verdict]) != 1:
+            print("FAIL %-50s %r does not fail --issued"
+                  % ("issued policy", verdict))
+            failures += 1
+            policy_ok = False
+    if issued_failures(["valid"]) != 0:
+        print("FAIL %-50s `valid` fails --issued" % "issued policy")
+        failures += 1
+        policy_ok = False
+    if review_failures(["unlocated", "partial", "unsupported"]) != 0:
+        print("FAIL %-50s review view rejects non-failing verdicts"
+              % "review policy")
+        failures += 1
+        policy_ok = False
+    if policy_ok:
+        print("PASS %-50s %s"
+              % ("--issued fails all five non-valid verdicts",
+                 "review view still passes three"))
+
+    live = [v for _k, v, _m in check(targets, resolved, verticals)]
+    if issued_failures(live) != len(live):
+        print("FAIL %-50s %d of %d live occurrences are issuable"
+              % ("issued vs live records", len(live) - issued_failures(live),
+                 len(live)))
         failures += 1
     else:
-        print("PASS %-50s %s"
-              % ("an issued model accepts `valid` and nothing else",
-                 "unlocated/partial/unsupported all refused"))
+        print("PASS %-50s all %d are correctly not issuable"
+              % ("no live occurrence is issuable today", len(live)))
 
 
     print("\n%d failure(s)" % failures)

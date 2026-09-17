@@ -16,6 +16,7 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
+import os  # noqa: E402
 sys.path.insert(0, str(REPO / "tools" / "services"))
 
 from check_target_schema import check, load  # noqa: E402
@@ -40,12 +41,19 @@ def main() -> int:
             failures += 1
 
     def seed(key, **changes):
-        out = []
+        """⚠️ RAISES on an unknown key. Two seeds silently mutated NOTHING
+        after a record was renamed, so they asserted a defect was caught while
+        testing an empty change - a seed that cannot fail is worse than no
+        seed."""
+        out, hit = [], 0
         for row in rows:
             copy = dict(row)
             if copy.get("migration_key") == key:
                 copy.update(changes)
+                hit += 1
             out.append(copy)
+        if hit != 1:
+            raise KeyError("seed target %r matched %d records" % (key, hit))
         return out
 
     def find(key):
@@ -108,7 +116,7 @@ def main() -> int:
     # exactly how a comparable-flat observation would quietly become a fact
     # about this apartment.
     expect("an observation with no scope_ref is caught",
-           check(seed("OBS-EC-LIGHT-109", scope_ref="")), True,
+           check(seed("OBS-CORRIDOR-LIGHT-109", scope_ref="")), True,
            "missing required column")
     expect("a scope naming a flat nobody surveyed is caught",
            check(seed("ASR-EC-LIGHT-OURS", scope_ref="77")), True,
@@ -123,7 +131,7 @@ def main() -> int:
            check(seed("ASR-EC-LIGHT-OURS", scope_kind="unit_type",
                       scope_ref="3B/2+")), False)
     expect("an undeclared scope_kind is caught",
-           check(seed("OBS-EC-LIGHT-109", scope_kind="floor")), True,
+           check(seed("OBS-CORRIDOR-LIGHT-109", scope_kind="floor")), True,
            "not declared")
 
     # ⚠️ THE ENVELOPE SEEDS. Without these properties the extent check has
@@ -201,6 +209,55 @@ def main() -> int:
                    observation_refs="OBS-OURS-SEED") + [ours_obs]
     expect("an observation scoped to OURS legitimises `observed`",
            check(rows_ok), False)
+
+
+    # THE nan FAMILY. `value_type=mm, value=nan` parsed, reached the geometry
+    # gate and produced "VALID envelope nan-nan clear of every void". Every
+    # comparison a nan touches is false, so it passes containment rather than
+    # failing it.
+    for bad in ("nan", "inf", "-inf", "NaN"):
+        expect("a %s measurement is rejected" % bad,
+               check(seed("ASR-W6-VERT", value=bad)), True,
+               "does not parse")
+    expect("a non-finite RANGE bound is rejected",
+           check(seed("VAL-E-KL-SOC-K-HEIGHT", value="915-nan")), True,
+           "does not parse")
+
+    # VALUES ARE TYPED BY ENFORCEMENT, NOT BY THEIR HEADER.
+    expect("a malformed range value is caught",
+           check(seed("VAL-E-KL-SOC-K-HEIGHT", value="not-a-range")), True,
+           "does not parse")
+    expect("an undeclared knowledge_basis on a VALUE is caught",
+           check(seed("VAL-E-KL-SOC-K-HEIGHT", knowledge_basis="probably")),
+           True, "not declared")
+    expect("an undeclared scope_kind on a VALUE is caught",
+           check(seed("VAL-E-KL-SOC-K-HEIGHT", scope_kind="floor")), True,
+           "not declared")
+    # ...and the route/value positive path exists, which it did not when those
+    # tables had no `observation_refs` column at all.
+    ours_rte = dict(find("OBS-BATH-S-53"), migration_key="OBS-OURS-RTE",
+                    scope_ref="ours")
+    expect("an OURS observation legitimises an `observed` ROUTE",
+           check(seed("RTE-BATH-S", knowledge_basis="observed",
+                      scope_ref="ours",
+                      observation_refs="OBS-OURS-RTE") + [ours_rte]), False)
+
+    expect("an undeclared scope_kind on a ROUTE is caught",
+           check(seed("RTE-SEWER", scope_kind="floor")), True, "not declared")
+
+    # THE SUBJECT REGISTRY MUST FAIL, NOT SWITCH ITSELF OFF. With an empty
+    # element set the membership check used to be skipped entirely.
+    from check_target_schema import SubjectRegistryUnavailable, model_elements
+    try:
+        model_elements(os.path.join(REPO, "no", "such", "file.json"))
+        print("FAIL %-54s a missing registry was tolerated" % "subject registry")
+        failures += 1
+    except SubjectRegistryUnavailable:
+        print("PASS %-54s %s" % ("a missing subject registry FAILS the gate",
+                                 "never silently disabled"))
+    expect("an unknown element is caught even with an empty registry",
+           check(seed("ASR-3-zero-outlets-on-mc", subject_element="G99"),
+                 elements=set()), True, "neither a wall")
 
 
     print("\n%d failure(s)" % failures)
