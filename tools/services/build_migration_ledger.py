@@ -97,11 +97,46 @@ OUT = os.path.join(REPO, "_Inbox", "migration")
 LEGACY_CSVS = ("electrical_existing.csv", "service_outlets.csv",
                "plumbing_anchors.csv", "services_observed.csv")
 
-# Blocks whose elements are SEPARATE facts, each with a semantic key.
-KEYED_BLOCKS = ("SOCK", "POWER", "SWDEF", "LIGHT", "PIPES", "ROUTES")
+# ⚠️ KEYED BLOCKS ARE DISCOVERED BY SHAPE, NOT ALLOW-LISTED.
+# ------------------------------------------------------------------
+# There used to be a `KEYED_BLOCKS` tuple naming six variables, and it was a
+# GATE-DESIGN DEFECT of exactly the kind this repository keeps finding: an
+# allow-listed extractor cannot detect an authored block it was never told
+# exists. It silently missed NINE drawn, tagged placement assertions -
+#
+#   P1SVC     five risers and valves (SW-B-H, SW-B-C, SS-B, SH-B, SS-K2)
+#   F1        a fire detector, coded directly with no block at all
+#   SV-VT     a transfer opening, likewise standalone
+#   V-1, V-2  vent grilles in an INLINE literal with no variable name, and
+#             which the generator tags on the sheet but never even adds to
+#             its own REVIEW table
+#
+# - and still reported "TOTAL source locators 105" as though that were the
+# inventory. V-1/V-2 are why reconciling against the generator's REVIEW table
+# alone would NOT have been enough either: the sheet draws and tags them, and
+# the review registry does not contain them.
+#
+# So discovery is structural (a literal of key-first tuples, iterated by a loop
+# that draws), the standalone tags are read directly, and `check_registry()` is
+# the backstop that fails on anything drawn but unledgered.
+#
 # Blocks that are ONE polyline each: their elements are the route's points, not
 # separate facts, so ledgering per point would invent facts that do not exist.
+# This one stays DECLARED rather than inferred - mistaking a route for a keyed
+# block would manufacture a fact per vertex, so it may not be a guess.
 POLYLINE_BLOCKS = ("SEWER", "BATH_W", "BATH_S")
+
+# `tagsrc(sheet, px, py, iid, src, col)` - the item id is positional arg 3.
+TAGSRC_IID_ARG = 3
+
+# What "this loop PLACES something on the sheet" looks like. ⚠️ This is a
+# heuristic and it is allowed to be one ONLY because `check_retained()` refuses
+# to let it drop a source: the first version listed `sym_*`, `tagsrc` and
+# `REVIEW.append`, and it silently lost all six `ROUTES` - which draw with
+# `polyline_rounded` and are never tagged, so the registry check could not see
+# them go either. Over-inclusion is cheap: a literal still has to be a list of
+# key-first tuples to become a keyed block at all.
+DRAW_CALLS = ("tagsrc", "REVIEW.append", "polyline_rounded", "callout", "htag")
 
 DECISION_WORDS = ("ВЛАДЕЛЕЦ", "владелец", "Owner:", "owner ", "OWNER",
                   "owner’s", "OWNER’s")
@@ -210,21 +245,214 @@ def _rows_from_csv(name):
     return out
 
 
-def _rows_from_literals():
-    if not os.path.exists(SHEETS):
-        return []
-    source = io.open(SHEETS, encoding="utf-8").read()
+def _dotted(func):
+    """`tagsrc` / `REVIEW.append` / `s3.sym_riser` as a flat name."""
+    if isinstance(func, ast.Name):
+        return func.id
+    if isinstance(func, ast.Attribute):
+        base = _dotted(func.value)
+        return (base + "." + func.attr) if base else func.attr
+    return ""
+
+
+def _is_draw(node):
+    """Does this subtree PLACE a tagged item on a sheet?
+
+    That is the signature of an authored placement assertion, and it is what
+    replaces the allow-list: a block nobody named is still discovered, because
+    the code that draws it looks the same as the code that draws the rest.
+    """
+    for sub in ast.walk(node):
+        if isinstance(sub, ast.Call):
+            name = _dotted(sub.func)
+            leaf = name.rsplit(".", 1)[-1]
+            if (name in DRAW_CALLS or leaf in DRAW_CALLS
+                    or leaf.startswith("sym_")):
+                return True
+    return False
+
+
+def _keys(literal):
+    """The string keys of a list/tuple of key-first tuples, else None.
+
+    A route literal is a list of COORDINATE tuples, so its first element is a
+    number and this returns None - which is the honest answer, not a guess.
+    """
+    if not isinstance(literal, (ast.List, ast.Tuple)) or not literal.elts:
+        return None
+    keys = []
+    for element in literal.elts:
+        if not isinstance(element, (ast.Tuple, ast.List)) or not element.elts:
+            return None
+        first = element.elts[0]
+        if not (isinstance(first, ast.Constant) and isinstance(first.value, str)):
+            return None
+        keys.append(first.value)
+    return keys
+
+
+def _keyed_literals(tree):
+    """name -> (literal node, keys, ORIGIN name).
+
+    The origin matters: the switches are AUTHORED in `SWDEF` and drawn from
+    `SW`, which a loop assembles from it. The locator must name the source the
+    reviewer judges - `legacy_generator:SWDEF:W1` - so the keys propagate
+    forward through that loop while the origin name stays put.
+    """
+    found = {}
+    for node in ast.walk(tree):
+        if not isinstance(node, ast.Assign):
+            continue
+        keys = _keys(node.value)
+        if not keys:
+            continue
+        for target in node.targets:
+            if isinstance(target, ast.Name):
+                found[target.id] = (node.value, keys, target.id)
+
+    for node in ast.walk(tree):
+        if not isinstance(node, ast.For) or not isinstance(node.iter, ast.Name):
+            continue
+        source = found.get(node.iter.id)
+        if source is None:
+            continue
+        for sub in ast.walk(node):
+            if (isinstance(sub, ast.Call) and isinstance(sub.func, ast.Attribute)
+                    and sub.func.attr == "append"
+                    and isinstance(sub.func.value, ast.Name)):
+                found.setdefault(sub.func.value.id, source)
+    return found
+
+
+def _drawn_blocks(tree, literals):
+    """(named blocks, inline blocks) that a drawing loop actually iterates."""
+    named, inline, seen = {}, [], set()
+    for node in ast.walk(tree):
+        if not isinstance(node, ast.For) or not _is_draw(node):
+            continue
+        if isinstance(node.iter, ast.Name):
+            entry = literals.get(node.iter.id)
+            if entry and entry[2] not in seen:
+                seen.add(entry[2])
+                named[entry[2]] = entry
+        else:
+            keys = _keys(node.iter)
+            if keys:
+                inline.append((node.iter, keys))
+    return named, inline
+
+
+def _standalone_tags(tree):
+    """key -> line, for items coded directly with no block at all.
+
+    `F1` and `SV-VT` are each a bare `tagsrc(...)` / `REVIEW.append(...)` in
+    module scope. They are placement assertions like any other and they were
+    invisible to the block-shaped extractor.
+    """
+    out = {}
+    for node in ast.walk(tree):
+        if not isinstance(node, ast.Call):
+            continue
+        name = _dotted(node.func)
+        if name == "tagsrc" and len(node.args) > TAGSRC_IID_ARG:
+            arg = node.args[TAGSRC_IID_ARG]
+            if isinstance(arg, ast.Constant) and isinstance(arg.value, str):
+                out.setdefault(arg.value, node.lineno)
+        elif name == "REVIEW.append" and node.args:
+            first = node.args[0]
+            if isinstance(first, ast.Dict):
+                for key, value in zip(first.keys, first.values):
+                    if (isinstance(key, ast.Constant) and key.value == "item_id"
+                            and isinstance(value, ast.Constant)
+                            and isinstance(value.value, str)):
+                        out.setdefault(value.value, node.lineno)
+    return out
+
+
+def registry(source):
+    """EVERY item id the generator draws, tags or reviews - the whole registry.
+
+    This is deliberately derived a SECOND way, independently of extraction, so
+    that a discovery miss shows up as a coverage failure instead of as a
+    smaller inventory nobody questions.
+    """
+    tree = ast.parse(source)
+    literals = _keyed_literals(tree)
+    named, inline = _drawn_blocks(tree, literals)
+    ids = {}
+    for _node, keys, origin in named.values():
+        for key in keys:
+            ids.setdefault(key, origin)
+    for _node, keys in inline:
+        for key in keys:
+            ids.setdefault(key, "inline")
+    for key in _standalone_tags(tree):
+        ids.setdefault(key, "standalone")
+    return ids
+
+
+def check_registry(rows, source):
+    """⚠️ THE BACKSTOP. Anything the generator draws must be in the ledger.
+
+    The inventory may not be declared complete while the sheet places a tagged
+    item that no locator carries. This is the check that the allow-list version
+    could not have had, because it compared the ledger against the same list it
+    extracted from.
+    """
+    carried = set()
+    for row in rows:
+        locator = row["locator"]
+        if locator.startswith("legacy_generator:"):
+            carried.add(locator.split(":")[-1])
+    problems = []
+    for key, origin in sorted(registry(source).items()):
+        if key not in carried:
+            problems.append(
+                "the generator draws and tags %r (%s) but NO ledger locator "
+                "carries it - the inventory is not complete" % (key, origin))
+    return problems
+
+
+def check_retained(rows, previous):
+    """⚠️ A SOURCE MAY NEVER LEAVE THE INVENTORY SILENTLY.
+
+    `check_registry()` only sees what the generator TAGS, so it cannot notice
+    an untagged source disappearing - and one immediately did. Replacing the
+    allow-list with structural discovery dropped all six `ROUTES` locators,
+    the registry check passed, and the printed total went DOWN while reading
+    like an improvement.
+
+    A source leaves this ledger only by someone deleting it from the generator,
+    and then the raw text goes too. Anything else is extraction regression.
+    """
+    produced = set(row["locator"] for row in rows)
+    problems = []
+    for locator in sorted(set(previous) - produced):
+        problems.append(
+            "locator %s was in the ledger and the extractor no longer produces "
+            "it - a source cannot leave the inventory silently" % locator)
+    return problems
+
+
+def _rows_from_literals(source=None):
+    # `source` is an injection point for the self-test: a seeded generator has
+    # to reach the extractor without being written into the tree.
+    if source is None:
+        if not os.path.exists(SHEETS):
+            return []
+        source = io.open(SHEETS, encoding="utf-8").read()
     lines = source.splitlines()
+    tree = ast.parse(source)
+    literals = _keyed_literals(tree)
+    named, inline = _drawn_blocks(tree, literals)
     out = []
-    for node in ast.walk(ast.parse(source)):
+
+    for node in ast.walk(tree):
         if not isinstance(node, ast.Assign) or not isinstance(node.value, ast.List):
             continue
         names = [t.id for t in node.targets if isinstance(t, ast.Name)]
-        block = next((n for n in names if n in KEYED_BLOCKS + POLYLINE_BLOCKS), None)
-        if block is None:
-            continue
-
-        if block in POLYLINE_BLOCKS:
+        block = next((n for n in names if n in POLYLINE_BLOCKS), None)
+        if block is not None:
             # ONE route, not one fact per vertex. Ledgering each point would
             # invent facts the source does not contain.
             out.append({
@@ -239,27 +467,48 @@ def _rows_from_literals():
                 "adjudication": "unresolved", "adjudication_note": "",
                 "review_position": "make_services_sheets.py:%d" % node.lineno,
             })
-            continue
 
-        for ordinal, element in enumerate(node.value.elts, start=1):
-            if not isinstance(element, (ast.Tuple, ast.List)) or not element.elts:
-                continue
+    def keyed(block, element, key):
+        return {
+            "locator": "legacy_generator:%s:%s" % (block, key),
+            "source_kind": "python_literal",
+            "raw": lines[element.lineno - 1].strip()[:400],
+            "carries": block,
+            "multiplicity": "single", "count_min": "1", "count_max": "1",
+            "reviewed_multiplicity": "", "reviewed_multiplicity_note": "",
+            "vertical_kind": "unstated", "vertical_raw": "",
+            "occurrence_split_count": "", "expected_target_concepts": "",
+            "adjudication": "unresolved", "adjudication_note": "",
+            "review_position": "make_services_sheets.py:%d:%d"
+                               % (element.lineno, element.col_offset),
+        }
+
+    blocks = [(origin, node) for node, _keys, origin in named.values()]
+    # An INLINE literal has no variable name to be semantic about, so its items
+    # are located by their own id under `tag:` - the id IS the stable key, and
+    # a line number would not be stable at all.
+    blocks += [("tag", node) for node, _keys in inline]
+    for block, node in blocks:
+        for element in node.elts:
             first = element.elts[0]
-            key = (first.value if isinstance(first, ast.Constant)
-                   and isinstance(first.value, str) else "n%d" % ordinal)
-            out.append({
-                "locator": "legacy_generator:%s:%s" % (block, key),
-                "source_kind": "python_literal",
-                "raw": lines[element.lineno - 1].strip()[:400],
-                "carries": block,
-                "multiplicity": "single", "count_min": "1", "count_max": "1",
-                "reviewed_multiplicity": "", "reviewed_multiplicity_note": "",
-                "vertical_kind": "unstated", "vertical_raw": "",
-                "occurrence_split_count": "", "expected_target_concepts": "",
-                "adjudication": "unresolved", "adjudication_note": "",
-                "review_position": "make_services_sheets.py:%d:%d"
-                                   % (element.lineno, element.col_offset),
-            })
+            out.append(keyed(block, element, first.value))
+
+    seen = set(row["locator"].split(":")[-1] for row in out)
+    for key, line in sorted(_standalone_tags(ast.parse(source)).items()):
+        if key in seen:
+            continue
+        out.append({
+            "locator": "legacy_generator:tag:%s" % key,
+            "source_kind": "python_literal_standalone",
+            "raw": lines[line - 1].strip()[:400],
+            "carries": "tag",
+            "multiplicity": "single", "count_min": "1", "count_max": "1",
+            "reviewed_multiplicity": "", "reviewed_multiplicity_note": "",
+            "vertical_kind": "unstated", "vertical_raw": "",
+            "occurrence_split_count": "", "expected_target_concepts": "",
+            "adjudication": "unresolved", "adjudication_note": "",
+            "review_position": "make_services_sheets.py:%d" % line,
+        })
     return out
 
 
@@ -350,6 +599,18 @@ def main() -> int:
                     row[field] = prior[field]
             kept += 1
 
+    # ⚠️ CHECKED BEFORE WRITING. A regressed inventory must not reach the file
+    # at all - the previous ledger is the evidence the retention check needs,
+    # and overwriting it first would destroy exactly that.
+    problems = check_retained(rows, existing)
+    problems += check_registry(rows, io.open(SHEETS, encoding="utf-8").read())
+    if problems:
+        for problem in problems:
+            print("FAIL %s" % problem)
+        print("REFUSING TO WRITE: %d problem(s); the ledger on disk is "
+              "unchanged" % len(problems))
+        return 1
+
     with io.open(a.out, "w", encoding="utf-8", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=FIELDS)
         writer.writeheader()
@@ -372,6 +633,8 @@ def main() -> int:
         print("   %-34s %3d" % (label, sum(1 for r in rows if test(r))))
     print("   %-34s %3d" % ("adjudications carried over", kept))
     print("   %-34s %3d" % ("TOTAL source locators", len(rows)))
+
+    print("   %-34s %3s" % ("retention + registry checks", "ok"))
     return 0
 
 
