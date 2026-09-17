@@ -1,0 +1,13 @@
+{
+  "url": "dRSoT80oDNA",
+  "video_id": "dRSoT80oDNA",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T10:14:53.654087+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8d216447f8c80e46f85c8338f288199eaabcfaeaf4006abb524bccd482f87f1b",
+  "attempts_before_success": [],
+  "upload_date": "2026-05-14",
+  "upload_date_source": "yt-dlp"
+}

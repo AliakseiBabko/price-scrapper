@@ -189,3 +189,15 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 
 **Round yield**: 8 substantive videos processed, **47 new facts, yield = 5.9** per video. Routed to `Requirements_And_Validation.md` and `Quantity_Takeoff_and_Cost_Join.md`. Over 280 candidate videos triaged and skipped with one-line rationale in the triage report.
 
+## Bonsai and Blender practitioner triage — Round 2 corrective pass (2026-09-17)
+
+**Three sources processed from the nine-video corrective pass (`_Inbox/planning/agent_brief_bonsai_triage_round2_20260917.md`)**, addressing open problems 1 (types), 7 (2D discipline sheets), and 11 (QTO). Six confirmed skips: two paywalled members-only (`kEFgXvcbHEw`, `0ktp-S7Lev0`), one duplicate presenter/technique (`Vy4RBlXFNQE`), two interactive UI editing without schema failure analysis (`oQBCy_zKMtI`, `iIR3zl4b6vA`), and one version-pinning bug report (`415peYvhkcg`). Optional 10th (`Vd6qnRO0ZP4`) confirmed skip (UI clipboard workaround, no GUID persistence evidence).
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_RL3IAGeMi5s`](../../_Sources/YT_RL3IAGeMi5s_bimvoice_bonsai_drawings_internals_and_mep_void.md) | **Drawings internals**: cut planes slice 3D geometry to SVG styled via CSS; linework is dynamic at draw time, annotations are stored as `IfcAnnotation`. **Discipline sheets finding**: native 3D MEP modeling has broken flows; practitioners use manual 2D annotations as an overlay stopgap on architectural cuts. | 6 |
+| [`YT_xImmD0Ns4NQ`](../../_Sources/YT_xImmD0Ns4NQ_bimvoice_window_schedule_model_requirements.md) | **Spreadsheet QTO requirements**: window schedules require class filtering, direct dimensions (`OverallHeight`, `OverallWidth`), and **strictly require grouping by `ObjectType` or `Type.Name` for `count()` aggregation**. Property sets mapped via dot syntax (`Pset_WindowCommon.ThermalTransmittance`). | 5 |
+| [`YT_dRSoT80oDNA`](../../_Sources/YT_dRSoT80oDNA_blender3darchitect_parametric_walls_material_layer_sets.md) | **Parametric wall types**: thickness and multi-layer build-up governed by `IfcMaterialLayerSet` on `IfcWallType`; layer thickness edits propagate parametrically to all instances; height parameterized via extrusion profile. Survives plain IFC4 round-trip. | 5 |
+
+**Round yield**: 3 videos processed, **16 new facts, yield = 5.3** per video. Routed to `Quantity_Takeoff_and_Cost_Join.md`, `Requirements_And_Validation.md`, and `Model_To_Drawing_Pipeline.md`.
+

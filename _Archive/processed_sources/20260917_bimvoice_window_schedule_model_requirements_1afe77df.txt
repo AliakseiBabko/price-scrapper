@@ -1,0 +1,203 @@
+Hey friends, what is good? If you ever wanted 
+to do a window schedule from an IC model and   you didn't really know how to do it or maybe you 
+were scared you have to pay a license for that,   then this is your lucky day because I'm going to 
+show you how you can do that using a free and open   source tool called Bonsai Beam, which used to 
+be called Blender Beam. For that all you need   is actually to have an IC model. Then you have to 
+install Blender and Bonsai Beam as an extension.   If you don't know how to do that, just check out 
+on my channel because I have many videos on this   topic. Cool. I'm going to assume we already are 
+there at this step where you opened your model.   Now all you have to do is to go to this quality 
+and coordination tab and here is where we are   going to prepare our window schedule that we 
+are going to pull out as um spreadsheet. Okay.   But before that I'm going to do something 
+else because I always like to do that. Actually, let me bring this one. Brave. All 
+right. And let's get back. Like I said, a   spreadsheet import export. Before I export it as a 
+spreadsheet, I'm going to tweak it in the browser   because it's the most effective way, right? So 
+here we have to check load from memory if we want   to use the existing model. We can also do these 
+schedules from other models and from more of them.   But in my case, I want to see what I'm getting 
+out right now. I'm building these templates. So   what we're going to cover is to look and see what 
+information are we going to get out, how I'm going   to do that using the web interface, and in the 
+end, how I'm going to export as a spreadsheet,   and also extremely important, how to save this 
+settings as a template that we can reuse later on.   All right, you can see here something called CSV 
+attributes. Add a search group and CSV attributes.   Now, these sections are extremely important. 
+In the first one, we say we choose what we are   going to filter on in the model, right? And in 
+this case, we don't have anything. I know I want   the windows, right? I'm not looking for anything 
+else at this point in time. So I'm going to press   on add a class and we are going to settle for IFC 
+window. And to test if this works or not, you see   that when you press on select, it should select 
+the entity or the class that you have chosen. And   to double check if we really have only windows, 
+you can press on shift H and you can filter only   on this objects. And we can see instantly that 
+indeed we have only windows. We don't have any   doors or slabs or whatever. Right? So this is 
+extremely important. Cool. Now the next step   is to tweak our spreadsheet and [clears throat] 
+we do that using this CSV attributes. So how do   we do that? Each thing that we add here as a CSV 
+attribute like each new row is going to become a   new column in our spreadsheet. So let's start 
+with something right but before that actually   let's decide what information are we going to 
+pull out from this model right because I think   it's quite important to settle on that as well so 
+we have IFC window the class we don't really care   about the class no one who is going to use these 
+windows will need this right they need names let's   see if these names are good enough h object type 
+the name I I think they are going to be unique.   So the name is not something that we can group 
+based on. But we see that this object type it's   kind of what we're looking for because we want 
+to be able to group different kind of windows,   right? We don't need each unique window because 
+I would assume that this type of window have the   same information. So we want the name that's one 
+thing or the the object type the window type and   then we can go for the overall height and width. 
+Okay. So let's start with this and see how it goes   and then um we can adjust based on that. Cool. So 
+I'll just have to add on a new CSV attribute. And   in this case I aim for this here. You can see 
+that everything all this information here it's   under the attribute section of the information tab 
+of your objects right and these are attributes and   there is a big difference between attributes and 
+property sets which are kind of the most normal or   the mo the most popular kind of information 
+we have in our IC models meaning that these   attributes are fixed like you cannot add another 
+attribute you can change their names you can   And you can choose to use or not few of them like 
+in this case overall height or overall weight but   you cannot add another one. If you want to add any 
+other kind of information that it's specifically   to your model then you'll have to use property 
+sets and properties right. So this is the main   difference between them. So in this case for 
+attributes there is a very straight up way to   access this information and that's it just to type 
+their names. What we see here in this column there   are the names of the attributes and these are 
+the values of the attributes right and in this   case here on the left hand side we have to type 
+in the information that we are looking for and   this is the name of the column how it's going 
+to show up in our spreadsheet okay cool so now   let's start with this which is called object type 
+right so I'm just going to type object type it's   extremely important important to follow the case 
+rules here because if you just type with lowerase,   it will not work. So it's extremely important and 
+in this case let's just type it window type. All   right. And now you see I have a button here called 
+open web UI. And that's what I'm going to do. And   we will see this right here. And you see we get 
+actually two columns. And we didn't ask two,   right? We we asked only one. Well, that's 
+because this tool is extremely powerful.   This functionality in Bonsai, it's using a utility 
+tool called ICCSV. And this tool works both ways.   Meaning that right now, if I'm going to change 
+few names here, if I get it out in a spreadsheet   and I change few names and I import it back to my 
+IFC model. You see here, import is going to apply   that information to our IC model. So powerful 
+is Bonsai Beam. That's what it means. Native   IC authoring tool. meaning that it's not just 
+reading it's not just an IC viewer it's an IFC   auto authoring meaning that you can alter the 
+information you can create you can model from   scratch it's amazing right and this is happening 
+at global ID level so this what we see here it's   a global ID but we don't need that in this case 
+I just need a list of the windows in this model   with specific information right so let's disable 
+this for now at least okay to do that we have to   go here in this gear box and to just uncheck this 
+box and that's it. Now if I go here and I press   one more time on open web UI there we go we got 
+exactly what we wanted only the window type and   we see that we get some repetitions here right of 
+course because there are more of them we have like   four of this and more of this and more of this. 
+So a natural next step would be to to group them   right we can do that too we have some buttons here 
+and the first one is sorting and I'm going to sort   ascending just to have like this is a good thing 
+to do and then grouping right and in this case I'm   going to group just choose group there and then 
+I'm going to open the web UI and now we see that   actually we have three types of windows not so 
+many anymore Right? But something important is   missing here, right? And what is that? Pause and 
+think for one second. I'm sure you guessed it,   right? Is the number of windows. How many 
+of these windows do we have? Because yeah,   we want to know. If we don't know, then how do we 
+know how many to buy or how to price the project,   right? Cool. So, the next thing we have to do 
+here or recommended, we don't have to. Of course,   depends on your use case. like it doesn't 
+matter what where you sit you can collect   this information the information that is relevant 
+to you but I think most of you who are looking for   a list of windows for a window schedule will need 
+the number of the specific windows right so let's   add a new row so each row in this CSV attribute 
+space becomes a column in our spreadsheet and   this time let's use count it's exactly as it is 
+lowerase. It's extremely important. And how I'm   going to call the this uh column, right? Cool. 
+Do I want to sort? Um, no, I don't want to. Do   I want to group this? No, I don't want to group by 
+the number. It doesn't make any sense, right? So,   now I'm going to press one more time on 
+this. And let's see what do we get. Oh,   we get 111. But that's not correct, right? 
+What am I doing wrong? Let's see. Oh,   I remember. I remember in the grouping actually 
+we have something called sum. So this is what we   have to use. We have to use the sum. Now we go 
+back here and we get the proper counts. Right?   We see we have the four this one four of this of 
+the first type. Then we have eight of this and   35 of this. Right? Yeah. So we are on the right 
+track right now. Right. Let's see what other kind   of information like I mentioned I want to take the 
+overall height and overall weight because they are   attributes. All we have to do is just type exactly 
+as they are. So add one more. I'm going to type in   here overall height. Height. Do I want to sort 
+by this? Yeah. Well, do I want to group it? Yes,   I want to group this. This is important. I want 
+to group to be able to group them by height and   width because maybe they are varying, right? 
+Especially the width. The height most probably   is the same or it should be, I guess. So now 
+I'm going to add one more and type in overall   width and width. And let's group this and let's 
+see what happens. Now you remember we had three columns, three rows, sorry. And we still have 
+three because it means that all of these have the   same width and height. Okay. And we see, yeah, 
+like I was guessing, we have the same height,   but we have double doors and stuff like that. 
+So yeah, that's why we have uh wider doors,   right? Makes sense. Cool. So, so far we have taken 
+only we have accessed information only for from   the attributes. Now let's look a bit deeper into 
+this. Let's also take some other information from   properties as well. Not only for this but also the 
+count, right? The count it's a function I think is   not a specific I think is not a specific thing in 
+IFC. It's just something that works with IFC open   shell. Cool. um the predefined type doesn't 
+really help because we just had the window.   So most of the time these names are going to be 
+maybe at the predefined type or at type itself   as well. This could have been also another thing. 
+Yeah, because we have type as well. Now let's go   to properties. Okay, to access properties it's 
+a bit different than attributes. It's not as   straightforward. So let's look for something that 
+we could use something useful, right? What could   be something useful? I see a lot of information 
+here which I don't understand because he's German.   I do know Norwegian but is not quite the same with 
+German. But let's look for something more familiar   because I guess they should have something 
+like fire rating or stuff like that. Yeah,   there we go. So they have some common information 
+here in the pet window common which I want to   know if indeed there are some internal windows 
+or all of them are external, right? So this is   something uh important. Both of these information 
+are important and let's see how do we access that.   Well, also quite straightforward just that it's 
+a bit different because we don't just type the   property, right? What we do here it's let's add 
+that first and then let's type we have to type   first the property name the property set name 
+which is this one right here. This is a like   this inside is external is a property thermal 
+transmittance it's also a property and these   two are values and this it's a property set P 
+set window common which is grouping all these   specific properties the windows into this right 
+so property set it's a group of properties in a   simply wayput okay so to access this we have to 
+type first the property set name and then a dot   and then the property so first this name and then 
+this and then we are good to go. So pet and we   have to type exactly how it is here. If you miss 
+the lower the casing then is not going to work and   also the characters and everything. So pet set 
+window common then a dot and then is external external. Uh, do we want to? 
+Yeah, let's be able to sort   them. And let's also to group them. And 
+let's see. Did we get anything new? No,   actually. Huh? No. Let's see what's happening. 
+Yeah, this is this indeed it's false. Let's see where is it here. Okay. Okay. So we spotted a 
+mistake right this these are for sure exterior   windows like look they are here doesn't 
+make any sense they should be true right   so we spot the mistake which we can do 
+two things about we can either provide   feedback to whoever created this model or 
+we can fix it using bonsai in this case   that's not the purpose right I just wanted 
+to see if I also have different ones but it   is what it is and we work with what we have. 
+Then let's also do the fire transmittance,   the thermal transmitter. Sorry. So what I'm 
+going to do in this case, I'm going to No,   it's okay. Let let's just type it. Okay. So again, 
+pet set window common dot termal transmittance. thermal transmittance. Do I want to 
+sort this? Yeah, I want to be able   and I also want to group that. So, let's do 
+it one more time. And what do we have here? Looks like all of them have kind of the 
+same, right? So we don't get different   um values here because if we get for example 
+two doors of this type with different thermal   transmittance or if they are external or 
+not then we are going to get two different   rows and they are going to be ungrouped meaning 
+that if you have only one it will show as one here   and the other three grouped together. So I just 
+wanted to show you the other level of grouping,   right? Because grouping meaning putting together 
+similar information, identical information   when it's matching 100%. So if there is another 
+information about the same kind of object is going   to be added as a separate row. I hope that makes 
+sense guys. If not, please leave me a comment and   uh let me know about this. And by the way, like if 
+you enjoy this kind of thing, I do have this free   community called Beam Voice Academy and I run this 
+seven days open beam kickstart challenge which is   quite exciting. I would say many people are giving 
+a lot of positive feedback on it. You're free to   go to school.com beamoiceacademy or just search 
+on Google Bimvoice academy school and feel free   to join. I'd love to meet you in there and 
+yeah, I'd love to hear what you think about   my challenge. Good. Let's see what else can we do 
+here. I kind of I kind of like what I have so far.   Let's say that I don't want more than this and I 
+want to settle for this and there are two things I   want to do. Okay, there are two things. I want to 
+first I want to se sorry I want to export this as   a spreadsheet and the second one is I want to save 
+this as a template which I'm going to use again   next time I want to export another window schedule 
+and of course sometimes is not going to match 100%   but that's what we do we adjust right but we 
+have already a starting point you don't have to   reinvent the wheel to start from scratch again 
+right which is not very effective or efficient   Cool. So, let's go here. Now, here in the 
+gearbox, we have something called output   format. And we have by default the web one 
+because it's the best way to start, the best   way to custom everything before you go because if 
+you just export it to spreadsheet from the get-go,   you're going to have more clicks to do and 
+that's going to take you more time, right? So,   that's why I'm trying to show you the most 
+effective way. So, now you just click here and you   can choose Excel. I'm going to choose CSV which is 
+uh easier for me to open on a Mac but is the same   way is the same thing right you're going to see 
+the same thing as me so just choose whatever you   want and now you see that the button has changed 
+from export IFC to web to export IFC to CSV going   to do that and I'm going to go in downloads and 
+let's call this um window schedule what day 25th   Nove from November. So now I'm going to open this 
+in my computer or MacBook whatever you want to   call it. And there we go. You see exactly like in 
+the browser. It's not there are not so many types   of windows. So yeah, but larger projects this can 
+become quite uh stuffy, right? So that's exactly   how you do it. Of course, if you don't want to 
+group or sort different things in at bonsai level,   you can also take everything and do that fix in 
+um in Excel if you want to. You don't have to. I   show you how you can do it properly. I think yeah, 
+you the best is to do it with templates that you   have in both eyes so you avoid repeating work, 
+right? That's the most effective way to do it.   And now we have one last thing to do and that's 
+to save our template. And that's how you do it.   You go here at the top and you will see close to 
+the gearbox we have two icons. One is for save   CSV settings and one is to load CSV settings. And 
+we need to save this CSV settings. And I'm going   to go again here. And we see this is a JSON file. 
+And let's call this window schedule 25th November. Cool. Now, let me show you how this works. I'm 
+going to reload this model. I just reloaded the   model. And when we go here to our spreadsheet 
+import export, we'll see that we don't have any   settings anymore. Everything disappeared. Right? 
+So, [snorts] I'm going to go here and press on   load CSV settings. I'm going to go to downloads. 
+And let's take this date, this one. And let's   load it. And there we go. We got all our settings, 
+including where do did we want to export this to,   right? So, if you want to double check. Let's 
+change one more time this to the web. And let's   do this. And you see a new tab is opening and 
+it's showing the same information. Cool. Guys,   I hope you enjoyed this. If you liked it, of 
+course, leave me some feedback. I would love to   hear from you. I would love to hear from you other 
+recommendations, other things that you would like   to do when it comes to Windows. If I missed any 
+kind of important information, oh, by the way, I   think this is extremely important. Let me mention 
+this as well. In case that you have a pet set or a   property with spaces, use quotes. Okay, use quotes 
+so it will work because if you don't use quotes,   it will not work. Let's say like you have thermal 
+transmitters with space here, it will not work. So   you have to put quotes here and quotes at the end. 
+The same also for pet. Let's say you have window   of this is going to be like this. But if you 
+have your custom property set with spaces in it,   you have to do the same thing. So you put quotes 
+here and before the dot and now if open shell   mobeam is going to interpret this as one word. 
+Okay. So yeah this is extremely important but yeah   like I said please let me know what you think if 
+you like this and tell me also what other kind of   videos would you like me to make in the future. 
+Like this is extremely important and for you as   well. Like if you want my content to be useful 
+for you, the least you can do is actually at   least to leave me a comment and tell me. I cannot 
+read your mind, right? All right. See you around.

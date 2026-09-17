@@ -1,15 +1,23 @@
 # Triage Report — Blender/Bonsai Sources vs. Toolchain Requirements
 
-**Date:** 2026-09-17 · **Brief:** `_Inbox/planning/agent_brief_bonsai_blender_triage_20260917.md` · **Status: Complete**
+**Date:** 2026-09-17 · **Brief:** `_Inbox/planning/agent_brief_bonsai_blender_triage_20260917.md` · **Status: Complete (Amended in Round 2)**
+
+> [!NOTE]
+> **Corrective Preamble (Round 2 Update, 2026-09-17):**
+> Following review in `_Inbox/planning/agent_brief_bonsai_triage_round2_20260917.md`, Round 1's skip filter was identified as having categorized several videos by title keywords (e.g. labeling typing, schedules, voids, and 2D drawing internals as "redundant floor plans" or "proprietary Revit") rather than evaluating them against the 12 Open Problems.
+> A narrow corrective pass over nine named videos was conducted:
+> - **3 videos PROCESSED**: `RL3IAGeMi5s` (Bonsai 2D drawings internals & native MEP void), `xImmD0Ns4NQ` (Spreadsheet QTO requires grouping by `ObjectType`), and `dRSoT80oDNA` (parametric wall typing via `IfcMaterialLayerSet`).
+> - **6 videos SKIP CONFIRMED**: `kEFgXvcbHEw` & `0ktp-S7Lev0` (paywalled YouTube members-only), `Vy4RBlXFNQE` (duplicate of `xImmD0Ns4NQ` on doors), `oQBCy_zKMtI` & `iIR3zl4b6vA` (interactive UI opening edits without schema/generator rules), and `415peYvhkcg` (Blender 4.5 UI hang bug report). Optional 10th `Vd6qnRO0ZP4` confirmed skip (UI clipboard workaround, no GUID persistence data).
+> Below, Section 1's verdict table is updated for Open Problems 1, 7, and 11, and Section 5 supersedes the nine original rationales without deleting them. Wall-corner mesh tools remain skipped (ownership and join problem in `wall_corners.csv`, not a viewport mesh trick).
 
 Triaged **292 candidate videos** across five candidate channels/playlists:
-- **A: @blender3darchitect** (Alan Brito / Alberto): 152 videos (1 already in vault, 1 processed, 150 skipped)
-- **B: @BIMvoice** (Stefan Catargiu) — playlist `PLUIgjxgKOw-rjpiXaCV2oZ6WK95K9nSwM`: 82 videos (4 processed, 78 skipped)
+- **A: @blender3darchitect** (Alan Brito / Alberto): 152 videos (1 already in vault, 2 processed, 149 skipped)
+- **B: @BIMvoice** (Stefan Catargiu) — playlist `PLUIgjxgKOw-rjpiXaCV2oZ6WK95K9nSwM`: 82 videos (6 processed, 76 skipped)
 - **C: @dynamiterevit** (Christina / Dynamite Revit) — playlist `PLm0YJLPFdYMb85q2gB-bzivMxnI1USKi9`: 6 videos (0 processed, 6 skipped)
 - **D: @Modelflick** (ModelFlick): 1 video (0 processed, 1 skipped)
 - **E: @SPB-production** (Tom): 51 videos (1 already in vault, 3 processed, 47 skipped)
 
-Total processed into `_Sources/` and routed into the wiki: **8 videos** (47 new facts, yield 5.9).
+Total processed into `_Sources/` and routed into the wiki: **11 videos** (8 from Round 1 + 3 from Round 2; 63 new facts, yield 5.7).
 
 ---
 
@@ -19,17 +27,17 @@ The 12 blocking-or-near-blocking problems from brief §3 evaluated against pract
 
 | # | Open Problem | Verdict | Primary Source & Practitioner | Core Finding & Architectural Transfer |
 | :-: | :--- | :--- | :--- | :--- |
-| **1** | **Scripted IFC authoring with `ifcopenshell`** | **NOT COVERED** (in tutorials) | Stefan Catargiu (`-XPGFbmuh8U`) | All video tutorials across all 5 channels are interactive GUI-based. Catargiu explicitly identifies IfcOpenShell scripting as a separate higher-level automation tier above the GUI, but gives no tutorial code. Our programmatic compiler remains ahead of YouTube tutorial practice. |
+| **1** | **Scripted IFC authoring with `ifcopenshell` (and Type generator entities)** | **PARTIALLY (Types identified)** | Stefan Catargiu (`-XPGFbmuh8U`), Alan Brito (`dRSoT80oDNA`), Catargiu (`-UuUCMOAvx4`) | Tutorials are GUI-based, but Round 2 establishes what a programmatic generator (`tools/ifc/model_from_resolved.py`) MUST emit for types to avoid breaking QTO schedules and IDS audits: `IfcWallType` (`PredefinedType = .STANDARD.`), `IfcMaterialLayerSet` (with `IfcMaterialLayer` defining thickness), `IfcRelDefinesByType`, and `IfcMaterialLayerSetUsage`/`IfcRelAssociatesMaterial`. For doors/windows: `IfcDoorType`/`IfcWindowType`. An instance-only model silently breaks QTO grouping and fails IDS type audits. |
 | **2** | **Services in IFC** (`IfcOutlet`, `IfcLightFixture`, `IfcCableSegment`, `IfcPipeSegment`, etc.) | **NOT COVERED** | *Total void* across all 292 videos | Zero videos demonstrate MEP, electrical runs, pipe networks, or distribution ports in openBIM. Public practitioner tutorials remain 100% focused on architectural envelope (walls, slabs, doors, windows, basic finishes). |
 | **3** | **Concealed cable routes in 3D** (modelled run vs. zone) | **NOT COVERED** | *Total void* across all 292 videos | No practitioner demonstrates modelling 3D cable routing, chases (штробы), or conduit geometry in Blender/Bonsai. OpenBIM practitioners treat services either as 2D lines or skip them entirely. |
 | **4** | **Ceiling-hosted elements** (`surface_local` support geometry) | **NOT COVERED** | *Total void* across all 292 videos | No tutorial establishes procedural attachment or relative coordinate referencing of luminaires/detectors against ceiling slabs. |
 | **5** | **Elements inside a riser zone / shaft** (`zone_local` framing) | **NOT COVERED** | *Total void* across all 292 videos | Zero treatment of MEP shaft coordination, riser framing, or interior pipe stacks. |
 | **6** | **IFC phasing** (existing / demolished / new strip-out) | **PARTIALLY** | Vault prior: `_hADRIo-ma4` | In this batch, phasing received no new deep treatment. Vault prior (`_hADRIo-ma4`) remains authoritative: query over `Pset_<Class>Common.Status` (`EXISTING`, `DEMOLISH`, `NEW`). |
-| **7** | **2D discipline sheets generated FROM model** (electrical, plumbing, HVAC plans) | **NOT COVERED** | Christina (`dynamiterevit`), Modelflick (`oYnVK7BDGig`) | Only basic architectural floor plans are drawn. Modelflick and DynamiteRevit demonstrate manual post-processing of SVG in Inkscape (adding fills, text, furniture lines), but zero MEP discipline sheets exist. |
+| **7** | **2D discipline sheets generated FROM model** (electrical, plumbing, HVAC plans) | **ANSWERED (MEP broken, architectural only)** | Lloyd Sark & Stefan Catargiu (`RL3IAGeMi5s`) | **Drawings internals confirmed**: Bonsai places an IFC camera cut plane, slices 3D geometry into vector linework, writes `.svg` to `drawings/` folder, styled via external CSS (`style.css`). 2D annotations (dimensions, tags, linework, fills) are stored in IFC as `IfcAnnotation` bound to drawings. **Discipline sheets finding**: Lloyd Sark explicitly confirms that native 3D MEP modeling in Bonsai is broken (system flows and pipe connections fail). Practitioners cut the architectural floor plan and draft 2D annotations manually as an overlay stopgap. |
 | **8** | **IFC4 vs IFC4.3 in Bonsai** (schema migration, what breaks) | **ANSWERED** | Tom / SPB Production (`XYeasHbyw-U`) | Stepwise upgrade required: `2x3 -> 4.0 -> 4.3` via Bonsai's `IfcPatch` `Migrate` recipe. IFC4.3 is built for infrastructure (rail, alignment, bridges) with zero architectural benefit for flats. Downgrading strips georeferencing and degrades unmapped entities into `IfcBuildingElementProxy`. Deprecated classes (e.g. `IfcDoorStyle`) are not cleaned up. |
 | **9** | **Bonsai file model** (`.blend` vs `.ifc` save semantics) | **PARTIALLY** | Tom / SPB Production (`tAq0foY2GOY`, `XYeasHbyw-U`) | Reinforced finding from vault prior `tAq0foY2GOY`: native IFC editing writes directly to the `.ifc` on save (`Ctrl+S`). Opening without Bonsai or in read-only mode remains the required safeguard against accidental overwrites. |
 | **10** | **GLB/glTF export and appearance gap** | **NOT COVERED** (in this batch) | Vault prior: `HV-fbzv4VAU`, `i82_Rx1OUe0`, `BifyAj9KpaI` | Thoroughly settled in 2026-09-16 batch: materials are a non-transfer; textured models require per-surface UV unwrap + Cycles baking; untextured grey geometry is the correct scope for clearance/spatial checking. |
-| **11** | **Quantity take-off from IFC and cost join** | **ANSWERED** | Tom / SPB Production (`fUlDzxSDOls`) | Bonsai Spreadsheet tool extracts tabular schedules, component counts, and QTO parameters directly to `.csv`. Class filtering, Pset dot notation (`Pset_Name.Property`), grouping by type, and `count()`/`sum()`. Syntax trap: property sets with spaces require double quotes (`"IFC Door Information".Function`). |
+| **11** | **Quantity take-off from IFC and cost join** | **ANSWERED** | Tom / SPB Production (`fUlDzxSDOls`), Stefan Catargiu (`xImmD0Ns4NQ`), Alan Brito (`dRSoT80oDNA`) | Bonsai Spreadsheet tool extracts tabular schedules and QTO parameters directly to `.csv`. Class filtering, Pset dot notation (`Pset_Name.Property`), and quotes on spaced names. **Critical model constraint**: count aggregation via `count()` **strictly requires grouping rows by `ObjectType` or `Type.Name`** — without grouping, each instance lists individually. Thickness and multi-layer quantities are governed by `IfcMaterialLayerSet` on `IfcWallType`. |
 | **12** | **Validation** (IDS, model checking, CI rules) | **ANSWERED** | Tom (`CbDO16CfC7M`), Stefan Catargiu (`-UuUCMOAvx4`, `-XPGFbmuh8U`) | Client-side WASM IDS validation via `ifctester.org` (zero data egress, GlobalId audit reports). IDS applicability trap: checks on type properties must target `IfcWallType` rather than `IfcWall`. Production reality: commercial checkers (Solibri) are retained because Bonsai validation on large models wastes days. |
 
 ---
@@ -101,7 +109,7 @@ Summary of 284 candidate videos skipped with one-line rationales:
 | `QTSdYmfgoVo` | Blender Just Got Parametric Stairs & Railings — And They're Free (Best Architecture Add-on) | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `FvtmIRuEeMk` | Blender Just Got Free IFC Furniture — But There's a Problem You Must Fix First (Bonsai BIM) | 3D asset/furniture modeling; irrelevant to canonical programmatic compiler. |
 | `Qdjo6Awaimo` | Bonsai BIM vs FreeCAD: Same Floor Plan, Two Free Tools — Which Workflow Wins? | FreeCAD specific tutorial; outside repo toolchain. |
-| `0ktp-S7Lev0` | Your Bonsai Doors & Windows Are Broken Without This — How to Manage Voids | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
+| `0ktp-S7Lev0` | Your Bonsai Doors & Windows Are Broken Without This — How to Manage Voids | **SKIP CONFIRMED (PAYWALLED / MEMBERS-ONLY)**: Verified unplayable without paid channel membership. Fails Open Problem 1 (geometry generation) by inaccessibility. Sibling opening semantics covered in YT_PNoOyCHa_V0. [SUPERSEDED Round 1 rationale: Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault.] |
 | `Ww_G7vunrRQ` | Blender Just Got the Best Roof Modeling Tool — And It's Free (Bonsai BIM) | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
 | `hfJMH4gLM4s` | This Free Blender Add-on Replaces Every Paid Architecture Tool I Own | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `d5BKgffzGEY` | Blender Just Turned SketchUp Files into Revit-Compatible BIM — For Free (Bonsai BIM) | SketchUp modeling/import; irrelevant to IFC/Bonsai pipeline. |
@@ -109,9 +117,9 @@ Summary of 284 candidate videos skipped with one-line rationales:
 | `AYwtbL-Q3-Q` | Blender Just Got ArchiCAD-Style Curved Walls — And They're Free (Bonsai BIM) | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
 | `zG1_Ijh_rVg` | Stop Using Blender's Array Modifier for BIM — Use This Instead (Bonsai BIM) | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `co0lOhmkfH0` | Blender Has Layered Walls & IFC Materials Now: Bonsai BIM (Free) | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
-| `kEFgXvcbHEw` | Stop Using Default Walls: Create Custom IFC Types for Bonsai BIM | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
+| `kEFgXvcbHEw` | Stop Using Default Walls: Create Custom IFC Types for Bonsai BIM | **SKIP CONFIRMED (PAYWALLED / MEMBERS-ONLY)**: Verified unplayable without paid channel membership. Fails Open Problem 1 by inaccessibility. Question answered via sibling sources (dRSoT80oDNA, YT_-UuUCMOAvx4) establishing generator requirements for IfcWallType, IfcMaterialLayerSet, and IfcRelDefinesByType. [SUPERSEDED Round 1 rationale: Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault.] |
 | `ZoCUEssXt_0` | Blender Has Parametric Dimension Controls Now: Bonsai BIM 0.8.5 (Free) | Manual drafting/dimensioning; programmatic generator computes dimensions directly. |
-| `dRSoT80oDNA` | Blender Has Parametric Walls Now: Create & Edit with Bonsai BIM (Free) | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
+| `dRSoT80oDNA` | Blender Has Parametric Walls Now: Create & Edit with Bonsai BIM (Free) | **PROCESSED**: Open Problems 1 & 11 answered. IfcMaterialLayerSet on IfcWallType governs parametric wall thickness and multi-layer build-up; layer edits propagate globally across instances; height parameterized via extrusion profile; survives native IFC4 round-trip. Extracted in YT_dRSoT80oDNA. [SUPERSEDED Round 1 rationale: Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault.] |
 | `d8WAOLqyn7o` | Blender Just Got AutoCAD-Style Editing Tools — And They're Free (Bonsai BIM) | Manual 2D CAD import and tracing; geometry compiler generates directly from canonical specs. |
 | `fROixyEHhJU` | Stop Starting from Scratch in Blender: Create Reusable Project Templates (Free) | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `Zq5uOnFjAIE` | Blender for Architects: Complete Free Course by an Architect (3.5 Hours) | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
@@ -184,7 +192,7 @@ Summary of 284 candidate videos skipped with one-line rationales:
 | `XRMF9r9wsDM` | Open-Source CAD: Setup Layers and Units (Quick Start) | Manual 2D CAD import and tracing; geometry compiler generates directly from canonical specs. |
 | `2Uqj2sORVcg` | Blender for Architecture: Bonsai New Feature! Walls from Polylines | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
 | `MZ9g5Aa8YHI` | Blender for Architecture: Snapping Between 2 Points and Divisions | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
-| `MiY8oPp7E94` | Blender for Architecture: Wall Corners with the Shear Tool | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
+| `MiY8oPp7E94` | Blender for Architecture: Wall Corners with the Shear Tool | **SKIP CONFIRMED**: Fails Open Problems 1–12. Wall cornering in this repository is a topological ownership and join problem resolved in canonical data (`wall_corners.csv`, `check_wall_junctions.py`), not an interactive Blender viewport mesh shear trick. [SUPERSEDED Round 1 rationale: Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault.] |
 | `XXVEMRTO-yQ` | Blender as a CAD Tool: Polar Array like AutoCAD | Manual 2D CAD import and tracing; geometry compiler generates directly from canonical specs. |
 | `SVqVARscRwc` | Precise Modeling with Blender: 3D Rotations like a CAD tool | Manual 2D CAD import and tracing; geometry compiler generates directly from canonical specs. |
 | `xav08oOG4xY` | Blender 4.2 Tutorial: Hidden Shadeless Material | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
@@ -234,7 +242,7 @@ Summary of 284 candidate videos skipped with one-line rationales:
 
 | Video ID | Video Title | Skip Rationale |
 | :--- | :--- | :--- |
-| `RL3IAGeMi5s` | Bonsai BIM live: new 2D drawing tools, Revit questions and how drawings work under the hood | Proprietary Revit workflow; not applicable to openBIM/Bonsai toolchain. |
+| `RL3IAGeMi5s` | Bonsai BIM live: new 2D drawing tools, Revit questions and how drawings work under the hood | **PROCESSED**: Open Problem 7 answered. 2D drawing pipeline slices 3D geometry via camera cut planes to SVG styled via CSS. 2D annotations stored in IFC as IfcAnnotation. Confirms native 3D MEP is broken; 2D discipline sheets produced only via manual 2D annotations on architectural cuts. Extracted in YT_RL3IAGeMi5s. [SUPERSEDED Round 1 rationale: Proprietary Revit workflow; not applicable to openBIM/Bonsai toolchain.] |
 | `5Ik_HSD2XT4` | How to Optimise a Heavy IFC File From Revit in Bonsai BIM | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `bkvMqpUjkP0` | Modeling earthworks in IFC4x3 with Bonsai BIM (cut, fill and backfill) | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `iO7JnykTgtk` | How to Add Images to Construction Drawings in Bonsai BIM | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
@@ -244,9 +252,9 @@ Summary of 284 candidate videos skipped with one-line rationales:
 | `lm92E10prCg` | How to Install Bonsai BIM on Blender 5.1 Beta | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `WirBWr-hZmA` | Wait, Bonsai BIM jobs are a thing now? | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `hPP1y-m2GCs` | Simplify Your Bonsai BIM Interface by Hiding Unused Tabs | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
-| `xImmD0Ns4NQ` | Create Window Schedule With Bonsai BIM from IFC | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
+| `xImmD0Ns4NQ` | Create Window Schedule With Bonsai BIM from IFC | **PROCESSED**: Open Problem 11 answered. Window schedule generation via Bonsai Spreadsheet requires class filtering (IfcWindow), direct attributes, and strictly requires grouping by ObjectType (or Type.Name) for count() aggregation. Extracted in YT_xImmD0Ns4NQ. [SUPERSEDED Round 1 rationale: Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault.] |
 | `90Zj-EE5ICU` | Bonsai BIM update: v0.8.4 - 1111 openBIM Upgrades for Native IFC Authoring Power! | Software release announcement / news; transient capability claims. |
-| `Vy4RBlXFNQE` | Door Schedule from IFC with Bonsai BIM | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
+| `Vy4RBlXFNQE` | Door Schedule from IFC with Bonsai BIM | **SKIP CONFIRMED (DUPLICATE OF xImmD0Ns4NQ)**: Same presenter (Catargiu) and identical Bonsai Spreadsheet QTO mechanism applied to IfcDoor. Skipped per brief §3 instruction to process only one of doors/windows. [SUPERSEDED Round 1 rationale: Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault.] |
 | `QlHad-4oERw` | 💸 Blender for BIM: The $0 Tool to Assign IFC Entities and Generate Accurate Quantities | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `mKNE1aSrRIM` | Master IFC: FREE & Easy Upgrade from IFC4 to IFC4x3 (Quick Guide) | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `r2AJe30KUIk` | BonsaiBIM Tutorial: Clean and Validate Your IFC Models Step-by-Step | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
@@ -273,10 +281,10 @@ Summary of 284 candidate videos skipped with one-line rationales:
 | `S0K1wwYNfoI` | Is Your IFC Model Georeferenced? How to Check with BonsaiBIM (by Dion Moult) | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `YScv-lZy_3k` | How To Split IFC Objects In BonsaiBIM Super Fast! | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `lQ_t0neAI9M` | are your ifc elements in the wrong spatial container? (BonsaiBIM fix) | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
-| `Vd6qnRO0ZP4` | Quick BonsaiBIM Hack: Select & Copy Multiple Global IDs Correctly | IDS validation; redundant with detailed coverage in CbDO16CfC7M and -UuUCMOAvx4. |
+| `Vd6qnRO0ZP4` | Quick BonsaiBIM Hack: Select & Copy Multiple Global IDs Correctly | **SKIP CONFIRMED (UI WORKAROUND ONLY)**: Fails Open Problem 1 (GUID persistence across edits). Demonstrates only a Blender GUI clipboard workaround for copying multiple GlobalIds without internal pointer strings. Contains zero evidence on GUID stability or compiler identity. [SUPERSEDED Round 1 rationale: IDS validation; redundant with detailed coverage in CbDO16CfC7M and -UuUCMOAvx4.] |
 | `15UT8cWd4qU` | How to Auto-Generate Walls from Slab Perimeter in Bonsai (Hidden Feature) | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
 | `X8K6VgcQx5k` | I Changed My Blender Theme to THIS | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
-| `415peYvhkcg` | Avoid These Mistakes When Using Bonsai with Blender 4.5 (Important Update!) | Software release announcement / news; transient capability claims. |
+| `415peYvhkcg` | Avoid These Mistakes When Using Bonsai with Blender 4.5 (Important Update!) | **SKIP CONFIRMED (UI VERSION BUG ONLY)**: Fails Open Problems 1–12 for generated models. Reports UI application freeze when running Bonsai 0.8.2 on Blender 4.5 beta; contains zero geometric, schema, or generator constraints. [SUPERSEDED Round 1 rationale: Software release announcement / news; transient capability claims.] |
 | `EuPHIaZWfGY` | without Bonsai Bootcamp perhaps I would not have had confidence to sell myself as BIM coordinator | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `kaHEnsnUD1k` | How to List All Properties in an IFC Model Using Bonsai | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `ZZKfSLrAwCU` | Customize Your Bonsai Workspace for Efficient IFC Work | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
@@ -297,8 +305,8 @@ Summary of 284 candidate videos skipped with one-line rationales:
 | `mzP-reKQWHs` | 💡 Hidden Feature: Copying Object Info in BIM Just Got Easier in Bonsai! | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `KU0WVuailo0` | Convert Any Blender Mesh to IFC – Step-by-Step Guide! | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `KTORrq2YI3c` | Practical IFC Schema: Introduction | Generic beginner tutorial; covers basic UI navigation and manual wall clicking already in vault. |
-| `oQBCy_zKMtI` | modify your wall opening with Bonsai in JUST minutes (IFC native) | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
-| `iIR3zl4b6vA` | how to add wall openings in IFC models using Bonsai (IFC native) | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
+| `oQBCy_zKMtI` | modify your wall opening with Bonsai in JUST minutes (IFC native) | **SKIP CONFIRMED (UI ERGONOMICS ONLY)**: Fails Open Problems 1–12 for generated models. Demonstrates interactive UI Toggle Openings, G grab, Tab vertex editing, and "Update Item Attributes" checkbox. Provides no schema failure analysis or programmatic void/fill rules. [SUPERSEDED Round 1 rationale: Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault.] |
+| `iIR3zl4b6vA` | how to add wall openings in IFC models using Bonsai (IFC native) | **SKIP CONFIRMED (TRIVIAL UI CLICKING)**: Fails Open Problems 1–12. 1-minute tutorial clicking "Add IFC Element" -> "Feature Element" -> "Opening". Fails to provide any compiler or relationship insights. [SUPERSEDED Round 1 rationale: Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault.] |
 | `bJSMEETGvI0` | Bonsai devs fix bugs faster than you can report them | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `4xB4b6mizwI` | 🔥 Blender 4.3.2 Can Open IFC Models? Here’s How! | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `T4OZ8C5Imxg` | the ugly truth about custom psets in your IFC models | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |

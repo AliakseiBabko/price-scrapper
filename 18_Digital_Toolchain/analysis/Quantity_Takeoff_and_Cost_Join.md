@@ -174,9 +174,11 @@ Tom (SPB Production) demonstrates Bonsai's native **Spreadsheet** module for ext
 
 - **Entity filtering and column mapping**: The user selects an IFC class filter (e.g. `IfcDoor`, `IfcWall`, `IfcCovering`) and configures columns mapping to standard IFC attributes (`PredefinedType`, `Tag`, `OverallWidth`) or property set values (`Pset_DoorCommon.FireRating`).
 - **Pset dot syntax and quote rule**: Properties are accessed via dot notation (`Pset_Name.PropertyName`). **Crucial syntax trap**: Any property set name containing spaces (e.g. `"IFC Door Information".Function`) **must be enclosed in double quotes**; omitting quotes causes the query parser to fail.
-- **Aggregation and export**: Supports grouping rows (e.g. by Type name or material) with aggregation functions (`count()`, `sum()`) to produce consolidated schedules, exportable to `.csv` or `.ods`.
+- **Aggregation and export**: Supports grouping rows (e.g. by Type name, `ObjectType`, or material) with aggregation functions (`count()`, `sum()`) to produce consolidated schedules, exportable to `.csv` or `.ods`. **Grouping by `ObjectType` is strictly required for count schedules** — without grouping, each instance lists individually and `count()` cannot aggregate identical products. [sources: [[_Sources/YT_fUlDzxSDOls_spbproduction_bonsai_spreadsheet_qto_schedule|YT_fUlDzxSDOls]], [[_Sources/YT_xImmD0Ns4NQ_bimvoice_window_schedule_model_requirements|YT_xImmD0Ns4NQ]]]
 
-> **→ IFC DATA EXTRACTION REQUIRES NO COMMERCIAL TOOLS.** For bills of quantities and door/finishing schedules, Bonsai's internal spreadsheet engine directly queries the IFC data graph into tabular CSVs suitable for downstream pricing pipelines. [source: [[_Sources/YT_fUlDzxSDOls_spbproduction_bonsai_spreadsheet_qto_schedule|YT_fUlDzxSDOls]]]
+### ⚠️ A layered wall is where per-layer quantities would come from
+
+**`IfcMaterialLayerSet`** is the native construct for a build-up: several materials, each with its own thickness attached to `IfcWallType`. **Parametric layer edits propagate globally**: changing a layer thickness in the layer set updates every associated wall instance in the model without re-modelling. **Currently unused here** — our walls are single-material solids — **but a real renovation wall is block + plaster + finish, and the layer set is where a finish schedule and per-layer volumes live.** ⚠️ Flagged as a capability we have not modelled, not as a recommendation. [sources: [[_Sources/YT_jTL3a6QwckA_ifcarchitect_custom_wall_type|YT_jTL3a6QwckA]], [[_Sources/YT_dRSoT80oDNA_blender3darchitect_parametric_walls_material_layer_sets|YT_dRSoT80oDNA]]]
 
 ### ⚠️ Phase-filtered SELECTION is the mechanism staged pricing needs
 
@@ -184,9 +186,6 @@ A model-wide status filter offers **visibility** and **selection** per phase —
 
 > **→ The gap analysis's cost design calls for STAGED COMMITMENT — *"price by trade stage… do not commit Stage 4 rates during Stage 1."* Phase-filtered selection is what makes phase-filtered quantities possible**, and the phase field is the IFC-standard `Pset_<Class>Common.Status`. ⚠️ Not demonstrated for quantities in the source; recorded as the obvious adjacency. [source: [[_Sources/YT__hADRIo-ma4_ifcarchitect_custom_phases|YT__hADRIo-ma4]]]
 
-### ⚠️ A layered wall is where per-layer quantities would come from
-
-**`IfcMaterialLayerSet`** is the native construct for a build-up: several materials, each with its own thickness. **Currently unused here** — our walls are single-material solids — **but a real renovation wall is block + plaster + finish, and the layer set is where a finish schedule and per-layer volumes live.** ⚠️ Flagged as a capability we have not modelled, not as a recommendation. [source: [[_Sources/YT_jTL3a6QwckA_ifcarchitect_custom_wall_type|YT_jTL3a6QwckA]]]
 
 ## 6. The prerequisite nobody can skip
 
