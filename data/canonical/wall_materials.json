@@ -1265,5 +1265,12 @@
     "resolution": "adjacent_space_kind = loggia (asserted, was `balcony` then `disputed`); contact_kind = direct_space_boundary (asserted, was candidate). M2's abutting run now DERIVES not_required via INS-PARTY-DIRECT, and its southern 570 mm derives required via INS-EXT-OPEN. All nine bands reconcile consistent and the issued gate passes with NO disposition.",
     "!!_AND_THE_SHELL_PHOTO_AGREES": "The two wall elements I read in the photograph are that junction seen obliquely - the neighbour's parapet meeting M2 - not two parallel walls. The photo was right that there is no open balcony; it was the apartment plan that was wrong, and my reading of the photo that was incomplete.",
     "what_this_did_NOT_resolve": "!! THE 120 mm THICKNESS IS STILL AN ASSUMPTION. Where insulation is required is now settled; how thick it is is not, and it travels as ThicknessValueState=assumed_not_measured. Do not use it where 70 vs 120 vs 150 changes an answer."
+  },
+  "INSULATION_THICKNESS_CLOSED_AS_AN_ASSUMPTION_2026_09_17": {
+    "owner": "«Insulation thickness is not a vital measurement. The assumption is okay. It changes nothing for the internal layout of the apartment, which is what we're going to create.»",
+    "decision": "CLOSED. The 120 mm on M2 and M6b stays as recorded, with ThicknessValueState=assumed_not_measured, and it gates nothing. No tape measure and no developer section is needed for it.",
+    "!!_WHY_THIS_IS_SAFE_AND_NOT_MERELY_ACCEPTED": "!! THE INSULATION IS EXTERNAL. It sits OUTSIDE the structural face, so it cannot move a single internal dimension - not a room clear size, not a rollout, not a furniture fit, not a wall face a socket is located on. The assumption is confined to the outer skin by geometry, not by a promise. That is why it can be closed rather than merely tolerated.",
+    "what_it_still_would_affect": "A THERMAL calculation, and the facade quantity if anyone ever prices the external skin - which is the developer's work, not this renovation's. Neither is in scope. If a thermal calculation is ever wanted, this figure must be measured first and the value state says so.",
+    "consequence_for_the_gates": "None. Insulation presence and extent are settled and all nine bands reconcile consistent; the issued gate passes. The thickness travels with its state attached and no generator treats an assumed value as measured."
   }
 }
