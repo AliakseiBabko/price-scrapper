@@ -1,25 +1,33 @@
 # Agent brief — triage the Blender/Bonsai sources against what this toolchain actually needs
 
-**For Antigravity. 2026-09-17.** Read `AGENTS.md` first, then `.agents/skills/renovation-knowledge-intake/SKILL.md`. You auto-discover skills; use them.
+**For Antigravity. 2026-09-17, sources extended the same day.** Read `AGENTS.md` first, then `.agents/skills/renovation-knowledge-intake/SKILL.md`. You auto-discover skills; use them.
 
 **This is a RESEARCH and TRIAGE job, not a build job.** Nothing in `tools/` or `data/canonical/` changes. The output is extraction notes, wiki routing, and one triage report.
 
 ---
 
-## 1. The two sources
+## 1. The sources
 
-| | |
-| :--- | :--- |
-| Channel | <https://www.youtube.com/@blender3darchitect/videos> |
-| Playlist | <https://www.youtube.com/watch?v=RL3IAGeMi5s&list=PLUIgjxgKOw-rjpiXaCV2oZ6WK95K9nSwM> |
+| | Link | Prior coverage |
+| :--- | :--- | :--- |
+| A | <https://www.youtube.com/@blender3darchitect/videos> | **3 videos already in `_Sources/`** (Blender 3D Architect / Alan Rito) |
+| B | <https://www.youtube.com/watch?v=RL3IAGeMi5s&list=PLUIgjxgKOw-rjpiXaCV2oZ6WK95K9nSwM> | playlist, not yet processed |
+| C | <https://www.youtube.com/watch?v=Ozf2bdkDbso&list=PLm0YJLPFdYMb85q2gB-bzivMxnI1USKi9> | playlist, not yet processed |
+| D | <https://www.youtube.com/watch?v=oYnVK7BDGig> | single video, not yet processed |
+| E | <https://www.youtube.com/@SPB-production/videos> | **1 video already processed — see the warning below** |
 
-⚠️ **`00_Master/processed_video_ids.txt` already holds 1,392 ids, and three Blender-3D-Architect videos are already in `_Sources/`.** Run `tools/youtube/preflight_playlist.py` against both before fetching anything. Do not re-fetch what is there.
+⚠️ **I have NOT identified the channels behind C and D.** Resolve them with `yt-dlp` metadata before you judge anything, and say in your report who they are. Do not assume from the playlist title.
 
-⚠️ **Standing rule 5 applies: VALUE-FILTER FIRST.** Title-skim the whole channel and playlist, spot-check a few transcripts, and process only what earns it against §3 below. A channel sweep is not the deliverable. **Report the skip list and why** — what you rejected is as useful to me as what you kept.
+> [!IMPORTANT]
+> ⚠️⚠️ **SPB Production (E) has the strongest prior of the five, and you should weight it accordingly.** Its one processed video, `tAq0foY2GOY` — *"Bonsai BIM: save as an IFC or a Blend file?"* — is recorded in `_Sources/` as **"the only controlled experiment in four batches"**, and it is where this project's **Ctrl+S hazard** came from: a plain save can rewrite the model once Bonsai links a `.blend` to an `.ifc`. A channel that runs controlled experiments rather than demonstrations is exactly what open problems 9, 8 and 12 need.
+>
+> **Read that existing note before processing anything else from the channel**, and do not re-extract it.
 
-⚠️ Rule 7: serialize fetches, spacing and bounded backoff. Rule 2: confirm dates from `yt-dlp` metadata and **actually run the lookup**. Rule 1: original language.
+⚠️ **`00_Master/processed_video_ids.txt` already holds 1,392 ids.** Run `tools/youtube/preflight_playlist.py` against every channel and playlist above before fetching anything. Do not re-fetch what is there.
 
----
+⚠️ **Standing rule 5 applies: VALUE-FILTER FIRST.** Title-skim all five, spot-check a few transcripts, and process only what earns it against §3 below. A sweep of five sources is emphatically not the deliverable. **Report the skip list and why** — what you rejected is as useful to me as what you kept.
+
+⚠️ Rule 7: serialize fetches, spacing and bounded backoff — **five sources makes this matter more, not less; a rate-limit is IP-wide, so pause rather than rotating between channels.** Rule 2: confirm dates from `yt-dlp` metadata and **actually run the lookup**. Rule 1: original language only — force `--languages` to the source's own language and never take auto-translated English for a Russian source.
 
 ## 2. What this project is doing, so you can judge relevance
 
@@ -78,6 +86,6 @@ Relevant existing pages, which you must READ BEFORE writing anything so you do n
 
 - ⚠️ **Do not change `tools/`, `data/canonical/`, or anything under `_Inbox/migration/`.** A services-data migration is mid-flight there and under adversarial review.
 - ⚠️ **Do not edit an archived transcript.** The bytes are frozen (see `AGENTS.md`).
-- ⚠️ **Do not process the whole channel.** If your note count climbs past roughly 15, you have stopped filtering.
+- ⚠️ **Do not process whole channels.** Five sources is a wider net, not a licence to sweep. If your note count climbs past roughly 20 across all five, you have stopped filtering.
 - ⚠️ **Do not restate what the vault already holds.** If a video repeats an existing page, cite the existing page in your report and skip it.
 - **Do not make toolchain decisions.** Report what practitioners do and where they disagree; the decisions are the owner's.
