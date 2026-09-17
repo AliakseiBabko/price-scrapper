@@ -77,17 +77,53 @@ assumed host simultaneously (§7.2).
 
 | Column | Values |
 | :--- | :--- |
-| `property` | `existence`, `count`, `position_along`, `vertical`, `function`, `voltage`, `route_state`, `gang`, `arrangement` |
+| `property` | `existence`, `count`, `position_along`, `vertical`, `function`, `voltage`, `route_state`, `gang`, `arrangement`, plus the envelope: `extent_along_mm`, `extent_vertical_mm`, `anchor_mode`, `host_interaction` |
 | `polarity` | `affirm`, `negate` — **negation is polarity, not a kind of fact** (§3.0e) |
 | `knowledge_basis` | `observed`, `derived`, `assumed`, `stated`, `unknown` |
 | `value_state` | `asserted`, `candidate`, `disputed`, `unknown`, `retracted` |
-| `scope_apartment` | **required.** `ours`, or the comparable actually looked at (`53`, `109`, `2`) |
+| `scope_kind` | **required.** `apartment`, `unit_type`, `building` |
+| `scope_ref` | **required.** The identifier for that kind — `ours` or a surveyed comparable (`53`, `109`, `2`) for an apartment; the type designation for `unit_type` |
 | `scope_phase` | `existing`, `proposed` |
 | `disputed_with` | the `migration_key` this one contradicts |
 
-⚠️ **`scope_apartment` is the column that makes §3.0f enforceable.** An
-observation in flat 53 and a candidate projection onto ours are two rows with
-different scopes — never one row with a hedge in a note.
+⚠️ **Scope is TYPED, and that is deliberate.** An apartment enumeration could not
+express the thing §3.0f explicitly allows as a route to established existence —
+**a developer document governing this unit type**, which is not an apartment.
+
+⚠️ **This is what makes §3.0f enforceable.** An observation in flat 53 and a
+candidate projection onto ours are two rows with different scopes — never one
+row with a hedge in a note. The validator additionally refuses an assertion
+scoped `apartment`/`ours` with `knowledge_basis=observed` unless an observation
+**also scoped to ours** backs it, because that is how a projection launders
+itself into a field-verified fact.
+
+## The terminal envelope
+
+⚠️ **An occurrence has an anchor POINT, and a point cannot collide with
+anything.** Extent lives in the assertion table so each part carries its own
+basis and state, and so the validator never has to **invent default device
+dimensions internally** — an assumption made inside a validator is invisible.
+
+| Property | Meaning |
+| :--- | :--- |
+| `anchor_mode` | what the occurrence's point marks: `centre`, `lower_centre`, `upper_centre`, `start`, `end` |
+| `extent_along_mm` / `extent_vertical_mm` | the device envelope. **`value_state=unknown` with an empty value is the honest record** when nothing states a size |
+| `host_interaction` | `avoid_void`, `creates_penetration`, `fills_opening` |
+
+**The three-state verdict follows from this, and unknown dimensions are not an
+excuse to pass:**
+
+| | Verdict |
+| :--- | :--- |
+| centre inside a void | **invalid** |
+| centre clear, extent unknown | **incomplete** — *not* proven valid |
+| full asserted envelope clear | **valid** |
+
+⚠️ **`host_interaction` is why a blanket "a service may not overlap a void" rule
+is wrong.** `SV-VT` **is** a hole through G4b — the owner's transfer opening
+between the ванная and the туалет. Such a rule would eventually reject the one
+element whose entire purpose is to be a penetration. The validator dispatches on
+this property and **must not treat its absence as `avoid_void`**.
 
 ## What the coverage gate requires
 
