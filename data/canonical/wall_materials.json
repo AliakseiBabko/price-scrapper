@@ -1236,7 +1236,8 @@
   "EXTERNAL_INSULATION_IS_PER_WALL_2026_09_17": {
     "where_it_lives": "!! wall_blocks.csv, column `insulation_mm`. It was ALREADY THERE. I briefly added a second copy to this file on 2026-09-17 and had to remove it - two sources for one number is the split-brain this project keeps guarding against, and the two copies disagreed within minutes.",
     "why_per_wall": "!! Not derived from `class`. M2 and M6b are both `loggia_enclosure` and differ - M2 none, M6b 70 - which is exactly how they were conflated into one 'unknown' for weeks.",
-    "the_150_is_retired": "!! WITHDRAWN. I recorded the 150 as 'retired by the owner' on the strength of a 70 he never said. He has no clear measurement; 150 stands as HIS ACCEPTED ESTIMATE from a photo that cannot settle a dimension. M2 remains an open contradiction between this file's rule 4 and wall_blocks.csv.",
-    "render": "!! NO RENDER LAYER IS MODELLED. Owner: «I already named the values - 200 mm and 70 mm. That's all you need to know.»"
+    "the_150_is_retired": "!! Superseded by the 120 above. The 150 came from wall_blocks with no stated basis; the 70 was MINE, wrongly attributed to the owner.",
+    "render": "!! NO RENDER LAYER IS MODELLED. Owner: «I already named the values - 200 mm and 70 mm. That's all you need to know.»",
+    "M6b_is_120_by_proportion": "!! 2026-09-17, third and settled figure. The owner annotated a crop of ext2 with 200 on the exposed block and 120? on the insulation, reading one against the other at the same corner. 70 (a third of 200) reads too thin; 150 (two thirds) too thick. !! This is a PROPORTION off a photograph with an independently confirmed in-frame scale, not a measurement - and it is the only one of the three figures that had any scale reference at all. Lives in wall_blocks.csv, the one source."
   }
 }
