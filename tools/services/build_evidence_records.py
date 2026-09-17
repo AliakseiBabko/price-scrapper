@@ -81,6 +81,7 @@ REWRITE = {
     # its own note says the topology comes from a comparable flat.
     "RTE-BATH-S": {
         "knowledge_basis": "derived", "value_state": "candidate",
+        "observation_refs": "OBS-BATH-S-53",
         "notes": "⚠ BASIS CORRECTED: this was scoped to OUR apartment "
                  "with knowledge_basis=observed while saying in the same note "
                  "that it comes from b83a, a comparable flat. The observation "
@@ -90,9 +91,43 @@ REWRITE = {
     },
     # corroboration that now names the observation backing it
     "ASR-3-zero-outlets-on-mc": {"observation_refs": "OBS-MC-EMPTY-109"},
+    # ⚠️ The projection now NAMES the observations it rests on - both flats.
+    "ASR-EC-LIGHT-OURS": {
+        "observation_refs": "OBS-CORRIDOR-LIGHT-109;OBS-CORRIDOR-LIGHT-2",
+        "notes": "The projection onto ours, resting on TWO flats: 109 "
+                 "(a82a/a89c) and 2 (9e9b). It claimed that support while "
+                 "naming no observation at all, and the flat-2 observation did "
+                 "not exist. Still candidate/derived - two flats are a "
+                 "stronger projection, not an observation of ours.",
+    },
+    "ASR-LIGHT-L3-EXIST": {
+        "observation_refs": "OBS-CORRIDOR-LIGHT-109;OBS-CORRIDOR-LIGHT-2",
+    },
 }
 
+# ⚠️ OBS-EC-LIGHT-109 and OBS-LIGHT-L3-109 described THE SAME corridor point
+# from THE SAME a82a/a89c photographs - two representations of one observation,
+# not two pieces of evidence. Merged into a single flat-109 record citing both
+# source locators. And apartment 2 was dropped entirely: the L3 literal cites
+# 9e9b, the first record said so explicitly, and no flat-2 observation existed.
+DROP_OBSERVATIONS = {"OBS-EC-LIGHT-109", "OBS-LIGHT-L3-109"}
+
 NEW_OBSERVATIONS = [
+    ("OBS-CORRIDOR-LIGHT-109",
+     "legacy_csv:electrical_existing:E-C-LIGHT;legacy_generator:LIGHT:L3",
+     "corridor ceiling pendant point", "109", "a82a;a89c", "1", "1", "",
+     "none",
+     "ONE observation of ONE point, citing both the CSV row and the drawing "
+     "literal. It replaces OBS-EC-LIGHT-109 and OBS-LIGHT-L3-109, which "
+     "described the same point from the same photographs and would have "
+     "double-counted apartment 109 as two independent sightings."),
+    ("OBS-CORRIDOR-LIGHT-2",
+     "legacy_csv:electrical_existing:E-C-LIGHT;legacy_generator:LIGHT:L3",
+     "corridor ceiling pendant point", "2", "9e9b", "1", "1", "", "none",
+     "⚠ APARTMENT 2, WHICH HAD BEEN DROPPED. Both sources cite 9e9b and "
+     "the earlier record said in its own note that this must be a separate "
+     "observation - and then none existed. This is the SECOND flat, and it is "
+     "the whole reason the corridor point is the strongest projection."),
     ("OBS-E-KL-SOC-K-53", "legacy_csv:electrical_existing:E-KL-SOC-K",
      "three socket outlets in a row on the kitchen corridor wall - two read as "
      "vertical doubles, one as a right-hand single", "53", "930d", "3", "3",
@@ -121,7 +156,11 @@ NEW_VALUES = [
 
 VAL_FIELDS = ["migration_key", "source_locators", "target_concept",
               "quantity", "value", "value_type", "knowledge_basis",
-              "value_state", "scope_kind", "scope_ref", "notes"]
+              "value_state", "scope_kind", "scope_ref", "observation_refs", "notes"]
+
+# Separates the builder's own note from whatever it replaced, so a second run
+# can strip its previous output instead of stacking on it.
+MARK = " || "
 
 DROP = {
     # ⚠️ Its own duplicate_of relation says it is carried by
@@ -144,7 +183,16 @@ def _rewrite(path):
         if patch:
             for field, value in patch.items():
                 if field == "notes":
-                    row[field] = value + " || " + row.get(field, "")
+                    # ⚠️ IDEMPOTENT. This PREPENDED the repair note every run,
+                    # so two executions gave different files and the committed
+                    # state matched neither. A builder that owns a record must
+                    # REPLACE it deterministically - otherwise editing the
+                    # explicit table cannot repair a row that already exists,
+                    # which defeats the point of having the table.
+                    prior = row.get(field, "")
+                    if MARK in prior:
+                        prior = prior.split(MARK, 1)[1]
+                    row[field] = value + MARK + prior
                 else:
                     row[field] = value
             changed += 1
@@ -172,11 +220,13 @@ def main() -> int:
     with io.open(obs_path, encoding="utf-8") as fh:
         rows = list(csv.DictReader(fh))
         fields = list(rows[0].keys())
-    have = set(r["migration_key"] for r in rows)
+    # ⚠️ REPLACE, do not skip. Skipping meant a correction to the explicit
+    # table could never reach a row that already existed.
+    owned = set(o[0] for o in NEW_OBSERVATIONS)
+    rows = [r for r in rows if r["migration_key"] not in owned]
+    rows = [r for r in rows if r["migration_key"] not in DROP_OBSERVATIONS]
     added = 0
     for (key, src, what, scope, via, cmin, cmax, mm, mkind, note) in NEW_OBSERVATIONS:
-        if key in have:
-            continue
         rows.append({"migration_key": key, "source_locators": src,
                      "target_concept": "observation", "observed_what": what,
                      "scope_kind": "apartment", "scope_ref": scope,
