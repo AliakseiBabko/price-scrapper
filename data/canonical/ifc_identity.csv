@@ -85,3 +85,4 @@ e9f7a5db-4a1e-439d-820e-d29e85ca5f25,IfcWallType:WALL_REINFORCED_CONCRETE_UNMEAS
 cb9d36b8-1010-48fd-b94d-874abf8ff49b,IfcWallType:WALL_AERATED_BLOCK_300_INS70,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
 4572c662-d359-45c1-9cd1-df2704a8b7c0,IfcWallType:WALL_AERATED_BLOCK_200_INS70,IfcWallType,retired,,retired 2026-09-17: no longer produced. The uuid stays so it is never reused. minted 2026-09-17 from the first stable-identity build
 17dbc948-0d3b-493e-9a55-16cebcba1892,IfcWallType:WALL_AERATED_BLOCK_200_INS150,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+1bb23b8c-7c40-4fb8-b9c2-9054dcf32b33,IfcWallType:WALL_AERATED_BLOCK_200_INS120,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
