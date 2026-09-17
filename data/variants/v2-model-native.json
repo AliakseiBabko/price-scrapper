@@ -1,0 +1,10 @@
+{
+  "schema_version": "0.2.0",
+  "variant_id": "v2-model-native",
+  "name": "Вариант 2 — спроектирован на скомпилированной модели",
+  "base_spec": null,
+  "generated_by": "tools/layout/build_variant_spec.py + authored partitions",
+  "status": "draft",
+  "concept": "The first layout authored against the compiled shell. It cites design_intents.csv and imports no Homestyler coordinate.",
+  "operations": []
+}
