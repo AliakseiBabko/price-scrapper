@@ -67,6 +67,44 @@ def _wall_insulation(path=BLOCKS):
     return out
 
 
+def _insulation_extent(path=BLOCKS):
+    """wall id -> (from_mm, to_mm) for insulation that STOPS PARTWAY.
+
+    ⚠️⚠️ THE DEFECT THIS CLOSES WAS A SPLIT BRAIN, not a missing feature.
+    `wall_blocks.csv` has carried `insulation_from_mm`/`insulation_to_mm` for
+    M2 since the owner supplied them - his лоджия wall is shared with the
+    neighbour's along most of its run and exposed only at the southern end -
+    and `tools/layout/place_insulation.py` has clipped the drawn band to that
+    interval all along. The IFC side read `insulation_mm` ALONE, so the drawing
+    showed 570 mm of insulation while the model asserted a uniform 200+150
+    build-up over the whole wall. Two representations of one wall, disagreeing,
+    each looking complete - which is the exact failure the compiler exists to
+    prevent.
+
+    ⚠️ A LAYER IS UNIFORM BY DEFINITION. `IfcMaterialLayerSet` is a stack of
+    thicknesses through a wall, so it CANNOT express a layer that stops
+    partway. Insulation with a recorded extent is therefore not a layer at all
+    here - it becomes an `IfcCovering` bounded to the interval. See
+    `apply_insulation_coverings`.
+    """
+    import csv
+    out = {}
+    with io.open(path, encoding="utf-8") as fh:
+        for row in csv.DictReader(fh):
+            lo = (row.get("insulation_from_mm") or "").strip()
+            hi = (row.get("insulation_to_mm") or "").strip()
+            if not lo or not hi:
+                continue
+            try:
+                out[row.get("wall_id")] = (float(lo), float(hi))
+            except ValueError:
+                raise ValueError(
+                    "wall %s has a non-numeric insulation extent %r..%r - a "
+                    "malformed extent must FAIL, never be read as full-length"
+                    % (row.get("wall_id"), lo, hi))
+    return out
+
+
 # ⚠️ STRUCTURE PROTRUDES INSULATION at a junction, which is the practitioner's
 # own worked example (structure 50, insulation 30, finish 10). These are the
 # layer-set defaults; a CONNECTION may override them, and does - compiled from
@@ -117,9 +155,16 @@ def type_key(product, materials):
         # ⚠️ `UNKNOWN` is stated, not guessed. M2 and M6b genuinely have no
         # recorded material and must not be given one to make a gate pass.
         insulation = _wall_insulation().get(product.Name) or 0
-        # ⚠️ INSULATION IS PART OF THE KEY. M2 and M6b are both 200 mm aerated
-        # block and differ only in insulation - 0 against 70 - so without it
-        # they would share a type and one build-up would silently win.
+        # ⚠️ INSULATION IS PART OF THE KEY, because two walls of the same
+        # material and thickness can differ only in it - M6b is insulated and
+        # M2's main run is not - and without it they would share a type and one
+        # build-up would silently win.
+        # ⚠️⚠️ BUT ONLY WHEN IT RUNS THE WHOLE WALL. A type describes a uniform
+        # cross-section, so insulation recorded with an EXTENT does not belong
+        # in the designation: putting it there made M2's type assert 200+150
+        # along its full length while the drawing showed 570 mm of it.
+        if _insulation_extent().get(product.Name):
+            insulation = 0
         stem = "WALL_%s_%s" % ((material or "UNKNOWNMATERIAL").upper(),
                                thickness if thickness is not None else "UNMEASURED")
         return stem + ("_INS%d" % insulation if insulation else "")
@@ -249,3 +294,81 @@ def apply_types(model):
             "single_material_no_layer_set": sorted(unlayered),
             "types_without_material": sorted(no_material),
             "type_names": sorted(made_types)}
+
+
+def apply_insulation_coverings(model):
+    """Insulation that STOPS PARTWAY becomes an `IfcCovering`, not a layer.
+
+    ⚠️⚠️ WHY A COVERING AND NOT A LAYER. `IfcMaterialLayerSet` is a stack of
+    uniform thicknesses through a wall; it has no extent along the wall, so it
+    can only ever say "all of it". M2's insulation covers 570 mm of a much
+    longer wall, and expressing that as a layer made the model claim insulation
+    it does not have. IFC4 has the right element for this - `IfcCovering` with
+    `PredefinedType = INSULATION`, attached by `IfcRelCoversBldgElements`.
+
+    ⚠️ NO GEOMETRY IS FABRICATED. The covering carries the recorded interval as
+    PROPERTIES, in the same host-local terms `wall_blocks.csv` states it and
+    `place_insulation.py` already consumes. Inventing a solid for it would mean
+    authoring a body from an interval whose own thickness is an assumption.
+
+    ⚠️ THE THICKNESS IS CARRIED WITH ITS VALUE STATE. Where insulation is
+    required is a topological fact; how thick it is is a measurement, and M2's
+    has none - the figure is the owner's stated assumption by symmetry with
+    M6b. The two travel together so a consumer cannot mistake one for the
+    other.
+    """
+    import ifcopenshell.api
+
+    extents = _insulation_extent()
+    thicknesses = _wall_insulation()
+    walls = dict((w.Name, w) for w in model.by_type("IfcWall")
+                 if not w.is_a("IfcWallType"))
+
+    made, missing = [], []
+    material = None
+    for wall_id, (lo, hi) in sorted(extents.items()):
+        wall = walls.get(wall_id)
+        if wall is None:
+            # ⚠️ RECORDED but not in the model - stated, never skipped quietly.
+            missing.append(wall_id)
+            continue
+        thickness = thicknesses.get(wall_id) or 0.0
+        if not thickness:
+            raise ValueError(
+                "wall %s has an insulation EXTENT but no thickness. An extent "
+                "without a thickness describes insulation of unknown depth; "
+                "record the thickness or remove the extent" % wall_id)
+        if material is None:
+            material = ifcopenshell.api.run("material.add_material", model,
+                                            name=INSULATION_MATERIAL)
+        covering = ifcopenshell.api.run(
+            "root.create_entity", model, ifc_class="IfcCovering",
+            name="INS_%s" % wall_id)
+        covering.PredefinedType = "INSULATION"
+        covering.Description = (
+            "external insulation over %.1f..%.1f mm of %s - compiled from "
+            "wall_blocks.csv, which is also what place_insulation.py clips the "
+            "drawn band to" % (lo, hi, wall_id))
+        ifcopenshell.api.run("material.assign_material", model,
+                             products=[covering], material=material)
+        model.create_entity("IfcRelCoversBldgElements",
+                            GlobalId="0" * 22,   # ⚠️ replaced by identity pass
+                            Name="COVERS_%s" % wall_id,
+                            RelatingBuildingElement=wall,
+                            RelatedCoverings=[covering])
+        pset = ifcopenshell.api.run("pset.add_pset", model, product=covering,
+                                    name="Pset_ApartmentInsulation")
+        ifcopenshell.api.run("pset.edit_pset", model, pset=pset, properties={
+            "HostWall": wall_id,
+            "ExtentFromMM": float(lo),
+            "ExtentToMM": float(hi),
+            "ThicknessMM": float(thickness),
+            # ⚠️ EXTENT AND THICKNESS HAVE DIFFERENT AUTHORITY, so they say so.
+            "ExtentBasis": "owner_stated",
+            "ThicknessValueState": "assumed_not_measured",
+        })
+        made.append({"wall": wall_id, "from_mm": lo, "to_mm": hi,
+                     "thickness_mm": thickness})
+
+    return {"coverings": len(made), "detail": made,
+            "recorded_but_not_in_model": sorted(missing)}

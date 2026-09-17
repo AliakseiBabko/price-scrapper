@@ -15,6 +15,7 @@ the seeds below check them explicitly.
 """
 from __future__ import annotations
 
+import csv
 import io
 import os
 import subprocess
@@ -178,6 +179,38 @@ def main() -> int:
             check("a RETIRED uuid cannot be reused", True, str(exc)[:34])
     finally:
         os.unlink(path)
+
+    # ⚠️⚠️ ...BUT A RETIRED KEY THAT COMES BACK IS REACTIVATED, WITH ITS OWN
+    # UUID. These two rules look contradictory and are not: the forbidden thing
+    # is handing a retired uuid to a DIFFERENT key, while a returning key is the
+    # same element again. `WALL_AERATED_BLOCK_200` retired when M2 was wrongly
+    # given a uniform insulated type and came back the moment that was fixed -
+    # and minting, which skipped every known key without looking at its state,
+    # left it retired and the next build refused to run at all. The seed drives
+    # the REAL minting tool over a registry with the key retired.
+    registry = os.path.join(tempfile.mkdtemp(), "registry.csv")
+    rows = list(lines)
+    back = rows[1].split(",")
+    returning_key = back[1]
+    original_uuid = back[0]
+    back[3] = "retired"
+    rows[1] = ",".join(back)
+    io.open(registry, "w", encoding="utf-8").write("\n".join(rows) + "\n")
+    proc = subprocess.run(
+        [sys.executable, os.path.join(REPO, "tools", "ifc", "mint_identities.py"),
+         "--model", build("reactivate"), "--registry", registry],
+        capture_output=True, cwd=REPO)
+    after = dict((r["key"], r) for r in csv.DictReader(io.open(registry, encoding="utf-8")))
+    row = after.get(returning_key, {})
+    check("a retired key that RETURNS is reactivated",
+          proc.returncode == 0 and row.get("state") == "active",
+          "state=%r rc=%d" % (row.get("state"), proc.returncode))
+    check("...and it keeps its ORIGINAL uuid",
+          row.get("canonical_uuid") == original_uuid,
+          "%s vs %s" % (row.get("canonical_uuid"), original_uuid))
+    keys = [r["key"] for r in csv.DictReader(io.open(registry, encoding="utf-8"))]
+    check("...without minting a second row for the same key",
+          keys.count(returning_key) == 1, "%d row(s)" % keys.count(returning_key))
 
     print("\n%d failure(s)" % failures)
     return 1 if failures else 0

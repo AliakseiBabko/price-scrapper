@@ -74,9 +74,28 @@ def main() -> int:
         load_registry(a.registry)          # refuses duplicates before we add
 
     minted = 0
+    reactivated = 0
     for entity in wanted:
         key = product_key(entity)
-        if key in existing:
+        row = existing.get(key)
+        if row is not None:
+            # ⚠️⚠️ A KEY THAT COMES BACK IS REACTIVATED, WITH ITS ORIGINAL UUID.
+            # This is NOT the reuse the never-reuse rule forbids. That rule
+            # stops a retired uuid being handed to a DIFFERENT element; here the
+            # key is the identity anchor, so the same key is the same thing
+            # returning. `WALL_AERATED_BLOCK_200` retired when M2 was wrongly
+            # given a uniform INS150 type and came straight back when that was
+            # corrected - and because minting skipped every known key, retired
+            # or not, the registry kept it retired and the build then refused
+            # to run at all. Minting a second uuid for it would have been worse:
+            # two rows, one key, and a duplicate-key error on the next load.
+            if row.get("state") == "retired":
+                row["state"] = "active"
+                row["notes"] = (
+                    "REACTIVATED 2026-09-17: produced again, and it KEEPS its "
+                    "original uuid - the key is the identity, so this is the "
+                    "same element returning, not a reuse. " + row.get("notes", ""))
+                reactivated += 1
             continue
         existing[key] = {
             "canonical_uuid": str(uuid.uuid4()), "key": key,
@@ -106,6 +125,7 @@ def main() -> int:
     print("registry %s" % os.path.relpath(a.registry, REPO))
     print("   %-22s %d" % ("rows total", len(existing)))
     print("   %-22s %d" % ("minted now", minted))
+    print("   %-22s %d" % ("reactivated now", reactivated))
     print("   %-22s %d" % ("retired now", retired))
     print("   %-22s %d" % ("derived, not minted",
                            len(model.by_type("IfcRoot")) - len(wanted)))

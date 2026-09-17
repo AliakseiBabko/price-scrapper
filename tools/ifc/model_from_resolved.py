@@ -788,8 +788,16 @@ def build(output: Path, manifest_path: Path) -> dict:
     # canonical identities too. It emits REAL IfcRelDefinesByType, not just an
     # ObjectType label, and associates only materials we actually know - no
     # invented layer build-up.
-    from typing_pass import apply_types  # noqa: E402
+    from typing_pass import apply_types, apply_insulation_coverings  # noqa: E402
     manifest["typing"] = apply_types(model)
+
+    # ⚠️⚠️ INSULATION THAT STOPS PARTWAY IS NOT A LAYER. A layer set is uniform
+    # through the wall and silent about extent, so M2's 570 mm of insulation
+    # became a claim of insulation along its whole length - while the DRAWING,
+    # which has clipped to the recorded interval all along, showed the truth.
+    # Split-brain between two representations of one wall. The extent now
+    # compiles into an IfcCovering instead.
+    manifest["insulation_coverings"] = apply_insulation_coverings(model)
 
     # ⚠️ WALL CONNECTIONS, compiled from wall_corners.csv - never a second
     # corner solver. ⚠️ AFTER typing, because the connection PRIORITIES index
