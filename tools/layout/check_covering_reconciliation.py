@@ -27,7 +27,15 @@ insulation is evidenced and stays authoritative. Treating the unresolved
 requirement as blocking was a category error; this table is what keeps the two
 apart.
 
-⚠️ THIS GATE DOES NOT FAIL ON A DISAGREEMENT. A `present` where the rule says
+⚠⚠ BUT "BLOCKS NOTHING" HAS A BOUNDARY. A `review_required` or a conflict
+may not block the REPRESENTATION of existing conditions - what was built is
+what was built - but it MUST block any issued quantity or proposed-work
+decision that depends on that band. `--issued` enforces that, and the only way
+past it is a RECORDED DISPOSITION in `covering_dispositions.csv`: a person,
+a date and a reason. Changing a rule until the conflict disappears is not a
+disposition, it is hiding one.
+
+⚠️ THIS GATE DOES NOT FAIL ON A DISAGREEMENT IN ORDINARY BUILDS. A `present` where the rule says
 `not_required` is a real thing to look at, not a broken file, and failing the
 build would only invite someone to widen a rule until it stopped complaining.
 It fails on what is genuinely malformed: a covering patch on a face nobody
@@ -48,6 +56,23 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib.tabular import finite  # noqa: E402
 
 import covering_patches  # noqa: E402
+
+DISPOSITIONS = os.path.join(REPO, "data", "canonical",
+                            "covering_dispositions.csv")
+
+
+def load_dispositions(path=DISPOSITIONS):
+    """patch_uuid -> the recorded decision about a non-consistent band."""
+    from lib.tabular import read_csv as _read
+    rows = _read(path, required=["patch_uuid", "verdict", "disposition",
+                                 "rationale", "decided_by", "decided_on"])
+    out = {}
+    for row in rows:
+        if row["patch_uuid"] in out:
+            raise ValueError("patch %s has two dispositions; which one is the "
+                             "decision?" % row["patch_uuid"])
+        out[row["patch_uuid"]] = row
+    return out
 from check_boundary_patches import (  # noqa: E402
     NOT_REQUIRED, REQUIRED, UNRESOLVED, eligibility, load_assertions,
     load_decisions, load_patches)
@@ -129,11 +154,47 @@ def reconcile(coverings=None, boundaries=None, assertions=None, decisions=None):
     return rows, problems
 
 
+def issued_problems(rows, dispositions):
+    """What blocks ISSUE. Lifted out of main() so a seed can drive it.
+
+    ⚠ A verdict other than `consistent` may be DRAWN as an existing
+    condition and may not carry an issued quantity or a proposed-work decision
+    without a recorded disposition naming a person, a date and a reason.
+    """
+    problems = []
+    for covering, requirement, verdict, why in rows:
+        if verdict == CONSISTENT:
+            continue
+        recorded = dispositions.get(covering["patch_uuid"])
+        if recorded is None:
+            problems.append(
+                "%s.%s is %s and has NO recorded disposition. It may be drawn "
+                "as an existing condition, but nothing issued may depend on it "
+                "until somebody decides - and changing a rule until the verdict "
+                "goes away is not a decision"
+                % (covering["host_id"], covering["face_ref"], verdict))
+            continue
+        if (recorded.get("verdict") or "").strip() != verdict:
+            problems.append(
+                "%s.%s is %s but its disposition was recorded against %r. The "
+                "situation has changed since somebody looked at it"
+                % (covering["host_id"], covering["face_ref"], verdict,
+                   recorded.get("verdict")))
+        for column in ("disposition", "rationale", "decided_by", "decided_on"):
+            if not (recorded.get(column) or "").strip():
+                problems.append(
+                    "%s.%s has a disposition with no %s - an unattributed "
+                    "decision is not one"
+                    % (covering["host_id"], covering["face_ref"], column))
+    return problems
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--issued", action="store_true",
-                    help="the ISSUED gate: no band may rest on an unresolved "
-                         "requirement without an observed presence behind it")
+                    help="the ISSUED gate: every band that is not `consistent` "
+                         "needs a RECORDED DISPOSITION before it can carry a "
+                         "quantity or a proposed-work decision")
     a = ap.parse_args()
 
     rows, problems = reconcile()
@@ -151,21 +212,13 @@ def main() -> int:
     print("\n%d band(s): %s" % (len(rows), ", ".join(
         "%s %d" % (k, counts[k]) for k in sorted(counts))))
 
-    # ⚠️⚠️ THE ISSUED RULE, and it is deliberately narrow. A REVIEW row is fine
-    # so long as the EXISTING state is observed - that is M2, where presence is
-    # evidenced and only the requirement is unknown. What may never be issued
-    # is a band that exists because a rule guessed, with nothing observed
-    # behind it.
+    # ⚠⚠ THE ISSUED RULE. Anything that is not `consistent` needs a recorded
+    # disposition - who decided, when, and why - before it may carry an issued
+    # quantity or a proposed-work decision. An UNRESOLVED requirement over an
+    # observed presence is fine for drawing the existing state and is NOT fine
+    # for pricing work off it.
     if a.issued:
-        unbacked = [r for r in rows
-                    if r[2] == REVIEW
-                    and (r[0].get("presence_state") or "") == "unknown"]
-        for covering, _req, _verdict, _why in unbacked:
-            print("FAIL %s.%s rests on an UNRESOLVED requirement with no "
-                  "observed presence - issuing it would turn a gap in our "
-                  "knowledge into a construction instruction"
-                  % (covering["host_id"], covering["face_ref"]))
-        problems.extend(unbacked)
+        problems.extend(issued_problems(rows, load_dispositions()))
 
     if problems:
         print("FAILED: %d problem(s)" % len(problems))

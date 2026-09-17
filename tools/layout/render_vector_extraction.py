@@ -92,7 +92,7 @@ def classify(s, walls, blocks, claimed, bands, claimed_solids=()):
             continue
         th = float(blocks[b['wall_id']]['thickness_mm'])
         if (s['axis'] == w['axis']
-                and abs(s['thickness_mm'] - (th + b['insulation_mm'])) < 3.0):
+                and abs(s['thickness_mm'] - (th + b['thickness_mm'])) < 3.0):
             lo, hi = ((w['y0'], w['y1']) if w['axis'] == 'EW'
                       else (w['x0'], w['x1']))
             if s['face_lo_mm'] - 3 <= lo and s['face_hi_mm'] + 3 >= hi:

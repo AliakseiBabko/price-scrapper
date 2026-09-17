@@ -486,11 +486,7 @@ def main():
     ext_mask, ex0, ey0, ecell = exterior_mask(walls)
     bands, unresolved = [], []
     import covering_patches
-    parity = covering_patches.check_parity()
-    if parity:
-        sys.exit('covering patches disagree with the legacy columns: '
-                 + '; '.join(parity))
-    covering = covering_patches.legacy_equivalent()
+    covering = covering_patches.resolved_bands()
 
     print('%-5s %-5s %-5s %s' % ('wall', 'ins', 'side', 'evidence from the drawing'))
     for w in sorted(walls, key=lambda v: v['id']):
@@ -503,13 +499,14 @@ def main():
         # own value states. The columns said one thing per wall and each
         # consumer read them its own way, which is how the IFC came to assert a
         # uniform 200+150 on M2 while this file drew 570 mm.
-        # ⚠ The legacy columns are still present and `check_parity()` asserts
-        # they agree - a cutover that moves the source and changes an answer at
-        # once makes it impossible to say which did it.
+        # ⚠ The four wall-wide columns this used to read are RETIRED as of
+        # 2026-09-17. The cutover was done as a parity build first - same
+        # output, byte-identical - so a later difference can only come from the
+        # data, never from the move.
         built = covering.get(w['id'])
         if built is None:
             continue
-        ins = built['insulation_mm']
+        ins = built['thickness_mm']
         th = float(rec['thickness_mm'])
         ev_lo = evidence_for(w, ins, th, solids, 'low')
         ev_hi = evidence_for(w, ins, th, solids, 'high')
@@ -531,7 +528,7 @@ def main():
                     'face. The REASONING differs per wall and lives in that '
                     'row notes column.' % (directed, w['id'])],                     'from_owner_directive'
             else:
-                unresolved.append({'wall_id': w['id'], 'insulation_mm': ins,
+                unresolved.append({'wall_id': w['id'], 'thickness_mm': ins,
                                    'evidence_low': ev_lo, 'evidence_high': ev_hi})
                 print('%-5s %-5.0f %-5s NOT SETTLED by the drawing, and no '
                       'insulation_side directive - low:%d high:%d'
@@ -600,7 +597,7 @@ def main():
                 bx = [s0, box[1], s1, box[3]]
             else:
                 bx = [box[0], s0, box[2], s1]
-            bands.append({'wall_id': w['id'], 'insulation_mm': ins,
+            bands.append({'wall_id': w['id'], 'thickness_mm': ins,
                           'side': side, 'axis': w['axis'],
                           'segment': i, 'of_segments': len(segs),
                           'x0': round(bx[0], 1), 'y0': round(bx[1], 1),
@@ -620,7 +617,7 @@ def main():
                 print('%-17s end cap at its %s end DROPPED - it would sit '
                       'inside the flat' % ('', end))
                 continue
-            bands.append({'wall_id': w['id'], 'insulation_mm': ins,
+            bands.append({'wall_id': w['id'], 'thickness_mm': ins,
                           'side': side, 'axis': w['axis'],
                           'segment': 'end_%s' % end, 'of_segments': None,
                           'x0': bx[0], 'y0': bx[1], 'x1': bx[2], 'y1': bx[3],
