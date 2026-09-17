@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+"""Is the v0 baseline DECISION-BEARING? Recompute the hashes and say so.
+
+⚠️⚠️ THE DEFECT THIS CLOSES IS THAT THE LAPSE WAS PROSE
+-------------------------------------------------------
+`v0_baseline_acceptance.json` said an acceptance "lapses" if any artefact
+changes, and nothing anywhere read the file. An artefact could be regenerated
+while the record still said `accepted`, and `compare_variants.py` would go on
+producing a sheet that looked decision-bearing. A rule nobody enforces is a
+comment.
+
+So the acceptance is now a COMPUTED state, not a stored one:
+
+    status accepted            AND
+    all five scopes accepted   AND
+    every artefact's CURRENT sha256 equals the accepted one
+
+…or the baseline is provisional and anything read off it must SAY SO. There is
+no third answer, and `decision_bearing()` is the only thing entitled to give
+it.
+
+⚠️ A FAILING CHECK IS NOT AN ERROR. Today the baseline is correctly pending -
+the owner has not reviewed it. This exits non-zero under `--require` only,
+which is for a consumer that must not proceed; the plain run reports.
+
+    .venv-ifc314\\Scripts\\python.exe tools/layout/check_baseline_acceptance.py
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import io
+import json
+import os
+
+REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+RECORD = os.path.join(REPO, "data", "canonical", "v0_baseline_acceptance.json")
+
+SCOPES = ("wall_and_opening_arrangement", "ventilation_shafts_v1_v2",
+          "loggia_outline_and_glazing", "m2_and_m6b_geometry",
+          "open_extent_exceptions")
+
+BANNER = ("PROVISIONAL - v0 baseline NOT accepted by the owner. "
+          "Not decision-bearing.")
+
+
+def sha256(path):
+    with io.open(path, "rb") as fh:
+        return hashlib.sha256(fh.read()).hexdigest()
+
+
+def load(path=RECORD):
+    with io.open(path, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def decision_bearing(record=None):
+    """(bool, reasons). The ONLY entitled answer to 'may this drive a choice'."""
+    record = load() if record is None else record
+    reasons = []
+
+    status = (record.get("status") or "").strip()
+    if status != "accepted":
+        reasons.append("status is %r, not `accepted`" % status)
+
+    scopes = record.get("scopes") or {}
+    missing = [s for s in SCOPES if s not in scopes]
+    if missing:
+        reasons.append("the record has no scope(s) %s - a scope that is absent "
+                       "has not been accepted, it has been forgotten"
+                       % ", ".join(missing))
+    for name in SCOPES:
+        state = ((scopes.get(name) or {}).get("state") or "").strip()
+        if state != "accepted":
+            reasons.append("scope %s is %r" % (name, state or "absent"))
+
+    # ⚠️⚠️ THE HASHES ARE RECOMPUTED, NOT TRUSTED. This is the whole point: an
+    # artefact regenerated after acceptance must invalidate it, and the only
+    # way to know is to read the bytes again.
+    artefacts = record.get("artefacts") or {}
+    if not artefacts:
+        reasons.append("the record pins NO artefacts, so acceptance would "
+                       "apply to nothing in particular")
+    for relative, accepted_hash in sorted(artefacts.items()):
+        path = os.path.join(REPO, relative)
+        if not os.path.exists(path):
+            reasons.append("%s is pinned but does not exist" % relative)
+            continue
+        current = sha256(path)
+        if current != accepted_hash:
+            reasons.append(
+                "%s has CHANGED since acceptance (%s -> %s) - the approval was "
+                "given against different bytes and does not transfer"
+                % (relative, str(accepted_hash)[:12], current[:12]))
+
+    # ⚠️ Acceptance never means as-built, and a record that claims otherwise is
+    # refused rather than quietly honoured.
+    if record.get("field_verified"):
+        reasons.append("the record claims field_verified - owner acceptance of "
+                       "a PLANNED reading cannot confer that")
+    if (record.get("provenance") or "") != "planned":
+        reasons.append("provenance is %r, expected `planned`"
+                       % record.get("provenance"))
+    return (not reasons), reasons
+
+
+def banner(record=None):
+    """The line a consumer must print when the baseline is not accepted."""
+    ok, _reasons = decision_bearing(record)
+    return None if ok else BANNER
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--require", action="store_true",
+                    help="exit non-zero unless the baseline is decision-bearing")
+    a = ap.parse_args()
+
+    ok, reasons = decision_bearing()
+    for reason in reasons:
+        print("  %s" % reason)
+    if ok:
+        print("DECISION-BEARING - the owner has accepted every scope and no "
+              "pinned artefact has changed since")
+        return 0
+    print("PROVISIONAL - the v0 baseline is not decision-bearing (%d reason(s))"
+          % len(reasons))
+    print("  -> anything read off it must carry: %s" % BANNER)
+    return 1 if a.require else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

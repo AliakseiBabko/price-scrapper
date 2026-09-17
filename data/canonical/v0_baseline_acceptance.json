@@ -12,7 +12,7 @@
     "data/cad/dxf/v0_developer_layout.dxf": "7dd218d60c305e17ed7d17fdfab655eb61182f10d7ee9e6f0e1e0cf6ed3e1dd7",
     "data/canonical/v0_named_walls_placed.json": "98a2d1bdb4eae7ac0174387af2dbe59167ce878ca6dee48b7efbb0a4f00821dc"
   },
-  "!!_THE_HASHES_ARE_THE_SCOPE": "!! Approval is recorded against these BYTES, not against 'the drawing'. If any artefact changes, the acceptance LAPSES and the review sheet must be re-run. This is what stops an approval quietly transferring onto geometry the owner never saw.",
+  "!!_THE_HASHES_ARE_THE_SCOPE": "!! Approval is recorded against these BYTES, not against 'the drawing'. If any artefact changes, the acceptance LAPSES. !! AND THAT IS ENFORCED, NOT PROMISED: tools/layout/check_baseline_acceptance.py recomputes all three hashes on every run, compare_variants.py prints a PROVISIONAL banner when they do not match, and --require-accepted refuses outright. This sentence was prose alone until 2026-09-17, when nothing in tools/ or scripts/ read this file at all.",
   "scopes": {
     "wall_and_opening_arrangement": {
       "state": "pending",
@@ -41,5 +41,9 @@
     }
   },
   "consequence_while_pending": "v0 may NOT be promoted into the sheet the layout decision is read off - tools/cad/PROVISIONAL_MODEL_POLICY.md. compare_variants.py still RUNS; its output is simply not decision-bearing yet.",
-  "what_acceptance_unblocks": "The single-basis v0/v1 comparison. !! AND THAT COMPARISON IS NOT A SELECTION OF v1. Its purpose is to identify which of v1's partitions actually earn their demolition and rebuild cost, measured on one consistent basis for the first time - a different question from which layout is nicer."
+  "what_acceptance_unblocks": "The single-basis v0/v1 comparison. !! AND THAT COMPARISON IS NOT A SELECTION OF v1. Its purpose is to identify which of v1's partitions actually earn their demolition and rebuild cost, measured on one consistent basis for the first time - a different question from which layout is nicer.",
+  "enforced_by": [
+    "tools/layout/check_baseline_acceptance.py",
+    "scripts/baseline_acceptance_selftest.py"
+  ]
 }

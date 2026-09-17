@@ -336,6 +336,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("variants", nargs="*", help="variant ids; default is every built variant")
     ap.add_argument("--out", default=str(OUTPUTS / "comparison"))
+    ap.add_argument("--require-accepted", action="store_true",
+                    help="refuse to emit unless the v0 baseline is accepted")
     a = ap.parse_args()
 
     ids = a.variants or sorted(p.name for p in OUTPUTS.iterdir()
@@ -346,6 +348,25 @@ def main() -> int:
         meta_path = REPO / "data" / "variants" / (vid + ".json")
         meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
         loaded.append((spec, meta))
+
+    # ⚠⚠ THE SHEET SAYS WHETHER IT MAY BE DECIDED FROM. The v0 baseline is
+    # only decision-bearing once the OWNER has accepted every scope and no
+    # pinned artefact has changed since - `check_baseline_acceptance.py`
+    # recomputes the hashes rather than trusting the stored state. Until then
+    # this sheet still builds, and it carries a banner saying it must not drive
+    # a choice. A caller that must not proceed passes --require-accepted.
+    sys.path.insert(0, str(REPO / "tools" / "layout"))
+    from check_baseline_acceptance import banner, decision_bearing
+    accepted, why = decision_bearing()
+    provisional = banner()
+    if provisional:
+        print(provisional)
+        for reason in why:
+            print("   %s" % reason)
+        if a.require_accepted:
+            print("REFUSING to emit a decision-bearing sheet from a baseline "
+                  "the owner has not accepted")
+            return 1
 
     rules = load_rules()
     out = Path(a.out)

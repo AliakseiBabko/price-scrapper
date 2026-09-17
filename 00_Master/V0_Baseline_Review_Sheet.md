@@ -20,24 +20,32 @@ Approval is recorded against these bytes, not against "the drawing". If any of t
 | `data/cad/dxf/v0_developer_layout.dxf` | `7dd218d60c305e17` |
 | `data/canonical/v0_named_walls_placed.json` | `98a2d1bdb4eae7ac` |
 
-**Commit:** `82b8c86`. The acceptance record is `data/canonical/v0_baseline_acceptance.json`, and it is `pending_owner_review` until the owner says otherwise.
+**Commit:** `82b8c86`. The acceptance record is `data/canonical/v0_baseline_acceptance.json`, `pending_owner_review` until the owner says otherwise.
+
+> [!IMPORTANT]
+> **The lapse is ENFORCED, not promised.** `tools/layout/check_baseline_acceptance.py` **recomputes all three hashes on every run** and reports the baseline decision-bearing only when the status is accepted, all five scopes are accepted, and no pinned artefact has changed. `compare_variants.py` calls it and prints a **PROVISIONAL** banner on the sheet otherwise; `--require-accepted` makes it refuse outright. An earlier draft stated the lapse in prose while nothing read the file at all.
 
 ---
 
 ## 1. Wall and opening arrangement
 
-**25 walls**, 10 openings placed, 4 window frames. The walls are `R1a`–`R9` (reinforced-concrete frame), `G1`–`G8` (aerated-block internal), `MA`/`MB`/`MC` (façade) and `M2`/`M6b` (loggia enclosure).
+**25 walls** and **11 openings**. `window_frames.csv` holds **four frame MEMBERS** — three mullions and one transom, across `O2`, `O3` and `O4` — not four window assemblies. There are **three** windows (`O2`, `O3`, `O4a`), one loggia door (`O4b`), five internal doors, one passway and the loggia glazing. The walls are `R1a`–`R9` (reinforced-concrete frame), `G1`–`G8` (aerated-block internal), `MA`/`MB`/`MC` (façade) and `M2`/`M6b` (loggia enclosure).
 
 Openings as recorded, with the widths the plan prints:
 
-| | width mm | | | width mm |
-| :--- | ---: | :--- | :--- | ---: |
-| `O1` | 710 | | `O6` | 910 |
-| `O2` | 1760 | | `O7` | 710 |
-| `O3` | 1763 | | `O8` | 1010 |
-| `O4a` | 600 ⚠ | | `O9` loggia glazing | 2939 |
-| `O4b` | 770 ⚠ | | `O10` | 1455 |
-| `O5` | 910 | | | |
+| | type | host wall | width mm |
+| :--- | :--- | :--- | ---: |
+| `O1` | door | `G4C` | 710 |
+| `O2` | window | `MB` | 1760 |
+| `O3` | window | `MC` | 1763 |
+| `O4a` | window | `MA` | 600 ⚠ |
+| `O4b` | door | `MA` | 770 ⚠ |
+| `O5` | door | `G6` | 910 |
+| `O6` | door | `G4d` | 910 |
+| `O7` | door | `G4C` | 710 |
+| `O8` | door | `G2` | 1010 |
+| `O9` | glazing | `M2` → `M6b` | 2939 |
+| `O10` | passway | `V2` → `R5` | 1455 |
 
 ⚠ `O4a`/`O4b` and `O2`'s sill carry a `?` in the record — they are read, not printed.
 
@@ -45,18 +53,26 @@ Openings as recorded, with the widths the plan prints:
 
 ## 2. Ventilation shafts V1 and V2
 
-| | position mm | size |
-| :--- | :--- | :--- |
-| `V1` | x 3380.9–4080.9, y 15590.3–15990.3 | **700 × 400** |
-| `V2` | x 8980.8–9380.9, y 15090.3–15990.2 | **400 × 900** |
+> [!CAUTION]
+> **⚠⚠ THREE DIFFERENT NUMBERS EXIST PER SHAFT AND THEY ARE NOT INTERCHANGEABLE.** An earlier draft of this sheet flattened them into one and would have asked for approval of a figure that is not this floor's. They are separated here because the difference is a whole floor band.
 
-`V2` is the one measured on 2026-09-04 at the прихожая. ⚠️ **Its offset from the wall was flagged as needing field confirmation** — the 400 × 1140 figures are printed, the offset is not.
+| | shaft proper, **this 4th floor** | modelled obstruction | superseded figure |
+| :--- | :--- | :--- | :--- |
+| `V2` | **421 × 685 mm**, 0.288 m², 3 channels | 400 × 900 mm at x 8980.8–9380.9, y 15090.3–15990.2 | ~~400 × 1140~~ |
+| `V1` | **⚠ NOT ESTABLISHED** | 700 × 400 mm at x 3380.9–4080.9, y 15590.3–15990.3 | ~~1140 × 490~~ |
 
-**What to check:** are both blocks where you remember them, and is there a third anywhere that we have not drawn? A shaft is immovable, so a missing one invalidates any layout that runs through it.
+- **The superseded figures are the floors-10-and-up sub-type**, printed on the detailed plan, with **doubled vent sections**. They are not this flat's. V2 was corrected on 2026-09-04 by removing the 455 mm section this floor does not have.
+- **The modelled obstruction is larger than the shaft proper** because it includes the enclosed niche around it. That is deliberate — it is what a layout must keep clear of — but it is not the shaft's own size.
+- **⚠⚠ `V1` IS FLAGGED, NOT CORRECTED.** The vault records: *"my basic-plan reading gives ~675 × 362, but that implies a 0.315 m² difference where 0.18 is expected. The reading does not reconcile, so V1 NEEDS A CAREFUL RE-MEASUREMENT."* The owner's own statement — V1 has **one** section on this floor, so its length is *"similar to V2"* — gives 685 arithmetically, but that has not been reconciled with the plan reading.
+
+**What to check:** first, whether both blocks are where you remember them and whether there is a **third anywhere we have not drawn** — a shaft is immovable, so a missing one invalidates any layout running through it. Second, and separately: **`V1`'s size is an open question, and accepting this scope does not settle it.** If you accept, it is the *positions* and V2's 421 × 685 you are accepting.
 
 ## 3. Loggia outline and glazing
 
-**7 loggia bays**, with `O9` the glazing at **2939 mm**, and the enclosure closing on a **diagonal** south-west face — not a rectangle. The лоджия is **outside the warm perimeter**; `M1` carries the thermal boundary, not the glazing.
+**7 loggia bays**, with `O9` the glazing at **2939 mm**, and the enclosure closing on a **diagonal** south-west face — not a rectangle. The лоджия is **outside the warm perimeter**, so the thermal boundary is the wall between the flat and the лоджия — **not** the лоджия's own glazing `O9`.
+
+> [!NOTE]
+> **⚠ The element carrying that boundary is `O4a` + `O4b` hosted in `MA`** — the window and the full-height glass door, in the façade wall. An earlier draft named `M1` here. **`M1` is NOT one of the 25 model walls**: it belongs to the owner's own marking vocabulary in `wall_materials.json`, and `WALL_IDS_ARE_NOT_ALIGNED_WITH_THE_MODEL_2026_09_17` records that *"MA/MB/MC have no obvious counterpart in M1..M7 at all"* and that **no alias map is being written**, because a wrong pairing would authorise chasing a cable into the RC frame. So the reviewable element is `MA` with `O4a`/`O4b` in it, and `M1` is not being asked about.
 
 **What to check:** the diagonal. It is the single most unusual thing in the outline and everything about the loggia's usable depth depends on it being right.
 
