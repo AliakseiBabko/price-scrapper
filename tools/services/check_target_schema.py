@@ -38,10 +38,22 @@ import argparse
 import csv
 import glob
 import io
+import json
 import os
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DRAFTS = os.path.join(REPO, "_Inbox", "migration", "draft")
+
+MATERIALS = os.path.join(REPO, "data", "canonical", "wall_materials.json")
+
+# Not walls, but legitimate subjects: the shafts the model carries, the rooms
+# a CSV row is scoped to, the slab set a ceiling point sits in, and the flat
+# itself for a claim about the whole installation.
+PSEUDO_ELEMENTS = {
+    "flat", "slabs", "V1", "V2", "P1", "P2", "T1",
+    "corridor", "kitchen_living", "middle_room", "small_bedroom", "toilet",
+    "bathroom", "loggia", "horizontal_main", "SH-B",
+}
 
 CONCEPTS = {"occurrence", "assembly", "observation", "assertion", "value",
             "approval", "connectivity", "route", "relation"}
@@ -62,8 +74,17 @@ REQUIRED = {
     "observation": ("observed_what", "scope_kind", "scope_ref", "observed_via"),
     "assertion": ("property", "value_type", "polarity", "knowledge_basis",
                   "value_state", "scope_kind", "scope_ref"),
-    "relation": ("relation_kind", "from_ref", "to_ref"),
+    "relation": ("relation_kind", "legacy_id"),
+    # ⚠️ `route` had NO contract at all, so a blank route row would have
+    # passed, and routes carried no phase, basis or state.
+    "route": ("route_kind", "route_state", "from_ref", "to_ref",
+              "knowledge_basis", "value_state", "scope_kind", "scope_ref",
+              "scope_phase"),
 }
+
+RELATION_KINDS = {"alias_of", "duplicate_of", "member_of", "connects_to",
+                  "supersedes", "contradicts"}
+ROUTE_STATES = {"topology_only", "routed", "as_built"}
 
 WALL_COLS = ("host_ref", "face_ref", "along_face_mm", "vertical_mm")
 SURFACE_COLS = ("support_ref", "surface_role", "u_mm", "v_mm",
@@ -149,7 +170,28 @@ def _typed(value, value_type):
     return True   # string / enum carry no parse obligation
 
 
-def check(rows):
+def model_elements(path=MATERIALS):
+    """Element ids an assertion may be ABOUT: walls, anchors, rooms, pseudo."""
+    out = set(PSEUDO_ELEMENTS)
+    try:
+        with io.open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except (OSError, ValueError):
+        return set()
+    for wall in data.get("walls", []):
+        out.add(wall.get("id"))
+    out.update(data.get("plumbing_anchors", {}).keys())
+    anchors = os.path.join(os.path.dirname(path), "plumbing_anchors.csv")
+    if os.path.exists(anchors):
+        with io.open(anchors, encoding="utf-8") as fh:
+            for row in csv.DictReader(fh):
+                out.add(row.get("anchor_id"))
+    return out
+
+
+def check(rows, elements=None):
+    if elements is None:
+        elements = model_elements()
     problems = []
     keys = {}
     for row in rows:
@@ -181,8 +223,15 @@ def check(rows):
                 "%s is a %r in %s, which carries %r - the typed columns around "
                 "it do not apply to it" % (key, concept, table, expected))
 
-        if not (row.get("source_locators") or "").strip():
-            problems.append("%s cites no source_locators" % key)
+        # ⚠️ A NEW OWNER DECISION IS NOT A LEGACY SOURCE. The coverage gate
+        # already accepts `new_decision_by` as an alternative to a locator, and
+        # this must match it - otherwise a genuinely new decision gets a
+        # borrowed locator stapled on purely to pass, which is exactly the
+        # false provenance the review found on the rewire and cast-in rows.
+        if not (row.get("source_locators") or "").strip() and not (
+                row.get("new_decision_by") or "").strip():
+            problems.append("%s cites no source_locators and is not marked as "
+                            "a new decision with a stated author" % key)
 
         for column in REQUIRED.get(concept, ()):
             if not (row.get(column) or "").strip():
@@ -264,11 +313,75 @@ def check(rows):
                 problems.append(
                     "%s declares value_type %r but its value %r does not parse "
                     "as one" % (key, vtype, (row.get("value") or "")[:40]))
+            # ⚠️ EVERY PROPERTY ASSERTION NAMES ITS SUBJECT. 90 of 108 named
+            # nothing, and an assertion about nothing cannot be checked,
+            # contradicted or generated from. Exactly one of the two: a target
+            # record, or a model element.
+            subject = (row.get("subject_key") or "").strip()
+            element = (row.get("subject_element") or "").strip()
+            if subject and element:
+                problems.append(
+                    "%s names BOTH subject_key %r and subject_element %r - a "
+                    "claim is about one thing" % (key, subject, element))
+            elif not subject and not element:
+                problems.append(
+                    "%s names no subject. Every property assertion must say "
+                    "what it is about - a target record (subject_key) or a "
+                    "model element (subject_element)" % key)
+            if element and elements and element not in elements:
+                problems.append(
+                    "%s is about element %r, which is neither a wall, a "
+                    "plumbing anchor, a room nor a declared pseudo-element"
+                    % (key, element))
             for column in ("subject_key", "disputed_with"):
                 ref = (row.get(column) or "").strip()
                 if ref and ref not in known:
                     problems.append("%s.%s points at %r, which no record "
                                     "declares" % (key, column, ref))
+            # ⚠️ `observation_refs` carries the observations backing an
+            # assertion. It is SEPARATE from source_locators, which must hold
+            # LEDGER locators - the earlier laundering check looked for
+            # observation keys inside source_locators, where they can never
+            # legitimately appear.
+            for ref in (row.get("observation_refs") or "").split(";"):
+                ref = ref.strip()
+                if ref and ref not in known:
+                    problems.append("%s.observation_refs names %r, which no "
+                                    "record declares" % (key, ref))
+
+        if concept == "relation":
+            kind = (row.get("relation_kind") or "").strip()
+            if kind and kind not in RELATION_KINDS:
+                problems.append("%s has relation_kind %r, which is not declared"
+                                % (key, kind))
+            target = (row.get("target_key") or "").strip()
+            pending = (row.get("target_pending") or "").strip().lower()
+            if target and target not in known:
+                problems.append(
+                    "%s points at target_key %r, which no record declares - an "
+                    "alias that does not resolve preserves no identity"
+                    % (key, target))
+            if not target and pending != "yes":
+                problems.append(
+                    "%s has no target_key and is not marked target_pending - "
+                    "an alias must either resolve or say why it cannot" % key)
+
+        if concept == "route":
+            state = (row.get("route_state") or "").strip()
+            if state and state not in ROUTE_STATES:
+                problems.append("%s has route_state %r, which is not declared"
+                                % (key, state))
+            basis = (row.get("knowledge_basis") or "").strip()
+            if basis and basis not in BASES:
+                problems.append("%s has knowledge_basis %r" % (key, basis))
+            vstate = (row.get("value_state") or "").strip()
+            if vstate and vstate not in VALUE_STATES:
+                problems.append("%s has value_state %r" % (key, vstate))
+            if state == "as_built" and basis != "observed":
+                problems.append(
+                    "%s claims route_state=as_built with knowledge_basis %r - "
+                    "as_built is RECORDED FROM SITE and never derived"
+                    % (key, basis))
 
         if concept in ("observation", "assertion"):
             kind = (row.get("scope_kind") or "").strip()
@@ -285,18 +398,23 @@ def check(rows):
     # ⚠️ THE COMPARABLE-FLAT RULE, ENFORCED STRUCTURALLY (design §3.0f).
     # -----------------------------------------------------------------
     # An observation in another flat and a projection onto ours must stay
-    # SEPARATE RECORDS. The way that gets violated is not by writing a false
-    # row - it is by an `ours` assertion quietly claiming `observed` basis
-    # while every observation behind it is of somebody else's flat. Then the
-    # projection has laundered itself into a field-verified fact and the note
-    # saying otherwise is the only thing left.
+    # SEPARATE RECORDS. The violation is not writing a false row - it is an
+    # `ours` assertion quietly claiming `observed` basis while every
+    # observation behind it is of somebody else's flat.
+    #
+    # ⚠️ IT NOW READS `observation_refs`, NOT `source_locators`. The first
+    # version searched for observation MIGRATION KEYS inside source_locators,
+    # where they can never legitimately appear - that column holds LEDGER
+    # locators. So it had NO VALID POSITIVE PATH: it rejected `ours + observed`
+    # correctly today only because no observation of ours exists, and after a
+    # real survey it still could not have expressed legitimate support.
     observed_scopes = {}
     for row in rows:
         if (row.get("target_concept") or "").strip() != "observation":
             continue
-        key = (row.get("migration_key") or "").strip()
-        observed_scopes[key] = ((row.get("scope_kind") or "").strip(),
-                                (row.get("scope_ref") or "").strip())
+        observed_scopes[(row.get("migration_key") or "").strip()] = (
+            (row.get("scope_kind") or "").strip(),
+            (row.get("scope_ref") or "").strip())
     for row in rows:
         if (row.get("target_concept") or "").strip() != "assertion":
             continue
@@ -305,17 +423,17 @@ def check(rows):
                 or (row.get("scope_ref") or "").strip() != "ours"
                 or (row.get("knowledge_basis") or "").strip() != "observed"):
             continue
-        backing = [k for k in observed_scopes
-                   if k in (row.get("source_locators") or "")]
-        ours = [k for k in backing if observed_scopes[k] == ("apartment", "ours")]
-        if not ours:
+        refs = [r.strip() for r in
+                (row.get("observation_refs") or "").split(";") if r.strip()]
+        if not [r for r in refs
+                if observed_scopes.get(r) == ("apartment", "ours")]:
             problems.append(
                 "%s is scoped to OUR apartment with knowledge_basis=observed, "
-                "but no observation record scoped to ours backs it - evidence "
-                "from a comparable flat is an observation of THAT flat and a "
-                "CANDIDATE, DERIVED projection onto this one (design §3.0f). "
-                "Use knowledge_basis=derived with value_state=candidate, as a "
-                "separate record." % key)
+                "but `observation_refs` names no observation scoped to ours - "
+                "evidence from a comparable flat is an observation of THAT "
+                "flat and a CANDIDATE, DERIVED projection onto this one "
+                "(design 3.0f). Use knowledge_basis=derived with "
+                "value_state=candidate, as a separate record." % key)
 
     return problems
 

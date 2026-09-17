@@ -1,5 +1,11 @@
 # Services data model — identity, concepts and status vocabulary
 
+> [!IMPORTANT]
+> **STATUS, 2026-09-17.** Source inventory and bidirectional citation coverage are **complete** (114 locators, 0 unresolved, 102/102 cited). **Target semantic review, identity relations, readiness and canonical cutover are not.** The schema is still **NOT approved for generation**, and no UUID has been minted.
+>
+> **The implemented vocabulary is `_Inbox/migration/draft/README.md`, which `tools/services/check_target_schema.py` enforces.** Where this document and that file disagree about a field or a vocabulary, **the README is the implemented one** — this page records the reasoning, and reasoning drifts from code faster than code drifts from itself.
+
+
 **2026-09-16. DESIGN. NOT approved for generation.** It moves to `00_Master/` beside `Finishes_and_Furniture_Data_Model.md` once accepted; until then nothing generates from it.
 
 > [!IMPORTANT]

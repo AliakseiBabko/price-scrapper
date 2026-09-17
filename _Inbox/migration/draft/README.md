@@ -136,7 +136,19 @@ history. `out_of_scope` is the only ordinary case needing none.
 
 ## Status
 
-**This is a deliberate VERTICAL SLICE, not the full migration.** It exists so the
-validators are built against real records instead of against an empty folder.
-102 in-scope locators need targets; this slice covers a representative handful,
-chosen to include every shape that behaves differently.
+> [!IMPORTANT]
+> **Source inventory and bidirectional citation coverage are COMPLETE. Target semantic review, identity relations, readiness and canonical cutover are NOT.**
+>
+> That wording is deliberate, and it replaces an earlier disagreement in which this file said "VERTICAL SLICE, not the full migration" while a review brief said the migration was complete. **Both were describing different things and neither said which.**
+
+| | State |
+| :--- | :--- |
+| Source inventory (114 locators, 0 unresolved) | **complete** |
+| Bidirectional citation coverage (102/102) | **complete** |
+| Target semantic review | **not done** — the records below are drafts |
+| Identity relations | partial — aliases resolve or declare `target_pending` |
+| Readiness (`existence` / `placement` / `classification`) | **specified, not implemented** |
+| UUID minting | **not started, and not approved** |
+| Canonical cutover, retiring the frozen generator | **not started** |
+
+⚠️ **Nothing here is approved for generation.** Two authorities currently coexist: these drafts and the legacy CSVs under `data/canonical/`. That is the condition the one-way cutover exists to end, and it has not begun.
