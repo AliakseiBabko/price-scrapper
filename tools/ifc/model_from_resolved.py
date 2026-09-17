@@ -410,6 +410,11 @@ def build(output: Path, manifest_path: Path) -> dict:
                 (rec_o["opening_id"], rec_o["polygon"]))
 
     wall_objects = {}
+    # ⚠️ The physical structural assemblies, and which legs they replace.
+    from assemblies import load_assemblies  # noqa: E402
+    assemblies = load_assemblies()
+    assembly_members = set(m for a in assemblies for m in a["members"])
+
     for w in walls_raw:
         meta = wall_meta.get(w["id"], {})
         x0, x1, y0, y1 = w["x0"], w["x1"], w["y0"], w["y1"]
@@ -435,6 +440,16 @@ def build(output: Path, manifest_path: Path) -> dict:
         # extended rather than silently choosing one - the earlier
         # "extended rectangle if extension else mitred polygon" was right only
         # because no wall has both today.
+        # ⚠️⚠️ A CALCULATION LEG IS NOT A PHYSICAL ELEMENT. `R1a` and `R1b`
+        # are the two legs of ONE monolithic L-shaped casting, and
+        # structural_assemblies.csv says that row "is the physical element for
+        # geometry, demolition, reinforcement and IFC". Emitting the legs as
+        # two IfcWalls asserted a joint inside a single pour - the very thing
+        # the connection gate refuses to draw. The assembly is emitted below
+        # instead; the legs stay everywhere else, as legs.
+        if w["id"] in assembly_members:
+            continue
+
         body_poly = w.get("body") or w.get("polygon")
         obj = polygon_solid(model, body, storey, owner, "IfcWall", w["id"],
                             to_m(body_poly), 0.0, h_m)
@@ -747,6 +762,27 @@ def build(output: Path, manifest_path: Path) -> dict:
         })
 
     manifest["assumptions"].extend(assumed)
+
+    # ⚠️⚠️ THE PHYSICAL ELEMENT, emitted from the canonical assembly footprint
+    # with its per-coordinate provenance - not rebuilt from the legs.
+    for assembly in assemblies:
+        obj = polygon_solid(model, body, storey, owner, "IfcWall",
+                            assembly["id"], to_m(assembly["footprint"]),
+                            0.0, h_m)
+        add_pset(model, obj, "Pset_ApartmentPhase", {
+            "Phase": "existing", "WallClass": "concrete",
+            "ThicknessMM": assembly.get("thickness_mm"),
+            "Source": "structural_assemblies.csv + structural_assembly_vertices.csv",
+        })
+        add_pset(model, obj, "Pset_ApartmentAssembly", {
+            "AssemblyId": assembly["id"],
+            "CalculationLegs": "|".join(assembly["members"]),
+            "Kind": assembly["kind"],
+            "Note": ("ONE element. The legs are calculation references for "
+                     "clear-length, face and quantity work, not physical parts."),
+        })
+        manifest.setdefault("assemblies", []).append(
+            {"id": assembly["id"], "replaces": assembly["members"]})
 
     # ⚠️ WALL CONNECTIONS, compiled from wall_corners.csv - never a second
     # corner solver. Before identity, so the new relationships get derived ids.

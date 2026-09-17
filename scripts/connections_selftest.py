@@ -90,11 +90,15 @@ def main() -> int:
            "may not invent a junction")
 
     # ⚠️ a joint asserted inside the monolithic casting
+    # ⚠️ R1a/R1b are no longer IFC walls at all - the casting A_NW_CORNER
+    # replaced them on 2026-09-17. What must still be refused is a connection
+    # NAMED for that corner, whatever it joins: the ledger records it as
+    # `continuous_casting`, so no joint may be asserted there.
     model = ifcopenshell.open(base)
-    named = dict((w.Name, w) for w in walls)
+    walls2 = [w for w in model.by_type("IfcWall") if not w.is_a("IfcWallType")]
     model.create_entity("IfcRelConnectsPathElements", GlobalId="2" * 22,
                         Name="C_R1a_R1b",
-                        RelatingElement=named["R1a"], RelatedElement=named["R1b"],
+                        RelatingElement=walls2[0], RelatedElement=walls2[1],
                         RelatingConnectionType="ATEND",
                         RelatedConnectionType="ATPATH")
     expect("a joint inside the monolithic casting is caught", check(model),

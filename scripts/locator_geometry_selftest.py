@@ -290,9 +290,9 @@ def main() -> int:
            "clear of every void")
 
     # ⚠️ ...and an UNKNOWN material is not assumed chase-able.
-    # ⚠️ M2 is `loggia_enclosure` with NO material recorded - deliberately, the
-    # thickness record is inconsistent and nothing reviewed states it.
-    rows = [socket(along_face_mm="200", host_ref="M2", face_ref="cross_lo"),
+    # ⚠️ M6b, not M2. M2's material was found recorded in owner rule 4 on
+    # 2026-09-17; M6b's SUBSTRATE genuinely is not stated anywhere.
+    rows = [socket(along_face_mm="200", host_ref="M6b", face_ref="cross_lo"),
             avoid("SEED")]
     expect("a host with no material is INCOMPLETE, not chase-able", rows,
            "SEED", "incomplete", "NOT assumed chase-able")
@@ -301,7 +301,7 @@ def main() -> int:
     # earlier version only REFUSED concrete, so a PROPOSED accessory on M2
     # passed substrate checking and reached `partial`. "Not concrete" is not
     # the owner's rule; "exclusively aerated block" is.
-    rows = [socket(along_face_mm="200", host_ref="M2", face_ref="cross_lo",
+    rows = [socket(along_face_mm="200", host_ref="M6b", face_ref="cross_lo",
                    phase="new"), avoid("SEED")]
     expect("NEW work on a non-block material is refused", rows, "SEED",
            "invalid", "every new drop must be chased into aerated_block")

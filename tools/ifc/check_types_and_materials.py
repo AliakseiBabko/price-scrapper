@@ -32,10 +32,15 @@ REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 TYPED = {"IfcWall": "IfcWallType", "IfcDoor": "IfcDoorType",
          "IfcWindow": "IfcWindowType"}
 
-# Walls whose material is genuinely unrecorded. ⚠️ Listed so their absence is a
-# KNOWN GAP rather than an unnoticed one - `wall_materials.json` leaves M2 and
-# M6b unset deliberately, because its own thickness record contradicts itself.
-MATERIAL_UNKNOWN = {"M2", "M6b"}
+# Walls whose material is genuinely unrecorded.
+# ⚠️ M2 WAS REMOVED FROM THIS LIST on 2026-09-17. I had treated M2 and M6b as
+# one unknown because they share the class `loggia_enclosure` - but
+# `wall_materials.json` states plainly, in owner rule 4, that «M2 is 200 mm
+# aerated block with NO insulation». The unusual part is the missing
+# insulation, not the material. M6b is the real unknown: its thickness is
+# provisional and no reviewed source states its SUBSTRATE, which is why the
+# 300+70 rule lists M1, M3, M4, M5, M6a and M7 and deliberately not M6b.
+MATERIAL_UNKNOWN = {"M6b"}
 
 
 def check(model):

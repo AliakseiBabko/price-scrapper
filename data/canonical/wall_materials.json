@@ -210,7 +210,8 @@
       "note": "!! COLD-TO-COLD: both loggias are unheated, so this wall has NO insulation duty. It is an acoustic and privacy element only.",
       "insulation_mm": 0,
       "insulation_source": "OWNER - explicitly none; faces another unheated лоджия",
-      "material_basis": "!! MATERIAL DELIBERATELY UNSET. `loggia_enclosure` is an exposure. The thickness record is inconsistent (200 mm here, «300+70» in the insulation findings) and nothing reviewed states the material, so the substrate check must report INCOMPLETE rather than assume it is chase-able."
+      "material_basis": "⚠ CORRECTED 2026-09-17. I had recorded this as «material deliberately unset», which was STALE: this file's own owner rule 4 states plainly «M2 is 200 mm aerated block with NO insulation - the divider to the adjacent лоджия». The uninsulated part is what is unusual, not the material. M2 and M6b were treated as one unknown because they share class `loggia_enclosure`; they are not one unknown.",
+      "material": "aerated_block"
     },
     {
       "id": "M3",
@@ -262,7 +263,7 @@
       "note": "Outside the warm perimeter - no insulation duty.",
       "insulation_mm": 70,
       "insulation_source": "OWNER marked BLUE 2026-09-04",
-      "material_basis": "!! MATERIAL DELIBERATELY UNSET. `loggia_enclosure` is an exposure. The thickness record is inconsistent (200 mm here, «300+70» in the insulation findings) and nothing reviewed states the material, so the substrate check must report INCOMPLETE rather than assume it is chase-able."
+      "material_basis": "⚠ GENUINELY UNRESOLVED, unlike M2. The thickness is provisional (~200) and it carries 70 mm façade insulation because it sits on the RENDERED FAÇADE PLANE - this file: «the insulation follows the rendered façade plane, not the thermal envelope» - but no reviewed source states its SUBSTRATE material. The 300+70 general rule lists M1, M3, M4, M5, M6a and M7, and deliberately not M6b. Material stays unset."
     },
     {
       "id": "M7",
@@ -344,6 +345,15 @@
       "where": "a CALCULATION LEG of the L-shaped corner casting",
       "confirmed_by": "structural_assemblies.csv A_NW_CORNER",
       "material_basis": "Classified under its OWN id 2026-09-17, not aliased. The substrate check needs a material per MODEL wall, and six model walls had none. ⚠ R1a and R1b are NOT aliases of R1 and must not be collapsed into it. structural_assemblies.csv A_NW_CORNER is the PHYSICAL element - one L-shaped casting, owner-confirmed, «one concrete slab without any joints» - and R1a/R1b are its calculation legs. The material is INHERITED from that assembly, which is why it is certain: the legs cannot be a different material from the single pour they are legs of."
+    },
+    {
+      "id": "A_NW_CORNER",
+      "class": "concrete",
+      "material": "reinforced_concrete",
+      "element": "monolithic RC frame, one L-shaped casting",
+      "where": "the NW corner; R1a and R1b are its calculation legs",
+      "confirmed_by": "structural_assemblies.csv A_NW_CORNER, owner-confirmed",
+      "material_basis": "Added 2026-09-17 because the IFC now carries the ASSEMBLY as the physical element rather than the two legs. Both legs are recorded reinforced_concrete and the owner states it is «one concrete slab without any joints», so the material is inherited from the pour, not guessed."
     }
   ],
   "loggia_thermal_consequence": {

@@ -29,6 +29,42 @@ from check_model_against_canonical import check  # noqa: E402
 REAL = REPO / "data" / "outputs" / "variants" / "v0-existing" / "model.ifc"
 
 
+def seed_leg_as_wall(model):
+    """⚠️ A CALCULATION LEG emitted as a physical wall.
+
+    R1a and R1b are the two legs of ONE monolithic L-shaped casting.
+    structural_assemblies.csv says A_NW_CORNER "is the physical element for
+    geometry, demolition, reinforcement and IFC" - and the generator emitted
+    the legs anyway until 2026-09-17, asserting a joint inside a single pour.
+    """
+    wall = next(w for w in model.by_type("IfcWall")
+                if w.Name == "A_NW_CORNER")
+    wall.Name = "R1a"
+    return "a calculation leg emitted as a wall"
+
+
+def seed_assembly_missing(model):
+    """The physical casting absent - only its legs would remain elsewhere."""
+    wall = next(w for w in model.by_type("IfcWall")
+                if w.Name == "A_NW_CORNER")
+    model.remove(wall)
+    return "the physical assembly missing"
+
+
+def seed_assembly_reshaped(model):
+    """⚠️ Present but shaped from anything - the hole merely moved.
+
+    Checking only that A_NW_CORNER EXISTS would pass a rectangle where the
+    canonical footprint is a six-cornered L.
+    """
+    wall = next(w for w in model.by_type("IfcWall")
+                if w.Name == "A_NW_CORNER")
+    other = next(w for w in model.by_type("IfcWall")
+                 if w.Name not in ("A_NW_CORNER",) and w.Representation)
+    wall.Representation = other.Representation
+    return "the assembly reshaped from another wall"
+
+
 def seed_delete_wall(model):
     """A wall the DXF carries and the IFC lost."""
     wall = next(w for w in model.by_type("IfcWall") if w.Name == "R2")
@@ -246,6 +282,9 @@ SEEDS = [
     ("wall shifted sideways", seed_wall_shifted_sideways),
     ("wall slid along its axis", seed_wall_slid_along_axis),
     ("wall lengthened without sanction", seed_unsanctioned_extension),
+    ("a CALCULATION LEG emitted as a wall", seed_leg_as_wall),
+    ("the physical assembly missing", seed_assembly_missing),
+    ("the assembly reshaped from another wall", seed_assembly_reshaped),
     ("wall deleted", seed_delete_wall),
     ("wall duplicated", seed_duplicate_wall),
     ("wall thickness halved", seed_wrong_thickness),

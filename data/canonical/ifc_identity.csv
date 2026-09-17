@@ -29,8 +29,8 @@ fa9b577a-9ad9-4c8f-8ec9-c6694c90a3cf,IfcPlate:Loggia glazing mullion 1,IfcPlate,
 248c8f46-72a2-461e-a7c3-721b3f0d78b1,IfcPlate:Loggia glazing mullion 3,IfcPlate,active,,minted 2026-09-17 from the first stable-identity build
 94e7d06e-fc29-468e-a532-24611c707edc,IfcSlab:Floor slab,IfcSlab,active,,minted 2026-09-17 from the first stable-identity build
 6f3ad7a3-a8a2-4ba7-a765-94f85d57be60,IfcSlab:Ceiling slab,IfcSlab,active,,minted 2026-09-17 from the first stable-identity build
-0a27e715-c6f1-40fa-b08b-0f1f30bb8278,IfcWall:R1a,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
-eb4b6971-216f-4a15-be09-e072428cf1bf,IfcWall:R1b,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+0a27e715-c6f1-40fa-b08b-0f1f30bb8278,IfcWall:R1a,IfcWall,retired,,retired 2026-09-17: no longer produced. The uuid stays so it is never reused. minted 2026-09-17 from the first stable-identity build
+eb4b6971-216f-4a15-be09-e072428cf1bf,IfcWall:R1b,IfcWall,retired,,retired 2026-09-17: no longer produced. The uuid stays so it is never reused. minted 2026-09-17 from the first stable-identity build
 87685bf6-8db7-47d4-b008-f0bc1bbbf8f2,IfcWall:R2,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
 7e32e624-04ed-4007-b13d-0157f37b7610,IfcWall:R3,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
 806b2b4a-ad13-42cd-900a-1accbc31ceab,IfcWall:R4,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
@@ -78,3 +78,6 @@ dea7b386-9078-42ee-b423-4274a98cffa1,IfcDoorType:DOOR_776x2235,IfcDoorType,activ
 c0452bf3-11bb-44ff-9145-892233871357,IfcWallType:WALL_UNKNOWNMATERIAL_200,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
 f4eec290-7b02-40c6-9131-009f751f105c,IfcWindowType:WINDOW_604x735x2235,IfcWindowType,active,,minted 2026-09-17 from the first stable-identity build
 ec918f79-4b38-4b34-b8e3-e9d84928fdbc,IfcWindowType:WINDOW_1660xUNMEASUREDxUNMEASURED,IfcWindowType,active,,minted 2026-09-17 from the first stable-identity build
+7d194863-effc-44db-82ca-20ee5b2bbcbd,IfcWall:A_NW_CORNER,IfcWall,active,,minted 2026-09-17 from the first stable-identity build
+e27a144d-2bcd-4cfe-8bc6-fe6ff41ac139,IfcWallType:WALL_AERATED_BLOCK_200,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+e9f7a5db-4a1e-439d-820e-d29e85ca5f25,IfcWallType:WALL_REINFORCED_CONCRETE_UNMEASURED,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build

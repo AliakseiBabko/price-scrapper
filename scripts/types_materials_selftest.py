@@ -93,8 +93,11 @@ def main() -> int:
     # ⚠️ AN INVENTED MATERIAL on a wall whose material is unrecorded. Making a
     # gate pass by guessing is the failure this whole pass exists to avoid.
     model = ifcopenshell.open(base)
+    # ⚠️ M6b ONLY. M2 was in this list until 2026-09-17, when owner rule 4 was
+    # found to record it plainly as 200 mm aerated block - the seed had gone
+    # stale against improved data, which is how a seed quietly stops testing.
     unknown = [w for w in model.by_type("IfcWall")
-               if not w.is_a("IfcWallType") and w.Name in ("M2", "M6b")]
+               if not w.is_a("IfcWallType") and w.Name == "M6b"]
     material = ifcopenshell.api.run("material.add_material", model,
                                     name="guessed")
     ifcopenshell.api.run("material.assign_material", model,
