@@ -1,0 +1,14 @@
+{
+  "url": "3cw4oSGr4Cw",
+  "video_id": "3cw4oSGr4Cw",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T00:00:00+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "3dc34c9f07c4da0914f94874ee018f8503111f4747d96e3826c1928065f19501",
+  "attempts_before_success": [],
+  "upload_date": "2024-12-11",
+  "upload_date_source": "yt-dlp --print upload_date, run 2026-09-17",
+  "upload_date_corrected_from": "2024-03-18"
+}
