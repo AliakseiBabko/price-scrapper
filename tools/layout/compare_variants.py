@@ -298,7 +298,13 @@ def draw_variant(parent, spec, variant_meta, ox, oy, panel_w, panel_h, rules):
     return ty
 
 
-def build_sheet(variants: list[tuple[dict, dict]], out_svg: Path, rules: dict) -> None:
+def build_sheet(variants: list[tuple[dict, dict]], out_svg: Path, rules: dict,
+                provisional: str | None = None,
+                blocked: list[str] | None = None) -> None:
+    """⚠⚠ `provisional` IS STAMPED ON THE SHEET, not printed to a console.
+    The warning used to live only in stdout, so a detached SVG or PDF looked
+    decision-bearing to anyone who received it - which is how such a sheet
+    actually travels."""
     svg = el("svg", xmlns="http://www.w3.org/2000/svg", width="%.0fmm" % A3_W,
              height="%.0fmm" % A3_H, viewBox="0 0 %.0f %.0f" % (A3_W, A3_H), version="1.1")
     ET.SubElement(svg, "rect", {"x": "0", "y": "0", "width": str(A3_W), "height": str(A3_H),
@@ -306,8 +312,15 @@ def build_sheet(variants: list[tuple[dict, dict]], out_svg: Path, rules: dict) -
     text(svg, "СРАВНЕНИЕ ВАРИАНТОВ ПЛАНИРОВКИ", 12, 14, 6.0, "bold")
     text(svg, "ZK Dubravinskiy · A3 · масштаб не проверен · не для строительства", 12, 20, 3.0,
          "normal", "#666")
+    if provisional:
+        ET.SubElement(svg, "rect", {"x": "8", "y": "23.5", "width": str(A3_W - 16),
+                                    "height": "7.5", "fill": "#ffe0e0",
+                                    "stroke": "#cc0000", "stroke-width": "0.4"})
+        text(svg, provisional, 12, 28.5, 3.4, "bold", "#cc0000")
+    for j, item in enumerate(blocked or []):
+        text(svg, "BLOCKED: %s" % item, 12, 33.0 + j * 3.6, 2.6, "normal", "#cc0000")
 
-    margin, gap, top = 12.0, 6.0, 26.0
+    margin, gap, top = 12.0, 6.0, (26.0 if not provisional else 38.0)
     panel_w = (A3_W - 2 * margin - gap * (len(variants) - 1)) / len(variants)
     panel_h = A3_H - top - 22.0
     for i, (spec, meta) in enumerate(variants):
@@ -356,9 +369,11 @@ def main() -> int:
     # this sheet still builds, and it carries a banner saying it must not drive
     # a choice. A caller that must not proceed passes --require-accepted.
     sys.path.insert(0, str(REPO / "tools" / "layout"))
-    from check_baseline_acceptance import banner, decision_bearing
+    from check_baseline_acceptance import (banner, blocked_topics,
+                                           decision_bearing)
     accepted, why = decision_bearing()
     provisional = banner()
+    blocked = blocked_topics()
     if provisional:
         print(provisional)
         for reason in why:
@@ -371,7 +386,7 @@ def main() -> int:
     rules = load_rules()
     out = Path(a.out)
     svg_path = out / "variant_comparison_a3.svg"
-    build_sheet(loaded, svg_path, rules)
+    build_sheet(loaded, svg_path, rules, provisional, blocked)
     pdf_path = out / "variant_comparison_a3.pdf"
     try:
         sys.path.insert(0, str(REPO / "tools" / "drawings"))
@@ -384,8 +399,16 @@ def main() -> int:
     table = {vid: {"metrics": metrics(spec), "checks": check_rules(spec, rules),
                    "advisory_rules": advisory(rules, spec)}
              for vid, (spec, _) in zip(ids, loaded)}
+    # ⚠ THE MACHINE-READABLE TABLE CARRIES IT TOO, so a consumer that never
+    # sees the drawing cannot read these numbers as settled.
+    payload = {"_decision_bearing": accepted,
+               "_provisional": provisional,
+               "_why_not": why,
+               "_blocked_topics": blocked,
+               "table": table}
     (out / "variant_comparison.json").write_text(
-        json.dumps(table, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        json.dumps(payload, ensure_ascii=False, indent=2) + chr(10),
+        encoding="utf-8")
 
     print(json.dumps({"variants": ids, "sheet": str(svg_path.relative_to(REPO)),
                       "pdf": str(pdf_path.relative_to(REPO)) if pdf_path else None,

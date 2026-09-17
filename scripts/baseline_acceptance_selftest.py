@@ -16,6 +16,7 @@ owner accepting first would be no guard at all.
 from __future__ import annotations
 
 import copy
+import io
 import os
 import sys
 
@@ -23,7 +24,8 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools", "layout"))
 
 from check_baseline_acceptance import (  # noqa: E402
-    SCOPES, banner, decision_bearing, load, sha256)
+    REQUIRED_ARTEFACTS, SCOPES, VARIANT_SPECS, banner, blocked_topics,
+    decision_bearing, load, sha256)
 
 
 def main() -> int:
@@ -53,15 +55,26 @@ def main() -> int:
     for name in SCOPES:
         accepted["scopes"][name] = {"state": "accepted",
                                     "accepted_on": "2026-09-17", "notes": ""}
-    ok, reasons = decision_bearing(accepted)
+    # ⚠ The positive control must ISOLATE the retired-spec finding, or it
+    # would report the gate broken when the gate is right. It injects a spec
+    # path that is not retired; the retired one is asserted separately below.
+    import json as _json
+    import tempfile as _tmp
+    live_dir = _tmp.mkdtemp()
+    live_spec = os.path.join(live_dir, "spec.json")
+    io.open(live_spec, "w", encoding="utf-8").write(_json.dumps({"walls": []}))
+    LIVE = (os.path.relpath(live_spec, REPO),)
+
+    ok, reasons = decision_bearing(accepted, LIVE)
     check("a fully accepted record IS decision-bearing", ok, reasons[:1] or "clean")
-    check("...and its banner is empty", banner(accepted) is None, "no banner")
+    check("...and its banner is empty",
+          banner(accepted, LIVE) is None, "no banner")
 
     def refuses(label, mutate, needle):
         nonlocal failures
         record = copy.deepcopy(accepted)
         mutate(record)
-        ok, reasons = decision_bearing(record)
+        ok, reasons = decision_bearing(record, LIVE)
         hit = (not ok) and any(needle in r for r in reasons)
         if hit:
             print("PASS %-58s %s" % (label, reasons[0][:26]))
@@ -86,7 +99,7 @@ def main() -> int:
             "does not exist")
 
     refuses("a record pinning NO artefacts is caught",
-            lambda r: r.__setitem__("artefacts", {}), "NO artefacts")
+            lambda r: r.__setitem__("artefacts", {}), "does not pin")
 
     # ── status and scopes ────────────────────────────────────────────────────
     refuses("a record that is not `accepted` is caught",
@@ -108,6 +121,45 @@ def main() -> int:
             lambda r: r.__setitem__("field_verified", True), "cannot confer")
     refuses("provenance other than `planned` is caught",
             lambda r: r.__setitem__("provenance", "as_built"), "provenance is")
+
+    # ⚠️⚠️ THE ARTEFACT SET IS EXACT. Removing one pin from an otherwise
+    # accepted record returned `(True, [])` - the loop only checked what was
+    # still listed, so dropping an artefact silently removed it from the scope
+    # of the approval. A pin you can shrink is not a pin. Each one separately.
+    for relative in REQUIRED_ARTEFACTS:
+        refuses("dropping the pin on %-28s is caught" % os.path.basename(relative),
+                lambda r, a=relative: r["artefacts"].pop(a), "does not pin")
+
+    refuses("pinning something OUTSIDE the required set is caught",
+            lambda r: r["artefacts"].update({"README.md": "0" * 64}),
+            "not in the required set")
+
+    # ⚠️ THE REVIEW SHEET IS ONE OF THEM, because it defines what the scopes
+    # MEAN - above all that the shaft scopes do not settle V1.
+    check("the review sheet is a pinned artefact",
+          "00_Master/V0_Baseline_Review_Sheet.md" in REQUIRED_ARTEFACTS,
+          "pinned")
+
+    # ⚠️⚠️ ACCEPTANCE MUST UNBLOCK WHAT IT CLAIMS TO. The comparison reads the
+    # VARIANT SPEC, not the DXF, and today that spec is a retired schematic -
+    # 18 walls against 25, no shafts, a rectangular loggia. An acceptance that
+    # unblocked a sheet built from it would be worse than no acceptance.
+    ok, reasons = decision_bearing(accepted)
+    check("a RETIRED variant spec keeps the baseline provisional",
+          (not ok) and any("RETIRED" in r for r in reasons),
+          [r for r in reasons if "RETIRED" in r][:1] or reasons[:1])
+
+    check("...and the spec it checks is the one the comparison loads",
+          VARIANT_SPECS == ("data/outputs/variants/v0-existing/spec.json",),
+          VARIANT_SPECS)
+
+    # ⚠️ V1 STAYS BLOCKED whatever the overall state says.
+    topics = blocked_topics(real)
+    check("V1's footprint is a blocked topic in its own right",
+          any("v1_footprint" in t for t in topics), topics[:1] or "none")
+    check("...and it is a scope of its own, not swept into `the shafts`",
+          "ventilation_shaft_v1_footprint" in SCOPES
+          and "ventilation_shafts_v1_v2" not in SCOPES, "split")
 
     # ⚠️ and the hashes in the committed record must be the REAL ones, or the
     # pin is against bytes that never existed
