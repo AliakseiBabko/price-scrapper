@@ -263,7 +263,8 @@
       "note": "Outside the warm perimeter - no insulation duty.",
       "insulation_mm": 70,
       "insulation_source": "OWNER marked BLUE 2026-09-04",
-      "material_basis": "⚠ GENUINELY UNRESOLVED, unlike M2. The thickness is provisional (~200) and it carries 70 mm façade insulation because it sits on the RENDERED FAÇADE PLANE - this file: «the insulation follows the rendered façade plane, not the thermal envelope» - but no reviewed source states its SUBSTRATE material. The 300+70 general rule lists M1, M3, M4, M5, M6a and M7, and deliberately not M6b. Material stays unset."
+      "material_basis": "⚠ RESOLVED 2026-09-17 BY THE OWNER, who stated the substrate directly: M6b is AERATED CONCRETE. That is testimony about THIS flat, which §3.0f of the services design records as the one basis that can establish a fact here - no comparable-flat photograph or general rule was going to settle it. Previously unset because the 300+70 general rule lists M1, M3, M4, M5, M6a and M7 and deliberately NOT M6b, and no reviewed source named the substrate. ⚠ STILL NOT SETTLED: the 200 mm thickness remains PROVISIONAL, and the render thickness is unstated - so the build-up is not yet a layer set.",
+      "material": "aerated_block"
     },
     {
       "id": "M7",

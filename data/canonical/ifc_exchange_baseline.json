@@ -1,7 +1,5 @@
 {
   "recorded": "2026-09-17",
   "note": "Today's EXACT failures, captured BEFORE implementing types or phase, so each requirement can be watched failing independently rather than assumed to fail.",
-  "failures": {
-    "Walls carry a material association": 1
-  }
+  "failures": {}
 }

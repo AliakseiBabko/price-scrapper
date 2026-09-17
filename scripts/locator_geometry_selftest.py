@@ -290,21 +290,39 @@ def main() -> int:
            "clear of every void")
 
     # ⚠️ ...and an UNKNOWN material is not assumed chase-able.
-    # ⚠️ M6b, not M2. M2's material was found recorded in owner rule 4 on
-    # 2026-09-17; M6b's SUBSTRATE genuinely is not stated anywhere.
-    rows = [socket(along_face_mm="200", host_ref="M6b", face_ref="cross_lo"),
+    # ⚠️ THE SEED INJECTS THE MISSING MATERIAL rather than naming a wall.
+    # It named M2, then M6b, and the owner resolved both - a seed pinned to
+    # real data goes vacuous the moment the data improves. Every wall now has
+    # a material, so there is no wall left to name.
+    from check_locator_geometry import wall_classes as _wc
+    blank = dict(_wc())
+    blank["G7"] = None
+    rows = [socket(along_face_mm="200", host_ref="G7", face_ref="cross_lo"),
             avoid("SEED")]
-    expect("a host with no material is INCOMPLETE, not chase-able", rows,
-           "SEED", "incomplete", "NOT assumed chase-able")
+    got = dict((k, (v, m)) for k, v, m in
+               check(rows, resolved, verticals, classes=blank))["SEED"]
+    if got[0] == "incomplete" and "NOT" in got[1]:
+        print("PASS %-50s %-11s %s" % ("a host with no material is INCOMPLETE",
+                                       "INCOMPLETE", got[1][:36]))
+    else:
+        print("FAIL %-50s got %s/%r" % ("host with no material", got[0], got[1]))
+        failures += 1
 
     # ⚠️ THE WHITELIST SEED, and it is the exact case the review found: an
     # earlier version only REFUSED concrete, so a PROPOSED accessory on M2
     # passed substrate checking and reached `partial`. "Not concrete" is not
     # the owner's rule; "exclusively aerated block" is.
-    rows = [socket(along_face_mm="200", host_ref="M6b", face_ref="cross_lo",
+    rows = [socket(along_face_mm="200", host_ref="G7", face_ref="cross_lo",
                    phase="new"), avoid("SEED")]
-    expect("NEW work on a non-block material is refused", rows, "SEED",
-           "invalid", "every new drop must be chased into aerated_block")
+    got = dict((k, (v, m)) for k, v, m in
+               check(rows, resolved, verticals, classes=blank))["SEED"]
+    if got[0] == "invalid" and "aerated_block" in got[1]:
+        print("PASS %-50s %-11s %s" % ("NEW work on an unrecorded material is "
+                                       "refused", "INVALID", got[1][:34]))
+    else:
+        print("FAIL %-50s got %s/%r" % ("new work, unrecorded material",
+                                        got[0], got[1]))
+        failures += 1
 
     # ...and proposed work on block is accepted, so the seed above is not just
     # refusing everything proposed.
