@@ -27,21 +27,24 @@
       "element": "monolithic RC frame",
       "where": "outer corner at the туалет; its corner forms TWO walls of the туалет",
       "confirmed_by": "owner",
-      "note": "ONE monolithic piece - must NOT be split."
+      "note": "ONE monolithic piece - must NOT be split.",
+      "material": "reinforced_concrete"
     },
     {
       "id": "R2",
       "class": "concrete",
       "element": "monolithic RC frame",
       "where": "right wall alongside the кухня (block-joint side)",
-      "confirmed_by": "owner"
+      "confirmed_by": "owner",
+      "material": "reinforced_concrete"
     },
     {
       "id": "R3",
       "class": "concrete",
       "element": "monolithic RC frame",
       "where": "a ~3 m run of the top wall above the прихожая",
-      "confirmed_by": "owner"
+      "confirmed_by": "owner",
+      "material": "reinforced_concrete"
     },
     {
       "id": "R4",
@@ -49,7 +52,8 @@
       "element": "COLUMN",
       "where": "middle room, прихожая end, left",
       "confirmed_by": "owner",
-      "note": "One of the two columns the owner named as being 'in the middle next to the entrance area'."
+      "note": "One of the two columns the owner named as being 'in the middle next to the entrance area'.",
+      "material": "reinforced_concrete"
     },
     {
       "id": "R5",
@@ -57,21 +61,24 @@
       "element": "COLUMN",
       "where": "middle room, прихожая end, right",
       "confirmed_by": "owner",
-      "note": "The second of the two named columns."
+      "note": "The second of the two named columns.",
+      "material": "reinforced_concrete"
     },
     {
       "id": "R6",
       "class": "concrete",
       "element": "monolithic RC frame",
       "where": "left wall beside the 9.36 room",
-      "confirmed_by": "owner"
+      "confirmed_by": "owner",
+      "material": "reinforced_concrete"
     },
     {
       "id": "R7",
       "class": "concrete",
       "element": "monolithic RC frame",
       "where": "right wall beside the living room (block-joint side)",
-      "confirmed_by": "owner"
+      "confirmed_by": "owner",
+      "material": "reinforced_concrete"
     },
     {
       "id": "R8",
@@ -81,7 +88,8 @@
       "confirmed_by": "owner",
       "note": "!! The plan draws INSULATION cross-hatch on its лоджия face - so it is part of the warm perimeter even though it is a frame element.",
       "insulation_mm": 150,
-      "insulation_source": "OWNER marked RED 2026-09-04 - thermal-bridge treatment on exposed concrete"
+      "insulation_source": "OWNER marked RED 2026-09-04 - thermal-bridge treatment on exposed concrete",
+      "material": "reinforced_concrete"
     },
     {
       "id": "R9",
@@ -90,56 +98,64 @@
       "where": "middle room right wall, window end",
       "confirmed_by": "owner",
       "insulation_mm": 150,
-      "insulation_source": "OWNER marked RED 2026-09-04 - thermal-bridge treatment on exposed concrete"
+      "insulation_source": "OWNER marked RED 2026-09-04 - thermal-bridge treatment on exposed concrete",
+      "material": "reinforced_concrete"
     },
     {
       "id": "G1",
       "class": "aerated_block",
       "thickness_mm": 120,
       "where": "short wall between туалет and прихожая",
-      "thickness_source": "inferred - the plan prints 120 in the wet block"
+      "thickness_source": "inferred - the plan prints 120 in the wet block",
+      "material": "aerated_block"
     },
     {
       "id": "G2",
       "class": "aerated_block",
       "where": "top wall, left of R3 - faces the COMMON CORRIDOR",
       "thickness_mm": 250,
-      "thickness_source": "OWNER general rule 1"
+      "thickness_source": "OWNER general rule 1",
+      "material": "aerated_block"
     },
     {
       "id": "G3",
       "class": "aerated_block",
       "where": "top wall above the кухня, right of R3 - faces the FLAT ABOVE (2Г/2)",
       "thickness_mm": 250,
-      "thickness_source": "OWNER general rule 1"
+      "thickness_source": "OWNER general rule 1",
+      "material": "aerated_block"
     },
     {
       "id": "G4a",
       "class": "aerated_block",
       "thickness_mm": 250,
       "where": "party wall to the neighbouring flat in this block",
-      "thickness_source": "OWNER STATED, and it agrees with the plan's printed party_wall_or_structure = 250"
+      "thickness_source": "OWNER STATED, and it agrees with the plan's printed party_wall_or_structure = 250",
+      "material": "aerated_block"
     },
     {
       "id": "G4b",
       "class": "aerated_block",
       "thickness_mm": 120,
       "where": "туалет | ванная",
-      "thickness_source": "OWNER CONFIRMED"
+      "thickness_source": "OWNER CONFIRMED",
+      "material": "aerated_block"
     },
     {
       "id": "G4c",
       "class": "aerated_block",
       "thickness_mm": 120,
       "where": "ванная | прихожая",
-      "thickness_source": "OWNER CONFIRMED"
+      "thickness_source": "OWNER CONFIRMED",
+      "material": "aerated_block"
     },
     {
       "id": "G4d",
       "class": "aerated_block",
       "thickness_mm": 120,
       "where": "ванная | 9.36 room (the small bedroom)",
-      "thickness_source": "OWNER STATED"
+      "thickness_source": "OWNER STATED",
+      "material": "aerated_block"
     },
     {
       "id": "G5",
@@ -147,28 +163,32 @@
       "thickness_mm": 250,
       "where": "right wall between R2 and R7 - THE BLOCK-JOINT LEAF",
       "thickness_source": "OWNER general rule 1 - resolves 200 vs 250",
-      "note": "!! A decoupled double wall. Best-performing wall in the flat, acquired for nothing."
+      "note": "!! A decoupled double wall. Best-performing wall in the flat, acquired for nothing.",
+      "material": "aerated_block"
     },
     {
       "id": "G6",
       "class": "aerated_block",
       "thickness_mm": 75,
       "where": "top wall of the middle room's 1915 x 1050 recess",
-      "thickness_source": "inferred - the plan prints 75 for partitions"
+      "thickness_source": "inferred - the plan prints 75 for partitions",
+      "material": "aerated_block"
     },
     {
       "id": "G7",
       "class": "aerated_block",
       "thickness_mm": 75,
       "where": "middle room right side wall, main span",
-      "thickness_source": "inferred - the plan prints 75"
+      "thickness_source": "inferred - the plan prints 75",
+      "material": "aerated_block"
     },
     {
       "id": "G8",
       "class": "aerated_block",
       "thickness_mm": 75,
       "where": "middle room left side wall, main span",
-      "thickness_source": "inferred - the plan prints 75"
+      "thickness_source": "inferred - the plan prints 75",
+      "material": "aerated_block"
     },
     {
       "id": "M1",
@@ -177,7 +197,9 @@
       "insulation_mm": 70,
       "where": "between the 9.36 room and the ЛОДЖИЯ",
       "thickness_source": "OWNER STATED - 'external wall with all the insulation'",
-      "note": "!! Carries the лоджия door/window unit. This is the thermal boundary, not the лоджия's own glazing."
+      "note": "!! Carries the лоджия door/window unit. This is the thermal boundary, not the лоджия's own glazing.",
+      "material": "aerated_block",
+      "material_basis": "The warm perimeter is 300 mm aerated block behind 70 mm mineral wool and render - building_spec.json, and this file's own insulation findings. `external_warm_perimeter` is an EXPOSURE, not a material."
     },
     {
       "id": "M2",
@@ -187,7 +209,8 @@
       "thickness_source": "OWNER - 200 aerated block, NO insulation",
       "note": "!! COLD-TO-COLD: both loggias are unheated, so this wall has NO insulation duty. It is an acoustic and privacy element only.",
       "insulation_mm": 0,
-      "insulation_source": "OWNER - explicitly none; faces another unheated лоджия"
+      "insulation_source": "OWNER - explicitly none; faces another unheated лоджия",
+      "material_basis": "!! MATERIAL DELIBERATELY UNSET. `loggia_enclosure` is an exposure. The thickness record is inconsistent (200 mm here, «300+70» in the insulation findings) and nothing reviewed states the material, so the substrate check must report INCOMPLETE rather than assume it is chase-able."
     },
     {
       "id": "M3",
@@ -195,7 +218,9 @@
       "thickness_mm": 300,
       "insulation_mm": 70,
       "where": "living room bottom wall, left of the window",
-      "thickness_source": "inferred from the uniform warm-perimeter rule"
+      "thickness_source": "inferred from the uniform warm-perimeter rule",
+      "material": "aerated_block",
+      "material_basis": "The warm perimeter is 300 mm aerated block behind 70 mm mineral wool and render - building_spec.json, and this file's own insulation findings. `external_warm_perimeter` is an EXPOSURE, not a material."
     },
     {
       "id": "M4",
@@ -203,7 +228,9 @@
       "thickness_mm": 300,
       "insulation_mm": 70,
       "where": "living room bottom wall, right of the window",
-      "thickness_source": "inferred from the uniform warm-perimeter rule"
+      "thickness_source": "inferred from the uniform warm-perimeter rule",
+      "material": "aerated_block",
+      "material_basis": "The warm perimeter is 300 mm aerated block behind 70 mm mineral wool and render - building_spec.json, and this file's own insulation findings. `external_warm_perimeter` is an EXPOSURE, not a material."
     },
     {
       "id": "M5",
@@ -211,7 +238,9 @@
       "thickness_mm": 300,
       "insulation_mm": 70,
       "where": "bottom wall beside the middle room's window",
-      "thickness_source": "inferred from the uniform warm-perimeter rule"
+      "thickness_source": "inferred from the uniform warm-perimeter rule",
+      "material": "aerated_block",
+      "material_basis": "The warm perimeter is 300 mm aerated block behind 70 mm mineral wool and render - building_spec.json, and this file's own insulation findings. `external_warm_perimeter` is an EXPOSURE, not a material."
     },
     {
       "id": "M6a",
@@ -220,7 +249,9 @@
       "insulation_mm": 70,
       "where": "the apartment's own bottom wall segment, left of the middle room's window",
       "thickness_source": "OWNER STATED - 'M6a is external wall, means full thickness of 300 millimeters'",
-      "note": "!! CORRECTS his earlier estimate of ~100 mm for this segment."
+      "note": "!! CORRECTS his earlier estimate of ~100 mm for this segment.",
+      "material": "aerated_block",
+      "material_basis": "The warm perimeter is 300 mm aerated block behind 70 mm mineral wool and render - building_spec.json, and this file's own insulation findings. `external_warm_perimeter` is an EXPOSURE, not a material."
     },
     {
       "id": "M6b",
@@ -230,7 +261,8 @@
       "thickness_source": "PROVISIONAL - owner first said 120, then revised: 'actually it looks thicker. It looks like 200 millimeters. I have another plan, I will show you later.'",
       "note": "Outside the warm perimeter - no insulation duty.",
       "insulation_mm": 70,
-      "insulation_source": "OWNER marked BLUE 2026-09-04"
+      "insulation_source": "OWNER marked BLUE 2026-09-04",
+      "material_basis": "!! MATERIAL DELIBERATELY UNSET. `loggia_enclosure` is an exposure. The thickness record is inconsistent (200 mm here, «300+70» in the insulation findings) and nothing reviewed states the material, so the substrate check must report INCOMPLETE rather than assume it is chase-able."
     },
     {
       "id": "M7",
@@ -239,7 +271,9 @@
       "insulation_mm": 70,
       "where": "short pier between the лоджия door unit and R8",
       "thickness_source": "OWNER STATED - 'part of external wall, big external wall with the same thickness, just a very short segment'",
-      "note": "!! Was initially read as internal block (G9) and reclassified. It is UNCOLOURED on the owner's markup, which is why colour detection missed it entirely."
+      "note": "!! Was initially read as internal block (G9) and reclassified. It is UNCOLOURED on the owner's markup, which is why colour detection missed it entirely.",
+      "material": "aerated_block",
+      "material_basis": "The warm perimeter is 300 mm aerated block behind 70 mm mineral wool and render - building_spec.json, and this file's own insulation findings. `external_warm_perimeter` is an EXPOSURE, not a material."
     },
     {
       "id": "G4e",
@@ -247,7 +281,69 @@
       "thickness_mm": 120,
       "thickness_source": "OWNER",
       "where": "the LOWER run of the same plane as G4c, below the ванная door, meeting G4d at the corner; corridor-facing",
-      "note": "!! ADDED on the owner's instruction - he spotted it missing. ⚠ MY READING of which piece he meant; the other candidate is the прихожая|9.36 wall carrying the bedroom door, which is also unnamed and also adjoins G4d. Flagged for confirmation."
+      "note": "!! ADDED on the owner's instruction - he spotted it missing. ⚠ MY READING of which piece he meant; the other candidate is the прихожая|9.36 wall carrying the bedroom door, which is also unnamed and also adjoins G4d. Flagged for confirmation.",
+      "material": "aerated_block"
+    },
+    {
+      "id": "MA",
+      "class": "external_warm_perimeter",
+      "material": "aerated_block",
+      "thickness_mm": 300,
+      "element": "300 mm aerated block, 70 mm mineral wool, render",
+      "where": "the warm external perimeter, as the MODEL names it",
+      "confirmed_by": "reviewed documentation in this file",
+      "material_basis": "Classified under its OWN id 2026-09-17, not aliased. The substrate check needs a material per MODEL wall, and six model walls had none. MA/MB/MC are documented here as 300 mm block behind 70 mm insulation - «MA is 300+70», «1490 + 300 (MB)» - and building_spec.json agrees. They have NO counterpart in M1..M7, so they are classified directly rather than paired with one.",
+      "note": "!! MC carries no outlets. That is an OBSERVED ABSENCE, not a substrate consequence - MC is block and could be chased."
+    },
+    {
+      "id": "MB",
+      "class": "external_warm_perimeter",
+      "material": "aerated_block",
+      "thickness_mm": 300,
+      "element": "300 mm aerated block, 70 mm mineral wool, render",
+      "where": "the warm external perimeter, as the MODEL names it",
+      "confirmed_by": "reviewed documentation in this file",
+      "material_basis": "Classified under its OWN id 2026-09-17, not aliased. The substrate check needs a material per MODEL wall, and six model walls had none. MA/MB/MC are documented here as 300 mm block behind 70 mm insulation - «MA is 300+70», «1490 + 300 (MB)» - and building_spec.json agrees. They have NO counterpart in M1..M7, so they are classified directly rather than paired with one.",
+      "note": "!! MC carries no outlets. That is an OBSERVED ABSENCE, not a substrate consequence - MC is block and could be chased."
+    },
+    {
+      "id": "MC",
+      "class": "external_warm_perimeter",
+      "material": "aerated_block",
+      "thickness_mm": 300,
+      "element": "300 mm aerated block, 70 mm mineral wool, render",
+      "where": "the warm external perimeter, as the MODEL names it",
+      "confirmed_by": "reviewed documentation in this file",
+      "material_basis": "Classified under its OWN id 2026-09-17, not aliased. The substrate check needs a material per MODEL wall, and six model walls had none. MA/MB/MC are documented here as 300 mm block behind 70 mm insulation - «MA is 300+70», «1490 + 300 (MB)» - and building_spec.json agrees. They have NO counterpart in M1..M7, so they are classified directly rather than paired with one.",
+      "note": "!! MC carries no outlets. That is an OBSERVED ABSENCE, not a substrate consequence - MC is block and could be chased."
+    },
+    {
+      "id": "G4C",
+      "class": "aerated_block",
+      "material": "aerated_block",
+      "thickness_mm": 120,
+      "element": "aerated block partition",
+      "where": "as G4c; the model spells it with a capital C",
+      "confirmed_by": "case-only correction",
+      "material_basis": "Classified under its OWN id 2026-09-17, not aliased. The substrate check needs a material per MODEL wall, and six model walls had none. ⚠ THIS IS A CASE CORRECTION ONLY, and it is safe precisely because it is: G4C and G4c differ in one character and nothing else, and no other id collides under case-folding. Anything less mechanical than that was not guessed."
+    },
+    {
+      "id": "R1a",
+      "class": "concrete",
+      "material": "reinforced_concrete",
+      "element": "monolithic RC frame",
+      "where": "a CALCULATION LEG of the L-shaped corner casting",
+      "confirmed_by": "structural_assemblies.csv A_NW_CORNER",
+      "material_basis": "Classified under its OWN id 2026-09-17, not aliased. The substrate check needs a material per MODEL wall, and six model walls had none. ⚠ R1a and R1b are NOT aliases of R1 and must not be collapsed into it. structural_assemblies.csv A_NW_CORNER is the PHYSICAL element - one L-shaped casting, owner-confirmed, «one concrete slab without any joints» - and R1a/R1b are its calculation legs. The material is INHERITED from that assembly, which is why it is certain: the legs cannot be a different material from the single pour they are legs of."
+    },
+    {
+      "id": "R1b",
+      "class": "concrete",
+      "material": "reinforced_concrete",
+      "element": "monolithic RC frame",
+      "where": "a CALCULATION LEG of the L-shaped corner casting",
+      "confirmed_by": "structural_assemblies.csv A_NW_CORNER",
+      "material_basis": "Classified under its OWN id 2026-09-17, not aliased. The substrate check needs a material per MODEL wall, and six model walls had none. ⚠ R1a and R1b are NOT aliases of R1 and must not be collapsed into it. structural_assemblies.csv A_NW_CORNER is the PHYSICAL element - one L-shaped casting, owner-confirmed, «one concrete slab without any joints» - and R1a/R1b are its calculation legs. The material is INHERITED from that assembly, which is why it is certain: the legs cannot be a different material from the single pour they are legs of."
     }
   ],
   "loggia_thermal_consequence": {
@@ -1119,7 +1215,8 @@
     "classified_but_NOT_in_the_model": "G1 G4c G4e M1 M3 M4 M5 M6a M7 R1",
     "the_likely_pairs": "G4C/G4c is a CASE difference only. R1a+R1b are the model’s split of R1, which this file says is ONE monolithic piece that must not be split. MA/MB/MC have no obvious counterpart in M1..M7 at all.",
     "NOT_GUESSED": "!! No alias map is being written from this. A material class decides whether a cable may be chased into a wall, so a wrong pairing would silently authorise chasing the RC frame - the exact thing the rule forbids. Unclassified walls report INCOMPLETE and are NOT assumed chase-able.",
-    "consequence_today": "MC in particular is unclassified, so the substrate rule cannot yet be applied to the window wall. That does not matter for the outlets - MC carries none, by the owner and by add8 - but it does mean the check is not yet complete over the external perimeter."
+    "consequence_today": "MC in particular is unclassified, so the substrate rule cannot yet be applied to the window wall. That does not matter for the outlets - MC carries none, by the owner and by add8 - but it does mean the check is not yet complete over the external perimeter.",
+    "RESOLVED_2026_09_17": "!! All six are now classified UNDER THEIR OWN MODEL IDS, and none by a guessed alias: MA/MB/MC from this file's own 300+70 findings and building_spec; G4C as a case-only correction; R1a/R1b by INHERITANCE from structural_assemblies.csv A_NW_CORNER, the single L-shaped casting they are legs of. Leaving them unresolved was not a finished answer - it left the substrate check unenforceable across the whole external perimeter. M2/M6b (loggia_enclosure) remain materially UNSET, deliberately."
   },
   "THE_FLAT_IS_BEING_COMPLETELY_REWIRED_2026_09_17": {
     "owner": "«the current plan is to replace all the existing wiring. This is the current placement of electric outlets and switches - it is just for reference, for starting, for testing how to construct electric wiring.»",

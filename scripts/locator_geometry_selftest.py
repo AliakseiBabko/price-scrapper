@@ -223,10 +223,31 @@ def main() -> int:
            "clear of every void")
 
     # ⚠️ ...and an UNKNOWN material is not assumed chase-able.
-    rows = [socket(along_face_mm="200", host_ref="MC", face_ref="cross_lo"),
+    # ⚠️ M2 is `loggia_enclosure` with NO material recorded - deliberately, the
+    # thickness record is inconsistent and nothing reviewed states it.
+    rows = [socket(along_face_mm="200", host_ref="M2", face_ref="cross_lo"),
             avoid("SEED")]
-    expect("an unclassified host is INCOMPLETE, not assumed chase-able", rows,
-           "SEED", "incomplete", "not assumed chase-able")
+    expect("a host with no material is INCOMPLETE, not chase-able", rows,
+           "SEED", "incomplete", "NOT assumed chase-able")
+
+    # ⚠️ THE WHITELIST SEED, and it is the exact case the review found: an
+    # earlier version only REFUSED concrete, so a PROPOSED accessory on M2
+    # passed substrate checking and reached `partial`. "Not concrete" is not
+    # the owner's rule; "exclusively aerated block" is.
+    rows = [socket(along_face_mm="200", host_ref="M2", face_ref="cross_lo",
+                   phase="proposed"), avoid("SEED")]
+    expect("PROPOSED work on a non-block material is refused", rows, "SEED",
+           "invalid", "every new drop must be chased into aerated_block")
+
+    # ...and proposed work on block is accepted, so the seed above is not just
+    # refusing everything proposed.
+    rows = [socket(along_face_mm="200", host_ref="G7", face_ref="cross_lo",
+                   phase="proposed"), avoid("SEED"),
+            says("SEED", "vertical", "300"),
+            says("SEED", "extent_along_mm", "80"),
+            says("SEED", "extent_vertical_mm", "80")]
+    expect("PROPOSED work on aerated block is valid", rows, "SEED", "valid",
+           "clear of every void")
 
     # ── 8 ─ surface_local reports UNAVAILABLE, and unknown kinds FAIL ────────
     rows = [socket(locator_kind="surface_local", host_ref="", face_ref="",
