@@ -9,8 +9,8 @@
   "field_verified": false,
   "artefacts": {
     "_Drawings/review/v0_dxf_readback.png": "e43018f8ff3c2227c2615d717e3b2201017a9ad0d3a6b8b64e557a25b24e7d9a",
-    "data/cad/dxf/v0_developer_layout.dxf": "7dd218d60c305e17ed7d17fdfab655eb61182f10d7ee9e6f0e1e0cf6ed3e1dd7",
-    "data/canonical/v0_named_walls_placed.json": "98a2d1bdb4eae7ac0174387af2dbe59167ce878ca6dee48b7efbb0a4f00821dc",
+    "data/cad/dxf/v0_developer_layout.dxf": "d04e138cdf510893b51aca8a6a36c0e2cf6512006d2c064bdbed14e5bb2fa425",
+    "data/canonical/v0_named_walls_placed.json": "46897e3416196bc555c7f84d92ec671c24cdce3968dfccbf0945e0e972bb01e5",
     "00_Master/V0_Baseline_Review_Sheet.md": "aeada404f1fbac0b9f770c19b017ed3414101c91169869736fd719a7bd015626"
   },
   "!!_THE_HASHES_ARE_THE_SCOPE": "!! Approval is recorded against these BYTES, not against 'the drawing'. If any artefact changes, the acceptance LAPSES. !! AND THAT IS ENFORCED, NOT PROMISED: tools/layout/check_baseline_acceptance.py recomputes all three hashes on every run, compare_variants.py prints a PROVISIONAL banner when they do not match, and --require-accepted refuses outright. This sentence was prose alone until 2026-09-17, when nothing in tools/ or scripts/ read this file at all.",
@@ -66,5 +66,6 @@
       "evidence": "wall_materials.json ventilation_shafts_as_a_class / CORRECTION_floor_band_2026_09_04 / V1_flagged"
     }
   ],
-  "!!_ACCEPTANCE_MUST_UNBLOCK_WHAT_IT_CLAIMS_TO": "!! The comparison reads data/outputs/variants/v0-existing/spec.json, NOT the accepted DXF - and that spec is an early schematic carrying its own `_retired` warning: 18 walls against 25, no ventilation shafts, a rectangular loggia. Until it is rebuilt from the resolved geometry, accepting the DXF would unblock a sheet built from the superseded file. check_baseline_acceptance.py now refuses on exactly this."
+  "!!_ACCEPTANCE_MUST_UNBLOCK_WHAT_IT_CLAIMS_TO": "!! The comparison reads data/outputs/variants/v0-existing/spec.json, NOT the accepted DXF - and that spec is an early schematic carrying its own `_retired` warning: 18 walls against 25, no ventilation shafts, a rectangular loggia. Until it is rebuilt from the resolved geometry, accepting the DXF would unblock a sheet built from the superseded file. check_baseline_acceptance.py now refuses on exactly this.",
+  "!!_hashes_are_newline_normalised": "!! Text artefacts are hashed with CRLF folded to LF. git on Windows rewrites line endings on checkout, so a raw byte hash would lapse the owner acceptance on a fresh clone for a reason unrelated to the drawing. Binary artefacts are hashed raw, where the bytes ARE the content."
 }

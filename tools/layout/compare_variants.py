@@ -383,6 +383,20 @@ def main() -> int:
                   "the owner has not accepted")
             return 1
 
+    # ⚠⚠ ONE BASIS, OR NO SHEET. v0 is now compiled from ResolvedGeometry and
+    # v1 is still built on its own shell, so a difference between them is not a
+    # difference between layouts. The gate refuses BEFORE anything is drawn -
+    # a sheet that exists is a sheet that travels.
+    from check_variant_basis import basis_problems
+    basis = basis_problems(loaded[0][0], loaded[1][0]) if len(loaded) > 1 else []
+    if basis:
+        print("NOT ONE BASIS - refusing to draw a comparison:")
+        for problem in basis:
+            print("   %s" % problem)
+        print("   -> rebase the proposal onto the resolved shell first; see "
+              "tools/layout/check_variant_basis.py")
+        return 1
+
     rules = load_rules()
     out = Path(a.out)
     svg_path = out / "variant_comparison_a3.svg"

@@ -2,9 +2,11 @@
   "schema_version": "0.1.0",
   "variant_id": "v0-existing",
   "name": "Вариант 0 - существующее состояние (без изменений)",
-  "base_spec": "data/canonical/current_apartment_base.json",
+  "base_spec": null,
   "status": "baseline",
   "concept": "Исходная планировка как есть. Нужна как база сравнения: любой другой вариант читается как разница с ней.",
   "authored_by": "price-scrapper project",
-  "operations": []
+  "operations": [],
+  "generated_by": "tools/layout/build_variant_spec.py",
+  "!!_base_spec_removed_2026_09_17": "!! It named data/canonical/current_apartment_base.json, which is RETIRED. v0 is no longer assembled from a base spec plus operations - it is COMPILED directly from resolve_v0_geometry.resolve(), the same compiler the DXF and the IFC come from. A base_spec pointing at a superseded file kept a retired input in the comparison's dependency chain even after the spec itself was rebuilt."
 }

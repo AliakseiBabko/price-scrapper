@@ -72,9 +72,21 @@ BANNER = ("PROVISIONAL - v0 baseline NOT accepted by the owner. "
           "Not decision-bearing.")
 
 
+# ⚠⚠ TEXT FILES ARE HASHED WITH NEWLINES NORMALISED. git on Windows rewrites
+# LF to CRLF on checkout, so a raw byte hash of a committed .md or .json
+# changes without anybody editing it - the pin would lapse on a fresh clone and
+# the owner's acceptance would evaporate for a reason that has nothing to do
+# with the drawing. Binary artefacts are hashed raw, where the bytes ARE the
+# content.
+TEXT_SUFFIXES = (".md", ".json", ".csv", ".dxf", ".svg", ".txt")
+
+
 def sha256(path):
     with io.open(path, "rb") as fh:
-        return hashlib.sha256(fh.read()).hexdigest()
+        blob = fh.read()
+    if path.lower().endswith(TEXT_SUFFIXES):
+        blob = blob.replace(bytes([13, 10]), bytes([10]))
+    return hashlib.sha256(blob).hexdigest()
 
 
 def load(path=RECORD):
