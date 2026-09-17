@@ -13,6 +13,11 @@
   ELIGIBILITY is decided by an AUTHORED TABLE. `insulation_decision_table.csv`,
                                               not a rule buried in code.
 
+⚠⚠ AND WHAT "COVERED" MEANS: every face CLASSIFIED `envelope` has a
+complete cover. Faces still classified `unknown` are covered by nothing and
+block nothing, so a pass means *inventory complete, classification incomplete* -
+never "every boundary in the flat is understood".
+
 ⚠️ THE IN-SCOPE INVENTORY IS A SEPARATE FILE WITH A SEPARATE ORIGIN. If the
 patches decided what was in scope, "every in-scope face is covered" would be
 circular - a face nobody thought about would never be in scope, and the check
@@ -75,6 +80,14 @@ REQUIRED_PROPERTIES = ("adjacent_scope", "adjacent_space_kind",
 
 VALUE_STATES = ("asserted", "derived", "candidate", "disputed", "unknown")
 
+# ⚠⚠ THREE OUTCOMES, NOT TWO AND A NULL. `None` conflated a PROVEN `no`
+# with "nobody knows yet" and with "no rule matches", and a generator reading
+# them as one falsy value would turn uncertainty into silent omission - the
+# omission looking exactly like a confident decision not to insulate.
+REQUIRED = "required"
+NOT_REQUIRED = "not_required"
+UNRESOLVED = "unresolved"
+
 # ⚠️ A value state that may drive GENERATION. Candidate and disputed may appear
 # in review output and nowhere else; unknown drives nothing at all.
 GENERATOR_STATES = ("asserted", "derived")
@@ -125,6 +138,31 @@ def check(inventory=None, patches=None, assertions=None, decisions=None):
     assertions = load_assertions() if assertions is None else assertions
     decisions = load_decisions() if decisions is None else decisions
     problems = []
+
+    # ⚠⚠ UNIQUENESS IS CHECKED ON THE SEQUENCE, BEFORE ANY dict() COLLAPSES
+    # IT. Every keyed lookup in this file used to be built straight from the
+    # rows, so a duplicate row silently overwrote its twin and the validator
+    # reported nothing - a second `contact_kind` assertion turned an eligible
+    # patch unresolved with zero problems. A collection that deduplicates
+    # destroys the defect being checked, which the discipline doc already
+    # names, and it happened here in three places at once.
+    def _duplicates(label, rows, key):
+        seen, dupes = set(), []
+        for row in rows:
+            value = tuple((row.get(k) or "").strip() for k in key)
+            if value in seen:
+                dupes.append(
+                    "%s has a DUPLICATE row for %s. Whichever row is read last "
+                    "would decide the answer, so file order would decide "
+                    "construction" % (label, " / ".join(value)))
+            seen.add(value)
+        return dupes
+
+    problems.extend(_duplicates("the face inventory", inventory,
+                                ("host_id", "face_ref")))
+    problems.extend(_duplicates("the assertions", assertions,
+                                ("patch_uuid", "property")))
+    problems.extend(_duplicates("the decision table", decisions, ("rule_id",)))
 
     faces = dict(((r["host_id"], r["face_ref"]), r) for r in inventory)
     in_scope = set(k for k, r in faces.items()
@@ -320,13 +358,47 @@ def check(inventory=None, patches=None, assertions=None, decisions=None):
             problems.append("decision rule %r has insulation_required %r, "
                             "which must be yes or no"
                             % (rule.get("rule_id"), verdict))
+
+    # ⚠⚠ OVERLAPPING RULES WITH DIFFERENT VERDICTS ARE REFUSED OUTRIGHT.
+    # The first version matched the FIRST rule that fit, so inserting an
+    # opposite rule above INS-EXT-OPEN flipped M2 from insulated to not, and
+    # validation reported nothing. There is no precedence column and there
+    # should not be one: CSV row order must never decide construction.
+    def _overlap(a, b):
+        for prop in REQUIRED_PROPERTIES:
+            av, bv = (a.get(prop) or "").strip(), (b.get(prop) or "").strip()
+            if av == "*" or bv == "*":
+                continue
+            if av != bv:
+                return False
+        return True
+
+    for i, a in enumerate(decisions):
+        for b in decisions[i + 1:]:
+            if not _overlap(a, b):
+                continue
+            if (a.get("insulation_required") != b.get("insulation_required")):
+                problems.append(
+                    "decision rules %s and %s OVERLAP with opposite verdicts "
+                    "(%s vs %s). A case they both match would be decided by "
+                    "which row comes first - make them disjoint, never ordered"
+                    % (a.get("rule_id"), b.get("rule_id"),
+                       a.get("insulation_required"),
+                       b.get("insulation_required")))
     return problems
 
 
 def eligibility(patch_uuid, assertions=None, decisions=None):
-    """(verdict, rule_id, why) for one patch. `None` verdict = not eligible.
+    """(state, rule_id, why) for one patch - the ONE place eligibility resolves.
 
-    ⚠️⚠️ A CANDIDATE OR DISPUTED VALUE NEVER REACHES A GENERATOR. It may be
+    ⚠⚠ STATE IS AN ENUM: `required`, `not_required`, `unresolved`. It used to
+    be True/False/None, which made a PROVEN `no` and a merely unknown one the
+    same falsy value to any caller that did not check identity. Issued
+    generation must FAIL on `unresolved`; review output may show it. Turning
+    "nobody has established this" into "no insulation here" is exactly how a
+    missing band would look like a decision.
+
+    ⚠⚠ A CANDIDATE OR DISPUTED VALUE NEVER REACHES A GENERATOR. It may be
     shown in review output, where a person reads it and can disagree. An
     `unknown` drives nothing at all. This is the guard that stops the schema
     quietly acquiring the authority the old flood heuristic had.
@@ -337,25 +409,43 @@ def eligibility(patch_uuid, assertions=None, decisions=None):
     for row in assertions:
         if (row.get("patch_uuid") or "").strip() != patch_uuid:
             continue
-        values[row["property"]] = (row.get("value") or "").strip()
-        states[row["property"]] = (row.get("value_state") or "").strip()
+        prop = (row.get("property") or "").strip()
+        # ⚠️ A DUPLICATE MUST NOT WIN BY BEING LAST. `check()` refuses
+        # duplicates outright; this refuses to resolve past one, so a caller
+        # that skipped validation cannot be handed a quietly overwritten value.
+        if prop in values:
+            return (UNRESOLVED, None,
+                    "%s is asserted more than once - a duplicate row would "
+                    "otherwise decide the answer by its position in the file"
+                    % prop)
+        values[prop] = (row.get("value") or "").strip()
+        states[prop] = (row.get("value_state") or "").strip()
 
     for prop in REQUIRED_PROPERTIES:
         if prop not in values:
-            return None, None, "no assertion about %s" % prop
+            return UNRESOLVED, None, "no assertion about %s" % prop
         if values[prop] == "unknown":
-            return None, None, "%s is unknown" % prop
+            return UNRESOLVED, None, "%s is unknown" % prop
         if states[prop] not in GENERATOR_STATES:
-            return (None, None,
+            return (UNRESOLVED, None,
                     "%s is %s, which may appear in review output only"
                     % (prop, states[prop]))
 
-    for rule in decisions:
-        if all(rule.get(prop) in ("*", values[prop])
-               for prop in REQUIRED_PROPERTIES):
-            return (rule["insulation_required"] == "yes", rule["rule_id"],
-                    rule.get("rationale", ""))
-    return None, None, "no decision rule matches %s" % values
+    matched = [rule for rule in decisions
+               if all(rule.get(prop) in ("*", values[prop])
+                      for prop in REQUIRED_PROPERTIES)]
+    if not matched:
+        return UNRESOLVED, None, "no decision rule matches %s" % values
+    verdicts = set(r["insulation_required"] for r in matched)
+    if len(verdicts) > 1:
+        # ⚠⚠ NEVER RESOLVE A CONFLICT BY FILE ORDER. `check()` refuses an
+        # overlapping pair with different verdicts, and this refuses to pick
+        # one - CSV row order must not decide construction.
+        return (UNRESOLVED, None,
+                "rules %s disagree" % ", ".join(sorted(r["rule_id"] for r in matched)))
+    rule = matched[0]
+    return ((REQUIRED if rule["insulation_required"] == "yes" else NOT_REQUIRED),
+            rule["rule_id"], rule.get("rationale", ""))
 
 
 def main() -> int:
@@ -375,7 +465,8 @@ def main() -> int:
             print("  %-5s %-10s %8.1f..%-8.1f %-10s %s"
                   % (row["host_id"], row["face_ref"],
                      float(row["along_from_mm"]), float(row["along_to_mm"]),
-                     {True: "INSULATE", False: "none", None: "not-eligible"}[verdict],
+                     {REQUIRED: "INSULATE", NOT_REQUIRED: "none",
+                      UNRESOLVED: "UNRESOLVED"}[verdict],
                      rule or why))
 
     inventory = load_inventory()
@@ -385,8 +476,11 @@ def main() -> int:
     if problems:
         print("FAILED: %d problem(s)" % len(problems))
         return 1
-    print("PASS - every envelope face is covered, and every value carries its "
-          "own status")
+    print("PASS - every face CLASSIFIED `envelope` is covered, and every value "
+          "carries its own status")
+    print("       !! inventory complete, CLASSIFICATION INCOMPLETE: %d face(s) "
+          "are still `unknown` and block nothing"
+          % sum(1 for r in inventory if r.get("in_scope") == "unknown"))
     return 0
 
 
