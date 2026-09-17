@@ -1,0 +1,10 @@
+{
+  "Walls carry a type designation": 25,
+  "Walls carry a material association": 25,
+  "Doors carry a type designation": 6,
+  "Windows carry a type designation": 3,
+  "Every wall declares its phase": 25,
+  "Every wall is in a spatial container": 25,
+  "Walls expose their canonical identity": 25,
+  "No unclassified proxies": 2
+}
