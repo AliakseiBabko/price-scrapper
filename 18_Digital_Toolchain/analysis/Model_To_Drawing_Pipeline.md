@@ -9,6 +9,9 @@
 >
 > ⚠️ **Read for mechanism, not as a tool recommendation.** Every UI path in the underlying sources is discarded as dated — the add-on was renamed from BlenderBIM to Bonsai and its UI overhauled between the sources cited here.
 
+
+> ⚠️ **Whether engineering systems are worth modelling in 3D at all** is a decision about this project's model, not about drawing mechanics, so it lives in `00_Master/Model_and_Views.md` → *"Is 3D MEP worth modelling"*. It reconciles Lloyd Sark's report that Bonsai's native MEP is broken with three practitioners who model MEP in 3D commercially.
+
 ## 1. ⚠️⚠️ The dividing line: a drawing that is GENERATED versus a drawing that is EXPORTED
 
 **Two complete routes to the same annotated floor plan appear in the same batch, and they differ on the only axis that matters.**

@@ -1,0 +1,13 @@
+{
+  "url": "0T97_CA7hgo",
+  "video_id": "0T97_CA7hgo",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T00:00:00+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e680704486abbb9071405b5c364d6c95b01ba3e72ab68ec372a860de08734f5f",
+  "attempts_before_success": [],
+  "upload_date": "2020-04-23",
+  "upload_date_source": "yt-dlp"
+}

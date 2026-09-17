@@ -324,3 +324,34 @@ Fixed, so it does not have to be rediscovered:
   `tools/drawings/build_gallery.py`.
 
 Commands in [How_To_View_Outputs.md](How_To_View_Outputs.md).
+
+---
+
+## ⚠️⚠️ Is 3D MEP worth modelling, or is a 2D overlay the real answer? (2026-09-17)
+
+**The question arose because one source appeared to settle it.** Lloyd Sark (IfcArchitect), in `RL3IAGeMi5s`, reports that **Bonsai's native MEP is broken** — *"there's a few issues with the system flow… when you do pipes, when you do connections, when you do HVAC"* — and that practitioners therefore cut the architectural plan and **draft 2D annotations as an overlay**: *"the drawing becomes a stop gap."*
+
+**Two Russian practitioners contradict the conclusion while agreeing with the fact.**
+
+| | Practice | Tool |
+| :--- | :--- | :--- |
+| Алексей Дубровин, `kxJ9R3gQjKw` | electrics **and now plumbing** modelled in 3D as normal commercial work; all clients order it; all work executed to the 3D project | unnamed 3D modeller |
+| LOFT DIY, `0T97_CA7hgo` | wiring modelled in 3D, organised by **layer and group**, lengths read off by selecting the group | SketchUp |
+| Алексей Шемчук, `0c-QhBDQMWE` +4 | *«В модели выполняется вся работа таким образом, как она потом будет выполняться на объекте»* — cable types colour-coded in the model, routes chosen against the other trades, a per-cable schedule with start, end and **length** | unnamed 3D modeller |
+
+### ⚠️ THE RECONCILIATION — and it is the useful part
+
+> **Sark's complaint is about the SYSTEM layer. The benefits the others report come from the GEOMETRY layer.**
+
+*System flow*, port-to-port connectivity and `IfcDistributionPort` are the semantic network. **Everything the three practitioners actually gain is obtainable from the physical run alone** — a cable of a stated type, on a stated path, at a stated height, in a chase of measurable length:
+
+- **coordination against other trades**, decided in the model rather than on site;
+- **quantities by selection**, including ⚠️⚠️ **chase length — a priced LABOUR item**: Дубровин selects the chases and reads *«67 с лишним метров»*;
+- **as-built documentation** handed to following trades so they know *«где сверлить можно, где сверлить нельзя»*, which transfers cable-strike liability;
+- **installation schematics** that cut fitting time and errors.
+
+**→ ⚠️ THE 2D-OVERLAY FALLBACK IS EVIDENCE ABOUT ONE AUTHORING APPLICATION, NOT ABOUT WHETHER THE GEOMETRY IS WORTH HAVING.** It is a labour-saving retreat in a hand-modelling workflow; a pipeline that GENERATES geometry from canonical data does not pay that labour, so the reason for the retreat does not transfer.
+
+**What does transfer is the narrower warning**: the connectivity layer is where practitioners report Bonsai misbehaving. Modelling runs as geometry while keeping circuit membership as authored data — rather than relying on port semantics — takes the benefits and avoids the reported failure.
+
+⚠️ **Standing rule 3 caveat:** Дубровин sells 3D design as a service, and offers no measured comparison against 2D practice. The benefits are specific and plausible; they are not independently verified.
