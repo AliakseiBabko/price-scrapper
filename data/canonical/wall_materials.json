@@ -1096,5 +1096,26 @@
     "radiator_positions_are_DERIVABLE_now": "Three radiators, one under each external window, from wall_opening_spans.csv: MA/O4 span 167-303 (комната 9.36), MB/O2 411-576 (средняя), MC/O3 765-943 (кухня-гостиная). The лоджия is unheated. Sheet 5 can therefore be started — it is not blocked outright, only incomplete.",
     "HYPOTHESIS_SH_B_is_the_heating_riser": "SH-B, the insulated floor-to-ceiling riser in P1, has been carried as “NOT confirmed as heating”. There is now a FUNCTIONAL argument, which is the kind of reasoning that would have killed the retracted лежак: horizontal per-flat distribution with a heat meter REQUIRES a heating riser reaching the flat’s service block; SH-B is an insulated riser in that block; insulation is the giveaway, since ГВС/ХВС risers there are not insulated; and there is no other candidate anywhere in the model. NOT asserted. The named test: a HEAT METER should be at or near it — building_spec says one is installed — and a heat meter is not a water meter, so the two round meter faces in b83a are the water pair and a third device should exist.",
     "THE_ONE_REAL_BLOCKER": "The pipe route in the screed. Heating is the only service with no trace at all, and the reason is mine: I read the floor stencil as ОТОПЛЕНИЕ three times when it says ВОДОСНАБЖЕНИЕ, so nobody ever went looking for the heating one. If a second stencil exists on the screed in the surveyed flats, it is the cheapest evidence available."
+  },
+  "A_CABLE_CANNOT_BE_CHASED_INTO_CONCRETE_2026_09_17": {
+    "owner": "«where a socket, electric sockets, electric wiring - they use not concrete, like our R7, R2, these are concrete slabs and it is prohibited to create any significant cavities inside them, so wiring goes through the aerated concrete blocks like G5, G7, G3» (2026-09-17)",
+    "the_rule": "A concealed electrical accessory - socket, switch, junction or back box - is chased into the wall that hosts it. Significant cavities may not be cut into the monolithic RC frame, so NO accessory is hosted on a `concrete` wall. Accessories sit in `aerated_block` (G-series) or the block-built external perimeter (M-series).",
+    "which_walls": "class=concrete in this file: R1 R2 R3 R4 R5 R6 R7 R8 R9. Those are the monolithic RC frame. Everything G* is aerated_block; M* is the 300 mm block external perimeter.",
+    "what_it_can_and_cannot_do": "!! It DISPROVES a placement; it never proves an element exists. Same standing as A_PIPE_CANNOT_CROSS_CONCRETE_2026_09_07, which is the plumbing twin of this rule.",
+    "MC_is_a_separate_matter": "!! MC carries no outlets, and that is NOT this rule. MC is block and could physically be chased; it is empty as a matter of FACT - the owner: «there are no outlets on the wall with the window, not a trace of it», corroborated by add8, where both flanks of O3 are clean. Conflating an observed absence with a structural prohibition would put the right answer on the wrong reasoning.",
+    "what_it_disproves_today": {
+      "W6": "!! The living-room switch was INFERRED onto R5 beside O10 on 2026-09-07 because O10 is the room's only entrance. R5 is CONCRETE, so it cannot host a chased switch. The existence claim (owner: the switch is at O10) survives; the HOST does not. O10's south edge is touched by G6 cross_hi, R4 end_to and R5 end_to - and G6 is aerated block, so it is the only chase-able jamb there. NOT asserted: recorded as the candidate the rule points to.",
+      "S4": "drawn on R2 - concrete. Host disproven.",
+      "S9": "drawn on R6 - concrete. Host disproven."
+    },
+    "why_this_matters_beyond_three_symbols": "It is a CONSTRAINT the model can carry, so a wall assignment can now be refuted by the model instead of only by the owner noticing. Wall assignment is the axis that WALL_MAPPING_WAS_WRONG_TWICE_2026_09_07 records as the one I could not read off photographs at all."
+  },
+  "WALL_IDS_ARE_NOT_ALIGNED_WITH_THE_MODEL_2026_09_17": {
+    "found_by": "the wiring-substrate check, which needs a material class per wall and could not find one for six of them.",
+    "in_the_model_but_UNCLASSIFIED": "MA MB MC G4C R1a R1b",
+    "classified_but_NOT_in_the_model": "G1 G4c G4e M1 M3 M4 M5 M6a M7 R1",
+    "the_likely_pairs": "G4C/G4c is a CASE difference only. R1a+R1b are the model’s split of R1, which this file says is ONE monolithic piece that must not be split. MA/MB/MC have no obvious counterpart in M1..M7 at all.",
+    "NOT_GUESSED": "!! No alias map is being written from this. A material class decides whether a cable may be chased into a wall, so a wrong pairing would silently authorise chasing the RC frame - the exact thing the rule forbids. Unclassified walls report INCOMPLETE and are NOT assumed chase-able.",
+    "consequence_today": "MC in particular is unclassified, so the substrate rule cannot yet be applied to the window wall. That does not matter for the outlets - MC carries none, by the owner and by add8 - but it does mean the check is not yet complete over the external perimeter."
   }
 }
