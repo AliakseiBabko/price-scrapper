@@ -107,12 +107,38 @@ def main() -> int:
     # ⚠️ 11 - THE COMPARABLE-FLAT RULE, MADE ENFORCEABLE. A blank scope is
     # exactly how a comparable-flat observation would quietly become a fact
     # about this apartment.
-    expect("an observation with no scope_apartment is caught",
-           check(seed("OBS-EC-LIGHT-109", scope_apartment="")), True,
+    expect("an observation with no scope_ref is caught",
+           check(seed("OBS-EC-LIGHT-109", scope_ref="")), True,
            "missing required column")
     expect("a scope naming a flat nobody surveyed is caught",
-           check(seed("ASR-EC-LIGHT-OURS", scope_apartment="77")), True,
-           "comparable actually looked at")
+           check(seed("ASR-EC-LIGHT-OURS", scope_ref="77")), True,
+           "nobody surveyed")
+    # ⚠️ THE LAUNDERING SEED. A projection quietly claiming observed basis for
+    # our flat is how comparable-flat evidence becomes a field-verified fact.
+    expect("an `ours` observed assertion with no `ours` observation is caught",
+           check(seed("ASR-EC-LIGHT-OURS", knowledge_basis="observed")), True,
+           "§3.0f")
+    # and the typed scope can express what the enumeration could not
+    expect("a unit_type scope is accepted",
+           check(seed("ASR-EC-LIGHT-OURS", scope_kind="unit_type",
+                      scope_ref="3B/2+")), False)
+    expect("an undeclared scope_kind is caught",
+           check(seed("OBS-EC-LIGHT-109", scope_kind="floor")), True,
+           "not declared")
+
+    # ⚠️ THE ENVELOPE SEEDS. Without these properties the extent check has
+    # nothing to read and the validator would have to invent device sizes.
+    expect("an unknown extent is legitimate as an explicit unknown",
+           check(rows), False)
+    expect("an empty value that is NOT an explicit unknown is caught",
+           check(seed("ASR-W6-EXT-A", value_state="candidate")), True,
+           "only meaningful as an explicit `unknown`")
+    expect("an undeclared host_interaction is caught",
+           check(seed("ASR-SV-VT-HOSTINT", value="ignore_void")), True,
+           "which is not one of")
+    expect("an undeclared anchor_mode is caught",
+           check(seed("ASR-W6-ANCHOR", value="middle-ish")), True,
+           "which is not one of")
 
     # 12 - a row in the wrong table
     expect("a concept in the wrong table is caught",

@@ -59,9 +59,9 @@ TABLE_CONCEPT = {
 REQUIRED = {
     "occurrence": ("service_kind", "phase", "locator_kind", "placement_state"),
     "assembly": ("assembly_kind", "member_keys"),
-    "observation": ("observed_what", "scope_apartment", "observed_via"),
+    "observation": ("observed_what", "scope_kind", "scope_ref", "observed_via"),
     "assertion": ("property", "value_type", "polarity", "knowledge_basis",
-                  "value_state", "scope_apartment"),
+                  "value_state", "scope_kind", "scope_ref"),
     "relation": ("relation_kind", "from_ref", "to_ref"),
 }
 
@@ -84,8 +84,32 @@ BASES = {"observed", "derived", "assumed", "stated", "unknown"}
 VALUE_STATES = {"asserted", "candidate", "disputed", "unknown", "retracted"}
 VALUE_TYPES = {"bool", "int", "mm", "string", "enum", "range"}
 PROPERTIES = {"existence", "count", "position_along", "vertical", "function",
-              "voltage", "route_state", "gang", "arrangement"}
-# `ours` or a comparable actually looked at. A blank is what the rule forbids.
+              "voltage", "route_state", "gang", "arrangement",
+              # ⚠️ THE TERMINAL ENVELOPE, and it lives HERE rather than as
+              # occurrence columns so that each part carries its OWN basis and
+              # state. An occurrence has an anchor POINT; a point cannot
+              # collide with anything. Without these the extent check has
+              # nothing to read, and the validator would have had to invent
+              # default device dimensions internally - which is exactly how an
+              # assumption becomes invisible.
+              "extent_along_mm", "extent_vertical_mm", "anchor_mode",
+              "host_interaction"}
+
+# Enum properties whose values are closed. An open string here would let
+# `host_interaction` drift into meaninglessness.
+ENUM_VALUES = {
+    "anchor_mode": {"centre", "lower_centre", "upper_centre", "start", "end"},
+    # ⚠️ `creates_penetration` is why a blanket "a service may not overlap a
+    # void" rule is wrong: SV-VT IS a hole through G4b, and such a rule would
+    # eventually reject the one element whose purpose is to be one.
+    "host_interaction": {"avoid_void", "creates_penetration", "fills_opening"},
+}
+
+# ⚠️ SCOPE IS TYPED, NOT AN APARTMENT ENUMERATION. The first version allowed
+# only `ours`/`53`/`109`/`2`, which cannot express the thing §3.0f explicitly
+# permits as a route to established existence: a developer document governing
+# this UNIT TYPE. That is not an apartment.
+SCOPE_KINDS = {"apartment", "unit_type", "building"}
 APARTMENTS = {"ours", "53", "109", "2"}
 
 
@@ -213,8 +237,26 @@ def check(rows):
                 if value and value not in allowed:
                     problems.append("%s has %s %r, which is not declared"
                                     % (key, column, value))
+            prop = (row.get("property") or "").strip()
+            state = (row.get("value_state") or "").strip()
+            allowed = ENUM_VALUES.get(prop)
+            if allowed and (row.get("value") or "").strip() not in allowed:
+                problems.append(
+                    "%s asserts %s=%r, which is not one of %s"
+                    % (key, prop, (row.get("value") or "").strip(),
+                       "/".join(sorted(allowed))))
             vtype = (row.get("value_type") or "").strip()
-            if vtype in VALUE_TYPES and not _typed(row.get("value"), vtype):
+            # ⚠️ AN EMPTY VALUE IS LEGITIMATE ONLY AS AN EXPLICIT UNKNOWN.
+            # "extent is unknown" has to be a RECORD, because the validator
+            # treats unknown extent as INCOMPLETE rather than valid - but an
+            # empty value with any other state is a row nobody finished.
+            if not (row.get("value") or "").strip():
+                if state != "unknown":
+                    problems.append(
+                        "%s has no value but value_state is %r - an empty value "
+                        "is only meaningful as an explicit `unknown`"
+                        % (key, state))
+            elif vtype in VALUE_TYPES and not _typed(row.get("value"), vtype):
                 problems.append(
                     "%s declares value_type %r but its value %r does not parse "
                     "as one" % (key, vtype, (row.get("value") or "")[:40]))
@@ -225,12 +267,51 @@ def check(rows):
                                     "declares" % (key, column, ref))
 
         if concept in ("observation", "assertion"):
-            scope = (row.get("scope_apartment") or "").strip()
-            if scope and scope not in APARTMENTS:
+            kind = (row.get("scope_kind") or "").strip()
+            ref = (row.get("scope_ref") or "").strip()
+            if kind and kind not in SCOPE_KINDS:
+                problems.append("%s has scope_kind %r, which is not declared"
+                                % (key, kind))
+            elif kind == "apartment" and ref and ref not in APARTMENTS:
                 problems.append(
-                    "%s has scope_apartment %r; it must name `ours` or the "
-                    "comparable actually looked at - this column is what makes "
-                    "the comparable-flat rule enforceable" % (key, scope))
+                    "%s is scoped to apartment %r, which nobody surveyed - an "
+                    "apartment scope must name `ours` or a comparable actually "
+                    "looked at" % (key, ref))
+
+    # ⚠️ THE COMPARABLE-FLAT RULE, ENFORCED STRUCTURALLY (design §3.0f).
+    # -----------------------------------------------------------------
+    # An observation in another flat and a projection onto ours must stay
+    # SEPARATE RECORDS. The way that gets violated is not by writing a false
+    # row - it is by an `ours` assertion quietly claiming `observed` basis
+    # while every observation behind it is of somebody else's flat. Then the
+    # projection has laundered itself into a field-verified fact and the note
+    # saying otherwise is the only thing left.
+    observed_scopes = {}
+    for row in rows:
+        if (row.get("target_concept") or "").strip() != "observation":
+            continue
+        key = (row.get("migration_key") or "").strip()
+        observed_scopes[key] = ((row.get("scope_kind") or "").strip(),
+                                (row.get("scope_ref") or "").strip())
+    for row in rows:
+        if (row.get("target_concept") or "").strip() != "assertion":
+            continue
+        key = (row.get("migration_key") or "").strip()
+        if ((row.get("scope_kind") or "").strip() != "apartment"
+                or (row.get("scope_ref") or "").strip() != "ours"
+                or (row.get("knowledge_basis") or "").strip() != "observed"):
+            continue
+        backing = [k for k in observed_scopes
+                   if k in (row.get("source_locators") or "")]
+        ours = [k for k in backing if observed_scopes[k] == ("apartment", "ours")]
+        if not ours:
+            problems.append(
+                "%s is scoped to OUR apartment with knowledge_basis=observed, "
+                "but no observation record scoped to ours backs it - evidence "
+                "from a comparable flat is an observation of THAT flat and a "
+                "CANDIDATE, DERIVED projection onto this one (design §3.0f). "
+                "Use knowledge_basis=derived with value_state=candidate, as a "
+                "separate record." % key)
 
     return problems
 
