@@ -200,9 +200,16 @@ def main() -> int:
     expect("a `decomposed` parent with no claims", problems, True,
            "has no claims")
 
-    # 12 - the REAL ledger today
+    # 12 - the REAL ledger today. ⚠️ ADJUDICATION IS NOW COMPLETE (2026-09-17):
+    # every source locator carries a judgement and none is `unresolved`. That
+    # makes this seed STRONGER, not weaker - it is now exactly the arrangement
+    # the old `migrated` disposition would have let through. Fully judged,
+    # nothing produced, and it must STILL fail.
     problems, summary = check(rows, require_complete=True, claim_rows=claims)
-    expect("the real ledger is still unadjudicated", problems, True, "unresolved")
+    expect("fully adjudicated but ZERO targets must still FAIL", problems, True,
+           "NOT CITED by any target record")
+    expect("...and nothing is left unresolved",
+           [p for p in problems if "unresolved" in p], False)
     print("     (%d locators, %d unresolved, %d in scope, %d targets)"
           % (summary["locators"], summary["unresolved"],
              summary["in_scope"], summary["targets"]))
