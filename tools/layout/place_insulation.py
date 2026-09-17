@@ -485,24 +485,35 @@ def main():
 
     ext_mask, ex0, ey0, ecell = exterior_mask(walls)
     bands, unresolved = [], []
+    import covering_patches
+    parity = covering_patches.check_parity()
+    if parity:
+        sys.exit('covering patches disagree with the legacy columns: '
+                 + '; '.join(parity))
+    covering = covering_patches.legacy_equivalent()
+
     print('%-5s %-5s %-5s %s' % ('wall', 'ins', 'side', 'evidence from the drawing'))
     for w in sorted(walls, key=lambda v: v['id']):
         rec = blocks.get(w['id'])
         if not rec:
             continue
-        raw = (rec.get('insulation_mm') or '').strip()
-        if not raw:
+        # ⚠⚠ THE EXISTING COVERING RECORD IS THE SOURCE, not the wall-wide
+        # columns. `wall_covering_patches.csv` states what was actually BUILT,
+        # per face and per extent, with presence and thickness carrying their
+        # own value states. The columns said one thing per wall and each
+        # consumer read them its own way, which is how the IFC came to assert a
+        # uniform 200+150 on M2 while this file drew 570 mm.
+        # ⚠ The legacy columns are still present and `check_parity()` asserts
+        # they agree - a cutover that moves the source and changes an answer at
+        # once makes it impossible to say which did it.
+        built = covering.get(w['id'])
+        if built is None:
             continue
-        try:
-            ins = float(raw)
-        except ValueError:
-            continue
-        if ins <= 0:
-            continue
+        ins = built['insulation_mm']
         th = float(rec['thickness_mm'])
         ev_lo = evidence_for(w, ins, th, solids, 'low')
         ev_hi = evidence_for(w, ins, th, solids, 'high')
-        directed = (rec.get('insulation_side') or '').strip().lower()
+        directed = (built.get('side') or '').strip().lower()
         if bool(ev_lo) == bool(ev_hi):
             # The drawing does not settle it. An OWNER DIRECTIVE may - and only
             # an owner directive: this is never inferred, and a centroid rule is
@@ -556,11 +567,13 @@ def main():
         # with no recorded extent is unaffected.
         clip = None
         try:
-            cf = (rec.get('insulation_from_mm') or '').strip()
-            ct = (rec.get('insulation_to_mm') or '').strip()
-            if cf and ct:
+            # ⚠ THE EXTENT COMES FROM THE COVERING PATCH TOO, resolved from
+            # its face-local bounds, so the band and the 3D body cannot
+            # describe different stretches of the same wall.
+            cf, ct = built.get('extent_from_mm'), built.get('extent_to_mm')
+            if cf is not None and ct is not None:
                 clip = (float(cf), float(ct))
-        except ValueError:
+        except (ValueError, TypeError):
             clip = None
         gaps = openings_for(w['id'], openings)
         # ...and interrupted AGAIN wherever another wall's body fills the band's
