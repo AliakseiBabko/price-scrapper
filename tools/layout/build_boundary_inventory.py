@@ -13,6 +13,13 @@ So the inventory is a SEPARATE record with a SEPARATE origin:
     the compiler's resolved faces   →   every face that physically exists
     authored classification         →   which of them bound the apartment
 
+⚠⚠ WHAT THIS PROVES, EXACTLY: **the inventory is complete, the
+classification is not.** Every face the compiler resolves appears here, so no
+face is missing because nobody typed it. That is NOT the same as knowing every
+envelope face has been IDENTIFIED - 94 of 102 currently say `unknown`, and a
+newly created envelope face arrives `unknown` and blocks nothing. Do not read a
+passing run as "every boundary is understood".
+
 ⚠️ THE SKELETON IS GENERATED, THE CLASSIFICATION IS AUTHORED. This tool emits
 one row per face the compiler actually resolves, so a face cannot be missing
 because nobody typed it. It never invents a classification: a new face arrives

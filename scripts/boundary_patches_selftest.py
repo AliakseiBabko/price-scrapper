@@ -25,8 +25,8 @@ sys.path.insert(0, os.path.join(REPO, "tools"))
 sys.path.insert(0, os.path.join(REPO, "tools", "layout"))
 
 from check_boundary_patches import (  # noqa: E402
-    check, eligibility, load_assertions, load_decisions, load_inventory,
-    load_patches)
+    NOT_REQUIRED, REQUIRED, UNRESOLVED, check, eligibility, load_assertions,
+    load_decisions, load_inventory, load_patches)
 
 
 def main() -> int:
@@ -187,6 +187,49 @@ def main() -> int:
                "patch_uuid", "ffffffff-ffff-4fff-8fff-ffffffffffff"))),
            True, "which does not exist")
 
+    # ⚠️⚠️ DUPLICATE ROWS. Every keyed lookup in the checker was built straight
+    # from the rows, so a duplicate silently overwrote its twin and NOTHING
+    # reported it - a second contact_kind assertion turned an eligible patch
+    # unresolved with zero problems. Three tables, three seeds.
+    expect("a duplicate INVENTORY row is caught",
+           run(inv=base_inv + [copy.deepcopy(base_inv[0])]),
+           True, "DUPLICATE row")
+    expect("a duplicate ASSERTION is caught",
+           run(ass=base_ass + [copy.deepcopy(base_ass[0])]),
+           True, "DUPLICATE row")
+    expect("a duplicate decision rule_id is caught",
+           run(dec=base_dec + [copy.deepcopy(base_dec[0])]),
+           True, "DUPLICATE row")
+
+    # ⚠️⚠️ AND A DUPLICATE MUST NOT BE RESOLVED PAST even by a caller that
+    # skipped validation - otherwise file order decides the answer.
+    dupe_ass = copy.deepcopy(base_ass)
+    target = next(r for r in dupe_ass
+                  if r["property"] == "contact_kind")
+    twin = copy.deepcopy(target)
+    twin["value_state"] = "candidate"
+    got = eligibility(target["patch_uuid"], dupe_ass + [twin], base_dec)[0]
+    ok = got == UNRESOLVED
+    print("%s a duplicated assertion resolves to UNRESOLVED, not to the last row"
+          % ("PASS" if ok else "FAIL"))
+    failures += 0 if ok else 1
+
+    # ⚠️⚠️ CONFLICTING DECISION RULES. Matching the FIRST rule that fitted made
+    # the verdict depend on CSV row order: an opposite rule inserted above
+    # INS-EXT-OPEN flipped M2 from insulated to not, silently.
+    opposite = dict(copy.deepcopy(base_dec[0]),
+                    rule_id="SEED-OPPOSITE", insulation_required="no")
+    expect("overlapping rules with opposite verdicts are caught",
+           run(dec=[opposite] + base_dec), True, "OVERLAP with opposite")
+
+    conflicted = base_pat[0]["patch_uuid"]
+    first = eligibility(conflicted, base_ass, [opposite] + base_dec)[0]
+    last = eligibility(conflicted, base_ass, base_dec + [opposite])[0]
+    ok = first == UNRESOLVED and last == UNRESOLVED
+    print("%s conflicting rules give UNRESOLVED either way round (%s / %s)"
+          % ("PASS" if ok else "FAIL", first, last))
+    failures += 0 if ok else 1
+
     # ── eligibility ──────────────────────────────────────────────────────────
     expect("an empty decision table is caught", run(dec=[]), True, "EMPTY")
     expect("a decision rule with no verdict is caught",
@@ -201,7 +244,7 @@ def main() -> int:
 
     insulating = None
     for row in base_pat:
-        if verdict_for(row["patch_uuid"], base_ass) is True:
+        if verdict_for(row["patch_uuid"], base_ass) == REQUIRED:
             insulating = row["patch_uuid"]
             break
     if insulating is None:
@@ -215,7 +258,7 @@ def main() -> int:
                 if row["patch_uuid"] == insulating and row["property"] == "contact_kind":
                     row["value_state"] = state
             got = verdict_for(insulating, downgraded)
-            ok = got is None
+            ok = got == UNRESOLVED
             print("%s a %-9s value does not drive generation%s"
                   % ("PASS" if ok else "FAIL", state, "" if ok else " -> %r" % got))
             failures += 0 if ok else 1
@@ -225,7 +268,7 @@ def main() -> int:
             if row["patch_uuid"] == insulating and row["property"] == "contact_kind":
                 row["value"], row["value_state"] = "unknown", "unknown"
         got = verdict_for(insulating, unknowned)
-        ok = got is None
+        ok = got == UNRESOLVED
         print("%s an `unknown` value does not drive generation%s"
               % ("PASS" if ok else "FAIL", "" if ok else " -> %r" % got))
         failures += 0 if ok else 1
@@ -241,21 +284,31 @@ def main() -> int:
         return ("no such patch", None, "")
 
     got, rule, _why = verdict_at("MC", "end_to", 0.0)
-    ok = got is False and rule == "INS-PARTY-MASONRY"
+    ok = got == NOT_REQUIRED and rule == "INS-PARTY-MASONRY"
     print("%s MC's end cap is DERIVED off, not hand-suppressed  (%s)"
           % ("PASS" if ok else "FAIL", rule))
     failures += 0 if ok else 1
 
     got, rule, _why = verdict_at("M2", "cross_lo", 0.0)
-    ok = got is True and rule == "INS-EXT-OPEN"
+    ok = got == REQUIRED and rule == "INS-EXT-OPEN"
     print("%s M2's exposed 570 mm is DERIVED insulated             (%s)"
           % ("PASS" if ok else "FAIL", rule))
     failures += 0 if ok else 1
 
     got, _rule, why = verdict_at("M2", "cross_lo", 570.0)
-    ok = got is None and "candidate" in why
+    ok = got == UNRESOLVED and "candidate" in why
     print("%s M2's abutting run is NOT eligible while contact is candidate"
           % ("PASS" if ok else "FAIL"))
+    failures += 0 if ok else 1
+
+    # ⚠️⚠️ THE THREE OUTCOMES ARE DISTINCT. `None` used to mean both "proven
+    # no" and "nobody knows", and a generator reading them as one falsy value
+    # would turn uncertainty into a silent omission that looks like a decision.
+    mc = verdict_at("MC", "end_to", 0.0)[0]
+    m2b = verdict_at("M2", "cross_lo", 570.0)[0]
+    ok = mc == NOT_REQUIRED and m2b == UNRESOLVED and mc != m2b
+    print("%s a PROVEN `no` and an UNRESOLVED are different values (%s vs %s)"
+          % ("PASS" if ok else "FAIL", mc, m2b))
     failures += 0 if ok else 1
 
     print("\n%d failure(s)" % failures)
