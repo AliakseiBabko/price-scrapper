@@ -263,8 +263,9 @@
       "note": "Outside the warm perimeter - no insulation duty.",
       "insulation_mm": 70,
       "insulation_source": "OWNER marked BLUE 2026-09-04",
-      "material_basis": "⚠ RESOLVED 2026-09-17 BY THE OWNER, who stated the substrate directly: M6b is AERATED CONCRETE. That is testimony about THIS flat, which §3.0f of the services design records as the one basis that can establish a fact here - no comparable-flat photograph or general rule was going to settle it. Previously unset because the 300+70 general rule lists M1, M3, M4, M5, M6a and M7 and deliberately NOT M6b, and no reviewed source named the substrate. ⚠ STILL NOT SETTLED: the 200 mm thickness remains PROVISIONAL, and the render thickness is unstated - so the build-up is not yet a layer set.",
-      "material": "aerated_block"
+      "material_basis": "⚠ RESOLVED 2026-09-17 BY THE OWNER, who stated the substrate directly: M6b is AERATED CONCRETE. That is testimony about THIS flat, which §3.0f of the services design records as the one basis that can establish a fact here - no comparable-flat photograph or general rule was going to settle it. Previously unset because the 300+70 general rule lists M1, M3, M4, M5, M6a and M7 and deliberately NOT M6b, and no reviewed source named the substrate. ⚠ BUILD-UP, as it now stands: 200 mm aerated block (CONFIRMED 2026-09-17 from a further drawing) + 70 mm external insulation + render. ⚠ THE RENDER THICKNESS IS STILL UNSTATED anywhere, so a layer set would have to invent one - the substrate and the thickness are settled, the assembly is not.",
+      "material": "aerated_block",
+      "thickness_basis": "CONFIRMED 2026-09-17 by the owner from a further drawing: 200 mm, no longer provisional. It had been carried as «~200 provisional» since the wall model was built."
     },
     {
       "id": "M7",
