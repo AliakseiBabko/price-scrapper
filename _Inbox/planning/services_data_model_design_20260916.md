@@ -148,7 +148,7 @@ An occurrence **cites** observations. It does not absorb them: the evidence has 
 
 > ⚠️⚠️ **Two consequences for the generator, and both are hard rules.** The *"expect ~2.2 m"* figure is a candidate and **the generator may not consume it as a placement value**. And until `SH-B`'s function is confirmed, **the generator may not give it heating-system membership or silently pick a concrete heating IFC class** — an unconfirmed function must not become a typed element by default.
 
-### 3.0d Negation is POLARITY, not a kind of fact
+### 3.0e Negation is POLARITY, not a kind of fact
 
 > ⚠️⚠️ **A "negative fact" concept was proposed and REJECTED.** *"There is no horizontal DN110 main"* and *"zero outlets on wall MC"* are not a different species of fact needing their own concept — they are ordinary **assertions whose value is false, or whose scoped count is zero**.
 
@@ -164,6 +164,28 @@ An occurrence **cites** observations. It does not absorb them: the evidence has 
 *"Zero outlets on MC"* is the same shape with a scoped **count of zero**. ⚠️ **If such a statement is an owner REQUIREMENT rather than an observation, it is paired with an approval record** — the two are different things and the difference is not recoverable later.
 
 **A genuinely normative rule** — *"an outlet must never be placed here"* — may one day justify a `constraint` concept. **Ordinary observed absence does not**, and inventing one for it would fragment the model around a distinction that is really just a truth value.
+
+### 3.0f ⚠️ Evidence from another flat is evidence about THAT flat
+
+> **THE RULE (owner, 2026-09-17), and it is stable across lights, sockets, switches and pipes:**
+> **Observation in another flat → an asserted observation *scoped to that flat*. Target-apartment existence → `candidate` / `derived`, unless supported by *this unit's* evidence or by a developer document explicitly governing this unit or type.**
+
+**Repetition raises confidence but does not change the subject.** "Seen in three flats" is a stronger projection than "seen in one"; it is still a projection. The boundary is **not** one comparable versus several — it is *whose flat was looked at*.
+
+This matters because of a fact easy to lose sight of: **there is no interior photograph of this apartment at all.** `photo_positions.csv` holds one photo of our unit and it is an **exterior elevation**, captured pre-insulation. The building is unfinished and **nothing in the owner's unit is field-verified.** Every services placement in the legacy sheet rests on apartments 109, 2 and 53, or on the owner's testimony.
+
+So the model **may** represent the expected developer handover — that is a legitimate and useful thing to hold — but it **must not label a typology projection as an observed existing fact.**
+
+| | Target-apartment existence |
+| :--- | :--- |
+| Photographed in a comparable flat, once or many times | `candidate`, `derived` |
+| Stated by the owner about **his** flat | this-unit testimony — may resolve |
+| Developer document governing this unit or type | may resolve |
+| Observed in this unit | `resolved_present` — **nothing currently qualifies** |
+
+⚠️ **An owner approval can authorise these as PLANNED elements. It cannot retrospectively turn comparable-flat evidence into an observation of the existing flat** — those are different records, and collapsing them would destroy the only trace of which one was ever looked at.
+
+**Consequence for the migration:** no target-apartment occurrence is minted from comparable-flat evidence. The observation and the projected count assertion are both preserved, exactly as with `S17`/`S18`. **This corrected an earlier adjudication of my own**, which had accepted "photo-backed" sockets and five ceiling outlets as `resolved_present` — the precedent was wrong and was not retained for consistency.
 
 ### 3.1 Knowledge basis belongs to each value
 
@@ -316,6 +338,15 @@ An approval record carries: **subject / property, actor, decision, date, evidenc
 ### 7.5 Succession is a relation, not a single field
 
 `superseded_by` as one value cannot express a **split** (one recorded group becomes three sockets) or a **merge**. Both are expected here: `E-KL-SOC-K` is one observation of three outlets. **A record may legitimately have several successors.**
+
+### 7.7 Comparable-flat evidence never establishes existence here (2026-09-17)
+
+Two provenance errors in `electrical_existing.csv` were found and corrected while checking this:
+
+- **`E-C-LIGHT`** said the corridor pendant was *"present in every corridor photographed across three flats"*. `a82a` and `a89c` are **both apartment 109**; only `9e9b` is apartment 2. **Three photos across two flats** — and the flat count was exactly what the strength of the claim rested on.
+- **`E-MR-LIGHT`** attributed `kids_room_window` to apartment 109. The sha256 manifest established on 2026-09-07 that it is **byte-identical to `b6f0`, apartment 53, MIRRORED** — and `photo_positions.csv` already recorded that. **`E-MR-SOC` carried the same error** and was corrected too. `E-SB-SOC` gained its missing flat annotations on the same pass.
+
+Both errors ran in the same direction: they made the evidence look like it came from more, or nearer, flats than it did. That is the failure mode rule 11 exists for — *a confident label on an unlooked-at file is worse than no label* — applied to provenance rather than to role.
 
 ### 7.6 The locator is a typed union (2026-09-17)
 
