@@ -86,14 +86,36 @@ def check(model):
             problems.append(
                 "%s: the stopping wall must meet at an END (ATSTART/ATEND), "
                 "not %r" % (name, connection.RelatingConnectionType))
-        # ⚠️ priorities index material layers, which do not exist yet
-        for attribute in ("RelatingPriorities", "RelatedPriorities"):
-            value = getattr(connection, attribute, None)
-            if value:
+        # ⚠️⚠️ PRIORITIES MUST ENCODE THE LEDGER'S DECISION.
+        # IFC resolves a junction by letting the HIGHER priority protrude, so
+        # the owner - which the ledger says runs through - must outrank the
+        # wall that stops on it. If IFC's numbers said otherwise, IFC would be
+        # deciding the junction, which is the second solver this forbids.
+        relating = list(getattr(connection, "RelatingPriorities", None) or [])
+        related = list(getattr(connection, "RelatedPriorities", None) or [])
+        layered = bool(model.by_type("IfcMaterialLayerSet"))
+        if layered and not related:
+            problems.append(
+                "%s has no RelatedPriorities although the model carries layer "
+                "sets - the ledger's ownership would not survive into IFC"
+                % name)
+        if relating and related and min(related) <= max(relating):
+            problems.append(
+                "%s: the owner's priorities %s do not outrank the stopping "
+                "wall's %s, so IFC would resolve this junction differently "
+                "from wall_corners.csv" % (name, related, relating))
+        # one priority per layer, or the list indexes nothing
+        for element, values, label in (
+                (connection.RelatedElement, related, "RelatedPriorities"),
+                (connection.RelatingElement, relating, "RelatingPriorities")):
+            import ifcopenshell.util.element as ue
+            material = ue.get_material(element)
+            layers = getattr(material, "MaterialLayers", None) if material else None
+            want = len(layers) if layers else 0
+            if len(values) != want:
                 problems.append(
-                    "%s carries %s while the model has no IfcMaterialLayerSet "
-                    "- a priority indexes a layer, so this invents one"
-                    % (name, attribute))
+                    "%s.%s has %d entries for %d material layer(s) on %s"
+                    % (name, label, len(values), want, element.Name))
 
     for name in expected:
         if name not in seen:

@@ -118,11 +118,26 @@ def main() -> int:
     expect("the owner not connected ATPATH is caught", check(model), True,
            "must be connected ATPATH")
 
-    # ⚠️ PRIORITIES WITHOUT LAYERS - inventing a layer to index
+    # ⚠️⚠️ PRIORITIES MUST ENCODE THE LEDGER. The owner runs through, so its
+    # priorities must outrank the stopping wall's - otherwise IFC resolves the
+    # junction its own way and becomes the second solver.
     model = ifcopenshell.open(base)
-    model.by_type("IfcRelConnectsPathElements")[0].RelatingPriorities = [50]
-    expect("priorities without any material layer set are caught", check(model),
-           True, "invents one")
+    connection = model.by_type("IfcRelConnectsPathElements")[0]
+    connection.RelatingPriorities, connection.RelatedPriorities = (
+        connection.RelatedPriorities, connection.RelatingPriorities)
+    expect("INVERTED priorities are caught", check(model), True,
+           "do not outrank")
+
+    model = ifcopenshell.open(base)
+    model.by_type("IfcRelConnectsPathElements")[0].RelatedPriorities = []
+    expect("missing owner priorities are caught", check(model), True,
+           "would not survive into IFC")
+
+    model = ifcopenshell.open(base)
+    c = model.by_type("IfcRelConnectsPathElements")[0]
+    c.RelatedPriorities = list(c.RelatedPriorities) + [99]
+    expect("a priority list that does not match the layers is caught",
+           check(model), True, "entries for")
 
     print("\n%d failure(s)" % failures)
     return 1 if failures else 0
