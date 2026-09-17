@@ -3,7 +3,7 @@
   "variant_id": "v1-homestyler",
   "name": "Вариант 1 - планировка владельца из Homestyler",
   "base_spec": "data/canonical/current_apartment_shell.json",
-  "status": "owner_first_approximation",
+  "status": "reference_only",
   "concept": "This is a VARIANT of the developer plan, not the existing state. It adds a laundry room, splits entrance from hallway, and roughly doubles the kitchen by taking it into the living room.",
   "authored_by": "apartment owner, in Homestyler; geometry extracted from the CAD export",
   "scope_note": "Layout only. Finishes, colour and decoration are explicitly not part of this variant.",
@@ -694,5 +694,9 @@
     "areas": "_assets/floor_plan_modified.png",
     "geometry": "data/cad/dxf/20260727-ZK Dubravinskiy.dxf",
     "note": "The owner built this on the developer plan, so the shell is shared and only the partitions differ. It is a first approximation of the wanted layout, not a final decision."
-  }
+  },
+  "role": "design_intent_source",
+  "!!_RECLASSIFIED_2026_09_17": "!! v1 IS NOT A MEASURED ALTERNATIVE AND IS NOT TO BE REBASED. The owner: «Homestyler is just for reference... this was just my experiment. I didn't have any model, now I have a model. No direct, no exact dimensions, just general ideas.» !! SO THE WHOLE 'rebase v1 onto the resolved shell' PLAN WAS MISCONCEIVED - it treated a sketch as a survey. v1 was drawn in Homestyler over the SAME constructor raster that v0 came from, before any model existed, so its coordinates are a second freehand reading of the base plan rather than an independent measurement. Registering them onto the compiler's geometry would have manufactured precision that was never in the source.",
+  "what_it_is_good_for": "IDEAS, and they are real: which room takes which role, that a laundry room is wanted, that a storage block with two wardrobes should face two different rooms. Those survive intact because none of them depends on a dimension.",
+  "what_it_must_not_be_used_for": "!! Any quantity, any delta against v0, any wall position, any area. check_variant_basis.py refuses it and that refusal is now the CORRECT permanent state, not a blocker to clear."
 }

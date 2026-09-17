@@ -184,6 +184,22 @@ def main() -> int:
         hit = any(needle in p for p in problems)
         check(label, hit, problems[:1] or "ACCEPTED")
 
+    # ⚠⚠ A REFERENCE-ONLY SPEC IS REFUSED PERMANENTLY, not pending a rebase.
+    # v1 is a freehand Homestyler sketch over the same constructor raster v0
+    # came from, made before any model existed - so "rebase v1" was treating a
+    # sketch as a survey, and registering it would have manufactured precision
+    # that was never in the source.
+    sketch = copy.deepcopy(rebased)
+    sketch["status"] = "reference_only"
+    problems = basis_problems(v0, sketch)
+    check("a REFERENCE-ONLY spec may never be an operand",
+          any("REFERENCE ONLY" in p for p in problems),
+          problems[:1] or "ACCEPTED")
+
+    check("...and the real v1 is marked that way on disk",
+          (load("v1-homestyler").get("status") or "") == "reference_only",
+          load("v1-homestyler").get("status"))
+
     # ⚠️ and classification must REFUSE rather than guess when the basis fails
     try:
         classify(v0, load("v1-homestyler"))
