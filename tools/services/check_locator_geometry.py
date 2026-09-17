@@ -78,17 +78,31 @@ TOUCH_MM = 1.0        # coincidence tolerance for boundary adjacency
 #   phase=existing  + cast_in   allowed; this is how the ceiling points exist
 #   phase=existing  + chased    INVALID
 #   phase=existing  + unstated  INCOMPLETE - not impossible, just unevidenced
-NO_CHASE_CLASSES = ("concrete",)
+# ⚠️ MATERIAL, NOT `class`. `class` mixes material with exposure -
+# `external_warm_perimeter` is a thermal role, not something you can or cannot
+# chase - so asking it for substrate gave the wrong kind of answer.
+#
+# ⚠️ AND THE PROPOSED RULE IS A WHITELIST, NOT "NOT CONCRETE". The owner's
+# rewire puts every drop «exclusively in the walls from the softer materials
+# like aerated concrete». An earlier version only REFUSED concrete, so a
+# proposed accessory on M2 - loggia_enclosure, material unknown - sailed
+# through substrate checking entirely.
+CHASEABLE_MATERIALS = ("aerated_block",)
+NO_CHASE_MATERIALS = ("reinforced_concrete",)
 MATERIALS = os.path.join(REPO, "data", "canonical", "wall_materials.json")
 
 
 def wall_classes(path=MATERIALS):
-    """wall id -> material class, from canonical data, never hardcoded here."""
+    """wall id -> MATERIAL, from canonical data, never hardcoded here.
+
+    A wall with no `material` returns None and is reported INCOMPLETE - never
+    assumed chase-able.
+    """
     with io.open(path, encoding="utf-8") as fh:
         data = json.load(fh)
     out = {}
     for wall in data.get("walls", []):
-        out[wall.get("id")] = wall.get("class")
+        out[wall.get("id")] = wall.get("material")
     return out
 
 
@@ -184,14 +198,17 @@ def check(targets, resolved, opening_verticals, classes=None):
         method = (assertions.get("installation_method") or {}).get("value", "")
         method = (method or "").strip()
         phase = (row.get("phase") or "").strip()
-        if klass in NO_CHASE_CLASSES:
-            if phase == "proposed":
-                results.append((key, "invalid",
-                                "host %s is %s and this is PROPOSED work - a "
-                                "retrofit cannot cast into concrete already "
-                                "poured, and every new drop goes in aerated "
-                                "block" % (host, klass)))
-                continue
+        # PROPOSED work: a WHITELIST. Every new drop must land on a chase-able
+        # material, so anything not on the list fails - including a material
+        # nobody has recorded.
+        if phase == "proposed" and klass not in CHASEABLE_MATERIALS:
+            results.append((key, "invalid",
+                            "host %s is %r and this is PROPOSED work - every "
+                            "new drop must be chased into %s, and a retrofit "
+                            "cannot cast into concrete already poured"
+                            % (host, klass, "/".join(CHASEABLE_MATERIALS))))
+            continue
+        if klass in NO_CHASE_MATERIALS:
             if method == "chased":
                 results.append((key, "invalid",
                                 "host %s is %s and the accessory is chased - a "
@@ -207,9 +224,9 @@ def check(targets, resolved, opening_verticals, classes=None):
                 continue
         if klass is None:
             results.append((key, "incomplete",
-                            "host %s has no material class in "
-                            "wall_materials.json, so the substrate rule cannot "
-                            "be applied - not assumed chase-able" % host))
+                            "host %s has no `material` in wall_materials.json, "
+                            "so the substrate rule cannot be applied - NOT "
+                            "assumed chase-able" % host))
             continue
 
         face = faces[host][face_ref]
@@ -327,11 +344,21 @@ def _shares_boundary(host_faces, polygon):
 
 FAILING = ("invalid",)
 
+# ⚠️ AN ISSUED MODEL ACCEPTS `valid` AND NOTHING ELSE.
+# `--strict` only promoted `incomplete`, so `unlocated`, `partial` and
+# `unsupported` still passed it - and an unlocated occurrence is precisely a
+# thing that cannot be drawn. A `surface_local` locator that CANNOT BE CHECKED
+# passed strict too, which is the worst of the four. Review views may keep
+# every verdict; an issued model may not.
+ISSUABLE = ("valid",)
+
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--strict", action="store_true",
-                    help="also fail on `incomplete` (for an issued model)")
+                    help="also fail on `incomplete` (a REVIEW view)")
+    ap.add_argument("--issued", action="store_true",
+                    help="issued-model gate: fail anything that is not `valid`")
     a = ap.parse_args()
 
     resolved, module = geometry()
@@ -341,7 +368,10 @@ def main() -> int:
     bad = 0
     for key, verdict, message in results:
         print("%-12s %-14s %s" % (verdict.upper(), key, message))
-        if verdict in FAILING or (a.strict and verdict == "incomplete"):
+        if a.issued:
+            if verdict not in ISSUABLE:
+                bad += 1
+        elif verdict in FAILING or (a.strict and verdict == "incomplete"):
             bad += 1
     print("\n%d occurrence(s); %d failing" % (len(results), bad))
     return 1 if bad else 0
