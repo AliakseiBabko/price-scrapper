@@ -143,8 +143,9 @@ def check(model, material_unknown=None):
         if insulation and not want_insulation:
             problems.append(
                 "IfcWall %r carries an insulation layer, but "
-                "wall_materials.json records none - M2 has NO insulation and "
-                "M6b has 70; inferring it from the class conflated them"
+                "wall_blocks.csv records none - insulation follows the "
+                "RENDERED FACADE PLANE, not the thermal envelope, so it "
+                "can never be inferred from a wall class or an exposure"
                 % wall.Name)
         if insulation and want_insulation:
             got = round(insulation[0].LayerThickness * 1000.0)
