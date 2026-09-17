@@ -157,6 +157,71 @@ def main() -> int:
     expect("a MISSING material on a recorded wall is caught", check(model),
            True, "material IS recorded")
 
+    # ⚠️⚠️ PARTIAL INSULATION. These four seed the defect that SHIPPED and the
+    # ways its fix could quietly stop holding. M2's insulation covers 570 mm of
+    # a much longer wall; `wall_blocks.csv` has recorded that interval all
+    # along and `place_insulation.py` has clipped the drawn band to it, but the
+    # IFC side read the thickness alone and emitted a uniform 200+150 layer
+    # set. The drawing and the model disagreed about one wall, and both looked
+    # complete.
+    from typing_pass import _insulation_extent
+    recorded_extents = _insulation_extent()
+
+    def extent_wall(m):
+        """⚠️ FOUND, never named. A seed pinned to `M2` goes vacuous the moment
+        that wall's record changes - which M2's has, four times in three days."""
+        for w in m.by_type("IfcWall"):
+            if not w.is_a("IfcWallType") and w.Name in recorded_extents:
+                return w
+        raise SystemExit("no wall with a recorded insulation extent")
+
+    # 1. the defect itself: the band expressed as a uniform LAYER
+    model = ifcopenshell.open(base)
+    wall = extent_wall(model)
+    mat = ue.get_material(wall)
+    wool = model.create_entity("IfcMaterial", Name="mineral wool")
+    mat.MaterialLayers = list(mat.MaterialLayers) + [model.create_entity(
+        "IfcMaterialLayer", Material=wool, LayerThickness=0.15,
+        Name="external insulation", Priority=30)]
+    expect("partial insulation emitted as a uniform LAYER is caught",
+           check(model), True, "belongs in an IfcCovering")
+
+    # 2. the band LOST
+    model = ifcopenshell.open(base)
+    for rel in model.by_type("IfcRelCoversBldgElements"):
+        model.remove(rel)
+    expect("a LOST insulation band is caught", check(model), True,
+           "has lost a band")
+
+    # 3. the band INVENTED on a wall that records no extent
+    model = ifcopenshell.open(base)
+    victim = next(w for w in model.by_type("IfcWall")
+                  if not w.is_a("IfcWallType")
+                  and w.Name not in recorded_extents)
+    bogus = ifcopenshell.api.run("root.create_entity", model,
+                                 ifc_class="IfcCovering", name="INS_BOGUS")
+    bogus.PredefinedType = "INSULATION"
+    model.create_entity("IfcRelCoversBldgElements", GlobalId="3" * 22,
+                        Name="COVERS_BOGUS", RelatingBuildingElement=victim,
+                        RelatedCoverings=[bogus])
+    expect("an INVENTED insulation band is caught", check(model), True,
+           "may not invent a band")
+
+    # 4. the extent SILENTLY WIDENED - the band is present and wrong
+    model = ifcopenshell.open(base)
+    covering = [c for c in model.by_type("IfcCovering")
+                if c.PredefinedType == "INSULATION"][0]
+    for pset in (covering.IsDefinedBy or []):
+        definition = getattr(pset, "RelatingPropertyDefinition", None)
+        if definition is None or definition.Name != "Pset_ApartmentInsulation":
+            continue
+        for prop in definition.HasProperties:
+            if prop.Name == "ExtentToMM":
+                prop.NominalValue = model.create_entity(
+                    "IfcReal", float(prop.NominalValue.wrappedValue) + 2000.0)
+    expect("a WIDENED insulation extent is caught", check(model), True,
+           "ExtentToMM")
+
     # a type of the wrong class
     model = ifcopenshell.open(base)
     rel = model.by_type("IfcRelDefinesByType")[0]

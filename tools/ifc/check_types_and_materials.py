@@ -111,6 +111,10 @@ def check(model, material_unknown=None):
     recorded = _recorded_walls()
     thicknesses = _recorded_thicknesses()
     insulations = _recorded_insulation()
+    import sys as _sys
+    _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from typing_pass import _insulation_extent  # noqa: E402
+    extents = _insulation_extent()
     for wall in model.by_type("IfcWall"):
         if wall.is_a("IfcWallType"):
             continue
@@ -124,7 +128,14 @@ def check(model, material_unknown=None):
         # every wall that file does not carry a thickness for - most of the
         # R-series - so a wrong substrate thickness went unchecked there.
         want_substrate = thicknesses.get(wall.Name, record.get("thickness_mm"))
-        want_insulation = insulations.get(wall.Name) or 0
+        # ⚠️⚠️ INSULATION WITH A RECORDED EXTENT IS NOT A LAYER, so no layer is
+        # expected for it here - it must appear as an IfcCovering instead, which
+        # is asserted separately below. A layer set is uniform through the wall
+        # and says nothing about extent, so carrying M2's 570 mm band as a layer
+        # asserted insulation along its whole length while the drawing showed
+        # otherwise.
+        want_insulation = (0 if extents.get(wall.Name)
+                           else (insulations.get(wall.Name) or 0))
         substrate = [l for l in layers if (l.Name or "") == "substrate"]
         insulation = [l for l in layers if (l.Name or "") == "external insulation"]
         if len(layers) != len(substrate) + len(insulation):
@@ -140,7 +151,15 @@ def check(model, material_unknown=None):
         if want_insulation and not insulation:
             problems.append("IfcWall %r records %s mm insulation but carries "
                             "no insulation layer" % (wall.Name, want_insulation))
-        if insulation and not want_insulation:
+        if insulation and extents.get(wall.Name):
+            lo, hi = extents[wall.Name]
+            problems.append(
+                "IfcWall %r carries an insulation LAYER, but its insulation is "
+                "recorded with an EXTENT (%.1f..%.1f mm). A layer set is "
+                "uniform through the wall and says nothing about extent, so "
+                "this asserts insulation along the WHOLE wall - it belongs in "
+                "an IfcCovering" % (wall.Name, lo, hi))
+        elif insulation and not want_insulation:
             problems.append(
                 "IfcWall %r carries an insulation layer, but "
                 "wall_blocks.csv records none - insulation follows the "
@@ -153,6 +172,52 @@ def check(model, material_unknown=None):
                 problems.append(
                     "IfcWall %r insulation layer is %d mm, recorded %s"
                     % (wall.Name, got, want_insulation))
+
+    # ⚠️⚠️ PARTIAL INSULATION, CHECKED BOTH WAYS so the model can neither lose
+    # a recorded band nor invent one. The first version checked only that a
+    # covering existed for each extent; that would have passed a model carrying
+    # a covering for a wall with no recorded extent at all - insulation
+    # conjured onto a wall, which is the M2/M6b conflation in a new costume.
+    covered = {}
+    for rel in model.by_type("IfcRelCoversBldgElements"):
+        host = rel.RelatingBuildingElement
+        for covering in (rel.RelatedCoverings or []):
+            if covering.PredefinedType != "INSULATION":
+                continue
+            covered.setdefault(host.Name if host else None, []).append(covering)
+
+    for wall_name, coverings in sorted(covered.items()):
+        if wall_name not in extents:
+            problems.append(
+                "IfcWall %r carries an INSULATION covering, but wall_blocks.csv "
+                "records no insulation extent for it - a covering may not "
+                "invent a band" % wall_name)
+            continue
+        if len(coverings) > 1:
+            problems.append("IfcWall %r has %d insulation coverings; the "
+                            "record describes one band"
+                            % (wall_name, len(coverings)))
+        lo, hi = extents[wall_name]
+        import ifcopenshell.util.element as _ue
+        props = _ue.get_psets(coverings[0]).get("Pset_ApartmentInsulation", {})
+        for key, want in (("ExtentFromMM", lo), ("ExtentToMM", hi),
+                          ("ThicknessMM", insulations.get(wall_name) or 0)):
+            got = props.get(key)
+            if got is None or abs(float(got) - float(want)) > 0.5:
+                problems.append(
+                    "IfcWall %r insulation covering %s is %r, wall_blocks.csv "
+                    "records %s" % (wall_name, key, got, want))
+
+    for wall_name in sorted(extents):
+        if wall_name in covered:
+            continue
+        if not any(w.Name == wall_name for w in model.by_type("IfcWall")
+                   if not w.is_a("IfcWallType")):
+            continue                        # not in the model at all
+        problems.append(
+            "IfcWall %r has a RECORDED insulation extent but no insulation "
+            "covering - the model has lost a band the canonical data carries, "
+            "and a layer set cannot express one" % wall_name)
     return problems
 
 
