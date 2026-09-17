@@ -14,6 +14,7 @@ could pass against a record shape the production path never produces.
 """
 from __future__ import annotations
 
+import io
 import os
 import sys
 
@@ -271,6 +272,47 @@ def main() -> int:
             says("SEED", "vertical", "1000")]
     expect("absent host_interaction is NOT read as avoid_void", rows, "SEED",
            "incomplete", "absence is NOT")
+
+    # THE MATERIAL AUTHORITY'S OWN DUPLICATE-KEY DEFECT. Appending a second
+    # R5 with material=aerated_block used to resolve CONCRETE R5 as aerated
+    # block - the exact reading that would authorise chasing the RC frame.
+    import json
+    import tempfile
+    from check_locator_geometry import (DuplicateWallId, MATERIALS,
+                                        wall_classes)
+    with io.open(MATERIALS, encoding="utf-8") as fh:
+        materials = json.load(fh)
+    materials["walls"].append({"id": "R5", "class": "aerated_block",
+                               "material": "aerated_block"})
+    handle, seeded_path = tempfile.mkstemp(suffix=".json")
+    os.close(handle)
+    with io.open(seeded_path, "w", encoding="utf-8") as fh:
+        fh.write(json.dumps(materials, ensure_ascii=False))
+    try:
+        wall_classes(seeded_path)
+        print("FAIL %-50s a duplicate R5 was accepted" % "duplicate wall id")
+        failures += 1
+    except DuplicateWallId as exc:
+        print("PASS %-50s %s" % ("a duplicate wall id is REJECTED",
+                                 str(exc)[:44]))
+    finally:
+        os.unlink(seeded_path)
+
+    # THE ISSUED-MODEL POLICY ITSELF. Without this, a regression could restore
+    # the old false pass - `--strict` accepting `unlocated`, `partial` and
+    # `unsupported` - while every geometry seed above stayed green.
+    from check_locator_geometry import ISSUABLE
+    bad_policy = [v for v in ("unlocated", "partial", "unsupported",
+                              "incomplete", "invalid") if v in ISSUABLE]
+    if bad_policy or tuple(ISSUABLE) != ("valid",):
+        print("FAIL issued policy is %r; %r must not be issuable"
+              % (ISSUABLE, bad_policy))
+        failures += 1
+    else:
+        print("PASS %-50s %s"
+              % ("an issued model accepts `valid` and nothing else",
+                 "unlocated/partial/unsupported all refused"))
+
 
     print("\n%d failure(s)" % failures)
     return 1 if failures else 0

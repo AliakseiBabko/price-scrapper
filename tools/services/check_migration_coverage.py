@@ -297,23 +297,48 @@ def check(ledger_rows, target_records=None, require_complete=False,
                 % (len(orphaned), ", ".join(sorted(orphaned)[:5])
                    + (" ..." if len(orphaned) > 5 else "")))
 
-    # ⚠️ 4b - AN ADJUDICATION MUST BE SATISFIED BY THE RIGHT KIND OF TARGET.
-    # Coverage counted ANY target citing a locator, so `duplicate` - which
-    # means "the same fact is already carried elsewhere", and whose whole
-    # output is an alias relation - was satisfied by an unrelated assertion.
-    # Three alias adjudications (SW-B-H, SW-B-C, V-1) had NO relation at all
-    # and the gate passed.
+    # ⚠️ 4b - THE DECLARED CONCEPTS MUST ACTUALLY BE PRODUCED.
+    # -------------------------------------------------------
+    # Coverage counted ANY target citing a locator, so an adjudication could be
+    # satisfied by the wrong KIND of record entirely. The first repair
+    # special-cased only `duplicate -> relation`, and that was still too
+    # narrow: `E-KL-SOC-K` declares `observation;assertion;value` and produced
+    # only an assertion, `LIGHT:L3` declares `observation;assertion` and
+    # produced only an assertion - and coverage still said 102/102.
+    #
+    # `expected_target_concepts` was documented as "a review aid only... the
+    # gate does not check against it". That was the mistake: a declared
+    # expectation nobody checks is a comment, and the whole point of the ledger
+    # is that a judgement about a source is binding on what the source becomes.
     for locator, row in seen.items():
-        if (row.get("adjudication") or "").strip() != "duplicate":
+        adjudication = (row.get("adjudication") or "").strip()
+        if adjudication not in IN_SCOPE:
             continue
-        kinds = set((r.get("target_concept") or "").strip()
-                    for r in cited.get(locator, []))
-        if kinds and "relation" not in kinds:
+        declared = set(c.strip() for c in
+                       (row.get("expected_target_concepts") or "").split(";")
+                       if c.strip())
+        produced = set((r.get("target_concept") or "").strip()
+                       for r in cited.get(locator, []))
+        if adjudication == "duplicate":
+            # A duplicate's output IS an alias, whatever else it declares.
+            declared.add("relation")
+        if not declared or not produced:
+            continue
+        missing = declared - produced
+        if missing:
             problems.append(
-                "source %s is adjudicated `duplicate` but no RELATION target "
-                "cites it - a duplicate is carried forward as an alias, and "
-                "citing it from some other record does not satisfy that"
-                % locator)
+                "source %s declares target concepts %s but produced %s - "
+                "missing %s. An adjudication is binding on WHAT the source "
+                "becomes, not merely that something cites it"
+                % (locator, "/".join(sorted(declared)),
+                   "/".join(sorted(produced)) or "nothing",
+                   "/".join(sorted(missing))))
+        extra = produced - declared
+        if extra:
+            problems.append(
+                "source %s produced target concepts %s, which it does not "
+                "declare - either the record is wrong or the ledger must say "
+                "so" % (locator, "/".join(sorted(extra))))
 
     # 5 + 6 - splits
     for locator, row in seen.items():

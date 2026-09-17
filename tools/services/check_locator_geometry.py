@@ -92,18 +92,43 @@ NO_CHASE_MATERIALS = ("reinforced_concrete",)
 MATERIALS = os.path.join(REPO, "data", "canonical", "wall_materials.json")
 
 
+class DuplicateWallId(Exception):
+    """Two records claim the same wall id. See `wall_classes`."""
+
+
 def wall_classes(path=MATERIALS):
     """wall id -> MATERIAL, from canonical data, never hardcoded here.
 
     A wall with no `material` returns None and is reported INCOMPLETE - never
     assumed chase-able.
+
+    ⚠️ DUPLICATE IDS ARE REJECTED, NOT LAST-WINS. This built the index straight
+    from the sequence, so a second record for an existing wall silently
+    overwrote the first. Appending a second `R5` with material=aerated_block
+    resolved CONCRETE R5 AS AERATED BLOCK - which is precisely the reading that
+    would authorise chasing the monolithic RC frame.
+
+    It is the same defect `dxf_closure_selftest.py` already seeds for
+    `wall_blocks.csv` and `wall_corners.csv`: a collection that deduplicates
+    destroys the thing being checked. The sequence is read first, then checked,
+    then indexed.
     """
     with io.open(path, encoding="utf-8") as fh:
         data = json.load(fh)
-    out = {}
-    for wall in data.get("walls", []):
-        out[wall.get("id")] = wall.get("material")
-    return out
+    walls = data.get("walls", [])
+    seen, duplicates = set(), []
+    for wall in walls:
+        wid = wall.get("id")
+        if wid in seen:
+            duplicates.append(wid)
+        seen.add(wid)
+    if duplicates:
+        raise DuplicateWallId(
+            "wall_materials.json declares %s more than once - a duplicate id "
+            "silently overwrites the first record, and a wrong material here "
+            "would authorise chasing the RC frame"
+            % ", ".join(sorted(set(duplicates))))
+    return dict((w.get("id"), w.get("material")) for w in walls)
 
 
 def geometry():
