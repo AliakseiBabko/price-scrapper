@@ -66,3 +66,15 @@ bc87f4e5-b6e0-458d-8c6a-a09edb474157,IfcOpeningElement:O2 window,IfcOpeningEleme
 54990e87-0de4-4cfd-b5bc-829411cdf4b4,IfcBuilding:Apartment building,IfcBuilding,active,,minted 2026-09-17 from the first stable-identity build
 94df021b-9877-4ca6-a041-23d1fa23a81a,IfcBuildingStorey:Apartment level,IfcBuildingStorey,active,,minted 2026-09-17 from the first stable-identity build
 2e526073-c770-4cc2-9b22-0947af1c9697,IfcSite:Apartment site,IfcSite,active,,minted 2026-09-17 from the first stable-identity build
+c3443bc4-4cc7-42ae-877f-649fc59d85e0,IfcDoorType:DOOR_1010x2050,IfcDoorType,active,,minted 2026-09-17 from the first stable-identity build
+cbf9c98b-7bbe-40d2-81a2-0486e6ce2b0c,IfcDoorType:DOOR_710x2050,IfcDoorType,active,,minted 2026-09-17 from the first stable-identity build
+5e00b015-729b-4f7f-9513-770184aff10d,IfcDoorType:DOOR_910x2050,IfcDoorType,active,,minted 2026-09-17 from the first stable-identity build
+dea7b386-9078-42ee-b423-4274a98cffa1,IfcDoorType:DOOR_776x2235,IfcDoorType,active,,minted 2026-09-17 from the first stable-identity build
+2291dfee-677a-4a92-a391-5a30601c7b27,IfcWallType:WALL_REINFORCED_CONCRETE_250,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+2578b440-de6c-455c-9db4-b10a567a5cbd,IfcWallType:WALL_AERATED_BLOCK_250,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+15be7d0a-1d04-4766-ae9b-fcf07bbd8b54,IfcWallType:WALL_AERATED_BLOCK_120,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+0735b5f9-6351-49af-b411-2e4a6ddf9df6,IfcWallType:WALL_AERATED_BLOCK_75,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+7b5f3ee5-982b-455b-b14b-89896af00f74,IfcWallType:WALL_AERATED_BLOCK_300,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+c0452bf3-11bb-44ff-9145-892233871357,IfcWallType:WALL_UNKNOWNMATERIAL_200,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
+f4eec290-7b02-40c6-9131-009f751f105c,IfcWindowType:WINDOW_604x735x2235,IfcWindowType,active,,minted 2026-09-17 from the first stable-identity build
+ec918f79-4b38-4b34-b8e3-e9d84928fdbc,IfcWindowType:WINDOW_1660xUNMEASUREDxUNMEASURED,IfcWindowType,active,,minted 2026-09-17 from the first stable-identity build

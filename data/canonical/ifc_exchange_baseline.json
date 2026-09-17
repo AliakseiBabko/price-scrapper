@@ -2,11 +2,6 @@
   "recorded": "2026-09-17",
   "note": "Today's EXACT failures, captured BEFORE implementing types or phase, so each requirement can be watched failing independently rather than assumed to fail.",
   "failures": {
-    "Walls carry a type designation": 25,
-    "Walls carry a material association": 25,
-    "Doors carry a type designation": 6,
-    "Windows carry a type designation": 3,
-    "Walls expose their canonical identity": 25,
-    "No unclassified proxies": 2
+    "Walls carry a material association": 2
   }
 }

@@ -74,17 +74,22 @@ def build():
 
     # ── types and materials — what schedules depend on ───────────────────────
     spec("Walls carry a type designation", [Entity(name="IFCWALL")],
-         [Attribute(name="ObjectType")],
-         "Schedules group by type. An instance does not carry its type's "
-         "name, so without a type designation there is nothing to group on.")
+         [Property(propertySet="Pset_ApartmentType", baseName="TypeKey",
+                   dataType="IfcLabel")],
+         "Schedules group by type. ⚠️ This requires a property carried BY THE "
+         "TYPE and inherited, NOT `ObjectType` - a label would be satisfied "
+         "with no IfcRelDefinesByType behind it. The relationship itself is "
+         "asserted in check_types_and_materials.py.")
     spec("Walls carry a material association", [Entity(name="IFCWALL")],
          [Material()],
          "Layer build-up and material quantities come from the material "
          "association on the type.")
     spec("Doors carry a type designation", [Entity(name="IFCDOOR")],
-         [Attribute(name="ObjectType")], "Door schedule grouping.")
+         [Property(propertySet="Pset_ApartmentType", baseName="TypeKey",
+                   dataType="IfcLabel")], "Door schedule grouping.")
     spec("Windows carry a type designation", [Entity(name="IFCWINDOW")],
-         [Attribute(name="ObjectType")], "Window schedule grouping.")
+         [Property(propertySet="Pset_ApartmentType", baseName="TypeKey",
+                   dataType="IfcLabel")], "Window schedule grouping.")
 
     # ── phase — load-bearing now the flat is being rewired ───────────────────
     spec("Every wall declares its phase",
