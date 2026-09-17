@@ -118,8 +118,8 @@ def check(model, material_unknown=None):
     insulations = _recorded_insulation()
     import sys as _sys
     _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from typing_pass import _insulation_extent, _placed_bands  # noqa: E402
-    extents = _insulation_extent()
+    from typing_pass import _covering_extent, _placed_bands  # noqa: E402
+    extents = _covering_extent()
     placed = _placed_bands()
     for wall in model.by_type("IfcWall"):
         if wall.is_a("IfcWallType"):

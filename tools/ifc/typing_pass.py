@@ -142,6 +142,41 @@ def _insulation_extent(path=BLOCKS):
     return out
 
 
+# ⚠️⚠️ THE EXISTING COVERING RECORD IS THE SOURCE OF TRUTH FOR WHAT IS BUILT.
+# `wall_covering_patches.csv` states presence, extent and thickness per FACE,
+# each with its own value state. The wall-wide columns stated one number per
+# wall and every consumer read them its own way - which is precisely how this
+# file came to assert a uniform 200+150 on M2 while the drawing showed 570 mm.
+# ⚠️ `_wall_insulation` and `_insulation_extent` below are NOT dead: they are
+# the legacy half of the parity bridge, and check_parity() runs them against
+# the patches on every build. They stay strict, and they stay seeded.
+def _covering():
+    """{wall: {insulation_mm, side, extent_from_mm, extent_to_mm}} - BUILT."""
+    import sys as _sys
+    _sys.path.insert(0, os.path.join(REPO, "tools", "layout"))
+    import covering_patches
+    parity = covering_patches.check_parity()
+    if parity:
+        raise ValidationError(
+            "the covering patches and the legacy wall_blocks columns "
+            "disagree, so no build may proceed: %s" % "; ".join(parity))
+    return covering_patches.legacy_equivalent()
+
+
+def _covering_thickness():
+    return dict((k, v["insulation_mm"]) for k, v in _covering().items())
+
+
+def _covering_extent():
+    """wall -> (from, to) in FACE-LOCAL mm, for a band that stops partway."""
+    out = {}
+    for wall, band in _covering().items():
+        if band.get("extent_from_mm") is None:
+            continue
+        out[wall] = (band["from_mm"], band["to_mm"])
+    return out
+
+
 # ⚠️ STRUCTURE PROTRUDES INSULATION at a junction, which is the practitioner's
 # own worked example (structure 50, insulation 30, finish 10). These are the
 # layer-set defaults; a CONNECTION may override them, and does - compiled from
@@ -191,7 +226,7 @@ def type_key(product, materials):
         thickness = _round(psets.get("Pset_ApartmentPhase", {}).get("ThicknessMM"))
         # ⚠️ `UNKNOWN` is stated, not guessed. M2 and M6b genuinely have no
         # recorded material and must not be given one to make a gate pass.
-        insulation = _wall_insulation().get(product.Name) or 0
+        insulation = _covering_thickness().get(product.Name) or 0
         # ⚠️ INSULATION IS PART OF THE KEY, because two walls of the same
         # material and thickness can differ only in it - M6b is insulated and
         # M2's main run is not - and without it they would share a type and one
@@ -200,7 +235,7 @@ def type_key(product, materials):
         # cross-section, so insulation recorded with an EXTENT does not belong
         # in the designation: putting it there made M2's type assert 200+150
         # along its full length while the drawing showed 570 mm of it.
-        if _insulation_extent().get(product.Name):
+        if _covering_extent().get(product.Name):
             insulation = 0
         stem = "WALL_%s_%s" % ((material or "UNKNOWNMATERIAL").upper(),
                                thickness if thickness is not None else "UNMEASURED")
@@ -390,8 +425,8 @@ def apply_insulation_coverings(model, make_solid=None, height_m=None):
     """
     import ifcopenshell.api
 
-    extents = _insulation_extent()
-    thicknesses = _wall_insulation()
+    extents = _covering_extent()
+    thicknesses = _covering_thickness()
     placed = _placed_bands()
     walls = dict((w.Name, w) for w in model.by_type("IfcWall")
                  if not w.is_a("IfcWallType"))
