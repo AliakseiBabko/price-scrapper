@@ -1,2 +1,2 @@
-migration_key,source_locators,target_concept,quantity,value,value_type,knowledge_basis,value_state,scope_kind,scope_ref,observation_refs,notes
-VAL-E-KL-SOC-K-HEIGHT,legacy_csv:electrical_existing:E-KL-SOC-K,value,centre_height_mm,915-1105,range,observed,asserted,apartment,53,,"⚠ A RANGE, KEPT AS A RANGE. The generator's 1000 is a derived, rounded nominal and does NOT replace this - an observed range flattened to a point is precision nobody measured."
+migration_key,source_locators,target_concept,quantity,value,value_type,knowledge_basis,value_state,scope_kind,scope_ref,scope_phase,observation_refs,notes
+VAL-E-KL-SOC-K-HEIGHT,legacy_csv:electrical_existing:E-KL-SOC-K,value,centre_height_mm,915-1105,range,observed,asserted,apartment,53,existing,,"⚠ A RANGE, KEPT AS A RANGE. The generator's 1000 is a derived, rounded nominal and does NOT replace this - an observed range flattened to a point is precision nobody measured."

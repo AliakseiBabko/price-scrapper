@@ -156,7 +156,8 @@ NEW_VALUES = [
 
 VAL_FIELDS = ["migration_key", "source_locators", "target_concept",
               "quantity", "value", "value_type", "knowledge_basis",
-              "value_state", "scope_kind", "scope_ref", "observation_refs", "notes"]
+              "value_state", "scope_kind", "scope_ref", "scope_phase",
+              "observation_refs", "notes"]
 
 # Separates the builder's own note from whatever it replaced, so a second run
 # can strip its previous output instead of stacking on it.
@@ -250,7 +251,9 @@ def main() -> int:
                 "target_concept": "value", "quantity": quantity,
                 "value": value, "value_type": vtype,
                 "knowledge_basis": basis, "value_state": state,
-                "scope_kind": "apartment", "scope_ref": scope, "notes": note})
+                "scope_kind": "apartment", "scope_ref": scope,
+                "scope_phase": "existing", "observation_refs": "",
+                "notes": note})
 
     print("rewrote %d row(s), dropped %d, added %d observation(s) and %d "
           "value(s)" % (changed, dropped, added, len(NEW_VALUES)))

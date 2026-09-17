@@ -184,7 +184,7 @@ def main() -> int:
     # AN ALIAS MUST RESOLVE, OR SAY WHY IT CANNOT.
     expect("an alias pointing at nothing is caught",
            check(seed("REL-V-1", target_key="OCC-NOWHERE")), True,
-           "preserves no identity")
+           "which no record declares")
     expect("an alias with neither target nor pending is caught",
            check(seed("REL-V-2", target_pending="")), True,
            "must either resolve or say why")
@@ -258,6 +258,49 @@ def main() -> int:
     expect("an unknown element is caught even with an empty registry",
            check(seed("ASR-3-zero-outlets-on-mc", subject_element="G99"),
                  elements=set()), True, "neither a wall")
+
+
+    # ROUND FOUR
+    expect("an undeclared occurrence phase is caught",
+           check(seed("OCC-W6", phase="future")), True, "declared vocabulary")
+    expect("a blank scope_phase is caught",
+           check(seed("ASR-W6-VERT", scope_phase="")), True,
+           "may not be blank")
+    expect("a reference of the WRONG CONCEPT is caught",
+           check(seed("ASR-3-zero-outlets-on-mc",
+                      observation_refs="OCC-W6")), True, "it must be")
+    expect("an assertion that is its own subject is caught",
+           check(seed("ASR-W6-VERT", subject_key="ASR-W6-VERT")), True,
+           "points at ITSELF")
+    expect("a REVERSED range is caught",
+           check(seed("VAL-E-KL-SOC-K-HEIGHT", value="1105-915")), True,
+           "does not parse")
+    expect("a disputed value with no counterpart is caught",
+           check(seed("ASR-2-two-outlets-on-g7", disputed_with="")), True,
+           "names no counterpart")
+    expect("a dispute pointing at an unrelated claim is caught",
+           check(seed("ASR-2-two-outlets-on-g7",
+                      disputed_with="ASR-W6-VERT")), True,
+           "does not name it back")
+    expect("a dispute over different device classes is caught",
+           check(seed("ASR-2-two-outlets-on-g7", device_class="")), True,
+           "differ on device_class")
+    expect("`disputed_with` on a NON-disputed value is caught",
+           check(seed("ASR-W6-VERT", disputed_with="ASR-W6-EXIST")), True,
+           "only a disputed value has a counterpart")
+    expect("a count with no device_class is caught",
+           check(seed("ASR-6-two-vertical-dn110-stacks", device_class="")),
+           True, "no device_class")
+    expect("an unresolvable route endpoint is caught",
+           check(seed("RTE-SEWER", to_ref="SS-K22")), True,
+           "neither a target record")
+    expect("the retired `routed` state is caught",
+           check(seed("RTE-SEWER", route_state="routed")), True,
+           "not declared")
+    expect("the normative `design_intent` state is accepted",
+           check(seed("RTE-SEWER", route_state="design_intent")), False)
+    expect("`construction_approved` is accepted",
+           check(seed("RTE-SEWER", route_state="construction_approved")), False)
 
 
     print("\n%d failure(s)" % failures)
