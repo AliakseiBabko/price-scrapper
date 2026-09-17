@@ -1,0 +1,2 @@
+migration_key,source_locators,target_concept,observed_what,scope_apartment,observed_via,count_min,count_max,measurement_mm,measurement_kind,notes
+OBS-EC-LIGHT-109,legacy_csv:electrical_existing:E-C-LIGHT,observation,"ceiling light point, corridor",109,a82a;a89c,1,1,,none,A pendant point in the corridor of apartment 109. SCOPED THERE. 9e9b is apartment 2 and is a SEPARATE observation - merging them is what produced the 'across three flats' error corrected 2026-09-17.

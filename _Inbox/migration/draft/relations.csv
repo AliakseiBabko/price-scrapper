@@ -1,0 +1,2 @@
+migration_key,source_locators,target_concept,relation_kind,from_ref,to_ref,notes
+REL-V2-ALIAS,legacy_generator:tag:V-2,relation,alias_of,V-2,legacy_csv:service_outlets:SV-K,"A drawing ID that DISPLAYS a canonical concept is an alias, not another occurrence. H=218 on the tag is 2180 against SV-K's MEASURED 2177, and both cite 9e9b. Minting a second record would double the grille."

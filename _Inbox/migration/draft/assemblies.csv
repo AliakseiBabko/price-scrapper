@@ -1,0 +1,2 @@
+migration_key,source_locators,target_concept,assembly_kind,member_keys,notes
+ASM-SW-B,legacy_csv:service_outlets:SW-B,assembly,water_riser_pair,OCC-SW-B-H;OCC-SW-B-C,The hot and cold take-offs as one named thing. ⚠ THE ASSEMBLY IS NOT ONE OF ITS OWN COMPONENTS - occurrence_split_count=2 counts the members only.

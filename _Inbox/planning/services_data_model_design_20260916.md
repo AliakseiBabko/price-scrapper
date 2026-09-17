@@ -260,9 +260,14 @@ Concrete leaf types, not the generic ones: **`IfcOutlet`, `IfcLightFixture`, `If
 > [!IMPORTANT]
 > ⚠️ **CORRECTED 2026-09-16.** Item 1 said the locator was *"blocked on the geometry compiler"* and that *"only `export_v0_dxf.py` knows what they mean"*. **Both are now false** — the compiler was extracted the same day and publishes the contract below. Leaving that text would have had an implementer wait for work already done, or reimplement it.
 
-### ✅ The host-local locator contract — IMPLEMENTED
+### ⚠️ The host-local locator contract — HALF IMPLEMENTED
 
-`tools/layout/resolve_v0_geometry.py` publishes it, and both the IFC generator and the DXF serialiser consume it, so one meaning holds across every representation.
+> [!WARNING]
+> ⚠️ **CORRECTED 2026-09-17. This section said the contract was "IMPLEMENTED", and that is false for half the union.** `tools/layout/resolve_v0_geometry.py` publishes `FACE_ROLES` and `locate_on_face` — **the `wall_face` branch, and only that.** It publishes **no support-surface registry, no ceiling regions and no surface resolver**, so `surface_local` has nothing to resolve against.
+>
+> **What this forbids, until that geometry exists:** the schema may *recognise* `surface_local`, and an unknown `locator_kind` must still fail — but production `surface_local` validation must report **"support geometry unavailable"**, never a pass. Synthetic fixtures may exercise dispatch; **that does not make the branch implemented.** Claiming ceiling validation before ceiling support geometry exists is the same defect as a gate nobody has watched fail.
+
+The `wall_face` half is genuinely implemented, and both the IFC generator and the DXF serialiser consume it, so one meaning holds across every representation.
 
 > [!IMPORTANT]
 > ⚠️ **AMENDED 2026-09-17. A locator is a TYPED UNION, not one shape.** This section previously said *"a locator is `host_id` + `face_ref` + `along_face_mm` + a vertical"*, full stop. **That is wall-only, and it is too narrow**: `L1`–`L7` and `F1` sit on a ceiling, where `along_face_mm` on a wall face is meaningless. A single shape would have forced a ceiling point to be described as a position along a wall, which is not where it is.
