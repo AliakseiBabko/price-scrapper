@@ -1,0 +1,13 @@
+{
+  "url": "lR-zcXpnvco",
+  "video_id": "lR-zcXpnvco",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-17T00:00:00+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "c61152a0699541517daac26acf2e23b65dad7034c61ec5601136ce1f5e2f101d",
+  "attempts_before_success": [],
+  "upload_date": "2024-06-01",
+  "upload_date_source": "yt-dlp --print upload_date, run 2026-09-17"
+}

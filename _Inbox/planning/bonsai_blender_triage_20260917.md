@@ -323,6 +323,9 @@ Summary of 284 candidate videos skipped with one-line rationales:
 
 ### Source C: @dynamiterevit
 
+> ⚠️ **SUPERSEDED 2026-09-17.** This playlist was skipped wholesale as *"basic architectural wall/door drafting & Inkscape SVG post-processing"*. Two of its six videos were processed in round 3: a **45-minute** tutorial on door and window **custom types** and a **26-minute** project-setup tutorial. A per-playlist rationale hid what the individual titles said.
+
+
 | Video ID | Video Title | Skip Rationale |
 | :--- | :--- | :--- |
 | `Ozf2bdkDbso` | How to create walls with BlenderBIM? Crazy gable walls and trims edition! | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
@@ -330,7 +333,7 @@ Summary of 284 candidate videos skipped with one-line rationales:
 | `9LBZ_JF549k` | Blender Interface For BIM Modellers - Understanding Blender's Potential for Architectural Projects | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
 | `tHM-yd57PkM` | Revit vs. BlenderBIM (Bonsai): 5 Reasons Architects Should Be Paying Attention To the Blender NOW! | Proprietary Revit workflow; not applicable to openBIM/Bonsai toolchain. |
 | `LXb51Bf5PLU` | Mastering Bosai (Formerly BlenderBIM) : Gizmo Hotkeys and Navigation Techniques for Architects | Interactive GUI archviz/modeling technique; no transfer to programmatic IFC pipeline. |
-| `lR-zcXpnvco` | Windows & Doors In BlenderBIM (Bonsai) - Working With Door & Window Modifiers To Custom Types | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. |
+| `lR-zcXpnvco` | Windows & Doors In BlenderBIM (Bonsai) - Working With Door & Window Modifiers To Custom Types | Interactive manual geometry clicking; redundant with 6 existing floor plan sources in vault. | **[SUPERSEDED 2026-09-17: PROCESSED. 45 minutes on door/window custom types, not 'basic drafting'. The whole of playlist C was dismissed on one rationale; `Y0NUwQNqkKI` is a 26-minute project-setup tutorial. See YT_lR-zcXpnvco.]**
 
 ### Source D: @Modelflick
 

@@ -81,11 +81,11 @@ We validate everything and have **no IFC validation at all**. Three videos are a
 | 9 | Bonsai file model, save semantics | ✅ |
 | 10 | glTF export and the appearance gap | ✅ settled earlier; 6 unread export titles may add detail |
 | 11 | QTO from IFC | ✅ mechanism; ⚠️ **blocked on us emitting types** |
-| 12 | Validation / IDS | ⚠️ Running one is understood; **authoring one is not, and 3 unread titles cover it** |
-| **13** | ⚠️ **What must an `IfcWallType` + `IfcMaterialLayerSet` carry?** | ⛔ **NEW. `fN9cP6w0DsM`, `9-mkwEI3m8M` address it directly** |
-| **14** | ⚠️ **How does IFC express a wall JOINT?** | ⛔ **NEW. `rSHAf7GBsUE`.** Our corner ownership is canonical data; IFC may have its own opinion |
-| **15** | **Spatial containment — what breaks, and how is it checked?** | ⛔ **NEW. `lQ_t0neAI9M`** |
-| **16** | **Do we need `IfcSpace`, and what does it buy?** | ⛔ **NEW. `9oXWh1spWys`** |
+| 12 | Validation / IDS | ✅ **Authoring answered** — `ifctester.org` has an editor and runs **entirely locally, no data egress**. ⛔ We still have no IFC validation at all |
+| **13** | ⚠️ **What must an `IfcWallType` + `IfcMaterialLayerSet` carry?** | ✅ **ANSWERED.** Type carries `PredefinedType`, Psets and geometry — all inherited. `Name`/`Tag`/`GlobalId` stay per-instance, and **the type name is the only home of the designation**, which is why schedules group on it |
+| **14** | ⚠️ **How does IFC express a wall JOINT?** | ✅ **ANSWERED, AND IT CONFLICTS WITH OURS.** A joint is a **connection** (mitre/butt, breakable), and layer intersection is governed by `IfcMaterialLayer.Priority`, integer 0–100. ⚠️ **Ours is wall-level (thicker, then longer); IFC's is layer-level and authored. Must be reconciled BEFORE layered walls** |
+| **15** | **Spatial containment — what breaks, and how is it checked?** | ✅ **ANSWERED.** Wrong containment is a **common** export defect, and the element then vanishes silently from viewers. Our generator calls `spatial.assign_container`; ⛔ **nothing asserts it — gate still to add** |
+| **16** | **Do we need `IfcSpace`, and what does it buy?** | ⚠️ **HALF.** Spaces are troublesome and fixable in Bonsai — *"I promise you are going to encounter [problems]"* — but **neither video says what spaces BUY you**. The need is still unevidenced |
 | **17** | Is BCF worth adopting for owner review? | ⛔ **NEW. `zaqtSQJ_8jw`** |
 
 ---
@@ -114,3 +114,21 @@ In order. All free except where noted.
 **The rule this vault already applies** (standing rule 3, and `00_Master/Evidence_Reading_Discipline.md`): **take the mechanism, not the conclusion.** A practitioner explaining *what `IfcMaterialLayerSet` does* is reporting how the schema behaves. The same practitioner saying *you should draw it by hand* is reporting what is efficient **for hand-modelling**, which is the one constraint our pipeline does not have.
 
 > ⚠️ **We reuse their entity choices, their failure modes and their checks. We do not inherit their workarounds**, because most workarounds exist to avoid manual labour we do not pay.
+
+---
+
+## 6. Round 3 — the shortlist, processed (2026-09-17)
+
+**8 of 8 fetched and processed**, all English originals, dates confirmed by `yt-dlp`. Notes: `YT_fN9cP6w0DsM` (SPB ×4), `YT_lQ_t0neAI9M` (BIMvoice ×2), `YT_lR-zcXpnvco` (Dynamite ×2). Findings routed to `18_Digital_Toolchain/analysis/Requirements_And_Validation.md`.
+
+**Questions 12, 13, 14, 15 closed; 16 half-closed.** The one that changed a plan rather than filling a gap is **14**: IFC resolves wall joints by an authored `Priority` on each material layer, which is a *different rule from ours* and must be reconciled before we emit layered walls.
+
+**What is now the top of the list:**
+
+1. ⛔ **Reconcile `wall_corners.csv` with `IfcMaterialLayer.Priority`** — a prerequisite for layered walls, and the external perimeter is layered.
+2. ⛔ **Add the containment assertion** to the IFC check. Cheap; guards a silent and demonstrably common failure.
+3. ⛔ **Emit types** (`IfcWallType`, `IfcDoorType`, `IfcWindowType` + `IfcMaterialLayerSet`). Now fully specified; blocks all schedules.
+4. ⛔ **Author an IDS** for the model. No data leaves the machine.
+5. ⚠️ **Phasing has ZERO sources** and we need it for the rewire. Not a YouTube question — go to the IFC documentation.
+
+⚠️ **And a caveat on the corpus itself**, from Christina: Bonsai tutorials pin to a build and *"sometimes very simple features get completely changed"*. **Schema statements and failure modes transfer; click-paths do not.** Every schema claim above should be checked against the IFC documentation before we emit anything — the `Priority` 0–100 range first.
