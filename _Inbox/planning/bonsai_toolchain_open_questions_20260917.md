@@ -132,3 +132,54 @@ In order. All free except where noted.
 5. ⚠️ **Phasing has ZERO sources** and we need it for the rewire. Not a YouTube question — go to the IFC documentation.
 
 ⚠️ **And a caveat on the corpus itself**, from Christina: Bonsai tutorials pin to a build and *"sometimes very simple features get completely changed"*. **Schema statements and failure modes transfer; click-paths do not.** Every schema claim above should be checked against the IFC documentation before we emit anything — the `Priority` 0–100 range first.
+
+---
+
+## 7. ⚠️⚠️ Review verdict, 2026-09-17 — the plan order was wrong, and a live defect was found
+
+Full verdict recorded in `00_Master/Model_and_Views.md`. Two things change what happens next.
+
+### ⚠️⚠️ THE LIVE DEFECT: IFC identity is not stable across rebuilds
+
+`root.create_entity` is called without supplying an ID, so **every rebuild mints a new `GlobalId` for the same element**. Reproduced 2026-09-17:
+
+```
+run1  3ZhvrV1OzFdvQfK9LxCTqv
+run2  0iAXyw7RfE2AAXJQL2v2Yp     # same named wall G3, same code, different identity
+```
+
+**This is not a future services problem — it is live today for every wall, opening and frame member.** An "authoritative issued representation" that changes every identity on each rebuild **cannot support a durable annotation, a diff, or a review reference**. It also quietly undermines the services migration's own discipline: that migration deliberately mints **no** UUIDs pending review, while the model beside it re-mints all of them on every run.
+
+**Required before types:**
+
+1. assign an **immutable canonical identity** to every persistent element class;
+2. derive the IFC `GlobalId` **only** from that identity;
+3. give **types their own** immutable identities;
+4. ⚠️ **gate identity stability across rebuilds** — build twice, diff the GlobalIds.
+
+⚠️ **And "emit types unblocks all schedules" was overstated.** Types improve standard grouping and inheritance; occurrence-level schedules remain technically possible without them.
+
+### ⚠️ The IDS comes FIRST, not after
+
+The earlier plan emitted types and layer sets, *then* authored an IDS. That is backwards: the IDS would merely describe whatever the generator happened to build. **The IDS states the exchange contract and must FAIL against today's model** — stable identities, correct containment, required type assignment, material-set compatibility, phase/status vocabulary, prohibited proxies, service topology. Implementation then makes the contract pass.
+
+### The corrected order
+
+| # | Step |
+| :-: | :--- |
+| 1 | Define the resolved intermediate model as geometry **plus topology, phases, decisions, provenance** |
+| 2 | ⚠️ **Stabilise identities** for all current occurrences and future types; gate it |
+| 3 | ⚠️ **Author the IDS / IFC contract** — before extending the generator |
+| 4 | Add containment validation |
+| 5 | Emit types and material sets, **compiler polygons staying authoritative**; derive IFC connection semantics from them |
+| 6 | Map canonical `existing`/`demolished`/`new` into the chosen IFC4 status representation |
+| 7 | Generate terminals, circuits and **minimal port topology** |
+| 8 | Generate route geometry **by state only** — none for `topology_only`, provisional for `design_intent`, exact and quantity-bearing for `construction_approved`, site-confirmed for `as_built` |
+| 9 | Spatial plans from geometry; **schematics and schedules from the graph** |
+| 10 | ⛔ **Do not issue service geometry until the survey and the owner/trade decisions exist** |
+
+### ⚠️ And the honest status of the research
+
+Three practitioners are enough to reject *"3D MEP is inherently unsuitable for residential work."* They are **not** enough to establish automated IFC generation, port-free interoperability, generated service sheets, error rates, or whether exact routing beats route zones before trade approval. Nor does reading 292 titles prove the remaining 269 hold nothing — **two explicitly relevant plumbing videos had no captions at all.**
+
+> **The correct conclusion is: sufficiently supported for a BOUNDED PROTOTYPE and validation exercise — not "the architecture is settled."**
