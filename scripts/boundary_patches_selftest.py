@@ -295,27 +295,38 @@ def main() -> int:
           % ("PASS" if ok else "FAIL", rule))
     failures += 0 if ok else 1
 
-    # ⚠️ IT ASSERTS THE STATE, NOT WHICH ASSERTION IS HOLDING IT BACK. This
-    # seed named `candidate` and the contact assertion specifically; when the
-    # shell photograph arrived on 2026-09-17 it DISPUTED adjacent_space_kind
-    # instead, and the seed failed while the behaviour was perfectly correct.
-    # A seed pinned to the current reason goes stale the moment the evidence
-    # improves - the same class as the seeds that named M2 and M6b by id.
-    got, _rule, why = verdict_at("M2", "cross_lo", 570.0)
-    ok = got == UNRESOLVED and any(
-        state in why for state in ("candidate", "disputed", "unknown"))
-    print("%s M2's abutting run is NOT eligible while any axis is unsettled (%s)"
-          % ("PASS" if ok else "FAIL", why[:44]))
+    # ⚠⚠ M2's ABUTTING RUN IS NOW RESOLVED, and the seed records that rather
+    # than asserting it stays open. It was `unresolved` while the neighbour's
+    # space was read off the APARTMENT-ONLY plan, which is cut at our boundary
+    # and cannot show what is on the other side of it. The FULL floor plan
+    # shows a loggia, the shell photo agrees, and the run derives not_required.
+    got, rule, _why = verdict_at("M2", "cross_lo", 570.0)
+    ok = got == NOT_REQUIRED and rule == "INS-PARTY-DIRECT"
+    print("%s M2's abutting run DERIVES not_required             (%s)"
+          % ("PASS" if ok else "FAIL", rule))
     failures += 0 if ok else 1
 
-    # ⚠️⚠️ THE THREE OUTCOMES ARE DISTINCT. `None` used to mean both "proven
-    # no" and "nobody knows", and a generator reading them as one falsy value
-    # would turn uncertainty into a silent omission that looks like a decision.
-    mc = verdict_at("MC", "end_to", 0.0)[0]
-    m2b = verdict_at("M2", "cross_lo", 570.0)[0]
-    ok = mc == NOT_REQUIRED and m2b == UNRESOLVED and mc != m2b
+    # ⚠⚠ THE UNRESOLVED CASE IS NOW INJECTED, NOT BORROWED FROM REAL DATA.
+    # Four seeds broke when M2 resolved, because they leaned on a real wall
+    # staying unsettled - the same staleness that hit the seeds naming M2 and
+    # M6b by id. A guard must carry its own defect.
+    downgraded = copy.deepcopy(base_ass)
+    victim = next(r for r in downgraded if r["property"] == "contact_kind")
+    victim["value_state"] = "candidate"
+    injected = eligibility(victim["patch_uuid"], downgraded, base_dec)[0]
+    settled = eligibility(victim["patch_uuid"], base_ass, base_dec)[0]
+    ok = injected == UNRESOLVED and settled != UNRESOLVED
+    print("%s an injected candidate turns a SETTLED patch unresolved (%s -> %s)"
+          % ("PASS" if ok else "FAIL", settled, injected))
+    failures += 0 if ok else 1
+
+    # ⚠⚠ THE THREE OUTCOMES ARE DISTINCT. `None` used to mean both "proven no"
+    # and "nobody knows", and a generator reading them as one falsy value would
+    # turn uncertainty into a silent omission that looks like a decision.
+    proven = verdict_at("MC", "end_to", 0.0)[0]
+    ok = proven == NOT_REQUIRED and injected == UNRESOLVED and proven != injected
     print("%s a PROVEN `no` and an UNRESOLVED are different values (%s vs %s)"
-          % ("PASS" if ok else "FAIL", mc, m2b))
+          % ("PASS" if ok else "FAIL", proven, injected))
     failures += 0 if ok else 1
 
     print("\n%d failure(s)" % failures)
