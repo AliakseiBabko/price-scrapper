@@ -93,16 +93,18 @@ def main() -> int:
     # ⚠️ AN INVENTED MATERIAL on a wall whose material is unrecorded. Making a
     # gate pass by guessing is the failure this whole pass exists to avoid.
     model = ifcopenshell.open(base)
-    # ⚠️ M6b ONLY. M2 was in this list until 2026-09-17, when owner rule 4 was
-    # found to record it plainly as 200 mm aerated block - the seed had gone
-    # stale against improved data, which is how a seed quietly stops testing.
-    unknown = [w for w in model.by_type("IfcWall")
-               if not w.is_a("IfcWallType") and w.Name == "M6b"]
+    # ⚠️ THE SEED INJECTS ITS OWN UNKNOWN. It used to name a real wall - M2,
+    # then M6b - and each time the owner resolved that wall the seed kept
+    # passing while testing nothing. Every wall now has a recorded material, so
+    # naming one would make this seed permanently vacuous.
+    victim = [w for w in model.by_type("IfcWall")
+              if not w.is_a("IfcWallType")][0]
     material = ifcopenshell.api.run("material.add_material", model,
                                     name="guessed")
     ifcopenshell.api.run("material.assign_material", model,
-                         products=[unknown[0]], material=material)
-    expect("a GUESSED material on an unrecorded wall is caught", check(model),
+                         products=[victim], material=material)
+    expect("a GUESSED material on an unrecorded wall is caught",
+           check(model, material_unknown={victim.Name}),
            True, "invented material is worse")
 
     # ...and removing a real one is caught too, so the check is not one-sided

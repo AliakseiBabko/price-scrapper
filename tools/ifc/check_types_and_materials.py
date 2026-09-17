@@ -33,17 +33,22 @@ TYPED = {"IfcWall": "IfcWallType", "IfcDoor": "IfcDoorType",
          "IfcWindow": "IfcWindowType"}
 
 # Walls whose material is genuinely unrecorded.
-# ⚠️ M2 WAS REMOVED FROM THIS LIST on 2026-09-17. I had treated M2 and M6b as
-# one unknown because they share the class `loggia_enclosure` - but
-# `wall_materials.json` states plainly, in owner rule 4, that «M2 is 200 mm
-# aerated block with NO insulation». The unusual part is the missing
-# insulation, not the material. M6b is the real unknown: its thickness is
-# provisional and no reviewed source states its SUBSTRATE, which is why the
-# 300+70 rule lists M1, M3, M4, M5, M6a and M7 and deliberately not M6b.
-MATERIAL_UNKNOWN = {"M6b"}
+# ⚠️ NOW EMPTY. M2 left on 2026-09-17 (owner rule 4 recorded it all along) and
+# M6b the same day, when the owner stated its substrate directly. Every wall in
+# the model now has a recorded material.
+# ⚠️ The set is KEPT rather than deleted: it is the honest place for the next
+# wall whose material is unknown, and an empty set states that today there is
+# none - which is a different claim from the check not existing.
+MATERIAL_UNKNOWN = set()
 
 
-def check(model):
+def check(model, material_unknown=None):
+    """⚠️ `material_unknown` is injectable so a SEED never has to name a real
+    wall that might later be resolved. Three seeds went stale that way - they
+    used M2, then M6b, and each time the data improved they kept passing while
+    testing nothing."""
+    if material_unknown is None:
+        material_unknown = MATERIAL_UNKNOWN
     import ifcopenshell.util.element as ue
 
     problems = []
@@ -89,7 +94,7 @@ def check(model):
         if wall.is_a("IfcWallType"):
             continue
         material = ue.get_material(wall)
-        known = wall.Name not in MATERIAL_UNKNOWN
+        known = wall.Name not in material_unknown
         if known and material is None:
             problems.append("IfcWall %r has no material association, but its "
                             "material IS recorded" % wall.Name)
