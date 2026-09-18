@@ -196,16 +196,30 @@ def main() -> int:
           any("REFERENCE ONLY" in p for p in problems),
           problems[:1] or "ACCEPTED")
 
-    check("...and the real v1 is marked that way on disk",
-          (load("v1-homestyler").get("status") or "") == "reference_only",
-          load("v1-homestyler").get("status"))
+    # ⚠️⚠️ ASSERT AGAINST THE AUTHORED SOURCE, NOT A GENERATED SPEC.
+    # This used to call load("v1-homestyler"), which reads
+    # data/outputs/variants/v1-homestyler/spec.json - a BUILT artefact. On
+    # 2026-09-19 those outputs were quarantined, because v1 must never be built,
+    # and this selftest broke with FileNotFoundError. The seed was right about
+    # the fact and wrong about where to read it: v1's status is a DECISION and
+    # lives in the authored variant file, which is durable. A guard that depends
+    # on the output of a builder we have just retired is a guard on sand.
+    import json as _json
+    _authored_path = os.path.join(REPO, "data", "variants", "v1-homestyler.json")
+    with open(_authored_path, encoding="utf-8") as _fh:
+        authored = _json.load(_fh)
+    check("...and the real v1 is marked reference_only in its AUTHORED file",
+          (authored.get("status") or "") == "reference_only",
+          authored.get("status"))
 
-    # ⚠️ and classification must REFUSE rather than guess when the basis fails
+    # ⚠️ and classification must REFUSE rather than guess when the basis fails.
+    # Uses the in-memory reference_only fixture above, so this seed no longer
+    # needs any generated artefact to exist at all.
     try:
-        classify(v0, load("v1-homestyler"))
-        check("classify REFUSES an unrebased variant", False, "it computed one")
+        classify(v0, sketch)
+        check("classify REFUSES a reference_only operand", False, "it computed one")
     except ValueError as exc:
-        check("classify REFUSES an unrebased variant", True, str(exc)[:24])
+        check("classify REFUSES a reference_only operand", True, str(exc)[:24])
 
     print("\n%d failure(s)" % failures)
     return 1 if failures else 0

@@ -1,250 +1,109 @@
-#!/usr/bin/env python3
-"""Apply a layout variant to the base apartment spec and draw it.
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""RETIRED 2026-09-19. This is a tombstone. It builds nothing.
 
-A variant is a patch, not a copy: a list of typed operations in the same
-vocabulary the layout-case dataset uses for what architects do to a plan
-(`wall.remove`, `zone.merge`, `opening.create`, …). Keeping variants as
-patches means the base geometry has one definition, the diff between two
-options is readable, and a variant can cite the rule or case that suggested it.
+WHAT IT USED TO DO, AND WHY THAT WAS DANGEROUS
+----------------------------------------------
+It applied authored operations to a base spec and emitted an IFC. On 2026-09-18
+both review engines found it still live, and the reproduction was exact:
 
-Output per variant: the derived spec, an IFC, and A3 sheets.
+    $ .venv-ifc314/Scripts/python.exe tools/layout/build_variant.py \\
+          data/variants/v1-homestyler.json --no-render
+      walls: 39   doors: 0   windows: 0   status: "reference_only"   EXIT=0
 
-Usage:
-  python tools/layout/build_variant.py data/variants/v1-kitchen-living.json
-  python tools/layout/build_variant.py --all
+It built the permanently `reference_only` Homestyler SKETCH, at exit 0, from
+`current_apartment_shell.json` - schema 0.1.0, **15 walls**, against a compiler
+that resolves **25**. Its only guard refused a base whose status *starts with*
+`RETIRED`; v1's base reads `from_developer_layout_via_cad_not_field_verified`,
+so it sailed through. `check_variant_basis.py` refuses v1 correctly and with 23
+seeds - and this path never asked it. **A gate only guards the door it is nailed
+to.**
+
+⚠️⚠️ WHY IT IS NOT MERELY SCHEMA-GUARDED
+A schema guard that "accepts v2" would claim support that does not exist. This
+implementation's operations, and `tools/ifc/model_from_spec.py` beneath them,
+assume RECTANGULAR geometry - `x_m`, `y_m`, `length`, `horizontal`. Schema v2
+carries REAL POLYGONS, including the mitred quadrilaterals `M2` and `M6b` that a
+rectangle cannot express and would silently square off. Accepting v2 here would
+produce confident, wrong geometry: worse than refusing.
+
+⚠️ THIS IS NOT TO BE REPAIRED. The implementation is preserved in git history
+(before 2026-09-19) if it is ever useful to read. The replacement is a NEW
+compiler, built around:
+
+    ResolvedGeometry
+      + authored variant relations/operations
+      -> resolved variant geometry
+      -> IFC and views
+
+⚠️ `v1-homestyler` IS `reference_only` AND IS NEVER BUILDABLE. It is a freehand
+Homestyler sketch drawn over the same constructor raster v0 came from, before any
+model existed. Owner, 2026-09-17: *"Homestyler is just for reference... I didn't
+have any model, now I have a model. No direct, no exact dimensions, just general
+ideas."* Its ideas survive - which room takes which role, that a laundry is
+wanted, that a storage block should face two rooms. **Its coordinates are never
+evidence, and no quantity, delta, wall position or area may come from it.**
+
+REFUSAL CONTRACT
+----------------
+Every invocation exits non-zero, including `--all`. The refusal happens BEFORE
+any base is read, any operation applied, any directory created and any output
+written - so a refused run leaves every existing artefact byte-identical and
+mtime-unchanged. `scripts/build_variant_retired_selftest.py` asserts exactly
+that.
 """
-from __future__ import annotations
 
-import argparse
-import json
-import subprocess
 import sys
-from pathlib import Path
 
-REPO = Path(__file__).resolve().parents[2]
-VARIANTS = REPO / "data" / "variants"
-OUTPUTS = REPO / "data" / "outputs" / "variants"
-IFC_PYTHON = REPO / ".venv-ifc314" / "Scripts" / "python.exe"
+EXIT_RETIRED = 2
 
+MESSAGE = """\
+REFUSED: tools/layout/build_variant.py is RETIRED as of 2026-09-19 and builds nothing.
 
-def find_room(spec, name):
-    for r in spec["rooms"]:
-        if r["name"] == name:
-            return r
-    raise SystemExit("no room named %r" % name)
+WHY
+  It emitted geometry from a rectangular schema (x_m / y_m / length / horizontal)
+  while the compiler resolves REAL POLYGONS, including the mitred walls M2 and
+  M6b that a rectangle cannot express. On 2026-09-18 it built the permanently
+  reference_only v1-homestyler sketch at exit 0 - 39 walls, 0 doors, 0 windows -
+  from a 15-wall schema-0.1.0 shell, because its only guard matched the literal
+  string "RETIRED" on the base status.
 
+  It is NOT schema-guarded to accept v2, because accepting v2 would claim support
+  that does not exist: model_from_spec.py underneath it still assumes rectangles.
 
-def rect_union(a, b):
-    x0 = min(a["x_m"], b["x_m"])
-    y0 = min(a["y_m"], b["y_m"])
-    x1 = max(a["x_m"] + a["width_m"], b["x_m"] + b["width_m"])
-    y1 = max(a["y_m"] + a["depth_m"], b["y_m"] + b["depth_m"])
-    return x0, y0, x1 - x0, y1 - y0
+v1-homestyler
+  reference_only, permanently, and NEVER buildable. A freehand sketch over the
+  same raster v0 came from. Its ideas are useful; its coordinates are not
+  evidence. check_variant_basis.py refuses it by design and that refusal is the
+  correct permanent state, not a blocker to clear.
 
+WHAT TO USE INSTEAD
+  Nothing yet - the replacement is unbuilt, and that is deliberate. It must be a
+  NEW compiler, not a repair of this one:
 
-def apply_op(spec: dict, op: dict, log: list[str]) -> None:
-    kind = op["op"]
+      ResolvedGeometry
+        + authored variant relations/operations
+        -> resolved variant geometry
+        -> IFC and views
 
-    if kind == "wall.remove":
-        names = op["walls"]
-        found = [w for w in spec["walls"] if w["name"] in names]
-        if len(found) != len(names):
-            missing = set(names) - {w["name"] for w in found}
-            raise SystemExit("wall.remove: no such wall(s): %s" % ", ".join(sorted(missing)))
-        for w in found:
-            # Kept in the model, flagged: the demolition sheet has to draw it.
-            w["phase"] = "demolished"
-        # openings and fills hosted by a demolished wall go with it
-        for o in spec["openings"]:
-            if o["host_wall"] in names:
-                o["phase"] = "demolished"
-        log.append("demolished %d wall(s): %s" % (len(found), ", ".join(names)))
+  The existing state is generated by tools/ifc/model_from_dxf.py from the gated
+  DXF, and tools/layout/build_variant_spec.py compiles v0-existing/spec.json from
+  ResolvedGeometry. Differencing two variants is tools/layout/check_variant_basis.py.
 
-    elif kind == "wall.add":
-        w = dict(op["wall"])
-        w.setdefault("phase", "new")
-        w.setdefault("kind", "partition")
-        w.setdefault("thickness_m", spec.get("default_wall_thickness_m", 0.15))
-        spec["walls"].append(w)
-        log.append("new wall %r" % w["name"])
+  The previous implementation is in git history before 2026-09-19. Read it if
+  useful; do not restore it.
 
-    elif kind == "wall.thicken":
-        w = next((x for x in spec["walls"] if x["name"] == op["wall"]), None)
-        if w is None:
-            raise SystemExit("wall.thicken: no such wall %r" % op["wall"])
-        w["thickness_m"] = op["to_m"]
-        w["phase"] = "modified"
-        log.append("thickened %r to %d mm" % (w["name"], round(op["to_m"] * 1000)))
-
-    elif kind == "opening.create":
-        o = dict(op["opening"])
-        o.setdefault("phase", "new")
-        o.setdefault("bottom_m", 0.0)
-        o.setdefault("height_m", 2.07)
-        spec["openings"].append(o)
-        log.append("new %s opening %r" % (o.get("kind", "door"), o["name"]))
-
-    elif kind == "opening.remove":
-        before = len(spec["openings"])
-        spec["openings"] = [o for o in spec["openings"] if o["name"] not in op["openings"]]
-        spec["fills"] = [f for f in spec["fills"] if f["name"] not in op.get("fills", [])]
-        log.append("removed %d opening(s)" % (before - len(spec["openings"])))
-
-    elif kind == "zone.merge":
-        a, b = find_room(spec, op["rooms"][0]), find_room(spec, op["rooms"][1])
-        x, y, w, d = rect_union(a, b)
-        merged = {
-            "name": op["into"], "x_m": round(x, 2), "y_m": round(y, 2),
-            "width_m": round(w, 2), "depth_m": round(d, 2),
-            "area_m2": round(a["area_m2"] + b["area_m2"], 2),
-            "role": op.get("role", a.get("role", "other")),
-            "source": "merged from %s + %s" % (a["name"], b["name"]),
-        }
-        spec["rooms"] = [r for r in spec["rooms"] if r["name"] not in op["rooms"]] + [merged]
-        for wall_name, rooms in list((spec.get("space_boundaries") or {}).items()):
-            spec["space_boundaries"][wall_name] = [op["into"] if r in op["rooms"] else r for r in rooms]
-        for old in op["rooms"]:
-            positions = (spec.get("electrical_plan") or {}).pop(old, None)
-            if positions:
-                spec["electrical_plan"].setdefault(op["into"], []).extend(positions)
-            for p in spec.get("plumbing_plan") or []:
-                if p["room"] == old:
-                    p["room"] = op["into"]
-        log.append("merged %s + %s -> %s (%.2f m2)"
-                   % (a["name"], b["name"], merged["name"], merged["area_m2"]))
-
-    elif kind == "room.resize":
-        r = find_room(spec, op["room"])
-        for key in ("x_m", "y_m", "width_m", "depth_m", "area_m2", "role"):
-            if key in op:
-                r[key] = op[key]
-        log.append("resized %r to %.2f m2" % (r["name"], r["area_m2"]))
-
-    elif kind == "room.add":
-        spec.setdefault("rooms", []).append(dict(op["room"]))
-        log.append("room %r (%.2f m2)" % (op["room"]["name"], op["room"]["area_m2"]))
-
-    elif kind == "furniture.place":
-        spec.setdefault("furniture", []).append(dict(op["item"]))
-        log.append("placed %r in %s" % (op["item"]["name"], op["item"].get("room", "?")))
-
-    elif kind == "finish.set":
-        spec.setdefault("finishes", {})[op["room"]] = op["finish"]
-        log.append("finishes set for %s" % op["room"])
-
-    elif kind == "circuit.assign":
-        spec.setdefault("circuits", {}).update(op["circuits"])
-        log.append("assigned %d lighting circuit(s)" % len(op["circuits"]))
-
-    else:
-        raise SystemExit("unknown op %r - extend apply_op or fix the variant" % kind)
+Nothing was read, created or written by this invocation.
+"""
 
 
-def resolve_chain(variant_path: Path) -> tuple[list[dict], Path]:
-    """Follow `extends` back to the shell, so options can be layered.
-
-    Layout, furniture and finishes are separate decisions, and pinning them to
-    one file would force a copy of the layout for every furniture scheme. With
-    a chain, `warm-finishes` can extend `v2-open-kitchen`, and fixing the shell
-    fixes every option built on it at once - which copies never do.
-    """
-    chain: list[dict] = []
-    seen: set[str] = set()
-    path = variant_path
-    while True:
-        variant = json.loads(path.read_text(encoding="utf-8"))
-        vid = variant["variant_id"]
-        if vid in seen:
-            raise SystemExit("variant chain loops at %r" % vid)
-        seen.add(vid)
-        chain.append(variant)
-        parent = variant.get("extends")
-        if not parent:
-            if "base_spec" not in variant:
-                raise SystemExit("%s has neither `extends` nor `base_spec`" % vid)
-            return list(reversed(chain)), REPO / variant["base_spec"]
-        path = VARIANTS / (parent + ".json")
-        if not path.exists():
-            raise SystemExit("%s extends %r, which does not exist" % (vid, parent))
-
-
-def build_one(variant_path: Path, render: bool) -> dict:
-    chain, base_path = resolve_chain(variant_path)
-    leaf = chain[-1]
-    spec = json.loads(base_path.read_text(encoding="utf-8"))
-
-    # REFUSE A RETIRED BASE, and check it HERE rather than downstream: the
-    # derived spec overwrites `status` with the leaf's own, so a guard in
-    # model_from_spec.py never sees the base's RETIRED and the old schematic
-    # gets rebuilt silently over the new model. That happened on 2026-09-16.
-    base_status = str(spec.get("status", ""))
-    if base_status.upper().startswith("RETIRED"):
-        raise SystemExit(
-            "refusing to build %s: its base spec %s is %s.\n"
-            "The existing state is generated by tools/ifc/model_from_dxf.py from the\n"
-            "gated DXF. See _Inbox/planning/model_rebuild_scope_20260916.md."
-            % (leaf["variant_id"], base_path.relative_to(REPO), base_status))
-
-    spec["spec_id"] = leaf["variant_id"]
-    spec["name"] = leaf["name"]
-    spec["derived_from"] = str(base_path.relative_to(REPO))
-    spec["variant_chain"] = [v["variant_id"] for v in chain]
-    spec["status"] = leaf.get("status", "draft")
-
-    log: list[str] = []
-    for variant in chain:
-        if len(chain) > 1:
-            log.append("--- %s" % variant["variant_id"])
-        for op in variant.get("operations", []):
-            apply_op(spec, op, log)
-
-    out = OUTPUTS / leaf["variant_id"]
-    out.mkdir(parents=True, exist_ok=True)
-    spec_out = out / "spec.json"
-    spec_out.write_text(json.dumps(spec, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
-
-    variant = leaf
-    result = {"variant_id": variant["variant_id"], "spec": str(spec_out.relative_to(REPO)),
-              "operations_applied": log}
-
-    proc = subprocess.run(
-        [str(IFC_PYTHON), "model_from_spec.py", "--spec", str(spec_out),
-         "--output", str(out / "model.ifc"), "--manifest", str(out / "model.json")],
-        cwd=str(REPO / "tools" / "ifc"), capture_output=True, text=True, encoding="utf-8")
-    if proc.returncode != 0:
-        raise SystemExit("model build failed for %s:\n%s" % (variant["variant_id"], proc.stderr[-2000:]))
-    result["model"] = json.loads(proc.stdout)
-
-    if render:
-        proc = subprocess.run(
-            [str(IFC_PYTHON), str(REPO / "tools" / "drawings" / "apartment_sheet_from_ifc.py"),
-             "--ifc", str(out / "model.ifc"), "--manifest", str(out / "model.json"),
-             "--output-dir", str(out / "sheets"), "--sheet-kind", "architectural"],
-            capture_output=True, text=True, encoding="utf-8")
-        if proc.returncode != 0:
-            # Silence here once left a stale sheet on disk being presented as
-            # the current drawing. A drawing that did not render is a failure.
-            raise SystemExit("sheet render failed for %s:%s%s"
-                             % (variant["variant_id"], chr(10), proc.stderr[-1500:]))
-        else:
-            result["sheets"] = sorted(p.name for p in (out / "sheets").glob("*.pdf"))
-    return result
-
-
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("variant", nargs="?", help="path to a variant json; omit with --all")
-    ap.add_argument("--all", action="store_true", help="build every variant in data/variants/")
-    ap.add_argument("--no-render", action="store_true", help="model only, skip the sheets")
-    a = ap.parse_args()
-
-    paths = sorted(VARIANTS.glob("*.json")) if a.all else [Path(a.variant)]
-    if not paths:
-        raise SystemExit("nothing to build")
-    results = [build_one(p, render=not a.no_render) for p in paths]
-    print(json.dumps(results, ensure_ascii=False, indent=2))
-    return 0
+def main():
+    # ⚠ THE REFUSAL IS THE FIRST THING THAT HAPPENS. No argument parsing that
+    # could touch the filesystem, no base resolution, no mkdir, no write. A
+    # retired builder that still creates an output directory is still a builder.
+    sys.stderr.write(MESSAGE)
+    return EXIT_RETIRED
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.exit(main())

@@ -42,11 +42,36 @@ current_apartment_shell.json          the flat, unchangeable
 A finishes patch is the same shape. That is what lets you test "does the family
 furniture scheme work in both layouts" without a second copy of either layout.
 
-Build any node and you get the whole chain applied in order:
+~~Build any node and you get the whole chain applied in order:~~
 
 ```powershell
+# RETIRED - this exits 2 and builds nothing
 .\.venv\Scripts\python.exe tools\layout\make_variant.py v1-furniture-family
 ```
+
+> [!CAUTION]
+> **⚠️⚠️ RETIRED 2026-09-19 — `make_variant.py` AND `build_variant.py` BUILD NOTHING.**
+> Both are tombstones that exit 2 before reading anything. **The command above does
+> not work and must not be repaired.**
+>
+> On 2026-09-18 `build_variant.py` built the permanently `reference_only`
+> `v1-homestyler` sketch **at exit 0** — 39 walls, 0 doors, 0 windows — from a
+> 15-wall schema-0.1.0 shell, because its only guard matched the literal string
+> `RETIRED` on the base status. `check_variant_basis.py` refuses v1 correctly with 23
+> seeds, and this path never asked it.
+>
+> ⚠️ It is not schema-guarded to accept v2 either: its operations and
+> `model_from_spec.py` beneath them assume **rectangles** (`x_m`, `y_m`, `length`,
+> `horizontal`), while v2 carries **real polygons** including the mitred `M2`/`M6b` a
+> rectangle silently squares off. "Accepting v2" would claim support that does not
+> exist.
+>
+> **The replacement is unbuilt, deliberately, and must be a NEW compiler:**
+> `ResolvedGeometry` + authored variant relations/operations → resolved variant
+> geometry → IFC and views. Guarded by `scripts/build_variant_retired_selftest.py`,
+> 10 seeds, including that a refused run leaves every output byte- and
+> mtime-identical.
+
 
 The applied chain is recorded in the built spec as `variant_chain`, so any
 drawing can say exactly which decisions produced it.
