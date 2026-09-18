@@ -232,6 +232,30 @@ def add_baffle(lo, hi, height=1.8):
                     "deliberately excludes from frame")}
 
 
+def add_partition(lo, hi, thickness=0.075):
+    """A SEALED full-height partition at the real thickness of G7/G8: 75 mm.
+
+    ⚠⚠ THE LEAK TEST. Antigravity's warning, 2026-09-18: a probe grid at 8x8x6
+    over this room spaces samples ~0.35-0.43 m apart, which is 4 to 6 times the
+    75 mm of an aerated-block partition. A probe sitting in the lit bay can then
+    spill its irradiance across the divider into the dark one, glowing through a
+    solid wall.
+
+    This partition is FULL HEIGHT and FULL WIDTH - it seals the far half
+    completely, so there is NO light path at all. Cycles must render the far side
+    black. Any light EEVEE puts there is leakage, and the amount is the size of
+    the problem.
+    """
+    bpy.ops.mesh.primitive_cube_add(size=1.0)
+    ob = bpy.context.object
+    ob.name = "partition"
+    ob.scale = ((hi.x - lo.x) / 2.0 + 0.15, thickness / 2.0, (hi.z - lo.z) / 2.0 + 0.15)
+    ob.location = ((lo.x + hi.x) / 2.0, lo.y + (hi.y - lo.y) * 0.5, (lo.z + hi.z) / 2.0)
+    return {"name": ob.name, "thickness_m": thickness,
+            "sealed": "full height and width - there is no light path",
+            "why": "G7/G8 are 75 mm; the probe grid is 4-6x coarser than that"}
+
+
 def add_probe_volume(lo, hi):
     """A light-probe volume that ENCLOSES the room's surfaces.
 
@@ -488,6 +512,11 @@ def main():
         baf = bpy.data.objects.get("baffle")
         if baf is not None and mats:
             baf.data.materials.append(mats[0])
+    if opts.get("--partition", "no").lower() not in ("no", "0", "false"):
+        report["partition"] = add_partition(lo, hi)
+        par = bpy.data.objects.get("partition")
+        if par is not None and mats:
+            par.data.materials.append(mats[0])
     report["eevee"] = set_up_eevee(bpy.context.scene, samples, use_probes=True)
     report["probe_volume"] = add_probe_volume(lo, hi)
     # ⚠⚠ THE GATE THAT WOULD HAVE SAVED THE WHOLE EXPERIMENT.
@@ -653,7 +682,8 @@ def _render_all(report, outdir, suffix, opts):
     # that does the bouncing is deliberately NOT in frame, so screen-space
     # tracing has nothing on screen to trace against and only a baked probe can
     # supply the light. If probes matter anywhere, they matter here.
-    if opts.get("--baffle", "no").lower() not in ("no", "0", "false"):
+    if (opts.get("--baffle", "no").lower() not in ("no", "0", "false")
+            or opts.get("--partition", "no").lower() not in ("no", "0", "false")):
         far_y = y0 + (y1 - y0) * 0.78
         cam = add_persp_camera("behind_baffle", (cx, far_y, 1.35),
                                (cx, y1, 0.15), lens=40.0)

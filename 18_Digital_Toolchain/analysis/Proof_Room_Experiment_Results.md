@@ -124,7 +124,7 @@ still needs a proven lightmap pipeline (with non-overlapping lightmap UVs — wh
 box-projection texture route deliberately does **not** provide), a runtime GI solution,
 or lighting simple enough to be honest only for spatial review.
 
-## ⚠️⚠️ NINE defects in the experiment itself, all mine
+## ⚠️⚠️ TEN defects in the experiment itself, all mine
 
 **This is the part worth keeping.** Each would have produced a confident wrong answer.
 
@@ -159,13 +159,79 @@ or lighting simple enough to be honest only for spatial review.
 9. **The bright-world control was vacuous** (`capture_world = False`) and the
    darkest-20% statistic moved its own support.
 
-> **Six of the nine were found by insisting on a number. The last three were not found
+10. **A partition asserted to be "sealed" that was not** — twice. Cycles certified a
+    light path both times. The leak test therefore produced a suggestive number and no
+    verdict.
+
+> **Six of the ten were found by insisting on a number. The last three were not found
 > by me at all** — and 7 is the one that mattered most. ⚠️ **Measurement discipline is
 > not the same as measuring the right thing:** four EEVEE runs agreed with each other
 > perfectly while none of them touched a surface inside a valid influence volume. An experiment
 > judged by eye would have passed #1, not noticed #2, and never reached #3 — and
 > would have produced exactly the persuasive-but-wrong artefact this project is
 > built to prevent.
+
+## Antigravity's three added risks — one measured down, one unresolved, one adopted
+
+Antigravity independently confirmed the probe-volume diagnosis and added three risks.
+**Reproduced rather than accepted:**
+
+### ⚠️ B — box projection on the mitred walls: REAL IN KIND, OVERSTATED ~10x
+
+Antigravity: `M2`/`M6b` are *"mitred quadrilaterals angled at roughly 45°"*, giving a
+**√2 ≈ 1.414 stretch — 41% distortion on loggia finishes.** Measured from the compiler:
+
+| | claimed | **measured** |
+| :--- | :--- | ---: |
+| angle off-axis | "roughly 45°" | **15.93°** |
+| stretch | 1.414 | **1.040** |
+| distortion | 41% | **4.0%** |
+| extent | "loggia finishes" | a **208 mm** chamfer on a ~2073 mm wall |
+
+**The mechanism is real and the magnitude is not.** A dimension was asserted rather than
+read — the same shape as the four rule-9 errors already recorded here. 4% on a 208 mm
+chamfer does not affect judging a room; it would matter only for a tile-setting drawing
+on that one chamfer. **The ✅ texture result above stands**, with this qualification.
+
+### ⚠️ A — probe leak through a 75 mm partition: UNRESOLVED, with a signature
+
+Antigravity: a probe grid spaced 0.3–0.5 m cannot resolve a 75 mm wall, so probes in a
+lit bay spill irradiance into a dark one. **The arithmetic is right** — at 8×8×6 the grid
+here is **685.7 mm**, over 9× the 75 mm of `G7`/`G8`.
+
+**Two attempts to test it, both with unverified seals:**
+
+1. A partition across the 9.36 room *inside the IFC model* — **not sealed.** Cycles
+   rendered the far side at 130.9, so a light path existed: the room opens to the loggia
+   through `O4` and the flat continues around it. **A test that assumes a seal it has not
+   verified measures nothing.**
+2. A standalone two-chamber box (`tools/blender/probe_leak_test.py`) — Cycles still reads
+   119.2 where it should read black, so that seal is unverified too.
+
+**What the numbers show anyway**, with a light-off control confirming no stray light:
+
+| | Cycles | EEVEE unbaked | EEVEE baked |
+| :--- | ---: | ---: | ---: |
+| light on | 119.190 | **0.080** | **174.740** |
+| light removed | 0.080 | 0.080 | 0.080 |
+
+> ⚠️ **EEVEE-baked reads 174.7 — 47% BRIGHTER than path-traced ground truth — in a
+> chamber EEVEE itself renders pitch black when unbaked.** Elsewhere in this experiment
+> EEVEE *under*-reports by ~60%. An over-bright reading in exactly the configuration
+> Antigravity predicted would leak is a signature, **but it is not a confirmation**, and
+> it must not be quoted as one while the seal is unverified.
+
+**Status: Antigravity's concern is plausible, unrefuted and unconfirmed.** Settling it
+needs a scene whose seal the ground-truth renderer certifies first. ⚠️ It matters for the
+real flat, which is three bays divided by 75 mm partitions — so a per-room
+`visibility_collection` on each probe volume, as Antigravity proposes, should be treated
+as **required until proven unnecessary** rather than the other way round.
+
+### ✅ C — fixed ROI instead of adaptive statistics: ADOPTED
+
+Already fixed. Both engines reached it independently. **A metric whose sample support
+shifts with the output is not a measurement.**
+
 
 ## Two findings about the model, found along the way
 
