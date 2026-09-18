@@ -10,6 +10,7 @@ no longer matches the source on disk - and watches it fail.
 Every seed works on a COPY. Nothing here touches the real outputs.
 """
 
+import io
 import json
 import os
 import shutil
@@ -102,6 +103,50 @@ def main():
         os.remove(os.path.join(d, "v0-existing", "model_blend.json"))
     seeded(orphan, "7  a view artefact with no provenance report is refused",
            "no provenance report")
+
+    # --- THE WALL CONTRACT ----------------------------------------------------
+    # ⚠⚠ Seed 9 is the defect Codex named on 2026-09-19: the census PRINTED the
+    # 23-vs-24 disagreement and still returned PASS. A report that says "real,
+    # separate defect" and then "every derived view matches" is internally
+    # false. It must FAIL.
+    def manifest(d, **kw):
+        _edit(os.path.join(d, "v0-existing", "model.json"), **kw)
+
+    seeded(lambda d: manifest(d, walls=23),
+           "9  model.json claiming walls=23 against 24 IfcWall is refused",
+           "claims walls=23")
+    seeded(lambda d: manifest(d, walls=None),
+           "10 a manifest with no walls figure is refused", "no `walls` figure")
+    seeded(lambda d: manifest(d, wall_census=None),
+           "11 a manifest with no wall_census breakdown is refused",
+           "no `wall_census`")
+    seeded(lambda d: manifest(d, wall_census={"physical_walls": 24,
+                                              "calculation_legs": 25,
+                                              "walls_emitted_directly": 23,
+                                              "assembly_walls": 1,
+                                              "legs_replaced_by_assemblies": 9}),
+           "12 a wall_census that does not balance is refused", "does not balance")
+    seeded(lambda d: manifest(d, wall_census={"physical_walls": 25,
+                                              "calculation_legs": 25,
+                                              "walls_emitted_directly": 23,
+                                              "assembly_walls": 1,
+                                              "legs_replaced_by_assemblies": 2}),
+           "13 physical_walls disagreeing with the IFC is refused",
+           "physical_walls=25")
+
+    # --- MISSING INPUTS MUST FAIL, NOT PASS QUIETLY ---------------------------
+    seeded(lambda d: os.remove(os.path.join(d, "v0-existing", "model.json")),
+           "14 an ACTIVE variant missing model.json is refused", "missing model.json")
+    seeded(lambda d: io.open(os.path.join(d, "v0-existing", "model.json"),
+                             "w", encoding="utf-8").write("{ not json"),
+           "15 an unparseable census input is refused", "unparseable")
+
+    # --- THE EXEMPTIONS MUST BE EXPLICIT, NOT INFERRED ------------------------
+    # Removing the marker from an unbuilt variant must make it FAIL, or the
+    # exemption is best-effort silence rather than a declaration.
+    seeded(lambda d: os.remove(os.path.join(d, "v2-model-native", "UNBUILT.json")),
+           "16 an unbuilt variant with no UNBUILT marker is refused",
+           "missing model.ifc")
 
     # --- 8. THE SHELL SIGNATURE DISAGREES WITH THE SPEC ------------------------
     seeded(lambda d: _edit(_report(d), shell_signature="deadbeef" * 8),

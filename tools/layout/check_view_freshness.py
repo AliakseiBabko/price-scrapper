@@ -179,39 +179,160 @@ def check_variant(vdir, problems, notes):
         notes.append("%s/%s fresh against %s" % (name, view["report"], os.path.basename(src_path)))
 
 
-def wall_census(vdir):
-    """The 25 / 24 / 23 spread, printed so nobody has to rediscover it.
+AUTHORED_VARIANTS = os.path.join(REPO, "data", "variants")
+QUARANTINE_MARKERS = ("QUARANTINE_MANIFEST.json", "README.md")
+UNBUILT_MARKER = "UNBUILT.json"
 
-    Read-only and best-effort: a missing file or a parse failure is silence, not
-    a problem. This gate is about provenance, not geometry.
+
+def quarantine_state(vdir):
+    """Explicit, never inferred.
+
+    ⚠ A directory is exempt from the wall contract ONLY when it declares itself
+    quarantined AND carries its hash manifest. Best-effort silence - skipping
+    anything that happens to lack a file - is how the retired schematic sat in
+    `variants/` for a month: nothing was checking it, so nothing complained.
     """
-    out = {}
-    spec = os.path.join(vdir, "spec.json")
-    if os.path.exists(spec):
+    if all(os.path.exists(os.path.join(vdir, m)) for m in QUARANTINE_MARKERS):
+        return "quarantined"
+    if os.path.exists(os.path.join(vdir, UNBUILT_MARKER)):
+        return "unbuilt"
+    return "active"
+
+
+def wall_contract(vdir, problems, notes):
+    """⚠️⚠️ A CHECK, NOT A PRINT.
+
+    The first version of this census PRINTED the 23-vs-24 disagreement and then
+    returned PASS. `Validator_Design_Discipline.md` names that class outright -
+    printing is not checking - and a report that says "real, separate defect"
+    and then "every derived view matches" is internally false. Codex flagged it
+    on 2026-09-19. It now FAILS on what it finds.
+
+    The contract, published so nobody has to rediscover it:
+
+        `walls`            = PHYSICAL IfcWall objects
+        calculation_legs   = wall records the compiler resolves
+        assembly_walls     = one physical wall replacing N legs
+
+        legs - legs_replaced + assemblies = physical
+
+    R1a and R1b are two legs of the one monolithic pour A_NW_CORNER. 24 is
+    CORRECT and must not be "repaired" back to 25.
+    """
+    name = os.path.basename(vdir)
+
+    # ⚠ A DIRECTORY UNDER variants/ IS NOT AUTOMATICALLY A VARIANT. `comparison/`
+    # holds the comparison sheet and was reported as "an ACTIVE variant missing
+    # model.ifc", which is a false positive that would have trained someone to
+    # ignore this gate. The authoritative list is the AUTHORED variant files -
+    # asking data/variants/ rather than guessing from what happens to be on disk.
+    if not os.path.exists(os.path.join(AUTHORED_VARIANTS, name + ".json")):
+        notes.append("%s: not an authored variant (no data/variants/%s.json) - "
+                     "outside the wall contract" % (name, name))
+        return
+
+    state = quarantine_state(vdir)
+    if state == "quarantined":
+        notes.append("%s: quarantined (declared, with a hash manifest) - "
+                     "outside the wall contract by design" % name)
+        return
+    if state == "unbuilt":
         try:
-            with open(spec, encoding="utf-8") as fh:
-                out["spec_wall_records"] = len(json.load(fh).get("walls", []))
-        except Exception:                                    # noqa: BLE001
-            pass
-    man = os.path.join(vdir, "model.json")
-    if os.path.exists(man):
-        try:
-            with open(man, encoding="utf-8") as fh:
-                out["manifest_claims"] = json.load(fh).get("walls")
-        except Exception:                                    # noqa: BLE001
-            pass
+            with open(os.path.join(vdir, UNBUILT_MARKER), encoding="utf-8") as fh:
+                why = json.load(fh).get("why", "")
+        except Exception as exc:                             # noqa: BLE001
+            problems.append("%s: %s is unreadable (%s)" % (name, UNBUILT_MARKER, exc))
+            return
+        notes.append("%s: declared UNBUILT - %s" % (name, why[:90]))
+        return
+
+    # --- ACTIVE. Every input is required and must parse. ---------------------
     ifc = os.path.join(vdir, "model.ifc")
-    if os.path.exists(ifc):
-        n = 0
-        try:
-            with open(ifc, encoding="utf-8", errors="replace") as fh:
-                for line in fh:
-                    if "=IFCWALL(" in line.upper():
-                        n += 1
-            out["ifc_IfcWall"] = n
-        except Exception:                                    # noqa: BLE001
-            pass
-    return out
+    man = os.path.join(vdir, "model.json")
+    spec = os.path.join(vdir, "spec.json")
+    for label, path in (("model.ifc", ifc), ("model.json", man), ("spec.json", spec)):
+        if not os.path.exists(path):
+            problems.append(
+                "%s: ACTIVE variant is missing %s. An active variant must be fully "
+                "described or explicitly marked: add %s saying why, or quarantine it."
+                % (name, label, UNBUILT_MARKER))
+            return
+
+    try:
+        with open(man, encoding="utf-8") as fh:
+            manifest = json.load(fh)
+        with open(spec, encoding="utf-8") as fh:
+            spec_doc = json.load(fh)
+    except Exception as exc:                                 # noqa: BLE001
+        problems.append("%s: census input unparseable (%s)" % (name, exc))
+        return
+
+    n_ifc = 0
+    try:
+        with open(ifc, encoding="utf-8", errors="replace") as fh:
+            for line in fh:
+                if "=IFCWALL(" in line.upper():
+                    n_ifc += 1
+    except Exception as exc:                                 # noqa: BLE001
+        problems.append("%s: model.ifc unreadable (%s)" % (name, exc))
+        return
+
+    claimed = manifest.get("walls")
+    if claimed is None:
+        problems.append("%s/model.json: no `walls` figure at all" % name)
+        return
+    if claimed != n_ifc:
+        problems.append(
+            "%s/model.json claims walls=%s but model.ifc holds %d IfcWall. "
+            "`walls` means PHYSICAL walls; if an assembly replaced legs it must "
+            "still be counted. Rebuild with tools/ifc/model_from_resolved.py."
+            % (name, claimed, n_ifc))
+        return
+
+    census = manifest.get("wall_census")
+    if not isinstance(census, dict):
+        problems.append(
+            "%s/model.json: no `wall_census` breakdown. The physical/leg "
+            "distinction must be stated, not left to be rediscovered - three "
+            "different counts for one model is how a right number gets 'fixed' "
+            "into a wrong one." % name)
+        return
+
+    need = ("physical_walls", "calculation_legs", "walls_emitted_directly",
+            "assembly_walls", "legs_replaced_by_assemblies")
+    missing = [k for k in need if not isinstance(census.get(k), int)]
+    if missing:
+        problems.append("%s/model.json wall_census missing or non-integer: %s"
+                        % (name, ", ".join(missing)))
+        return
+
+    if census["physical_walls"] != n_ifc:
+        problems.append("%s: wall_census.physical_walls=%d but model.ifc holds %d"
+                        % (name, census["physical_walls"], n_ifc))
+        return
+    lhs = (census["calculation_legs"] - census["legs_replaced_by_assemblies"]
+           + census["assembly_walls"])
+    if lhs != census["physical_walls"]:
+        problems.append(
+            "%s: wall_census does not balance - %d legs - %d replaced + %d "
+            "assembly = %d, but physical_walls says %d"
+            % (name, census["calculation_legs"], census["legs_replaced_by_assemblies"],
+               census["assembly_walls"], lhs, census["physical_walls"]))
+        return
+    if census["walls_emitted_directly"] + census["assembly_walls"] != n_ifc:
+        problems.append(
+            "%s: %d directly emitted + %d assembly != %d IfcWall"
+            % (name, census["walls_emitted_directly"], census["assembly_walls"], n_ifc))
+        return
+
+    spec_walls = len(spec_doc.get("walls", []))
+    if spec_walls and spec_walls != census["calculation_legs"]:
+        problems.append(
+            "%s: spec.json carries %d wall records but wall_census says %d "
+            "calculation legs" % (name, spec_walls, census["calculation_legs"]))
+        return
+
+    notes.append("%s walls: %s (%s)" % (name, n_ifc, census.get("arithmetic", "")))
 
 
 def main():
@@ -228,22 +349,7 @@ def main():
         if os.path.isdir(vdir):
             check_variant(vdir, problems, notes)
             orphan_views(vdir, problems)
-
-    for entry in sorted(os.listdir(args.variants_dir)):
-        vdir = os.path.join(args.variants_dir, entry)
-        if not os.path.isdir(vdir):
-            continue
-        c = wall_census(vdir)
-        if c:
-            print("  walls %s: spec %s records, IFC %s IfcWall, manifest claims %s"
-                  % (entry, c.get("spec_wall_records", "?"), c.get("ifc_IfcWall", "?"),
-                     c.get("manifest_claims", "?")))
-            if (c.get("spec_wall_records") == 25 and c.get("ifc_IfcWall") == 24):
-                print("        ^ CORRECT: 25 legs - 2 (R1a, R1b) + 1 (A_NW_CORNER "
-                      "assembly) = 24 physical walls. Do NOT 'fix' 24 back to 25.")
-            if c.get("manifest_claims") == 23 and c.get("ifc_IfcWall") == 24:
-                print("        ^ but model.json says 23: it omits the merged "
-                      "assembly from its own count. Real, and a separate defect.")
+            wall_contract(vdir, problems, notes)
 
     for n in notes:
         print("  ok    %s" % n)
