@@ -48,27 +48,54 @@ not.** For judging a room that does not matter; for a tile-setting drawing it wo
 to headless CPU stills. That distinction is exactly the difference between a
 walkthrough being interactive and not, and this page will not blur it.
 
-## ❌ NOT ANSWERED — whether indirect light survives the window leaving frame
+## ⚠️ PARTLY ANSWERED — EEVEE's GI works; the probe volume adds nothing here
 
-**Probe gain: 1.00×.** The away-facing view measured **113.6** mean luma with the
-probes baked and **113.6** without. The bake contributes **nothing measurable**.
+**Corrected 2026-09-18, and the correction includes withdrawing a claim made on this
+page hours earlier: that a HUMAN had to bake in the GUI. That was wrong.**
 
-> ⚠️⚠️ **THIS IS NOT A VERDICT ON EEVEE, AND MUST NOT BE QUOTED AS ONE.** Blender's
-> own 5.2 documentation says screen tracing falls back to probes. Nothing here
-> contradicts that — **the experiment failed to test it.**
+### The bake needs a GPU context, not a person
 
-**Leading hypothesis: the bake does not work under `blender -b`.** A diagnostic run
-confirms the probe object is created, is a `LightProbeVolume`, and that
-`lightprobe_cache_bake` returns `FINISHED` — but a light cache normally needs a GPU
-context headless Blender lacks, and there is **no `cache_info` attribute** to confirm
-the cache holds data. The baked run *is* ~2× slower per frame, so something is being
-computed; it just does not change the light.
+`blender -b` creates no OpenGL context, and a light cache needs one. But Blender
+launched **without** `-b` opens a window *and* still runs a `-P` script that drives
+everything and quits. **No clicking by anyone.** `tools/blender/bake_probes_gui.py`
+does it: `background_mode: false`, bake **13.7 s**, `FINISHED`, file saved and grown
+from **172,535 → 178,414 bytes**. The cache is demonstrably in the file.
 
-**What would settle it:** bake once in the Blender GUI, save the `.blend` with its
-cache, render headless *from that file*. That separates *"EEVEE cannot"* from
-*"headless cannot bake"*, which this run cannot distinguish.
+⚠️ The bake is deferred through a **timer**, because at the moment a startup script
+runs the window exists but the draw context may not — baking too early fails exactly
+like baking headless, returning `FINISHED` and producing nothing.
 
-## ⚠️ Three defects in the experiment itself, all mine, all caught by measuring
+### And the probes still change nothing
+
+| away-facing frame | shadow luma | whole frame |
+| :--- | ---: | ---: |
+| no probe bake | **47.882** | 79.34 |
+| GPU-baked, rendered headless | **47.882** | 79.34 |
+| GPU-baked, rendered **windowed** | **47.882** | 79.34 |
+| baked, **ray tracing OFF** | **42.572** | 78.02 |
+
+**Identical to three decimals** across all three probe conditions — so this is not a
+headless artefact and not a bake failure.
+
+> ⚠️⚠️ **But the last row is the finding.** Turning ray tracing **off** drops the
+> shadowed region by **11%**. So **EEVEE's screen-space tracing IS supplying indirect
+> light, and the baked probe volume adds nothing on top of it in this geometry.**
+> That is the opposite of the failure the source warned about — and it is consistent
+> with Blender's 5.2 documentation.
+
+### ⚠️ What is STILL not tested, stated plainly
+
+**The hard case is light that must come from geometry OUT of frame.** In this view the
+bright surfaces are *in* frame, which is precisely the case screen-space tracing
+handles well — so the experiment still has not reproduced the condition that would
+make probes matter. **And the "shadow" region is not fully shadowed:** it sits at 42.6
+even with ray tracing off and a black world, so some direct light reaches it.
+
+**No conclusion about the walkthrough should be drawn from a 1.00× that four separate
+scene corrections could not move.** What *can* be said: EEVEE's GI is working, and the
+one measurable lever so far is ray tracing, not probes.
+
+## ⚠️⚠️ SIX defects in the experiment itself, all mine, all caught by measuring
 
 **This is the part worth keeping.** Each would have produced a confident wrong answer.
 
@@ -86,7 +113,18 @@ cache, render headless *from that file*. That separates *"EEVEE cannot"* from
    400.0 px exactly.** Merging the parts of one marker turned a FAIL into an exact
    PASS.
 
-> **Every one of the three was found by insisting on a number.** An experiment
+4. **The world background was a uniform fill light** at strength 0.6 — lighting every
+   surface from every direction whether or not a probe existed, and swamping the
+   quantity under test. Black world now.
+5. **The test surface was DIRECTLY LIT.** An empty rectangular room with a light at
+   one end has no shadow anywhere, so there was no indirect component in the frame at
+   all. Probes could not have changed it. An occluder now creates a region direct
+   light cannot reach.
+6. **The whole-frame mean was the wrong statistic** — dominated by directly lit
+   surfaces that no probe can move. The measurement is now the darkest 20% of the
+   frame, where indirect light is the only light.
+
+> **Every one of the six was found by insisting on a number.** An experiment
 > judged by eye would have passed #1, not noticed #2, and never reached #3 — and
 > would have produced exactly the persuasive-but-wrong artefact this project is
 > built to prevent.
@@ -106,7 +144,7 @@ cache, render headless *from that file*. That separates *"EEVEE cannot"* from
 
 | | question | state |
 | :--- | :--- | :--- |
-| **1** | does the walkthrough survive EEVEE's screen-space GI? | ❌ **still open** — needs a GUI bake |
+| **1** | does the walkthrough survive EEVEE's screen-space GI? | ⚠️ **partly** — GI works and ray tracing is the lever; probes add nothing here, and the out-of-frame case is still untested |
 | **2** | can an uploaded texture be applied at the right scale? | ✅ **yes, exactly** |
 | **3** | what does a rebuild cost? | ✅ **measured above** |
 
