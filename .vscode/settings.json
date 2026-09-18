@@ -3,6 +3,14 @@
     "python.analysis.extraPaths": [
         "${workspaceFolder}\\.venv-ifc314\\Lib\\site-packages"
     ],
+    "python.analysis.exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        ".git",
+        ".venv",
+        ".venv-ifc314",
+        "tools/blender"
+    ],
     "workbench.colorCustomizations": {
         "activityBar.background": "#0F3046",
         "titleBar.activeBackground": "#164462",
