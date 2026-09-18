@@ -9,13 +9,15 @@
     "schema_version",
     "template_id",
     "name",
-    "provenance",
     "sheets"
   ],
   "properties": {
     "schema_version": {
       "type": "string",
-      "const": "0.1.0"
+      "enum": [
+        "0.1.0",
+        "2"
+      ]
     },
     "template_id": {
       "type": "string",
@@ -29,6 +31,7 @@
         "planning_project",
         "design_project",
         "working_drawings",
+        "full_album",
         "other"
       ],
       "description": "Product tier as the practitioner markets it. planning_project deliberately omits visualisation and schedules."
@@ -146,9 +149,10 @@
             "enum": [
               "in_scope",
               "out_of_scope",
-              "deferred"
+              "deferred",
+              "optional"
             ],
-            "description": "Our decision for this project - not the source practitioner's. Absent on records of someone else's album."
+            "description": "in_scope = will be produced. out_of_scope = deliberately not. deferred = wanted but not decided or not yet scheduled. optional = the owner may take it or leave it. !! `optional` was added 2026-09-18: the album had been USING it since 2026-09-07 for the grey 3D massing sheet while the enum did not list it. A vocabulary the data already contradicts is not a vocabulary - either the data or the enum was wrong, and here it was the enum."
           },
           "scope_note": {
             "type": "string",
@@ -170,6 +174,9 @@
               "type": "string"
             },
             "description": "Roadmap capability ids this sheet waits on."
+          },
+          "note": {
+            "type": "string"
           }
         }
       }
@@ -177,6 +184,58 @@
     "derived_from": {
       "type": "string",
       "description": "template_id of the observed album this target set is modelled on. Present only on our own target sets, never on a record of someone else's album."
+    },
+    "count": {
+      "type": "object"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "what_changed_from_the_previous_set": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supersedes": {
+      "type": "string"
+    },
+    "convention": {},
+    "owner_decisions": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "superseded"
+      ]
+    },
+    "superseded_by": {
+      "type": "string"
+    },
+    "superseded_on": {
+      "type": "string"
+    },
+    "supersession_note": {
+      "type": "string"
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": "0.1.0"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "provenance"
+        ]
+      }
+    }
+  ],
+  "x_note": "schema_version 2 was authored 2026-09-07 and this schema was NOT updated with it, so validate_layout_data.py reported 38 errors on the owner's chosen target album for 11 days and nobody looked. That is why a stale 11-sheet target could go on being quoted. additionalProperties stays false: the fix is to TEACH the schema the new shape, never to stop checking."
 }

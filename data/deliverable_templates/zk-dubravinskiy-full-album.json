@@ -15,10 +15,12 @@
     "ТЁПЛЫЙ ПОЛ remains the single excluded sheet."
   ],
   "count": {
-    "in_scope": 31,
+    "in_scope": 34,
     "optional": 1,
     "out_of_scope": 1,
-    "was_previously_in_scope": 11
+    "was_previously_in_scope": 11,
+    "total_entries": 38,
+    "deferred": 2
   },
   "sheets": [
     {
@@ -251,7 +253,54 @@
       "our_scope": "optional",
       "capability": "not_started",
       "note": "Из прежнего набора по Долгушеву: серый 3D massing, намеренно без рендеров."
+    },
+    {
+      "number": "0",
+      "title_ru": "Этапы работ",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Владелец 2026-09-18: «сначала спланировать, потом ОТСЛЕЖИВАТЬ фактический ход» - порядок работ, объём, ориентировочные сроки. !! Это ЖИВОЙ лист, а не фиксированная программа: владелец прямо сказал, что сроки будут меняться и зависят от внешних факторов. Содержание относится к 11_Budget_and_Planning/."
+    },
+    {
+      "number": "11",
+      "title_ru": "Штатная электрика от застройщика",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "note": "Владелец 2026-09-18: «existing electric wiring - it's already built, that's correct». Уже смоделировано: electrical_existing.csv и services-observed. Лист-первоисточник, а не только вход."
+    },
+    {
+      "number": "17",
+      "title_ru": "Электрощиток",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Владелец 2026-09-18: «we will need this panel, we will need switches, and it's better to understand its APPEARANCE». !! Нужен СОСТАВ щита - схема аппаратов, а не только его место на плане. Это тот же щит в общем коридоре, о котором был вопрос 2026-09-16."
+    },
+    {
+      "number": "6",
+      "title_ru": "Окна, откосы, подоконники",
+      "our_scope": "deferred",
+      "capability": "not_started",
+      "note": "[in_scope_provisional -> deferred: the vocabulary is closed to in_scope/out_of_scope/deferred] Владелец 2026-09-18, НЕ окончательно: «frankly, I'm not sure... it could be thought of as a part of finishing work of the walls». Склонился к ДА по двум причинам: замена остекления лоджии уже в объёме, и возможное увеличение окна в комнате 9.36. !! Решается вместе с открытым пунктом про окно O4a и радиатор в project_decisions.md."
+    },
+    {
+      "number": "7",
+      "title_ru": "Радиаторы",
+      "our_scope": "deferred",
+      "capability": "not_started",
+      "note": "[undecided -> deferred: the vocabulary is closed to in_scope/out_of_scope/deferred] !! НЕ решён владельцем. В нашем наборе радиаторы входят в лист «Отопление»; в альбоме lab|remont это отдельный лист. Стал актуальным сам по себе: перенос радиатора - ЕДИНСТВЕННОЕ оставшееся действие, переводящее ремонт в проектный трек по Постановлению 164. Решать вместе с листом «Окна»."
     }
   ],
-  "convention": "ONE SERVICE PER SHEET, as in the reference album: 5 Отопление, 8 Водоснабжение, 9 Канализация, 15 Вентиляция. NOTE the prototype _Drawings/sheets/sheet_03_plumbing.png currently MERGES water + sewer + ventilation onto one sheet. That was an iteration shortcut while the owner corrected placements, not the target: it must be split into 8 / 9 / 15 before the album is issued."
+  "convention": "ONE SERVICE PER SHEET, as in the reference album: 5 Отопление, 8 Водоснабжение, 9 Канализация, 15 Вентиляция. NOTE the prototype _Drawings/sheets/sheet_03_plumbing.png currently MERGES water + sewer + ventilation onto one sheet. That was an iteration shortcut while the owner corrected placements, not the target: it must be split into 8 / 9 / 15 before the album is issued.",
+  "owner_decisions": {
+    "what": "Five sheet TYPES that the lab|remont album has and this one lacked were put to the owner one by one. He ruled on four.",
+    "why_37_is_not_a_target": "The lab|remont album is 37 sheets for a DIFFERENT FLAT - its rooms include Кабинет, Гардеробная and two СУ, so much of its count is that flat's room count and its 11 развёртки sheets do not transfer. The answerable question was which sheet TYPES to adopt, not which total to copy.",
+    "still_open": [
+      "Окна, откосы, подоконники (leaning yes)",
+      "Радиаторы (not ruled on)"
+    ],
+    "recorded_in_prose_at": "00_Master/Planning_Project_Deliverable_Set.md",
+    "carried_into_this_file": "2026-09-18, LATE - see the warning below",
+    "WARNING": "The owner's answer sat in a WIKI PROSE TABLE for a day while this canonical file stayed unchanged, and the gap was then reported back to him as an open question he had already answered. A decision recorded only in prose is not carried.",
+    "date": "2026-09-18"
+  }
 }
