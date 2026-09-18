@@ -545,6 +545,25 @@ def _render_all(report, outdir, suffix, opts):
     rt = opts.get("--raytracing", "yes").lower() not in ("no", "0", "false")
     report["eevee"] = set_up_eevee(bpy.context.scene, samples, use_probes=True,
                                    raytracing=rt)
+    # ⚠⚠ THE GROUND TRUTH CONTROL, AND IT SHOULD HAVE COME FIRST.
+    # Every EEVEE result so far says "dark behind the baffle". None of them can
+    # say whether DARK IS THE CORRECT ANSWER. Cycles is a path tracer: it
+    # computes the bounce properly, without probes and without screen-space
+    # limits. If Cycles also renders it black, the scene simply has no bounce
+    # light to deliver and the whole probe comparison was measuring nothing that
+    # exists. If Cycles renders it lit, EEVEE is losing light that is really
+    # there. There is no way to tell those apart from EEVEE numbers alone.
+    if opts.get("--engine", "eevee").lower() == "cycles":
+        sc = bpy.context.scene
+        sc.render.engine = "CYCLES"
+        sc.cycles.samples = int(opts.get("--cycles-samples", "96"))
+        try:
+            sc.cycles.device = "CPU"
+        except Exception:                                    # noqa: BLE001
+            pass
+        report["engine_override"] = {"engine": "CYCLES",
+                                     "samples": sc.cycles.samples,
+                                     "why": "path-traced ground truth for the bounce"}
 
     # --- the three renders --------------------------------------------------
     cx, cy = (x0 + x1) / 2.0, (y0 + y1) / 2.0

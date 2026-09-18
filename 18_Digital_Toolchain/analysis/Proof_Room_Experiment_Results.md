@@ -105,23 +105,54 @@ way, which is why the bright-world control exists.
 **So the probes have contributed nothing to any render in this experiment, and the
 question "do baked probes rescue out-of-frame indirect light" is STILL UNTESTED.**
 
-### ⚠️ But one result IS established, and it matters for the walkthrough
+### ⚠️⚠️⚠️ THE GROUND TRUTH: the light IS there, and EEVEE loses essentially all of it
 
-With the baffle blocking all direct light, the far half of the room renders at a mean
-luma of **4.570** — essentially black — and **identically with and without the bake**.
+**Same file, same lights, same cameras, only the engine changed.** The camera sits
+behind a full-width baffle; nothing reaches it except light that has passed over the
+top and bounced off the ceiling.
 
-> **As the pipeline stands today, a space with no line of sight to a light source goes
-> dark.** Screen-space tracing supplies indirect light only where the bouncing surfaces
-> are on screen: it is worth **11%** in a partly shadowed view (47.882 → 42.572 with ray
-> tracing off) and **nothing** behind a full occluder.
->
-> ⚠️ This is a real constraint on a walkthrough — a room around a corner, or one with
-> its door shut, will not light itself. **It is NOT yet known whether a working probe
-> bake would fix it**, because no working probe bake has been obtained here.
+| engine | whole frame | darkest 20% |
+| :--- | ---: | ---: |
+| EEVEE, no probe bake | 4.570 | 0.000 |
+| EEVEE, scripted GPU bake | 4.570 | 0.000 |
+| EEVEE, **owner's hand bake in the UI** | 4.570 | 0.000 |
+| **CYCLES (path-traced ground truth)** | **134.820** | **119.453** |
 
-**What would settle it:** a bake driven from the Blender UI by hand rather than through
-the operator API, or a different Blender build or GPU driver. That is now a narrow,
-specific question rather than an open one.
+**Cycles renders the space cleanly and evenly lit. EEVEE renders it black.** That is a
+**~29× gap on the whole frame**, and the darkest fifth goes from 0.000 to 119.453.
+
+> **So "dark" was the WRONG ANSWER, and EEVEE was giving it confidently.** The bounce
+> light genuinely exists — a correct renderer finds it. EEVEE's screen-space tracing
+> cannot, because the bouncing ceiling is out of frame, and the probe volume that is
+> supposed to cover exactly this case delivers nothing through **every** invocation
+> path tested: scripted headless, scripted with a GPU context, and a human clicking
+> **Bake All Light Probe Volumes** in the real UI.
+
+⚠️ **This control should have been the FIRST thing built.** Six scene revisions were
+spent comparing EEVEE against EEVEE, and no number in that family could ever say
+whether the answer was right — only whether two EEVEE runs agreed. **A measurement
+with no ground truth measures agreement, not correctness.**
+
+### ⚠️ What this means for the walkthrough, stated plainly
+
+**As the pipeline stands, EEVEE cannot light a space that has no line of sight to a
+light source.** Not "looks worse" — it returns black where the true answer is bright.
+A room around a corner, or one lit through a doorway, will not light itself.
+
+**Three responses, none of them yet chosen:**
+
+1. **Put a light in every room.** A real flat has lamps; the walkthrough does not have
+   to rely on one window bouncing round a corner. **Cheapest, and closest to reality.**
+2. **Use Cycles where light matters.** Correct, and slow — the Cycles frame took minutes
+   against seconds for EEVEE. Viable for stills, not for walking.
+3. **Reconsider the runtime.** This strengthens Codex's argument for judging the engine
+   on a measured proof rather than a feature list, and Antigravity's "do not use EEVEE
+   for finished aesthetic judgement".
+
+⚠️ **What is NOT established:** that EEVEE is unfit generally. With a working probe bake
+it might resolve this case exactly as documented. **The probe bake is the single
+unexplained blocker**, and it is now isolated to the operator itself rather than to
+context, engine, resolution, scene brightness or invocation route.
 
 ## ⚠️⚠️ SIX defects in the experiment itself, all mine, all caught by measuring
 
@@ -172,7 +203,7 @@ specific question rather than an open one.
 
 | | question | state |
 | :--- | :--- | :--- |
-| **1** | does the walkthrough survive EEVEE's screen-space GI? | ⚠️ **partly.** Ray tracing works and is worth 11% in a partly shadowed view. A FULLY occluded space renders black. Probes are untested because the bake writes no cache — a narrow, named blocker |
+| **1** | does the walkthrough survive EEVEE's screen-space GI? | ❌ **NO, as things stand.** Cycles renders an occluded space at 134.8 mean luma; EEVEE renders it at 4.6. Not a quality gap — a wrong answer. The probe bake that should fix it produces nothing through every route tested |
 | **2** | can an uploaded texture be applied at the right scale? | ✅ **yes, exactly** |
 | **3** | what does a rebuild cost? | ✅ **measured above** |
 
