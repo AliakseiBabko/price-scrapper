@@ -1,0 +1,13 @@
+{
+  "video_id": "1WakaBxLkVg",
+  "url": "https://www.youtube.com/watch?v=1WakaBxLkVg",
+  "title": "Я построил квартиру в 3D c помощью SketchUp и Claude",
+  "channel": "Степан Огурцов",
+  "upload_date": "20260916",
+  "language": "ru",
+  "sha256": "5feb9f8737dc21df3b505ca7da2f5f9bbedabda66fb02c52a80d1e19d7c6da2b",
+  "bytes": 11500,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs ru, vtt stripped to text",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}

@@ -325,3 +325,53 @@ time and tokens.** [source: [[_Sources/YT_SsBLhNgqTqQ_mcp_versus_headless_script
 | [[_Sources/YT_HOjQiiHJ714_trimble_how_good_is_claude_at_modeling\|YT_HOjQiiHJ714]] (2026-09-11) | The original file-generator finding this page refines, and the silently-supplied-values rule | — |
 
 **⚠️ Both new sources are channel-growth vehicles** (a lead-magnet PDF, subscribe requests, a "the results scared me" framing). **No capability verdict from either is routed.**
+
+## ⚠️⚠️ Live connection vs generated script — a genuine practitioner disagreement (added 2026-09-18)
+
+Two sources published a day apart take opposite routes, and **neither measures the cost that divides them.**
+
+### Perspectives
+
+**Степан Огурцов** (`YT_1WakaBxLkVg`, 2026-09-16) — a practising 3D designer modelling a real apartment from a drawing — names the live connection as the common error:
+
+> *«Здесь многие ошибаются, берут прямое подключение и сжигают кучу токенов, кучу ресурсов в нейро. Платят за это очень много. А со скетчапом можно работать с помощью Ruby, и это гораздо дешевле.»*
+
+He has the model **emit a Ruby script** which he pastes into SketchUp's console.
+
+**Justin, The AI Essentials** (`YT_BFImll1TqYE`, 2026-09-17) — a tutorial — installs a Blender MCP add-on and lets Claude or ChatGPT **execute code in Blender live**, approving permissions per action.
+
+### Common ground
+
+Both are generating and running code either way. The difference is **who holds the loop**: a script the human pastes and can read first, or a connection the model drives with per-action approval.
+
+### ⚠️ Where the evidence runs out
+
+**Огурцов asserts the live route is much more expensive and shows no figures. Justin never mentions cost.** The disagreement is therefore unresolved on evidence, and anyone repeating "MCP is expensive" is repeating one practitioner's assertion.
+
+### Your priority
+
+**This project already takes the script side, and for a reason neither source gives: a generated artefact can be GATED.** `data/canonical` → compiler → IFC/DXF is checkable by `check_dxf_closure.py` and the IFC gates precisely because the output is a file, not a live mutation. A model driving Blender directly leaves nothing to diff. **The cost argument is a bonus, not the reason.**
+
+⚠️ **And Justin's security section is the durable half of his video** regardless of the route: the ChatGPT desktop app ships with **full computer access ON by default**, which he recommends turning off; prefer *allow once* over *allow for this conversation*; consider a VM. That applies to any agent-connected CAD setup, including this one.
+
+## ⚠️⚠️ The dimensions came out right and the MEANING came out wrong (added 2026-09-18)
+
+Огурцов's model, generated from a supplied drawing, **checked out dimensionally** — he spot-measured 3261 and 4673 against the drawing and both matched — and then:
+
+> *«Он почему-то решил, что здесь лоджия, а здесь короб с коммуникациями.»*
+
+**It swapped a services duct and a лоджия**, and merged windows into the wrong wall because *«видимо, понял, что это лоджия на своё усмотрение»* — it decided on its own initiative what the space was.
+
+> **This is the single most relevant observation in the vault for this project's architecture.** Geometry can be millimetre-correct while the identity attached to it is wrong, and **no dimensional check catches that.** It is the argument for canonical-data-first: identity, class and adjacency are AUTHORED and gated, and geometry is compiled from them — rather than identity being inferred from geometry by anything, human or model.
+
+**His governing warning belongs next to it:**
+
+> *«Вы должны понимать, что происходит… чтобы видеть косяки нейросетки, которые всплывают внезапно, а нейросеть их косяками-то и не считает.»*
+>
+> *«Если бы экспертности в области скетчапа у меня не было, то я бы и не смог найти выход из этой проблемы. Просто плюнул бы, и результат был бы потерян.»*
+
+**The model does not consider its mistakes mistakes** — so the check has to be external, and the person has to know enough to write it. That is the same conclusion `00_Master/Validator_Design_Discipline.md` reached from eleven review rounds inside this project, arrived at independently by a practitioner outside it.
+
+### What he does by hand, after
+
+Windows, sills, doors, radiators and textures — *«Дальше уже работаю вручную»*. His prompt converged on **subtraction**: *«Не делай пол, не делай окна, не делай двери. Нужна только геометрия стен и проёмов внутри них.»* Walls and openings only, as one solid group.

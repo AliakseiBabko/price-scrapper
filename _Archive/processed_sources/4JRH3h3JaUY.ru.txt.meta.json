@@ -1,0 +1,13 @@
+{
+  "video_id": "4JRH3h3JaUY",
+  "url": "https://www.youtube.com/watch?v=4JRH3h3JaUY",
+  "title": "Мы сделали прорыв на рынке дизайн-проектов всего за 2500 за м2",
+  "channel": "ХУДЕЮ ОТ РЕМОНТА",
+  "upload_date": "20260917",
+  "language": "ru",
+  "sha256": "cdc1115745ec4e15a308767a15a0edfe512863e8912a517cefe6c44bdc2762d0",
+  "bytes": 9411,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs ru, vtt stripped to text",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}
