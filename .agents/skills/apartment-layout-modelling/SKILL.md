@@ -96,12 +96,12 @@ Extracted, so nobody re-reads the images:
 2. **Usable floor in the туалет is ~1.2–1.4 m², not 1.8.** Anything sized against
    the bigger number will not fit.
 
-3. **±25 mm, but the risk is ASYMMETRIC.** Wall-to-wall dimensions of the same
+3. **±50 mm, and the risk is ASYMMETRIC.** ⚠️⚠️ **CORRECTED 2026-09-18: this item said ±25 mm, and `AGENTS.md` has said ±50 since the `Geometry_Variance_Study` — *"The old ±25 had no evidence behind it"*. The stale figure was not harmless: an agent reviewing a wall-bed fit on 2026-09-18 quoted ±25 FROM HERE and computed a clearance that was 25 mm too generous.** The asymmetry below is unchanged and is the part that matters. Wall-to-wall dimensions of the same
    nominal wall differ by 0–50 mm (median 20) across three as-built
    comparables — that is flat-to-flat **scatter**. Separately, **the developer
    plan reads LARGER than all three of them on both dimensions testable from
    printed chains: +1.0% to +1.9%, 9 of 9 comparisons, mean +1.5%** (measured
-   2026-09-04). So: treat every dimension as nominal ±25 mm, **never design a
+   2026-09-04). So: treat every dimension as nominal **±50 mm**, **never design a
    fit needing less than ~30 mm of slack** — no full-wall built-in without a
    scribe — and **size for a room up to ~100 mm SHORTER than drawn, never
    longer.** ⚠️ The bias is not settled: it conflicts with the measured AREAS
