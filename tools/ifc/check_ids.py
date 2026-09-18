@@ -68,8 +68,13 @@ def run(model_path, ids_path=IDS_PATH, expect_path=EXPECT_PATH):
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--model", default=os.path.join(REPO, "data", "outputs",
-                                                    "model_from_resolved.ifc"))
+    # ⚠ The default used to be data/outputs/model_from_resolved.ifc, which
+    # NOTHING WRITES - `model_from_resolved.py` emits into the variant directory.
+    # So a bare `check_ids.py` died with FileNotFoundError, which means the
+    # exchange gate could only ever be run by someone who already knew to pass
+    # --model. A gate that cannot be run by default is a gate that does not run.
+    ap.add_argument("--model", default=os.path.join(
+        REPO, "data", "outputs", "variants", "v0-existing", "model.ifc"))
     ap.add_argument("--ids", default=IDS_PATH)
     ap.add_argument("--baseline", action="store_true",
                     help="record today's failures as the accepted baseline")

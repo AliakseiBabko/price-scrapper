@@ -460,7 +460,10 @@ def build(output: Path, manifest_path: Path) -> dict:
             "Source": "v0_developer_layout.dxf via dxf_wall_entities",
         })
         wall_objects[w["id"]] = (obj, (x0, x1, y0, y1))
-    manifest["walls"] = len(wall_objects)
+    # ⚠ NOT the manifest's `walls` figure - see the wall census written after the
+    # assemblies below. This is only the count emitted SO FAR, before any
+    # assembly wall replaces its legs.
+    manifest["walls_emitted_directly"] = len(wall_objects)
     manifest["walls_extended_across_openings"] = {
         wid: [oid for oid, _ in items] for wid, items in extensions.items()}
 
@@ -783,6 +786,40 @@ def build(output: Path, manifest_path: Path) -> dict:
         })
         manifest.setdefault("assemblies", []).append(
             {"id": assembly["id"], "replaces": assembly["members"]})
+
+    # ⚠️⚠️ THE WALL CENSUS, AND WHY `walls` MEANS PHYSICAL WALLS.
+    # This manifest used to set `walls` from the count of directly emitted walls
+    # BEFORE the assembly loop ran, so it reported 23 beside an IFC holding 24 -
+    # it omitted the assembly wall from its own total. Three different numbers
+    # then described one model (25 / 24 / 23), which is exactly the spread that
+    # invites someone to "fix" a right number into a wrong one.
+    #
+    # `walls` is now what the word means: PHYSICAL IfcWall objects. The legs are
+    # reported separately, because R1a and R1b are CALCULATION LEGS of one
+    # monolithic pour - references for clear-length, face and quantity work - and
+    # not two walls. The arithmetic is published rather than left to be
+    # rediscovered:
+    #
+    #     25 calculation legs - 2 replaced legs + 1 assembly wall = 24 physical
+    #
+    direct = manifest["walls_emitted_directly"]
+    n_assemblies = len(manifest.get("assemblies", []))
+    replaced = sum(len(a["replaces"]) for a in manifest.get("assemblies", []))
+    manifest["walls"] = direct + n_assemblies
+    manifest["wall_census"] = {
+        "physical_walls": direct + n_assemblies,
+        "calculation_legs": direct + replaced,
+        "walls_emitted_directly": direct,
+        "assembly_walls": n_assemblies,
+        "legs_replaced_by_assemblies": replaced,
+        "arithmetic": "%d legs - %d replaced + %d assembly = %d physical"
+                      % (direct + replaced, replaced, n_assemblies,
+                         direct + n_assemblies),
+        "note": ("`walls` counts PHYSICAL IfcWall objects. A calculation leg is "
+                 "not a wall: R1a and R1b are two legs of the one monolithic "
+                 "pour A_NW_CORNER, which is why C_R1a_R1b gets no connection "
+                 "either - it is a construction joint inside one casting."),
+    }
 
     # ⚠️ TYPES AND MATERIALS, BEFORE IDENTITY so the new type entities get
     # canonical identities too. It emits REAL IfcRelDefinesByType, not just an
