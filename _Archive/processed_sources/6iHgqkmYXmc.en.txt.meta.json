@@ -1,0 +1,13 @@
+{
+  "video_id": "6iHgqkmYXmc",
+  "url": "https://www.youtube.com/watch?v=6iHgqkmYXmc",
+  "title": "blender 5.2 eevee and cycles rendering updates",
+  "channel": "blendereverything",
+  "upload_date": "20260715",
+  "language": "en",
+  "sha256": "f50d4f75fcb8e567677dcfbb40d2072355cf83fca3e1349ec3c11a496ae51cdc",
+  "bytes": 4966,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs en, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}

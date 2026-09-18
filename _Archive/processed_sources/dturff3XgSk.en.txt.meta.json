@@ -1,0 +1,13 @@
+{
+  "video_id": "dturff3XgSk",
+  "url": "https://www.youtube.com/watch?v=dturff3XgSk",
+  "title": "The Rise of BIM 2.0: 9 Startups Redefining the Future of Architecture Software",
+  "channel": "ArchiTech Network",
+  "upload_date": "20250801",
+  "language": "en",
+  "sha256": "c6666c8d7a00ff35b7f4288344ddcb06f41bb0e85258a45ba12c2f775e6dfeb0",
+  "bytes": 20528,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs en, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}

@@ -1,0 +1,13 @@
+{
+  "video_id": "dSEHWnedxIM",
+  "url": "https://www.youtube.com/watch?v=dSEHWnedxIM",
+  "title": "AI in Construction - The Complete Applied Guide",
+  "channel": "Tim Fairley",
+  "upload_date": "20260221",
+  "language": "en",
+  "sha256": "e6cb029add79045b809a9f7c86b52e772ff0e46602596d94aa295f4244ce77ee",
+  "bytes": 242807,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs en, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}
