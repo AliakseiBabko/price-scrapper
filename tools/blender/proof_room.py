@@ -123,7 +123,7 @@ def calibration_material(image_path, metres_per_tile):
 # Lighting - the recipe from `Realtime_Walkthrough_EEVEE.md`
 # ---------------------------------------------------------------------------
 
-def set_up_eevee(scene, samples, use_probes):
+def set_up_eevee(scene, samples, use_probes, raytracing=True):
     # In Blender 5.2 the identifier is BLENDER_EEVEE. "EEVEE Next" REPLACED the
     # old engine in 4.2 rather than sitting beside it, so the _NEXT suffix that
     # the tutorials use is not a valid enum here - it raised outright.
@@ -134,7 +134,7 @@ def set_up_eevee(scene, samples, use_probes):
     ee = scene.eevee
     ee.taa_render_samples = samples
     report = {"engine": engine, "engine_enum_options": valid, "samples": samples}
-    for attr, value in (("use_raytracing", True),
+    for attr, value in (("use_raytracing", raytracing),
                         ("use_shadows", True),
                         ("use_volumetric_shadows", True)):
         if hasattr(ee, attr):
@@ -168,6 +168,35 @@ def add_window_lights(openings_m, power):
         obj.rotation_euler = (1.5708, 0.0, 0.0)     # face +y, into the room
         n += 1
     return n
+
+
+def add_occluder(lo, hi):
+    """A blocking slab between the window and the far wall.
+
+    ⚠⚠ THE SIXTH DEFECT, AND THE DEEPEST ONE. The away-facing view was measuring
+    a wall the window's area light reaches DIRECTLY - an empty rectangular room
+    with a light at one end has no shadow anywhere, so there was no indirect
+    component in the frame at all. Probes on or off could not change a directly
+    lit surface, and the test returned 1.00x five times while looking correct.
+
+    An occluder creates a region that direct light CANNOT reach. Whatever lands
+    there has bounced, which is the only thing this experiment is trying to
+    measure. Without it there is nothing to measure and the number is an
+    artefact.
+    """
+    w = min(1.1, (hi.x - lo.x) * 0.45)
+    bpy.ops.mesh.primitive_cube_add(size=1.0)
+    ob = bpy.context.object
+    ob.name = "occluder"
+    ob.scale = (w / 2.0, 0.06, 1.05)
+    ob.location = (lo.x + (hi.x - lo.x) * 0.30,
+                   lo.y + (hi.y - lo.y) * 0.30,
+                   1.05)
+    return {"name": ob.name,
+            "location": tuple(round(v, 3) for v in ob.location),
+            "half_extent": tuple(round(v, 3) for v in ob.scale),
+            "why": ("creates a genuinely shadowed region; without one the test "
+                    "surface is directly lit and no indirect light is measurable")}
 
 
 def add_probe_volume(lo, hi):
@@ -384,16 +413,34 @@ def main():
     report["window_lights"] = add_window_lights(
         [(ocx, y0 + 0.02, 1.2, ow, 1.5)], power=light_w)
 
+    if opts.get("--occluder", "yes").lower() not in ("no", "0", "false"):
+        report["occluder"] = add_occluder(lo, hi)
+        mats = [m for m in bpy.data.materials if m.name == "calibration"]
+        occ = bpy.data.objects.get("occluder")
+        if occ is not None and mats:
+            occ.data.materials.append(mats[0])
     report["eevee"] = set_up_eevee(bpy.context.scene, samples, use_probes=True)
     report["probe_volume"] = add_probe_volume(lo, hi)
 
     world = bpy.data.worlds[0] if bpy.data.worlds else bpy.data.worlds.new("w")
     bpy.context.scene.world = world
     world.use_nodes = True
+    # ⚠⚠ THE WORLD MUST BE BLACK, AND THIS WAS THE FIFTH DEFECT.
+    # A world background at strength 0.6 is a UNIFORM FILL LIGHT: it lights every
+    # surface from every direction whether or not any probe exists. With it on,
+    # the away-facing view measured 113.58 mean luma both with a real GPU bake
+    # and without one - identical to two decimals - because the ambient swamped
+    # whatever the probes contributed. The test could not have detected the
+    # effect it was built to detect.
+    # With the world at zero, the ONLY light is the window; anything reaching a
+    # surface facing away from it has to have BOUNCED, which is precisely the
+    # quantity under test.
+    world_strength = float(opts.get("--world-strength", "0.0"))
+    report["world_strength"] = world_strength
     bg = world.node_tree.nodes.get("Background")
     if bg:
-        bg.inputs[0].default_value = (0.16, 0.18, 0.21, 1.0)
-        bg.inputs[1].default_value = 0.6
+        bg.inputs[0].default_value = (0.0, 0.0, 0.0, 1.0)
+        bg.inputs[1].default_value = world_strength
 
     if do_bake:
         try:
@@ -453,7 +500,9 @@ def _render_all(report, outdir, suffix, opts):
     y1 = (W["G4d"]["face_lo_mm"] - oy) / upm
     z1 = 2.5
     samples = int(opts.get("--samples", "48"))
-    report["eevee"] = set_up_eevee(bpy.context.scene, samples, use_probes=True)
+    rt = opts.get("--raytracing", "yes").lower() not in ("no", "0", "false")
+    report["eevee"] = set_up_eevee(bpy.context.scene, samples, use_probes=True,
+                                   raytracing=rt)
 
     # --- the three renders --------------------------------------------------
     cx, cy = (x0 + x1) / 2.0, (y0 + y1) / 2.0
@@ -494,9 +543,16 @@ def _render_all(report, outdir, suffix, opts):
                              os.path.join(outdir, "away_from_window%s.png" % suffix), 1280, 960),
     }
     report["renders"] = renders
+    report["background_mode"] = bpy.app.background
     report["total_seconds"] = round(time.time() - _T0[0], 2)
     _write(report, outdir)
     print("PROOF_OK %s" % os.path.join(outdir, "proof_room_report%s.json" % _SUFFIX[0]))
+    # ⚠ When launched WITHOUT -b, Blender enters its event loop after the script
+    # and would sit there forever. Quitting here lets the same script be used
+    # windowed, which is the only way to test whether a baked light cache is
+    # honoured by the renderer at all.
+    if not bpy.app.background:
+        bpy.ops.wm.quit_blender()
     return 0
 
 

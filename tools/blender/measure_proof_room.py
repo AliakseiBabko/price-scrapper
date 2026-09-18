@@ -102,6 +102,27 @@ def mean_luma(path, box=None):
     return round(total / max(n, 1), 2)
 
 
+def shadow_luma(path, quantile=0.20):
+    """Mean luminance of the DARKEST fraction of the frame.
+
+    ⚠ The whole-frame mean is dominated by directly lit surfaces, which no probe
+    can change - that is why five successive runs returned exactly 1.00x. The
+    shadowed region is where indirect light is the ONLY light, so it is the only
+    part of the image that carries the signal.
+    """
+    img = Image.open(path).convert("RGB")
+    px = img.load()
+    w, h = img.size
+    vals = []
+    for y in range(0, h, 2):
+        for x in range(0, w, 2):
+            r, g, b = px[x, y]
+            vals.append(0.2126 * r + 0.7152 * g + 0.0722 * b)
+    vals.sort()
+    n = max(1, int(len(vals) * quantile))
+    return round(sum(vals[:n]) / n, 3)
+
+
 def main():
     outdir = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
         REPO, "data", "outputs", "proof_room")
@@ -163,9 +184,16 @@ def main():
                          if os.path.exists(gui) else
                          "headless bake - SUSPECT, see leading_hypothesis")}
     if os.path.exists(away_ctrl):
-        lb, lc = mean_luma(away_baked), mean_luma(away_ctrl)
-        gi["away_with_probes_mean_luma"] = lb
-        gi["away_without_probes_mean_luma"] = lc
+        gi["whole_frame_with"] = mean_luma(away_baked)
+        gi["whole_frame_without"] = mean_luma(away_ctrl)
+        gi["note_on_whole_frame"] = (
+            "reported for completeness only. It is dominated by DIRECTLY lit "
+            "surfaces and cannot move with the probes - it read exactly 1.00x "
+            "through five runs while the test was broken.")
+        lb, lc = shadow_luma(away_baked), shadow_luma(away_ctrl)
+        gi["shadow_luma_with_probes"] = lb
+        gi["shadow_luma_without_probes"] = lc
+        gi["measured_on"] = "darkest 20% of the frame - the shadowed region"
         gain = round(lb / lc, 3) if lc else None
         gi["probe_gain"] = gain
         if gain is None:
@@ -235,9 +263,9 @@ def main():
               % (scale["mean_gap_px"], expected_px, scale["APPLIED_TILE_MM"]))
     print("GI    : %s" % gi.get("VERDICT"))
     if "probe_gain" in gi:
-        print("        away with probes %.1f  without %.1f  gain %s"
-              % (gi["away_with_probes_mean_luma"],
-                 gi["away_without_probes_mean_luma"], gi["probe_gain"]))
+        print("        shadow with probes %.3f  without %.3f  gain %s"
+              % (gi["shadow_luma_with_probes"],
+                 gi["shadow_luma_without_probes"], gi["probe_gain"]))
     print("UV    : %s of %s meshes have UV maps"
           % (rep.get("mesh_objects_with_uv_maps"), rep.get("mesh_objects")))
     print("wrote : %s" % os.path.relpath(out, REPO))
