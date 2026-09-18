@@ -199,6 +199,39 @@ def add_occluder(lo, hi):
                     "surface is directly lit and no indirect light is measurable")}
 
 
+def add_baffle(lo, hi, height=1.8):
+    """A full-width wall across the room, stopping short of the ceiling.
+
+    ⚠⚠ THIS IS THE ONLY GEOMETRY THAT CAN TEST THE HARD CASE, and six earlier
+    scene designs could not. The question is whether light reaches a surface when
+    the geometry that BOUNCED it is outside the camera frame - the exact thing
+    screen-space tracing cannot do and baked probes can. Every previous layout
+    failed because the bright surfaces were still in shot, so screen tracing
+    handled it and the probes had nothing left to contribute.
+
+    The baffle spans the full width and runs floor to `height`, leaving a gap
+    only at the TOP. Direct light cannot reach the far half at all. Light gets
+    there by passing over the baffle, striking the CEILING, and bouncing down.
+    Put the camera in the far half aimed DOWNWARD and that ceiling is out of
+    frame - so the measured surface is lit only by light bounced off geometry the
+    camera cannot see. That is the condition, constructed rather than hoped for.
+    """
+    bpy.ops.mesh.primitive_cube_add(size=1.0)
+    ob = bpy.context.object
+    ob.name = "baffle"
+    ob.scale = ((hi.x - lo.x) / 2.0 + 0.05, 0.05, height / 2.0)
+    ob.location = ((lo.x + hi.x) / 2.0,
+                   lo.y + (hi.y - lo.y) * 0.5,
+                   height / 2.0)
+    return {"name": ob.name,
+            "height_m": height,
+            "gap_to_ceiling_m": round(float(hi.z - height), 3),
+            "location": tuple(round(v, 3) for v in ob.location),
+            "why": ("blocks ALL direct light to the far half; light arrives only "
+                    "over the top and off the ceiling, which the test camera "
+                    "deliberately excludes from frame")}
+
+
 def add_probe_volume(lo, hi):
     """A light-probe volume covering the room interior.
 
@@ -214,12 +247,16 @@ def add_probe_volume(lo, hi):
                max(hi.y - lo.y - inset, 0.5) / 2.0,
                max(hi.z - lo.z - inset, 0.5) / 2.0)
     d = p.data
-    for attr, value in (("resolution_x", 8), ("resolution_y", 8), ("resolution_z", 6)):
+    res = int(os.environ.get("PROOF_PROBE_RES", "8"))
+    for attr, value in (("resolution_x", res), ("resolution_y", res),
+                        ("resolution_z", max(4, res * 3 // 4))):
         if hasattr(d, attr):
             setattr(d, attr, value)
     return {"location": tuple(round(v, 3) for v in p.location),
             "half_extent": tuple(round(v, 3) for v in p.scale),
-            "inset_m": inset}
+            "inset_m": inset,
+            "resolution": [getattr(d, a, None) for a in
+                           ("resolution_x", "resolution_y", "resolution_z")]}
 
 
 # ---------------------------------------------------------------------------
@@ -413,12 +450,17 @@ def main():
     report["window_lights"] = add_window_lights(
         [(ocx, y0 + 0.02, 1.2, ow, 1.5)], power=light_w)
 
+    mats = [m for m in bpy.data.materials if m.name == "calibration"]
     if opts.get("--occluder", "yes").lower() not in ("no", "0", "false"):
         report["occluder"] = add_occluder(lo, hi)
-        mats = [m for m in bpy.data.materials if m.name == "calibration"]
         occ = bpy.data.objects.get("occluder")
         if occ is not None and mats:
             occ.data.materials.append(mats[0])
+    if opts.get("--baffle", "no").lower() not in ("no", "0", "false"):
+        report["baffle"] = add_baffle(lo, hi)
+        baf = bpy.data.objects.get("baffle")
+        if baf is not None and mats:
+            baf.data.materials.append(mats[0])
     report["eevee"] = set_up_eevee(bpy.context.scene, samples, use_probes=True)
     report["probe_volume"] = add_probe_volume(lo, hi)
 
@@ -542,6 +584,25 @@ def _render_all(report, outdir, suffix, opts):
         "seconds": render_to(bpy.context.scene, cam,
                              os.path.join(outdir, "away_from_window%s.png" % suffix), 1280, 960),
     }
+    # 4. ⚠⚠ THE OUT-OF-FRAME BOUNCE TEST.
+    # Behind the baffle, aimed DOWNWARD at the base of the far wall. The ceiling
+    # that does the bouncing is deliberately NOT in frame, so screen-space
+    # tracing has nothing on screen to trace against and only a baked probe can
+    # supply the light. If probes matter anywhere, they matter here.
+    if opts.get("--baffle", "no").lower() not in ("no", "0", "false"):
+        far_y = y0 + (y1 - y0) * 0.78
+        cam = add_persp_camera("behind_baffle", (cx, far_y, 1.35),
+                               (cx, y1, 0.15), lens=40.0)
+        renders["behind_baffle"] = {
+            "png": os.path.join(outdir, "behind_baffle%s.png" % suffix),
+            "purpose": ("THE HARD CASE. Direct light is blocked by the baffle; the "
+                        "only light arrives off the CEILING, which this camera "
+                        "excludes. Screen tracing cannot serve it."),
+            "seconds": render_to(bpy.context.scene, cam,
+                                 os.path.join(outdir, "behind_baffle%s.png" % suffix),
+                                 1280, 960),
+        }
+
     report["renders"] = renders
     report["background_mode"] = bpy.app.background
     report["total_seconds"] = round(time.time() - _T0[0], 2)

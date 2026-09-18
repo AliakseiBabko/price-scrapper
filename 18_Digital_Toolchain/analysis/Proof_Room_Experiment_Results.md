@@ -83,17 +83,45 @@ headless artefact and not a bake failure.
 > That is the opposite of the failure the source warned about — and it is consistent
 > with Blender's 5.2 documentation.
 
-### ⚠️ What is STILL not tested, stated plainly
+### ⚠️⚠️ THE CAUSE, FOUND: the bake writes no cache at all
 
-**The hard case is light that must come from geometry OUT of frame.** In this view the
-bright surfaces are *in* frame, which is precisely the case screen-space tracing
-handles well — so the experiment still has not reproduced the condition that would
-make probes matter. **And the "shadow" region is not fully shadowed:** it sits at 42.6
-even with ray tracing off and a black world, so some direct light reaches it.
+Every 1.00× has one explanation, and it is not EEVEE. **`bpy.ops.object.lightprobe_cache_bake`
+is not producing an irradiance cache in this setup.** It returns `FINISHED` and spends
+~14 s, but what it writes does not depend on how much there is to write:
 
-**No conclusion about the walkthrough should be drawn from a 1.00× that four separate
-scene corrections could not move.** What *can* be said: EEVEE's GI is working, and the
-one measurable lever so far is ray tracing, not probes.
+| probe resolution | probes | scene | bytes added to the `.blend` |
+| ---: | ---: | :--- | ---: |
+| 4×4×4 | 64 | black world | **5,664** |
+| 20×20×15 | 6,000 | black world | **5,764** |
+| 4×4×4 | 64 | **bright** world | **5,627** |
+| 20×20×15 | 6,000 | **bright** world | **5,734** |
+
+**A real cache must scale with probe count.** 125× more probes adds ~100 bytes. Tested
+with `subset` = `ALL`, `SELECTED` and `ACTIVE`, with the volume selected and active,
+headless and windowed. ⚠️ The dark-scene rows alone would not have proved it — a
+near-black scene has near-zero irradiance everywhere and compresses to nothing either
+way, which is why the bright-world control exists.
+
+**So the probes have contributed nothing to any render in this experiment, and the
+question "do baked probes rescue out-of-frame indirect light" is STILL UNTESTED.**
+
+### ⚠️ But one result IS established, and it matters for the walkthrough
+
+With the baffle blocking all direct light, the far half of the room renders at a mean
+luma of **4.570** — essentially black — and **identically with and without the bake**.
+
+> **As the pipeline stands today, a space with no line of sight to a light source goes
+> dark.** Screen-space tracing supplies indirect light only where the bouncing surfaces
+> are on screen: it is worth **11%** in a partly shadowed view (47.882 → 42.572 with ray
+> tracing off) and **nothing** behind a full occluder.
+>
+> ⚠️ This is a real constraint on a walkthrough — a room around a corner, or one with
+> its door shut, will not light itself. **It is NOT yet known whether a working probe
+> bake would fix it**, because no working probe bake has been obtained here.
+
+**What would settle it:** a bake driven from the Blender UI by hand rather than through
+the operator API, or a different Blender build or GPU driver. That is now a narrow,
+specific question rather than an open one.
 
 ## ⚠️⚠️ SIX defects in the experiment itself, all mine, all caught by measuring
 
@@ -144,7 +172,7 @@ one measurable lever so far is ray tracing, not probes.
 
 | | question | state |
 | :--- | :--- | :--- |
-| **1** | does the walkthrough survive EEVEE's screen-space GI? | ⚠️ **partly** — GI works and ray tracing is the lever; probes add nothing here, and the out-of-frame case is still untested |
+| **1** | does the walkthrough survive EEVEE's screen-space GI? | ⚠️ **partly.** Ray tracing works and is worth 11% in a partly shadowed view. A FULLY occluded space renders black. Probes are untested because the bake writes no cache — a narrow, named blocker |
 | **2** | can an uploaded texture be applied at the right scale? | ✅ **yes, exactly** |
 | **3** | what does a rebuild cost? | ✅ **measured above** |
 
