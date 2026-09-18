@@ -48,113 +48,83 @@ not.** For judging a room that does not matter; for a tile-setting drawing it wo
 to headless CPU stills. That distinction is exactly the difference between a
 walkthrough being interactive and not, and this page will not blur it.
 
-## ⚠️ PARTLY ANSWERED — EEVEE's GI works; the probe volume adds nothing here
+## ✅ ANSWERED — EEVEE's probes DO carry out-of-frame light. My volume was wrong.
 
-**Corrected 2026-09-18, and the correction includes withdrawing a claim made on this
-page hours earlier: that a HUMAN had to bake in the GUI. That was wrong.**
+**⚠️⚠️ WITHDRAWN: everything this page previously said about the probe bake "writing no
+cache" was wrong.** Codex found the defect on 2026-09-18 and it reproduces exactly. The
+bake was working the whole time.
 
-### The bake needs a GPU context, not a person
+### The defect: the probe volume was SMALLER than the room
 
-`blender -b` creates no OpenGL context, and a light cache needs one. But Blender
-launched **without** `-b` opens a window *and* still runs a `-P` script that drives
-everything and quits. **No clicking by anyone.** `tools/blender/bake_probes_gui.py`
-does it: `background_mode: false`, bake **13.7 s**, `FINISHED`, file saved and grown
-from **172,535 → 178,414 bytes**. The cache is demonstrably in the file.
+`add_probe_volume()` inset the volume by 0.25 m — **125 mm on every side** — under a
+docstring reading *"every probe point must sit INSIDE the room"*. That misreads the
+recipe. Its warning is about probe points landing **behind geometry**, such as behind a
+curtain. It is not a reason to shrink the volume below the room.
 
-⚠️ The bake is deferred through a **timer**, because at the moment a startup script
-runs the window exists but the draw context may not — baking too early fails exactly
-like baking headless, returning `FINISHED` and producing nothing.
+| | room half-extent | probe half-extent | excluded |
+| :--- | ---: | ---: | ---: |
+| X | 1.413 | 1.288 | 125 mm/side |
+| Y | 1.700 | 1.575 | 125 mm/side |
+| Z | 1.250 | 1.125 | 125 mm/side |
 
-### And the probes still change nothing
+**A probe volume's bounds are its INFLUENCE bounds.** A surface outside every volume
+falls back to world diffuse lighting — and the world was at strength 0. So the floor,
+the ceiling and all six enclosing faces were excluded: **precisely the surfaces whose
+indirect lighting was being measured.** Nothing the bake produced could reach the thing
+under test.
 
-| away-facing frame | shadow luma | whole frame |
-| :--- | ---: | ---: |
-| no probe bake | **47.882** | 79.34 |
-| GPU-baked, rendered headless | **47.882** | 79.34 |
-| GPU-baked, rendered **windowed** | **47.882** | 79.34 |
-| baked, **ray tracing OFF** | **42.572** | 78.02 |
+### Reproduced, behind the baffle
 
-**Identical to three decimals** across all three probe conditions — so this is not a
-headless artefact and not a bake failure.
+| render | whole frame | darkest 20% | fixed ROI |
+| :--- | ---: | ---: | ---: |
+| EEVEE, no bake | 4.570 | 0.000 | 4.130 |
+| EEVEE, **inset volume — the bug** | 4.570 | 0.000 | 4.130 |
+| EEVEE, **enclosing volume** | **56.400** | **34.506** | **48.800** |
+| Cycles, path-traced ground truth | 134.820 | 119.453 | 133.210 |
 
-> ⚠️⚠️ **But the last row is the finding.** Turning ray tracing **off** drops the
-> shadowed region by **11%**. So **EEVEE's screen-space tracing IS supplying indirect
-> light, and the baked probe volume adds nothing on top of it in this geometry.**
-> That is the opposite of the failure the source warned about — and it is consistent
-> with Blender's 5.2 documentation.
+> ✅ **EEVEE's baked probes DO deliver indirect light to a surface whose illuminating
+> geometry is out of frame.** The documented behaviour holds. The walkthrough is not
+> blocked by a renderer limitation.
+>
+> ⚠️ **But EEVEE recovers only ~42% of the path-traced whole-frame answer and ~37% on
+> the fixed ROI**, in a deliberately severe case. Much better than black; **not
+> trustworthy for final lighting judgement.** That supports Antigravity's "Cycles for
+> finished aesthetics, EEVEE for spatial review" over a single-engine plan.
 
-### ⚠️⚠️ THE CAUSE, FOUND: the bake writes no cache at all
+### Three inference errors of my own, beyond the volume itself
 
-Every 1.00× has one explanation, and it is not EEVEE. **`bpy.ops.object.lightprobe_cache_bake`
-is not producing an irradiance cache in this setup.** It returns `FINISHED` and spends
-~14 s, but what it writes does not depend on how much there is to write:
+1. **`.blend` byte growth is not a functional test.** I concluded the cache was empty
+   because the file grew ~5.7 KB regardless of probe count. A rendered positive control
+   supersedes that entirely — and I had no positive control to supersede it with.
+2. **The bright-world control was VACUOUS.** The probe had `capture_world = False`, so
+   changing world brightness could never test whether world radiance was stored. I built
+   that control specifically to be rigorous and it tested nothing. Now set to `True`.
+3. **"Darkest 20%" moves its own support.** It selects the darkest pixels of *each image
+   independently*, so it compares different pixels in the two frames it is meant to
+   control. Replaced by a fixed geometric ROI; the old figure is kept only for continuity.
 
-| probe resolution | probes | scene | bytes added to the `.blend` |
-| ---: | ---: | :--- | ---: |
-| 4×4×4 | 64 | black world | **5,664** |
-| 20×20×15 | 6,000 | black world | **5,764** |
-| 4×4×4 | 64 | **bright** world | **5,627** |
-| 20×20×15 | 6,000 | **bright** world | **5,734** |
+### ⚠️ The gate that would have prevented all of it
 
-**A real cache must scale with probe count.** 125× more probes adds ~100 bytes. Tested
-with `subset` = `ALL`, `SELECTED` and `ACTIVE`, with the volume selected and active,
-headless and windowed. ⚠️ The dark-scene rows alone would not have proved it — a
-near-black scene has near-zero irradiance everywhere and compresses to nothing either
-way, which is why the bright-world control exists.
+`proof_room.py` now **refuses to build** when the probe volume does not enclose the room
+surfaces, and the refusal has been watched to fire on the original numbers:
 
-**So the probes have contributed nothing to any render in this experiment, and the
-question "do baked probes rescue out-of-frame indirect light" is STILL UNTESTED.**
+```
+probe volume does not enclose the room surfaces: half-extent (1.288, 1.575, 1.125)
+against a room half-extent of (1.413, 1.7, 1.25). Every surface outside the volume
+falls back to world lighting, so nothing measured here would be indirect light.
+```
 
-### ⚠️⚠️⚠️ THE GROUND TRUTH: the light IS there, and EEVEE loses essentially all of it
+Reproduce the original defect with `PROOF_PROBE_MARGIN=-0.25`.
 
-**Same file, same lights, same cameras, only the engine changed.** The camera sits
-behind a full-width baffle; nothing reaches it except light that has passed over the
-top and bounced off the ceiling.
+### ⚠️⚠️ Fixing Blender's probes does NOT fix the browser walkthrough
 
-| engine | whole frame | darkest 20% |
-| :--- | ---: | ---: |
-| EEVEE, no probe bake | 4.570 | 0.000 |
-| EEVEE, scripted GPU bake | 4.570 | 0.000 |
-| EEVEE, **owner's hand bake in the UI** | 4.570 | 0.000 |
-| **CYCLES (path-traced ground truth)** | **134.820** | **119.453** |
+Codex's point, verified here: `tools/blender/export_glb.py` contains **no light, probe or
+irradiance export at all**. The probe cache belongs to the `.blend`. The Three.js viewer
+still needs a proven lightmap pipeline (with non-overlapping lightmap UVs — which the
+box-projection texture route deliberately does **not** provide), a runtime GI solution,
+or lighting simple enough to be honest only for spatial review.
 
-**Cycles renders the space cleanly and evenly lit. EEVEE renders it black.** That is a
-**~29× gap on the whole frame**, and the darkest fifth goes from 0.000 to 119.453.
-
-> **So "dark" was the WRONG ANSWER, and EEVEE was giving it confidently.** The bounce
-> light genuinely exists — a correct renderer finds it. EEVEE's screen-space tracing
-> cannot, because the bouncing ceiling is out of frame, and the probe volume that is
-> supposed to cover exactly this case delivers nothing through **every** invocation
-> path tested: scripted headless, scripted with a GPU context, and a human clicking
-> **Bake All Light Probe Volumes** in the real UI.
-
-⚠️ **This control should have been the FIRST thing built.** Six scene revisions were
-spent comparing EEVEE against EEVEE, and no number in that family could ever say
-whether the answer was right — only whether two EEVEE runs agreed. **A measurement
-with no ground truth measures agreement, not correctness.**
-
-### ⚠️ What this means for the walkthrough, stated plainly
-
-**As the pipeline stands, EEVEE cannot light a space that has no line of sight to a
-light source.** Not "looks worse" — it returns black where the true answer is bright.
-A room around a corner, or one lit through a doorway, will not light itself.
-
-**Three responses, none of them yet chosen:**
-
-1. **Put a light in every room.** A real flat has lamps; the walkthrough does not have
-   to rely on one window bouncing round a corner. **Cheapest, and closest to reality.**
-2. **Use Cycles where light matters.** Correct, and slow — the Cycles frame took minutes
-   against seconds for EEVEE. Viable for stills, not for walking.
-3. **Reconsider the runtime.** This strengthens Codex's argument for judging the engine
-   on a measured proof rather than a feature list, and Antigravity's "do not use EEVEE
-   for finished aesthetic judgement".
-
-⚠️ **What is NOT established:** that EEVEE is unfit generally. With a working probe bake
-it might resolve this case exactly as documented. **The probe bake is the single
-unexplained blocker**, and it is now isolated to the operator itself rather than to
-context, engine, resolution, scene brightness or invocation route.
-
-## ⚠️⚠️ SIX defects in the experiment itself, all mine, all caught by measuring
+## ⚠️⚠️ NINE defects in the experiment itself, all mine
 
 **This is the part worth keeping.** Each would have produced a confident wrong answer.
 
@@ -183,7 +153,16 @@ context, engine, resolution, scene brightness or invocation route.
    surfaces that no probe can move. The measurement is now the darkest 20% of the
    frame, where indirect light is the only light.
 
-> **Every one of the six was found by insisting on a number.** An experiment
+7. **The probe volume did not enclose the room** — the one that invalidated every EEVEE
+   number for four days. Found by Codex, not by me.
+8. **`.blend` byte growth was used as a functional oracle** in place of a positive control.
+9. **The bright-world control was vacuous** (`capture_world = False`) and the
+   darkest-20% statistic moved its own support.
+
+> **Six of the nine were found by insisting on a number. The last three were not found
+> by me at all** — and 7 is the one that mattered most. ⚠️ **Measurement discipline is
+> not the same as measuring the right thing:** four EEVEE runs agreed with each other
+> perfectly while none of them touched a surface inside a valid influence volume. An experiment
 > judged by eye would have passed #1, not noticed #2, and never reached #3 — and
 > would have produced exactly the persuasive-but-wrong artefact this project is
 > built to prevent.
@@ -203,7 +182,7 @@ context, engine, resolution, scene brightness or invocation route.
 
 | | question | state |
 | :--- | :--- | :--- |
-| **1** | does the walkthrough survive EEVEE's screen-space GI? | ❌ **NO, as things stand.** Cycles renders an occluded space at 134.8 mean luma; EEVEE renders it at 4.6. Not a quality gap — a wrong answer. The probe bake that should fix it produces nothing through every route tested |
+| **1** | does the walkthrough survive EEVEE's screen-space GI? | ✅ **Yes for spatial review** — baked probes deliver out-of-frame indirect light once the volume encloses the room. ⚠️ **No for final aesthetics**: EEVEE recovers ~42% of the path-traced answer. ⚠️ The BROWSER runtime is a separate, unsolved problem |
 | **2** | can an uploaded texture be applied at the right scale? | ✅ **yes, exactly** |
 | **3** | what does a rebuild cost? | ✅ **measured above** |
 

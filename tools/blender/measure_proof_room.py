@@ -102,6 +102,22 @@ def mean_luma(path, box=None):
     return round(total / max(n, 1), 2)
 
 
+def roi_luma(path, frac=(0.25, 0.30, 0.75, 0.80)):
+    """Mean luminance of a FIXED rectangle, the same pixels in every image.
+
+    ⚠⚠ `shadow_luma` below picks the darkest 20% of EACH image INDEPENDENTLY, so
+    it compares different pixels in the two frames it is supposed to be
+    controlling. Codex flagged it, 2026-09-18, and it is correct: a statistic
+    whose support moves with the data is not a control. This one is geometric -
+    the same rectangle of the frame every time - so two renders are compared on
+    the same surface.
+    """
+    img = Image.open(path).convert("RGB")
+    w, h = img.size
+    box = (int(w * frac[0]), int(h * frac[1]), int(w * frac[2]), int(h * frac[3]))
+    return mean_luma(path, box=box)
+
+
 def shadow_luma(path, quantile=0.20):
     """Mean luminance of the DARKEST fraction of the frame.
 
@@ -190,7 +206,12 @@ def main():
             "reported for completeness only. It is dominated by DIRECTLY lit "
             "surfaces and cannot move with the probes - it read exactly 1.00x "
             "through five runs while the test was broken.")
-        lb, lc = shadow_luma(away_baked), shadow_luma(away_ctrl)
+        gi["roi_with_probes"] = roi_luma(away_baked)
+        gi["roi_without_probes"] = roi_luma(away_ctrl)
+        gi["roi_note"] = ("fixed central rectangle - the same pixels in both "
+                          "frames. The darkest-20% figures below move their own "
+                          "support and are kept only for continuity.")
+        lb, lc = roi_luma(away_baked), roi_luma(away_ctrl)
         gi["shadow_luma_with_probes"] = lb
         gi["shadow_luma_without_probes"] = lc
         gi["measured_on"] = "darkest 20% of the frame - the shadowed region"

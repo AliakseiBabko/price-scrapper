@@ -233,28 +233,55 @@ def add_baffle(lo, hi, height=1.8):
 
 
 def add_probe_volume(lo, hi):
-    """A light-probe volume covering the room interior.
+    """A light-probe volume that ENCLOSES the room's surfaces.
 
-    ⚠️ Every probe point must sit INSIDE the room - the recorded recipe traces a
-    black corner to probes that ended up behind a curtain. The volume is therefore
-    inset from the walls rather than matched to them.
+    ⚠️⚠️ THIS WAS WRONG FOR THE ENTIRE EXPERIMENT, AND IT IS WHY EVERY EEVEE
+    NUMBER CAME BACK BLACK. Codex found it, 2026-09-18.
+
+    The old code INSET the volume by 0.25 m - 125 mm on every side - with the
+    docstring "every probe point must sit INSIDE the room". That misread the
+    recorded recipe. The recipe's warning is about probe points landing BEHIND
+    GEOMETRY, such as behind a curtain; it is not a reason to make the volume
+    smaller than the room. A probe volume's bounds are its INFLUENCE bounds, and
+    a surface outside every volume falls back to world diffuse lighting - which,
+    with the world at strength 0, is black.
+
+    So the inset excluded the floor, the ceiling and all six enclosing faces:
+    exactly the surfaces whose indirect lighting was being measured. The bake was
+    working the whole time. Nothing it produced could ever reach the thing under
+    test.
+
+    The volume is therefore made slightly LARGER than the room, so every surface
+    lies inside it.
     """
-    inset = 0.25
+    margin = float(os.environ.get("PROOF_PROBE_MARGIN", "0.25"))
     bpy.ops.object.lightprobe_add(type="VOLUME")
     p = bpy.context.object
     p.location = ((lo.x + hi.x) / 2, (lo.y + hi.y) / 2, (lo.z + hi.z) / 2)
-    p.scale = (max(hi.x - lo.x - inset, 0.5) / 2.0,
-               max(hi.y - lo.y - inset, 0.5) / 2.0,
-               max(hi.z - lo.z - inset, 0.5) / 2.0)
+    # margin > 0 ENLARGES. PROOF_PROBE_MARGIN=-0.25 reproduces the original
+    # defect, which is what the regression seed uses.
+    p.scale = ((hi.x - lo.x + margin) / 2.0,
+               (hi.y - lo.y + margin) / 2.0,
+               (hi.z - lo.z + margin) / 2.0)
     d = p.data
     res = int(os.environ.get("PROOF_PROBE_RES", "8"))
     for attr, value in (("resolution_x", res), ("resolution_y", res),
                         ("resolution_z", max(4, res * 3 // 4))):
         if hasattr(d, attr):
             setattr(d, attr, value)
+    # ⚠ Codex also noted the bright-world control was VACUOUS while this is
+    # False: changing world brightness cannot test whether world radiance is
+    # stored if the probe never captures it.
+    if hasattr(d, "capture_world"):
+        d.capture_world = True
+    room_half = ((hi.x - lo.x) / 2.0, (hi.y - lo.y) / 2.0, (hi.z - lo.z) / 2.0)
+    encloses = all(ph >= rh - 1e-6 for ph, rh in zip(p.scale, room_half))
     return {"location": tuple(round(v, 3) for v in p.location),
             "half_extent": tuple(round(v, 3) for v in p.scale),
-            "inset_m": inset,
+            "margin_m": margin,
+            "room_half_extent": tuple(round(v, 3) for v in room_half),
+            "ENCLOSES_ROOM_SURFACES": encloses,
+            "capture_world": getattr(d, "capture_world", None),
             "resolution": [getattr(d, a, None) for a in
                            ("resolution_x", "resolution_y", "resolution_z")]}
 
@@ -463,6 +490,24 @@ def main():
             baf.data.materials.append(mats[0])
     report["eevee"] = set_up_eevee(bpy.context.scene, samples, use_probes=True)
     report["probe_volume"] = add_probe_volume(lo, hi)
+    # ⚠⚠ THE GATE THAT WOULD HAVE SAVED THE WHOLE EXPERIMENT.
+    # A surface outside every probe influence volume falls back to world diffuse
+    # lighting. For four days that fallback was a black world, so every measured
+    # surface read 0 and four EEVEE runs agreed with each other about nothing.
+    # A probe volume that does not enclose the surfaces being measured is not a
+    # configuration choice, it is a broken measurement - so it fails the build
+    # rather than quietly rendering black.
+    if not report["probe_volume"]["ENCLOSES_ROOM_SURFACES"]:
+        report["PROBE_CONTAINMENT"] = "FAILED"
+        _write(report, outdir)
+        raise SystemExit(
+            "probe volume does not enclose the room surfaces: half-extent %s "
+            "against a room half-extent of %s. Every surface outside the volume "
+            "falls back to world lighting, so nothing measured here would be "
+            "indirect light. Set PROOF_PROBE_MARGIN >= 0."
+            % (report["probe_volume"]["half_extent"],
+               report["probe_volume"]["room_half_extent"]))
+    report["PROBE_CONTAINMENT"] = "ok"
 
     world = bpy.data.worlds[0] if bpy.data.worlds else bpy.data.worlds.new("w")
     bpy.context.scene.world = world
