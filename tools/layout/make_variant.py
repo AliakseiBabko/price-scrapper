@@ -82,6 +82,31 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="build even if a constraint check fails")
     a = ap.parse_args()
 
+    # ⚠⚠ PROPAGATE THE RETIREMENT, AND DO IT BEFORE ANY FILE IS TOUCHED.
+    # `build_variant.py` became a tombstone on 2026-09-19 (see its docstring).
+    # This wrapper is what the skill and the docs advertise as the one-command
+    # build, so leaving it to discover the refusal as a failed STEP would print
+    # "variant X - ...", read the variant, run the constraint checks, and only
+    # then report a broken pipeline - which reads like a bug to be fixed rather
+    # than a deliberate retirement. It refuses up front instead, and returns the
+    # same exit code, so nothing downstream can mistake this for a transient
+    # failure.
+    sys.stderr.write(
+        "REFUSED: tools/layout/make_variant.py is RETIRED as of 2026-09-19.\n\n"
+        "It wraps tools/layout/build_variant.py, which is a tombstone: it emitted\n"
+        "geometry from a rectangular schema while the compiler resolves real\n"
+        "polygons, and on 2026-09-18 it built the permanently reference_only\n"
+        "v1-homestyler sketch at exit 0.\n\n"
+        "v1-homestyler is reference_only and NEVER buildable.\n\n"
+        "There is no replacement yet, deliberately. It must be a NEW compiler:\n"
+        "    ResolvedGeometry\n"
+        "      + authored variant relations/operations\n"
+        "      -> resolved variant geometry\n"
+        "      -> IFC and views\n\n"
+        "Run tools/layout/build_variant.py for the full explanation.\n"
+        "Nothing was read, created or written by this invocation.\n")
+    return 2
+
     path = Path(a.variant)
     if not path.exists():
         path = REPO / "data" / "variants" / (a.variant + ".json")

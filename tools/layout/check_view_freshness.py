@@ -20,6 +20,23 @@ protection it describes.**
 comparison, and it fails loudly rather than warning - a warning on a view is
 exactly what got ignored for two days.
 
+⚠️⚠️ 24 IfcWall IS CORRECT, AND MUST NOT BE "REPAIRED" BACK TO 25.
+The compiler resolves **25 wall records**, the spec carries 25, and the IFC holds
+**24** `IfcWall`. That is not drift:
+
+    25 compiler legs - 2 (R1a, R1b) + 1 (A_NW_CORNER) = 24 physical walls
+
+`R1a` and `R1b` are two CALCULATION LEGS of one monolithic pour. The generator
+skips both legs and emits a single physical `IfcWall` for the assembly, which is
+why `C_R1a_R1b` gets no connection either - it is a construction joint inside one
+casting, not a junction between two walls. Three different counts for one model
+(25 / 24 / and a manifest that says 23) is exactly the kind of spread that
+invites someone to "fix" the right number into a wrong one, so this gate prints
+the arithmetic rather than leaving it to be rediscovered.
+
+⚠️ `model.json` saying **23** IS a real defect, and a separate one: it counts the
+walls it wrote individually and omits the merged assembly from its own total.
+
 ⚠️ IT IS NOT A GEOMETRY CHECK. It answers only "was this view built from these
 bytes". Whether the IFC itself is correct is `check_dxf_closure.py`,
 `check_variant_basis.py` and the IDS suite. A fresh view of a wrong model is
@@ -162,6 +179,41 @@ def check_variant(vdir, problems, notes):
         notes.append("%s/%s fresh against %s" % (name, view["report"], os.path.basename(src_path)))
 
 
+def wall_census(vdir):
+    """The 25 / 24 / 23 spread, printed so nobody has to rediscover it.
+
+    Read-only and best-effort: a missing file or a parse failure is silence, not
+    a problem. This gate is about provenance, not geometry.
+    """
+    out = {}
+    spec = os.path.join(vdir, "spec.json")
+    if os.path.exists(spec):
+        try:
+            with open(spec, encoding="utf-8") as fh:
+                out["spec_wall_records"] = len(json.load(fh).get("walls", []))
+        except Exception:                                    # noqa: BLE001
+            pass
+    man = os.path.join(vdir, "model.json")
+    if os.path.exists(man):
+        try:
+            with open(man, encoding="utf-8") as fh:
+                out["manifest_claims"] = json.load(fh).get("walls")
+        except Exception:                                    # noqa: BLE001
+            pass
+    ifc = os.path.join(vdir, "model.ifc")
+    if os.path.exists(ifc):
+        n = 0
+        try:
+            with open(ifc, encoding="utf-8", errors="replace") as fh:
+                for line in fh:
+                    if "=IFCWALL(" in line.upper():
+                        n += 1
+            out["ifc_IfcWall"] = n
+        except Exception:                                    # noqa: BLE001
+            pass
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--variants-dir", default=VARIANTS)
@@ -176,6 +228,22 @@ def main():
         if os.path.isdir(vdir):
             check_variant(vdir, problems, notes)
             orphan_views(vdir, problems)
+
+    for entry in sorted(os.listdir(args.variants_dir)):
+        vdir = os.path.join(args.variants_dir, entry)
+        if not os.path.isdir(vdir):
+            continue
+        c = wall_census(vdir)
+        if c:
+            print("  walls %s: spec %s records, IFC %s IfcWall, manifest claims %s"
+                  % (entry, c.get("spec_wall_records", "?"), c.get("ifc_IfcWall", "?"),
+                     c.get("manifest_claims", "?")))
+            if (c.get("spec_wall_records") == 25 and c.get("ifc_IfcWall") == 24):
+                print("        ^ CORRECT: 25 legs - 2 (R1a, R1b) + 1 (A_NW_CORNER "
+                      "assembly) = 24 physical walls. Do NOT 'fix' 24 back to 25.")
+            if c.get("manifest_claims") == 23 and c.get("ifc_IfcWall") == 24:
+                print("        ^ but model.json says 23: it omits the merged "
+                      "assembly from its own count. Real, and a separate defect.")
 
     for n in notes:
         print("  ok    %s" % n)

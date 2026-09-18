@@ -111,7 +111,7 @@ problem.
 ## Decision status
 
 Proposed 2026-08-26, not yet built. `furniture.place` and `finish.set` already
-exist as operations in `tools/layout/build_variant.py` and the builder already
+exist as operations in `tools/layout/build_variant.py` — ⚠️⚠️ **WHICH WAS RETIRED TO A TOMBSTONE ON 2026-09-19 AND BUILDS NOTHING, so this paragraph's claim that «the mechanism is in place» is WITHDRAWN: the mechanism was attached to the builder that could not express a mitred wall** — and the builder already
 carries both onto the IFC — so the mechanism is in place and what is missing is
 the catalogue file and the actual selections. See `cap4` and `cap5` in the
 roadmap.
