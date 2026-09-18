@@ -4,8 +4,16 @@
 
 Answers one question: **what has to change in the model for each sheet of the
 target album to come out of it?** Scope decision of 2026-08-26: тёплый пол is
-not being installed, so that sheet is dropped — **11 sheets in scope**, tracked
-in [`price-scrapper-target-set.json`](../data/deliverable_templates/price-scrapper-target-set.json).
+not being installed, so that sheet is dropped.
+
+> ⚠️⚠️ **THIS ROADMAP PLANNED AGAINST A RETIRED TARGET UNTIL 2026-09-18.** It said
+> **11 sheets in scope** and pointed at `price-scrapper-target-set.json`, which the
+> owner replaced on **2026-09-07** with the full album and extended on **2026-09-18**.
+> The live target is
+> [`zk-dubravinskiy-full-album.json`](../data/deliverable_templates/zk-dubravinskiy-full-album.json)
+> — **34 in scope**, 1 provisional (`Окна, откосы, подоконники`), 1 undecided
+> (`Радиаторы`), 1 optional, 1 out of scope. **Sheet ids below still refer to the old
+> 11-sheet set and have NOT been remapped**, so read them as history until they are.
 
 Yes, this needs a plan, for one reason: the sheets are not independent
 work items. Five of them wait on the same two model changes, and doing those
@@ -51,7 +59,7 @@ areas + key), scale bar, north/entry arrow, wet-zone fill, dashed original
 partitions, red demolition hatch, title block, and the "final variant" flag.
 These are the conventions read off Dolgushev's albums
 ([Planning_Project_Deliverable_Set.md](Planning_Project_Deliverable_Set.md#graphical-conventions-worth-copying)).
-Cheap, and it lifts all 11 sheets at once.
+Cheap, and it lifts all 11 sheets of the RETIRED set at once — the same work still applies to their successors, but the count is no longer 11.
 
 *Unlocks: every sheet. Touches: `tools/drawings/apartment_sheet_from_ifc.py`.*
 
