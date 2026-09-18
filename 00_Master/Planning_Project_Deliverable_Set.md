@@ -254,3 +254,28 @@ catalogue may be treated as a dimension** — recorded as
 `Гидроизоляция`, `Штукатурка`, `Стяжка`, `Теплые полы`, `Кондиционеры`, `Безопасность`, `Электрощиток` and `Электропроводка` are all separate sheets here. **That is the gap between a планировочный проект and the full album the owner is asking for** — and it is roughly a doubling of the sheet count, not a refinement of it.
 
 > **⚠️ SCOPE CONSEQUENCE, STATED PLAINLY:** the owner's stated workflow is *experiment with the layout → settle on two or three preferred variants → place things and engineering systems in the 3D model → produce this set per final variant.* **At 37 sheets, producing this set for three variants is 111 sheets.** The set must therefore be GENERATED from the model, not drawn — which is the architecture already chosen, and this album is the strongest evidence yet that the choice was right.
+
+## ⚠️ OWNER SHEET DECISIONS, 2026-09-18 — four of the five lab|remont additions
+
+The lab|remont album (37 sheets) was compared against our own target album
+(`zk-dubravinskiy-full-album.json`, 32 sheets, owner-decided 2026-09-07). **The 37
+is NOT an adoptable number**: it is an observed album for a DIFFERENT flat, whose
+room list includes `Кабинет`, `Гардеробная` and two `СУ` — so a large part of its
+count is that flat's room count, and its 11 развёртки sheets do not transfer. The
+answerable question was which **sheet TYPES** it has that ours lacks. Five. The
+owner ruled on them:
+
+| sheet | decision | the owner's reason |
+| :--- | :--- | :--- |
+| **`Этапы работ`** | ✅ **IN** | *"first to plan and then to keep track of the actual progress — that's why we need this sheet."* Order of work, volume, approximate timeframe. **He expects it to change on the way and says so** — it depends on external factors. So it is a LIVING sheet, not a fixed programme. Content belongs with `11_Budget_and_Planning/` |
+| **`Штатная электрика от застройщика`** | ✅ **IN** | *"existing electric wiring — yeah, it's already built, that's correct."* Already modelled: `electrical_existing.csv` and the services-observed capture |
+| **`Электрощиток`** | ✅ **IN** | *"a good sheet to plan beforehand… we will need this panel, we will need switches, and it's better to understand its appearance."* ⚠️ Note **«appearance»** — he wants the panel's COMPOSITION laid out, not just its position. This is the same panel he asked about in the internal passage on 2026-09-16 |
+| **`Окна, откосы, подоконники`** | ⚠️ **PROBABLY IN, not settled** | *"frankly, I'm not sure… it could be thought of as a part of finishing work of the walls."* What tipped him toward yes: **the лоджия glazing replacement is already in scope**, and a possible window change in the 9.36 room (below) |
+| **`Радиаторы`** | **NOT RULED ON** | Ours folds radiators into `Отопление`. ⚠️ It became live anyway — see the open item below |
+
+> **⚠️ The stale 11-sheet target is a separate problem, not a third option.**
+> `price-scrapper-target-set.json` (11 sheets) carries **no supersession marker of its
+> own** — only the full album's free-text `supersedes` field records the replacement,
+> and `validate_layout_data.py` globs every template equally. `Sheet_Production_Roadmap.md`
+> still plans against those 11. **Supersession recorded in one direction only** is the
+> same shape as every other defect this project has found.
