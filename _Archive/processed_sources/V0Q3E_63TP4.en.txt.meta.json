@@ -1,0 +1,13 @@
+{
+  "video_id": "V0Q3E_63TP4",
+  "url": "https://www.youtube.com/watch?v=V0Q3E_63TP4",
+  "title": "Make EEVEE look like Cycles in Blender 5",
+  "channel": "coral lab",
+  "upload_date": "20260107",
+  "language": "en",
+  "sha256": "9e1df507a87e172f2d4deb92da8175cafe72ad34ac5ac641de357566f1befef8",
+  "bytes": 5121,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs en, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}

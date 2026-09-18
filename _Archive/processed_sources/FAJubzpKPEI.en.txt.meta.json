@@ -1,0 +1,13 @@
+{
+  "video_id": "FAJubzpKPEI",
+  "url": "https://www.youtube.com/watch?v=FAJubzpKPEI",
+  "title": "I Tested ChatGPT on a Real Architecture Project",
+  "channel": "AI for Architects",
+  "upload_date": "20260824",
+  "language": "en",
+  "sha256": "32a49a3739fbe3558c06d1a0a5918c8307aab56df5c76506238293ee1c6d817e",
+  "bytes": 7100,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs en, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}

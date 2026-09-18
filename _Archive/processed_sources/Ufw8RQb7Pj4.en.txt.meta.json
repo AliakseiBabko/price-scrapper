@@ -1,0 +1,13 @@
+{
+  "video_id": "Ufw8RQb7Pj4",
+  "url": "https://www.youtube.com/watch?v=Ufw8RQb7Pj4",
+  "title": "The Problem with EEVEE NEXT - Limitations and Workarounds",
+  "channel": "VICUBE Animation",
+  "upload_date": "20240715",
+  "language": "en",
+  "sha256": "99b94d2dbf6fe75b1bab9e30afdfcf38e365e5af9d041ab7bb2ddd724a447552",
+  "bytes": 8865,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs en, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}
