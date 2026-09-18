@@ -20,12 +20,19 @@
 
 Three windows and the лоджия glazing, every one on the **south** façade, which steps northward as it runs west. The entrance `O8` is at **y 15990**, the far north.
 
-| opening | host | x extent |
-| :--- | :--- | :--- |
-| `O3` living-room window | `MC` | 9381 … 12946 |
-| `O2` middle-room window | `MB` | 6131 … 9131 |
-| `O4a`/`O4b` window + лоджия door | `MA` | 2931 … 5881 |
-| `O9` лоджия glazing | `M2 → M6b` | the mitred south-west corner |
+⚠️⚠️ **The x extents below are the OPENINGS. An earlier version printed the HOST WALL bounds instead** — the fourth error of one family in three days: quoting a container's bounds as the contained thing's. `O2` is 1800 wide, not the 3000 of `MB`.
+
+| opening | host | **opening** x extent | width |
+| :--- | :--- | :--- | ---: |
+| `O3` living-room window | `MC` | 10235.9 … 12035.9 | 1800 |
+| `O2` middle-room window | `MB` | 6731.0 … 8531.0 | 1800 |
+| `O4` window + лоджия door | `MA` | 4351.0 … 5731.0 | 1380 |
+| `O9` лоджия glazing | `M2 → M6b` | 3130.9 … 6022.1 | 2891 |
+
+> [!WARNING]
+> **⚠️ THE COMPILED WIDTH AND THE MEASURED WIDTH DISAGREE, and a fit calculation must know which it is using.** The compiler places `O2` and `O3` at **1800** — the developer plan's figure. `wall_openings.csv` records **1760** and **1763**, *measured by the owner on a very similar flat*. **Use 1760 for any fit** (a desk at the window, a blind, a curtain track): it is the smaller and the measured one, and the developer plan is known to read 1.0–1.9% larger than every as-built comparable.
+>
+> ⚠️ `O2` also leaves exactly **two 600 mm masonry piers** either side — 6131…6731 and 8531…9131 — at the 1800 figure. At 1760 they are 620.
 
 **What this proves: every habitable room shares one depth axis — entered from the north, lit from the south — and therefore one light gradient.** That is all it proves. See layer 2.
 
@@ -78,17 +85,43 @@ What layer 1 *does* contribute: because there is only one depth axis, `DI-008` i
 
 - `R3` (2740) and `R2` (1675) are excluded **by present use** — entrance end and kitchen — not by structure. A zoning change re-opens them.
 - `R8`/`R9` (1490) are excluded **by `DI-007`**, a design decision, not by geometry.
-- `G7`/`G8` (3250 each) are block, and `PAR-BED-SUBSTRATE` **explicitly permits** non-concrete support via chemical anchors or a floor-bearing frame. **So the middle bay is not prohibited.** The earlier claim that it "cannot host a wall bed at all" was false; it is *unattractive* — the frame eats floor depth, and `DI-007` wants that wall for a desk.
+- `G7`/`G8` (3250 each) are block, and `PAR-BED-SUBSTRATE` **explicitly permits** non-concrete support via chemical anchors or a floor-bearing frame. **So the middle bay is not prohibited.** The earlier claim that it "cannot host a wall bed at all" was false; it is *less attractive* — the frame eats floor depth, and `DI-007` wants the window wall for a desk.
+
+> [!IMPORTANT]
+> **⚠️⚠️ AND I APPLIED ADULT BED WIDTHS TO A CHILDREN'S ROOM, WHICH IS THE PLAINEST ERROR ON THIS PAGE.** The middle bay is the children's room — both children now, the daughter later. **Children use single beds.** A 900 mm wall-bed cabinet is roughly 1000–1040 external and a 1200 mm one roughly 1300–1340 (trade figures, not vault-sourced). **Both sit comfortably inside `R8`/`R9`'s 1490 mm clear**, with room to spare even after tolerance and plaster.
+>
+> So `R8`/`R9` are not merely "unresolved for 1400" — they are **comfortable for a child's wall bed**, and the only thing standing against them is `DI-007`, which is the owner's daylight rule and reversible by him. That is a genuinely different situation from the one this page described.
 
 ### 3.2 Bed width
 
 **Proven:** an 1800 mattress cannot fit `R6`/`R7` — it misses 1750 by 50 mm before any cabinet is counted.
 
-**Not proven:** that 1600 fits. `design_envelopes.csv` says it correctly and the earlier version of this page contradicted its own canonical record: **the cabinet is the object that must fit, not the mattress**, and its external width is a manufacturer figure nobody has. 1600 remains conditional on cabinet width, fitting clearance and open-bed clearance.
+**⚠️⚠️ AND 1600 NOW LOOKS DOUBTFUL TOO, WHICH REVERSES THE WORKING ASSUMPTION.** The cabinet is the object that must fit, and the clear span is not all available:
 
-### 3.3 `G7` and `G8` are two coupled variables — not one decision
+```
+R6/R7 clear                                    1750
+less build tolerance, AGENTS.md ±50             -50  →  1700
+less plaster on the perpendicular façade wall   -20  →  1680 usable
+```
 
-Two divider coordinates with a fixed total give **two degrees of freedom**, not one. And `R8`/`R9` fix the façade-side boundaries of the middle bay, so **moving `G7` or `G8` changes only the deeper portion** unless a jog is introduced. The earlier claim that either "re-proportions an entire façade bay" was wrong.
+A 1600 wall-bed cabinet is **typically 1690–1740 mm external** — a trade figure, **not vault-sourced**, and it must be replaced by a manufacturer's number before anyone relies on it. But the direction is unambiguous: **1600 on `R6`/`R7` is marginal at best and may not fit at all.**
+
+⚠️ Both columns form an internal corner with masonry at their south end — `R6` meets `MA` at y 9350.3, `R7` meets `MC` at y 8530.6 — so the plaster deduction is real, not hypothetical.
+
+⚠️ **And a living-room wall bed is often a `шкаф-кровать-диван`**, whose armrests routinely push the assembly past 1800. If the `R7` unit is to include a sofa, it is very unlikely to fit at all.
+
+### 3.3 ⚠️⚠️ `G7` and `G8` are PINNED to the structural grid — they are barely free at all
+
+The first version called them *"close to the only real freedom in the plan."* **Both are structural infill locked between 250 mm concrete columns, flush on both ends:**
+
+| divider | x | south end | north end |
+| :--- | :--- | :--- | :--- |
+| `G8` | 6056.0 … 6131.0 | meets `R8` (5881…6131) — **east faces flush at 6131** | meets `R4` (6056…6306) — **west faces flush at 6056** |
+| `G7` | 9131.0 … 9206.0 | meets `R9` (9131…9381) — **west faces flush at 9131** | meets `R5` (9131…9381) — **west faces flush at 9131** |
+
+⚠️ `G8` is pinned to *two different faces*, 75 mm apart — exactly its own thickness. **Moving either divider off its axis detaches it from the columns and leaves 250 mm of concrete projecting into a room as a raw pier**, and on the `G8` side it also eats into `O2`'s 600 mm window jamb.
+
+> **So the honest count of degrees of freedom in the bay widths is close to zero, not one and not two.** Both my claim and the weaker "two coupled variables" reading were too generous. The bays are what the structural grid says they are.
 
 ---
 
@@ -112,5 +145,7 @@ Two divider coordinates with a fixed total give **two degrees of freedom**, not 
 The accurate statement is narrower and still useful:
 
 > **The Phase-2 differences between `SC-A` and `SC-B` are confined to the two outer bays.** The middle bay's *Phase-2* role does not branch. Its *Phase-1 to Phase-2* change still does.
+
+⚠️⚠️ **And the living/kitchen zone has THREE states, not two** — `SC-NOW` open with no bedroom function, `SC-A` with adults behind the partition, `SC-B` with a schoolboy who needs a desk at the window. It also carries the kitchen's dedicated high-load circuits, the partition track, multi-zone lighting either side of it, the wall-bed power and media, and the `P1`/`P2` plumbing. **Treating the three bays as equal thirds was wrong in the other direction too: this zone is the larger part of the first-fix problem, not a third of it.**
 
 ⚠️ **And a related record was wrong:** `SC-NOW` had the small bedroom `unassigned`, contradicting `Family_Requirements.md` — in Phase 1 **the adults occupy it**, the living zone has no bedroom function at all, and the wall bed is installed now for activation in 3–4 years. Corrected 2026-09-18.
