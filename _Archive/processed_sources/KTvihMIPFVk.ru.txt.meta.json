@@ -1,0 +1,13 @@
+{
+  "video_id": "KTvihMIPFVk",
+  "url": "https://www.youtube.com/watch?v=KTvihMIPFVk",
+  "title": "Нейросеть нарисовала мне кухню в SketchUp. 3 способа",
+  "channel": "Степан Огурцов",
+  "upload_date": "20260917",
+  "language": "ru",
+  "sha256": "8b14f6274a806683df2928d006585671b88a625ed91d6f66b8f07f5d086b86da",
+  "bytes": 19441,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs ru, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}

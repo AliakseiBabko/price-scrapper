@@ -1,0 +1,13 @@
+{
+  "video_id": "xfCF6mTHGnM",
+  "url": "https://www.youtube.com/watch?v=xfCF6mTHGnM",
+  "title": "Перебрал 5 планировок хрущёвки. Какая из них лучше?",
+  "channel": "Степан Огурцов",
+  "upload_date": "20260907",
+  "language": "ru",
+  "sha256": "5f4a492c00d9baa9ead67a572f7bee90b8fac79db34b49e308a9c6222c494c5f",
+  "bytes": 31406,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs ru, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}
