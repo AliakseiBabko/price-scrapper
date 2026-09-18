@@ -233,6 +233,30 @@ Three owner decisions, given in answer to research questions, and they settle th
 
 **⚠️ Net effect: no further external research is needed on the money-and-people side.** All three questions that were open are closed by owner decision, and what remains is building.
 
+## ⚠️⚠️ APPARATUS vs DELIVERABLE — read this before reading the commit log
+
+**Standing rule 10 requires these to be tracked separately, and 2026-09-18/19 is the
+clearest case yet of why.** Those two days produced a long run of green commits and
+**not one new design decision**. Anyone skimming the log would misread it as progress
+on the flat.
+
+| | |
+| :--- | :--- |
+| **Apparatus — advanced** | A wall-elevation renderer (развёртки). A texture route proven at exact physical scale with no UV maps. The EEVEE probe-volume defect found and fixed. Derived views made provenance-bearing, with a gate that fails when the IFC changes. `build_variant.py` and `make_variant.py` retired to tombstones. The retired schematic and the v1 outputs quarantined. The wall manifest contract made coherent: 25 legs → 24 physical → 23 direct + 1 assembly. |
+| **Deliverable — UNCHANGED** | No layout option authored. No variant built or chosen. No room laid out. `v0-existing` is the same building it was on 2026-09-17. |
+
+> **The model is safer; the flat is not further designed.** That is the correct outcome
+> of apparatus work and not a shortfall — but it must not be banked as design progress.
+
+⚠️ **The replacement variant compiler is deliberately unbuilt.** It should be triggered
+by the first genuinely authored model-native option, **not built speculatively**. Until
+then `data/outputs/variants/v2-model-native/UNBUILT.json` is the honest state, and the
+gate enforces that the honesty is declared rather than inferred.
+
+**What actually moves the deliverable forward is owner input, not more tooling** — see
+the open items below, and in particular the wall-bed cabinet width, the O4a window /
+radiator decision, and v0 baseline acceptance.
+
 ## ⚠️ Open items
 
 Real, scoped work that is **not** done. None of these are trivial.
