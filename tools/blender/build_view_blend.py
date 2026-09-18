@@ -81,8 +81,17 @@ def main() -> int:
     drop_classes = {rest[i + 1] for i, a in enumerate(rest) if a == "--drop-class"}
     drop_names = [rest[i + 1].lower() for i, a in enumerate(rest) if a == "--drop-name"]
 
+    # ⚠ THE FRESHNESS STAMP - see tools/layout/check_view_freshness.py. A view
+    # that does not record which bytes it came from cannot be checked by
+    # anything, which is how an 18-wall GLB sat beside a 24-wall IFC for two days.
+    import hashlib as _hl
+    _h = _hl.sha256()
+    with open(ifc_path, "rb") as _fh:
+        for _c in iter(lambda: _fh.read(65536), b""):
+            _h.update(_c)
     report: dict = {
         "ifc": str(ifc_path),
+        "ifc_sha256": _h.hexdigest(),
         "blend": str(out_blend),
         "drop_classes": sorted(drop_classes),
         "drop_names": drop_names,
