@@ -1,6 +1,6 @@
 ---
 name: apartment-layout-modelling
-description: "Turn a described layout change into a built model and every drawing of it, for ZK Dubravinskiy. Holds this flat's non-negotiable facts (which plan is authoritative, clear-vs-gross areas, the ±25 mm tolerance, the services that may never move), the variant patch format and its operation vocabulary, the one-command build chain, and the viewing toolchain. Use whenever a layout option is proposed, compared, modelled, drawn, or rendered - and before quoting any dimension or area of this apartment."
+description: "Turn a described layout change into a built model and every drawing of it, for ZK Dubravinskiy. Holds this flat's non-negotiable facts (which plan is authoritative, clear-vs-gross areas, the ±50 mm tolerance, the services that may never move), the variant patch format and its operation vocabulary, the one-command build chain, and the viewing toolchain. Use whenever a layout option is proposed, compared, modelled, drawn, or rendered - and before quoting any dimension or area of this apartment."
 ---
 
 # Apartment layout modelling — ZK Dubravinskiy
@@ -32,7 +32,7 @@ consistent:
 | `fllor_plan_detailed.jpeg` | 3Б/3+ | 69.09 | 1.24 | 9.79 | **yes — the only dimensioned source** |
 | `floor_plan_basic.jpg` | 3Б/2+ | 69.44 | 1.42 | 9.97 | no — **this is the image traced in Homestyler** |
 
-The 0.35 m² spread sits inside the ±25 mm band, so it changes no layout
+The 0.35 m² spread sits inside the ±50 mm band, so it changes no layout
 decision — but **no single area figure here is exact**, and any quoted area
 should say which drawing it came from.
 
@@ -323,7 +323,7 @@ Every sheet carries: a title block naming the project, the option and its
 status; numbered room labels keyed to an **ЭКСПЛИКАЦИЯ / ROOM SCHEDULE** with a
 total; wet-zone fill; walls coloured **by phase** with a legend; a scale bar;
 and an **ИСТОЧНИК / PROVENANCE** block stating the option chain, the model file,
-±25 mm and "not field verified".
+±50 mm and "not field verified".
 
 Room labels print the **schedule's area**, never the bounding box — the box is
 recovered geometry and approximate, the area is the source's own figure.
@@ -380,7 +380,7 @@ Full detail: `00_Master/How_To_View_Outputs.md`.
 - `current_apartment_base.json` is the old photo-derived geometry and still
   **fails** `--strict` (2 duplicate walls, 10.9% double-counted). Nothing should
   build on it; it stays only as provenance.
-- The ±25 mm band is documented but not yet applied inside the rule checks.
+- The ±50 mm band is documented but not yet applied inside the rule checks.
 - **Room boxes overlap walls on the sheet** in places, because room extents are
   approximate (see above). It is cosmetic but visible, and it is the honest
   signature of geometry recovered rather than drawn.
