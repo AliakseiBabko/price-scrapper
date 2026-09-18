@@ -44,6 +44,30 @@ def main() -> int:
                 result["decision"] = "Blender/Bonsai pair verified for PoC use; production authoring still requires IFC and drawing review gates."
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
+
+    # ⚠⚠ THIS SCRIPT SAVES A model.blend, AND ITS OWN REPORT IS AN ENVIRONMENT
+    # PROBE, NOT A VIEW RECORD. So the .blend it wrote carried NO provenance at
+    # all - nothing said which IFC it came from, and no gate could ever check it.
+    # That is worse than a stale view, which at least declares its source. The
+    # environment report stays what it is; a separate provenance record goes
+    # beside the artefact for tools/layout/check_view_freshness.py to read.
+    if args.ifc and args.blend_output and args.blend_output.exists():
+        import hashlib
+        h = hashlib.sha256()
+        with open(args.ifc, "rb") as fh:
+            for chunk in iter(lambda: fh.read(65536), b""):
+                h.update(chunk)
+        prov = {
+            "ifc": str(args.ifc),
+            "ifc_sha256": h.hexdigest(),
+            "blend": str(args.blend_output),
+            "written_by": "tools/blender/verify_environment.py",
+            "note": ("provenance only. The environment probe lives in the file "
+                     "named by --output and is deliberately NOT this."),
+        }
+        (args.blend_output.parent / "model_blend.json").write_text(
+            json.dumps(prov, indent=2) + "\n", encoding="utf-8")
+
     print(json.dumps(result, indent=2))
     return 0
 

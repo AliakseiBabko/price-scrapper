@@ -159,7 +159,29 @@ def main() -> int:
     site = Path(args[3]) if len(args) > 3 and args[3] else None
     paint = not (len(args) > 4 and args[4] == "--no-paint")
 
-    report: dict = {"ifc": str(ifc_path), "glb": str(out_glb)}
+    # ⚠⚠ THE FRESHNESS STAMP. Both review engines found the same defect on
+    # 2026-09-18: the committed GLB painted 18 walls while the IFC beside it
+    # carried 24, exported a day and a half earlier, and `walk_viewer.html`
+    # loaded it with nothing checking. A derived view that cannot say WHICH
+    # model it came from is the "persuasive visualization becoming a second,
+    # weaker model" risk in its simplest form. So every export records the exact
+    # bytes it was built from, and `check_view_freshness.py` can fail on it.
+    import hashlib
+    _h = hashlib.sha256()
+    with open(ifc_path, "rb") as _fh:
+        for _chunk in iter(lambda: _fh.read(65536), b""):
+            _h.update(_chunk)
+    report: dict = {"ifc": str(ifc_path), "glb": str(out_glb),
+                    "ifc_sha256": _h.hexdigest(),
+                    "exported_at": __import__("datetime").datetime.now().isoformat(
+                        timespec="seconds")}
+    _spec = ifc_path.parent / "spec.json"
+    if _spec.exists():
+        try:
+            report["shell_signature"] = json.loads(
+                _spec.read_text(encoding="utf-8")).get("shell_signature")
+        except Exception:                                    # noqa: BLE001
+            report["shell_signature"] = None
 
     # ORDER MATTERS. `read_factory_settings` resets preferences, which drops the
     # registered extension repository Bonsai lives in - the enable then fails with
