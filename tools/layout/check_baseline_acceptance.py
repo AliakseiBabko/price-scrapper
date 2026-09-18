@@ -68,6 +68,8 @@ REQUIRED_ARTEFACTS = (
 # consume the thing that was accepted.
 VARIANT_SPECS = ("data/outputs/variants/v0-existing/spec.json",)
 
+EXCLUDED_PENDING = "excluded_pending_measurement"
+
 BANNER = ("PROVISIONAL - v0 baseline NOT accepted by the owner. "
           "Not decision-bearing.")
 
@@ -109,10 +111,46 @@ def decision_bearing(record=None, variant_specs=None):
         reasons.append("the record has no scope(s) %s - a scope that is absent "
                        "has not been accepted, it has been forgotten"
                        % ", ".join(missing))
+    # ⚠️⚠️ A DEADLOCK I BUILT, FOUND 2026-09-19 WHEN THE OWNER ASKED TO ACCEPT.
+    # This demanded every scope be exactly `accepted`, while
+    # `ventilation_shaft_v1_footprint` is recorded as CANNOT BE ACCEPTED TODAY -
+    # V1's footprint is unestablished and needs a careful re-measurement. So the
+    # baseline could never become decision-bearing no matter what the owner
+    # said, and splitting the shaft scope in three to avoid holding the rest
+    # hostage achieved nothing, because the whole record was still hostage.
+    #
+    # `excluded_pending_measurement` is the missing third state. It is a
+    # DELIBERATE, TERMINAL exclusion, not an approval: the scope is knowingly
+    # not accepted, and it is only legitimate while an open measurement blocks
+    # that scope's own topic. It follows the disposition pattern already in this
+    # repo - a closed-vocabulary outcome that releases SCOPE without promoting a
+    # physical assertion.
+    #
+    # ⚠️ IT CAN NEVER READ AS ACCEPTED. `accepted_scopes()` reports it
+    # separately, the banner names it, and an excluded scope with no open
+    # measurement behind it is REFUSED - otherwise it degrades into a way of
+    # waving any inconvenient scope through.
     for name in SCOPES:
         state = ((scopes.get(name) or {}).get("state") or "").strip()
-        if state != "accepted":
-            reasons.append("scope %s is %r" % (name, state or "absent"))
+        if state == "accepted":
+            continue
+        if state == EXCLUDED_PENDING:
+            topics = {(m.get("topic") or "").strip()
+                      for m in (record.get("open_measurements") or [])
+                      if (m.get("state") or "").strip() == "open"}
+            claim = ((scopes.get(name) or {}).get("blocked_by") or "").strip()
+            if not claim:
+                reasons.append(
+                    "scope %s is %r but names no `blocked_by` open measurement. "
+                    "An exclusion without a blocking measurement behind it is "
+                    "just a way of waving a scope through." % (name, state))
+            elif claim not in topics:
+                reasons.append(
+                    "scope %s is excluded pending %r, but no OPEN measurement "
+                    "with that topic exists. The exclusion would outlive the "
+                    "reason for it." % (name, claim))
+            continue
+        reasons.append("scope %s is %r" % (name, state or "absent"))
 
     # ⚠️⚠️ THE HASHES ARE RECOMPUTED, NOT TRUSTED. This is the whole point: an
     # artefact regenerated after acceptance must invalidate it, and the only
@@ -189,6 +227,22 @@ def blocked_topics(record=None):
     return out
 
 
+def excluded_scopes(record=None):
+    """Scopes deliberately excluded, with what blocks each.
+
+    ⚠ An ACCEPTED baseline must still DISCLOSE what it does not cover. Without
+    this, "accepted" would read as "all of it was reviewed", and the one scope
+    nobody could review would disappear into the word.
+    """
+    record = load() if record is None else record
+    out = []
+    for name, sc in sorted((record.get("scopes") or {}).items()):
+        if ((sc or {}).get("state") or "").strip() == EXCLUDED_PENDING:
+            out.append("%s - excluded pending %s"
+                       % (name, (sc or {}).get("blocked_by") or "?"))
+    return out
+
+
 def banner(record=None, variant_specs=None):
     """The line a consumer must print when the baseline is not accepted."""
     ok, _reasons = decision_bearing(record, variant_specs)
@@ -204,6 +258,10 @@ def main() -> int:
     ok, reasons = decision_bearing()
     for reason in reasons:
         print("  %s" % reason)
+    for ex in excluded_scopes():
+        print("  EXCLUDED  %s" % ex)
+    for bt in blocked_topics():
+        print("  BLOCKED   %s" % bt)
     if ok:
         print("DECISION-BEARING - the owner has accepted every scope and no "
               "pinned artefact has changed since")

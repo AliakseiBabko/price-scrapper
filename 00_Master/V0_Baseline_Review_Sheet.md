@@ -102,13 +102,42 @@ These are places where the **drawn** length deliberately differs from the **reco
 
 ---
 
-## ⚠⚠ NOT YET READY FOR SIGNATURE
+## ✅ READY FOR SIGNATURE — the structural blocker is cleared (2026-09-19)
 
-**Do not accept this yet.** One blocker is structural and it is not about the drawing:
+**This sheet previously said "do not accept this yet."** The reason was real and is now
+gone:
 
-> **`compare_variants.py` does not consume the geometry being reviewed.** It reads `data/outputs/variants/v0-existing/spec.json`, which carries its own `_retired` warning — **18 walls against 25, no ventilation shafts, a rectangular loggia**, and opening verticals that were invented. Accepting the DXF today would unblock a sheet built from the superseded schematic, which is worse than not accepting at all.
+> ~~`compare_variants.py` does not consume the geometry being reviewed. It reads
+> `v0-existing/spec.json`, which carries its own `_retired` warning — 18 walls against
+> 25, no ventilation shafts, a rectangular loggia.~~
 
-`tools/layout/check_baseline_acceptance.py` now refuses on exactly that, so the mistake cannot be made silently. **The required work is to rebuild `v0-existing/spec.json` from the resolved geometry** — the same compiler the DXF and the IFC come from — after which this sheet becomes signable.
+**Fixed.** `spec.json` is now **schema 2, 25 wall records, 2 shafts, `status: baseline`,
+compiled by `tools/layout/build_variant_spec.py` from `ResolvedGeometry`** — the same
+compiler the DXF and IFC come from. No `_retired` marker. `check_baseline_acceptance.py`
+verifies that the spec the comparison loads is the non-retired one, and a seed asserts
+it. **Accepting today no longer unblocks a sheet built from a superseded schematic.**
+
+## ⚠️⚠️ A DEADLOCK IN THE ACCEPTANCE GATE, FOUND AND FIXED 2026-09-19
+
+Worth stating because it means an earlier version of this sheet was asking for something
+impossible. The gate required **every** scope to read `accepted` — while
+`ventilation_shaft_v1_footprint` is recorded as **cannot be accepted today**. So the
+baseline could never have become decision-bearing, whatever the owner said. Splitting
+the shafts into three scopes so the rest would not be held hostage **achieved nothing,
+because the record as a whole was still hostage.**
+
+There is now a third scope state, `excluded_pending_measurement`:
+
+- it is a **deliberate terminal exclusion, never an approval**
+- it is **disclosed separately** — an accepted baseline still prints
+  `EXCLUDED ventilation_shaft_v1_footprint`, so "accepted" can never quietly mean "all
+  of it was reviewed"
+- it is **only legal while the `v1_footprint` open measurement stays open**, and four
+  seeds refuse it without a blocker, with a resolved blocker, or applied to an arbitrary
+  scope
+
+`ventilation_shaft_v1_footprint` now carries that state. **You are not being asked to
+accept it, and you cannot.**
 
 ### The scopes, and why the shafts are split into three
 

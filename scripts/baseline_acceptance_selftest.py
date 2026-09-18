@@ -67,6 +67,50 @@ def main() -> int:
 
     ok, reasons = decision_bearing(accepted, LIVE)
     check("a fully accepted record IS decision-bearing", ok, reasons[:1] or "clean")
+
+    # ── THE THIRD SCOPE STATE, added 2026-09-19 ──────────────────────────────
+    # ⚠⚠ It exists because the gate DEADLOCKED: it demanded every scope be
+    # `accepted` while ventilation_shaft_v1_footprint is recorded as CANNOT BE
+    # ACCEPTED TODAY, so the baseline could never become decision-bearing no
+    # matter what the owner said. `excluded_pending_measurement` is a deliberate
+    # terminal exclusion - and it must not become a way of waving a scope
+    # through, which is what these four seeds guard.
+    from check_baseline_acceptance import EXCLUDED_PENDING, excluded_scopes
+
+    excl = copy.deepcopy(accepted)
+    excl["scopes"]["ventilation_shaft_v1_footprint"] = {
+        "state": EXCLUDED_PENDING, "accepted_on": None,
+        "blocked_by": "v1_footprint", "notes": "seed"}
+    ok, reasons = decision_bearing(excl, LIVE)
+    check("a scope EXCLUDED pending a real open measurement is allowed", ok,
+          reasons[:1] or "clean")
+    check("...and the exclusion is DISCLOSED, not absorbed into 'accepted'",
+          any("v1_footprint" in e for e in excluded_scopes(excl)),
+          excluded_scopes(excl))
+
+    # no `blocked_by` at all - an exclusion with no reason behind it
+    naked = copy.deepcopy(excl)
+    naked["scopes"]["ventilation_shaft_v1_footprint"].pop("blocked_by")
+    ok, reasons = decision_bearing(naked, LIVE)
+    check("an exclusion naming NO open measurement is refused", not ok,
+          reasons[:1] or "ACCEPTED")
+
+    # names a measurement that is not open - the exclusion outliving its reason
+    stale = copy.deepcopy(excl)
+    stale["open_measurements"] = [dict(m, state="resolved")
+                                  for m in (excl.get("open_measurements") or [])]
+    ok, reasons = decision_bearing(stale, LIVE)
+    check("an exclusion whose measurement is RESOLVED is refused", not ok,
+          reasons[:1] or "ACCEPTED")
+
+    # ⚠ and it must not be usable on a scope with no blocker whatsoever
+    abuse = copy.deepcopy(accepted)
+    abuse["scopes"]["wall_and_opening_arrangement"] = {
+        "state": EXCLUDED_PENDING, "accepted_on": None,
+        "blocked_by": "nothing_that_exists", "notes": "seed"}
+    ok, reasons = decision_bearing(abuse, LIVE)
+    check("excluding an arbitrary scope with a bogus blocker is refused", not ok,
+          reasons[:1] or "ACCEPTED")
     check("...and its banner is empty",
           banner(accepted, LIVE) is None, "no banner")
 
