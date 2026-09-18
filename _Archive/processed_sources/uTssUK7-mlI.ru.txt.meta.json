@@ -1,0 +1,13 @@
+{
+  "video_id": "uTssUK7-mlI",
+  "url": "https://www.youtube.com/watch?v=uTssUK7-mlI",
+  "title": "Перебрал 7 планировок панельной двушки. Какая идеальна?",
+  "channel": "Степан Огурцов",
+  "upload_date": "20260908",
+  "language": "ru",
+  "sha256": "2d7bdc33000e960605b9e3380a03f2d2e0ac9f3562049b25e9cce97205b75b27",
+  "bytes": 50627,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs ru, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}

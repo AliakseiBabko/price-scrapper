@@ -1,0 +1,13 @@
+{
+  "video_id": "CVa-dNIkel8",
+  "url": "https://www.youtube.com/watch?v=CVa-dNIkel8",
+  "title": "From SketchUp to Blender: Where is the Tape Measure tool or Guides?",
+  "channel": "Expose Academy",
+  "upload_date": "20250928",
+  "language": "en",
+  "sha256": "ef06d3c8adcef8fe090603b3eadbbb97fae65c221e5755a24c8409081f9647f0",
+  "bytes": 6945,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs en, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}

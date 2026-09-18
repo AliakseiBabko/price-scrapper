@@ -1,0 +1,13 @@
+{
+  "video_id": "6dfSakWnqcY",
+  "url": "https://www.youtube.com/watch?v=6dfSakWnqcY",
+  "title": "Can Blender Compete with Max & SketchUp in ArchViz",
+  "channel": "inspirationTuts CAD",
+  "upload_date": "20260103",
+  "language": "en",
+  "sha256": "f808b7a5971e78070be3e4c8a910e95d841eaf15f3fdf1927275a391557f6a86",
+  "bytes": 5688,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs en, vtt stripped",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}
