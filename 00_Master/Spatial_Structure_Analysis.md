@@ -30,7 +30,13 @@ Three windows and the лоджия glazing, every one on the **south** façade, 
 | `O9` лоджия glazing | `M2 → M6b` | 3130.9 … 6022.1 | 2891 |
 
 > [!WARNING]
-> **⚠️ THE COMPILED WIDTH AND THE MEASURED WIDTH DISAGREE, and a fit calculation must know which it is using.** The compiler places `O2` and `O3` at **1800** — the developer plan's figure. `wall_openings.csv` records **1760** and **1763**, *measured by the owner on a very similar flat*. **Use 1760 for any fit** (a desk at the window, a blind, a curtain track): it is the smaller and the measured one, and the developer plan is known to read 1.0–1.9% larger than every as-built comparable.
+> **⚠️ THE COMPILED WIDTH AND THE MEASURED WIDTH DISAGREE, and a consumer must know which it is using.** The compiler places `O2` and `O3` at **1800** — the developer plan's figure. `wall_openings.csv` records **1760** and **1763**.
+>
+> ⚠️⚠️ **THOSE MEASUREMENTS ARE FROM COMPARABLE FLATS, NOT THIS ONE.** An earlier version said *"use 1760 for any fit"*, which was too broad — it promoted another flat's measurement into this flat's dimension. Correctly:
+>
+> - **1800 stays the planned nominal.**
+> - **1760 is a conservative design allowance**, useful because the developer plan reads 1.0–1.9% larger than every as-built comparable.
+> - **Anything fabricated to the opening — a blind, a curtain track, a fitted worktop — needs THIS FLAT measured.** Neither figure is good enough for that.
 >
 > ⚠️ `O2` also leaves exactly **two 600 mm masonry piers** either side — 6131…6731 and 8531…9131 — at the 1800 figure. At 1760 they are 620.
 
@@ -90,7 +96,9 @@ What layer 1 *does* contribute: because there is only one depth axis, `DI-008` i
 > [!IMPORTANT]
 > **⚠️⚠️ AND I APPLIED ADULT BED WIDTHS TO A CHILDREN'S ROOM, WHICH IS THE PLAINEST ERROR ON THIS PAGE.** The middle bay is the children's room — both children now, the daughter later. **Children use single beds.** A 900 mm wall-bed cabinet is roughly 1000–1040 external and a 1200 mm one roughly 1300–1340 (trade figures, not vault-sourced). **Both sit comfortably inside `R8`/`R9`'s 1490 mm clear**, with room to spare even after tolerance and plaster.
 >
-> So `R8`/`R9` are not merely "unresolved for 1400" — they are **comfortable for a child's wall bed**, and the only thing standing against them is `DI-007`, which is the owner's daylight rule and reversible by him. That is a genuinely different situation from the one this page described.
+> So `R8`/`R9` are not merely "unresolved for 1400": on **wall length** they are credible candidates for a child's wall bed, which is a genuinely different situation from the one this page described.
+>
+> ⚠️ **But "comfortable" was still too strong, and an earlier version said it.** Those cabinet ranges are unsourced trade rules of thumb. What is established is **wall-length compatibility**; full feasibility still needs the manufacturer's width, the cabinet depth against the room, circulation, and whatever else wants that wall. `DI-007` is the only *policy* exclusion on the table — it is not necessarily the only remaining *feasibility* check.
 
 ### 3.2 Bed width
 
@@ -104,13 +112,17 @@ less build tolerance, AGENTS.md ±50             -50  →  1700
 less plaster on the perpendicular façade wall   -20  →  1680 usable
 ```
 
-A 1600 wall-bed cabinet is **typically 1690–1740 mm external** — a trade figure, **not vault-sourced**, and it must be replaced by a manufacturer's number before anyone relies on it. But the direction is unambiguous: **1600 on `R6`/`R7` is marginal at best and may not fit at all.**
+A 1600 wall-bed cabinet is **typically 1690–1740 mm external** — a trade figure, **not vault-sourced**, and it must be replaced by a manufacturer's number before anyone relies on it.
+
+> **⚠️ THE DEFENSIBLE VERDICT IS NARROWER THAN "MAY NOT FIT AT ALL", WHICH IS WHAT AN EARLIER VERSION SAID.** The 1680 figure is a *conservative design envelope*, not a measurement: the ±50 is **uncertainty**, not 50 mm known to be lost. The plaster deduction is real; the tolerance may or may not land against us. So:
+>
+> **1600 CANNOT BE RELIED UPON at `R6`/`R7`, and a sofa version is especially unlikely to fit.** It is unresolved — not proven impossible. A specific cabinet's external width and fitting clearance settles it either way.
 
 ⚠️ Both columns form an internal corner with masonry at their south end — `R6` meets `MA` at y 9350.3, `R7` meets `MC` at y 8530.6 — so the plaster deduction is real, not hypothetical.
 
 ⚠️ **And a living-room wall bed is often a `шкаф-кровать-диван`**, whose armrests routinely push the assembly past 1800. If the `R7` unit is to include a sofa, it is very unlikely to fit at all.
 
-### 3.3 ⚠️⚠️ `G7` and `G8` are PINNED to the structural grid — they are barely free at all
+### 3.3 `G7` and `G8` are grid-aligned partitions with a HIGH RELOCATION PENALTY
 
 The first version called them *"close to the only real freedom in the plan."* **Both are structural infill locked between 250 mm concrete columns, flush on both ends:**
 
@@ -121,7 +133,9 @@ The first version called them *"close to the only real freedom in the plan."* **
 
 ⚠️ `G8` is pinned to *two different faces*, 75 mm apart — exactly its own thickness. **Moving either divider off its axis detaches it from the columns and leaves 250 mm of concrete projecting into a room as a raw pier**, and on the `G8` side it also eats into `O2`'s 600 mm window jamb.
 
-> **So the honest count of degrees of freedom in the bay widths is close to zero, not one and not two.** Both my claim and the weaker "two coupled variables" reading were too generous. The bays are what the structural grid says they are.
+> **⚠️ THE DEGREE OF FREEDOM IS NOT REMOVED — IT IS EXPENSIVE.** An earlier version called these "PINNED", which was an over-correction in the opposite direction from "the only real freedom in the plan", and it contradicted the owner's own `DI-006`: *"even the room dividers… most likely we're not going to destroy them completely, probably move just a little bit."* **That is his authority to give, and calling the dividers immovable overrides it.**
+>
+> The accurate statement: **moving `G7` or `G8` costs the flush column junction and creates a pier or a jog that must be deliberately resolved**, and on the `G8` side it also eats into `O2`'s window jamb. A real consequence, and a reason to move them only on purpose — not a prohibition.
 
 ---
 
