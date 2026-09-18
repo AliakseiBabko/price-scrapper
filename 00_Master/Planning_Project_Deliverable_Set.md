@@ -211,3 +211,46 @@ catalogue may be treated as a dimension** — recorded as
 > **⚠️ A scope data point for planning: his complete, buildable VENTILATION section came to THREE sheets.**
 
 [source: [[_Sources/YT_0c-QhBDQMWE_shemchuk_technical_design_album_series|YT_0c-QhBDQMWE]] (+ZkdKiLQKJIc, oibpAA8OL_Y, vwM08Vu31Gc, bsX-42_S_Uc)]
+
+## ⚠️⚠️ A THIRD observed album — and it is the one the owner has named as his target (lab|remont, added 2026-09-18)
+
+**`_Inbox/_Visual_Drop/Инструкция_по_ремонту_#7317795_Для_портфолио_15.pdf`, 45 pages / 37 sheets.** Technical expert *Олег*, lab|remont; live planner at `labremont.floorplan.tools/planner/oid7317795`.
+
+> **The owner supplied it to say what he wants OUT of this project**: *"I want something closer, the set of drawings… I need something like 2D plan, to inquire for plumbing, for ventilation and so on."* So this is not another comparison album — **it is the specification for our own output.**
+
+### The full sheet list, as observed
+
+| | sheet | | sheet |
+| ---: | :--- | ---: | :--- |
+| 1 | Этапы работ | 20 | Электропроводка |
+| 2 | Исходный план | 21 | Напольные покрытия |
+| 3 | Демонтаж | 22 | Отделка стен |
+| 4 | Перегородки | 23 | Потолки |
+| 5 | Помещения | 24 | Гидроизоляция |
+| 6 | Окна, откосы, подоконники | 25 | Штукатурка |
+| 7 | Радиаторы | 26 | Стяжка |
+| 8 | Мебель | 27 | Развертки стен (index) |
+| 9 | Сантехника | 28–29 | Развертки — Кухня-гостиная (1–6) |
+| 10 | Водоснабжение | 30 | Развертки — Детская (1–11) |
+| 11 | **Штатная электрика от застройщика** | 31 | Развертки — Спальня (1–6) |
+| 12 | Розетки | 32 | Развертки — Прихожая-коридор (1–6) |
+| 13 | Освещение | 33 | Развертки — Кабинет (1–4) |
+| 14 | Выключатели | 34 | Развертки — СУ 2 (1–6) |
+| 15 | Теплые полы | 35 | Развертки — Гардеробная (1–4) |
+| 16 | Кондиционеры | 36 | Развертки — СУ 1 (1–6) |
+| 17 | Электрощиток | 37 | Развертки — Помещение без названия (1–4) |
+| 18 | Безопасность (датчики протечки) | | |
+| 19 | Вентиляция | | |
+
+### ⚠️ What it settles, and what it validates in work already done
+
+- **`Лист 11` is «ШТАТНАЯ ЭЛЕКТРИКА ОТ ЗАСТРОЙЩИКА» — the developer's as-supplied electrics, as its own sheet.** That is precisely what `electrical_existing.csv` and the services-observed capture have been building, and **this album confirms it is a deliverable in its own right, not merely an input.** The migration apparatus was right to treat the existing sweep as first-class.
+- **Sockets, lighting and switches are THREE SEPARATE SHEETS** (12, 13, 14), not one electrical sheet. Our services model already separates outlets from luminaires from switches; this says the *drawings* must stay separated too.
+- **The set is ordered by TRADE SEQUENCE, not by discipline grouping** — demolition, partitions, then rooms, then services, then finishes, then elevations — and it opens with `Этапы работ`, a work-stages sheet. That matches the «initial state → final state → the path between» structure already recorded from Шемчук.
+- **Развёртки are per room and numbered per wall** — `Детская (1–11)` means eleven wall faces in one room. `room_rollouts.csv` already models exactly this, and `check_room_rollout.py` already checks the loop closes.
+
+### ⚠️ What it has that our 16-sheet planning set does not
+
+`Гидроизоляция`, `Штукатурка`, `Стяжка`, `Теплые полы`, `Кондиционеры`, `Безопасность`, `Электрощиток` and `Электропроводка` are all separate sheets here. **That is the gap between a планировочный проект and the full album the owner is asking for** — and it is roughly a doubling of the sheet count, not a refinement of it.
+
+> **⚠️ SCOPE CONSEQUENCE, STATED PLAINLY:** the owner's stated workflow is *experiment with the layout → settle on two or three preferred variants → place things and engineering systems in the 3D model → produce this set per final variant.* **At 37 sheets, producing this set for three variants is 111 sheets.** The set must therefore be GENERATED from the model, not drawn — which is the architecture already chosen, and this album is the strongest evidence yet that the choice was right.

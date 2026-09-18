@@ -1,0 +1,13 @@
+{
+  "video_id": "BFImll1TqYE",
+  "url": "https://www.youtube.com/watch?v=BFImll1TqYE",
+  "title": "Create 3D Models with AI in Blender (Free Software)",
+  "channel": "The AI Essentials",
+  "upload_date": "20260917",
+  "language": "en",
+  "sha256": "803516a12dc4c21966cbfafd1d38d3bde52276d2f30b4840f765f504d2c781b5",
+  "bytes": 18243,
+  "fetched_at": "2026-09-18",
+  "fetch_method": "yt-dlp 2026.08.19 --write-auto-subs --sub-langs en, vtt stripped to text",
+  "upload_date_confirmed_via": "yt-dlp metadata, run 2026-09-18"
+}
