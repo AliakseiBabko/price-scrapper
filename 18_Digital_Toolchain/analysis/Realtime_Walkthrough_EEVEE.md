@@ -16,7 +16,21 @@ And, on the case that is ours:
 
 **A walkthrough is an animation.** So as you turn, walls that leave the frame stop bouncing light and the room gets darker — most visibly in a corridor or a small room where most surfaces are behind the camera.
 
-> **This is not a bug to be tuned away; it is how screen-space tracing works.** It is mitigated by light probes (below), which bake indirect light and therefore do *not* depend on what is in frame. ⚠️ **Demonstrated on Blender 4.2 and not re-tested here on 5.2** — `6iHgqkmYXmc` describes 5.2's EEVEE changes and does not mention it being lifted, so assume it holds.
+> **This is not a bug to be tuned away; it is how screen-space tracing works.** It is mitigated by light probes (below), which bake indirect light and therefore do *not* depend on what is in frame.
+
+> ⚠️⚠️ **CORRECTED 2026-09-18 — the statement above was TOO ABSOLUTE.** Codex, reviewing
+> this page, supplied the re-verification this section deferred. Blender 5.2 offers
+> **probe-based tracing OR screen tracing, and screen tracing FALLS BACK TO PROBES when
+> rays leave the view** — it does not simply lose the light. Baked volume probes capture
+> static diffuse indirect lighting. Source: Blender's own 5.2 ray-tracing and volume-probe
+> documentation, not a practitioner video.
+>
+> **So "only geometry in frame contributes light" is wrong as a flat statement**; what is
+> true is that the *screen-traced* contribution is view-dependent and the *probe* contribution
+> is not. A stable, convincing static walkthrough is therefore realistic — with the real cost
+> being that **every material or layout revision may require a re-bake.** The original text
+> came from a 4.2 demonstration (`Ufw8RQb7Pj4`) and was carried forward on the assumption
+> that silence in the 5.2 changelog meant no change. **That assumption was the defect.**
 
 ## The recipe, from `V0Q3E_63TP4` (Blender 5, 2026-01)
 
@@ -62,7 +76,19 @@ And, on the case that is ours:
 
 ## ⚠️ What this means for the plan
 
-- **The walkthrough is achievable today**, on installed software, with no licence and no new tool.
+- ⚠️⚠️ **"The walkthrough is achievable today" WAS WRONG AND IS WITHDRAWN (2026-09-18).**
+  Codex reproduced why, and the error was a conflation: **the browser viewer and the EEVEE
+  recipe are two different things, and this page treated them as one.**
+  `tools/blender/walk_viewer.html` is a **Three.js GLB viewer — EEVEE is not involved in it
+  at all.** What it shows today has flat colours, **zero textures**, no collision, vertical
+  free flight on Q/E, and it loads a **stale GLB** (18 walls painted against the current
+  IFC's 24, exported a day and a half before it). What is achievable today is a **shell
+  viewer**. The EEVEE walkthrough described above is a real recipe that **nobody has yet
+  run on this model.**
+- **The path is still short**, and that is the honest version of the original claim: the
+  geometry exists and is gated, so what remains is window area-lights, a sun, a probe
+  volume and a bake — plus, before any of it, a **freshness check** so a derived view can
+  never again depict a model that no longer exists.
 - **It is a lighting exercise, not a modelling one.** The geometry already exists and is gated; what is missing is window area-lights, a sun, a probe volume and a bake.
 - **Expect the walkthrough to look worse than a still.** Screen-space GI means turning changes the light. Probes reduce it; they do not remove it.
 - ⚠️ **Do not promise photoreal.** `V0Q3E_63TP4` is explicit that the remaining visible difference from Cycles is *"a trade-off of EEVEE. We are working in real time."* For choosing between layouts, that is more than enough — which is what the лоджия-to-kitchen walk is actually for.
