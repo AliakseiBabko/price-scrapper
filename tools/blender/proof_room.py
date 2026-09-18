@@ -257,6 +257,16 @@ def main():
     do_bake = opts.get("--bake", "yes").lower() not in ("no", "0", "false")
     suffix = opts.get("--suffix", "")
     _SUFFIX[0] = suffix
+    # ⚠⚠ THE GUI-BAKE ROUTE, AND WHY IT IS THE SAME CODE PATH.
+    # A light cache appears not to bake under `blender -b`, so the only way to
+    # test question 1 is to bake ONCE in the GUI. The temptation is to build a
+    # separate scene for that - and a separate scene would make the comparison
+    # worthless, because the control and the test would differ in more than the
+    # bake. So the SAME builder does both: --save-blend writes the scene and
+    # stops, and --open-blend renders the baked file with the SAME cameras,
+    # derived the same way from the compiler.
+    save_blend = opts.get("--save-blend")
+    open_blend = opts.get("--open-blend")
     if not (ifc_path and outdir and texture):
         print("PROOF_FAILED usage: --ifc X --outdir Y --texture Z")
         return 2
@@ -264,7 +274,7 @@ def main():
     if not os.path.isdir(outdir):
         os.makedirs(outdir)
 
-    t_start = time.time()
+    _T0[0] = time.time()
     report = {
         "experiment": "proof room - EEVEE walkthrough + physically scaled texture",
         "question_1": "does an interior walk look acceptable on EEVEE screen-space GI?",
@@ -279,6 +289,19 @@ def main():
 
     report["bonsai"] = enable_bonsai(site)
     report["blender_version"] = bpy.app.version_string
+
+    if open_blend:
+        bpy.ops.wm.open_mainfile(filepath=os.path.abspath(open_blend))
+        report["opened_blend"] = os.path.abspath(open_blend)
+        report["ifc_load"] = "skipped - scene came from the baked .blend"
+        report["probe_bake"] = {"status": "BAKED IN THE GUI, loaded from file",
+                                "seconds": None}
+        probes = [o for o in bpy.data.objects if o.type == "LIGHT_PROBE"]
+        report["light_probes_in_file"] = [o.name for o in probes]
+        if not probes:
+            report["WARNING"] = ("the opened file contains NO light probe, so a "
+                                 "bake cannot have been saved in it")
+        return _render_all(report, outdir, suffix, opts)
 
     for obj in list(bpy.data.objects):
         bpy.data.objects.remove(obj, do_unlink=True)
@@ -383,6 +406,55 @@ def main():
         report["probe_bake"] = {"status": "SKIPPED - this is the control run",
                                 "seconds": 0.0}
 
+    if save_blend:
+        path = os.path.abspath(save_blend)
+        d = os.path.dirname(path)
+        if d and not os.path.isdir(d):
+            os.makedirs(d)
+        # ⚠ Write this run's report under its OWN name. The first version wrote
+        # proof_room_report.json, which CLOBBERED the real headless run's report
+        # with a record that has no renders in it at all - and the measurement
+        # then died on a missing key. A build step must not overwrite a
+        # measurement step's output.
+        _SUFFIX[0] = "_saveblend"
+        bpy.ops.wm.save_as_mainfile(filepath=path)
+        report["saved_blend"] = path
+        report["next_step"] = (
+            "open this file in the Blender GUI, bake the light probe volume, save, "
+            "then re-run with --open-blend to render from it")
+        _write(report, outdir)
+        print("PROOF_SAVED %s" % path)
+        return 0
+
+    return _render_all(report, outdir, suffix, opts)
+
+
+def _render_all(report, outdir, suffix, opts):
+    """The renders, shared by the headless and the GUI-baked routes.
+
+    ⚠ Cameras are rebuilt from the COMPILER here rather than taken from the
+    .blend, so the baked run and the control frame the room identically. If the
+    cameras came from the file, a nudge in the GUI would silently invalidate the
+    comparison.
+    """
+    # The GUI-baked route never ran the setup block, so the import path has to
+    # be established here too.
+    for extra in (os.path.join(REPO, "tools"), os.path.join(REPO, "tools", "layout")):
+        if extra not in sys.path:
+            sys.path.insert(0, extra)
+    import resolve_v0_geometry as R                          # noqa: E402
+    g = R.resolve()
+    W = {w["wall_id"]: w for w in g.walls}
+    ox, oy = g.frame.origin_mm
+    upm = g.frame.units_per_metre
+    x0 = (W["R6"]["face_hi_mm"] - ox) / upm
+    x1 = (W["G8"]["face_lo_mm"] - ox) / upm
+    y0 = (W["MA"]["face_hi_mm"] - oy) / upm
+    y1 = (W["G4d"]["face_lo_mm"] - oy) / upm
+    z1 = 2.5
+    samples = int(opts.get("--samples", "48"))
+    report["eevee"] = set_up_eevee(bpy.context.scene, samples, use_probes=True)
+
     # --- the three renders --------------------------------------------------
     cx, cy = (x0 + x1) / 2.0, (y0 + y1) / 2.0
     renders = {}
@@ -422,13 +494,14 @@ def main():
                              os.path.join(outdir, "away_from_window%s.png" % suffix), 1280, 960),
     }
     report["renders"] = renders
-    report["total_seconds"] = round(time.time() - t_start, 2)
+    report["total_seconds"] = round(time.time() - _T0[0], 2)
     _write(report, outdir)
     print("PROOF_OK %s" % os.path.join(outdir, "proof_room_report%s.json" % _SUFFIX[0]))
     return 0
 
 
 _SUFFIX = [""]
+_T0 = [time.time()]
 
 
 def _write(report, outdir):

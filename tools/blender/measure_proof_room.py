@@ -147,12 +147,21 @@ def main():
     # differ in what they contain, not only in how they are lit, so the number
     # measured framing rather than light. The control is the SAME camera with the
     # probe bake on and off; then the only variable is the thing under test.
-    away_baked = os.path.join(outdir, "away_from_window.png")
+    # Prefer a GUI-baked run when one exists: the headless bake appears not to
+    # produce a usable light cache, so `_guibaked` is the frame that can actually
+    # answer question 1. The control is unchanged either way.
+    gui = os.path.join(outdir, "away_from_window_guibaked.png")
+    away_baked = gui if os.path.exists(gui) else os.path.join(
+        outdir, "away_from_window.png")
     away_ctrl = os.path.join(outdir, "away_from_window_noprobe.png")
     gi = {"what_it_tests": ("whether BAKED PROBES carry indirect light into a view "
                             "with the window behind the camera - the case "
                             "screen-space tracing cannot serve."),
-          "method": "same camera, same samples; probe bake ON vs OFF"}
+          "method": "same camera, same samples; probe bake ON vs OFF",
+          "test_frame": os.path.basename(away_baked),
+          "bake_route": ("GUI bake, rendered headless from the saved .blend"
+                         if os.path.exists(gui) else
+                         "headless bake - SUSPECT, see leading_hypothesis")}
     if os.path.exists(away_ctrl):
         lb, lc = mean_luma(away_baked), mean_luma(away_ctrl)
         gi["away_with_probes_mean_luma"] = lb
