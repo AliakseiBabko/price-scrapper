@@ -110,6 +110,39 @@ cache, render headless *from that file*. That separates *"EEVEE cannot"* from
 | **2** | can an uploaded texture be applied at the right scale? | ✅ **yes, exactly** |
 | **3** | what does a rebuild cost? | ✅ **measured above** |
 
+## The GUI-bake route — how question 1 gets closed
+
+The one step that cannot run headless now has a path, and **it is the same code**, so
+the comparison stays valid.
+
+```
+# 1. build the scene and stop
+blender -b -P tools/blender/proof_room.py -- --save-blend data/outputs/proof_room/bake_me.blend ...
+# 2. OWNER: open it in the GUI, Render Properties -> Bake Light Caches, Ctrl+S
+# 3. render from the baked file
+blender -b -P tools/blender/proof_room.py -- --open-blend data/outputs/proof_room/bake_me.blend --suffix _guibaked ...
+```
+
+⚠️⚠️ **The cameras are rebuilt from the compiler on BOTH routes, never taken from the
+`.blend`.** A separate scene for the baked run would have made the comparison
+worthless — the test and the control would differ in more than the bake. Step-by-step
+instructions sit beside the file at `data/outputs/proof_room/HOW_TO_BAKE.md`
+(untracked: `data/` is gitignored).
+
+`measure_proof_room.py` then prefers `away_from_window_guibaked.png` automatically and
+scores it against the unchanged `_noprobe` control. **≥1.25× means baked indirect light
+reaches a view with the window behind the camera**, which is the specific failure the
+source called a serious problem for animation.
+
+⚠️ **One number will not settle "is the walkthrough good".** It settles that one
+mechanism. Motion, materials and framing remain separate questions.
+
+⚠️ **A fourth defect, caught here:** `--save-blend` first wrote
+`proof_room_report.json` and **clobbered the real measurement run's report** with a
+record containing no renders at all; the measurement then died on a missing key. A
+build step must not overwrite a measurement step's output, and it now writes under
+`_saveblend`.
+
 ## Source Notes
 
 - No prices. Not region-specific.
