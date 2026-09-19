@@ -307,7 +307,7 @@
         "date": "2026-09-19",
         "decision": "Окна/откосы/подоконники and Радиаторы are BOTH out of scope.",
         "owner_words": "for now let's not explore wider window in the 9.36 room. We don't need Радиаторы and Окна, откосы, подоконники",
-        "consequence": "This also closes the O4a window question. No wider window means no reason to move the radiator, which means central heating is not touched, which means the renovation STAYS ON THE NOTIFICATION TRACK under Postanovlenie 164 rather than becoming a designed project with technical conditions and a five-party acceptance.",
+        "consequence": "This also closes the O4a window question. No wider window means no reason to move the radiator, which means central heating is not touched, which means the renovation does not enter the proekt + tekhnicheskie usloviya track under Postanovlenie 164 SS6. !! CORRECTED 2026-09-19: an earlier wording said 'stays on the NOTIFICATION TRACK', which does not exist in Belarusian law - it is a Moscow concept. SS7 is a SOGLASOVANIE/RAZRESHENIE track: a PRIOR permit from the ispolkom, with a pre-work inspection and up to one month to decide. No work may start before it is issued.",
         "what_does_NOT_disappear": "The loggia glazing replacement keeps its own sheet. Reveals and sills fall under Отделка стен and Штукатурка. Radiators stay in Отопление. All those sheets are in_scope."
       }
     ]
