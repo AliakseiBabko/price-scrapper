@@ -5,8 +5,8 @@ E-KL-SOC-K,socket outlets,"кухня zone, corridor wall",3,915-1105,930d (53),
 E-C-LIGHT,ceiling light point,прихожая,1,ceiling,"a82a, a89c (109), 9e9b (2)","A pendant point, present in every corridor photographed - but that is THREE PHOTOS ACROSS TWO FLATS (a82a + a89c are both 109; 9e9b is 2), not three flats. Corrected 2026-09-17."
 E-C-SWITCH,switch boxes,прихожая,2 (a pair),~880,a89c (109),"!! A PAIR of square boxes side by side on the pier beside a doorway, at ~880 mm - switch height, and a pair means two circuits ganged at one point. ±100: derived from floor-to-ceiling on that pier."
 E-C-HIGH,"round boxes, high level",прихожая,2,~2100,a89c (109),"⚠ TWO circular boxes side by side at ~2.1 m. Too high for a socket and too high for a switch. Most likely junction boxes on the lighting circuit, possibly for wall lights. NOT identified - recorded because they exist and would otherwise be plastered over unremarked."
-E-MR-SOC,socket outlets,middle room 16.63,2,low,kids_room_window = b6f0 (53, MIRRORED; corrected 2026-09-17),"Two low-level sockets on the wall opposite the window, plus a ceiling cable at the window end."
-E-MR-LIGHT,ceiling light point,middle room 16.63,1,ceiling,kids_room_window = b6f0 (53, MIRRORED; corrected 2026-09-17),
+E-MR-SOC,socket outlets,middle room 16.63,2,low,"kids_room_window = b6f0 (53, MIRRORED; corrected 2026-09-17)","Two low-level sockets on the wall opposite the window, plus a ceiling cable at the window end."
+E-MR-LIGHT,ceiling light point,middle room 16.63,1,ceiling,"kids_room_window = b6f0 (53, MIRRORED; corrected 2026-09-17)",
 E-SB-SOC,socket outlets,small bedroom 9.36,2,low,"small_bedroom_window = 9db4 (53), bc18 (109)","One on each side wall, low level."
 E-SB-LIGHT,ceiling light point,small bedroom 9.36,1,ceiling,bc18 (109),
 E-WC-BOX,"box, unidentified",туалет,1,~1440,ade6 (53),"⚠ A white square box on the riser wall at ~1.4 m. Could be electrical or the water meters’ pulse output. NOT identified. Height derived from the WC pan rim as the only scale in frame, ±150."
