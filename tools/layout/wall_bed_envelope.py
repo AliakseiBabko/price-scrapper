@@ -100,6 +100,42 @@ def collinear_run(geom, wall_id):
     return run
 
 
+# A vertical wall bed lying open projects roughly its MATTRESS LENGTH from the
+# wall face. 2000 is the standard adult length and is what PAR-BED-* assumes.
+MATTRESS_LENGTH_MM = 2000.0
+
+
+def free_span_perpendicular(geom, wall_id):
+    """How far the room runs away from this wall before the next parallel face.
+
+    ⚠ Only PARALLEL walls can bound this direction. For a NS wall the room runs
+    in x, and an EW wall bounds y, not x - so sweeping every wall would find a
+    perpendicular one and report a nonsense distance.
+
+    ⚠⚠ Measured from the wall's OWN FACE, at its MIDPOINT, and it returns what
+    bounds it. Returning a bare number would be one more figure with no stated
+    terminations, which is what standing rule 9 exists to prevent.
+    """
+    W = {w["wall_id"]: w for w in geom.walls}
+    seed = W[wall_id]
+    mid = (seed["from_mm"] + seed["to_mm"]) / 2.0
+    out = {}
+    for label, face, sign in (("low", seed["face_lo_mm"], -1.0),
+                              ("high", seed["face_hi_mm"], 1.0)):
+        best, who = None, None
+        for w in geom.walls:
+            if w["wall_id"] == wall_id or w["axis"] != seed["axis"]:
+                continue
+            if not (w["from_mm"] - 1.0 <= mid <= w["to_mm"] + 1.0):
+                continue
+            near = w["face_lo_mm"] if sign > 0 else w["face_hi_mm"]
+            gap = (near - face) * sign
+            if gap > 1.0 and (best is None or gap < best):
+                best, who = gap, w["wall_id"]
+        out[label] = {"free_mm": best, "bounded_by": who}
+    return out
+
+
 def clear_mm(blocks, wall_id):
     row = blocks.get(wall_id) or {}
     return finite((row.get("clear_mm") or "nan"))
@@ -196,8 +232,27 @@ def main():
                                     if abs(r["concrete_only_max_mm"]
                                            - best["concrete_only_max_mm"]) < 1))))
     print()
-    print("  ⚠ NOT ANSWERED HERE: whether the room still works with the bed OPEN,")
-    print("    what else wants that wall, and whether a cabinet of this width exists.")
+    print("  OPEN FOOTPRINT - how much floor is left in front of the bed")
+    print("    a vertical wall bed lying open projects about %.0f mm (mattress length)"
+          % MATTRESS_LENGTH_MM)
+    for r in rows:
+        fs = free_span_perpendicular(geom, r["wall"])
+        best = max((v for v in fs.values() if v["free_mm"]),
+                   key=lambda v: v["free_mm"], default=None)
+        if not best:
+            print("    %-5s room side not resolved - skipped" % r["wall"])
+            continue
+        left = best["free_mm"] - MATTRESS_LENGTH_MM
+        print("    %-5s room runs %.1f mm to %s -> %.0f mm left in front with the bed down"
+              % (r["wall"], best["free_mm"], best["bounded_by"], left))
+    print()
+    print("  ⚠⚠ NO PASS/FAIL ON THAT LAST COLUMN. The vault records NO sourced")
+    print("     minimum for a bedroom circulation gap, so there is nothing to")
+    print("     compare against and inventing a figure would be worse than")
+    print("     leaving it open. The residual is reported; judging it is yours.")
+    print()
+    print("  ⚠ STILL NOT ANSWERED: what else wants that wall, and whether a")
+    print("    cabinet of this width actually exists.")
     print("  ⚠ Block fixing is a ROUGH-STAGE decision - chemical anchors or a")
     print("    floor-bearing frame must be specified BEFORE the walls are closed.")
     print()
