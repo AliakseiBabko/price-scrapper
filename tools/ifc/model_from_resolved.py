@@ -806,6 +806,77 @@ def build(output: Path, manifest_path: Path) -> dict:
     n_assemblies = len(manifest.get("assemblies", []))
     replaced = sum(len(a["replaces"]) for a in manifest.get("assemblies", []))
     manifest["walls"] = direct + n_assemblies
+    # ---- ROOMS ------------------------------------------------------------
+    # ⚠⚠ THIS MODEL EMITTED NO IfcSpace AT ALL UNTIL 2026-09-19, and that was
+    # never a regression - the capability had simply never been in this path.
+    # The 8 spaces in the 2026-09-16 artefacts came from
+    # `current_apartment_layout.py`, which built rooms as plain rectangles from a
+    # schedule. Here a room is AUTHORED as the four wall FACES that bound it and
+    # RESOLVED by tools/layout/room_boundaries.py, so no room coordinate is
+    # typed and a room moves when its walls move.
+    #
+    # ⚠ A ROOM THAT IS NOT AUTHORED DOES NOT EXIST. Nothing is defaulted,
+    # inferred or squared off - `room_boundaries.csv` covers 1 of 7 rooms today
+    # and the manifest says so rather than quietly emitting six wrong boxes.
+    sys.path.insert(0, str(REPO / "tools" / "layout"))
+    sys.path.insert(0, str(REPO / "tools" / "drawings"))
+    try:
+        import room_boundaries as RB                         # noqa: E402
+        built_rooms, room_problems = RB.resolve_all(resolved)
+    except Exception as exc:                                 # noqa: BLE001
+        built_rooms, room_problems = {}, ["room boundaries unavailable: %s" % exc]
+
+    space_names = []
+    boundary_counts = {}
+    for rid, b in sorted(built_rooms.items()):
+        obj = polygon_solid(model, body, storey, owner, "IfcSpace",
+                            b["room_ru"] or rid, to_m(b["polygon"]), 0.0, h_m)
+        add_pset(model, obj, "Pset_ApartmentRoom", {
+            "RoomId": rid,
+            "BoundedBy": "|".join("%s:%s" % (k, v)
+                                  for k, v in sorted(b["bounded_by"].items())),
+            "WidthMM": round(b["width_mm"], 1),
+            "DepthMM": round(b["depth_mm"], 1),
+            "Note": ("Bounds are AUTHORED wall faces, resolved by the compiler. "
+                     "The area is computed and is NOT evidence - the linear "
+                     "chain is what closes."),
+        })
+        # ⚠⚠ THE SPACE ALONE IS NOT ENOUGH. `render_room.py` selects a room by
+        # its IfcRelSpaceBoundary, so a space with no boundaries is invisible to
+        # it - emitting the space and stopping would have looked like success
+        # and unblocked nothing. Every element the boundary walk actually found
+        # is related, not just the four face-defining walls.
+        bounding = []
+        for side in b["sides"].values():
+            bounding.extend(side["elements"])
+        for wid in sorted(set(bounding)):
+            target = wall_objects.get(wid)
+            if target is None:
+                continue
+            model.create_entity(
+                "IfcRelSpaceBoundary",
+                GlobalId=ifcopenshell.guid.new(),
+                OwnerHistory=owner,
+                Name="%s:%s" % (rid, wid),
+                RelatingSpace=obj,
+                RelatedBuildingElement=target[0],
+                PhysicalOrVirtualBoundary="PHYSICAL",
+                InternalOrExternalBoundary="INTERNAL")
+        boundary_counts[rid] = len(set(bounding))
+        space_names.append(rid)
+    manifest["space_boundaries"] = boundary_counts
+    manifest["spaces"] = len(space_names)
+    manifest["rooms_authored"] = space_names
+    manifest["rooms_not_authored"] = (
+        "The flat has 7 rooms plus the loggia. Rooms absent from "
+        "data/canonical/room_boundaries.csv are NOT emitted and NOT defaulted.")
+    if room_problems:
+        manifest.setdefault("assumptions", []).append({
+            "element": "rooms",
+            "assumed": "%d room boundary problem(s)" % len(room_problems),
+            "why": "; ".join(room_problems)[:400],
+        })
+
     manifest["wall_census"] = {
         "physical_walls": direct + n_assemblies,
         "calculation_legs": direct + replaced,
