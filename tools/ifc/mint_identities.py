@@ -30,6 +30,11 @@ from identity import REGISTRY, load_registry  # noqa: E402
 
 FIELDS = ["canonical_uuid", "key", "ifc_class", "state", "aliases", "notes"]
 
+
+def _today():
+    import datetime
+    return datetime.date.today().isoformat()
+
 # ⚠️ Property sets and relationships are NOT minted. Their identity is DERIVED
 # - a pset from its owner plus its name, a relationship from its kind plus its
 # endpoints - so a registry row for them would be a second source of truth.
@@ -100,7 +105,12 @@ def main() -> int:
         existing[key] = {
             "canonical_uuid": str(uuid.uuid4()), "key": key,
             "ifc_class": entity.is_a(), "state": "active", "aliases": "",
-            "notes": "minted 2026-09-17 from the first stable-identity build",
+            # ⚠ DATED AT RUN TIME, NOT HARDCODED. This read "minted 2026-09-17
+            # from the first stable-identity build" for every row ever minted, so
+            # an IfcSpace minted on 2026-09-19 claimed a date two days earlier
+            # and a provenance it did not have. A registry is authored data; a
+            # note that is wrong about when a row appeared is worse than no note.
+            "notes": "minted %s" % _today(),
         }
         order.append(key)
         minted += 1
@@ -112,8 +122,9 @@ def main() -> int:
     for key, row in existing.items():
         if key not in present and row.get("state") == "active":
             row["state"] = "retired"
-            row["notes"] = ("retired 2026-09-17: no longer produced. The uuid "
-                            "stays so it is never reused. " + row.get("notes", ""))
+            row["notes"] = ("retired %s: no longer produced. The uuid stays so "
+                            "it is never reused. " % _today()
+                            + row.get("notes", ""))
             retired += 1
 
     with io.open(a.registry, "w", encoding="utf-8", newline="") as fh:

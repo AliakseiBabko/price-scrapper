@@ -87,3 +87,4 @@ cb9d36b8-1010-48fd-b94d-874abf8ff49b,IfcWallType:WALL_AERATED_BLOCK_300_INS70,If
 17dbc948-0d3b-493e-9a55-16cebcba1892,IfcWallType:WALL_AERATED_BLOCK_200_INS150,IfcWallType,retired,,retired 2026-09-17: no longer produced. The uuid stays so it is never reused. minted 2026-09-17 from the first stable-identity build
 1bb23b8c-7c40-4fb8-b9c2-9054dcf32b33,IfcWallType:WALL_AERATED_BLOCK_200_INS120,IfcWallType,active,,minted 2026-09-17 from the first stable-identity build
 bc41c568-43dc-45c3-995c-b2344a276254,IfcCovering:INS_M2,IfcCovering,active,,minted 2026-09-17 from the first stable-identity build
+5a8dac6d-67c3-4251-8607-1a1687be0b21,IfcSpace:жилая 9.36,IfcSpace,active,,"minted 2026-09-19 - the first IfcSpace this compiler ever emitted. !! The note previously read 2026-09-17 because mint_identities.py HARDCODED that date into every row it ever minted; it is dated at run time now."
